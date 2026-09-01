@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evidence Daily / 今日可驗證</title>
+  <meta name="description" content="Daily verifiable data points with full evidence chains. 每日可公開驗證的數據與完整證據鏈。">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-top">
+        <h1 class="site-title">
+          <span data-i18n="title">Evidence Daily</span>
+          <span class="subtitle" data-i18n="subtitle">今日可驗證</span>
+        </h1>
+        <div class="lang-switch">
+          <button id="lang-en" class="lang-btn active" onclick="setLang('en')">EN</button>
+          <button id="lang-zh" class="lang-btn" onclick="setLang('zh')">中文</button>
+        </div>
+      </div>
+      <p class="tagline" data-i18n="tagline">One verifiable fact each day. Sources open. Calculations reproducible.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="today">
+      <h2 data-i18n="today-heading">Today's Evidence</h2>
+      <article id="daily-entry" class="entry">
+        <div class="entry-meta">
+          <time datetime="2026-09-02">2026-09-02</time>
+          <span class="status" data-i18n="status-placeholder">Skeleton ready — first data point coming soon</span>
+        </div>
+        <h3 class="conclusion" data-i18n="placeholder-conclusion">Site structure is now live. Daily verifiable updates will begin shortly.</h3>
+        <div class="data-block">
+          <p data-i18n="placeholder-data">This is the initial skeleton. Real public data with full evidence chain will appear here.</p>
+        </div>
+        <div class="evidence-chain">
+          <h4 data-i18n="evidence-heading">Evidence Chain</h4>
+          <ul>
+            <li data-i18n="placeholder-source">Source: Repository initialization (this site)</li>
+            <li data-i18n="placeholder-method">Method: Manual first commit to establish structure</li>
+            <li data-i18n="placeholder-limit">Limitation: Placeholder content until first automated data pull</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <section class="about">
+      <h2 data-i18n="about-heading">About</h2>
+      <p data-i18n="about-text">Evidence Daily publishes one publicly verifiable data point each day, together with its complete evidence chain. Anyone can re-fetch the same source and reproduce the result. No tracking. No login required.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p data-i18n="footer">Evidence Daily · Open sources · Reproducible results</p>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+</body>
+</html>
