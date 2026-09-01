@@ -7,6 +7,15 @@
   <meta name="description" content="Daily verifiable data points with full evidence chains. 每日可公開驗證的數據與完整證據鏈。">
   <meta name="theme-color" content="#1e40af">
   <link rel="stylesheet" href="style.css">
+  <script>
+    // Apply theme as early as possible to avoid flash
+    (function() {
+      const saved = localStorage.getItem("evidaily-theme");
+      const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      const theme = saved || (prefersDark ? "dark" : "light");
+      document.documentElement.setAttribute("data-theme", theme);
+    })();
+  </script>
 </head>
 <body>
   <header>
@@ -16,9 +25,14 @@
           <span data-i18n="title">Evidence Daily</span>
           <span class="subtitle" data-i18n="subtitle">今日可驗證</span>
         </h1>
-        <div class="lang-switch">
-          <button id="lang-en" class="lang-btn active" onclick="setLang('en')">EN</button>
-          <button id="lang-zh" class="lang-btn" onclick="setLang('zh')">中文</button>
+        <div class="controls">
+          <div class="lang-switch">
+            <button id="lang-en" class="lang-btn active" onclick="setLang('en')">EN</button>
+            <button id="lang-zh" class="lang-btn" onclick="setLang('zh')">中文</button>
+          </div>
+          <button id="theme-toggle" class="theme-btn" onclick="toggleTheme()" title="Toggle light / dark" aria-label="Toggle theme">
+            <span id="theme-icon">☾</span>
+          </button>
         </div>
       </div>
       <p class="tagline" data-i18n="tagline">One verifiable fact each day. Sources open. Calculations reproducible.</p>
@@ -61,5 +75,25 @@
   </footer>
 
   <script src="i18n.js"></script>
+  <script>
+    function updateThemeIcon() {
+      const theme = document.documentElement.getAttribute("data-theme");
+      const icon = document.getElementById("theme-icon");
+      if (icon) {
+        icon.textContent = theme === "dark" ? "☀" : "☾";
+      }
+    }
+
+    function toggleTheme() {
+      const current = document.documentElement.getAttribute("data-theme") || "light";
+      const next = current === "dark" ? "light" : "dark";
+      document.documentElement.setAttribute("data-theme", next);
+      localStorage.setItem("evidaily-theme", next);
+      updateThemeIcon();
+    }
+
+    // Init icon
+    updateThemeIcon();
+  </script>
 </body>
 </html>
