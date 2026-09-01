@@ -8,7 +8,6 @@
   <meta name="theme-color" content="#1e40af">
   <link rel="stylesheet" href="style.css">
   <script>
-    // Apply theme as early as possible to avoid flash
     (function() {
       const saved = localStorage.getItem("evidaily-theme");
       const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
@@ -45,18 +44,29 @@
       <article id="daily-entry" class="entry">
         <div class="entry-meta">
           <time datetime="2026-09-02">2026-09-02</time>
-          <span class="status" data-i18n="status-placeholder">Skeleton ready — first data point coming soon</span>
+          <span class="status" data-i18n="status-live">Live data</span>
         </div>
-        <h3 class="conclusion" data-i18n="placeholder-conclusion">Site structure is now live. Daily verifiable updates will begin shortly.</h3>
+        <h3 class="conclusion" data-i18n="conclusion">A magnitude 5.2 earthquake occurred southeast of Sarangani, Philippines on 1 September 2026.</h3>
+        
         <div class="data-block">
-          <p data-i18n="placeholder-data">This is the initial skeleton. Real public data with full evidence chain will appear here.</p>
+          <p><strong data-i18n="data-title">Key data</strong></p>
+          <ul class="data-list">
+            <li data-i18n="data-mag">Magnitude: 5.2 (mww)</li>
+            <li data-i18n="data-place">Location: 35 km SE of Sarangani, Philippines</li>
+            <li data-i18n="data-time">Origin time: 2026-09-01 13:22:30 UTC</li>
+            <li data-i18n="data-depth">Depth: approximately 121 km</li>
+            <li data-i18n="data-felt">Felt reports: 10 (max intensity ~IV)</li>
+          </ul>
         </div>
+
         <div class="evidence-chain">
           <h4 data-i18n="evidence-heading">Evidence Chain</h4>
           <ul>
-            <li data-i18n="placeholder-source">Source: Repository initialization (this site)</li>
-            <li data-i18n="placeholder-method">Method: Manual first commit to establish structure</li>
-            <li data-i18n="placeholder-limit">Limitation: Placeholder content until first automated data pull</li>
+            <li data-i18n="ev-source">Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000tdbr</li>
+            <li data-i18n="ev-method">Method: Retrieved from the public USGS GeoJSON feed and event detail endpoint. Magnitude type is moment magnitude (mww). Location and depth are from the reviewed origin.</li>
+            <li data-i18n="ev-link">Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdbr</li>
+            <li data-i18n="ev-repro">Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.</li>
+            <li data-i18n="ev-limit">Limitation: Depth and exact hypocenter can be refined in later updates; felt intensity is based on a small number of reports.</li>
           </ul>
         </div>
       </article>
@@ -92,7 +102,6 @@
       updateThemeIcon();
     }
 
-    // Init icon
     updateThemeIcon();
   </script>
 </body>
