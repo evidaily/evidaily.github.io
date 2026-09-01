@@ -259,3 +259,15 @@ footer {
   .header-top { flex-direction: column; }
   .site-title { font-size: 1.35rem; }
 }
+
+/* View counter */
+.view-count {
+  margin: 0.35rem 0 0;
+  font-size: 0.8rem;
+  color: var(--muted);
+  opacity: 0.9;
+}
+.view-count .view-sep {
+  margin: 0 0.35rem;
+  opacity: 0.6;
+}
