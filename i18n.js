@@ -33,8 +33,10 @@ const translations = {
     "kp-repro": "Reproducibility: Both endpoints are public, unauthenticated, and return the same numeric fields used here.",
     "kp-limit": "Limitation: 1-minute estimated Kp is a nowcast, not the final official 3-hour Kp; values can be revised. F10.7 noon value lags by about one UTC day.",
     "about-heading": "About",
-    "about-text": "Evidence Daily publishes one publicly verifiable data point each day, together with its complete evidence chain. Anyone can re-fetch the same source and reproduce the result. No tracking. No login required.",
-    footer: "Evidence Daily · Open sources · Reproducible results"
+    "about-text": "Evidence Daily publishes one publicly verifiable data point each day, together with its complete evidence chain. Anyone can re-fetch the same source and reproduce the result. No login required. Page views are counted with a lightweight public counter.",
+    footer: "Evidence Daily · Open sources · Reproducible results",
+    "views-label": "Views",
+    "visitors-label": "Visitors"
   },
   zh: {
     title: "今日可驗證",
@@ -70,8 +72,10 @@ const translations = {
     "kp-repro": "可重現性：兩個端點皆公開、無需金鑰，回傳欄位與本頁數值一致。",
     "kp-limit": "限制：1 分鐘估計 Kp 屬即時推估，非正式 3 小時 Kp，後續可能修正。F10.7 正午值約落後一個 UTC 日。",
     "about-heading": "關於",
-    "about-text": "「今日可驗證」每天發布一個可公開驗證的數據點，並附上完整證據鏈。任何人都可以重新取得相同來源並重現結果。無追蹤。無需登入。",
-    footer: "今日可驗證 · 開放來源 · 可重現結果"
+    "about-text": "「今日可驗證」每天發布一個可公開驗證的數據點，並附上完整證據鏈。任何人都可以重新取得相同來源並重現結果。無需登入。頁面瀏覽次數由輕量公開計數服務統計。",
+    footer: "今日可驗證 · 開放來源 · 可重現結果",
+    "views-label": "瀏覽",
+    "visitors-label": "訪客"
   }
 };
 
