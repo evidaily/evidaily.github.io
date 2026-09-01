@@ -42,57 +42,18 @@
     <section class="today">
       <h2 data-i18n="today-heading">Today's Evidence</h2>
 
-      <!-- Newest first -->
+      <!-- Newest first: NOAA Kp sample is later than the latest M4.5+ origin time -->
       <article class="entry">
         <div class="entry-meta">
           <time datetime="2026-09-02">2026-09-02</time>
           <span class="status" data-i18n="status-live">Live data</span>
         </div>
-        <h3 class="conclusion" data-i18n="conclusion">A magnitude 5.0 earthquake occurred south-southeast of Isangel, Vanuatu on 1 September 2026.</h3>
+        <h3 class="conclusion" data-i18n="kp-conclusion">Planetary geomagnetic activity remained quiet: latest estimated Kp = 0.00 (below G1 storm threshold).</h3>
 
         <div class="viz">
-          <div class="viz-label" data-i18n="viz-mag">Magnitude scale (0–10). Marker at 5.0</div>
-          <div class="bar-track" title="mb 5.0">
-            <div class="bar-fill" style="width:50%"></div>
-          </div>
-          <div class="scale-row"><span>0</span><span>5</span><span>10</span></div>
-        </div>
-
-        <div class="data-block">
-          <p><strong data-i18n="data-title">Key data</strong></p>
-          <ul class="data-list">
-            <li data-i18n="data-mag">Magnitude: 5.0 (mb)</li>
-            <li data-i18n="data-place">Location: 118 km SSE of Isangel, Vanuatu</li>
-            <li data-i18n="data-time">Origin time: 2026-09-01 18:37:29 UTC</li>
-            <li data-i18n="data-depth">Depth: approximately 122 km</li>
-            <li data-i18n="data-id">Event ID: us7000tdey</li>
-          </ul>
-        </div>
-
-        <div class="evidence-chain">
-          <h4 data-i18n="evidence-heading">Evidence Chain</h4>
-          <ul>
-            <li data-i18n="ev-source">Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000tdey</li>
-            <li data-i18n="ev-method">Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Magnitude type is body-wave magnitude (mb). Location and depth are the feed origin parameters at retrieval time.</li>
-            <li data-i18n="ev-link">Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdey</li>
-            <li data-i18n="ev-feed">Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson</li>
-            <li data-i18n="ev-repro">Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.</li>
-            <li data-i18n="ev-limit">Limitation: mb can differ from later moment-magnitude revisions; depth and hypocenter may be refined.</li>
-          </ul>
-        </div>
-      </article>
-
-      <article class="entry">
-        <div class="entry-meta">
-          <time datetime="2026-09-02">2026-09-02</time>
-          <span class="status" data-i18n="status-secondary">Earlier today</span>
-        </div>
-        <h3 class="conclusion" data-i18n="kp-conclusion">Planetary geomagnetic activity remained quiet: latest estimated Kp ≈ 0.67 (below G1 storm threshold).</h3>
-
-        <div class="viz">
-          <div class="viz-label" data-i18n="viz-kp">Estimated Kp (0–9). Marker at 0.67</div>
+          <div class="viz-label" data-i18n="viz-kp">Estimated Kp (0–9). Marker at 0.00</div>
           <div class="bar-track">
-            <div class="bar-fill" style="width:7.4%"></div>
+            <div class="bar-fill" style="width:0%"></div>
           </div>
           <div class="scale-row"><span>0</span><span>G1=5</span><span>9</span></div>
         </div>
@@ -100,8 +61,8 @@
         <div class="data-block">
           <p><strong data-i18n="kp-data-title">Key data</strong></p>
           <ul class="data-list">
-            <li data-i18n="kp-time">Sample time: 2026-09-01 19:58 UTC</li>
-            <li data-i18n="kp-est">Estimated Kp: 0.67 (label 1M)</li>
+            <li data-i18n="kp-time">Sample time: 2026-09-01 21:11 UTC</li>
+            <li data-i18n="kp-est">Estimated Kp: 0.00 (label 0Z)</li>
             <li data-i18n="kp-max">Max estimated Kp in recent ~3 h window: 1.67</li>
           </ul>
         </div>
@@ -114,6 +75,45 @@
             <li data-i18n="kp-link">Kp JSON: https://services.swpc.noaa.gov/json/planetary_k_index_1m.json</li>
             <li data-i18n="kp-repro">Reproducibility: The endpoint is public, unauthenticated, and returns the same numeric fields used here.</li>
             <li data-i18n="kp-limit">Limitation: 1-minute estimated Kp is a nowcast, not the final official 3-hour Kp; values can be revised. F10.7 noon flux was omitted this cycle because the published series on the public endpoint was stale.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="entry">
+        <div class="entry-meta">
+          <time datetime="2026-09-02">2026-09-02</time>
+          <span class="status" data-i18n="status-secondary">Earlier today</span>
+        </div>
+        <h3 class="conclusion" data-i18n="conclusion">A magnitude 4.6 earthquake occurred east-northeast of Mutsu, Japan on 1 September 2026.</h3>
+
+        <div class="viz">
+          <div class="viz-label" data-i18n="viz-mag">Magnitude scale (0–10). Marker at 4.6</div>
+          <div class="bar-track" title="mb 4.6">
+            <div class="bar-fill" style="width:46%"></div>
+          </div>
+          <div class="scale-row"><span>0</span><span>5</span><span>10</span></div>
+        </div>
+
+        <div class="data-block">
+          <p><strong data-i18n="data-title">Key data</strong></p>
+          <ul class="data-list">
+            <li data-i18n="data-mag">Magnitude: 4.6 (mb)</li>
+            <li data-i18n="data-place">Location: 78 km ENE of Mutsu, Japan</li>
+            <li data-i18n="data-time">Origin time: 2026-09-01 19:21:23 UTC</li>
+            <li data-i18n="data-depth">Depth: approximately 74 km</li>
+            <li data-i18n="data-id">Event ID: us7000tdfa</li>
+          </ul>
+        </div>
+
+        <div class="evidence-chain">
+          <h4 data-i18n="evidence-heading">Evidence Chain</h4>
+          <ul>
+            <li data-i18n="ev-source">Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000tdfa</li>
+            <li data-i18n="ev-method">Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected the newest event in that feed. Magnitude type is body-wave magnitude (mb). Location and depth are the feed origin parameters at retrieval time.</li>
+            <li data-i18n="ev-link">Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdfa</li>
+            <li data-i18n="ev-feed">Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson</li>
+            <li data-i18n="ev-repro">Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.</li>
+            <li data-i18n="ev-limit">Limitation: mb can differ from later moment-magnitude revisions; depth and hypocenter may be refined. The past-day feed is a rolling window, so older events drop off.</li>
           </ul>
         </div>
       </article>
