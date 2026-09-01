@@ -40,20 +40,20 @@
 
   <main class="container">
     <section class="today">
-      <h2 data-i18n="today-heading">Today's Evidence</h2>
+      <h2 data-i18n="today-heading">Recent Evidence</h2>
 
-      <!-- Newest first: NOAA Kp sample is later than the latest M4.5+ origin time -->
-      <article class="entry">
+      <!-- 1. NOAA Kp (newest sample 23:02 UTC) -->
+      <article class="entry" data-entry-id="noaa-kp-1m">
         <div class="entry-meta">
-          <time datetime="2026-09-02">2026-09-02</time>
+          <time datetime="2026-09-01T23:02:00Z">2026-09-01 23:02 UTC</time>
           <span class="status" data-i18n="status-live">Live data</span>
         </div>
-        <h3 class="conclusion" data-i18n="kp-conclusion">Planetary geomagnetic activity remained quiet: latest estimated Kp = 0.00 (below G1 storm threshold).</h3>
+        <h3 class="conclusion" data-i18n="kp-conclusion">Planetary geomagnetic activity remained quiet: latest estimated Kp = 0.67 (below G1 storm threshold).</h3>
 
         <div class="viz">
-          <div class="viz-label" data-i18n="viz-kp">Estimated Kp (0–9). Marker at 0.00</div>
+          <div class="viz-label" data-i18n="viz-kp">Estimated Kp (0–9). Marker at 0.67</div>
           <div class="bar-track">
-            <div class="bar-fill" style="width:0%"></div>
+            <div class="bar-fill" style="width:7.4%"></div>
           </div>
           <div class="scale-row"><span>0</span><span>G1=5</span><span>9</span></div>
         </div>
@@ -61,8 +61,8 @@
         <div class="data-block">
           <p><strong data-i18n="kp-data-title">Key data</strong></p>
           <ul class="data-list">
-            <li data-i18n="kp-time">Sample time: 2026-09-01 22:01 UTC</li>
-            <li data-i18n="kp-est">Estimated Kp: 0.00 (label 0Z)</li>
+            <li data-i18n="kp-time">Sample time: 2026-09-01 23:02 UTC</li>
+            <li data-i18n="kp-est">Estimated Kp: 0.67 (label 1M)</li>
             <li data-i18n="kp-max">Max estimated Kp in recent ~3 h window: 1.67</li>
           </ul>
         </div>
@@ -79,15 +79,56 @@
         </div>
       </article>
 
-      <article class="entry">
+      <!-- 2. New event: Mid-Indian Ridge mb 4.7 -->
+      <article class="entry" data-entry-id="usgs-us7000tdh3">
         <div class="entry-meta">
-          <time datetime="2026-09-02">2026-09-02</time>
-          <span class="status" data-i18n="status-secondary">Earlier today</span>
+          <time datetime="2026-09-01T22:37:43Z">2026-09-01 22:37 UTC</time>
+          <span class="status" data-i18n="status-new">New event</span>
         </div>
-        <h3 class="conclusion" data-i18n="conclusion">A magnitude 4.6 earthquake occurred east-northeast of Mutsu, Japan on 1 September 2026.</h3>
+        <h3 class="conclusion" data-i18n="eq-tdh3-conclusion">A magnitude 4.7 earthquake occurred on the Mid-Indian Ridge on 1 September 2026.</h3>
 
         <div class="viz">
-          <div class="viz-label" data-i18n="viz-mag">Magnitude scale (0–10). Marker at 4.6</div>
+          <div class="viz-label" data-i18n="eq-tdh3-viz">Magnitude scale (0–10). Marker at 4.7</div>
+          <div class="bar-track" title="mb 4.7">
+            <div class="bar-fill" style="width:47%"></div>
+          </div>
+          <div class="scale-row"><span>0</span><span>5</span><span>10</span></div>
+        </div>
+
+        <div class="data-block">
+          <p><strong data-i18n="data-title">Key data</strong></p>
+          <ul class="data-list">
+            <li data-i18n="eq-tdh3-mag">Magnitude: 4.7 (mb)</li>
+            <li data-i18n="eq-tdh3-place">Location: Mid-Indian Ridge</li>
+            <li data-i18n="eq-tdh3-time">Origin time: 2026-09-01 22:37:43 UTC</li>
+            <li data-i18n="eq-tdh3-depth">Depth: approximately 10 km</li>
+            <li data-i18n="eq-tdh3-id">Event ID: us7000tdh3</li>
+          </ul>
+        </div>
+
+        <div class="evidence-chain">
+          <h4 data-i18n="evidence-heading">Evidence Chain</h4>
+          <ul>
+            <li data-i18n="eq-tdh3-source">Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000tdh3</li>
+            <li data-i18n="eq-tdh3-method">Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected the newest event in that feed at retrieval time.</li>
+            <li data-i18n="eq-tdh3-link">Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdh3</li>
+            <li data-i18n="eq-tdh3-feed">Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson</li>
+            <li data-i18n="eq-tdh3-repro">Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.</li>
+            <li data-i18n="eq-tdh3-limit">Limitation: mb can differ from later moment-magnitude revisions; depth and hypocenter may be refined. The past-day feed is a rolling window.</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- 3. Mutsu mb 4.6 -->
+      <article class="entry" data-entry-id="usgs-us7000tdfa">
+        <div class="entry-meta">
+          <time datetime="2026-09-01T19:21:23Z">2026-09-01 19:21 UTC</time>
+          <span class="status" data-i18n="status-earlier">Earlier event</span>
+        </div>
+        <h3 class="conclusion" data-i18n="eq-tdfa-conclusion">A magnitude 4.6 earthquake occurred east-northeast of Mutsu, Japan on 1 September 2026.</h3>
+
+        <div class="viz">
+          <div class="viz-label" data-i18n="eq-tdfa-viz">Magnitude scale (0–10). Marker at 4.6</div>
           <div class="bar-track" title="mb 4.6">
             <div class="bar-fill" style="width:46%"></div>
           </div>
@@ -97,23 +138,103 @@
         <div class="data-block">
           <p><strong data-i18n="data-title">Key data</strong></p>
           <ul class="data-list">
-            <li data-i18n="data-mag">Magnitude: 4.6 (mb)</li>
-            <li data-i18n="data-place">Location: 78 km ENE of Mutsu, Japan</li>
-            <li data-i18n="data-time">Origin time: 2026-09-01 19:21:23 UTC</li>
-            <li data-i18n="data-depth">Depth: approximately 74 km</li>
-            <li data-i18n="data-id">Event ID: us7000tdfa</li>
+            <li data-i18n="eq-tdfa-mag">Magnitude: 4.6 (mb)</li>
+            <li data-i18n="eq-tdfa-place">Location: 78 km ENE of Mutsu, Japan</li>
+            <li data-i18n="eq-tdfa-time">Origin time: 2026-09-01 19:21:23 UTC</li>
+            <li data-i18n="eq-tdfa-depth">Depth: approximately 74 km</li>
+            <li data-i18n="eq-tdfa-id">Event ID: us7000tdfa</li>
           </ul>
         </div>
 
         <div class="evidence-chain">
           <h4 data-i18n="evidence-heading">Evidence Chain</h4>
           <ul>
-            <li data-i18n="ev-source">Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000tdfa</li>
-            <li data-i18n="ev-method">Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected the newest event in that feed. Magnitude type is body-wave magnitude (mb). Location and depth are the feed origin parameters at retrieval time.</li>
-            <li data-i18n="ev-link">Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdfa</li>
-            <li data-i18n="ev-feed">Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson</li>
-            <li data-i18n="ev-repro">Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.</li>
-            <li data-i18n="ev-limit">Limitation: mb can differ from later moment-magnitude revisions; depth and hypocenter may be refined. The past-day feed is a rolling window, so older events drop off.</li>
+            <li data-i18n="eq-tdfa-source">Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000tdfa</li>
+            <li data-i18n="eq-tdfa-method">Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed at an earlier hourly cycle.</li>
+            <li data-i18n="eq-tdfa-link">Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdfa</li>
+            <li data-i18n="eq-tdfa-feed">Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson</li>
+            <li data-i18n="eq-tdfa-repro">Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.</li>
+            <li data-i18n="eq-tdfa-limit">Limitation: mb can differ from later moment-magnitude revisions; depth and hypocenter may be refined.</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- 4. Vanuatu mb 5.0 -->
+      <article class="entry" data-entry-id="usgs-us7000tdey">
+        <div class="entry-meta">
+          <time datetime="2026-09-01T18:37:29Z">2026-09-01 18:37 UTC</time>
+          <span class="status" data-i18n="status-earlier">Earlier event</span>
+        </div>
+        <h3 class="conclusion" data-i18n="eq-tdey-conclusion">A magnitude 5.0 earthquake occurred south-southeast of Isangel, Vanuatu on 1 September 2026.</h3>
+
+        <div class="viz">
+          <div class="viz-label" data-i18n="eq-tdey-viz">Magnitude scale (0–10). Marker at 5.0</div>
+          <div class="bar-track" title="mb 5.0">
+            <div class="bar-fill" style="width:50%"></div>
+          </div>
+          <div class="scale-row"><span>0</span><span>5</span><span>10</span></div>
+        </div>
+
+        <div class="data-block">
+          <p><strong data-i18n="data-title">Key data</strong></p>
+          <ul class="data-list">
+            <li data-i18n="eq-tdey-mag">Magnitude: 5.0 (mb)</li>
+            <li data-i18n="eq-tdey-place">Location: 118 km SSE of Isangel, Vanuatu</li>
+            <li data-i18n="eq-tdey-time">Origin time: 2026-09-01 18:37:29 UTC</li>
+            <li data-i18n="eq-tdey-depth">Depth: approximately 122 km</li>
+            <li data-i18n="eq-tdey-id">Event ID: us7000tdey</li>
+          </ul>
+        </div>
+
+        <div class="evidence-chain">
+          <h4 data-i18n="evidence-heading">Evidence Chain</h4>
+          <ul>
+            <li data-i18n="eq-tdey-source">Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000tdey</li>
+            <li data-i18n="eq-tdey-method">Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed in an earlier hourly cycle.</li>
+            <li data-i18n="eq-tdey-link">Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdey</li>
+            <li data-i18n="eq-tdey-feed">Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson</li>
+            <li data-i18n="eq-tdey-repro">Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.</li>
+            <li data-i18n="eq-tdey-limit">Limitation: mb can differ from later moment-magnitude revisions; depth and hypocenter may be refined.</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- 5. Philippines mww 5.2 (first live entry) -->
+      <article class="entry" data-entry-id="usgs-us7000tdbr">
+        <div class="entry-meta">
+          <time datetime="2026-09-01T13:22:30Z">2026-09-01 13:22 UTC</time>
+          <span class="status" data-i18n="status-earlier">Earlier event</span>
+        </div>
+        <h3 class="conclusion" data-i18n="eq-tdbr-conclusion">A magnitude 5.2 earthquake occurred southeast of Sarangani, Philippines on 1 September 2026.</h3>
+
+        <div class="viz">
+          <div class="viz-label" data-i18n="eq-tdbr-viz">Magnitude scale (0–10). Marker at 5.2</div>
+          <div class="bar-track" title="mww 5.2">
+            <div class="bar-fill" style="width:52%"></div>
+          </div>
+          <div class="scale-row"><span>0</span><span>5</span><span>10</span></div>
+        </div>
+
+        <div class="data-block">
+          <p><strong data-i18n="data-title">Key data</strong></p>
+          <ul class="data-list">
+            <li data-i18n="eq-tdbr-mag">Magnitude: 5.2 (mww)</li>
+            <li data-i18n="eq-tdbr-place">Location: 35 km SE of Sarangani, Philippines</li>
+            <li data-i18n="eq-tdbr-time">Origin time: 2026-09-01 13:22:30 UTC</li>
+            <li data-i18n="eq-tdbr-depth">Depth: approximately 121 km</li>
+            <li data-i18n="eq-tdbr-id">Event ID: us7000tdbr</li>
+          </ul>
+        </div>
+
+        <div class="evidence-chain">
+          <h4 data-i18n="evidence-heading">Evidence Chain</h4>
+          <ul>
+            <li data-i18n="eq-tdbr-source">Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000tdbr</li>
+            <li data-i18n="eq-tdbr-method">Method: First live Evidence Daily entry. Retrieved from the public USGS GeoJSON feed and event page. Magnitude type is moment magnitude (mww).</li>
+            <li data-i18n="eq-tdbr-link">Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdbr</li>
+            <li data-i18n="eq-tdbr-feed">Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson</li>
+            <li data-i18n="eq-tdbr-repro">Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.</li>
+            <li data-i18n="eq-tdbr-limit">Limitation: Catalog parameters can be revised after review; depth and magnitude type may change.</li>
           </ul>
         </div>
       </article>
@@ -121,7 +242,7 @@
 
     <section class="about">
       <h2 data-i18n="about-heading">About</h2>
-      <p data-i18n="about-text">Evidence Daily publishes one publicly verifiable data point each day, together with its complete evidence chain. Anyone can re-fetch the same source and reproduce the result. No login required. Page views are counted with a lightweight public counter.</p>
+      <p data-i18n="about-text">Evidence Daily publishes publicly verifiable data points with complete evidence chains. Recent entries stay on the homepage (newest first). Anyone can re-fetch the same source and reproduce the result. No login required. Page views are counted with a lightweight public counter.</p>
     </section>
   </main>
 
