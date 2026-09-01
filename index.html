@@ -121,13 +121,20 @@
 
     <section class="about">
       <h2 data-i18n="about-heading">About</h2>
-      <p data-i18n="about-text">Evidence Daily publishes one publicly verifiable data point each day, together with its complete evidence chain. Anyone can re-fetch the same source and reproduce the result. No tracking. No login required.</p>
+      <p data-i18n="about-text">Evidence Daily publishes one publicly verifiable data point each day, together with its complete evidence chain. Anyone can re-fetch the same source and reproduce the result. No login required. Page views are counted with a lightweight public counter.</p>
     </section>
   </main>
 
   <footer>
     <div class="container">
       <p data-i18n="footer">Evidence Daily · Open sources · Reproducible results</p>
+      <p class="view-count" id="view-count">
+        <span data-i18n="views-label">Views</span>
+        <span id="busuanzi_value_site_pv">—</span>
+        <span class="view-sep">·</span>
+        <span data-i18n="visitors-label">Visitors</span>
+        <span id="busuanzi_value_site_uv">—</span>
+      </p>
     </div>
   </footer>
 
@@ -151,5 +158,7 @@
 
     updateThemeIcon();
   </script>
+  <!-- Page view counter (busuanzi) -->
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </body>
 </html>
