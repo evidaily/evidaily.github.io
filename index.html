@@ -42,10 +42,10 @@
     <section class="today">
       <h2 data-i18n="today-heading">Recent Evidence</h2>
 
-      <!-- 1. NOAA Kp (newest sample 15:43 UTC) -->
+      <!-- 1. NOAA Kp (newest sample 16:19 UTC) -->
       <article class="entry" data-entry-id="noaa-kp-1m">
         <div class="entry-meta">
-          <time datetime="2026-09-02T15:43:00Z">2026-09-02 15:43 UTC</time>
+          <time datetime="2026-09-02T16:19:00Z">2026-09-02 16:19 UTC</time>
           <span class="status" data-i18n="status-live">Live data</span>
         </div>
         <h3 class="conclusion" data-i18n="kp-conclusion">Planetary geomagnetic activity remained quiet: latest estimated Kp = 0.00 (below G1 storm threshold).</h3>
@@ -61,7 +61,7 @@
         <div class="data-block">
           <p><strong data-i18n="kp-data-title">Key data</strong></p>
           <ul class="data-list">
-            <li data-i18n="kp-time">Sample time: 2026-09-02 15:43 UTC</li>
+            <li data-i18n="kp-time">Sample time: 2026-09-02 16:19 UTC</li>
             <li data-i18n="kp-est">Estimated Kp: 0.00 (label 0Z)</li>
             <li data-i18n="kp-max">Max estimated Kp in recent ~3 h window: 1.67</li>
           </ul>
@@ -83,11 +83,53 @@
 
 
 
-      <!-- 2. New event: southern East Pacific Rise mww 5.9 -->
+
+      <!-- 2. New event: Volcano Islands mb 4.9 -->
+      <article class="entry" data-entry-id="usgs-us7000tdn6">
+        <div class="entry-meta">
+          <time datetime="2026-09-02T13:53:02Z">2026-09-02 13:53 UTC</time>
+          <span class="status" data-i18n="status-new">New event</span>
+        </div>
+        <h3 class="conclusion" data-i18n="eq-tdn6-conclusion">A magnitude 4.9 earthquake occurred in the Volcano Islands, Japan region on 2 September 2026.</h3>
+
+        <div class="viz">
+          <div class="viz-label" data-i18n="eq-tdn6-viz">Magnitude scale (0–10). Marker at 4.9</div>
+          <div class="bar-track" title="mb 4.9">
+            <div class="bar-fill" style="width:49%"></div>
+          </div>
+          <div class="scale-row"><span>0</span><span>5</span><span>10</span></div>
+        </div>
+
+        <div class="data-block">
+          <p><strong data-i18n="data-title">Key data</strong></p>
+          <ul class="data-list">
+            <li data-i18n="eq-tdn6-mag">Magnitude: 4.9 (mb)</li>
+            <li data-i18n="eq-tdn6-place">Location: Volcano Islands, Japan region</li>
+            <li data-i18n="eq-tdn6-time">Origin time: 2026-09-02 13:53:02 UTC</li>
+            <li data-i18n="eq-tdn6-depth">Depth: approximately 38 km</li>
+            <li data-i18n="eq-tdn6-id">Event ID: us7000tdn6</li>
+          </ul>
+        </div>
+
+        <div class="evidence-chain">
+          <h4 data-i18n="evidence-heading">Evidence Chain</h4>
+          <ul>
+            <li data-i18n="eq-tdn6-source">Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000tdn6</li>
+            <li data-i18n="eq-tdn6-method">Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected the newest NEIC (us*) event in that feed at retrieval time.</li>
+            <li data-i18n="eq-tdn6-link">Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdn6</li>
+            <li data-i18n="eq-tdn6-feed">Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson</li>
+            <li data-i18n="eq-tdn6-repro">Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.</li>
+            <li data-i18n="eq-tdn6-limit">Limitation: Catalog parameters can be revised after review; mb can differ from later moment-magnitude revisions. Nearby events in the same window are noted in the project log but not given separate cards this cycle.</li>
+          </ul>
+        </div>
+      </article>
+
+
+      <!-- 3. Earlier: southern East Pacific Rise mww 5.9 -->
       <article class="entry" data-entry-id="usgs-us7000tdms">
         <div class="entry-meta">
           <time datetime="2026-09-02T12:35:56Z">2026-09-02 12:35 UTC</time>
-          <span class="status" data-i18n="status-new">New event</span>
+          <span class="status" data-i18n="status-earlier">Earlier event</span>
         </div>
         <h3 class="conclusion" data-i18n="eq-tdms-conclusion">A magnitude 5.9 earthquake occurred on the southern East Pacific Rise on 2 September 2026.</h3>
 
