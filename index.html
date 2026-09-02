@@ -42,18 +42,18 @@
     <section class="today">
       <h2 data-i18n="today-heading">Recent Evidence</h2>
 
-      <!-- 1. NOAA Kp (newest sample 12:13 UTC) -->
+      <!-- 1. NOAA Kp (newest sample 14:33 UTC) -->
       <article class="entry" data-entry-id="noaa-kp-1m">
         <div class="entry-meta">
-          <time datetime="2026-09-02T12:13:00Z">2026-09-02 12:13 UTC</time>
+          <time datetime="2026-09-02T14:33:00Z">2026-09-02 14:33 UTC</time>
           <span class="status" data-i18n="status-live">Live data</span>
         </div>
-        <h3 class="conclusion" data-i18n="kp-conclusion">Planetary geomagnetic activity remained quiet: latest estimated Kp = 0.00 (below G1 storm threshold).</h3>
+        <h3 class="conclusion" data-i18n="kp-conclusion">Planetary geomagnetic activity remained quiet: latest estimated Kp = 1.33 (below G1 storm threshold).</h3>
 
         <div class="viz">
-          <div class="viz-label" data-i18n="viz-kp">Estimated Kp (0–9). Marker at 0.00</div>
+          <div class="viz-label" data-i18n="viz-kp">Estimated Kp (0–9). Marker at 1.33</div>
           <div class="bar-track">
-            <div class="bar-fill" style="width:0%"></div>
+            <div class="bar-fill" style="width:14.8%"></div>
           </div>
           <div class="scale-row"><span>0</span><span>G1=5</span><span>9</span></div>
         </div>
@@ -61,8 +61,8 @@
         <div class="data-block">
           <p><strong data-i18n="kp-data-title">Key data</strong></p>
           <ul class="data-list">
-            <li data-i18n="kp-time">Sample time: 2026-09-02 12:13 UTC</li>
-            <li data-i18n="kp-est">Estimated Kp: 0.00 (label 0Z)</li>
+            <li data-i18n="kp-time">Sample time: 2026-09-02 14:33 UTC</li>
+            <li data-i18n="kp-est">Estimated Kp: 1.33 (label 1P)</li>
             <li data-i18n="kp-max">Max estimated Kp in recent ~3 h window: 2.00</li>
           </ul>
         </div>
@@ -82,11 +82,53 @@
 
 
 
-      <!-- 2. New event: South Sandwich Islands mb 5.2 -->
+
+      <!-- 2. New event: southern East Pacific Rise mww 5.9 -->
+      <article class="entry" data-entry-id="usgs-us7000tdms">
+        <div class="entry-meta">
+          <time datetime="2026-09-02T12:35:56Z">2026-09-02 12:35 UTC</time>
+          <span class="status" data-i18n="status-new">New event</span>
+        </div>
+        <h3 class="conclusion" data-i18n="eq-tdms-conclusion">A magnitude 5.9 earthquake occurred on the southern East Pacific Rise on 2 September 2026.</h3>
+
+        <div class="viz">
+          <div class="viz-label" data-i18n="eq-tdms-viz">Magnitude scale (0–10). Marker at 5.9</div>
+          <div class="bar-track" title="mww 5.9">
+            <div class="bar-fill" style="width:59%"></div>
+          </div>
+          <div class="scale-row"><span>0</span><span>5</span><span>10</span></div>
+        </div>
+
+        <div class="data-block">
+          <p><strong data-i18n="data-title">Key data</strong></p>
+          <ul class="data-list">
+            <li data-i18n="eq-tdms-mag">Magnitude: 5.9 (mww)</li>
+            <li data-i18n="eq-tdms-place">Location: southern East Pacific Rise</li>
+            <li data-i18n="eq-tdms-time">Origin time: 2026-09-02 12:35:56 UTC</li>
+            <li data-i18n="eq-tdms-depth">Depth: approximately 10 km</li>
+            <li data-i18n="eq-tdms-id">Event ID: us7000tdms</li>
+          </ul>
+        </div>
+
+        <div class="evidence-chain">
+          <h4 data-i18n="evidence-heading">Evidence Chain</h4>
+          <ul>
+            <li data-i18n="eq-tdms-source">Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000tdms</li>
+            <li data-i18n="eq-tdms-method">Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected the newest NEIC (us*) event in that feed at retrieval time.</li>
+            <li data-i18n="eq-tdms-link">Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdms</li>
+            <li data-i18n="eq-tdms-feed">Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson</li>
+            <li data-i18n="eq-tdms-repro">Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.</li>
+            <li data-i18n="eq-tdms-limit">Limitation: Catalog parameters can be revised after review; nearby events in the same window (Mexico / Alaska) are noted in the log but not given separate cards this cycle.</li>
+          </ul>
+        </div>
+      </article>
+
+
+      <!-- 3. Earlier: South Sandwich Islands mb 5.2 -->
       <article class="entry" data-entry-id="usgs-us7000tdkr">
         <div class="entry-meta">
           <time datetime="2026-09-02T10:54:02Z">2026-09-02 10:54 UTC</time>
-          <span class="status" data-i18n="status-new">New event</span>
+          <span class="status" data-i18n="status-earlier">Earlier event</span>
         </div>
         <h3 class="conclusion" data-i18n="eq-tdkr-conclusion">A magnitude 5.2 earthquake occurred in the South Sandwich Islands region on 2 September 2026.</h3>
 
