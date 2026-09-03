@@ -42,18 +42,18 @@
     <section class="today">
       <h2 data-i18n="today-heading">Recent Evidence</h2>
 
-      <!-- 1. NOAA Kp (newest sample 12:22 UTC) -->
+      <!-- 1. NOAA Kp (newest sample 13:05 UTC) -->
       <article class="entry" data-entry-id="noaa-kp-1m">
         <div class="entry-meta">
-          <time datetime="2026-09-03T12:22:00Z">2026-09-03 12:22 UTC</time>
+          <time datetime="2026-09-03T13:05:00Z">2026-09-03 13:05 UTC</time>
           <span class="status" data-i18n="status-live">Live data</span>
         </div>
-        <h3 class="conclusion" data-i18n="kp-conclusion">Planetary geomagnetic activity remained quiet: latest estimated Kp = 0.00 (below G1 storm threshold).</h3>
+        <h3 class="conclusion" data-i18n="kp-conclusion">Planetary geomagnetic activity remained quiet: latest estimated Kp = 0.67 (below G1 storm threshold).</h3>
 
         <div class="viz">
-          <div class="viz-label" data-i18n="viz-kp">Estimated Kp (0–9). Marker at 0.00</div>
+          <div class="viz-label" data-i18n="viz-kp">Estimated Kp (0–9). Marker at 0.67</div>
           <div class="bar-track">
-            <div class="bar-fill" style="width:0%"></div>
+            <div class="bar-fill" style="width:7%"></div>
           </div>
           <div class="scale-row"><span>0</span><span>G1=5</span><span>9</span></div>
         </div>
@@ -89,6 +89,87 @@
 
 
 
+
+
+      <!-- 2. New event: Nikolski Alaska mwp 5.2 (attkshll) -->
+      <article class="entry" data-entry-id="usgs-attkshll">
+        <div class="entry-meta">
+          <time datetime="2026-09-03T13:03:21Z">2026-09-03 13:03 UTC</time>
+          <span class="status" data-i18n="status-new">New event</span>
+        </div>
+        <h3 class="conclusion" data-i18n="eq-attkshll-conclusion">A magnitude 5.2 earthquake occurred 93 km S of Nikolski, Alaska on 3 September 2026.</h3>
+
+        <div class="viz">
+          <div class="viz-label" data-i18n="eq-attkshll-viz">Magnitude scale (0–10). Marker at 5.2</div>
+          <div class="bar-track" title="mwp 5.2">
+            <div class="bar-fill" style="width:52%"></div>
+          </div>
+          <div class="scale-row"><span>0</span><span>5</span><span>10</span></div>
+        </div>
+
+        <div class="data-block">
+          <p><strong data-i18n="data-title">Key data</strong></p>
+          <ul class="data-list">
+            <li data-i18n="eq-attkshll-mag">Magnitude: 5.2 (mwp)</li>
+            <li data-i18n="eq-attkshll-place">Location: 93 km S of Nikolski, Alaska</li>
+            <li data-i18n="eq-attkshll-time">Origin time: 2026-09-03 13:03:21 UTC</li>
+            <li data-i18n="eq-attkshll-depth">Depth: approximately 35 km</li>
+            <li data-i18n="eq-attkshll-id">Event ID: attkshll</li>
+          </ul>
+        </div>
+
+        <div class="evidence-chain">
+          <h4 data-i18n="evidence-heading">Evidence Chain</h4>
+          <ul>
+            <li data-i18n="eq-attkshll-source">Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event attkshll</li>
+            <li data-i18n="eq-attkshll-method">Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected newly appeared events not yet listed on this page.</li>
+            <li data-i18n="eq-attkshll-link">Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/attkshll</li>
+            <li data-i18n="eq-attkshll-feed">Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson</li>
+            <li data-i18n="eq-attkshll-repro">Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.</li>
+            <li data-i18n="eq-attkshll-limit">Limitation: Catalog parameters can be revised after review; depth and hypocenter may be refined. The past-day feed is a rolling window. This id is from a contributing network in the USGS composite catalog (not an NEIC us* id).</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- 3. New event: Nikolski Alaska mb 4.9 -->
+      <article class="entry" data-entry-id="usgs-us7000tdyi">
+        <div class="entry-meta">
+          <time datetime="2026-09-03T12:39:34Z">2026-09-03 12:39 UTC</time>
+          <span class="status" data-i18n="status-new">New event</span>
+        </div>
+        <h3 class="conclusion" data-i18n="eq-tdyi-conclusion">A magnitude 4.9 earthquake occurred 90 km SSW of Nikolski, Alaska on 3 September 2026.</h3>
+
+        <div class="viz">
+          <div class="viz-label" data-i18n="eq-tdyi-viz">Magnitude scale (0–10). Marker at 4.9</div>
+          <div class="bar-track" title="mb 4.9">
+            <div class="bar-fill" style="width:49%"></div>
+          </div>
+          <div class="scale-row"><span>0</span><span>5</span><span>10</span></div>
+        </div>
+
+        <div class="data-block">
+          <p><strong data-i18n="data-title">Key data</strong></p>
+          <ul class="data-list">
+            <li data-i18n="eq-tdyi-mag">Magnitude: 4.9 (mb)</li>
+            <li data-i18n="eq-tdyi-place">Location: 90 km SSW of Nikolski, Alaska</li>
+            <li data-i18n="eq-tdyi-time">Origin time: 2026-09-03 12:39:34 UTC</li>
+            <li data-i18n="eq-tdyi-depth">Depth: approximately 44 km</li>
+            <li data-i18n="eq-tdyi-id">Event ID: us7000tdyi</li>
+          </ul>
+        </div>
+
+        <div class="evidence-chain">
+          <h4 data-i18n="evidence-heading">Evidence Chain</h4>
+          <ul>
+            <li data-i18n="eq-tdyi-source">Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000tdyi</li>
+            <li data-i18n="eq-tdyi-method">Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected newly appeared events not yet listed on this page.</li>
+            <li data-i18n="eq-tdyi-link">Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdyi</li>
+            <li data-i18n="eq-tdyi-feed">Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson</li>
+            <li data-i18n="eq-tdyi-repro">Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.</li>
+            <li data-i18n="eq-tdyi-limit">Limitation: Catalog parameters can be revised after review; depth and hypocenter may be refined. The past-day feed is a rolling window.</li>
+          </ul>
+        </div>
+      </article>
 
       <!-- 2. New event: Jiangyou China mb 5.4 -->
       <article class="entry" data-entry-id="usgs-us7000tdw6">
