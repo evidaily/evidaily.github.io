@@ -42,18 +42,18 @@
     <section class="today">
       <h2 data-i18n="today-heading">Recent Evidence</h2>
 
-      <!-- 1. NOAA Kp (newest sample 22:58 UTC) -->
+      <!-- 1. NOAA Kp (newest sample 00:16 UTC) -->
       <article class="entry" data-entry-id="noaa-kp-1m">
         <div class="entry-meta">
-          <time datetime="2026-09-02T22:58:00Z">2026-09-02 22:58 UTC</time>
+          <time datetime="2026-09-03T00:16:00Z">2026-09-03 00:16 UTC</time>
           <span class="status" data-i18n="status-live">Live data</span>
         </div>
-        <h3 class="conclusion" data-i18n="kp-conclusion">Planetary geomagnetic activity remained quiet: latest estimated Kp = 0.67 (below G1 storm threshold).</h3>
+        <h3 class="conclusion" data-i18n="kp-conclusion">Planetary geomagnetic activity remained quiet: latest estimated Kp = 1.00 (below G1 storm threshold).</h3>
 
         <div class="viz">
-          <div class="viz-label" data-i18n="viz-kp">Estimated Kp (0–9). Marker at 0.67</div>
+          <div class="viz-label" data-i18n="viz-kp">Estimated Kp (0–9). Marker at 1.00</div>
           <div class="bar-track">
-            <div class="bar-fill" style="width:7.4%"></div>
+            <div class="bar-fill" style="width:11.1%"></div>
           </div>
           <div class="scale-row"><span>0</span><span>G1=5</span><span>9</span></div>
         </div>
@@ -86,11 +86,53 @@
 
 
 
-      <!-- 2. New event: Vanuatu Isangel mww 5.4 -->
+
+      <!-- 2. New event: South Sandwich Islands mww 6.2 -->
+      <article class="entry" data-entry-id="usgs-us7000tdrv">
+        <div class="entry-meta">
+          <time datetime="2026-09-02T23:46:57Z">2026-09-02 23:46 UTC</time>
+          <span class="status" data-i18n="status-new">New event</span>
+        </div>
+        <h3 class="conclusion" data-i18n="eq-tdrv-conclusion">A magnitude 6.2 earthquake occurred in the South Sandwich Islands region on 2 September 2026.</h3>
+
+        <div class="viz">
+          <div class="viz-label" data-i18n="eq-tdrv-viz">Magnitude scale (0–10). Marker at 6.2</div>
+          <div class="bar-track" title="mww 6.2">
+            <div class="bar-fill" style="width:62%"></div>
+          </div>
+          <div class="scale-row"><span>0</span><span>5</span><span>10</span></div>
+        </div>
+
+        <div class="data-block">
+          <p><strong data-i18n="data-title">Key data</strong></p>
+          <ul class="data-list">
+            <li data-i18n="eq-tdrv-mag">Magnitude: 6.2 (mww)</li>
+            <li data-i18n="eq-tdrv-place">Location: South Sandwich Islands region</li>
+            <li data-i18n="eq-tdrv-time">Origin time: 2026-09-02 23:46:57 UTC</li>
+            <li data-i18n="eq-tdrv-depth">Depth: approximately 126 km</li>
+            <li data-i18n="eq-tdrv-id">Event ID: us7000tdrv</li>
+          </ul>
+        </div>
+
+        <div class="evidence-chain">
+          <h4 data-i18n="evidence-heading">Evidence Chain</h4>
+          <ul>
+            <li data-i18n="eq-tdrv-source">Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000tdrv</li>
+            <li data-i18n="eq-tdrv-method">Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected the newest NEIC (us*) event in that feed at retrieval time.</li>
+            <li data-i18n="eq-tdrv-link">Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdrv</li>
+            <li data-i18n="eq-tdrv-feed">Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson</li>
+            <li data-i18n="eq-tdrv-repro">Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.</li>
+            <li data-i18n="eq-tdrv-limit">Limitation: Catalog parameters can be revised after review; depth and hypocenter may be refined. The past-day feed is a rolling window.</li>
+          </ul>
+        </div>
+      </article>
+
+
+      <!-- 3. Earlier: Vanuatu Isangel mww 5.4 -->
       <article class="entry" data-entry-id="usgs-us7000tdr1">
         <div class="entry-meta">
           <time datetime="2026-09-02T21:22:09Z">2026-09-02 21:22 UTC</time>
-          <span class="status" data-i18n="status-new">New event</span>
+          <span class="status" data-i18n="status-earlier">Earlier event</span>
         </div>
         <h3 class="conclusion" data-i18n="eq-tdr1-conclusion">A magnitude 5.4 earthquake occurred 83 km south of Isangel, Vanuatu on 2 September 2026.</h3>
 
