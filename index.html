@@ -47,10 +47,10 @@
         <button class="filter-btn" data-filter="quake" onclick="setFilter('quake')" data-i18n="filter-quake">Earthquakes</button>
       </div>
 
-      <!-- 1. NOAA Kp (newest sample 18:01 UTC) -->
+      <!-- 1. NOAA Kp (newest sample 19:03 UTC) -->
       <article class="entry" data-entry-id="noaa-kp-1m" data-category="space">
         <div class="entry-meta">
-          <time datetime="2026-09-04T18:01:00Z">2026-09-04 18:01 UTC</time>
+          <time datetime="2026-09-04T19:03:00Z">2026-09-04 19:03 UTC</time>
           <span class="status" data-i18n="status-live">Live data</span>
         </div>
         <h3 class="conclusion" data-i18n="kp-conclusion">Planetary geomagnetic activity remained quiet: latest estimated Kp = 0.00 (below G1 storm threshold).</h3>
@@ -66,7 +66,7 @@
         <div class="data-block">
           <p><strong data-i18n="kp-data-title">Key data</strong></p>
           <ul class="data-list">
-            <li data-i18n="kp-time">Sample time: 2026-09-04 18:01 UTC</li>
+            <li data-i18n="kp-time">Sample time: 2026-09-04 19:03 UTC</li>
             <li data-i18n="kp-est">Estimated Kp: 0.00 (label 0Z)</li>
             <li data-i18n="kp-max">Max estimated Kp in recent ~3 h window: 0.67</li>
           </ul>
@@ -80,6 +80,46 @@
             <li data-i18n="kp-link">Kp JSON: https://services.swpc.noaa.gov/json/planetary_k_index_1m.json</li>
             <li data-i18n="kp-repro">Reproducibility: The endpoint is public, unauthenticated, and returns the same numeric fields used here.</li>
             <li data-i18n="kp-limit">Limitation: 1-minute estimated Kp is a nowcast, not the final official 3-hour Kp; values can be revised. F10.7 noon flux was omitted this cycle because the published series on the public endpoint was stale.</li>
+          </ul>
+        </div>
+      </article>
+
+
+      <article class="entry" data-entry-id="usgs-us7000tede" data-category="quake">
+        <div class="entry-meta">
+          <time datetime="2026-09-04T18:34:01Z">2026-09-04 18:34 UTC</time>
+          <span class="status" data-i18n="status-new">New event</span>
+        </div>
+        <h3 class="conclusion" data-i18n="eq-tede-conclusion">A magnitude 4.6 earthquake occurred 32 km NW of Raumati Beach, New Zealand on 4 September 2026.</h3>
+
+        <div class="viz">
+          <div class="viz-label" data-i18n="eq-tede-viz">Magnitude scale (0–10). Marker at 4.6</div>
+          <div class="bar-track" title="mwr 4.6">
+            <div class="bar-fill" style="width:46%"></div>
+          </div>
+          <div class="scale-row"><span>0</span><span>5</span><span>10</span></div>
+        </div>
+
+        <div class="data-block">
+          <p><strong data-i18n="data-title">Key data</strong></p>
+          <ul class="data-list">
+            <li data-i18n="eq-tede-mag">Magnitude: 4.6 (mwr)</li>
+            <li data-i18n="eq-tede-place">Location: 32 km NW of Raumati Beach, New Zealand</li>
+            <li data-i18n="eq-tede-time">Origin time: 2026-09-04 18:34:01 UTC</li>
+            <li data-i18n="eq-tede-depth">Depth: approximately 51 km</li>
+            <li data-i18n="eq-tede-id">Event ID: us7000tede</li>
+          </ul>
+        </div>
+
+        <div class="evidence-chain">
+          <h4 data-i18n="evidence-heading">Evidence Chain</h4>
+          <ul>
+            <li data-i18n="eq-tede-source">Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000tede</li>
+            <li data-i18n="eq-tede-method">Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected newly appeared NEIC (us*) events not yet listed on this page.</li>
+            <li data-i18n="eq-tede-link">Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000tede</li>
+            <li data-i18n="eq-tede-feed">Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson</li>
+            <li data-i18n="eq-tede-repro">Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.</li>
+            <li data-i18n="eq-tede-limit">Limitation: Catalog parameters can be revised after review; depth and hypocenter may be refined. The past-day feed is a rolling window.</li>
           </ul>
         </div>
       </article>
