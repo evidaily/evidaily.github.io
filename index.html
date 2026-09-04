@@ -47,10 +47,10 @@
         <button class="filter-btn" data-filter="quake" onclick="setFilter('quake')" data-i18n="filter-quake">Earthquakes</button>
       </div>
 
-      <!-- 1. NOAA Kp (newest sample 16:04 UTC) -->
+      <!-- 1. NOAA Kp (newest sample 16:59 UTC) -->
       <article class="entry" data-entry-id="noaa-kp-1m" data-category="space">
         <div class="entry-meta">
-          <time datetime="2026-09-04T16:04:00Z">2026-09-04 16:04 UTC</time>
+          <time datetime="2026-09-04T16:59:00Z">2026-09-04 16:59 UTC</time>
           <span class="status" data-i18n="status-live">Live data</span>
         </div>
         <h3 class="conclusion" data-i18n="kp-conclusion">Planetary geomagnetic activity remained quiet: latest estimated Kp = 0.33 (below G1 storm threshold).</h3>
@@ -80,6 +80,45 @@
             <li data-i18n="kp-link">Kp JSON: https://services.swpc.noaa.gov/json/planetary_k_index_1m.json</li>
             <li data-i18n="kp-repro">Reproducibility: The endpoint is public, unauthenticated, and returns the same numeric fields used here.</li>
             <li data-i18n="kp-limit">Limitation: 1-minute estimated Kp is a nowcast, not the final official 3-hour Kp; values can be revised. F10.7 noon flux was omitted this cycle because the published series on the public endpoint was stale.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="entry" data-entry-id="usgs-us7000teck" data-category="quake">
+        <div class="entry-meta">
+          <time datetime="2026-09-04T16:24:41Z">2026-09-04 16:24 UTC</time>
+          <span class="status" data-i18n="status-new">New event</span>
+        </div>
+        <h3 class="conclusion" data-i18n="eq-teck-conclusion">A magnitude 5.1 earthquake occurred 25 km W of Padangsidempuan, Indonesia on 4 September 2026.</h3>
+
+        <div class="viz">
+          <div class="viz-label" data-i18n="eq-teck-viz">Magnitude scale (0–10). Marker at 5.1</div>
+          <div class="bar-track" title="mb 5.1">
+            <div class="bar-fill" style="width:51%"></div>
+          </div>
+          <div class="scale-row"><span>0</span><span>5</span><span>10</span></div>
+        </div>
+
+        <div class="data-block">
+          <p><strong data-i18n="data-title">Key data</strong></p>
+          <ul class="data-list">
+            <li data-i18n="eq-teck-mag">Magnitude: 5.1 (mb)</li>
+            <li data-i18n="eq-teck-place">Location: 25 km W of Padangsidempuan, Indonesia</li>
+            <li data-i18n="eq-teck-time">Origin time: 2026-09-04 16:24:41 UTC</li>
+            <li data-i18n="eq-teck-depth">Depth: approximately 122 km</li>
+            <li data-i18n="eq-teck-id">Event ID: us7000teck</li>
+          </ul>
+        </div>
+
+        <div class="evidence-chain">
+          <h4 data-i18n="evidence-heading">Evidence Chain</h4>
+          <ul>
+            <li data-i18n="eq-teck-source">Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000teck</li>
+            <li data-i18n="eq-teck-method">Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected newly appeared NEIC (us*) events not yet listed on this page.</li>
+            <li data-i18n="eq-teck-link">Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000teck</li>
+            <li data-i18n="eq-teck-feed">Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson</li>
+            <li data-i18n="eq-teck-repro">Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.</li>
+            <li data-i18n="eq-teck-limit">Limitation: Catalog parameters can be revised after review; depth and hypocenter may be refined. The past-day feed is a rolling window.</li>
           </ul>
         </div>
       </article>
