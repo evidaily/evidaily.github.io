@@ -41,19 +41,24 @@
   <main class="container">
     <section class="today">
       <h2 data-i18n="today-heading">Recent Evidence</h2>
+      <div class="filter-bar" role="tablist" aria-label="Category filter">
+        <button class="filter-btn active" data-filter="all" onclick="setFilter('all')" data-i18n="filter-all">All</button>
+        <button class="filter-btn" data-filter="space" onclick="setFilter('space')" data-i18n="filter-space">Space weather</button>
+        <button class="filter-btn" data-filter="quake" onclick="setFilter('quake')" data-i18n="filter-quake">Earthquakes</button>
+      </div>
 
-      <!-- 1. NOAA Kp (newest sample 23:00 UTC) -->
-      <article class="entry" data-entry-id="noaa-kp-1m">
+      <!-- 1. NOAA Kp (newest sample 23:59 UTC) -->
+      <article class="entry" data-entry-id="noaa-kp-1m" data-category="space">
         <div class="entry-meta">
-          <time datetime="2026-09-03T23:00:00Z">2026-09-03 23:00 UTC</time>
+          <time datetime="2026-09-03T23:59:00Z">2026-09-03 23:59 UTC</time>
           <span class="status" data-i18n="status-live">Live data</span>
         </div>
-        <h3 class="conclusion" data-i18n="kp-conclusion">Planetary geomagnetic activity remained quiet: latest estimated Kp = 0.67 (below G1 storm threshold).</h3>
+        <h3 class="conclusion" data-i18n="kp-conclusion">Planetary geomagnetic activity remained quiet to unsettled: latest estimated Kp = 2.00 (below G1 storm threshold).</h3>
 
         <div class="viz">
-          <div class="viz-label" data-i18n="viz-kp">Estimated Kp (0–9). Marker at 0.67</div>
+          <div class="viz-label" data-i18n="viz-kp">Estimated Kp (0–9). Marker at 2.00</div>
           <div class="bar-track">
-            <div class="bar-fill" style="width:7%"></div>
+            <div class="bar-fill" style="width:22%"></div>
           </div>
           <div class="scale-row"><span>0</span><span>G1=5</span><span>9</span></div>
         </div>
@@ -61,9 +66,9 @@
         <div class="data-block">
           <p><strong data-i18n="kp-data-title">Key data</strong></p>
           <ul class="data-list">
-            <li data-i18n="kp-time">Sample time: 2026-09-03 23:00 UTC</li>
-            <li data-i18n="kp-est">Estimated Kp: 0.67 (label 1M)</li>
-            <li data-i18n="kp-max">Max estimated Kp in recent ~3 h window: 2.33</li>
+            <li data-i18n="kp-time">Sample time: 2026-09-03 23:59 UTC</li>
+            <li data-i18n="kp-est">Estimated Kp: 2.00 (label 2Z)</li>
+            <li data-i18n="kp-max">Max estimated Kp in recent ~3 h window: 2.00</li>
           </ul>
         </div>
 
@@ -92,7 +97,7 @@
 
 
 
-      <article class="entry" data-entry-id="usgs-us7000te5e">
+      <article class="entry" data-entry-id="usgs-us7000te5e" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-03T21:18:21Z">2026-09-03 21:18 UTC</time>
           <span class="status" data-i18n="status-new">New event</span>
@@ -131,7 +136,7 @@
         </div>
       </article>
 
-      <article class="entry" data-entry-id="usgs-us7000te55">
+      <article class="entry" data-entry-id="usgs-us7000te55" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-03T21:05:15Z">2026-09-03 21:05 UTC</time>
           <span class="status" data-i18n="status-new">New event</span>
@@ -170,7 +175,7 @@
         </div>
       </article>
 
-      <article class="entry" data-entry-id="usgs-us7000te51">
+      <article class="entry" data-entry-id="usgs-us7000te51" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-03T21:00:10Z">2026-09-03 21:00 UTC</time>
           <span class="status" data-i18n="status-new">New event</span>
@@ -209,7 +214,7 @@
         </div>
       </article>
 
-      <article class="entry" data-entry-id="usgs-us7000te4b">
+      <article class="entry" data-entry-id="usgs-us7000te4b" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-03T20:21:15Z">2026-09-03 20:21 UTC</time>
           <span class="status" data-i18n="status-new">New event</span>
@@ -248,7 +253,7 @@
         </div>
       </article>
 
-      <article class="entry" data-entry-id="usgs-us7000te2m">
+      <article class="entry" data-entry-id="usgs-us7000te2m" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-03T18:45:39Z">2026-09-03 18:45 UTC</time>
           <span class="status" data-i18n="status-new">New event</span>
@@ -287,7 +292,7 @@
         </div>
       </article>
 
-      <article class="entry" data-entry-id="usgs-us7000te2i">
+      <article class="entry" data-entry-id="usgs-us7000te2i" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-03T18:31:04Z">2026-09-03 18:31 UTC</time>
           <span class="status" data-i18n="status-new">New event</span>
@@ -327,7 +332,7 @@
       </article>
 
       <!-- New event: Owen Fracture Zone mb 5.1 -->
-      <article class="entry" data-entry-id="usgs-us7000te21">
+      <article class="entry" data-entry-id="usgs-us7000te21" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-03T17:04:40Z">2026-09-03 17:04 UTC</time>
           <span class="status" data-i18n="status-new">New event</span>
@@ -366,7 +371,7 @@
         </div>
       </article>
 
-      <article class="entry" data-entry-id="usgs-us7000te20">
+      <article class="entry" data-entry-id="usgs-us7000te20" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-03T16:58:46Z">2026-09-03 16:58 UTC</time>
           <span class="status" data-i18n="status-new">New event</span>
@@ -405,7 +410,7 @@
         </div>
       </article>
 
-      <article class="entry" data-entry-id="usgs-us7000te09">
+      <article class="entry" data-entry-id="usgs-us7000te09" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-03T16:11:25Z">2026-09-03 16:11 UTC</time>
           <span class="status" data-i18n="status-new">New event</span>
@@ -444,7 +449,7 @@
         </div>
       </article>
 
-      <article class="entry" data-entry-id="usgs-us7000te02">
+      <article class="entry" data-entry-id="usgs-us7000te02" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-03T15:42:01Z">2026-09-03 15:42 UTC</time>
           <span class="status" data-i18n="status-new">New event</span>
@@ -483,7 +488,7 @@
         </div>
       </article>
 
-      <article class="entry" data-entry-id="usgs-us7000tdzk">
+      <article class="entry" data-entry-id="usgs-us7000tdzk" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-03T14:11:31Z">2026-09-03 14:11 UTC</time>
           <span class="status" data-i18n="status-new">New event</span>
@@ -523,7 +528,7 @@
       </article>
 
       <!-- New event: Isangel Vanuatu mb 4.8 -->
-      <article class="entry" data-entry-id="usgs-us7000tdz8">
+      <article class="entry" data-entry-id="usgs-us7000tdz8" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-03T13:47:10Z">2026-09-03 13:47 UTC</time>
           <span class="status" data-i18n="status-new">New event</span>
@@ -563,7 +568,7 @@
       </article>
 
       <!-- 2. New event: Nikolski Alaska mwp 5.2 (attkshll) -->
-      <article class="entry" data-entry-id="usgs-attkshll">
+      <article class="entry" data-entry-id="usgs-attkshll" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-03T13:03:21Z">2026-09-03 13:03 UTC</time>
           <span class="status" data-i18n="status-new">New event</span>
@@ -603,7 +608,7 @@
       </article>
 
       <!-- New event: Nikolski Alaska mb 5.2 -->
-      <article class="entry" data-entry-id="usgs-us7000tdys">
+      <article class="entry" data-entry-id="usgs-us7000tdys" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-03T13:03:18Z">2026-09-03 13:03 UTC</time>
           <span class="status" data-i18n="status-new">New event</span>
@@ -643,7 +648,7 @@
       </article>
 
       <!-- 3. New event: Nikolski Alaska mb 4.9 -->
-      <article class="entry" data-entry-id="usgs-us7000tdyi">
+      <article class="entry" data-entry-id="usgs-us7000tdyi" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-03T12:39:34Z">2026-09-03 12:39 UTC</time>
           <span class="status" data-i18n="status-new">New event</span>
@@ -683,7 +688,7 @@
       </article>
 
       <!-- 2. New event: Jiangyou China mb 5.4 -->
-      <article class="entry" data-entry-id="usgs-us7000tdw6">
+      <article class="entry" data-entry-id="usgs-us7000tdw6" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-03T11:39:41Z">2026-09-03 11:39 UTC</time>
           <span class="status" data-i18n="status-new">New event</span>
@@ -723,7 +728,7 @@
       </article>
 
       <!-- 3. New event: Nikolski Alaska mb 4.9 -->
-      <article class="entry" data-entry-id="usgs-us7000tdw5">
+      <article class="entry" data-entry-id="usgs-us7000tdw5" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-03T11:39:41Z">2026-09-03 11:39 UTC</time>
           <span class="status" data-i18n="status-new">New event</span>
@@ -763,7 +768,7 @@
       </article>
 
       <!-- 4. New event: Venustiano Carranza Mexico mb 4.8 -->
-      <article class="entry" data-entry-id="usgs-us7000tdw2">
+      <article class="entry" data-entry-id="usgs-us7000tdw2" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-03T11:33:52Z">2026-09-03 11:33 UTC</time>
           <span class="status" data-i18n="status-new">New event</span>
@@ -803,7 +808,7 @@
       </article>
 
       <!-- 5. New event: Nikolski Alaska mb 5.2 -->
-      <article class="entry" data-entry-id="usgs-us7000tdy7">
+      <article class="entry" data-entry-id="usgs-us7000tdy7" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-03T11:24:55Z">2026-09-03 11:24 UTC</time>
           <span class="status" data-i18n="status-new">New event</span>
@@ -843,7 +848,7 @@
       </article>
 
       <!-- 6. New event: Nikolski Alaska mww 6.3 -->
-      <article class="entry" data-entry-id="usgs-us7000tdvt">
+      <article class="entry" data-entry-id="usgs-us7000tdvt" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-03T11:17:24Z">2026-09-03 11:17 UTC</time>
           <span class="status" data-i18n="status-new">New event</span>
@@ -883,7 +888,7 @@
       </article>
 
       <!-- 2. New event: Joshimath India mb 5.1 -->
-      <article class="entry" data-entry-id="usgs-us7000tdv4">
+      <article class="entry" data-entry-id="usgs-us7000tdv4" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-03T08:16:36Z">2026-09-03 08:16 UTC</time>
           <span class="status" data-i18n="status-new">New event</span>
@@ -923,7 +928,7 @@
       </article>
 
       <!-- 2. New event: Houma Tonga mb 4.5 -->
-      <article class="entry" data-entry-id="usgs-us7000tdv1">
+      <article class="entry" data-entry-id="usgs-us7000tdv1" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-03T07:46:19Z">2026-09-03 07:46 UTC</time>
           <span class="status" data-i18n="status-earlier">Earlier event</span>
@@ -963,7 +968,7 @@
       </article>
 
       <!-- 2. New event: Coquimbo Chile mww 5.1 -->
-      <article class="entry" data-entry-id="usgs-us7000tduc">
+      <article class="entry" data-entry-id="usgs-us7000tduc" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-03T06:04:02Z">2026-09-03 06:04 UTC</time>
           <span class="status" data-i18n="status-earlier">Earlier event</span>
@@ -1003,7 +1008,7 @@
       </article>
 
       <!-- 3. New event: Sipí Colombia mb 4.5 -->
-      <article class="entry" data-entry-id="usgs-us7000tdu1">
+      <article class="entry" data-entry-id="usgs-us7000tdu1" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-03T05:17:16Z">2026-09-03 05:17 UTC</time>
           <span class="status" data-i18n="status-earlier">Earlier event</span>
@@ -1044,7 +1049,7 @@
 
 
       <!-- 4. Earlier: Fiji Levuka mb 4.6 -->
-      <article class="entry" data-entry-id="usgs-us7000tdt3">
+      <article class="entry" data-entry-id="usgs-us7000tdt3" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-03T00:09:28Z">2026-09-03 00:09 UTC</time>
           <span class="status" data-i18n="status-earlier">Earlier event</span>
@@ -1085,7 +1090,7 @@
 
 
       <!-- 3. Earlier: South Sandwich Islands mww 6.2 -->
-      <article class="entry" data-entry-id="usgs-us7000tdrv">
+      <article class="entry" data-entry-id="usgs-us7000tdrv" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-02T23:46:57Z">2026-09-02 23:46 UTC</time>
           <span class="status" data-i18n="status-earlier">Earlier event</span>
@@ -1126,7 +1131,7 @@
 
 
       <!-- 3. Earlier: Vanuatu Isangel mww 5.4 -->
-      <article class="entry" data-entry-id="usgs-us7000tdr1">
+      <article class="entry" data-entry-id="usgs-us7000tdr1" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-02T21:22:09Z">2026-09-02 21:22 UTC</time>
           <span class="status" data-i18n="status-earlier">Earlier event</span>
@@ -1167,7 +1172,7 @@
 
 
       <!-- 3. Earlier: Bulolo PNG mww 5.4 -->
-      <article class="entry" data-entry-id="usgs-us7000tdqc">
+      <article class="entry" data-entry-id="usgs-us7000tdqc" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-02T20:04:33Z">2026-09-02 20:04 UTC</time>
           <span class="status" data-i18n="status-earlier">Earlier event</span>
@@ -1208,7 +1213,7 @@
 
 
       <!-- 2. New event: Volcano Islands mb 4.9 -->
-      <article class="entry" data-entry-id="usgs-us7000tdn6">
+      <article class="entry" data-entry-id="usgs-us7000tdn6" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-02T13:53:02Z">2026-09-02 13:53 UTC</time>
           <span class="status" data-i18n="status-new">New event</span>
@@ -1249,7 +1254,7 @@
 
 
       <!-- 3. Earlier: southern East Pacific Rise mww 5.9 -->
-      <article class="entry" data-entry-id="usgs-us7000tdms">
+      <article class="entry" data-entry-id="usgs-us7000tdms" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-02T12:35:56Z">2026-09-02 12:35 UTC</time>
           <span class="status" data-i18n="status-earlier">Earlier event</span>
@@ -1290,7 +1295,7 @@
 
 
       <!-- 3. Earlier: South Sandwich Islands mb 5.2 -->
-      <article class="entry" data-entry-id="usgs-us7000tdkr">
+      <article class="entry" data-entry-id="usgs-us7000tdkr" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-02T10:54:02Z">2026-09-02 10:54 UTC</time>
           <span class="status" data-i18n="status-earlier">Earlier event</span>
@@ -1330,7 +1335,7 @@
       </article>
 
       <!-- 3. Earlier: Arthurs Point / New Zealand mww 5.2 -->
-      <article class="entry" data-entry-id="usgs-us7000tdjg">
+      <article class="entry" data-entry-id="usgs-us7000tdjg" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-02T06:57:12Z">2026-09-02 06:57 UTC</time>
           <span class="status" data-i18n="status-earlier">Earlier event</span>
@@ -1370,7 +1375,7 @@
       </article>
 
       <!-- 3. Earlier: Arthurs Point / New Zealand mb 5.3 -->
-      <article class="entry" data-entry-id="usgs-us7000tdj8">
+      <article class="entry" data-entry-id="usgs-us7000tdj8" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-02T06:13:33Z">2026-09-02 06:13 UTC</time>
           <span class="status" data-i18n="status-earlier">Earlier event</span>
@@ -1410,7 +1415,7 @@
       </article>
 
       <!-- 3. Earlier: Nikolski / Alaska mb 5.2 -->
-      <article class="entry" data-entry-id="usgs-us7000tdin">
+      <article class="entry" data-entry-id="usgs-us7000tdin" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-02T05:14:00Z">2026-09-02 05:14 UTC</time>
           <span class="status" data-i18n="status-earlier">Earlier event</span>
@@ -1450,7 +1455,7 @@
       </article>
 
       <!-- 3. Earlier: Abepura / Indonesia mb 5.6 -->
-      <article class="entry" data-entry-id="usgs-us7000tdhl">
+      <article class="entry" data-entry-id="usgs-us7000tdhl" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-02T00:04:55Z">2026-09-02 00:04 UTC</time>
           <span class="status" data-i18n="status-earlier">Earlier event</span>
@@ -1490,7 +1495,7 @@
       </article>
 
       <!-- 3. Mid-Indian Ridge mb 4.7 (kept) -->
-      <article class="entry" data-entry-id="usgs-us7000tdh3">
+      <article class="entry" data-entry-id="usgs-us7000tdh3" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-01T22:37:43Z">2026-09-01 22:37 UTC</time>
           <span class="status" data-i18n="status-earlier">Earlier event</span>
@@ -1530,7 +1535,7 @@
       </article>
 
       <!-- 4. Mutsu mb 4.6 -->
-      <article class="entry" data-entry-id="usgs-us7000tdfa">
+      <article class="entry" data-entry-id="usgs-us7000tdfa" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-01T19:21:23Z">2026-09-01 19:21 UTC</time>
           <span class="status" data-i18n="status-earlier">Earlier event</span>
@@ -1570,7 +1575,7 @@
       </article>
 
       <!-- 5. Vanuatu mb 5.0 -->
-      <article class="entry" data-entry-id="usgs-us7000tdey">
+      <article class="entry" data-entry-id="usgs-us7000tdey" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-01T18:37:29Z">2026-09-01 18:37 UTC</time>
           <span class="status" data-i18n="status-earlier">Earlier event</span>
@@ -1610,7 +1615,7 @@
       </article>
 
       <!-- 6. Philippines mww 5.2 (first live entry) -->
-      <article class="entry" data-entry-id="usgs-us7000tdbr">
+      <article class="entry" data-entry-id="usgs-us7000tdbr" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-01T13:22:30Z">2026-09-01 13:22 UTC</time>
           <span class="status" data-i18n="status-earlier">Earlier event</span>
@@ -1686,6 +1691,23 @@
       localStorage.setItem("evidaily-theme", next);
       updateThemeIcon();
     }
+
+
+    function setFilter(cat) {
+      localStorage.setItem("evidaily-filter", cat);
+      document.querySelectorAll(".filter-btn").forEach(function(btn) {
+        btn.classList.toggle("active", btn.getAttribute("data-filter") === cat);
+      });
+      document.querySelectorAll("article.entry").forEach(function(el) {
+        var c = el.getAttribute("data-category") || "other";
+        el.style.display = (cat === "all" || c === cat) ? "" : "none";
+      });
+    }
+
+    (function initFilter() {
+      var saved = localStorage.getItem("evidaily-filter") || "all";
+      setFilter(saved);
+    })();
 
     updateThemeIcon();
   </script>
