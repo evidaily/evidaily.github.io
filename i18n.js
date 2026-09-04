@@ -554,7 +554,7 @@ const translations = {
     "data-title": "關鍵數據",
     "evidence-heading": "證據鏈",
     "kp-conclusion": "行星地磁活動維持平靜至輕微擾動：最新估計 Kp = 2.00（低於 G1 磁暴門檻）。",
-    "viz-kp": "估計 Kp（0–9）。標記在 0.67",
+    "viz-kp": "估計 Kp（0–9）。標記在 2.00",
     "kp-data-title": "關鍵數據",
     "kp-time": "取樣時間：2026-09-03 23:59 UTC",
     "kp-est": "估計 Kp：2.00（標籤 2Z）",
