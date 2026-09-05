@@ -47,18 +47,18 @@
         <button class="filter-btn" data-filter="quake" onclick="setFilter('quake')" data-i18n="filter-quake">Earthquakes</button>
       </div>
 
-      <!-- 1. NOAA Kp (newest sample 11:00 UTC) -->
+      <!-- 1. NOAA Kp (newest sample 12:06 UTC) -->
       <article class="entry" data-entry-id="noaa-kp-1m" data-category="space">
         <div class="entry-meta">
-          <time datetime="2026-09-05T11:00:00Z">2026-09-05 11:00 UTC</time>
+          <time datetime="2026-09-05T12:06:00Z">2026-09-05 12:06 UTC</time>
           <span class="status" data-i18n="status-live">Live data</span>
         </div>
-        <h3 class="conclusion" data-i18n="kp-conclusion">Planetary geomagnetic activity remained quiet: latest estimated Kp = 1.67 (below G1 storm threshold).</h3>
+        <h3 class="conclusion" data-i18n="kp-conclusion">Planetary geomagnetic activity remained quiet: latest estimated Kp = 0.00 (below G1 storm threshold).</h3>
 
         <div class="viz">
-          <div class="viz-label" data-i18n="viz-kp">Estimated Kp (0–9). Marker at 1.67</div>
+          <div class="viz-label" data-i18n="viz-kp">Estimated Kp (0–9). Marker at 0.00</div>
           <div class="bar-track">
-            <div class="bar-fill" style="width:18.6%"></div>
+            <div class="bar-fill" style="width:0%"></div>
           </div>
           <div class="scale-row"><span>0</span><span>G1=5</span><span>9</span></div>
         </div>
@@ -66,9 +66,9 @@
         <div class="data-block">
           <p><strong data-i18n="kp-data-title">Key data</strong></p>
           <ul class="data-list">
-            <li data-i18n="kp-time">Sample time: 2026-09-05 11:00 UTC</li>
-            <li data-i18n="kp-est">Estimated Kp: 1.67 (label 2M)</li>
-            <li data-i18n="kp-max">Max estimated Kp in recent ~3 h window: 2.33</li>
+            <li data-i18n="kp-time">Sample time: 2026-09-05 12:06 UTC</li>
+            <li data-i18n="kp-est">Estimated Kp: 0.00 (label 0Z)</li>
+            <li data-i18n="kp-max">Max estimated Kp in recent ~3 h window: 2.00</li>
           </ul>
         </div>
 
@@ -89,7 +89,87 @@
       
       
       
-      <article class="entry" data-entry-id="usgs-us7000tehs" data-category="quake">
+      
+      <article class="entry" data-entry-id="usgs-us7000tej2" data-category="quake">
+        <div class="entry-meta">
+          <time datetime="2026-09-05T11:37:12Z">2026-09-05 11:37 UTC</time>
+          <span class="status" data-i18n="status-new">New event</span>
+        </div>
+        <h3 class="conclusion" data-i18n="eq-tej2-conclusion">A magnitude 5.1 earthquake occurred 69 km E of Antofagasta de la Sierra, Argentina on 5 September 2026.</h3>
+
+        <div class="viz">
+          <div class="viz-label" data-i18n="eq-tej2-viz">Magnitude scale (0–10). Marker at 5.1</div>
+          <div class="bar-track" title="mww 5.1">
+            <div class="bar-fill" style="width:51%"></div>
+          </div>
+          <div class="scale-row"><span>0</span><span>5</span><span>10</span></div>
+        </div>
+
+        <div class="data-block">
+          <p><strong data-i18n="data-title">Key data</strong></p>
+          <ul class="data-list">
+            <li data-i18n="eq-tej2-mag">Magnitude: 5.1 (mww)</li>
+            <li data-i18n="eq-tej2-place">Location: 69 km E of Antofagasta de la Sierra, Argentina</li>
+            <li data-i18n="eq-tej2-time">Origin time: 2026-09-05 11:37:12 UTC</li>
+            <li data-i18n="eq-tej2-depth">Depth: approximately 10 km</li>
+            <li data-i18n="eq-tej2-id">Event ID: us7000tej2</li>
+          </ul>
+        </div>
+
+        <div class="evidence-chain">
+          <h4 data-i18n="evidence-heading">Evidence Chain</h4>
+          <ul>
+            <li data-i18n="eq-tej2-source">Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000tej2</li>
+            <li data-i18n="eq-tej2-method">Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected newly appeared NEIC (us*) events not yet listed on this page.</li>
+            <li data-i18n="eq-tej2-link">Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000tej2</li>
+            <li data-i18n="eq-tej2-feed">Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson</li>
+            <li data-i18n="eq-tej2-repro">Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.</li>
+            <li data-i18n="eq-tej2-limit">Limitation: Catalog parameters can be revised after review; depth and hypocenter may be refined. The past-day feed is a rolling window.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="entry" data-entry-id="usgs-us7000teiy" data-category="quake">
+        <div class="entry-meta">
+          <time datetime="2026-09-05T10:59:15Z">2026-09-05 10:59 UTC</time>
+          <span class="status" data-i18n="status-new">New event</span>
+        </div>
+        <h3 class="conclusion" data-i18n="eq-teiy-conclusion">A magnitude 5.0 earthquake occurred 70 km SW of Pagar Alam, Indonesia on 5 September 2026.</h3>
+
+        <div class="viz">
+          <div class="viz-label" data-i18n="eq-teiy-viz">Magnitude scale (0–10). Marker at 5.0</div>
+          <div class="bar-track" title="mb 5.0">
+            <div class="bar-fill" style="width:50%"></div>
+          </div>
+          <div class="scale-row"><span>0</span><span>5</span><span>10</span></div>
+        </div>
+
+        <div class="data-block">
+          <p><strong data-i18n="data-title">Key data</strong></p>
+          <ul class="data-list">
+            <li data-i18n="eq-teiy-mag">Magnitude: 5.0 (mb)</li>
+            <li data-i18n="eq-teiy-place">Location: 70 km SW of Pagar Alam, Indonesia</li>
+            <li data-i18n="eq-teiy-time">Origin time: 2026-09-05 10:59:15 UTC</li>
+            <li data-i18n="eq-teiy-depth">Depth: approximately 69 km</li>
+            <li data-i18n="eq-teiy-id">Event ID: us7000teiy</li>
+          </ul>
+        </div>
+
+        <div class="evidence-chain">
+          <h4 data-i18n="evidence-heading">Evidence Chain</h4>
+          <ul>
+            <li data-i18n="eq-teiy-source">Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000teiy</li>
+            <li data-i18n="eq-teiy-method">Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected newly appeared NEIC (us*) events not yet listed on this page.</li>
+            <li data-i18n="eq-teiy-link">Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000teiy</li>
+            <li data-i18n="eq-teiy-feed">Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson</li>
+            <li data-i18n="eq-teiy-repro">Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.</li>
+            <li data-i18n="eq-teiy-limit">Limitation: Catalog parameters can be revised after review; depth and hypocenter may be refined. The past-day feed is a rolling window.</li>
+          </ul>
+        </div>
+      </article>
+
+
+<article class="entry" data-entry-id="usgs-us7000tehs" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-05T06:34:55Z">2026-09-05 06:34 UTC</time>
           <span class="status" data-i18n="status-new">New event</span>
