@@ -47,10 +47,10 @@
         <button class="filter-btn" data-filter="quake" onclick="setFilter('quake')" data-i18n="filter-quake">Earthquakes</button>
       </div>
 
-      <!-- 1. NOAA Kp (newest sample 21:58 UTC) -->
+      <!-- 1. NOAA Kp (newest sample 00:02 UTC) -->
       <article class="entry" data-entry-id="noaa-kp-1m" data-category="space">
         <div class="entry-meta">
-          <time datetime="2026-09-04T23:06:00Z">2026-09-04 23:06 UTC</time>
+          <time datetime="2026-09-05T00:02:00Z">2026-09-05 00:02 UTC</time>
           <span class="status" data-i18n="status-live">Live data</span>
         </div>
         <h3 class="conclusion" data-i18n="kp-conclusion">Planetary geomagnetic activity remained quiet: latest estimated Kp = 0.00 (below G1 storm threshold).</h3>
@@ -66,7 +66,7 @@
         <div class="data-block">
           <p><strong data-i18n="kp-data-title">Key data</strong></p>
           <ul class="data-list">
-            <li data-i18n="kp-time">Sample time: 2026-09-04 23:06 UTC</li>
+            <li data-i18n="kp-time">Sample time: 2026-09-05 00:02 UTC</li>
             <li data-i18n="kp-est">Estimated Kp: 0.00 (label 0Z)</li>
             <li data-i18n="kp-max">Max estimated Kp in recent ~3 h window: 0.67</li>
           </ul>
@@ -84,6 +84,85 @@
         </div>
       </article>
 
+
+
+      <article class="entry" data-entry-id="usgs-us7000tefx" data-category="quake">
+        <div class="entry-meta">
+          <time datetime="2026-09-04T23:52:30Z">2026-09-04 23:52 UTC</time>
+          <span class="status" data-i18n="status-new">New event</span>
+        </div>
+        <h3 class="conclusion" data-i18n="eq-tefx-conclusion">A magnitude 5.5 earthquake occurred 156 km E of Kuril’sk, Russia on 4 September 2026.</h3>
+
+        <div class="viz">
+          <div class="viz-label" data-i18n="eq-tefx-viz">Magnitude scale (0–10). Marker at 5.5</div>
+          <div class="bar-track" title="mww 5.5">
+            <div class="bar-fill" style="width:55%"></div>
+          </div>
+          <div class="scale-row"><span>0</span><span>5</span><span>10</span></div>
+        </div>
+
+        <div class="data-block">
+          <p><strong data-i18n="data-title">Key data</strong></p>
+          <ul class="data-list">
+            <li data-i18n="eq-tefx-mag">Magnitude: 5.5 (mww)</li>
+            <li data-i18n="eq-tefx-place">Location: 156 km E of Kuril’sk, Russia</li>
+            <li data-i18n="eq-tefx-time">Origin time: 2026-09-04 23:52:30 UTC</li>
+            <li data-i18n="eq-tefx-depth">Depth: approximately 36 km</li>
+            <li data-i18n="eq-tefx-id">Event ID: us7000tefx</li>
+          </ul>
+        </div>
+
+        <div class="evidence-chain">
+          <h4 data-i18n="evidence-heading">Evidence Chain</h4>
+          <ul>
+            <li data-i18n="eq-tefx-source">Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000tefx</li>
+            <li data-i18n="eq-tefx-method">Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected newly appeared NEIC (us*) events not yet listed on this page.</li>
+            <li data-i18n="eq-tefx-link">Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000tefx</li>
+            <li data-i18n="eq-tefx-feed">Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson</li>
+            <li data-i18n="eq-tefx-repro">Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.</li>
+            <li data-i18n="eq-tefx-limit">Limitation: Catalog parameters can be revised after review; depth and hypocenter may be refined. The past-day feed is a rolling window.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="entry" data-entry-id="usgs-us7000tefw" data-category="quake">
+        <div class="entry-meta">
+          <time datetime="2026-09-04T23:38:40Z">2026-09-04 23:38 UTC</time>
+          <span class="status" data-i18n="status-new">New event</span>
+        </div>
+        <h3 class="conclusion" data-i18n="eq-tefw-conclusion">A magnitude 5.1 earthquake occurred on the central Mid-Atlantic Ridge on 4 September 2026.</h3>
+
+        <div class="viz">
+          <div class="viz-label" data-i18n="eq-tefw-viz">Magnitude scale (0–10). Marker at 5.1</div>
+          <div class="bar-track" title="mww 5.1">
+            <div class="bar-fill" style="width:51%"></div>
+          </div>
+          <div class="scale-row"><span>0</span><span>5</span><span>10</span></div>
+        </div>
+
+        <div class="data-block">
+          <p><strong data-i18n="data-title">Key data</strong></p>
+          <ul class="data-list">
+            <li data-i18n="eq-tefw-mag">Magnitude: 5.1 (mww)</li>
+            <li data-i18n="eq-tefw-place">Location: central Mid-Atlantic Ridge</li>
+            <li data-i18n="eq-tefw-time">Origin time: 2026-09-04 23:38:40 UTC</li>
+            <li data-i18n="eq-tefw-depth">Depth: approximately 10 km</li>
+            <li data-i18n="eq-tefw-id">Event ID: us7000tefw</li>
+          </ul>
+        </div>
+
+        <div class="evidence-chain">
+          <h4 data-i18n="evidence-heading">Evidence Chain</h4>
+          <ul>
+            <li data-i18n="eq-tefw-source">Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000tefw</li>
+            <li data-i18n="eq-tefw-method">Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected newly appeared NEIC (us*) events not yet listed on this page.</li>
+            <li data-i18n="eq-tefw-link">Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000tefw</li>
+            <li data-i18n="eq-tefw-feed">Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson</li>
+            <li data-i18n="eq-tefw-repro">Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.</li>
+            <li data-i18n="eq-tefw-limit">Limitation: Catalog parameters can be revised after review; depth and hypocenter may be refined. The past-day feed is a rolling window.</li>
+          </ul>
+        </div>
+      </article>
 
       <article class="entry" data-entry-id="usgs-us7000tede" data-category="quake">
         <div class="entry-meta">
