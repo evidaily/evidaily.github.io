@@ -47,10 +47,10 @@
         <button class="filter-btn" data-filter="quake" onclick="setFilter('quake')" data-i18n="filter-quake">Earthquakes</button>
       </div>
 
-      <!-- 1. NOAA Kp (newest sample 00:02 UTC) -->
+      <!-- 1. NOAA Kp (newest sample 01:06 UTC) -->
       <article class="entry" data-entry-id="noaa-kp-1m" data-category="space">
         <div class="entry-meta">
-          <time datetime="2026-09-05T00:02:00Z">2026-09-05 00:02 UTC</time>
+          <time datetime="2026-09-05T01:06:00Z">2026-09-05 01:06 UTC</time>
           <span class="status" data-i18n="status-live">Live data</span>
         </div>
         <h3 class="conclusion" data-i18n="kp-conclusion">Planetary geomagnetic activity remained quiet: latest estimated Kp = 0.00 (below G1 storm threshold).</h3>
@@ -66,7 +66,7 @@
         <div class="data-block">
           <p><strong data-i18n="kp-data-title">Key data</strong></p>
           <ul class="data-list">
-            <li data-i18n="kp-time">Sample time: 2026-09-05 00:02 UTC</li>
+            <li data-i18n="kp-time">Sample time: 2026-09-05 01:06 UTC</li>
             <li data-i18n="kp-est">Estimated Kp: 0.00 (label 0Z)</li>
             <li data-i18n="kp-max">Max estimated Kp in recent ~3 h window: 0.67</li>
           </ul>
@@ -86,6 +86,47 @@
 
 
 
+      
+      <article class="entry" data-entry-id="usgs-us7000teg7" data-category="quake">
+        <div class="entry-meta">
+          <time datetime="2026-09-05T00:22:45Z">2026-09-05 00:22 UTC</time>
+          <span class="status" data-i18n="status-new">New event</span>
+        </div>
+        <h3 class="conclusion" data-i18n="eq-teg7-conclusion">A magnitude 4.5 earthquake occurred 159 km ENE of Noda, Japan on 5 September 2026.</h3>
+
+        <div class="viz">
+          <div class="viz-label" data-i18n="eq-teg7-viz">Magnitude scale (0–10). Marker at 4.5</div>
+          <div class="bar-track" title="mb 4.5">
+            <div class="bar-fill" style="width:45%"></div>
+          </div>
+          <div class="scale-row"><span>0</span><span>5</span><span>10</span></div>
+        </div>
+
+        <div class="data-block">
+          <p><strong data-i18n="data-title">Key data</strong></p>
+          <ul class="data-list">
+            <li data-i18n="eq-teg7-mag">Magnitude: 4.5 (mb)</li>
+            <li data-i18n="eq-teg7-place">Location: 159 km ENE of Noda, Japan</li>
+            <li data-i18n="eq-teg7-time">Origin time: 2026-09-05 00:22:45 UTC</li>
+            <li data-i18n="eq-teg7-depth">Depth: approximately 34 km</li>
+            <li data-i18n="eq-teg7-id">Event ID: us7000teg7</li>
+          </ul>
+        </div>
+
+        <div class="evidence-chain">
+          <h4 data-i18n="evidence-heading">Evidence Chain</h4>
+          <ul>
+            <li data-i18n="eq-teg7-source">Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000teg7</li>
+            <li data-i18n="eq-teg7-method">Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected newly appeared NEIC (us*) events not yet listed on this page.</li>
+            <li data-i18n="eq-teg7-link">Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000teg7</li>
+            <li data-i18n="eq-teg7-feed">Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson</li>
+            <li data-i18n="eq-teg7-repro">Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.</li>
+            <li data-i18n="eq-teg7-limit">Limitation: Catalog parameters can be revised after review; depth and hypocenter may be refined. The past-day feed is a rolling window.</li>
+          </ul>
+        </div>
+      </article>
+
+      
       <article class="entry" data-entry-id="usgs-us7000tefx" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-04T23:52:30Z">2026-09-04 23:52 UTC</time>
@@ -163,6 +204,46 @@
           </ul>
         </div>
       </article>
+
+      <article class="entry" data-entry-id="usgs-us7000tefr" data-category="quake">
+        <div class="entry-meta">
+          <time datetime="2026-09-04T23:17:48Z">2026-09-04 23:17 UTC</time>
+          <span class="status" data-i18n="status-new">New event</span>
+        </div>
+        <h3 class="conclusion" data-i18n="eq-tefr-conclusion">A magnitude 4.5 earthquake occurred 38 km NNE of Ruteng, Indonesia on 4 September 2026.</h3>
+
+        <div class="viz">
+          <div class="viz-label" data-i18n="eq-tefr-viz">Magnitude scale (0–10). Marker at 4.5</div>
+          <div class="bar-track" title="mb 4.5">
+            <div class="bar-fill" style="width:45%"></div>
+          </div>
+          <div class="scale-row"><span>0</span><span>5</span><span>10</span></div>
+        </div>
+
+        <div class="data-block">
+          <p><strong data-i18n="data-title">Key data</strong></p>
+          <ul class="data-list">
+            <li data-i18n="eq-tefr-mag">Magnitude: 4.5 (mb)</li>
+            <li data-i18n="eq-tefr-place">Location: 38 km NNE of Ruteng, Indonesia</li>
+            <li data-i18n="eq-tefr-time">Origin time: 2026-09-04 23:17:48 UTC</li>
+            <li data-i18n="eq-tefr-depth">Depth: approximately 10 km</li>
+            <li data-i18n="eq-tefr-id">Event ID: us7000tefr</li>
+          </ul>
+        </div>
+
+        <div class="evidence-chain">
+          <h4 data-i18n="evidence-heading">Evidence Chain</h4>
+          <ul>
+            <li data-i18n="eq-tefr-source">Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000tefr</li>
+            <li data-i18n="eq-tefr-method">Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected newly appeared NEIC (us*) events not yet listed on this page.</li>
+            <li data-i18n="eq-tefr-link">Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000tefr</li>
+            <li data-i18n="eq-tefr-feed">Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson</li>
+            <li data-i18n="eq-tefr-repro">Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.</li>
+            <li data-i18n="eq-tefr-limit">Limitation: Catalog parameters can be revised after review; depth and hypocenter may be refined. The past-day feed is a rolling window.</li>
+          </ul>
+        </div>
+      </article>
+
 
       <article class="entry" data-entry-id="usgs-us7000tede" data-category="quake">
         <div class="entry-meta">
