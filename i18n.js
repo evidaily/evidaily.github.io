@@ -16,7 +16,7 @@ const translations = {
     "kp-conclusion": "Planetary geomagnetic activity remained quiet: latest estimated Kp = 3.67 (below G1 storm threshold).",
     "viz-kp": "Estimated Kp (0–9). Marker at 3.67",
     "kp-data-title": "Key data",
-    "kp-time": "Sample time: 2026-09-07 20:00 UTC",
+    "kp-time": "Sample time: 2026-09-07 20:59 UTC",
     "kp-est": "Estimated Kp: 3.67 (label 4M)",
     "kp-max": "Max estimated Kp in recent ~3 h window: 4.00",
 
@@ -1239,7 +1239,7 @@ const translations = {
     "kp-conclusion": "行星地磁活動維持平靜：最新估計 Kp = 3.67（低於 G1 磁暴門檻）。",
     "viz-kp": "估計 Kp（0–9）。標記在 3.67",
     "kp-data-title": "關鍵數據",
-    "kp-time": "取樣時間：2026-09-07 20:00 UTC",
+    "kp-time": "取樣時間：2026-09-07 20:59 UTC",
     "kp-est": "估計 Kp：3.67（標籤 4M）",
     "kp-max": "近約 3 小時窗最大估計 Kp：4.00",
 
