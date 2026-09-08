@@ -13,11 +13,11 @@ const translations = {
     "status-secondary": "Earlier today",
     "data-title": "Key data",
     "evidence-heading": "Evidence Chain",
-    "kp-conclusion": "Latest estimated Kp = 2.00; the recent ~3 h window maximum is 4.33, below the G1 minor-storm threshold.",
-    "viz-kp": "Estimated Kp (0–9). Marker at 2.00",
+    "kp-conclusion": "Latest estimated Kp = 2.67; the recent ~3 h window maximum is 4.33, below the G1 minor-storm threshold.",
+    "viz-kp": "Estimated Kp (0–9). Marker at 2.67",
     "kp-data-title": "Key data",
-    "kp-time": "Sample time: 2026-09-08 12:19 UTC",
-    "kp-est": "Estimated Kp: 2.00 (label 2Z)",
+    "kp-time": "Sample time: 2026-09-08 13:21 UTC",
+    "kp-est": "Estimated Kp: 2.67 (label 3M)",
     "kp-max": "Max estimated Kp in recent ~3 h window: 4.33 (2026-09-08 11:47 UTC)",
 
 
@@ -26,12 +26,12 @@ const translations = {
 
         
 
-    "eq-tftd-conclusion": "A magnitude 5.2 earthquake occurred 22 km SSE of Neiafu, Tonga on 8 September 2026.",
-    "eq-tftd-viz": "Magnitude scale (0–10). Marker at 5.2",
-    "eq-tftd-mag": "Magnitude: 5.2 (mb)",
-    "eq-tftd-place": "Location: 22 km SSE of Neiafu, Tonga",
-    "eq-tftd-time": "Origin time: 2026-09-08 11:51:12 UTC",
-    "eq-tftd-depth": "Depth: approximately 35 km",
+    "eq-tftd-conclusion": "A magnitude 5.3 earthquake occurred 26 km NW of Neiafu, Tonga on 8 September 2026.",
+    "eq-tftd-viz": "Magnitude scale (0–10). Marker at 5.3",
+    "eq-tftd-mag": "Magnitude: 5.3 (mb)",
+    "eq-tftd-place": "Location: 26 km NW of Neiafu, Tonga",
+    "eq-tftd-time": "Origin time: 2026-09-08 11:51:09 UTC",
+    "eq-tftd-depth": "Depth: approximately 10 km",
     "eq-tftd-id": "Event ID: us7000tftd",
     "eq-tftd-source": "Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000tftd",
     "eq-tftd-method": "Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected newly appeared NEIC (us*) events not yet listed on this page.",
@@ -1367,12 +1367,12 @@ const translations = {
     "status-secondary": "稍早更新",
     "data-title": "關鍵數據",
     "evidence-heading": "證據鏈",
-"kp-conclusion": "最新估計 Kp = 2.00；近約 3 小時窗最大值為 4.33，低於 G1 輕度磁暴門檻。",
+"kp-conclusion": "最新估計 Kp = 2.67；近約 3 小時窗最大值為 4.33，低於 G1 輕度磁暴門檻。",
 
-    "viz-kp": "估計 Kp（0–9）。標記在 2.00",
+    "viz-kp": "估計 Kp（0–9）。標記在 2.67",
     "kp-data-title": "關鍵數據",
-    "kp-time": "取樣時間：2026-09-08 12:19 UTC",
-    "kp-est": "估計 Kp：2.00（標籤 2Z）",
+    "kp-time": "取樣時間：2026-09-08 13:21 UTC",
+    "kp-est": "估計 Kp：2.67（標籤 3M）",
     "kp-max": "近約 3 小時窗最大估計 Kp：4.33（2026-09-08 11:47 UTC）",
 
 
@@ -1380,12 +1380,12 @@ const translations = {
 
         
 
-    "eq-tftd-conclusion": "2026 年 9 月 8 日，東加 Neiafu 南南東約 22 公里處發生規模 5.2 地震。",
-    "eq-tftd-viz": "規模尺（0–10）。標記在 5.2",
-    "eq-tftd-mag": "規模：5.2（mb）",
-    "eq-tftd-place": "位置：東加 Neiafu 南南東約 22 公里",
-    "eq-tftd-time": "發震時間：2026-09-08 11:51:12 UTC",
-    "eq-tftd-depth": "深度：約 35 公里",
+    "eq-tftd-conclusion": "2026 年 9 月 8 日，東加 Neiafu 西北西方約 26 公里處發生規模 5.3 地震。",
+    "eq-tftd-viz": "規模尺（0–10）。標記在 5.3",
+    "eq-tftd-mag": "規模：5.3（mb）",
+    "eq-tftd-place": "位置：東加 Neiafu 西北西約 26 公里",
+    "eq-tftd-time": "發震時間：2026-09-08 11:51:09 UTC",
+    "eq-tftd-depth": "深度：約 10 公里",
     "eq-tftd-id": "事件編號：us7000tftd",
     "eq-tftd-source": "來源：美國地質調查所（USGS）地震災害計畫 — 事件 us7000tftd",
     "eq-tftd-method": "方法：自公開 USGS M4.5+ 過去一日 GeoJSON 饋送取得，選取本頁尚未列出的新出現 NEIC（us*）事件。",
