@@ -13,11 +13,11 @@ const translations = {
     "status-secondary": "Earlier today",
     "data-title": "Key data",
     "evidence-heading": "Evidence Chain",
-    "kp-conclusion": "Latest estimated Kp = 2.00; recent-window maximum is 4.67 (label 5M), estimated_kp still below 5.0.",
-    "viz-kp": "Estimated Kp (0–9). Marker at 2.00",
+    "kp-conclusion": "Latest estimated Kp = 1.67; recent-window maximum is 4.67 (label 5M), estimated_kp still below 5.0.",
+    "viz-kp": "Estimated Kp (0–9). Marker at 1.67",
     "kp-data-title": "Key data",
-    "kp-time": "Sample time: 2026-09-08 19:02 UTC",
-    "kp-est": "Estimated Kp: 2.00 (label 2Z)",
+    "kp-time": "Sample time: 2026-09-08 20:07 UTC",
+    "kp-est": "Estimated Kp: 1.67 (label 2M)",
     "kp-max": "Max estimated Kp in recent ~3 h window: 4.67 (2026-09-08 17:41 UTC)",
 
 
@@ -1440,12 +1440,12 @@ const translations = {
     "status-secondary": "稍早更新",
     "data-title": "關鍵數據",
     "evidence-heading": "證據鏈",
-"kp-conclusion": "最新估計 Kp = 2.00；近窗最大值為 4.67（標籤 5M），estimated_kp 仍低於 5.0。",
+"kp-conclusion": "最新估計 Kp = 1.67；近窗最大值為 4.67（標籤 5M），estimated_kp 仍低於 5.0。",
 
-    "viz-kp": "估計 Kp（0–9）。標記在 2.00",
+    "viz-kp": "估計 Kp（0–9）。標記在 1.67",
     "kp-data-title": "關鍵數據",
-    "kp-time": "取樣時間：2026-09-08 19:02 UTC",
-    "kp-est": "估計 Kp：2.00（標籤 2Z）",
+    "kp-time": "取樣時間：2026-09-08 20:07 UTC",
+    "kp-est": "估計 Kp：1.67（標籤 2M）",
     "kp-max": "近約 3 小時窗最大估計 Kp：4.67（2026-09-08 17:41 UTC）",
 
 
