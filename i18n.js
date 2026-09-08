@@ -13,11 +13,11 @@ const translations = {
     "status-secondary": "Earlier today",
     "data-title": "Key data",
     "evidence-heading": "Evidence Chain",
-    "kp-conclusion": "Latest estimated Kp = 2.67; the recent ~3 h window maximum is 4.33, below the G1 minor-storm threshold.",
-    "viz-kp": "Estimated Kp (0–9). Marker at 2.67",
+    "kp-conclusion": "Latest estimated Kp = 3.00; the recent ~3 h window maximum is 4.33, below the G1 minor-storm threshold.",
+    "viz-kp": "Estimated Kp (0–9). Marker at 3.00",
     "kp-data-title": "Key data",
-    "kp-time": "Sample time: 2026-09-08 13:21 UTC",
-    "kp-est": "Estimated Kp: 2.67 (label 3M)",
+    "kp-time": "Sample time: 2026-09-08 14:38 UTC",
+    "kp-est": "Estimated Kp: 3.00 (label 3Z)",
     "kp-max": "Max estimated Kp in recent ~3 h window: 4.33 (2026-09-08 11:47 UTC)",
 
 
@@ -1367,12 +1367,12 @@ const translations = {
     "status-secondary": "稍早更新",
     "data-title": "關鍵數據",
     "evidence-heading": "證據鏈",
-"kp-conclusion": "最新估計 Kp = 2.67；近約 3 小時窗最大值為 4.33，低於 G1 輕度磁暴門檻。",
+"kp-conclusion": "最新估計 Kp = 3.00；近約 3 小時窗最大值為 4.33，低於 G1 輕度磁暴門檻。",
 
-    "viz-kp": "估計 Kp（0–9）。標記在 2.67",
+    "viz-kp": "估計 Kp（0–9）。標記在 3.00",
     "kp-data-title": "關鍵數據",
-    "kp-time": "取樣時間：2026-09-08 13:21 UTC",
-    "kp-est": "估計 Kp：2.67（標籤 3M）",
+    "kp-time": "取樣時間：2026-09-08 14:38 UTC",
+    "kp-est": "估計 Kp：3.00（標籤 3Z）",
     "kp-max": "近約 3 小時窗最大估計 Kp：4.33（2026-09-08 11:47 UTC）",
 
 
