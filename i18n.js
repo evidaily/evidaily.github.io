@@ -16,9 +16,9 @@ const translations = {
     "kp-conclusion": "Latest estimated Kp = 3.67; the recent ~3 h window maximum still sits at the G1 minor-storm threshold (5.00).",
     "viz-kp": "Estimated Kp (0–9). Marker at 3.67",
     "kp-data-title": "Key data",
-    "kp-time": "Sample time: 2026-09-08 10:02 UTC",
+    "kp-time": "Sample time: 2026-09-08 11:02 UTC",
     "kp-est": "Estimated Kp: 3.67 (label 4M)",
-    "kp-max": "Max estimated Kp in recent ~3 h window: 5.00 (2026-09-08 07:40 UTC)",
+    "kp-max": "Max estimated Kp in recent ~3 h window: 5.00 (2026-09-08 08:03 UTC)",
 
 
 
@@ -1342,9 +1342,9 @@ const translations = {
 
     "viz-kp": "估計 Kp（0–9）。標記在 3.67",
     "kp-data-title": "關鍵數據",
-    "kp-time": "取樣時間：2026-09-08 10:02 UTC",
+    "kp-time": "取樣時間：2026-09-08 11:02 UTC",
     "kp-est": "估計 Kp：3.67（標籤 4M）",
-    "kp-max": "近約 3 小時窗最大估計 Kp：5.00（2026-09-08 07:40 UTC）",
+    "kp-max": "近約 3 小時窗最大估計 Kp：5.00（2026-09-08 08:03 UTC）",
 
 
 
