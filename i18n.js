@@ -13,14 +13,30 @@ const translations = {
     "status-secondary": "Earlier today",
     "data-title": "Key data",
     "evidence-heading": "Evidence Chain",
-    "kp-conclusion": "Planetary geomagnetic activity remained below the G1 storm threshold: latest estimated Kp = 0.00.",
-    "viz-kp": "Estimated Kp (0–9). Marker at 0.00",
+    "kp-conclusion": "Planetary geomagnetic activity remained below the G1 storm threshold: latest estimated Kp = 3.33.",
+    "viz-kp": "Estimated Kp (0–9). Marker at 3.33",
     "kp-data-title": "Key data",
-    "kp-time": "Sample time: 2026-09-08 03:02 UTC",
-    "kp-est": "Estimated Kp: 0.00 (label 0Z)",
+    "kp-time": "Sample time: 2026-09-08 04:09 UTC",
+    "kp-est": "Estimated Kp: 3.33 (label 3P)",
     "kp-max": "Max estimated Kp in recent ~3 h window: 4.33",
 
 
+
+
+
+    "eq-tfqv-conclusion": "A magnitude 4.6 earthquake occurred 176 km SSE of Vilyuchinsk, Russia on 8 September 2026.",
+    "eq-tfqv-viz": "Magnitude scale (0–10). Marker at 4.6",
+    "eq-tfqv-mag": "Magnitude: 4.6 (mb)",
+    "eq-tfqv-place": "Location: 176 km SSE of Vilyuchinsk, Russia",
+    "eq-tfqv-time": "Origin time: 2026-09-08 02:34:20 UTC",
+    "eq-tfqv-depth": "Depth: approximately 25 km",
+    "eq-tfqv-id": "Event ID: us7000tfqv",
+    "eq-tfqv-source": "Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000tfqv",
+    "eq-tfqv-method": "Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected newly appeared NEIC (us*) events not yet listed on this page.",
+    "eq-tfqv-link": "Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000tfqv",
+    "eq-tfqv-feed": "Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+    "eq-tfqv-repro": "Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.",
+    "eq-tfqv-limit": "Limitation: Catalog parameters can be revised after review; depth and hypocenter may be refined. The past-day feed is a rolling window.",
 
     "eq-tfqi-conclusion": "A magnitude 4.5 earthquake occurred south of the Fiji Islands on 8 September 2026.",
     "eq-tfqi-viz": "Magnitude scale (0–10). Marker at 4.5",
@@ -1280,14 +1296,30 @@ const translations = {
     "status-secondary": "稍早更新",
     "data-title": "關鍵數據",
     "evidence-heading": "證據鏈",
-    "kp-conclusion": "行星地磁活動仍低於 G1 磁暴門檻：最新估計 Kp = 0.00。",
-    "viz-kp": "估計 Kp（0–9）。標記在 0.00",
+"kp-conclusion": "行星地磁活動仍低於 G1 磁暴門檻：最新估計 Kp = 3.33。",
+
+    "viz-kp": "估計 Kp（0–9）。標記在 3.33",
     "kp-data-title": "關鍵數據",
-    "kp-time": "取樣時間：2026-09-08 03:02 UTC",
-    "kp-est": "估計 Kp：0.00（標籤 0Z）",
+    "kp-time": "取樣時間：2026-09-08 04:09 UTC",
+    "kp-est": "估計 Kp：3.33（標籤 3P）",
     "kp-max": "近約 3 小時窗最大估計 Kp：4.33",
 
 
+
+
+    "eq-tfqv-conclusion": "2026 年 9 月 8 日，俄羅斯維柳欽斯克南南東 176 公里發生規模 4.6 地震。",
+    "eq-tfqv-viz": "規模尺（0–10）。標記在 4.6",
+    "eq-tfqv-mag": "規模：4.6（mb）",
+    "eq-tfqv-place": "位置：俄羅斯維柳欽斯克南南東 176 公里",
+    "eq-tfqv-time": "發震時間：2026-09-08 02:34:20 UTC",
+    "eq-tfqv-depth": "深度：約 25 公里",
+    "eq-tfqv-id": "事件編號：us7000tfqv",
+    "eq-tfqv-source": "來源：美國地質調查所（USGS）地震災害計畫 — 事件 us7000tfqv",
+    "eq-tfqv-method": "方法：自公開 USGS M4.5+ 過去一日 GeoJSON 饋送取得，選取本頁尚未列出的新出現 NEIC（us*）事件。",
+    "eq-tfqv-link": "事件頁：https://earthquake.usgs.gov/earthquakes/eventpage/us7000tfqv",
+    "eq-tfqv-feed": "使用饋送：https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+    "eq-tfqv-repro": "可重現性：任何人皆可開啟同一公開端點，無需驗證即可取得相同規模、座標與發震時間。",
+    "eq-tfqv-limit": "限制：目錄參數經審核後可能修正；深度與震源位置可能再精煉。過去一日饋送為滾動視窗。",
 
     "eq-tfqi-conclusion": "2026 年 9 月 8 日，斐濟群島南方發生規模 4.5 地震。",
     "eq-tfqi-viz": "規模尺（0–10）。標記在 4.5",
