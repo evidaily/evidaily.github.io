@@ -13,12 +13,12 @@ const translations = {
     "status-secondary": "Earlier today",
     "data-title": "Key data",
     "evidence-heading": "Evidence Chain",
-    "kp-conclusion": "Planetary geomagnetic activity remained below the G1 storm threshold: latest estimated Kp = 4.00.",
-    "viz-kp": "Estimated Kp (0–9). Marker at 4.00",
+    "kp-conclusion": "Planetary geomagnetic activity remained below the G1 storm threshold: latest estimated Kp = 3.33.",
+    "viz-kp": "Estimated Kp (0–9). Marker at 3.33",
     "kp-data-title": "Key data",
-    "kp-time": "Sample time: 2026-09-08 05:08 UTC",
-    "kp-est": "Estimated Kp: 4.00 (label 4Z)",
-    "kp-max": "Max estimated Kp in recent ~3 h window: 4.33",
+    "kp-time": "Sample time: 2026-09-08 05:59 UTC",
+    "kp-est": "Estimated Kp: 3.33 (label 3P)",
+    "kp-max": "Max estimated Kp in recent ~3 h window: 4.00",
 
 
 
@@ -1310,13 +1310,13 @@ const translations = {
     "status-secondary": "稍早更新",
     "data-title": "關鍵數據",
     "evidence-heading": "證據鏈",
-"kp-conclusion": "行星地磁活動仍低於 G1 磁暴門檻：最新估計 Kp = 4.00。",
+"kp-conclusion": "行星地磁活動仍低於 G1 磁暴門檻：最新估計 Kp = 3.33。",
 
-    "viz-kp": "估計 Kp（0–9）。標記在 4.00",
+    "viz-kp": "估計 Kp（0–9）。標記在 3.33",
     "kp-data-title": "關鍵數據",
-    "kp-time": "取樣時間：2026-09-08 05:08 UTC",
-    "kp-est": "估計 Kp：4.00（標籤 4Z）",
-    "kp-max": "近約 3 小時窗最大估計 Kp：4.33",
+    "kp-time": "取樣時間：2026-09-08 05:59 UTC",
+    "kp-est": "估計 Kp：3.33（標籤 3P）",
+    "kp-max": "近約 3 小時窗最大估計 Kp：4.00",
 
 
 
