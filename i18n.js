@@ -13,12 +13,12 @@ const translations = {
     "status-secondary": "Earlier today",
     "data-title": "Key data",
     "evidence-heading": "Evidence Chain",
-    "kp-conclusion": "Latest estimated Kp = 3.67; the recent ~3 h window maximum is 4.33, below the G1 minor-storm threshold.",
-    "viz-kp": "Estimated Kp (0–9). Marker at 3.67",
+    "kp-conclusion": "Latest estimated Kp = 0.00 at the start of a new 3-hour window; recent-window maximum is 4.67 (label 5M), estimated_kp still below 5.0.",
+    "viz-kp": "Estimated Kp (0–9). Marker at 0.00",
     "kp-data-title": "Key data",
-    "kp-time": "Sample time: 2026-09-08 17:07 UTC",
-    "kp-est": "Estimated Kp: 3.67 (label 4M)",
-    "kp-max": "Max estimated Kp in recent ~3 h window: 4.33 (2026-09-08 16:40 UTC)",
+    "kp-time": "Sample time: 2026-09-08 18:12 UTC",
+    "kp-est": "Estimated Kp: 0.00 (label 0Z)",
+    "kp-max": "Max estimated Kp in recent ~3 h window: 4.67 (2026-09-08 17:41 UTC)",
 
 
     "eq-tfur-conclusion": "A magnitude 4.9 earthquake occurred 97 km NNE of Chitre, Nepal on 8 September 2026.",
@@ -1440,13 +1440,13 @@ const translations = {
     "status-secondary": "稍早更新",
     "data-title": "關鍵數據",
     "evidence-heading": "證據鏈",
-"kp-conclusion": "最新估計 Kp = 3.67；近約 3 小時窗最大值為 4.33，低於 G1 輕度磁暴門檻。",
+"kp-conclusion": "最新估計 Kp = 0.00（新的 3 小時窗起點）；近窗最大值為 4.67（標籤 5M），estimated_kp 仍低於 5.0。",
 
-    "viz-kp": "估計 Kp（0–9）。標記在 3.67",
+    "viz-kp": "估計 Kp（0–9）。標記在 0.00",
     "kp-data-title": "關鍵數據",
-    "kp-time": "取樣時間：2026-09-08 17:07 UTC",
-    "kp-est": "估計 Kp：3.67（標籤 4M）",
-    "kp-max": "近約 3 小時窗最大估計 Kp：4.33（2026-09-08 16:40 UTC）",
+    "kp-time": "取樣時間：2026-09-08 18:12 UTC",
+    "kp-est": "估計 Kp：0.00（標籤 0Z）",
+    "kp-max": "近約 3 小時窗最大估計 Kp：4.67（2026-09-08 17:41 UTC）",
 
 
     "eq-tfur-conclusion": "2026 年 9 月 8 日，尼泊爾 Chitre 北北東約 97 公里處發生規模 4.9 地震。",
