@@ -47,18 +47,18 @@
         <button class="filter-btn" data-filter="quake" onclick="setFilter('quake')" data-i18n="filter-quake">Earthquakes</button>
       </div>
 
-      <!-- 1. NOAA Kp (newest sample 20:57 UTC) -->
+      <!-- 1. NOAA Kp (newest sample 22:03 UTC) -->
       <article class="entry" data-entry-id="noaa-kp-1m" data-category="space">
         <div class="entry-meta">
-          <time datetime="2026-09-08T20:57:00Z">2026-09-08 20:57 UTC</time>
+          <time datetime="2026-09-08T22:03:00Z">2026-09-08 22:03 UTC</time>
           <span class="status" data-i18n="status-live">Live data</span>
         </div>
-        <h3 class="conclusion" data-i18n="kp-conclusion">Latest estimated Kp = 2.33; recent-window maximum is 4.67 (label 5M), estimated_kp still below 5.0.</h3>
+        <h3 class="conclusion" data-i18n="kp-conclusion">Latest estimated Kp = 2.67; recent-window maximum is 3.00 (label 3Z), estimated_kp still below 5.0.</h3>
 
         <div class="viz">
-          <div class="viz-label" data-i18n="viz-kp">Estimated Kp (0–9). Marker at 2.33</div>
+          <div class="viz-label" data-i18n="viz-kp">Estimated Kp (0–9). Marker at 2.67</div>
           <div class="bar-track">
-            <div class="bar-fill" style="width:26%"></div>
+            <div class="bar-fill" style="width:30%"></div>
           </div>
           <div class="scale-row"><span>0</span><span>G1=5</span><span>9</span></div>
         </div>
@@ -66,9 +66,9 @@
         <div class="data-block">
           <p><strong data-i18n="kp-data-title">Key data</strong></p>
           <ul class="data-list">
-            <li data-i18n="kp-time">Sample time: 2026-09-08 20:57 UTC</li>
-            <li data-i18n="kp-est">Estimated Kp: 2.33 (label 2P)</li>
-            <li data-i18n="kp-max">Max estimated Kp in recent ~3 h window: 4.67 (2026-09-08 17:58 UTC)</li>
+            <li data-i18n="kp-time">Sample time: 2026-09-08 22:03 UTC</li>
+            <li data-i18n="kp-est">Estimated Kp: 2.67 (label 3M)</li>
+            <li data-i18n="kp-max">Max estimated Kp in recent ~3 h window: 3.00 (2026-09-08 20:40 UTC)</li>
           </ul>
         </div>
 
@@ -89,7 +89,47 @@
 
 
 
-      <article class="entry" data-entry-id="usgs-us7000tfur" data-category="quake">
+      
+      <article class="entry" data-entry-id="usgs-us7000tfxd" data-category="quake">
+        <div class="entry-meta">
+          <time datetime="2026-09-08T21:42:22Z">2026-09-08 21:42 UTC</time>
+          <span class="status" data-i18n="status-new">New event</span>
+        </div>
+        <h3 class="conclusion" data-i18n="eq-tfxd-conclusion">A magnitude 4.6 earthquake occurred 54 km NNE of Ruteng, Indonesia on 8 September 2026.</h3>
+
+        <div class="viz">
+          <div class="viz-label" data-i18n="eq-tfxd-viz">Magnitude scale (0–10). Marker at 4.6</div>
+          <div class="bar-track" title="mb 4.6">
+            <div class="bar-fill" style="width:46%"></div>
+          </div>
+          <div class="scale-row"><span>0</span><span>5</span><span>10</span></div>
+        </div>
+
+        <div class="data-block">
+          <p><strong data-i18n="data-title">Key data</strong></p>
+          <ul class="data-list">
+            <li data-i18n="eq-tfxd-mag">Magnitude: 4.6 (mb)</li>
+            <li data-i18n="eq-tfxd-place">Location: 54 km NNE of Ruteng, Indonesia</li>
+            <li data-i18n="eq-tfxd-time">Origin time: 2026-09-08 21:42:22 UTC</li>
+            <li data-i18n="eq-tfxd-depth">Depth: approximately 17 km</li>
+            <li data-i18n="eq-tfxd-id">Event ID: us7000tfxd</li>
+          </ul>
+        </div>
+
+        <div class="evidence-chain">
+          <h4 data-i18n="evidence-heading">Evidence Chain</h4>
+          <ul>
+            <li data-i18n="eq-tfxd-source">Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000tfxd</li>
+            <li data-i18n="eq-tfxd-method">Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected newly appeared NEIC (us*) events not yet listed on this page.</li>
+            <li data-i18n="eq-tfxd-link">Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000tfxd</li>
+            <li data-i18n="eq-tfxd-feed">Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson</li>
+            <li data-i18n="eq-tfxd-repro">Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.</li>
+            <li data-i18n="eq-tfxd-limit">Limitation: Catalog parameters can be revised after review; depth and hypocenter may be refined. The past-day feed is a rolling window.</li>
+          </ul>
+        </div>
+      </article>
+
+<article class="entry" data-entry-id="usgs-us7000tfur" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-08T16:08:34Z">2026-09-08 16:08 UTC</time>
           <span class="status" data-i18n="status-new">New event</span>
@@ -3998,44 +4038,7 @@
       </article>
 
       <!-- 6. Philippines mww 5.2 (first live entry) -->
-      <article class="entry" data-entry-id="usgs-us7000tdbr" data-category="quake">
-        <div class="entry-meta">
-          <time datetime="2026-09-01T13:22:30Z">2026-09-01 13:22 UTC</time>
-          <span class="status" data-i18n="status-earlier">Earlier event</span>
-        </div>
-        <h3 class="conclusion" data-i18n="eq-tdbr-conclusion">A magnitude 5.2 earthquake occurred southeast of Sarangani, Philippines on 1 September 2026.</h3>
-
-        <div class="viz">
-          <div class="viz-label" data-i18n="eq-tdbr-viz">Magnitude scale (0–10). Marker at 5.2</div>
-          <div class="bar-track" title="mww 5.2">
-            <div class="bar-fill" style="width:52%"></div>
-          </div>
-          <div class="scale-row"><span>0</span><span>5</span><span>10</span></div>
-        </div>
-
-        <div class="data-block">
-          <p><strong data-i18n="data-title">Key data</strong></p>
-          <ul class="data-list">
-            <li data-i18n="eq-tdbr-mag">Magnitude: 5.2 (mww)</li>
-            <li data-i18n="eq-tdbr-place">Location: 35 km SE of Sarangani, Philippines</li>
-            <li data-i18n="eq-tdbr-time">Origin time: 2026-09-01 13:22:30 UTC</li>
-            <li data-i18n="eq-tdbr-depth">Depth: approximately 121 km</li>
-            <li data-i18n="eq-tdbr-id">Event ID: us7000tdbr</li>
-          </ul>
-        </div>
-
-        <div class="evidence-chain">
-          <h4 data-i18n="evidence-heading">Evidence Chain</h4>
-          <ul>
-            <li data-i18n="eq-tdbr-source">Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000tdbr</li>
-            <li data-i18n="eq-tdbr-method">Method: First live Evidence Daily entry. Retrieved from the public USGS GeoJSON feed and event page. Magnitude type is moment magnitude (mww).</li>
-            <li data-i18n="eq-tdbr-link">Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdbr</li>
-            <li data-i18n="eq-tdbr-feed">Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson</li>
-            <li data-i18n="eq-tdbr-repro">Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.</li>
-            <li data-i18n="eq-tdbr-limit">Limitation: Catalog parameters can be revised after review; depth and magnitude type may change.</li>
-          </ul>
-        </div>
-      </article>
+      
     </section>
 
     <section class="about">
