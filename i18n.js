@@ -13,12 +13,28 @@ const translations = {
     "status-secondary": "Earlier today",
     "data-title": "Key data",
     "evidence-heading": "Evidence Chain",
-    "kp-conclusion": "Latest estimated Kp = 3.00; the recent ~3 h window maximum is 4.33, below the G1 minor-storm threshold.",
-    "viz-kp": "Estimated Kp (0–9). Marker at 3.00",
+    "kp-conclusion": "Latest estimated Kp = 1.00; the recent ~3 h window maximum is 3.67, below the G1 minor-storm threshold.",
+    "viz-kp": "Estimated Kp (0–9). Marker at 1.00",
     "kp-data-title": "Key data",
-    "kp-time": "Sample time: 2026-09-08 14:38 UTC",
-    "kp-est": "Estimated Kp: 3.00 (label 3Z)",
-    "kp-max": "Max estimated Kp in recent ~3 h window: 4.33 (2026-09-08 11:47 UTC)",
+    "kp-time": "Sample time: 2026-09-08 15:12 UTC",
+    "kp-est": "Estimated Kp: 1.00 (label 1Z)",
+    "kp-max": "Max estimated Kp in recent ~3 h window: 3.67 (2026-09-08 12:56 UTC)",
+
+    "eq-tfty-conclusion": "A magnitude 4.7 earthquake occurred 62 km WSW of Ollagüe, Chile on 8 September 2026.",
+    "eq-tfty-viz": "Magnitude scale (0–10). Marker at 4.7",
+    "eq-tfty-mag": "Magnitude: 4.7 (mb)",
+    "eq-tfty-place": "Location: 62 km WSW of Ollagüe, Chile",
+    "eq-tfty-time": "Origin time: 2026-09-08 13:42:08 UTC",
+    "eq-tfty-depth": "Depth: approximately 111 km",
+    "eq-tfty-id": "Event ID: us7000tfty",
+    "eq-tfty-source": "Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000tfty",
+    "eq-tfty-method": "Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected newly appeared NEIC (us*) events not yet listed on this page.",
+    "eq-tfty-link": "Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000tfty",
+    "eq-tfty-feed": "Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+    "eq-tfty-repro": "Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.",
+    "eq-tfty-limit": "Limitation: Catalog parameters can be revised after review; depth and hypocenter may be refined. The past-day feed is a rolling window.",
+
+
 
 
 
@@ -1367,13 +1383,29 @@ const translations = {
     "status-secondary": "稍早更新",
     "data-title": "關鍵數據",
     "evidence-heading": "證據鏈",
-"kp-conclusion": "最新估計 Kp = 3.00；近約 3 小時窗最大值為 4.33，低於 G1 輕度磁暴門檻。",
+"kp-conclusion": "最新估計 Kp = 1.00；近約 3 小時窗最大值為 3.67，低於 G1 輕度磁暴門檻。",
 
-    "viz-kp": "估計 Kp（0–9）。標記在 3.00",
+    "viz-kp": "估計 Kp（0–9）。標記在 1.00",
     "kp-data-title": "關鍵數據",
-    "kp-time": "取樣時間：2026-09-08 14:38 UTC",
-    "kp-est": "估計 Kp：3.00（標籤 3Z）",
-    "kp-max": "近約 3 小時窗最大估計 Kp：4.33（2026-09-08 11:47 UTC）",
+    "kp-time": "取樣時間：2026-09-08 15:12 UTC",
+    "kp-est": "估計 Kp：1.00（標籤 1Z）",
+    "kp-max": "近約 3 小時窗最大估計 Kp：3.67（2026-09-08 12:56 UTC）",
+
+    "eq-tfty-conclusion": "2026 年 9 月 8 日，智利 Ollagüe 西南西約 62 公里處發生規模 4.7 地震。",
+    "eq-tfty-viz": "規模尺（0–10）。標記在 4.7",
+    "eq-tfty-mag": "規模：4.7（mb）",
+    "eq-tfty-place": "位置：智利 Ollagüe 西南西約 62 公里",
+    "eq-tfty-time": "發震時間：2026-09-08 13:42:08 UTC",
+    "eq-tfty-depth": "深度：約 111 公里",
+    "eq-tfty-id": "事件編號：us7000tfty",
+    "eq-tfty-source": "來源：美國地質調查所（USGS）地震災害計畫 — 事件 us7000tfty",
+    "eq-tfty-method": "方法：自公開 USGS M4.5+ 過去一日 GeoJSON 饋送取得，選取本頁尚未列出的新出現 NEIC（us*）事件。",
+    "eq-tfty-link": "事件頁：https://earthquake.usgs.gov/earthquakes/eventpage/us7000tfty",
+    "eq-tfty-feed": "饋送：https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+    "eq-tfty-repro": "可重現性：任何人皆可開啟相同公開端點，無需認證即可取得相同規模、座標與發震時間。",
+    "eq-tfty-limit": "限制：目錄參數可能於審核後修正；深度與震源位置可能再精煉。過去一日饋送為滾動視窗。",
+
+
 
 
 
