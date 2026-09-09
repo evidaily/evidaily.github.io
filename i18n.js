@@ -16,9 +16,9 @@ const translations = {
     "kp-conclusion": "Latest estimated Kp = 0.00; recent-window maximum is 2.67 (label 3M), estimated_kp still below 5.0.",
     "viz-kp": "Estimated Kp (0–9). Marker at 0.00",
     "kp-data-title": "Key data",
-    "kp-time": "Sample time: 2026-09-09 03:08 UTC",
+    "kp-time": "Sample time: 2026-09-09 04:07 UTC",
     "kp-est": "Estimated Kp: 0.00 (label 0Z)",
-    "kp-max": "Max estimated Kp in recent ~3 h window: 2.67 (2026-09-09 00:58 UTC)",
+    "kp-max": "Max estimated Kp in recent ~3 h window: 2.67 (2026-09-09 01:53 UTC)",
 
 
 
@@ -1487,9 +1487,9 @@ const translations = {
 
     "viz-kp": "估計 Kp（0–9）。標記在 0.00",
     "kp-data-title": "關鍵數據",
-    "kp-time": "取樣時間：2026-09-09 03:08 UTC",
+    "kp-time": "取樣時間：2026-09-09 04:07 UTC",
     "kp-est": "估計 Kp：0.00（標籤 0Z）",
-    "kp-max": "近約 3 小時窗最大估計 Kp：2.67（2026-09-09 00:58 UTC）",
+    "kp-max": "近約 3 小時窗最大估計 Kp：2.67（2026-09-09 01:53 UTC）",
 
 
 
