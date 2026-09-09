@@ -16,10 +16,25 @@ const translations = {
     "kp-conclusion": "Latest estimated Kp = 1.67; recent-window maximum is 3.00 (label 3Z), estimated_kp still below 5.0.",
     "viz-kp": "Estimated Kp (0–9). Marker at 1.67",
     "kp-data-title": "Key data",
-    "kp-time": "Sample time: 2026-09-09 01:04 UTC",
+    "kp-time": "Sample time: 2026-09-09 02:09 UTC",
     "kp-est": "Estimated Kp: 1.67 (label 2M)",
-    "kp-max": "Max estimated Kp in recent ~3 h window: 3.00 (2026-09-08 22:05 UTC)",
+    "kp-max": "Max estimated Kp in recent ~3 h window: 3.00 (2026-09-08 23:10 UTC)",
 
+
+
+    "eq-tfy8-conclusion": "A magnitude 4.9 earthquake occurred in the Mariana Islands region on 8 September 2026.",
+    "eq-tfy8-viz": "Magnitude scale (0–10). Marker at 4.9",
+    "eq-tfy8-mag": "Magnitude: 4.9 (mb)",
+    "eq-tfy8-place": "Location: Mariana Islands region",
+    "eq-tfy8-time": "Origin time: 2026-09-08 23:23:42 UTC",
+    "eq-tfy8-depth": "Depth: approximately 10 km",
+    "eq-tfy8-id": "Event ID: us7000tfy8",
+    "eq-tfy8-source": "Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000tfy8",
+    "eq-tfy8-method": "Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected newly appeared NEIC (us*) events not yet listed on this page.",
+    "eq-tfy8-link": "Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000tfy8",
+    "eq-tfy8-feed": "Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+    "eq-tfy8-repro": "Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.",
+    "eq-tfy8-limit": "Limitation: Catalog parameters can be revised after review; depth and hypocenter may be refined. The past-day feed is a rolling window.",
 
     "eq-tfxd-conclusion": "A magnitude 4.6 earthquake occurred 54 km NNE of Ruteng, Indonesia on 8 September 2026.",
     "eq-tfxd-viz": "Magnitude scale (0–10). Marker at 4.6",
@@ -1458,10 +1473,25 @@ const translations = {
 
     "viz-kp": "估計 Kp（0–9）。標記在 1.67",
     "kp-data-title": "關鍵數據",
-    "kp-time": "取樣時間：2026-09-09 01:04 UTC",
+    "kp-time": "取樣時間：2026-09-09 02:09 UTC",
     "kp-est": "估計 Kp：1.67（標籤 2M）",
-    "kp-max": "近約 3 小時窗最大估計 Kp：3.00（2026-09-08 22:05 UTC）",
+    "kp-max": "近約 3 小時窗最大估計 Kp：3.00（2026-09-08 23:10 UTC）",
 
+
+
+    "eq-tfy8-conclusion": "2026 年 9 月 8 日，馬里亞納群島地區發生規模 4.9 地震。",
+    "eq-tfy8-viz": "規模尺（0–10）。標記在 4.9",
+    "eq-tfy8-mag": "規模：4.9（mb）",
+    "eq-tfy8-place": "位置：馬里亞納群島地區",
+    "eq-tfy8-time": "發震時間：2026-09-08 23:23:42 UTC",
+    "eq-tfy8-depth": "深度：約 10 公里",
+    "eq-tfy8-id": "事件編號：us7000tfy8",
+    "eq-tfy8-source": "來源：美國地質調查局（USGS）地震災害計畫 — 事件 us7000tfy8",
+    "eq-tfy8-method": "方法：自 USGS 過去一日 M4.5+ 公開 GeoJSON 饋送取得，選出頁面上尚未列出的新 NEIC（us*）事件。",
+    "eq-tfy8-link": "事件頁：https://earthquake.usgs.gov/earthquakes/eventpage/us7000tfy8",
+    "eq-tfy8-feed": "使用饋送：https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+    "eq-tfy8-repro": "可重現性：任何人皆可開啟同一公開端點，取得相同規模、座標與發震時間，無需金鑰。",
+    "eq-tfy8-limit": "限制：目錄參數可能在審核後修正；深度與震源位置可能再精煉。過去一日饋送為滾動視窗。",
 
     "eq-tfxd-conclusion": "2026 年 9 月 8 日，印尼 Ruteng 北北東約 54 公里處發生規模 4.6 地震。",
     "eq-tfxd-viz": "規模尺（0–10）。標記在 4.6",
