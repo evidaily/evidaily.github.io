@@ -13,12 +13,12 @@ const translations = {
     "status-secondary": "Earlier today",
     "data-title": "Key data",
     "evidence-heading": "Evidence Chain",
-    "kp-conclusion": "Latest estimated Kp = 1.67; last-180-sample maximum is 2.33 (label 2P at 2026-09-10 21:38 UTC), published-series maximum is 2.33 (2P at 2026-09-10 21:38 UTC); estimated_kp still below 5.0.",
-    "viz-kp": "Estimated Kp (0–9). Marker at 1.67",
+    "kp-conclusion": "Latest estimated Kp = 2.67; last-180-sample maximum is 3.33 (label 3P at 2026-09-10 23:02 UTC), published-series maximum is 3.33 (3P at 2026-09-10 23:02 UTC); estimated_kp still below 5.0.",
+    "viz-kp": "Estimated Kp (0–9). Marker at 2.67",
     "kp-data-title": "Key data",
-    "kp-time": "Sample time: 2026-09-10 22:04 UTC",
-    "kp-est": "Estimated Kp: 1.67 (label 2M)",
-    "kp-max": "Max estimated Kp in last 180 samples: 2.33 (2026-09-10 21:38 UTC)",
+    "kp-time": "Sample time: 2026-09-10 23:03 UTC",
+    "kp-est": "Estimated Kp: 2.67 (label 3M)",
+    "kp-max": "Max estimated Kp in last 180 samples: 3.33 (2026-09-10 23:02 UTC)",
 
     
     "eq-tgf2-conclusion": "A magnitude 5.3 earthquake occurred 83 km E of Lospalos, Timor Leste on 10 September 2026.",
@@ -1754,13 +1754,13 @@ const translations = {
     "status-secondary": "稍早更新",
     "data-title": "關鍵數據",
     "evidence-heading": "證據鏈",
-"kp-conclusion": "最新估計 Kp = 1.67；近 180 筆最大值為 2.33（標籤 2P，2026-09-10 21:38 UTC），公開序列最大值為 2.33（2P，2026-09-10 21:38 UTC）；estimated_kp 仍低於 5.0。",
+"kp-conclusion": "最新估計 Kp = 2.67；近 180 筆最大值為 3.33（標籤 3P，2026-09-10 23:02 UTC），公開序列最大值為 3.33（3P，2026-09-10 23:02 UTC）；estimated_kp 仍低於 5.0。",
 
-    "viz-kp": "估計 Kp（0–9）。標記在 1.67",
+    "viz-kp": "估計 Kp（0–9）。標記在 2.67",
     "kp-data-title": "關鍵數據",
-    "kp-time": "取樣時間：2026-09-10 22:04 UTC",
-    "kp-est": "估計 Kp：1.67（標籤 2M）",
-    "kp-max": "近 180 筆最大估計 Kp：2.33（2026-09-10 21:38 UTC）",
+    "kp-time": "取樣時間：2026-09-10 23:03 UTC",
+    "kp-est": "估計 Kp：2.67（標籤 3M）",
+    "kp-max": "近 180 筆最大估計 Kp：3.33（2026-09-10 23:02 UTC）",
 
     
     "eq-tgf2-conclusion": "2026 年 9 月 10 日，東帝汶 Lospalos 以東約 83 公里處發生規模 5.3 地震。",
