@@ -47,18 +47,18 @@
         <button class="filter-btn" data-filter="quake" onclick="setFilter('quake')" data-i18n="filter-quake">Earthquakes</button>
       </div>
 
-      <!-- 1. NOAA Kp (newest sample 11:01 UTC) -->
+      <!-- 1. NOAA Kp (newest sample 13:12 UTC) -->
       <article class="entry" data-entry-id="noaa-kp-1m" data-category="space">
         <div class="entry-meta">
-          <time datetime="2026-09-10T12:03:00Z">2026-09-10 12:03 UTC</time>
+          <time datetime="2026-09-10T13:12:00Z">2026-09-10 13:12 UTC</time>
           <span class="status" data-i18n="status-live">Live data</span>
         </div>
-        <h3 class="conclusion" data-i18n="kp-conclusion">Latest estimated Kp = 0.00; last-180-sample maximum is 2.33 (label 2P at 2026-09-10 11:42 UTC), published-series maximum is 2.33 (2P at 2026-09-10 11:42 UTC); estimated_kp still below 5.0.</h3>
+        <h3 class="conclusion" data-i18n="kp-conclusion">Latest estimated Kp = 1.33; last-180-sample maximum is 2.33 (label 2P at 2026-09-10 11:42 UTC), published-series maximum is 2.33 (2P at 2026-09-10 11:42 UTC); estimated_kp still below 5.0.</h3>
 
         <div class="viz">
-          <div class="viz-label" data-i18n="viz-kp">Estimated Kp (0–9). Marker at 0.00</div>
+          <div class="viz-label" data-i18n="viz-kp">Estimated Kp (0–9). Marker at 1.33</div>
           <div class="bar-track">
-            <div class="bar-fill" style="width:0%"></div>
+            <div class="bar-fill" style="width:15%"></div>
           </div>
           <div class="scale-row"><span>0</span><span>G1=5</span><span>9</span></div>
         </div>
@@ -66,8 +66,8 @@
         <div class="data-block">
           <p><strong data-i18n="kp-data-title">Key data</strong></p>
           <ul class="data-list">
-            <li data-i18n="kp-time">Sample time: 2026-09-10 12:03 UTC</li>
-            <li data-i18n="kp-est">Estimated Kp: 0.00 (label 0Z)</li>
+            <li data-i18n="kp-time">Sample time: 2026-09-10 13:12 UTC</li>
+            <li data-i18n="kp-est">Estimated Kp: 1.33 (label 1P)</li>
             <li data-i18n="kp-max">Max estimated Kp in last 180 samples: 2.33 (2026-09-10 11:42 UTC)</li>
           </ul>
         </div>
@@ -86,7 +86,44 @@
 
       
 
-      <article class="entry" data-entry-id="usgs-us7000tg9q" data-category="quake">
+      
+      <article class="entry" data-entry-id="usgs-us7000tga8" data-category="quake">
+        <div class="entry-meta">
+          <time datetime="2026-09-10T12:05:53Z">2026-09-10 12:05 UTC</time>
+          <span class="status" data-i18n="status-new">New event</span>
+        </div>
+        <h3 class="conclusion" data-i18n="eq-tga8-conclusion">A magnitude 4.8 earthquake occurred 35 km SSE of Cliza, Bolivia on 10 September 2026.</h3>
+        <div class="viz">
+          <div class="viz-label" data-i18n="eq-tga8-viz">Magnitude scale (0–10). Marker at 4.8</div>
+          <div class="bar-track" title="mb 4.8">
+            <div class="bar-fill" style="width:48%"></div>
+          </div>
+          <div class="scale-row"><span>0</span><span>5</span><span>10</span></div>
+        </div>
+        <div class="data-block">
+          <p><strong data-i18n="data-title">Key data</strong></p>
+          <ul class="data-list">
+            <li data-i18n="eq-tga8-mag">Magnitude: 4.8 (mb)</li>
+            <li data-i18n="eq-tga8-place">Location: 35 km SSE of Cliza, Bolivia</li>
+            <li data-i18n="eq-tga8-time">Origin time: 2026-09-10 12:05:53 UTC</li>
+            <li data-i18n="eq-tga8-depth">Depth: approximately 373 km</li>
+            <li data-i18n="eq-tga8-id">Event ID: us7000tga8</li>
+          </ul>
+        </div>
+        <div class="evidence-chain">
+          <h4 data-i18n="evidence-heading">Evidence Chain</h4>
+          <ul>
+            <li data-i18n="eq-tga8-source">Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000tga8</li>
+            <li data-i18n="eq-tga8-method">Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected newly appeared NEIC (us*) events not yet listed on this page.</li>
+            <li data-i18n="eq-tga8-link">Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000tga8</li>
+            <li data-i18n="eq-tga8-feed">Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson</li>
+            <li data-i18n="eq-tga8-repro">Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.</li>
+            <li data-i18n="eq-tga8-limit">Limitation: Catalog parameters can be revised after review; depth and hypocenter may be refined. The past-day feed is a rolling window.</li>
+          </ul>
+        </div>
+      </article>
+
+<article class="entry" data-entry-id="usgs-us7000tg9q" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-10T10:39:36Z">2026-09-10 10:39 UTC</time>
           <span class="status" data-i18n="status-new">New event</span>
