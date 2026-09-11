@@ -47,18 +47,18 @@
         <button class="filter-btn" data-filter="quake" onclick="setFilter('quake')" data-i18n="filter-quake">Earthquakes</button>
       </div>
 
-      <!-- 1. NOAA Kp (newest sample 12:15 UTC) -->
+      <!-- 1. NOAA Kp (newest sample 13:15 UTC) -->
       <article class="entry" data-entry-id="noaa-kp-1m" data-category="space">
         <div class="entry-meta">
-          <time datetime="2026-09-11T12:15:00Z">2026-09-11 12:15 UTC</time>
+          <time datetime="2026-09-11T13:15:00Z">2026-09-11 13:15 UTC</time>
           <span class="status" data-i18n="status-live">Live data</span>
         </div>
-        <h3 class="conclusion" data-i18n="kp-conclusion">Latest estimated Kp = 0.33; last-180-sample maximum is 2.67 (label 3M at 2026-09-11 11:19 UTC), published-series maximum is 2.67 (3M at 2026-09-11 11:19 UTC); estimated_kp still below 5.0.</h3>
+        <h3 class="conclusion" data-i18n="kp-conclusion">Latest estimated Kp = 1.33; last-180-sample maximum is 2.67 (label 3M at 2026-09-11 11:19 UTC), published-series maximum is 2.67 (3M at 2026-09-11 11:19 UTC); estimated_kp still below 5.0.</h3>
 
         <div class="viz">
-          <div class="viz-label" data-i18n="viz-kp">Estimated Kp (0–9). Marker at 0.33</div>
+          <div class="viz-label" data-i18n="viz-kp">Estimated Kp (0–9). Marker at 1.33</div>
           <div class="bar-track">
-            <div class="bar-fill" style="width:4%"></div>
+            <div class="bar-fill" style="width:15%"></div>
           </div>
           <div class="scale-row"><span>0</span><span>G1=5</span><span>9</span></div>
         </div>
@@ -66,8 +66,8 @@
         <div class="data-block">
           <p><strong data-i18n="kp-data-title">Key data</strong></p>
           <ul class="data-list">
-            <li data-i18n="kp-time">Sample time: 2026-09-11 12:15 UTC</li>
-            <li data-i18n="kp-est">Estimated Kp: 0.33 (label 0P)</li>
+            <li data-i18n="kp-time">Sample time: 2026-09-11 13:15 UTC</li>
+            <li data-i18n="kp-est">Estimated Kp: 1.33 (label 0P)</li>
             <li data-i18n="kp-max">Max estimated Kp in last 180 samples: 2.67 (2026-09-11 11:19 UTC)</li>
           </ul>
         </div>
@@ -163,7 +163,44 @@
         </div>
       </article>
 
-      <article class="entry" data-entry-id="usgs-us7000tgij" data-category="quake">
+      
+      <article class="entry" data-entry-id="usgs-us7000tgk1" data-category="quake">
+        <div class="entry-meta">
+          <time datetime="2026-09-11T07:31:45Z">2026-09-11 07:31 UTC</time>
+          <span class="status" data-i18n="status-new">New event</span>
+        </div>
+        <h3 class="conclusion" data-i18n="eq-tgk1-conclusion">A magnitude 4.5 earthquake occurred 92 km S of False Pass, Alaska on 11 September 2026.</h3>
+        <div class="viz">
+          <div class="viz-label" data-i18n="eq-tgk1-viz">Magnitude scale (0–10). Marker at 4.5</div>
+          <div class="bar-track" title="mb 4.5">
+            <div class="bar-fill" style="width:45%"></div>
+          </div>
+          <div class="scale-row"><span>0</span><span>5</span><span>10</span></div>
+        </div>
+        <div class="data-block">
+          <p><strong data-i18n="data-title">Key data</strong></p>
+          <ul class="data-list">
+            <li data-i18n="eq-tgk1-mag">Magnitude: 4.5 (mb)</li>
+            <li data-i18n="eq-tgk1-place">Location: 92 km S of False Pass, Alaska</li>
+            <li data-i18n="eq-tgk1-time">Origin time: 2026-09-11 07:31:45 UTC</li>
+            <li data-i18n="eq-tgk1-depth">Depth: approximately 43 km</li>
+            <li data-i18n="eq-tgk1-id">Event ID: us7000tgk1</li>
+          </ul>
+        </div>
+        <div class="evidence-chain">
+          <h4 data-i18n="evidence-heading">Evidence Chain</h4>
+          <ul>
+            <li data-i18n="eq-tgk1-source">Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000tgk1</li>
+            <li data-i18n="eq-tgk1-method">Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected newly appeared NEIC (us*) events not yet listed on this page.</li>
+            <li data-i18n="eq-tgk1-link">Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgk1</li>
+            <li data-i18n="eq-tgk1-feed">Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson</li>
+            <li data-i18n="eq-tgk1-repro">Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.</li>
+            <li data-i18n="eq-tgk1-limit">Limitation: Catalog parameters can be revised after review; depth and hypocenter may be refined. The past-day feed is a rolling window.</li>
+          </ul>
+        </div>
+      </article>
+
+<article class="entry" data-entry-id="usgs-us7000tgij" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-11T02:28:13Z">2026-09-11 02:28 UTC</time>
           <span class="status" data-i18n="status-new">New event</span>
