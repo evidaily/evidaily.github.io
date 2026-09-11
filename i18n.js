@@ -16,9 +16,24 @@ const translations = {
     "kp-conclusion": "Latest estimated Kp = 1.67; last-180-sample maximum is 2.33 (label 2P at 2026-09-11 08:58 UTC), published-series maximum is 3.00 (3Z at 2026-09-11 05:23 UTC); estimated_kp still below 5.0.",
     "viz-kp": "Estimated Kp (0–9). Marker at 1.67",
     "kp-data-title": "Key data",
-    "kp-time": "Sample time: 2026-09-11 10:08 UTC",
+    "kp-time": "Sample time: 2026-09-11 11:12 UTC",
     "kp-est": "Estimated Kp: 1.67 (label 2M)",
     "kp-max": "Max estimated Kp in last 180 samples: 2.33 (2026-09-11 08:58 UTC)",
+
+        "eq-tgky-conclusion": "A magnitude 5.3 earthquake occurred 151 km WSW of Adak, Alaska on 11 September 2026.",
+    "eq-tgky-viz": "Magnitude scale (0–10). Marker at 5.3",
+    "eq-tgky-mag": "Magnitude: 5.3 (mb)",
+    "eq-tgky-place": "Location: 151 km WSW of Adak, Alaska",
+    "eq-tgky-time": "Origin time: 2026-09-11 10:47:12 UTC",
+    "eq-tgky-depth": "Depth: approximately 41 km",
+    "eq-tgky-id": "Event ID: us7000tgky",
+    "eq-tgky-source": "Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000tgky",
+    "eq-tgky-method": "Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected newly appeared NEIC (us*) events not yet listed on this page.",
+    "eq-tgky-link": "Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgky",
+    "eq-tgky-feed": "Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+    "eq-tgky-repro": "Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.",
+    "eq-tgky-limit": "Limitation: Catalog parameters can be revised after review; depth and hypocenter may be refined. The past-day feed is a rolling window.",
+
 
     
 
@@ -1787,9 +1802,24 @@ const translations = {
 
     "viz-kp": "估計 Kp（0–9）。標記在 1.67",
     "kp-data-title": "關鍵數據",
-    "kp-time": "取樣時間：2026-09-11 10:08 UTC",
+    "kp-time": "取樣時間：2026-09-11 11:12 UTC",
     "kp-est": "估計 Kp：1.67（標籤 2M）",
     "kp-max": "近 180 筆最大估計 Kp：2.33（2026-09-11 08:58 UTC）",
+
+        "eq-tgky-conclusion": "2026 年 9 月 11 日，阿拉斯加 Adak 西南西約 151 公里處發生規模 5.3 地震。",
+    "eq-tgky-viz": "規模尺（0–10）。標記在 5.3",
+    "eq-tgky-mag": "規模：5.3（mb）",
+    "eq-tgky-place": "位置：阿拉斯加 Adak 西南西約 151 公里",
+    "eq-tgky-time": "發震時間：2026-09-11 10:47:12 UTC",
+    "eq-tgky-depth": "深度：約 41 公里",
+    "eq-tgky-id": "事件編號：us7000tgky",
+    "eq-tgky-source": "來源：美國地質調查局（USGS）地震災害計畫 — 事件 us7000tgky",
+    "eq-tgky-method": "方法：自 USGS 過去一日 M4.5+ 公開 GeoJSON 饋送取得，選出頁面上尚未列出的新 NEIC（us*）事件。",
+    "eq-tgky-link": "事件頁：https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgky",
+    "eq-tgky-feed": "饋送：https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+    "eq-tgky-repro": "可重現性：任何人皆可開啟同一公開端點，無需認證即可取得相同規模、座標與發震時間。",
+    "eq-tgky-limit": "限制：目錄參數經複核後可能修正；深度與震源可能再精煉。過去一日饋送為滾動視窗。",
+
 
     
 
