@@ -13,12 +13,27 @@ const translations = {
     "status-secondary": "Earlier today",
     "data-title": "Key data",
     "evidence-heading": "Evidence Chain",
-    "kp-conclusion": "Latest estimated Kp = 0.67; last-180-sample maximum is 1.33 (label 1P at 2026-09-12 17:52 UTC), published-series maximum is 2.00 (2Z at 2026-09-12 14:52 UTC); estimated_kp still below 5.0.",
-    "viz-kp": "Estimated Kp (0–9). Marker at 0.67",
+    "kp-conclusion": "Latest estimated Kp = 0.00; last-180-sample maximum is 1.33 (label 1P at 2026-09-12 20:54 UTC), published-series maximum is 1.33 (1P at 2026-09-12 17:52 UTC); estimated_kp still below 5.0.",
+    "viz-kp": "Estimated Kp (0–9). Marker at 0.00",
     "kp-data-title": "Key data",
-    "kp-time": "Sample time: 2026-09-12 20:02 UTC",
-    "kp-est": "Estimated Kp: 0.67 (label 1M)",
-    "kp-max": "Max estimated Kp in last 180 samples: 1.33 (2026-09-12 17:52 UTC)",
+    "kp-time": "Sample time: 2026-09-12 21:08 UTC",
+    "kp-est": "Estimated Kp: 0.00 (label 0Z)",
+    "kp-max": "Max estimated Kp in last 180 samples: 1.33 (2026-09-12 20:54 UTC)",
+
+    "eq-th1q-conclusion": "A magnitude 5.1 earthquake occurred 101 km S of Yudomari, Japan on 12 September 2026.",
+    "eq-th1q-viz": "Magnitude scale (0–10). Marker at 5.1",
+    "eq-th1q-mag": "Magnitude: 5.1 (mww)",
+    "eq-th1q-place": "Location: 101 km S of Yudomari, Japan",
+    "eq-th1q-time": "Origin time: 2026-09-12 20:32:58 UTC",
+    "eq-th1q-depth": "Depth: approximately 46 km",
+    "eq-th1q-id": "Event ID: us7000th1q",
+    "eq-th1q-source": "Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000th1q",
+    "eq-th1q-method": "Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected newly appeared NEIC (us*) events not yet listed on this page.",
+    "eq-th1q-link": "Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000th1q",
+    "eq-th1q-feed": "Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+    "eq-th1q-repro": "Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.",
+    "eq-th1q-limit": "Limitation: Catalog parameters can be revised after review; depth and hypocenter may be refined. The past-day feed is a rolling window.",
+
 
     
         
@@ -2078,13 +2093,28 @@ const translations = {
     "status-secondary": "稍早更新",
     "data-title": "關鍵數據",
     "evidence-heading": "證據鏈",
-"kp-conclusion": "最新估計 Kp = 0.67；近 180 筆最大值為 1.33（標籤 1P，2026-09-12 17:52 UTC），公開序列最大值為 2.00（2Z，2026-09-12 14:52 UTC）；estimated_kp 仍低於 5.0。",
+"kp-conclusion": "最新估計 Kp = 0.00；近 180 筆最大值為 1.33（標籤 1P，2026-09-12 20:54 UTC），公開序列最大值為 1.33（1P，2026-09-12 17:52 UTC）；estimated_kp 仍低於 5.0。",
 
-    "viz-kp": "估計 Kp（0–9）。標記在 0.67",
+    "viz-kp": "估計 Kp（0–9）。標記在 0.00",
     "kp-data-title": "關鍵數據",
-    "kp-time": "取樣時間：2026-09-12 20:02 UTC",
-    "kp-est": "估計 Kp：0.67（標籤 1M）",
-    "kp-max": "近 180 筆最大估計 Kp：1.33（2026-09-12 17:52 UTC）",
+    "kp-time": "取樣時間：2026-09-12 21:08 UTC",
+    "kp-est": "估計 Kp：0.00（標籤 0Z）",
+    "kp-max": "近 180 筆最大估計 Kp：1.33（2026-09-12 20:54 UTC）",
+
+    "eq-th1q-conclusion": "2026 年 9 月 12 日，日本 Yudomari 南約 101 公里處發生規模 5.1 地震。",
+    "eq-th1q-viz": "規模尺（0–10）。標記在 5.1",
+    "eq-th1q-mag": "規模：5.1（mww）",
+    "eq-th1q-place": "位置：日本 Yudomari 南約 101 公里",
+    "eq-th1q-time": "發震時間：2026-09-12 20:32:58 UTC",
+    "eq-th1q-depth": "深度：約 46 公里",
+    "eq-th1q-id": "事件編號：us7000th1q",
+    "eq-th1q-source": "來源：美國地質調查所（USGS）地震災害計畫 — 事件 us7000th1q",
+    "eq-th1q-method": "方法：自 USGS 過去一日 M4.5+ 公開 GeoJSON 饋送取得，選出頁面上尚未列出的新 NEIC（us*）事件。",
+    "eq-th1q-link": "事件頁：https://earthquake.usgs.gov/earthquakes/eventpage/us7000th1q",
+    "eq-th1q-feed": "饋送：https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+    "eq-th1q-repro": "可重現性：任何人皆可開啟同一公開端點，無需認證即可取得相同規模、座標與發震時間。",
+    "eq-th1q-limit": "限制：目錄參數經複核後可能修正；深度與震源可能再精煉。過去一日饋送為滾動視窗。",
+
 
     
         
