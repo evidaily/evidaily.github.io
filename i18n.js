@@ -13,12 +13,12 @@ const translations = {
     "status-secondary": "Earlier today",
     "data-title": "Key data",
     "evidence-heading": "Evidence Chain",
-    "kp-conclusion": "Latest estimated Kp = 0.33; last-180-sample maximum is 2.00 (label 2Z at 2026-09-12 14:52 UTC), published-series maximum is 2.33 (2P at 2026-09-12 11:33 UTC); estimated_kp still below 5.0.",
-    "viz-kp": "Estimated Kp (0–9). Marker at 0.33",
+    "kp-conclusion": "Latest estimated Kp = 0.67; last-180-sample maximum is 1.33 (label 1P at 2026-09-12 17:52 UTC), published-series maximum is 2.00 (2Z at 2026-09-12 14:52 UTC); estimated_kp still below 5.0.",
+    "viz-kp": "Estimated Kp (0–9). Marker at 0.67",
     "kp-data-title": "Key data",
-    "kp-time": "Sample time: 2026-09-12 17:11 UTC",
-    "kp-est": "Estimated Kp: 0.33 (label 0P)",
-    "kp-max": "Max estimated Kp in last 180 samples: 2.00 (2026-09-12 14:52 UTC)",
+    "kp-time": "Sample time: 2026-09-12 19:10 UTC",
+    "kp-est": "Estimated Kp: 0.67 (label 1M)",
+    "kp-max": "Max estimated Kp in last 180 samples: 1.33 (2026-09-12 17:52 UTC)",
 
     
         
@@ -27,6 +27,19 @@ const translations = {
 
         
 
+    "eq-th16-conclusion": "A magnitude 4.8 earthquake occurred 17 km WSW of Lixoúri, Greece on 12 September 2026.",
+    "eq-th16-viz": "Magnitude scale (0–10). Marker at 4.8",
+    "eq-th16-mag": "Magnitude: 4.8 (mww)",
+    "eq-th16-place": "Location: 17 km WSW of Lixoúri, Greece",
+    "eq-th16-time": "Origin time: 2026-09-12 17:51:45 UTC",
+    "eq-th16-depth": "Depth: approximately 34 km",
+    "eq-th16-id": "Event ID: us7000th16",
+    "eq-th16-source": "Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000th16",
+    "eq-th16-method": "Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected newly appeared NEIC (us*) events not yet listed on this page.",
+    "eq-th16-link": "Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000th16",
+    "eq-th16-feed": "Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+    "eq-th16-repro": "Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.",
+    "eq-th16-limit": "Limitation: Catalog parameters can be revised after review; depth and hypocenter may be refined. The past-day feed is a rolling window.",
     "eq-th0h-conclusion": "A magnitude 4.7 earthquake occurred 46 km NNE of Port-Olry, Vanuatu on 12 September 2026.",
     "eq-th0h-viz": "Magnitude scale (0–10). Marker at 4.7",
     "eq-th0h-mag": "Magnitude: 4.7 (mb)",
@@ -2065,13 +2078,13 @@ const translations = {
     "status-secondary": "稍早更新",
     "data-title": "關鍵數據",
     "evidence-heading": "證據鏈",
-"kp-conclusion": "最新估計 Kp = 0.33；近 180 筆最大值為 2.00（標籤 2Z，2026-09-12 14:52 UTC），公開序列最大值為 2.33（2P，2026-09-12 11:33 UTC）；estimated_kp 仍低於 5.0。",
+"kp-conclusion": "最新估計 Kp = 0.67；近 180 筆最大值為 1.33（標籤 1P，2026-09-12 17:52 UTC），公開序列最大值為 2.00（2Z，2026-09-12 14:52 UTC）；estimated_kp 仍低於 5.0。",
 
-    "viz-kp": "估計 Kp（0–9）。標記在 0.33",
+    "viz-kp": "估計 Kp（0–9）。標記在 0.67",
     "kp-data-title": "關鍵數據",
-    "kp-time": "取樣時間：2026-09-12 17:11 UTC",
-    "kp-est": "估計 Kp：0.33（標籤 0P）",
-    "kp-max": "近 180 筆最大估計 Kp：2.00（2026-09-12 14:52 UTC)",
+    "kp-time": "取樣時間：2026-09-12 19:10 UTC",
+    "kp-est": "估計 Kp：0.67（標籤 1M）",
+    "kp-max": "近 180 筆最大估計 Kp：1.33（2026-09-12 17:52 UTC）",
 
     
         
@@ -2079,6 +2092,19 @@ const translations = {
         
 
 
+    "eq-th16-conclusion": "2026 年 9 月 12 日，希臘 Lixoúri 西南西約 17 公里處發生規模 4.8 地震。",
+    "eq-th16-viz": "規模尺（0–10）。標記在 4.8",
+    "eq-th16-mag": "規模：4.8（mww）",
+    "eq-th16-place": "位置：希臘 Lixoúri 西南西約 17 公里",
+    "eq-th16-time": "發震時間：2026-09-12 17:51:45 UTC",
+    "eq-th16-depth": "深度：約 34 公里",
+    "eq-th16-id": "事件編號：us7000th16",
+    "eq-th16-source": "來源：美國地質調查所（USGS）地震災害計畫 — 事件 us7000th16",
+    "eq-th16-method": "方法：自 USGS 過去一日 M4.5+ 公開 GeoJSON 饋送取得，選出頁面上尚未列出的新 NEIC（us*）事件。",
+    "eq-th16-link": "事件頁：https://earthquake.usgs.gov/earthquakes/eventpage/us7000th16",
+    "eq-th16-feed": "饋送：https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+    "eq-th16-repro": "可重現性：任何人皆可開啟同一公開端點，無需認證即可取得相同規模、座標與發震時間。",
+    "eq-th16-limit": "限制：目錄參數經複核後可能修正；深度與震源可能再精煉。過去一日饋送為滾動視窗。",
     "eq-th0h-conclusion": "2026 年 9 月 12 日，萬那杜 Port-Olry 北北東約 46 公里處發生規模 4.7 地震。",
     "eq-th0h-viz": "規模尺（0–10）。標記在 4.7",
     "eq-th0h-mag": "規模：4.7（mb）",
