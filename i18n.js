@@ -13,17 +13,32 @@ const translations = {
     "status-secondary": "Earlier today",
     "data-title": "Key data",
     "evidence-heading": "Evidence Chain",
-    "kp-conclusion": "Latest estimated Kp = 2.33; last-180-sample maximum is 2.33 (label 2P at 2026-09-12 03:56 UTC), published-series maximum is 2.33 (2P at 2026-09-12 03:56 UTC); estimated_kp still below 5.0.",
-    "viz-kp": "Estimated Kp (0–9). Marker at 2.33",
+    "kp-conclusion": "Latest estimated Kp = 2.00; last-180-sample maximum is 2.67 (label 3M at 2026-09-12 05:45 UTC), published-series maximum is 2.67 (3M at 2026-09-12 05:45 UTC); estimated_kp still below 5.0.",
+    "viz-kp": "Estimated Kp (0–9). Marker at 2.00",
     "kp-data-title": "Key data",
-    "kp-time": "Sample time: 2026-09-12 05:57 UTC",
-    "kp-est": "Estimated Kp: 2.33 (label 2P)",
-    "kp-max": "Max estimated Kp in last 180 samples: 2.33 (2026-09-12 03:56 UTC)",
+    "kp-time": "Sample time: 2026-09-12 07:08 UTC",
+    "kp-est": "Estimated Kp: 2.00 (label 2Z)",
+    "kp-max": "Max estimated Kp in last 180 samples: 2.67 (2026-09-12 05:45 UTC)",
 
     
         
         
-        "eq-tgx2-conclusion": "A magnitude 4.7 earthquake occurred 94 km WNW of Ternate, Indonesia on 12 September 2026.",
+        
+        "eq-tgxg-conclusion": "A magnitude 4.8 earthquake occurred 253 km WSW of Tual, Indonesia on 12 September 2026.",
+    "eq-tgxg-viz": "Magnitude scale (0–10). Marker at 4.8",
+    "eq-tgxg-mag": "Magnitude: 4.8 (mb)",
+    "eq-tgxg-place": "Location: 253 km WSW of Tual, Indonesia",
+    "eq-tgxg-time": "Origin time: 2026-09-12 06:14:30 UTC",
+    "eq-tgxg-depth": "Depth: approximately 134 km",
+    "eq-tgxg-id": "Event ID: us7000tgxg",
+    "eq-tgxg-source": "Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000tgxg",
+    "eq-tgxg-method": "Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected newly appeared NEIC (us*) events not yet listed on this page.",
+    "eq-tgxg-link": "Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgxg",
+    "eq-tgxg-feed": "Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+    "eq-tgxg-repro": "Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.",
+    "eq-tgxg-limit": "Limitation: Catalog parameters can be revised after review; depth and hypocenter may be refined. The past-day feed is a rolling window.",
+
+"eq-tgx2-conclusion": "A magnitude 4.7 earthquake occurred 94 km WNW of Ternate, Indonesia on 12 September 2026.",
     "eq-tgx2-viz": "Magnitude scale (0–10). Marker at 4.7",
     "eq-tgx2-mag": "Magnitude: 4.7 (mb)",
     "eq-tgx2-place": "Location: 94 km WNW of Ternate, Indonesia",
@@ -1953,18 +1968,33 @@ const translations = {
     "status-secondary": "稍早更新",
     "data-title": "關鍵數據",
     "evidence-heading": "證據鏈",
-"kp-conclusion": "最新估計 Kp = 2.33；近 180 筆最大值為 2.33（標籤 2P，2026-09-12 03:56 UTC），公開序列最大值為 2.33（2P，2026-09-12 03:56 UTC）；estimated_kp 仍低於 5.0。",
+"kp-conclusion": "最新估計 Kp = 2.00；近 180 筆最大值為 2.67（標籤 3M，2026-09-12 05:45 UTC），公開序列最大值為 2.67（3M，2026-09-12 05:45 UTC）；estimated_kp 仍低於 5.0。",
 
-    "viz-kp": "估計 Kp（0–9）。標記在 2.33",
+    "viz-kp": "估計 Kp（0–9）。標記在 2.00",
     "kp-data-title": "關鍵數據",
-    "kp-time": "取樣時間：2026-09-12 05:57 UTC",
-    "kp-est": "估計 Kp：2.33（標籤 2P）",
-    "kp-max": "近 180 筆最大估計 Kp：2.33（2026-09-12 03:56 UTC）",
+    "kp-time": "取樣時間：2026-09-12 07:08 UTC",
+    "kp-est": "估計 Kp：2.00（標籤 2Z）",
+    "kp-max": "近 180 筆最大估計 Kp：2.67（2026-09-12 05:45 UTC）",
 
     
         
         
-        "eq-tgx2-conclusion": "2026 年 9 月 12 日，印尼 Ternate 西北西約 94 公里處發生規模 4.7 地震。",
+        
+        "eq-tgxg-conclusion": "2026 年 9 月 12 日，印尼 Tual 西南西約 253 公里處發生規模 4.8 地震。",
+    "eq-tgxg-viz": "規模尺（0–10）。標記在 4.8",
+    "eq-tgxg-mag": "規模：4.8（mb）",
+    "eq-tgxg-place": "位置：印尼 Tual 西南西約 253 公里",
+    "eq-tgxg-time": "發震時間：2026-09-12 06:14:30 UTC",
+    "eq-tgxg-depth": "深度：約 134 公里",
+    "eq-tgxg-id": "事件編號：us7000tgxg",
+    "eq-tgxg-source": "來源：美國地質調查局（USGS）地震災害計畫 — 事件 us7000tgxg",
+    "eq-tgxg-method": "方法：自 USGS 過去一日 M4.5+ 公開 GeoJSON 饋送取得，選出頁面上尚未列出的新 NEIC（us*）事件。",
+    "eq-tgxg-link": "事件頁：https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgxg",
+    "eq-tgxg-feed": "饋送：https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+    "eq-tgxg-repro": "可重現性：任何人皆可開啟同一公開端點，無需認證即可取得相同規模、座標與發震時間。",
+    "eq-tgxg-limit": "限制：目錄參數經複核後可能修正；深度與震源可能再精煉。過去一日饋送為滾動視窗。",
+
+"eq-tgx2-conclusion": "2026 年 9 月 12 日，印尼 Ternate 西北西約 94 公里處發生規模 4.7 地震。",
     "eq-tgx2-viz": "規模尺（0–10）。標記在 4.7",
     "eq-tgx2-mag": "規模：4.7（mb）",
     "eq-tgx2-place": "位置：印尼 Ternate 西北西約 94 公里",
