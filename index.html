@@ -47,18 +47,18 @@
         <button class="filter-btn" data-filter="quake" onclick="setFilter('quake')" data-i18n="filter-quake">Earthquakes</button>
       </div>
 
-      <!-- 1. NOAA Kp (newest sample 03:01 UTC) -->
+      <!-- 1. NOAA Kp (newest sample 03:58 UTC) -->
       <article class="entry" data-entry-id="noaa-kp-1m" data-category="space">
         <div class="entry-meta">
-          <time datetime="2026-09-12T03:01:00Z">2026-09-12 03:01 UTC</time>
+          <time datetime="2026-09-12T03:58:00Z">2026-09-12 03:58 UTC</time>
           <span class="status" data-i18n="status-live">Live data</span>
         </div>
-        <h3 class="conclusion" data-i18n="kp-conclusion">Latest estimated Kp = 0.00; last-180-sample maximum is 1.67 (label 2M at 2026-09-12 02:59 UTC), published-series maximum is 2.33 (2P at 2026-09-11 23:45 UTC); estimated_kp still below 5.0.</h3>
+        <h3 class="conclusion" data-i18n="kp-conclusion">Latest estimated Kp = 2.33; last-180-sample maximum is 2.33 (label 2P at 2026-09-12 03:56 UTC), published-series maximum is 2.33 (2P at 2026-09-11 23:45 UTC); estimated_kp still below 5.0.</h3>
 
         <div class="viz">
-          <div class="viz-label" data-i18n="viz-kp">Estimated Kp (0–9). Marker at 0.00</div>
+          <div class="viz-label" data-i18n="viz-kp">Estimated Kp (0–9). Marker at 2.33</div>
           <div class="bar-track">
-            <div class="bar-fill" style="width:0%"></div>
+            <div class="bar-fill" style="width:26%"></div>
           </div>
           <div class="scale-row"><span>0</span><span>G1=5</span><span>9</span></div>
         </div>
@@ -66,9 +66,9 @@
         <div class="data-block">
           <p><strong data-i18n="kp-data-title">Key data</strong></p>
           <ul class="data-list">
-            <li data-i18n="kp-time">Sample time: 2026-09-12 03:01 UTC</li>
-            <li data-i18n="kp-est">Estimated Kp: 0.00 (label 0Z)</li>
-            <li data-i18n="kp-max">Max estimated Kp in last 180 samples: 1.67 (2026-09-12 02:59 UTC)</li>
+            <li data-i18n="kp-time">Sample time: 2026-09-12 03:58 UTC</li>
+            <li data-i18n="kp-est">Estimated Kp: 2.33 (label 2P)</li>
+            <li data-i18n="kp-max">Max estimated Kp in last 180 samples: 2.33 (2026-09-12 03:56 UTC)</li>
           </ul>
         </div>
 
@@ -84,7 +84,44 @@
         </div>
       </article>
 
-      <article class="entry" data-entry-id="usgs-us7000tgw1" data-category="quake">
+      
+      <article class="entry" data-entry-id="usgs-us7000tgwe" data-category="quake">
+        <div class="entry-meta">
+          <time datetime="2026-09-12T03:34:57Z">2026-09-12 03:34 UTC</time>
+          <span class="status" data-i18n="status-new">New event</span>
+        </div>
+        <h3 class="conclusion" data-i18n="eq-tgwe-conclusion">A magnitude 4.6 earthquake occurred 45 km NNE of Ruteng, Indonesia on 12 September 2026.</h3>
+        <div class="viz">
+          <div class="viz-label" data-i18n="eq-tgwe-viz">Magnitude scale (0–10). Marker at 4.6</div>
+          <div class="bar-track" title="mb 4.6">
+            <div class="bar-fill" style="width:46%"></div>
+          </div>
+          <div class="scale-row"><span>0</span><span>5</span><span>10</span></div>
+        </div>
+        <div class="data-block">
+          <p><strong data-i18n="data-title">Key data</strong></p>
+          <ul class="data-list">
+            <li data-i18n="eq-tgwe-mag">Magnitude: 4.6 (mb)</li>
+            <li data-i18n="eq-tgwe-place">Location: 45 km NNE of Ruteng, Indonesia</li>
+            <li data-i18n="eq-tgwe-time">Origin time: 2026-09-12 03:34:57 UTC</li>
+            <li data-i18n="eq-tgwe-depth">Depth: approximately 10 km</li>
+            <li data-i18n="eq-tgwe-id">Event ID: us7000tgwe</li>
+          </ul>
+        </div>
+        <div class="evidence-chain">
+          <h4 data-i18n="evidence-heading">Evidence Chain</h4>
+          <ul>
+            <li data-i18n="eq-tgwe-source">Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000tgwe</li>
+            <li data-i18n="eq-tgwe-method">Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected newly appeared NEIC (us*) events not yet listed on this page.</li>
+            <li data-i18n="eq-tgwe-link">Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgwe</li>
+            <li data-i18n="eq-tgwe-feed">Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson</li>
+            <li data-i18n="eq-tgwe-repro">Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.</li>
+            <li data-i18n="eq-tgwe-limit">Limitation: Catalog parameters can be revised after review; depth and hypocenter may be refined. The past-day feed is a rolling window.</li>
+          </ul>
+        </div>
+      </article>
+
+<article class="entry" data-entry-id="usgs-us7000tgw1" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-12T01:59:50Z">2026-09-12 01:59 UTC</time>
           <span class="status" data-i18n="status-new">New event</span>
