@@ -13,11 +13,11 @@ const translations = {
     "status-secondary": "Earlier today",
     "data-title": "Key data",
     "evidence-heading": "Evidence Chain",
-    "kp-conclusion": "Latest estimated Kp = 0.67; last-180-sample maximum is 2.00 (label 2Z at 2026-09-12 14:52 UTC), published-series maximum is 2.33 (2P at 2026-09-12 11:33 UTC); estimated_kp still below 5.0.",
-    "viz-kp": "Estimated Kp (0–9). Marker at 0.67",
+    "kp-conclusion": "Latest estimated Kp = 0.33; last-180-sample maximum is 2.00 (label 2Z at 2026-09-12 14:52 UTC), published-series maximum is 2.33 (2P at 2026-09-12 11:33 UTC); estimated_kp still below 5.0.",
+    "viz-kp": "Estimated Kp (0–9). Marker at 0.33",
     "kp-data-title": "Key data",
-    "kp-time": "Sample time: 2026-09-12 15:58 UTC",
-    "kp-est": "Estimated Kp: 0.67 (label 1M)",
+    "kp-time": "Sample time: 2026-09-12 17:11 UTC",
+    "kp-est": "Estimated Kp: 0.33 (label 0P)",
     "kp-max": "Max estimated Kp in last 180 samples: 2.00 (2026-09-12 14:52 UTC)",
 
     
@@ -26,6 +26,20 @@ const translations = {
         
 
         
+
+    "eq-th0h-conclusion": "A magnitude 4.7 earthquake occurred 46 km NNE of Port-Olry, Vanuatu on 12 September 2026.",
+    "eq-th0h-viz": "Magnitude scale (0–10). Marker at 4.7",
+    "eq-th0h-mag": "Magnitude: 4.7 (mb)",
+    "eq-th0h-place": "Location: 46 km NNE of Port-Olry, Vanuatu",
+    "eq-th0h-time": "Origin time: 2026-09-12 15:56:09 UTC",
+    "eq-th0h-depth": "Depth: approximately 188 km",
+    "eq-th0h-id": "Event ID: us7000th0h",
+    "eq-th0h-source": "Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000th0h",
+    "eq-th0h-method": "Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected newly appeared NEIC (us*) events not yet listed on this page.",
+    "eq-th0h-link": "Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000th0h",
+    "eq-th0h-feed": "Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+    "eq-th0h-repro": "Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.",
+    "eq-th0h-limit": "Limitation: Catalog parameters can be revised after review; depth and hypocenter may be refined. The past-day feed is a rolling window.",
         "eq-tgyx-conclusion": "A magnitude 4.7 earthquake occurred 32 km SW of Sipí, Colombia on 12 September 2026.",
     "eq-tgyx-viz": "Magnitude scale (0–10). Marker at 4.7",
     "eq-tgyx-mag": "Magnitude: 4.7 (mb)",
@@ -2051,12 +2065,12 @@ const translations = {
     "status-secondary": "稍早更新",
     "data-title": "關鍵數據",
     "evidence-heading": "證據鏈",
-"kp-conclusion": "最新估計 Kp = 0.67；近 180 筆最大值為 2.00（標籤 2Z，2026-09-12 14:52 UTC），公開序列最大值為 2.33（2P，2026-09-12 11:33 UTC）；estimated_kp 仍低於 5.0。",
+"kp-conclusion": "最新估計 Kp = 0.33；近 180 筆最大值為 2.00（標籤 2Z，2026-09-12 14:52 UTC），公開序列最大值為 2.33（2P，2026-09-12 11:33 UTC）；estimated_kp 仍低於 5.0。",
 
-    "viz-kp": "估計 Kp（0–9）。標記在 0.67",
+    "viz-kp": "估計 Kp（0–9）。標記在 0.33",
     "kp-data-title": "關鍵數據",
-    "kp-time": "取樣時間：2026-09-12 15:58 UTC",
-    "kp-est": "估計 Kp：0.67（標籤 1M）",
+    "kp-time": "取樣時間：2026-09-12 17:11 UTC",
+    "kp-est": "估計 Kp：0.33（標籤 0P）",
     "kp-max": "近 180 筆最大估計 Kp：2.00（2026-09-12 14:52 UTC)",
 
     
@@ -2064,6 +2078,20 @@ const translations = {
         
         
 
+
+    "eq-th0h-conclusion": "2026 年 9 月 12 日，萬那杜 Port-Olry 北北東約 46 公里處發生規模 4.7 地震。",
+    "eq-th0h-viz": "規模尺（0–10）。標記在 4.7",
+    "eq-th0h-mag": "規模：4.7（mb）",
+    "eq-th0h-place": "位置：萬那杜 Port-Olry 北北東約 46 公里",
+    "eq-th0h-time": "發震時間：2026-09-12 15:56:09 UTC",
+    "eq-th0h-depth": "深度：約 188 公里",
+    "eq-th0h-id": "事件編號：us7000th0h",
+    "eq-th0h-source": "來源：美國地質調查所（USGS）地震災害計畫 — 事件 us7000th0h",
+    "eq-th0h-method": "方法：自 USGS 過去一日 M4.5+ 公開 GeoJSON 饋送取得，選出頁面上尚未列出的新 NEIC（us*）事件。",
+    "eq-th0h-link": "事件頁：https://earthquake.usgs.gov/earthquakes/eventpage/us7000th0h",
+    "eq-th0h-feed": "饋送：https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+    "eq-th0h-repro": "可重現性：任何人皆可開啟同一公開端點，無需認證即可取得相同規模、座標與發震時間。",
+    "eq-th0h-limit": "限制：目錄參數經複核後可能修正；深度與震源可能再精煉。過去一日饋送為滾動視窗。",
         "eq-tgyh-conclusion": "2026 年 9 月 12 日，萬那杜 Sola 西北西約 147 公里處發生規模 4.9 地震。",
     "eq-tgyh-viz": "規模尺（0–10）。標記在 4.9",
     "eq-tgyh-mag": "規模：4.9（mb）",
