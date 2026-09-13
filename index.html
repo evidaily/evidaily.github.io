@@ -47,18 +47,18 @@
         <button class="filter-btn" data-filter="quake" onclick="setFilter('quake')" data-i18n="filter-quake">Earthquakes</button>
       </div>
 
-      <!-- 1. NOAA Kp (newest sample 20:01 UTC) -->
+      <!-- 1. NOAA Kp (newest sample 21:01 UTC) -->
       <article class="entry" data-entry-id="noaa-kp-1m" data-category="space">
         <div class="entry-meta">
-          <time datetime="2026-09-13T20:01:00Z">2026-09-13 20:01 UTC</time>
+          <time datetime="2026-09-13T21:01:00Z">2026-09-13 21:01 UTC</time>
           <span class="status" data-i18n="status-live">Live data</span>
         </div>
-        <h3 class="conclusion" data-i18n="kp-conclusion">Latest estimated Kp = 0.67; last-180-sample maximum is 1.00 (label 1Z at 2026-09-13 17:02 UTC), published-series maximum is 1.33 (1P at 2026-09-13 14:56 UTC); estimated_kp still below 5.0.</h3>
+        <h3 class="conclusion" data-i18n="kp-conclusion">Latest estimated Kp = 0.00; last-180-sample maximum is 0.67 (label 1M at 2026-09-13 20:36 UTC), published-series maximum is 1.00 (1Z at 2026-09-13 16:49 UTC); estimated_kp still below 5.0.</h3>
 
         <div class="viz">
-          <div class="viz-label" data-i18n="viz-kp">Estimated Kp (0–9). Marker at 0.67</div>
+          <div class="viz-label" data-i18n="viz-kp">Estimated Kp (0–9). Marker at 0.00</div>
           <div class="bar-track">
-            <div class="bar-fill" style="width:7.44%"></div>
+            <div class="bar-fill" style="width:0%"></div>
           </div>
           <div class="scale-row"><span>0</span><span>G1=5</span><span>9</span></div>
         </div>
@@ -66,9 +66,9 @@
         <div class="data-block">
           <p><strong data-i18n="kp-data-title">Key data</strong></p>
           <ul class="data-list">
-            <li data-i18n="kp-time">Sample time: 2026-09-13 20:01 UTC</li>
-            <li data-i18n="kp-est">Estimated Kp: 0.67 (label 1M)</li>
-            <li data-i18n="kp-max">Max estimated Kp in last 180 samples: 1.00 (2026-09-13 17:02 UTC)</li>
+            <li data-i18n="kp-time">Sample time: 2026-09-13 21:01 UTC</li>
+            <li data-i18n="kp-est">Estimated Kp: 0.00 (label 0Z)</li>
+            <li data-i18n="kp-max">Max estimated Kp in last 180 samples: 0.67 (2026-09-13 20:36 UTC)</li>
           </ul>
         </div>
 
@@ -126,6 +126,44 @@
           </ul>
         </div>
       </article>
+
+      <article class="entry" data-entry-id="usgs-us7000th7y" data-category="quake">
+        <div class="entry-meta">
+          <time datetime="2026-09-13T19:40:25Z">2026-09-13 19:40 UTC</time>
+          <span class="status" data-i18n="status-new">New event</span>
+        </div>
+        <h3 class="conclusion" data-i18n="eq-th7y-conclusion">A magnitude 4.7 earthquake occurred 60 km W of Cafayate, Argentina on 13 September 2026.</h3>
+        <div class="viz">
+          <div class="viz-label" data-i18n="eq-th7y-viz">Magnitude scale (0–10). Marker at 4.7</div>
+          <div class="bar-track" title="mb 4.7">
+            <div class="bar-fill" style="width:47%"></div>
+          </div>
+          <div class="scale-row"><span>0</span><span>5</span><span>10</span></div>
+        </div>
+        <div class="data-block">
+          <p><strong data-i18n="data-title">Key data</strong></p>
+          <ul class="data-list">
+            <li data-i18n="eq-th7y-mag">Magnitude: 4.7 (mb)</li>
+            <li data-i18n="eq-th7y-place">Location: 60 km W of Cafayate, Argentina</li>
+            <li data-i18n="eq-th7y-time">Origin time: 2026-09-13 19:40:25 UTC</li>
+            <li data-i18n="eq-th7y-depth">Depth: approximately 10 km</li>
+            <li data-i18n="eq-th7y-id">Event ID: us7000th7y</li>
+          </ul>
+        </div>
+        <div class="evidence-chain">
+          <h4 data-i18n="evidence-heading">Evidence Chain</h4>
+          <ul>
+            <li data-i18n="eq-th7y-source">Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000th7y</li>
+            <li data-i18n="eq-th7y-method">Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected newly appeared NEIC (us*) events not yet listed on this page.</li>
+            <li data-i18n="eq-th7y-link">Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000th7y</li>
+            <li data-i18n="eq-th7y-feed">Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson</li>
+            <li data-i18n="eq-th7y-repro">Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.</li>
+            <li data-i18n="eq-th7y-limit">Limitation: Catalog parameters can be revised after review; depth and hypocenter may be refined. The past-day feed is a rolling window.</li>
+          </ul>
+        </div>
+      </article>
+
+
 
 <article class="entry" data-entry-id="usgs-us7000th5d" data-category="quake">
         <div class="entry-meta">
