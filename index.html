@@ -47,18 +47,18 @@
         <button class="filter-btn" data-filter="quake" onclick="setFilter('quake')" data-i18n="filter-quake">Earthquakes</button>
       </div>
 
-      <!-- 1. NOAA Kp (newest sample 20:13 UTC) -->
+      <!-- 1. NOAA Kp (newest sample 21:01 UTC) -->
       <article class="entry" data-entry-id="noaa-kp-1m" data-category="space">
         <div class="entry-meta">
-          <time datetime="2026-09-14T20:13:00Z">2026-09-14 20:13 UTC</time>
+          <time datetime="2026-09-14T21:01:00Z">2026-09-14 21:01 UTC</time>
           <span class="status" data-i18n="status-live">Live data</span>
         </div>
-        <h3 class="conclusion" data-i18n="kp-conclusion">Latest estimated Kp = 2.67; last-180-sample maximum is 4.00 (label 4Z at 2026-09-14 17:41 UTC), published-series maximum is 4.00 (4Z at 2026-09-14 17:41 UTC); estimated_kp still below 5.0.</h3>
+        <h3 class="conclusion" data-i18n="kp-conclusion">Latest estimated Kp = 0.00; last-180-sample maximum is 3.00 (label 3Z at 2026-09-14 20:59 UTC), published-series maximum is 4.00 (4Z at 2026-09-14 17:41 UTC); estimated_kp still below 5.0.</h3>
 
         <div class="viz">
-          <div class="viz-label" data-i18n="viz-kp">Estimated Kp (0–9). Marker at 2.67</div>
+          <div class="viz-label" data-i18n="viz-kp">Estimated Kp (0–9). Marker at 0.00</div>
           <div class="bar-track">
-            <div class="bar-fill" style="width:29.7%"></div>
+            <div class="bar-fill" style="width:0%"></div>
           </div>
           <div class="scale-row"><span>0</span><span>G1=5</span><span>9</span></div>
         </div>
@@ -67,8 +67,8 @@
           <p><strong data-i18n="kp-data-title">Key data</strong></p>
           <ul class="data-list">
             <li data-i18n="kp-time">Sample time: 2026-09-14 20:13 UTC</li>
-            <li data-i18n="kp-est">Estimated Kp: 2.67 (label 3M)</li>
-            <li data-i18n="kp-max">Max estimated Kp in last 180 samples: 4.00 (2026-09-14 17:41 UTC)</li>
+            <li data-i18n="kp-est">Estimated Kp: 0.00 (label 0Z)</li>
+            <li data-i18n="kp-max">Max estimated Kp in last 180 samples: 3.00 (2026-09-14 20:59 UTC)</li>
           </ul>
         </div>
 
@@ -83,7 +83,114 @@
           </ul>
         </div>
       </article>
-            <article class="entry" data-entry-id="usgs-us7000thg5" data-category="quake">
+            
+      <article class="entry" data-entry-id="usgs-us7000thgs" data-category="quake">
+        <div class="entry-meta">
+          <time datetime="2026-09-14T20:38:59Z">2026-09-14 20:38 UTC</time>
+          <span class="status" data-i18n="status-new">New event</span>
+        </div>
+        <h3 class="conclusion" data-i18n="eq-thgs-conclusion">A magnitude 5.3 earthquake occurred off the coast of Michoacan, Mexico on 14 September 2026.</h3>
+        <div class="viz">
+          <div class="viz-label" data-i18n="eq-thgs-viz">Magnitude scale (0–10). Marker at 5.3</div>
+          <div class="bar-track" title="mww 5.3">
+            <div class="bar-fill" style="width:53%"></div>
+          </div>
+          <div class="scale-row"><span>0</span><span>5</span><span>10</span></div>
+        </div>
+        <div class="data-block">
+          <p><strong data-i18n="data-title">Key data</strong></p>
+          <ul class="data-list">
+            <li data-i18n="eq-thgs-mag">Magnitude: 5.3 (mww)</li>
+            <li data-i18n="eq-thgs-place">Location: off the coast of Michoacan, Mexico</li>
+            <li data-i18n="eq-thgs-time">Origin time: 2026-09-14 20:38:59 UTC</li>
+            <li data-i18n="eq-thgs-depth">Depth: approximately 10 km</li>
+            <li data-i18n="eq-thgs-id">Event ID: us7000thgs</li>
+          </ul>
+        </div>
+        <div class="evidence-chain">
+          <h4 data-i18n="evidence-heading">Evidence Chain</h4>
+          <ul>
+            <li data-i18n="eq-thgs-source">Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000thgs</li>
+            <li data-i18n="eq-thgs-method">Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected newly appeared NEIC (us*) events not yet listed on this page.</li>
+            <li data-i18n="eq-thgs-link">Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000thgs</li>
+            <li data-i18n="eq-thgs-feed">Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson</li>
+            <li data-i18n="eq-thgs-repro">Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.</li>
+            <li data-i18n="eq-thgs-limit">Limitation: Catalog parameters can be revised after review; depth and hypocenter may be refined. The past-day feed is a rolling window.</li>
+          </ul>
+        </div>
+      </article>
+      <article class="entry" data-entry-id="usgs-us7000thgj" data-category="quake">
+        <div class="entry-meta">
+          <time datetime="2026-09-14T20:08:07Z">2026-09-14 20:08 UTC</time>
+          <span class="status" data-i18n="status-new">New event</span>
+        </div>
+        <h3 class="conclusion" data-i18n="eq-thgj-conclusion">A magnitude 4.6 earthquake occurred 26 km SSW of Sipí, Colombia on 14 September 2026.</h3>
+        <div class="viz">
+          <div class="viz-label" data-i18n="eq-thgj-viz">Magnitude scale (0–10). Marker at 4.6</div>
+          <div class="bar-track" title="mb 4.6">
+            <div class="bar-fill" style="width:46%"></div>
+          </div>
+          <div class="scale-row"><span>0</span><span>5</span><span>10</span></div>
+        </div>
+        <div class="data-block">
+          <p><strong data-i18n="data-title">Key data</strong></p>
+          <ul class="data-list">
+            <li data-i18n="eq-thgj-mag">Magnitude: 4.6 (mb)</li>
+            <li data-i18n="eq-thgj-place">Location: 26 km SSW of Sipí, Colombia</li>
+            <li data-i18n="eq-thgj-time">Origin time: 2026-09-14 20:08:07 UTC</li>
+            <li data-i18n="eq-thgj-depth">Depth: approximately 75 km</li>
+            <li data-i18n="eq-thgj-id">Event ID: us7000thgj</li>
+          </ul>
+        </div>
+        <div class="evidence-chain">
+          <h4 data-i18n="evidence-heading">Evidence Chain</h4>
+          <ul>
+            <li data-i18n="eq-thgj-source">Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000thgj</li>
+            <li data-i18n="eq-thgj-method">Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected newly appeared NEIC (us*) events not yet listed on this page.</li>
+            <li data-i18n="eq-thgj-link">Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000thgj</li>
+            <li data-i18n="eq-thgj-feed">Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson</li>
+            <li data-i18n="eq-thgj-repro">Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.</li>
+            <li data-i18n="eq-thgj-limit">Limitation: Catalog parameters can be revised after review; depth and hypocenter may be refined. The past-day feed is a rolling window.</li>
+          </ul>
+        </div>
+      </article>
+      <article class="entry" data-entry-id="usgs-us7000thge" data-category="quake">
+        <div class="entry-meta">
+          <time datetime="2026-09-14T20:02:04Z">2026-09-14 20:02 UTC</time>
+          <span class="status" data-i18n="status-new">New event</span>
+        </div>
+        <h3 class="conclusion" data-i18n="eq-thge-conclusion">A magnitude 4.9 earthquake occurred 20 km SSW of Sipí, Colombia on 14 September 2026.</h3>
+        <div class="viz">
+          <div class="viz-label" data-i18n="eq-thge-viz">Magnitude scale (0–10). Marker at 4.9</div>
+          <div class="bar-track" title="mb 4.9">
+            <div class="bar-fill" style="width:49%"></div>
+          </div>
+          <div class="scale-row"><span>0</span><span>5</span><span>10</span></div>
+        </div>
+        <div class="data-block">
+          <p><strong data-i18n="data-title">Key data</strong></p>
+          <ul class="data-list">
+            <li data-i18n="eq-thge-mag">Magnitude: 4.9 (mb)</li>
+            <li data-i18n="eq-thge-place">Location: 20 km SSW of Sipí, Colombia</li>
+            <li data-i18n="eq-thge-time">Origin time: 2026-09-14 20:02:04 UTC</li>
+            <li data-i18n="eq-thge-depth">Depth: approximately 60 km</li>
+            <li data-i18n="eq-thge-id">Event ID: us7000thge</li>
+          </ul>
+        </div>
+        <div class="evidence-chain">
+          <h4 data-i18n="evidence-heading">Evidence Chain</h4>
+          <ul>
+            <li data-i18n="eq-thge-source">Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000thge</li>
+            <li data-i18n="eq-thge-method">Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected newly appeared NEIC (us*) events not yet listed on this page.</li>
+            <li data-i18n="eq-thge-link">Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000thge</li>
+            <li data-i18n="eq-thge-feed">Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson</li>
+            <li data-i18n="eq-thge-repro">Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.</li>
+            <li data-i18n="eq-thge-limit">Limitation: Catalog parameters can be revised after review; depth and hypocenter may be refined. The past-day feed is a rolling window.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="entry" data-entry-id="usgs-us7000thg5" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-14T19:16:49Z">2026-09-14 19:16 UTC</time>
           <span class="status" data-i18n="status-new">New event</span>
