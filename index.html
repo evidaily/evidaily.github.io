@@ -47,18 +47,18 @@
         <button class="filter-btn" data-filter="quake" onclick="setFilter('quake')" data-i18n="filter-quake">Earthquakes</button>
       </div>
 
-      <!-- 1. NOAA Kp (latest complete sample 12:16 UTC) -->
+      <!-- 1. NOAA Kp (latest complete sample 14:59 UTC) -->
       <article class="entry" data-entry-id="noaa-kp-1m" data-category="space">
         <div class="entry-meta">
-          <time datetime="2026-09-16T14:15:00Z">2026-09-16 14:15 UTC</time>
+          <time datetime="2026-09-16T14:59:00Z">2026-09-16 14:59 UTC</time>
           <span class="status" data-i18n="status-live">Live data</span>
         </div>
-        <h3 class="conclusion" data-i18n="kp-conclusion">Latest complete-minute estimated Kp = 1.33 (label 1P at 2026-09-16 14:15 UTC); last-180-sample maximum is 2.67; published-window maximum is 2.67; estimated_kp still below 5.0. The 07:00 UTC bin has rolled out of the public window. The remaining 08:00 UTC slice holds 42 samples with peak 2.33 / 2P. The completed 09:00 UTC bin closed at 0.33 / 0P. The completed 10:00 UTC bin closed at 0.67 / 1M. The completed 11:00 UTC bin closed at 1.67 / 2M. The completed 12:00 UTC bin closed at 2.33 / 2P. The completed 13:00 UTC bin closed at 2.33 / 2P. The 14:00 UTC bin is incomplete (16 samples, peak 2.67 / 3M) and is not used as a closed hour bin.</h3>
+        <h3 class="conclusion" data-i18n="kp-conclusion">Latest complete-minute estimated Kp = 2.33 (label 2P at 2026-09-16 14:59 UTC); last-180-sample maximum is 2.33; published-window maximum is 2.33; estimated_kp still below 5.0. The 08:00 UTC bin has rolled out of the public window. The remaining 09:00 UTC slice holds 49 samples with peak 0.33 / 0P. The completed 10:00 UTC bin closed at 0.67 / 1M. The completed 11:00 UTC bin closed at 1.67 / 2M. The completed 12:00 UTC bin closed at 2.33 / 2P. The completed 13:00 UTC bin closed at 2.33 / 2P. The completed 14:00 UTC bin closed at 2.33 / 2P. The 15:00 UTC bin is incomplete (9 samples, peak 0.00 / 0Z) and is not used as a closed hour bin.</h3>
 
         <div class="viz">
-          <div class="viz-label" data-i18n="viz-kp">Estimated Kp (0–9). Marker at 1.33</div>
+          <div class="viz-label" data-i18n="viz-kp">Estimated Kp (0–9). Marker at 2.33</div>
           <div class="bar-track">
-            <div class="bar-fill" style="width:15%"></div>
+            <div class="bar-fill" style="width:26%"></div>
           </div>
           <div class="scale-row"><span>0</span><span>G1=5</span><span>9</span></div>
         </div>
@@ -66,9 +66,9 @@
         <div class="data-block">
           <p><strong data-i18n="kp-data-title">Key data</strong></p>
           <ul class="data-list">
-            <li data-i18n="kp-time">Sample time: 2026-09-16 14:15 UTC</li>
-            <li data-i18n="kp-est">Estimated Kp: 1.33 (label 1P)</li>
-            <li data-i18n="kp-max">Max estimated Kp in last 180 samples: 2.67 (latest at 2026-09-16 14:13 UTC)</li>
+            <li data-i18n="kp-time">Sample time: 2026-09-16 14:59 UTC</li>
+            <li data-i18n="kp-est">Estimated Kp: 2.33 (label 2P)</li>
+            <li data-i18n="kp-max">Max estimated Kp in last 180 samples: 2.33 (latest at 2026-09-16 12:36 UTC)</li>
           </ul>
         </div>
 
@@ -76,10 +76,10 @@
           <h4 data-i18n="evidence-heading">Evidence Chain</h4>
           <ul>
             <li data-i18n="kp-source">Source: NOAA Space Weather Prediction Center public JSON — planetary_k_index_1m.json</li>
-            <li data-i18n="kp-method">Method: Used the latest 1-minute estimated Kp sample in the published window (14:15 UTC is a complete minute at 1.33 / 1P), plus the maximum estimated_kp among the last 180 samples. The 12:00 and 13:00 UTC hour bins are complete (60 samples each, peak 2.33 / 2P) and are reported separately from the completed 09:00, 10:00 and 11:00 UTC bins. The 14:00 UTC bin has 16 samples (peak 2.67 / 3M) and is not treated as a closed hour. The earlier 07:00 UTC slice has rolled out of the public window; the remaining 08:00 UTC slice starts at 08:18 UTC.</li>
+            <li data-i18n="kp-method">Method: Used the latest 1-minute estimated Kp sample in the published window (14:59 UTC is a complete minute at 2.33 / 2P), plus the maximum estimated_kp among the last 180 samples. The 10:00 through 14:00 UTC hour bins are complete (60 samples each) and are reported separately from the remaining 09:00 UTC slice. The 15:00 UTC bin has 9 samples (peak 0.00 / 0Z) and is not treated as a closed hour. The earlier 08:00 UTC slice has rolled out of the public window; the remaining 09:00 UTC slice starts at 09:11 UTC.</li>
             <li data-i18n="kp-link">Kp JSON: https://services.swpc.noaa.gov/json/planetary_k_index_1m.json</li>
             <li data-i18n="kp-repro">Reproducibility: The endpoint is public, unauthenticated, and returns the same numeric fields used here.</li>
-            <li data-i18n="kp-limit">Limitation: 1-minute estimated Kp is a nowcast, not the final official 3-hour Kp; values can be revised and a new 3-hour bin often starts at 0.00 before accumulating. F10.7 noon flux was omitted this cycle because the published series on the public endpoint can mix stale records. Window start 2026-09-16 08:18 UTC (358 samples; latest complete minute 2026-09-16 14:15 UTC = 1.33 / 1P; last-180 maximum 2.67 at 14:13 UTC; window maximum 2.67 at 14:13 UTC).</li>
+            <li data-i18n="kp-limit">Limitation: 1-minute estimated Kp is a nowcast, not the final official 3-hour Kp; values can be revised and a new 3-hour bin often starts at 0.00 before accumulating. F10.7 noon flux was omitted this cycle because the published series on the public endpoint can mix stale records. Window start 2026-09-16 09:11 UTC (358 samples; latest complete minute 2026-09-16 14:59 UTC = 2.33 / 2P; last-180 maximum 2.33 at 12:36 UTC; window maximum 2.33 at 12:36 UTC).</li>
           </ul>
         </div>
       </article>
