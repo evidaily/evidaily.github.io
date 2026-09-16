@@ -50,15 +50,15 @@
       <!-- 1. NOAA Kp (latest complete sample 02:59 UTC) -->
       <article class="entry" data-entry-id="noaa-kp-1m" data-category="space">
         <div class="entry-meta">
-          <time datetime="2026-09-16T02:59:00Z">2026-09-16 02:59 UTC</time>
+          <time datetime="2026-09-16T04:13:00Z">2026-09-16 04:13 UTC</time>
           <span class="status" data-i18n="status-live">Live data</span>
         </div>
-        <h3 class="conclusion" data-i18n="kp-conclusion">Latest complete-minute estimated Kp = 3.33 (label 3P at 2026-09-16 02:59 UTC); last-180-sample maximum is 4.00; published-window maximum is 4.00; estimated_kp still below 5.0. The completed 21:00 UTC bin (57 samples still inside the public window starting 21:03 UTC) closed at 3.00 / 3Z. The completed 22:00 UTC bin closed at 3.00 / 3Z. The completed 23:00 UTC bin closed at 3.67 / 4M. The completed 00:00 UTC bin closed at 3.67 / 4M. The completed 01:00 UTC bin closed at 3.67 / 4M. The completed 02:00 UTC bin closed at 4.00 / 4Z. The 03:00 UTC bin is incomplete (1 sample at 0.00 / 0Z) and is not used as the latest complete minute.</h3>
+        <h3 class="conclusion" data-i18n="kp-conclusion">Latest complete-minute estimated Kp = 2.33 (label 2P at 2026-09-16 04:13 UTC); last-180-sample maximum is 4.00; published-window maximum is 4.00; estimated_kp still below 5.0. The completed 22:00 UTC bin (43 samples still inside the public window starting 22:17 UTC) closed at 2.67 / 3M. The completed 23:00 UTC bin closed at 3.67 / 4M. The completed 00:00 UTC bin closed at 3.67 / 4M. The completed 01:00 UTC bin closed at 3.67 / 4M. The completed 02:00 UTC bin closed at 4.00 / 4Z. The completed 03:00 UTC bin closed at 2.67 / 3M. The 04:00 UTC bin is incomplete (14 samples, peak 2.67 / 3M) and is not used as the latest complete minute.</h3>
 
         <div class="viz">
-          <div class="viz-label" data-i18n="viz-kp">Estimated Kp (0–9). Marker at 3.33</div>
+          <div class="viz-label" data-i18n="viz-kp">Estimated Kp (0–9). Marker at 2.33</div>
           <div class="bar-track">
-            <div class="bar-fill" style="width:37%"></div>
+            <div class="bar-fill" style="width:26%"></div>
           </div>
           <div class="scale-row"><span>0</span><span>G1=5</span><span>9</span></div>
         </div>
@@ -66,9 +66,9 @@
         <div class="data-block">
           <p><strong data-i18n="kp-data-title">Key data</strong></p>
           <ul class="data-list">
-            <li data-i18n="kp-time">Sample time: 2026-09-16 02:59 UTC</li>
-            <li data-i18n="kp-est">Estimated Kp: 3.33 (label 3P)</li>
-            <li data-i18n="kp-max">Max estimated Kp in last 180 samples: 4.00 (latest at 2026-09-16 02:49 UTC)</li>
+            <li data-i18n="kp-time">Sample time: 2026-09-16 04:13 UTC</li>
+            <li data-i18n="kp-est">Estimated Kp: 2.33 (label 2P)</li>
+            <li data-i18n="kp-max">Max estimated Kp in last 180 samples: 4.00 (latest at 2026-09-16 02:51 UTC)</li>
           </ul>
         </div>
 
@@ -76,10 +76,10 @@
           <h4 data-i18n="evidence-heading">Evidence Chain</h4>
           <ul>
             <li data-i18n="kp-source">Source: NOAA Space Weather Prediction Center public JSON — planetary_k_index_1m.json</li>
-            <li data-i18n="kp-method">Method: Used the latest 1-minute estimated Kp sample in the published window (02:59 UTC is a complete minute at 3.33 / 3P), plus the maximum estimated_kp among the last 180 samples. The 02:00 UTC hour bin is now complete (60 samples, peak 4.00 / 4Z) and is reported separately from the completed 21:00 (57 samples from 21:03), 22:00, 23:00, 00:00 and 01:00 UTC bins. The 03:00 UTC bin has only 1 opening sample at 0.00 / 0Z and is not treated as complete. The earlier 20:00 UTC slice has rolled out of the public window.</li>
+            <li data-i18n="kp-method">Method: Used the latest 1-minute estimated Kp sample in the published window (04:13 UTC is a complete minute at 2.33 / 2P), plus the maximum estimated_kp among the last 180 samples. The 03:00 UTC hour bin is now complete (60 samples, peak 2.67 / 3M) and is reported separately from the completed 22:00 (43 samples from 22:17), 23:00, 00:00, 01:00 and 02:00 UTC bins. The 04:00 UTC bin has 14 samples (peak 2.67 / 3M) and is not treated as complete. The earlier 21:00 UTC slice has rolled out of the public window.</li>
             <li data-i18n="kp-link">Kp JSON: https://services.swpc.noaa.gov/json/planetary_k_index_1m.json</li>
             <li data-i18n="kp-repro">Reproducibility: The endpoint is public, unauthenticated, and returns the same numeric fields used here.</li>
-            <li data-i18n="kp-limit">Limitation: 1-minute estimated Kp is a nowcast, not the final official 3-hour Kp; values can be revised and a new 3-hour bin often starts at 0.00 before accumulating. F10.7 noon flux was omitted this cycle because the published series on the public endpoint can mix stale records. Window start 2026-09-15 21:03 UTC (358 samples; latest complete minute 2026-09-16 02:59 UTC = 3.33 / 3P; last-180 maximum 4.00 at 02:49 UTC; window maximum 4.00).</li>
+            <li data-i18n="kp-limit">Limitation: 1-minute estimated Kp is a nowcast, not the final official 3-hour Kp; values can be revised and a new 3-hour bin often starts at 0.00 before accumulating. F10.7 noon flux was omitted this cycle because the published series on the public endpoint can mix stale records. Window start 2026-09-15 22:17 UTC (357 samples; latest complete minute 2026-09-16 04:13 UTC = 2.33 / 2P; last-180 maximum 4.00 at 02:51 UTC; window maximum 4.00).</li>
           </ul>
         </div>
       </article>
@@ -90,7 +90,82 @@
             
             
             
-      <article class="entry" data-entry-id="usgs-us7000thrm" data-category="quake">
+      
+<article class="entry" data-entry-id="usgs-us7000thrz" data-category="quake">
+        <div class="entry-meta">
+          <time datetime="2026-09-16T03:45:03Z">2026-09-16 03:45 UTC</time>
+          <span class="status" data-i18n="status-new">New event</span>
+        </div>
+        <h3 class="conclusion" data-i18n="eq-thrz-conclusion">A magnitude 5.0 earthquake occurred 60 km SSW of Ocós, Guatemala on 16 September 2026.</h3>
+        <div class="viz">
+          <div class="viz-label" data-i18n="eq-thrz-viz">Magnitude scale (0–10). Marker at 5.0</div>
+          <div class="bar-track" title="mww 5.0">
+            <div class="bar-fill" style="width:50%"></div>
+          </div>
+          <div class="scale-row"><span>0</span><span>5</span><span>10</span></div>
+        </div>
+        <div class="data-block">
+          <p><strong data-i18n="data-title">Key data</strong></p>
+          <ul class="data-list">
+            <li data-i18n="eq-thrz-mag">Magnitude: 5.0 (mww)</li>
+            <li data-i18n="eq-thrz-place">Location: 60 km SSW of Ocós, Guatemala</li>
+            <li data-i18n="eq-thrz-time">Origin time: 2026-09-16 03:45:03 UTC</li>
+            <li data-i18n="eq-thrz-depth">Depth: approximately 10 km</li>
+            <li data-i18n="eq-thrz-id">Event ID: us7000thrz</li>
+          </ul>
+        </div>
+        <div class="evidence-chain">
+          <h4 data-i18n="evidence-heading">Evidence Chain</h4>
+          <ul>
+            <li data-i18n="eq-thrz-source">Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000thrz</li>
+            <li data-i18n="eq-thrz-method">Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected newly appeared NEIC (us*) events not yet listed on this page.</li>
+            <li data-i18n="eq-thrz-link">Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000thrz</li>
+            <li data-i18n="eq-thrz-feed">Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson</li>
+            <li data-i18n="eq-thrz-repro">Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.</li>
+            <li data-i18n="eq-thrz-limit">Limitation: Catalog parameters can be revised after review; depth and hypocenter may be refined. The past-day feed is a rolling window.</li>
+          </ul>
+        </div>
+      </article>
+
+      
+<article class="entry" data-entry-id="usgs-us7000thr4" data-category="quake">
+        <div class="entry-meta">
+          <time datetime="2026-09-15T23:45:06Z">2026-09-15 23:45 UTC</time>
+          <span class="status" data-i18n="status-new">New event</span>
+        </div>
+        <h3 class="conclusion" data-i18n="eq-thr4-conclusion">A magnitude 4.5 earthquake occurred 17 km WNW of Palora, Ecuador on 15 September 2026.</h3>
+        <div class="viz">
+          <div class="viz-label" data-i18n="eq-thr4-viz">Magnitude scale (0–10). Marker at 4.5</div>
+          <div class="bar-track" title="mb 4.5">
+            <div class="bar-fill" style="width:45%"></div>
+          </div>
+          <div class="scale-row"><span>0</span><span>5</span><span>10</span></div>
+        </div>
+        <div class="data-block">
+          <p><strong data-i18n="data-title">Key data</strong></p>
+          <ul class="data-list">
+            <li data-i18n="eq-thr4-mag">Magnitude: 4.5 (mb)</li>
+            <li data-i18n="eq-thr4-place">Location: 17 km WNW of Palora, Ecuador</li>
+            <li data-i18n="eq-thr4-time">Origin time: 2026-09-15 23:45:06 UTC</li>
+            <li data-i18n="eq-thr4-depth">Depth: approximately 156 km</li>
+            <li data-i18n="eq-thr4-id">Event ID: us7000thr4</li>
+          </ul>
+        </div>
+        <div class="evidence-chain">
+          <h4 data-i18n="evidence-heading">Evidence Chain</h4>
+          <ul>
+            <li data-i18n="eq-thr4-source">Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000thr4</li>
+            <li data-i18n="eq-thr4-method">Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected newly appeared NEIC (us*) events not yet listed on this page.</li>
+            <li data-i18n="eq-thr4-link">Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000thr4</li>
+            <li data-i18n="eq-thr4-feed">Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson</li>
+            <li data-i18n="eq-thr4-repro">Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.</li>
+            <li data-i18n="eq-thr4-limit">Limitation: Catalog parameters can be revised after review; depth and hypocenter may be refined. The past-day feed is a rolling window.</li>
+          </ul>
+        </div>
+      </article>
+
+      
+<article class="entry" data-entry-id="usgs-us7000thrm" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-16T01:37:17Z">2026-09-16 01:37 UTC</time>
           <span class="status" data-i18n="status-new">New event</span>
