@@ -1,0 +1,538 @@
+{
+  "date": "2026-09-14",
+  "updated": "2026-09-14T23:59:00+08:00",
+  "entries": [
+    {
+      "id": "usgs-us7000thhv",
+      "type": "earthquake",
+      "time_utc": "2026-09-14T22:44:46Z",
+      "title": {
+        "en": "A magnitude 4.9 earthquake occurred 66 km SSW of Patea, New Zealand on 14 September 2026.",
+        "zh": "A magnitude 4.9 earthquake occurred 66 km SSW of Patea, New Zealand on 14 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.9
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.9,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thht",
+      "type": "earthquake",
+      "time_utc": "2026-09-14T22:39:03Z",
+      "title": {
+        "en": "A magnitude 4.6 earthquake occurred 26 km SW of Sipí, Colombia on 14 September 2026.",
+        "zh": "A magnitude 4.6 earthquake occurred 26 km SW of Sipí, Colombia on 14 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.6
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.6,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thhd",
+      "type": "earthquake",
+      "time_utc": "2026-09-14T22:06:54Z",
+      "title": {
+        "en": "A magnitude 5.2 earthquake occurred 66 km E of Kainantu, Papua New Guinea on 14 September 2026.",
+        "zh": "A magnitude 5.2 earthquake occurred 66 km E of Kainantu, Papua New Guinea on 14 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.2
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.2,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thh2",
+      "type": "earthquake",
+      "time_utc": "2026-09-14T21:13:15Z",
+      "title": {
+        "en": "A magnitude 4.9 earthquake occurred 31 km WSW of Sipí, Colombia on 14 September 2026.",
+        "zh": "A magnitude 4.9 earthquake occurred 31 km WSW of Sipí, Colombia on 14 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.9
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.9,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thgs",
+      "type": "earthquake",
+      "time_utc": "2026-09-14T20:38:59Z",
+      "title": {
+        "en": "A magnitude 5.3 earthquake occurred off the coast of Michoacan, Mexico on 14 September 2026.",
+        "zh": "A magnitude 5.3 earthquake occurred off the coast of Michoacan, Mexico on 14 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.3
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.3,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thgj",
+      "type": "earthquake",
+      "time_utc": "2026-09-14T20:08:07Z",
+      "title": {
+        "en": "A magnitude 4.6 earthquake occurred 26 km SSW of Sipí, Colombia on 14 September 2026.",
+        "zh": "A magnitude 4.6 earthquake occurred 26 km SSW of Sipí, Colombia on 14 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.6
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.6,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thge",
+      "type": "earthquake",
+      "time_utc": "2026-09-14T20:02:04Z",
+      "title": {
+        "en": "A magnitude 4.9 earthquake occurred 20 km SSW of Sipí, Colombia on 14 September 2026.",
+        "zh": "A magnitude 4.9 earthquake occurred 20 km SSW of Sipí, Colombia on 14 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.9
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.9,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thg5",
+      "type": "earthquake",
+      "time_utc": "2026-09-14T19:16:49Z",
+      "title": {
+        "en": "A magnitude 4.8 earthquake occurred 106 km WSW of Alianza Cristiana, Peru on 14 September 2026.",
+        "zh": "A magnitude 4.8 earthquake occurred 106 km WSW of Alianza Cristiana, Peru on 14 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.8
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.8,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thfh",
+      "type": "earthquake",
+      "time_utc": "2026-09-14T17:55:15Z",
+      "title": {
+        "en": "A magnitude 4.6 earthquake occurred 157 km SSE of Labuha, Indonesia on 14 September 2026.",
+        "zh": "A magnitude 4.6 earthquake occurred 157 km SSE of Labuha, Indonesia on 14 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.6
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.6,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thea",
+      "type": "earthquake",
+      "time_utc": "2026-09-14T16:15:05Z",
+      "title": {
+        "en": "A magnitude 5.2 earthquake occurred 135 km SE of Gizo, Solomon Islands on 14 September 2026.",
+        "zh": "A magnitude 5.2 earthquake occurred 135 km SE of Gizo, Solomon Islands on 14 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.2
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.2,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thdw",
+      "type": "earthquake",
+      "time_utc": "2026-09-14T14:57:11Z",
+      "title": {
+        "en": "A magnitude 4.5 earthquake occurred 11 km SSW of Sipí, Colombia on 14 September 2026.",
+        "zh": "A magnitude 4.5 earthquake occurred 11 km SSW of Sipí, Colombia on 14 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.5
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thct",
+      "type": "earthquake",
+      "time_utc": "2026-09-14T10:59:54Z",
+      "title": {
+        "en": "A magnitude 4.6 earthquake occurred 49 km E of Minami-Sōma, Japan on 14 September 2026.",
+        "zh": "A magnitude 4.6 earthquake occurred 49 km E of Minami-Sōma, Japan on 14 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.6
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.6,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thcs",
+      "type": "earthquake",
+      "time_utc": "2026-09-14T10:58:03Z",
+      "title": {
+        "en": "A magnitude 5.6 earthquake occurred 78 km NNE of Tobelo, Indonesia on 14 September 2026.",
+        "zh": "A magnitude 5.6 earthquake occurred 78 km NNE of Tobelo, Indonesia on 14 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.6
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.6,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thc6",
+      "type": "earthquake",
+      "time_utc": "2026-09-14T09:27:38Z",
+      "title": {
+        "en": "A magnitude 5.5 earthquake occurred 187 km SSW of Pelabuhanratu, Indonesia on 14 September 2026.",
+        "zh": "A magnitude 5.5 earthquake occurred 187 km SSW of Pelabuhanratu, Indonesia on 14 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.5
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.5,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thbl",
+      "type": "earthquake",
+      "time_utc": "2026-09-14T07:33:04Z",
+      "title": {
+        "en": "A magnitude 4.5 earthquake occurred 109 km E of Tomioka, Japan on 14 September 2026.",
+        "zh": "A magnitude 4.5 earthquake occurred 109 km E of Tomioka, Japan on 14 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.5
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thb6",
+      "type": "earthquake",
+      "time_utc": "2026-09-14T06:19:11Z",
+      "title": {
+        "en": "A magnitude 4.5 earthquake occurred 97 km NNE of Mount Hagen, Papua New Guinea on 14 September 2026.",
+        "zh": "A magnitude 4.5 earthquake occurred 97 km NNE of Mount Hagen, Papua New Guinea on 14 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.5
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tha3",
+      "type": "earthquake",
+      "time_utc": "2026-09-14T02:56:17Z",
+      "title": {
+        "en": "A magnitude 5.4 earthquake occurred on the northern Mid-Atlantic Ridge on 14 September 2026.",
+        "zh": "A magnitude 5.4 earthquake occurred on the northern Mid-Atlantic Ridge on 14 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.4
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.4,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000th9m",
+      "type": "earthquake",
+      "time_utc": "2026-09-14T01:42:08Z",
+      "title": {
+        "en": "A magnitude 4.8 earthquake occurred 119 km S of Dampit, Indonesia on 14 September 2026.",
+        "zh": "A magnitude 4.8 earthquake occurred 119 km S of Dampit, Indonesia on 14 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.8
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.8,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000th9i",
+      "type": "earthquake",
+      "time_utc": "2026-09-14T00:53:47Z",
+      "title": {
+        "en": "A magnitude 4.6 earthquake occurred 55 km NNW of Ruteng, Indonesia on 14 September 2026.",
+        "zh": "A magnitude 4.6 earthquake occurred 55 km NNW of Ruteng, Indonesia on 14 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.6
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.6,
+        "min": 0,
+        "max": 10
+      }
+    }
+  ]
+}
