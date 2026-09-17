@@ -1,0 +1,454 @@
+{
+  "date": "2026-09-08",
+  "updated": "2026-09-08T23:59:00+08:00",
+  "entries": [
+    {
+      "id": "usgs-us7000tfy8",
+      "type": "earthquake",
+      "time_utc": "2026-09-08T23:23:42Z",
+      "title": {
+        "en": "A magnitude 4.9 earthquake occurred in the Mariana Islands region on 8 September 2026.",
+        "zh": "A magnitude 4.9 earthquake occurred in the Mariana Islands region on 8 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.9
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.9,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tfxg",
+      "type": "earthquake",
+      "time_utc": "2026-09-08T21:57:33Z",
+      "title": {
+        "en": "A magnitude 4.9 earthquake occurred 211 km ENE of Neiafu, Tonga on 8 September 2026.",
+        "zh": "A magnitude 4.9 earthquake occurred 211 km ENE of Neiafu, Tonga on 8 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.9
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.9,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tfxd",
+      "type": "earthquake",
+      "time_utc": "2026-09-08T21:42:22Z",
+      "title": {
+        "en": "A magnitude 4.6 earthquake occurred 54 km NNE of Ruteng, Indonesia on 8 September 2026.",
+        "zh": "A magnitude 4.6 earthquake occurred 54 km NNE of Ruteng, Indonesia on 8 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.6
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.6,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tfur",
+      "type": "earthquake",
+      "time_utc": "2026-09-08T16:08:34Z",
+      "title": {
+        "en": "A magnitude 4.9 earthquake occurred 97 km NNE of Chitre, Nepal on 8 September 2026.",
+        "zh": "A magnitude 4.9 earthquake occurred 97 km NNE of Chitre, Nepal on 8 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.9
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.9,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tfup",
+      "type": "earthquake",
+      "time_utc": "2026-09-08T15:43:57Z",
+      "title": {
+        "en": "A magnitude 4.9 earthquake occurred 54 km E of Hihifo, Tonga on 8 September 2026.",
+        "zh": "A magnitude 4.9 earthquake occurred 54 km E of Hihifo, Tonga on 8 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.9
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.9,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tfum",
+      "type": "earthquake",
+      "time_utc": "2026-09-08T15:36:35Z",
+      "title": {
+        "en": "A magnitude 5.2 earthquake occurred 123 km NNE of Ruteng, Indonesia on 8 September 2026.",
+        "zh": "A magnitude 5.2 earthquake occurred 123 km NNE of Ruteng, Indonesia on 8 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.2
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.2,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tfu8",
+      "type": "earthquake",
+      "time_utc": "2026-09-08T14:13:09Z",
+      "title": {
+        "en": "A magnitude 4.5 earthquake occurred 95 km SSW of Severo-Kuril’sk, Russia on 8 September 2026.",
+        "zh": "A magnitude 4.5 earthquake occurred 95 km SSW of Severo-Kuril’sk, Russia on 8 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.5
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tfty",
+      "type": "earthquake",
+      "time_utc": "2026-09-08T13:42:08Z",
+      "title": {
+        "en": "A magnitude 4.7 earthquake occurred 62 km WSW of Ollagüe, Chile on 8 September 2026.",
+        "zh": "A magnitude 4.7 earthquake occurred 62 km WSW of Ollagüe, Chile on 8 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.7
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.7,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tftd",
+      "type": "earthquake",
+      "time_utc": "2026-09-08T11:51:09Z",
+      "title": {
+        "en": "A magnitude 5.3 earthquake occurred 26 km NW of Neiafu, Tonga on 8 September 2026.",
+        "zh": "A magnitude 5.3 earthquake occurred 26 km NW of Neiafu, Tonga on 8 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.3
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.3,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tfsj",
+      "type": "earthquake",
+      "time_utc": "2026-09-08T07:46:29Z",
+      "title": {
+        "en": "A magnitude 4.6 earthquake occurred 1 km NNW of Katochí, Greece on 8 September 2026.",
+        "zh": "A magnitude 4.6 earthquake occurred 1 km NNW of Katochí, Greece on 8 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.6
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.6,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tfs3",
+      "type": "earthquake",
+      "time_utc": "2026-09-08T06:50:46Z",
+      "title": {
+        "en": "A magnitude 5.1 earthquake occurred in the South Sandwich Islands region on 8 September 2026.",
+        "zh": "A magnitude 5.1 earthquake occurred in the South Sandwich Islands region on 8 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.1
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.1,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tfs1",
+      "type": "earthquake",
+      "time_utc": "2026-09-08T06:49:48Z",
+      "title": {
+        "en": "A magnitude 4.7 earthquake occurred 43 km NW of Aroa, Venezuela on 8 September 2026.",
+        "zh": "A magnitude 4.7 earthquake occurred 43 km NW of Aroa, Venezuela on 8 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.7
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.7,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tfr8",
+      "type": "earthquake",
+      "time_utc": "2026-09-08T04:40:28Z",
+      "title": {
+        "en": "A magnitude 5.3 earthquake occurred 51 km NNE of Ruteng, Indonesia on 8 September 2026.",
+        "zh": "A magnitude 5.3 earthquake occurred 51 km NNE of Ruteng, Indonesia on 8 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.3
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.3,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tfqv",
+      "type": "earthquake",
+      "time_utc": "2026-09-08T02:34:20Z",
+      "title": {
+        "en": "A magnitude 4.6 earthquake occurred 176 km SSE of Vilyuchinsk, Russia on 8 September 2026.",
+        "zh": "A magnitude 4.6 earthquake occurred 176 km SSE of Vilyuchinsk, Russia on 8 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.6
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.6,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tfqi",
+      "type": "earthquake",
+      "time_utc": "2026-09-08T01:39:35Z",
+      "title": {
+        "en": "A magnitude 4.5 earthquake occurred south of the Fiji Islands on 8 September 2026.",
+        "zh": "A magnitude 4.5 earthquake occurred south of the Fiji Islands on 8 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.5
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tfqf",
+      "type": "earthquake",
+      "time_utc": "2026-09-08T00:52:02Z",
+      "title": {
+        "en": "A magnitude 5.1 earthquake occurred 96 km ESE of Isangel, Vanuatu on 8 September 2026.",
+        "zh": "A magnitude 5.1 earthquake occurred 96 km ESE of Isangel, Vanuatu on 8 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.1
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.1,
+        "min": 0,
+        "max": 10
+      }
+    }
+  ]
+}
