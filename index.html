@@ -47,13 +47,13 @@
         <button class="filter-btn" data-filter="quake" onclick="setFilter('quake')" data-i18n="filter-quake">Earthquakes</button>
       </div>
 
-      <!-- 1. NOAA Kp (latest complete sample 12:23 UTC) -->
+      <!-- 1. NOAA Kp (latest complete sample 14:08 UTC) -->
       <article class="entry" data-entry-id="noaa-kp-1m" data-category="space">
         <div class="entry-meta">
-          <time datetime="2026-09-17T12:23:00Z">2026-09-17 12:23 UTC</time>
+          <time datetime="2026-09-17T14:08:00Z">2026-09-17 14:08 UTC</time>
           <span class="status" data-i18n="status-live">Live data</span>
         </div>
-        <h3 class="conclusion" data-i18n="kp-conclusion">Latest complete-minute estimated Kp = 1.33 (label 1P at 2026-09-17 12:23 UTC); last-180-sample maximum is 3.00; published-window maximum is 3.00; estimated_kp still below 5.0. The 16:00 through 05:00 UTC bins have rolled out of the public window. The remaining 06:00 UTC slice in the public window peaks at 1.00 / 1Z (34 samples). The completed 07:00 UTC bin closed at 1.67 / 2M. The completed 08:00 UTC bin closed at 1.67 / 2M. The completed 09:00 UTC bin closed at 0.00 / 0Z. The completed 10:00 UTC bin closed at 1.00 / 1Z. The completed 11:00 UTC bin closed at 1.67 / 2M. The in-progress 12:00 UTC bin currently peaks at 3.00 / 3Z.</h3>
+        <h3 class="conclusion" data-i18n="kp-conclusion">Latest complete-minute estimated Kp = 1.33 (label 1P at 2026-09-17 14:08 UTC); last-180-sample maximum is 2.67; published-window maximum is 2.67; estimated_kp still below 5.0. The 16:00 through 07:00 UTC bins have rolled out of the public window. The remaining 08:00 UTC slice in the public window peaks at 1.67 / 2M (48 samples). The completed 09:00 UTC bin closed at 0.00 / 0Z. The completed 10:00 UTC bin closed at 1.00 / 1Z. The completed 11:00 UTC bin closed at 1.67 / 2M. The completed 12:00 UTC bin closed at 2.67 / 3M. The completed 13:00 UTC bin closed at 2.67 / 3M. The in-progress 14:00 UTC bin currently peaks at 2.67 / 3M.</h3>
 
         <div class="viz">
           <div class="viz-label" data-i18n="viz-kp">Estimated Kp (0–9). Marker at 1.33</div>
@@ -66,9 +66,9 @@
         <div class="data-block">
           <p><strong data-i18n="kp-data-title">Key data</strong></p>
           <ul class="data-list">
-            <li data-i18n="kp-time">Sample time: 2026-09-17 12:23 UTC</li>
+            <li data-i18n="kp-time">Sample time: 2026-09-17 14:08 UTC</li>
             <li data-i18n="kp-est">Estimated Kp: 1.33 (label 1P)</li>
-            <li data-i18n="kp-max">Max estimated Kp in last 180 samples: 3.00 (latest at 2026-09-17 12:21 UTC)</li>
+            <li data-i18n="kp-max">Max estimated Kp in last 180 samples: 2.67 (latest at 2026-09-17 12:26 UTC)</li>
           </ul>
         </div>
 
@@ -76,10 +76,10 @@
           <h4 data-i18n="evidence-heading">Evidence Chain</h4>
           <ul>
             <li data-i18n="kp-source">Source: NOAA Space Weather Prediction Center public JSON — planetary_k_index_1m.json</li>
-            <li data-i18n="kp-method">Method: Used the latest complete 1-minute estimated Kp sample in the published window (12:23 UTC is a complete minute at 1.33 / 1P), plus the maximum estimated_kp among the last 180 samples. The 07:00 through 11:00 UTC hour bins are complete (60 samples each). The remaining 06:00 UTC slice has 34 samples after window roll. The earlier 16:00 through 05:00 UTC slices have rolled out of the public window; the remaining window starts at 06:26 UTC.</li>
+            <li data-i18n="kp-method">Method: Used the latest complete 1-minute estimated Kp sample in the published window (14:08 UTC is a complete minute at 1.33 / 1P), plus the maximum estimated_kp among the last 180 samples. The 09:00 through 13:00 UTC hour bins are complete (60 samples each). The remaining 08:00 UTC slice has 48 samples after window roll. The earlier 16:00 through 07:00 UTC slices have rolled out of the public window; the remaining window starts at 08:12 UTC.</li>
             <li data-i18n="kp-link">Kp JSON: https://services.swpc.noaa.gov/json/planetary_k_index_1m.json</li>
             <li data-i18n="kp-repro">Reproducibility: The endpoint is public, unauthenticated, and returns the same numeric fields used here.</li>
-            <li data-i18n="kp-limit">Limitation: 1-minute estimated Kp is a nowcast, not the final official 3-hour Kp; values can be revised and a new 3-hour bin often starts at 0.00 before accumulating. F10.7 noon flux was omitted this cycle because the published series on the public endpoint can mix stale records. Window start 2026-09-17 06:26 UTC (358 samples; latest complete minute 2026-09-17 12:23 UTC = 1.33 / 1P; last-180 maximum 3.00 at 12:21 UTC; window maximum 3.00 at 12:21 UTC).</li>
+            <li data-i18n="kp-limit">Limitation: 1-minute estimated Kp is a nowcast, not the final official 3-hour Kp; values can be revised and a new 3-hour bin often starts at 0.00 before accumulating. F10.7 noon flux was omitted this cycle because the published series on the public endpoint can mix stale records. Window start 2026-09-17 08:12 UTC (357 samples; latest complete minute 2026-09-17 14:08 UTC = 1.33 / 1P; last-180 maximum 2.67 at 12:26 UTC; window maximum 2.67 at 12:26 UTC).</li>
           </ul>
         </div>
       </article>
@@ -87,7 +87,44 @@
       
 
       
-      <article class="entry" data-entry-id="usgs-us7000ti03" data-category="quake">
+      
+      <article class="entry" data-entry-id="usgs-us7000ti1h" data-category="quake">
+        <div class="entry-meta">
+          <time datetime="2026-09-17T13:30:49Z">2026-09-17 13:30 UTC</time>
+          <span class="status" data-i18n="status-new">New event</span>
+        </div>
+        <h3 class="conclusion" data-i18n="eq-ti1h-conclusion">A magnitude 4.7 earthquake occurred 107 km SE of Vilyuchinsk, Russia on 17 September 2026.</h3>
+        <div class="viz">
+          <div class="viz-label" data-i18n="eq-ti1h-viz">Magnitude scale (0–10). Marker at 4.7</div>
+          <div class="bar-track" title="mb 4.7">
+            <div class="bar-fill" style="width:47%"></div>
+          </div>
+          <div class="scale-row"><span>0</span><span>5</span><span>10</span></div>
+        </div>
+        <div class="data-block">
+          <p><strong data-i18n="data-title">Key data</strong></p>
+          <ul class="data-list">
+            <li data-i18n="eq-ti1h-mag">Magnitude: 4.7 (mb)</li>
+            <li data-i18n="eq-ti1h-place">Location: 107 km SE of Vilyuchinsk, Russia</li>
+            <li data-i18n="eq-ti1h-time">Origin time: 2026-09-17 13:30:49 UTC</li>
+            <li data-i18n="eq-ti1h-depth">Depth: approximately 57 km</li>
+            <li data-i18n="eq-ti1h-id">Event ID: us7000ti1h</li>
+          </ul>
+        </div>
+        <div class="evidence-chain">
+          <h4 data-i18n="evidence-heading">Evidence Chain</h4>
+          <ul>
+            <li data-i18n="eq-ti1h-source">Source: U.S. Geological Survey (USGS) Earthquake Hazards Program — event us7000ti1h</li>
+            <li data-i18n="eq-ti1h-method">Method: Retrieved from the public USGS M4.5+ past-day GeoJSON feed. Selected newly appeared NEIC (us*) events not yet listed on this page.</li>
+            <li data-i18n="eq-ti1h-link">Direct event page: https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti1h</li>
+            <li data-i18n="eq-ti1h-feed">Feed used: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson</li>
+            <li data-i18n="eq-ti1h-repro">Reproducibility: Anyone can open the same public endpoints and obtain the identical magnitude, coordinates, and origin time without authentication.</li>
+            <li data-i18n="eq-ti1h-limit">Limitation: Catalog parameters can be revised after review; depth and hypocenter may be refined. The past-day feed is a rolling window.</li>
+          </ul>
+        </div>
+      </article>
+
+<article class="entry" data-entry-id="usgs-us7000ti03" data-category="quake">
         <div class="entry-meta">
           <time datetime="2026-09-17T08:28:25Z">2026-09-17 08:28 UTC</time>
           <span class="status" data-i18n="status-new">New event</span>
