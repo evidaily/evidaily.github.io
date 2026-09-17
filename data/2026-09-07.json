@@ -1,0 +1,202 @@
+{
+  "date": "2026-09-07",
+  "updated": "2026-09-07T23:59:00+08:00",
+  "entries": [
+    {
+      "id": "usgs-us7000tez1",
+      "type": "earthquake",
+      "time_utc": "2026-09-07T21:54:38Z",
+      "title": {
+        "en": "A magnitude 4.5 earthquake occurred 129 km ENE of Taltal, Chile on 7 September 2026.",
+        "zh": "A magnitude 4.5 earthquake occurred 129 km ENE of Taltal, Chile on 7 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.5
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000teu1",
+      "type": "earthquake",
+      "time_utc": "2026-09-07T05:50:44Z",
+      "title": {
+        "en": "A magnitude 5.5 earthquake occurred southeast of the Loyalty Islands on 7 September 2026.",
+        "zh": "A magnitude 5.5 earthquake occurred southeast of the Loyalty Islands on 7 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.5
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.5,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tet6",
+      "type": "earthquake",
+      "time_utc": "2026-09-07T02:30:21Z",
+      "title": {
+        "en": "A magnitude 4.7 earthquake occurred Kermadec Islands region on 7 September 2026.",
+        "zh": "A magnitude 4.7 earthquake occurred Kermadec Islands region on 7 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.7
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.7,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000teta",
+      "type": "earthquake",
+      "time_utc": "2026-09-07T02:29:41Z",
+      "title": {
+        "en": "A magnitude 4.5 earthquake occurred south of the Fiji Islands on 7 September 2026.",
+        "zh": "A magnitude 4.5 earthquake occurred south of the Fiji Islands on 7 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.5
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tesx",
+      "type": "earthquake",
+      "time_utc": "2026-09-07T02:11:51Z",
+      "title": {
+        "en": "A magnitude 4.9 earthquake occurred Kermadec Islands region on 7 September 2026.",
+        "zh": "A magnitude 4.9 earthquake occurred Kermadec Islands region on 7 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.9
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.9,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000test",
+      "type": "earthquake",
+      "time_utc": "2026-09-07T02:06:48Z",
+      "title": {
+        "en": "A magnitude 5.0 earthquake occurred Kermadec Islands region on 7 September 2026.",
+        "zh": "A magnitude 5.0 earthquake occurred Kermadec Islands region on 7 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.0
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.0,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tesi",
+      "type": "earthquake",
+      "time_utc": "2026-09-07T01:30:24Z",
+      "title": {
+        "en": "A magnitude 5.3 earthquake occurred off the coast of Oregon on 7 September 2026.",
+        "zh": "A magnitude 5.3 earthquake occurred off the coast of Oregon on 7 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.3
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.3,
+        "min": 0,
+        "max": 10
+      }
+    }
+  ]
+}
