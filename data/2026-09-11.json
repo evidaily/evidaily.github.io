@@ -1,0 +1,202 @@
+{
+  "date": "2026-09-11",
+  "updated": "2026-09-11T23:59:00+08:00",
+  "entries": [
+    {
+      "id": "usgs-us7000tguq",
+      "type": "earthquake",
+      "time_utc": "2026-09-11T22:32:23Z",
+      "title": {
+        "en": "A magnitude 4.9 earthquake occurred 235 km W of Puerto Chacabuco, Chile on 11 September 2026.",
+        "zh": "A magnitude 4.9 earthquake occurred 235 km W of Puerto Chacabuco, Chile on 11 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.9
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.9,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tgrk",
+      "type": "earthquake",
+      "time_utc": "2026-09-11T21:23:55Z",
+      "title": {
+        "en": "A magnitude 6.6 earthquake occurred 115 km NNE of Teluknaga, Indonesia on 11 September 2026.",
+        "zh": "A magnitude 6.6 earthquake occurred 115 km NNE of Teluknaga, Indonesia on 11 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 6.6
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 6.6,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tgpu",
+      "type": "earthquake",
+      "time_utc": "2026-09-11T16:42:30Z",
+      "title": {
+        "en": "A magnitude 4.7 earthquake occurred 33 km SW of Sipí, Colombia on 11 September 2026.",
+        "zh": "A magnitude 4.7 earthquake occurred 33 km SW of Sipí, Colombia on 11 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.7
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.7,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tgl2",
+      "type": "earthquake",
+      "time_utc": "2026-09-11T11:56:23Z",
+      "title": {
+        "en": "A magnitude 5.9 earthquake occurred 253 km ENE of Lospalos, Timor Leste on 11 September 2026.",
+        "zh": "A magnitude 5.9 earthquake occurred 253 km ENE of Lospalos, Timor Leste on 11 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.9
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.9,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tgky",
+      "type": "earthquake",
+      "time_utc": "2026-09-11T10:47:12Z",
+      "title": {
+        "en": "A magnitude 5.3 earthquake occurred 151 km WSW of Adak, Alaska on 11 September 2026.",
+        "zh": "A magnitude 5.3 earthquake occurred 151 km WSW of Adak, Alaska on 11 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.3
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.3,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tgk1",
+      "type": "earthquake",
+      "time_utc": "2026-09-11T07:31:45Z",
+      "title": {
+        "en": "A magnitude 4.5 earthquake occurred 92 km S of False Pass, Alaska on 11 September 2026.",
+        "zh": "A magnitude 4.5 earthquake occurred 92 km S of False Pass, Alaska on 11 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.5
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tgij",
+      "type": "earthquake",
+      "time_utc": "2026-09-11T02:28:13Z",
+      "title": {
+        "en": "A magnitude 4.9 earthquake occurred 69 km N of Isangel, Vanuatu on 11 September 2026.",
+        "zh": "A magnitude 4.9 earthquake occurred 69 km N of Isangel, Vanuatu on 11 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.9
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.9,
+        "min": 0,
+        "max": 10
+      }
+    }
+  ]
+}
