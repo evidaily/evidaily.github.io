@@ -1,0 +1,370 @@
+{
+  "date": "2026-09-12",
+  "updated": "2026-09-12T23:59:00+08:00",
+  "entries": [
+    {
+      "id": "usgs-us7000th1q",
+      "type": "earthquake",
+      "time_utc": "2026-09-12T20:32:58Z",
+      "title": {
+        "en": "A magnitude 5.1 earthquake occurred 101 km S of Yudomari, Japan on 12 September 2026.",
+        "zh": "A magnitude 5.1 earthquake occurred 101 km S of Yudomari, Japan on 12 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.1
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.1,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000th16",
+      "type": "earthquake",
+      "time_utc": "2026-09-12T17:51:45Z",
+      "title": {
+        "en": "A magnitude 4.8 earthquake occurred 17 km WSW of Lixoúri, Greece on 12 September 2026.",
+        "zh": "A magnitude 4.8 earthquake occurred 17 km WSW of Lixoúri, Greece on 12 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.8
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.8,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000th0h",
+      "type": "earthquake",
+      "time_utc": "2026-09-12T15:56:09Z",
+      "title": {
+        "en": "A magnitude 4.7 earthquake occurred 46 km NNE of Port-Olry, Vanuatu on 12 September 2026.",
+        "zh": "A magnitude 4.7 earthquake occurred 46 km NNE of Port-Olry, Vanuatu on 12 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.7
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.7,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tgyx",
+      "type": "earthquake",
+      "time_utc": "2026-09-12T11:16:12Z",
+      "title": {
+        "en": "A magnitude 4.7 earthquake occurred 32 km SW of Sipí, Colombia on 12 September 2026.",
+        "zh": "A magnitude 4.7 earthquake occurred 32 km SW of Sipí, Colombia on 12 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.7
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.7,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tgyw",
+      "type": "earthquake",
+      "time_utc": "2026-09-12T11:05:46Z",
+      "title": {
+        "en": "A magnitude 4.9 earthquake occurred in the South Sandwich Islands region on 12 September 2026.",
+        "zh": "A magnitude 4.9 earthquake occurred in the South Sandwich Islands region on 12 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.9
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.9,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tgyh",
+      "type": "earthquake",
+      "time_utc": "2026-09-12T09:35:46Z",
+      "title": {
+        "en": "A magnitude 4.9 earthquake occurred 147 km WNW of Sola, Vanuatu on 12 September 2026.",
+        "zh": "A magnitude 4.9 earthquake occurred 147 km WNW of Sola, Vanuatu on 12 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.9
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.9,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tgy2",
+      "type": "earthquake",
+      "time_utc": "2026-09-12T08:46:38Z",
+      "title": {
+        "en": "A magnitude 4.5 earthquake occurred 63 km WSW of Santiago, Peru on 12 September 2026.",
+        "zh": "A magnitude 4.5 earthquake occurred 63 km WSW of Santiago, Peru on 12 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.5
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tgxg",
+      "type": "earthquake",
+      "time_utc": "2026-09-12T06:14:30Z",
+      "title": {
+        "en": "A magnitude 4.8 earthquake occurred 253 km WSW of Tual, Indonesia on 12 September 2026.",
+        "zh": "A magnitude 4.8 earthquake occurred 253 km WSW of Tual, Indonesia on 12 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.8
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.8,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tgx2",
+      "type": "earthquake",
+      "time_utc": "2026-09-12T05:08:24Z",
+      "title": {
+        "en": "A magnitude 4.7 earthquake occurred 94 km WNW of Ternate, Indonesia on 12 September 2026.",
+        "zh": "A magnitude 4.7 earthquake occurred 94 km WNW of Ternate, Indonesia on 12 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.7
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.7,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tgwe",
+      "type": "earthquake",
+      "time_utc": "2026-09-12T03:34:57Z",
+      "title": {
+        "en": "A magnitude 4.6 earthquake occurred 45 km NNE of Ruteng, Indonesia on 12 September 2026.",
+        "zh": "A magnitude 4.6 earthquake occurred 45 km NNE of Ruteng, Indonesia on 12 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.6
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.6,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tgw1",
+      "type": "earthquake",
+      "time_utc": "2026-09-12T01:59:50Z",
+      "title": {
+        "en": "A magnitude 4.7 earthquake occurred 2 km NE of Manaca Norte, Panama on 12 September 2026.",
+        "zh": "A magnitude 4.7 earthquake occurred 2 km NE of Manaca Norte, Panama on 12 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.7
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.7,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tgvr",
+      "type": "earthquake",
+      "time_utc": "2026-09-12T00:55:08Z",
+      "title": {
+        "en": "A magnitude 5.1 earthquake occurred in the South Sandwich Islands region on 12 September 2026.",
+        "zh": "A magnitude 5.1 earthquake occurred in the South Sandwich Islands region on 12 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.1
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.1,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tgvk",
+      "type": "earthquake",
+      "time_utc": "2026-09-12T00:18:59Z",
+      "title": {
+        "en": "A magnitude 4.5 earthquake occurred 9 km WNW of Quicacha, Peru on 12 September 2026.",
+        "zh": "A magnitude 4.5 earthquake occurred 9 km WNW of Quicacha, Peru on 12 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.5
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
+      }
+    }
+  ]
+}
