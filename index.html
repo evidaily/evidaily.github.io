@@ -53,12 +53,12 @@
           <time datetime="2026-09-17T09:59:00Z">2026-09-17 09:59 UTC</time>
           <span class="status" data-i18n="status-live">Live data</span>
         </div>
-        <h3 class="conclusion" data-i18n="kp-conclusion">Latest complete-minute estimated Kp = 0.00 (label 0Z at 2026-09-17 09:59 UTC); last-180-sample maximum is 1.67; published-window maximum is 2.00; estimated_kp still below 5.0. The 16:00 through 03:00 UTC bins have rolled out of the public window. The remaining 04:00 UTC slice in the public window peaks at 1.67 / 2M (42 samples). The completed 05:00 UTC bin closed at 2.00 / 2Z. The completed 06:00 UTC bin closed at 1.00 / 1Z. The completed 07:00 UTC bin closed at 1.67 / 2M. The completed 08:00 UTC bin closed at 1.67 / 2M. The completed 09:00 UTC bin closed at 0.00 / 0Z. The in-progress 10:00 UTC bin currently peaks at 0.33 / 0P.</h3>
+        <h3 class="conclusion" data-i18n="kp-conclusion">Latest complete-minute estimated Kp = 1.67 (label 2M at 2026-09-17 10:58 UTC); last-180-sample maximum is 1.67; published-window maximum is 2.00; estimated_kp still below 5.0. The 16:00 through 04:00 UTC bins have rolled out of the public window. The remaining 05:00 UTC slice in the public window peaks at 2.00 / 2Z (58 samples). The completed 06:00 UTC bin closed at 1.00 / 1Z. The completed 07:00 UTC bin closed at 1.67 / 2M. The completed 08:00 UTC bin closed at 1.67 / 2M. The completed 09:00 UTC bin closed at 0.00 / 0Z. The in-progress 10:00 UTC bin currently peaks at 1.67 / 2M.</h3>
 
         <div class="viz">
-          <div class="viz-label" data-i18n="viz-kp">Estimated Kp (0–9). Marker at 0.00</div>
+          <div class="viz-label" data-i18n="viz-kp">Estimated Kp (0–9). Marker at 1.67</div>
           <div class="bar-track">
-            <div class="bar-fill" style="width:0%"></div>
+            <div class="bar-fill" style="width:18.6%"></div>
           </div>
           <div class="scale-row"><span>0</span><span>G1=5</span><span>9</span></div>
         </div>
@@ -66,9 +66,9 @@
         <div class="data-block">
           <p><strong data-i18n="kp-data-title">Key data</strong></p>
           <ul class="data-list">
-            <li data-i18n="kp-time">Sample time: 2026-09-17 09:59 UTC</li>
-            <li data-i18n="kp-est">Estimated Kp: 0.00 (label 0Z)</li>
-            <li data-i18n="kp-max">Max estimated Kp in last 180 samples: 1.67 (latest at 2026-09-17 08:59 UTC)</li>
+            <li data-i18n="kp-time">Sample time: 2026-09-17 10:58 UTC</li>
+            <li data-i18n="kp-est">Estimated Kp: 1.67 (label 2M)</li>
+            <li data-i18n="kp-max">Max estimated Kp in last 180 samples: 1.67 (latest at 2026-09-17 10:58 UTC)</li>
           </ul>
         </div>
 
@@ -76,7 +76,7 @@
           <h4 data-i18n="evidence-heading">Evidence Chain</h4>
           <ul>
             <li data-i18n="kp-source">Source: NOAA Space Weather Prediction Center public JSON — planetary_k_index_1m.json</li>
-            <li data-i18n="kp-method">Method: Used the latest complete 1-minute estimated Kp sample in the published window (09:59 UTC is a complete minute at 0.00 / 0Z), plus the maximum estimated_kp among the last 180 samples. The 05:00 through 09:00 UTC hour bins are complete (60 samples each). The remaining 04:00 UTC slice has 42 samples after window roll. The earlier 16:00 through 03:00 UTC slices have rolled out of the public window; the remaining window starts at 04:18 UTC.</li>
+            <li data-i18n="kp-method">Method: Used the latest complete 1-minute estimated Kp sample in the published window (10:58 UTC is a complete minute at 1.67 / 2M), plus the maximum estimated_kp among the last 180 samples. The 06:00 through 09:00 UTC hour bins are complete (60 samples each). The remaining 05:00 UTC slice has 58 samples after window roll. The earlier 16:00 through 04:00 UTC slices have rolled out of the public window; the remaining window starts at 05:02 UTC.</li>
             <li data-i18n="kp-link">Kp JSON: https://services.swpc.noaa.gov/json/planetary_k_index_1m.json</li>
             <li data-i18n="kp-repro">Reproducibility: The endpoint is public, unauthenticated, and returns the same numeric fields used here.</li>
             <li data-i18n="kp-limit">Limitation: 1-minute estimated Kp is a nowcast, not the final official 3-hour Kp; values can be revised and a new 3-hour bin often starts at 0.00 before accumulating. F10.7 noon flux was omitted this cycle because the published series on the public endpoint can mix stale records. Window start 2026-09-17 03:03 UTC (358 samples; latest complete minute 2026-09-17 08:59 UTC = 1.33 / 1P; last-180 maximum 1.67 at 08:58 UTC; window maximum 2.00 at 05:28–05:39 UTC).</li>
