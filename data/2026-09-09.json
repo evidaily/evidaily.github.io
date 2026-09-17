@@ -1,0 +1,342 @@
+{
+  "date": "2026-09-09",
+  "updated": "2026-09-09T23:59:00+08:00",
+  "entries": [
+    {
+      "id": "usgs-us7000tg6g",
+      "type": "earthquake",
+      "time_utc": "2026-09-09T21:29:54Z",
+      "title": {
+        "en": "A magnitude 4.9 earthquake occurred on the Mid-Indian Ridge on 9 September 2026.",
+        "zh": "A magnitude 4.9 earthquake occurred on the Mid-Indian Ridge on 9 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.9
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.9,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tg5p",
+      "type": "earthquake",
+      "time_utc": "2026-09-09T20:21:13Z",
+      "title": {
+        "en": "A magnitude 4.7 earthquake occurred 164 km SSE of Isangel, Vanuatu on 9 September 2026.",
+        "zh": "A magnitude 4.7 earthquake occurred 164 km SSE of Isangel, Vanuatu on 9 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.7
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.7,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tg5i",
+      "type": "earthquake",
+      "time_utc": "2026-09-09T20:17:13Z",
+      "title": {
+        "en": "A magnitude 4.6 earthquake occurred 24 km E of Rasht, Tajikistan on 9 September 2026.",
+        "zh": "A magnitude 4.6 earthquake occurred 24 km E of Rasht, Tajikistan on 9 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.6
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.6,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tg51",
+      "type": "earthquake",
+      "time_utc": "2026-09-09T19:15:11Z",
+      "title": {
+        "en": "A magnitude 4.8 earthquake occurred 86 km ESE of Isangel, Vanuatu on 9 September 2026.",
+        "zh": "A magnitude 4.8 earthquake occurred 86 km ESE of Isangel, Vanuatu on 9 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.8
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.8,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tg4e",
+      "type": "earthquake",
+      "time_utc": "2026-09-09T18:19:02Z",
+      "title": {
+        "en": "A magnitude 4.6 earthquake occurred 295 km WNW of Houma, Tonga on 9 September 2026.",
+        "zh": "A magnitude 4.6 earthquake occurred 295 km WNW of Houma, Tonga on 9 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.6
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.6,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tg43",
+      "type": "earthquake",
+      "time_utc": "2026-09-09T17:18:45Z",
+      "title": {
+        "en": "A magnitude 5.1 earthquake occurred 81 km ESE of Isangel, Vanuatu on 9 September 2026.",
+        "zh": "A magnitude 5.1 earthquake occurred 81 km ESE of Isangel, Vanuatu on 9 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.1
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.1,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tg3x",
+      "type": "earthquake",
+      "time_utc": "2026-09-09T17:01:52Z",
+      "title": {
+        "en": "A magnitude 5.2 earthquake occurred 76 km ESE of Isangel, Vanuatu on 9 September 2026.",
+        "zh": "A magnitude 5.2 earthquake occurred 76 km ESE of Isangel, Vanuatu on 9 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.2
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.2,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tg1q",
+      "type": "earthquake",
+      "time_utc": "2026-09-09T12:18:14Z",
+      "title": {
+        "en": "A magnitude 4.7 earthquake occurred 139 km NNE of Hihifo, Tonga on 9 September 2026.",
+        "zh": "A magnitude 4.7 earthquake occurred 139 km NNE of Hihifo, Tonga on 9 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.7
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.7,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tg1h",
+      "type": "earthquake",
+      "time_utc": "2026-09-09T10:51:39Z",
+      "title": {
+        "en": "A magnitude 4.6 earthquake occurred 27 km WSW of Jiyuan, China on 9 September 2026.",
+        "zh": "A magnitude 4.6 earthquake occurred 27 km WSW of Jiyuan, China on 9 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.6
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.6,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tg12",
+      "type": "earthquake",
+      "time_utc": "2026-09-09T10:06:57Z",
+      "title": {
+        "en": "A magnitude 5.0 earthquake occurred 53 km W of Cafayate, Argentina on 9 September 2026.",
+        "zh": "A magnitude 5.0 earthquake occurred 53 km W of Cafayate, Argentina on 9 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.0
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.0,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tg06",
+      "type": "earthquake",
+      "time_utc": "2026-09-09T07:07:03Z",
+      "title": {
+        "en": "A magnitude 5.0 earthquake occurred 154 km S of Sarangani, Philippines on 9 September 2026.",
+        "zh": "A magnitude 5.0 earthquake occurred 154 km S of Sarangani, Philippines on 9 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.0
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.0,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tfyn",
+      "type": "earthquake",
+      "time_utc": "2026-09-09T00:23:19Z",
+      "title": {
+        "en": "A magnitude 4.5 earthquake occurred 108 km SSW of Pagar Alam, Indonesia on 9 September 2026.",
+        "zh": "A magnitude 4.5 earthquake occurred 108 km SSW of Pagar Alam, Indonesia on 9 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.5
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
+      }
+    }
+  ]
+}
