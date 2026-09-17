@@ -4082,3 +4082,51 @@ const translations = {
     "eq-tg98-limit": "限制：目錄參數經審核後可能修正；深度與震源位置可能再精煉。過去一日饋送為滾動視窗。"
   }
 };
+
+
+// --- i18n runtime (language switch) ---
+function applyTranslations(lang) {
+  const dict = (typeof translations !== "undefined" && translations[lang])
+    ? translations[lang]
+    : null;
+  if (!dict) return;
+
+  document.querySelectorAll("[data-i18n]").forEach(function (el) {
+    const key = el.getAttribute("data-i18n");
+    if (!key) return;
+    if (Object.prototype.hasOwnProperty.call(dict, key) && dict[key] != null) {
+      el.textContent = dict[key];
+    }
+  });
+
+  document.documentElement.setAttribute("lang", lang === "zh" ? "zh-Hant" : "en");
+
+  const enBtn = document.getElementById("lang-en");
+  const zhBtn = document.getElementById("lang-zh");
+  if (enBtn) enBtn.classList.toggle("active", lang === "en");
+  if (zhBtn) zhBtn.classList.toggle("active", lang === "zh");
+}
+
+function setLang(lang) {
+  const next = (lang === "zh") ? "zh" : "en";
+  try {
+    localStorage.setItem("evidaily-lang", next);
+  } catch (e) { /* ignore quota / private mode */ }
+  applyTranslations(next);
+}
+
+(function initLang() {
+  var saved = null;
+  try {
+    saved = localStorage.getItem("evidaily-lang");
+  } catch (e) {}
+  var lang = (saved === "zh" || saved === "en") ? saved : "en";
+  // Defer until DOM is ready so data-i18n nodes exist
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", function () {
+      applyTranslations(lang);
+    });
+  } else {
+    applyTranslations(lang);
+  }
+})();
