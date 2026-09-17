@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Archive · Evidence Daily</title>
+  <meta name="description" content="Historical archive of Evidence Daily verifiable data points.">
   <link rel="stylesheet" href="style.css">
   <script>
     (function() {
@@ -13,34 +14,157 @@
       document.documentElement.setAttribute("data-theme", theme);
     })();
   </script>
+  <style>
+    .archive-nav { margin: 1.5rem 0; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .month-btn, .day-btn {
+      padding: 0.4rem 0.9rem;
+      border-radius: 6px;
+      border: 1px solid var(--border, #334);
+      background: var(--card-bg, #1a1a2e);
+      color: inherit;
+      cursor: pointer;
+      font-size: 0.9rem;
+    }
+    .month-btn.active, .day-btn.active {
+      background: #1e40af;
+      border-color: #1e40af;
+      color: #fff;
+    }
+    .month-btn:hover, .day-btn:hover { opacity: 0.9; }
+    #archive-entries { margin-top: 1.5rem; }
+    .archive-header { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .back-link { font-size: 0.95rem; }
+  </style>
 </head>
 <body>
   <header>
     <div class="container">
       <div class="header-top">
-        <h1 class="site-title"><a href="index.html" style="text-decoration:none;color:inherit;">Evidence Daily</a> · Archive</h1>
+        <h1 class="site-title">
+          <a href="index.html" style="text-decoration:none;color:inherit;">Evidence Daily</a>
+          <span class="subtitle">· Archive</span>
+        </h1>
         <div class="controls">
-          <button id="theme-toggle" class="theme-btn" onclick="toggleTheme()">☾</button>
+          <div class="lang-switch">
+            <button id="lang-en" class="lang-btn active" onclick="setLang('en')">EN</button>
+            <button id="lang-zh" class="lang-btn" onclick="setLang('zh')">中文</button>
+          </div>
+          <button id="theme-toggle" class="theme-btn" onclick="toggleTheme()" title="Toggle theme">
+            <span id="theme-icon">☾</span>
+          </button>
         </div>
       </div>
     </div>
   </header>
+
   <main class="container">
-    <h2>Historical Archive</h2>
-    <p>Daily data files are stored under <code>/data/YYYY-MM-DD.json</code>.</p>
-    <p>Full month pages and complete historical migration are in progress (started 2026-09-17).</p>
-    <ul>
-      <li><strong>2026-09</strong> — Partial (recent days available in data/). Older entries still being extracted from the previous single-file version.</li>
-    </ul>
-    <p><a href="index.html">← Back to recent evidence (last 14 days)</a></p>
+    <div class="archive-header">
+      <h2>Historical Archive</h2>
+      <a class="back-link" href="index.html">← Recent (last 14 days)</a>
+    </div>
+
+    <p style="opacity:0.8;margin-bottom:1rem;">Select a month, then a day to view entries. Data from <code>/data/</code>.</p>
+
+    <div class="archive-nav" id="month-nav"></div>
+    <div class="archive-nav" id="day-nav" style="display:none;"></div>
+    <div id="archive-entries">
+      <p style="opacity:0.7;">Select a day to load entries.</p>
+    </div>
   </main>
+
+  <footer class="container" style="margin-top:2rem;padding:1.5rem 0;font-size:0.85em;opacity:0.7;">
+    <p>Evidence Daily · Public data only</p>
+  </footer>
+
+  <script src="app.js"></script>
   <script>
     function toggleTheme() {
       const html = document.documentElement;
       const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
       html.setAttribute('data-theme', next);
       localStorage.setItem('evidaily-theme', next);
+      document.getElementById('theme-icon').textContent = next === 'dark' ? '☀' : '☾';
     }
+
+    const AVAILABLE = [
+      "2026-09-04","2026-09-05","2026-09-06","2026-09-07","2026-09-08",
+      "2026-09-09","2026-09-10","2026-09-11","2026-09-12","2026-09-13",
+      "2026-09-14","2026-09-15","2026-09-16","2026-09-17"
+    ];
+
+    function getMonths() {
+      return [...new Set(AVAILABLE.map(d => d.slice(0,7)))].sort().reverse();
+    }
+
+    function getDaysOfMonth(ym) {
+      return AVAILABLE.filter(d => d.startsWith(ym)).sort().reverse();
+    }
+
+    function renderMonthNav() {
+      const nav = document.getElementById('month-nav');
+      nav.innerHTML = getMonths().map(m => 
+        `<button class="month-btn" data-month="${m}" onclick="selectMonth('${m}')">${m}</button>`
+      ).join('');
+    }
+
+    function selectMonth(ym) {
+      document.querySelectorAll('.month-btn').forEach(b => b.classList.toggle('active', b.dataset.month === ym));
+      const days = getDaysOfMonth(ym);
+      const dayNav = document.getElementById('day-nav');
+      dayNav.style.display = 'flex';
+      dayNav.innerHTML = days.map(d => 
+        `<button class="day-btn" data-day="${d}" onclick="loadDay('${d}')">${d.slice(8)}</button>`
+      ).join('');
+      document.getElementById('archive-entries').innerHTML = '<p style="opacity:0.7;">Select a day.</p>';
+    }
+
+    async function loadDay(dateStr) {
+      document.querySelectorAll('.day-btn').forEach(b => b.classList.toggle('active', b.dataset.day === dateStr));
+      const container = document.getElementById('archive-entries');
+      container.innerHTML = '<p style="opacity:0.7;">Loading…</p>';
+
+      try {
+        const res = await fetch(`data/${dateStr}.json`);
+        if (!res.ok) throw new Error('not found');
+        const day = await res.json();
+        const lang = localStorage.getItem('evidaily-lang') || 'en';
+        const entries = (day.entries || []).sort((a,b) => (b.time_utc||'').localeCompare(a.time_utc||''));
+
+        if (entries.length === 0) {
+          container.innerHTML = '<p>No entries for this day.</p>';
+          return;
+        }
+
+        if (typeof renderEntry === 'function') {
+          container.innerHTML = `<h3 style="margin-bottom:1rem;">${dateStr} · ${entries.length} entries</h3>` +
+            entries.map(e => renderEntry(e, lang)).join('\n');
+        } else {
+          container.innerHTML = `<h3 style="margin-bottom:1rem;">${dateStr} · ${entries.length} entries</h3>` +
+            entries.map(e => {
+              const title = (e.title && (e.title[lang] || e.title.en)) || '';
+              const time = (e.time_utc || '').replace('T',' ').replace('Z',' UTC');
+              return `<article class="entry"><div class="entry-meta"><time>${time}</time></div><h3 class="conclusion">${title}</h3></article>`;
+            }).join('\n');
+        }
+      } catch (err) {
+        container.innerHTML = `<p>Failed to load ${dateStr}.json</p>`;
+      }
+    }
+
+    function setLang(lang) {
+      localStorage.setItem('evidaily-lang', lang);
+      document.querySelectorAll('.lang-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.id === `lang-${lang}`);
+      });
+      const active = document.querySelector('.day-btn.active');
+      if (active) loadDay(active.dataset.day);
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      renderMonthNav();
+      const months = getMonths();
+      if (months.length) selectMonth(months[0]);
+    });
   </script>
 </body>
 </html>
