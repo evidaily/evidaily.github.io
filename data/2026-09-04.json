@@ -1,0 +1,342 @@
+{
+  "date": "2026-09-04",
+  "updated": "2026-09-04T23:59:00+08:00",
+  "entries": [
+    {
+      "id": "usgs-us7000tefx",
+      "type": "earthquake",
+      "time_utc": "2026-09-04T23:52:30Z",
+      "title": {
+        "en": "A magnitude 5.5 earthquake occurred 156 km E of Kuril’sk, Russia on 4 September 2026.",
+        "zh": "A magnitude 5.5 earthquake occurred 156 km E of Kuril’sk, Russia on 4 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.5
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.5,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tefw",
+      "type": "earthquake",
+      "time_utc": "2026-09-04T23:38:40Z",
+      "title": {
+        "en": "A magnitude 5.1 earthquake occurred on the central Mid-Atlantic Ridge on 4 September 2026.",
+        "zh": "A magnitude 5.1 earthquake occurred on the central Mid-Atlantic Ridge on 4 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.1
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.1,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tefr",
+      "type": "earthquake",
+      "time_utc": "2026-09-04T23:17:48Z",
+      "title": {
+        "en": "A magnitude 4.5 earthquake occurred 38 km NNE of Ruteng, Indonesia on 4 September 2026.",
+        "zh": "A magnitude 4.5 earthquake occurred 38 km NNE of Ruteng, Indonesia on 4 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.5
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tede",
+      "type": "earthquake",
+      "time_utc": "2026-09-04T18:34:01Z",
+      "title": {
+        "en": "A magnitude 4.6 earthquake occurred 32 km NW of Raumati Beach, New Zealand on 4 September 2026.",
+        "zh": "A magnitude 4.6 earthquake occurred 32 km NW of Raumati Beach, New Zealand on 4 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.6
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.6,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000teck",
+      "type": "earthquake",
+      "time_utc": "2026-09-04T16:24:41Z",
+      "title": {
+        "en": "A magnitude 5.1 earthquake occurred 25 km W of Padangsidempuan, Indonesia on 4 September 2026.",
+        "zh": "A magnitude 5.1 earthquake occurred 25 km W of Padangsidempuan, Indonesia on 4 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.1
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.1,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tea7",
+      "type": "earthquake",
+      "time_utc": "2026-09-04T13:47:52Z",
+      "title": {
+        "en": "A magnitude 4.9 earthquake occurred south of the Fiji Islands on 4 September 2026.",
+        "zh": "A magnitude 4.9 earthquake occurred south of the Fiji Islands on 4 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.9
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.9,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000te9t",
+      "type": "earthquake",
+      "time_utc": "2026-09-04T11:59:58Z",
+      "title": {
+        "en": "A magnitude 5.4 earthquake occurred in the Kermadec Islands region on 4 September 2026.",
+        "zh": "A magnitude 5.4 earthquake occurred in the Kermadec Islands region on 4 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.4
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.4,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000te95",
+      "type": "earthquake",
+      "time_utc": "2026-09-04T08:48:03Z",
+      "title": {
+        "en": "A magnitude 4.7 earthquake occurred 2 km NNW of Cabangan, Philippines on 4 September 2026.",
+        "zh": "A magnitude 4.7 earthquake occurred 2 km NNW of Cabangan, Philippines on 4 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.7
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.7,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000te8p",
+      "type": "earthquake",
+      "time_utc": "2026-09-04T06:48:06Z",
+      "title": {
+        "en": "A magnitude 4.5 earthquake occurred 36 km WSW of Ollagüe, Chile on 4 September 2026.",
+        "zh": "A magnitude 4.5 earthquake occurred 36 km WSW of Ollagüe, Chile on 4 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.5
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000te8r",
+      "type": "earthquake",
+      "time_utc": "2026-09-04T06:45:54Z",
+      "title": {
+        "en": "A magnitude 5.0 earthquake occurred in the South Sandwich Islands region on 4 September 2026.",
+        "zh": "A magnitude 5.0 earthquake occurred in the South Sandwich Islands region on 4 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.0
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.0,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000te82",
+      "type": "earthquake",
+      "time_utc": "2026-09-04T05:04:54Z",
+      "title": {
+        "en": "A magnitude 5.2 earthquake occurred 28 km S of Cilacap, Indonesia on 4 September 2026.",
+        "zh": "A magnitude 5.2 earthquake occurred 28 km S of Cilacap, Indonesia on 4 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.2
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.2,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000te7l",
+      "type": "earthquake",
+      "time_utc": "2026-09-04T02:28:38Z",
+      "title": {
+        "en": "A magnitude 5.0 earthquake occurred 236 km ESE of Attu Station, Alaska on 4 September 2026.",
+        "zh": "A magnitude 5.0 earthquake occurred 236 km ESE of Attu Station, Alaska on 4 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.0
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.0,
+        "min": 0,
+        "max": 10
+      }
+    }
+  ]
+}
