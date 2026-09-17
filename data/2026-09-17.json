@@ -1,0 +1,72 @@
+{
+  "date": "2026-09-17",
+  "updated": "2026-09-17T17:04:00+08:00",
+  "entries": [
+    {
+      "id": "kp-20260917-0859",
+      "type": "space-weather",
+      "time_utc": "2026-09-17T08:59:00Z",
+      "title": {
+        "en": "Latest complete-minute estimated Kp = 1.33 (label 1P at 2026-09-17 08:59 UTC)",
+        "zh": "最新完整分鐘估計 Kp = 1.33（標籤 1P，2026-09-17 08:59 UTC）"
+      },
+      "summary": {
+        "en": "Planetary Kp remains low. Last-180 maximum 1.67, published window maximum 2.00. Still well below G1 (Kp 5).",
+        "zh": "行星 Kp 維持低位。近 180 筆最大 1.67，公開視窗最大 2.00。仍遠低於 G1（Kp 5）。"
+      },
+      "data": {
+        "estimated_kp": 1.33,
+        "label": "1P",
+        "max_180": 1.67,
+        "window_max": 2.00,
+        "sample_time": "2026-09-17T08:59:00Z"
+      },
+      "evidence": {
+        "source_name": "NOAA SWPC",
+        "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
+        "method": "Used the latest complete 1-minute estimated Kp sample. Window start approx 03:03 UTC. F10.7 omitted due to possible stale noon records.",
+        "limitations": "1-minute estimated Kp is a nowcast, not the final official 3-hour Kp; values can be revised."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 1.33,
+        "min": 0,
+        "max": 9,
+        "marker": 5
+      }
+    },
+    {
+      "id": "eq-us7000thzz",
+      "type": "earthquake",
+      "time_utc": "2026-09-17T06:48:41Z",
+      "title": {
+        "en": "A magnitude 5.0 earthquake occurred in the South Atlantic Ocean on 17 September 2026.",
+        "zh": "2026年9月17日南大西洋發生規模 5.0 地震。"
+      },
+      "summary": {
+        "en": "mb 5.0 event, depth about 10 km. One of the stronger events in the past-day M4.5+ feed.",
+        "zh": "mb 5.0 事件，深度約 10 公里。為過去一日 M4.5+ 饋送中較強的事件之一。"
+      },
+      "data": {
+        "magnitude": 5.0,
+        "mag_type": "mb",
+        "place": "South Atlantic Ocean",
+        "depth_km": 10,
+        "event_id": "us7000thzz"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thzz",
+        "method": "Taken from the public M4.5+ past-day GeoJSON feed.",
+        "limitations": "Catalog parameters can be revised after review; depth and hypocenter may be refined. The past-day feed is a rolling window."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.0,
+        "min": 0,
+        "max": 10
+      }
+    }
+  ]
+}
