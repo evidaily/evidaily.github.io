@@ -1,69 +1,255 @@
 {
   "date": "2026-09-17",
-  "updated": "2026-09-17T17:04:00+08:00",
+  "updated": "2026-09-17T23:59:00+08:00",
   "entries": [
     {
-      "id": "kp-20260917-0859",
+      "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-17T08:59:00Z",
+      "time_utc": "2026-09-17T14:08:00Z",
       "title": {
-        "en": "Latest complete-minute estimated Kp = 1.33 (label 1P at 2026-09-17 08:59 UTC)",
-        "zh": "最新完整分鐘估計 Kp = 1.33（標籤 1P，2026-09-17 08:59 UTC）"
+        "en": "Latest complete-minute estimated Kp = 1.33 (label 1P at 2026-09-17 14:08 UTC); last-180-sample maximum is 2.67; published-window maximum is 2.67; estimated_kp still below 5.0. The 16:00 through 07:00 UTC bins have rolled out of the public window. The remaining 08:00 UTC slice in the public window peaks at 1.67 / 2M (48 samples). The completed 09:00 UTC bin closed at 0.00 / 0Z. The completed 10:00 UTC bin closed at 1.00 / 1Z. The completed 11:00 UTC bin closed at 1.67 / 2M. The completed 12:00 UTC bin closed at 2.67 / 3M. The completed 13:00 UTC bin closed at 2.67 / 3M. The in-progress 14:00 UTC bin currently peaks at 2.67 / 3M.",
+        "zh": "Latest complete-minute estimated Kp = 1.33 (label 1P at 2026-09-17 14:08 UTC); last-180-sample maximum is 2.67; published-window maximum is 2.67; estimated_kp still below 5.0. The 16:00 through 07:00 UTC bins have rolled out of the public window. The remaining 08:00 UTC slice in the public window peaks at 1.67 / 2M (48 samples). The completed 09:00 UTC bin closed at 0.00 / 0Z. The completed 10:00 UTC bin closed at 1.00 / 1Z. The completed 11:00 UTC bin closed at 1.67 / 2M. The completed 12:00 UTC bin closed at 2.67 / 3M. The completed 13:00 UTC bin closed at 2.67 / 3M. The in-progress 14:00 UTC bin currently peaks at 2.67 / 3M."
       },
       "summary": {
-        "en": "Planetary Kp remains low. Last-180 maximum 1.67, published window maximum 2.00. Still well below G1 (Kp 5).",
-        "zh": "行星 Kp 維持低位。近 180 筆最大 1.67，公開視窗最大 2.00。仍遠低於 G1（Kp 5）。"
+        "en": "",
+        "zh": ""
       },
       "data": {
-        "estimated_kp": 1.33,
-        "label": "1P",
-        "max_180": 1.67,
-        "window_max": 2.00,
-        "sample_time": "2026-09-17T08:59:00Z"
+        "estimated_kp": 1.33
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Used the latest complete 1-minute estimated Kp sample. Window start approx 03:03 UTC. F10.7 omitted due to possible stale noon records.",
-        "limitations": "1-minute estimated Kp is a nowcast, not the final official 3-hour Kp; values can be revised."
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
       },
       "visual": {
         "type": "bar",
         "value": 1.33,
         "min": 0,
-        "max": 9,
-        "marker": 5
+        "max": 9
       }
     },
     {
-      "id": "eq-us7000thzz",
+      "id": "usgs-us7000ti1h",
       "type": "earthquake",
-      "time_utc": "2026-09-17T06:48:41Z",
+      "time_utc": "2026-09-17T13:30:49Z",
       "title": {
-        "en": "A magnitude 5.0 earthquake occurred in the South Atlantic Ocean on 17 September 2026.",
-        "zh": "2026年9月17日南大西洋發生規模 5.0 地震。"
+        "en": "A magnitude 4.7 earthquake occurred 107 km SE of Vilyuchinsk, Russia on 17 September 2026.",
+        "zh": "A magnitude 4.7 earthquake occurred 107 km SE of Vilyuchinsk, Russia on 17 September 2026."
       },
       "summary": {
-        "en": "mb 5.0 event, depth about 10 km. One of the stronger events in the past-day M4.5+ feed.",
-        "zh": "mb 5.0 事件，深度約 10 公里。為過去一日 M4.5+ 饋送中較強的事件之一。"
+        "en": "",
+        "zh": ""
       },
       "data": {
-        "magnitude": 5.0,
-        "mag_type": "mb",
-        "place": "South Atlantic Ocean",
-        "depth_km": 10,
-        "event_id": "us7000thzz"
+        "magnitude": 4.7
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thzz",
-        "method": "Taken from the public M4.5+ past-day GeoJSON feed.",
-        "limitations": "Catalog parameters can be revised after review; depth and hypocenter may be refined. The past-day feed is a rolling window."
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.7,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000ti03",
+      "type": "earthquake",
+      "time_utc": "2026-09-17T08:28:25Z",
+      "title": {
+        "en": "A magnitude 4.5 earthquake occurred 78 km NW of Maumere, Indonesia on 17 September 2026.",
+        "zh": "A magnitude 4.5 earthquake occurred 78 km NW of Maumere, Indonesia on 17 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.5
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thzz",
+      "type": "earthquake",
+      "time_utc": "2026-09-17T06:48:41Z",
+      "title": {
+        "en": "A magnitude 5.0 earthquake occurred in the South Atlantic Ocean on 17 September 2026.",
+        "zh": "A magnitude 5.0 earthquake occurred in the South Atlantic Ocean on 17 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.0
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
       },
       "visual": {
         "type": "bar",
         "value": 5.0,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thzw",
+      "type": "earthquake",
+      "time_utc": "2026-09-17T06:42:41Z",
+      "title": {
+        "en": "A magnitude 5.3 earthquake occurred 191 km SE of Mata-Utu, Wallis and Futuna on 17 September 2026.",
+        "zh": "A magnitude 5.3 earthquake occurred 191 km SE of Mata-Utu, Wallis and Futuna on 17 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.3
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.3,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thzs",
+      "type": "earthquake",
+      "time_utc": "2026-09-17T06:32:13Z",
+      "title": {
+        "en": "A magnitude 4.8 earthquake occurred 64 km SSE of Lakatoro, Vanuatu on 17 September 2026.",
+        "zh": "A magnitude 4.8 earthquake occurred 64 km SSE of Lakatoro, Vanuatu on 17 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.8
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.8,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thzp",
+      "type": "earthquake",
+      "time_utc": "2026-09-17T06:20:48Z",
+      "title": {
+        "en": "A magnitude 5.2 earthquake occurred 132 km E of Bitung, Indonesia on 17 September 2026.",
+        "zh": "A magnitude 5.2 earthquake occurred 132 km E of Bitung, Indonesia on 17 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.2
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.2,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thzd",
+      "type": "earthquake",
+      "time_utc": "2026-09-17T05:24:31Z",
+      "title": {
+        "en": "A magnitude 4.6 earthquake occurred 31 km WSW of Puerto San José, Guatemala on 17 September 2026.",
+        "zh": "A magnitude 4.6 earthquake occurred 31 km WSW of Puerto San José, Guatemala on 17 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.6
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.6,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thz3",
+      "type": "earthquake",
+      "time_utc": "2026-09-17T04:06:53Z",
+      "title": {
+        "en": "A magnitude 5.3 earthquake occurred 155 km SSE of Hihifo, Tonga on 17 September 2026.",
+        "zh": "A magnitude 5.3 earthquake occurred 155 km SSE of Hihifo, Tonga on 17 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.3
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.3,
         "min": 0,
         "max": 10
       }
