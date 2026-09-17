@@ -1,26 +1,26 @@
 {
   "date": "2026-09-17",
-  "updated": "2026-09-18T06:09:00+08:00",
+  "updated": "2026-09-18T07:14:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-17T22:06:00Z",
+      "time_utc": "2026-09-17T23:08:00Z",
       "title": {
-        "en": "Latest complete-minute estimated Kp = 1.00 (label 1Z at 2026-09-17 22:06 UTC); last-180-sample maximum is 1.67; published-window maximum is 2.00; estimated_kp still below 5.0. Hours through 15:00 UTC have rolled out of the public window. The remaining 16:00 UTC slice in the public window peaks at 1.67 / 2M (51 samples). The completed 17:00 UTC bin closed at 2.00 / 2Z. The completed 18:00 UTC bin closed at 1.67 / 2M. The completed 19:00 UTC bin closed at 1.67 / 2M. The completed 20:00 UTC bin closed at 1.67 / 2M. The completed 21:00 UTC bin closed at 1.33 / 1P. The in-progress 22:00 UTC bin currently peaks at 1.33 / 1P.",
-        "zh": "最新完整分鐘估計 Kp = 1.00（標籤 1Z，2026-09-17 22:06 UTC）；近 180 筆最大為 1.67；公開窗最大為 2.00；estimated_kp 仍低於 5.0。至 15:00 UTC 的區間已滾出公開窗。公開窗內殘留的 16:00 UTC 切片峰值 1.67／2M（51 筆）。已結束的 17:00 UTC 區間收在 2.00／2Z；18:00 收在 1.67／2M；19:00 收在 1.67／2M；20:00 收在 1.67／2M；21:00 收在 1.33／1P。進行中的 22:00 UTC 區間目前峰值 1.33／1P。"
+        "en": "Latest complete-minute estimated Kp = 1.67 (label 2M at 2026-09-17 23:08 UTC); last-180-sample maximum is 1.67; published-window maximum is 2.00; estimated_kp still below 5.0. Hours through 16:00 UTC have rolled out of the public window. The remaining 17:00 UTC slice in the public window peaks at 2.00 / 2Z (49 samples). The completed 18:00 UTC bin closed at 1.67 / 2M. The completed 19:00 UTC bin closed at 1.67 / 2M. The completed 20:00 UTC bin closed at 1.67 / 2M. The completed 21:00 UTC bin closed at 1.33 / 1P. The completed 22:00 UTC bin closed at 1.67 / 2M. The in-progress 23:00 UTC bin currently peaks at 1.67 / 2M.",
+        "zh": "最新完整分鐘估計 Kp = 1.67（標籤 2M，2026-09-17 23:08 UTC）；近 180 筆最大為 1.67；公開窗最大為 2.00；estimated_kp 仍低於 5.0。至 16:00 UTC 的區間已滾出公開窗。公開窗內殘留的 17:00 UTC 切片峰值 2.00／2Z（49 筆）。已結束的 18:00 UTC 區間收在 1.67／2M；19:00 收在 1.67／2M；20:00 收在 1.67／2M；21:00 收在 1.33／1P；22:00 收在 1.67／2M。進行中的 23:00 UTC 區間目前峰值 1.67／2M。"
       },
       "summary": {
-        "en": "Quiet conditions. Latest complete-minute estimated Kp is 1.00; window peak 2.00 at 17:23 UTC.",
-        "zh": "目前為平靜。最新完整分鐘估計 Kp 為 1.00；公開窗峰值 2.00（17:23 UTC）。"
+        "en": "Quiet conditions. Latest complete-minute estimated Kp is 1.67; window peak 2.00 at 17:23 UTC.",
+        "zh": "目前為平靜。最新完整分鐘估計 Kp 為 1.67；公開窗峰值 2.00（17:23 UTC）。"
       },
       "data": {
-        "estimated_kp": 1.0,
-        "kp_label": "1Z",
+        "estimated_kp": 1.67,
+        "kp_label": "2M",
         "window_max": 2.0,
         "last180_max": 1.67,
         "n_samples": 358,
-        "window_start": "2026-09-17T16:09:00Z"
+        "window_start": "2026-09-17T17:11:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
@@ -30,7 +30,7 @@
       },
       "visual": {
         "type": "bar",
-        "value": 1.0,
+        "value": 1.67,
         "min": 0,
         "max": 9,
         "label": "Kp"
