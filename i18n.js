@@ -1,4 +1,4 @@
-const translations = {
+var translations = {
   en: {
     title: "Evidence Daily",
     subtitle: "今日可驗證",
