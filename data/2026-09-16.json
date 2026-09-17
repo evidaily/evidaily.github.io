@@ -1,0 +1,454 @@
+{
+  "date": "2026-09-16",
+  "updated": "2026-09-16T23:59:00+08:00",
+  "entries": [
+    {
+      "id": "usgs-us7000thxm",
+      "type": "earthquake",
+      "time_utc": "2026-09-16T20:55:00Z",
+      "title": {
+        "en": "A magnitude 4.7 earthquake occurred 27 km SW of Sipí, Colombia on 16 September 2026.",
+        "zh": "A magnitude 4.7 earthquake occurred 27 km SW of Sipí, Colombia on 16 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.7
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.7,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thxg",
+      "type": "earthquake",
+      "time_utc": "2026-09-16T20:21:24Z",
+      "title": {
+        "en": "A magnitude 4.9 earthquake occurred 191 km ESE of Kimbe, Papua New Guinea on 16 September 2026.",
+        "zh": "A magnitude 4.9 earthquake occurred 191 km ESE of Kimbe, Papua New Guinea on 16 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.9
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.9,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thxc",
+      "type": "earthquake",
+      "time_utc": "2026-09-16T20:12:52Z",
+      "title": {
+        "en": "A magnitude 5.0 earthquake occurred 29 km WSW of Sipí, Colombia on 16 September 2026.",
+        "zh": "A magnitude 5.0 earthquake occurred 29 km WSW of Sipí, Colombia on 16 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.0
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.0,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thxb",
+      "type": "earthquake",
+      "time_utc": "2026-09-16T20:03:35Z",
+      "title": {
+        "en": "A magnitude 4.9 earthquake occurred Kermadec Islands, New Zealand on 16 September 2026.",
+        "zh": "A magnitude 4.9 earthquake occurred Kermadec Islands, New Zealand on 16 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.9
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.9,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thx7",
+      "type": "earthquake",
+      "time_utc": "2026-09-16T19:37:05Z",
+      "title": {
+        "en": "A magnitude 4.6 earthquake occurred 43 km SE of Madang, Papua New Guinea on 16 September 2026.",
+        "zh": "A magnitude 4.6 earthquake occurred 43 km SE of Madang, Papua New Guinea on 16 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.6
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.6,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thwt",
+      "type": "earthquake",
+      "time_utc": "2026-09-16T18:06:40Z",
+      "title": {
+        "en": "A magnitude 5.1 earthquake occurred 77 km SSW of San Jose Village, Northern Mariana Islands on 16 September 2026.",
+        "zh": "A magnitude 5.1 earthquake occurred 77 km SSW of San Jose Village, Northern Mariana Islands on 16 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.1
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.1,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thv6",
+      "type": "earthquake",
+      "time_utc": "2026-09-16T15:07:38Z",
+      "title": {
+        "en": "A magnitude 5.0 earthquake occurred 5 km NE of Mitsukaidō, Japan on 16 September 2026.",
+        "zh": "A magnitude 5.0 earthquake occurred 5 km NE of Mitsukaidō, Japan on 16 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.0
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.0,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thts",
+      "type": "earthquake",
+      "time_utc": "2026-09-16T12:33:23Z",
+      "title": {
+        "en": "A magnitude 4.5 earthquake occurred 6 km NW of Āwash, Ethiopia on 16 September 2026.",
+        "zh": "A magnitude 4.5 earthquake occurred 6 km NW of Āwash, Ethiopia on 16 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.5
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thti",
+      "type": "earthquake",
+      "time_utc": "2026-09-16T11:50:12Z",
+      "title": {
+        "en": "A magnitude 4.9 earthquake occurred 64 km E of Kinablangan, Philippines on 16 September 2026.",
+        "zh": "A magnitude 4.9 earthquake occurred 64 km E of Kinablangan, Philippines on 16 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.9
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.9,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tht8",
+      "type": "earthquake",
+      "time_utc": "2026-09-16T09:41:47Z",
+      "title": {
+        "en": "A magnitude 4.7 earthquake occurred 6 km WSW of Port-Olry, Vanuatu on 16 September 2026.",
+        "zh": "A magnitude 4.7 earthquake occurred 6 km WSW of Port-Olry, Vanuatu on 16 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.7
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.7,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thsx",
+      "type": "earthquake",
+      "time_utc": "2026-09-16T08:37:00Z",
+      "title": {
+        "en": "A magnitude 5.1 earthquake occurred 172 km ESE of Saipan, Northern Mariana Islands on 16 September 2026.",
+        "zh": "A magnitude 5.1 earthquake occurred 172 km ESE of Saipan, Northern Mariana Islands on 16 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.1
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.1,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thsp",
+      "type": "earthquake",
+      "time_utc": "2026-09-16T07:02:13Z",
+      "title": {
+        "en": "A magnitude 4.8 earthquake occurred 47 km WSW of Bahía Solano, Colombia on 16 September 2026.",
+        "zh": "A magnitude 4.8 earthquake occurred 47 km WSW of Bahía Solano, Colombia on 16 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.8
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.8,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thse",
+      "type": "earthquake",
+      "time_utc": "2026-09-16T06:18:06Z",
+      "title": {
+        "en": "A magnitude 4.6 earthquake occurred 23 km SW of Sipí, Colombia on 16 September 2026.",
+        "zh": "A magnitude 4.6 earthquake occurred 23 km SW of Sipí, Colombia on 16 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.6
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.6,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000ths9",
+      "type": "earthquake",
+      "time_utc": "2026-09-16T05:52:03Z",
+      "title": {
+        "en": "A magnitude 5.0 earthquake occurred 281 km SSE of Dunhuang, China on 16 September 2026.",
+        "zh": "A magnitude 5.0 earthquake occurred 281 km SSE of Dunhuang, China on 16 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.0
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.0,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thrz",
+      "type": "earthquake",
+      "time_utc": "2026-09-16T03:45:03Z",
+      "title": {
+        "en": "A magnitude 5.0 earthquake occurred 60 km SSW of Ocós, Guatemala on 16 September 2026.",
+        "zh": "A magnitude 5.0 earthquake occurred 60 km SSW of Ocós, Guatemala on 16 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.0
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.0,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thrm",
+      "type": "earthquake",
+      "time_utc": "2026-09-16T01:37:17Z",
+      "title": {
+        "en": "A magnitude 4.5 earthquake occurred 45 km NNW of Duaca, Venezuela on 16 September 2026.",
+        "zh": "A magnitude 4.5 earthquake occurred 45 km NNW of Duaca, Venezuela on 16 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.5
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
+      }
+    }
+  ]
+}
