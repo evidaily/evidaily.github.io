@@ -1,26 +1,26 @@
 {
   "date": "2026-09-17",
-  "updated": "2026-09-18T04:04:00+08:00",
+  "updated": "2026-09-18T05:22:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-17T20:00:00Z",
+      "time_utc": "2026-09-17T21:19:00Z",
       "title": {
-        "en": "Latest complete-minute estimated Kp = 0.67 (label 1M at 2026-09-17 20:00 UTC); last-180-sample maximum is 2.00; published-window maximum is 3.00; estimated_kp still below 5.0. Hours through 13:00 UTC have rolled out of the public window. The remaining 14:00 UTC slice in the public window peaks at 3.00 / 3Z (57 samples). The completed 15:00 UTC bin closed at 1.00 / 1Z. The completed 16:00 UTC bin closed at 1.67 / 2M. The completed 17:00 UTC bin closed at 2.00 / 2Z. The completed 18:00 UTC bin closed at 1.67 / 2M. The completed 19:00 UTC bin closed at 1.67 / 2M. The in-progress 20:00 UTC bin currently peaks at 0.67 / 1M.",
-        "zh": "最新完整分鐘估計 Kp = 0.67（標籤 1M，2026-09-17 20:00 UTC）；近 180 筆最大為 2.00；公開窗最大為 3.00；estimated_kp 仍低於 5.0。至 13:00 UTC 的區間已滾出公開窗。公開窗內殘留的 14:00 UTC 切片峰值 3.00／3Z（57 筆）。已結束的 15:00 UTC 區間收在 1.00／1Z；16:00 收在 1.67／2M；17:00 收在 2.00／2Z；18:00 收在 1.67／2M；19:00 收在 1.67／2M。進行中的 20:00 UTC 區間目前峰值 0.67／1M。"
+        "en": "Latest complete-minute estimated Kp = 0.00 (label 0Z at 2026-09-17 21:19 UTC); last-180-sample maximum is 1.67; published-window maximum is 2.00; estimated_kp still below 5.0. Hours through 14:00 UTC have rolled out of the public window. The remaining 15:00 UTC slice in the public window peaks at 1.00 / 1Z (38 samples). The completed 16:00 UTC bin closed at 1.67 / 2M. The completed 17:00 UTC bin closed at 2.00 / 2Z. The completed 18:00 UTC bin closed at 1.67 / 2M. The completed 19:00 UTC bin closed at 1.67 / 2M. The completed 20:00 UTC bin closed at 1.67 / 2M. The in-progress 21:00 UTC bin currently peaks at 0.00 / 0Z.",
+        "zh": "最新完整分鐘估計 Kp = 0.00（標籤 0Z，2026-09-17 21:19 UTC）；近 180 筆最大為 1.67；公開窗最大為 2.00；estimated_kp 仍低於 5.0。至 14:00 UTC 的區間已滾出公開窗。公開窗內殘留的 15:00 UTC 切片峰值 1.00／1Z（38 筆）。已結束的 16:00 UTC 區間收在 1.67／2M；17:00 收在 2.00／2Z；18:00 收在 1.67／2M；19:00 收在 1.67／2M；20:00 收在 1.67／2M。進行中的 21:00 UTC 區間目前峰值 0.00／0Z。"
       },
       "summary": {
-        "en": "Quiet conditions. Latest complete-minute estimated Kp is 0.67; window peak 3.00 at 14:03 UTC.",
-        "zh": "目前為平靜。最新完整分鐘估計 Kp 為 0.67；公開窗峰值 3.00（14:03 UTC）。"
+        "en": "Quiet conditions. Latest complete-minute estimated Kp is 0.00; window peak 2.00 at 17:23 UTC.",
+        "zh": "目前為平靜。最新完整分鐘估計 Kp 為 0.00；公開窗峰值 2.00（17:23 UTC）。"
       },
       "data": {
-        "estimated_kp": 0.67,
-        "kp_label": "1M",
-        "window_max": 3.0,
-        "last180_max": 2.0,
+        "estimated_kp": 0.0,
+        "kp_label": "0Z",
+        "window_max": 2.0,
+        "last180_max": 1.67,
         "n_samples": 358,
-        "window_start": "2026-09-17T14:03:00Z"
+        "window_start": "2026-09-17T15:22:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
@@ -30,7 +30,7 @@
       },
       "visual": {
         "type": "bar",
-        "value": 0.67,
+        "value": 0.0,
         "min": 0,
         "max": 9,
         "label": "Kp"
@@ -64,6 +64,38 @@
       "visual": {
         "type": "bar",
         "value": 4.9,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000ti5c",
+      "type": "earthquake",
+      "time_utc": "2026-09-17T19:17:33Z",
+      "title": {
+        "en": "A magnitude 4.5 earthquake occurred 204 km SW of Labuan, Indonesia on 17 September 2026.",
+        "zh": "2026 年 9 月 17 日，印尼拉布安西南約 204 公里處發生規模 4.5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 10 km. Newly listed since the previous hourly update.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 10 公里。為本輪新上架事件。"
+      },
+      "data": {
+        "magnitude": 4.5,
+        "magType": "mb",
+        "place": "204 km SW of Labuan, Indonesia",
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti5c"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
         "min": 0,
         "max": 10
       }
