@@ -1,33 +1,71 @@
 {
   "date": "2026-09-17",
-  "updated": "2026-09-17T23:59:00+08:00",
+  "updated": "2026-09-18T00:32:03+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-17T14:08:00Z",
+      "time_utc": "2026-09-17T16:27:00Z",
       "title": {
-        "en": "Latest complete-minute estimated Kp = 1.33 (label 1P at 2026-09-17 14:08 UTC); last-180-sample maximum is 2.67; published-window maximum is 2.67; estimated_kp still below 5.0. The 16:00 through 07:00 UTC bins have rolled out of the public window. The remaining 08:00 UTC slice in the public window peaks at 1.67 / 2M (48 samples). The completed 09:00 UTC bin closed at 0.00 / 0Z. The completed 10:00 UTC bin closed at 1.00 / 1Z. The completed 11:00 UTC bin closed at 1.67 / 2M. The completed 12:00 UTC bin closed at 2.67 / 3M. The completed 13:00 UTC bin closed at 2.67 / 3M. The in-progress 14:00 UTC bin currently peaks at 2.67 / 3M.",
-        "zh": "Latest complete-minute estimated Kp = 1.33 (label 1P at 2026-09-17 14:08 UTC); last-180-sample maximum is 2.67; published-window maximum is 2.67; estimated_kp still below 5.0. The 16:00 through 07:00 UTC bins have rolled out of the public window. The remaining 08:00 UTC slice in the public window peaks at 1.67 / 2M (48 samples). The completed 09:00 UTC bin closed at 0.00 / 0Z. The completed 10:00 UTC bin closed at 1.00 / 1Z. The completed 11:00 UTC bin closed at 1.67 / 2M. The completed 12:00 UTC bin closed at 2.67 / 3M. The completed 13:00 UTC bin closed at 2.67 / 3M. The in-progress 14:00 UTC bin currently peaks at 2.67 / 3M."
+        "en": "Latest complete-minute estimated Kp = 0.67 (label 1M at 2026-09-17 16:27 UTC); last-180-sample maximum is 3.00; published-window maximum is 3.00; estimated_kp still below 5.0. The 16:00 through 09:00 UTC bins have rolled out of the public window. The remaining 10:00 UTC slice in the public window peaks at 1.00 / 1Z (30 samples). The completed 11:00 UTC bin closed at 1.67 / 2M. The completed 12:00 UTC bin closed at 2.67 / 3M. The completed 13:00 UTC bin closed at 2.67 / 3M. The completed 14:00 UTC bin closed at 3.00 / 3Z. The completed 15:00 UTC bin closed at 1.00 / 1Z. The in-progress 16:00 UTC bin currently peaks at 1.00 / 1Z.",
+        "zh": "最新完整分鐘估計 Kp = 0.67（標籤 1M，2026-09-17 16:27 UTC）；近 180 筆最大為 3.00；公開視窗最大為 3.00；estimated_kp 仍低於 5.0。16:00 至 09:00 UTC 區間已滾出公開窗。公開窗內殘留的 10:00 UTC 切片峰值 1.00／1Z（30 筆）。已結束的 11:00 UTC 區間收在 1.67／2M；12:00 收在 2.67／3M；13:00 收在 2.67／3M；14:00 收在 3.00／3Z；15:00 收在 1.00／1Z。進行中的 16:00 UTC 區間目前峰值 1.00／1Z。"
       },
       "summary": {
-        "en": "",
-        "zh": ""
+        "en": "Quiet-to-unsettled conditions. Latest complete-minute estimated Kp is 0.67; window peak 3.00 at 14:03 UTC.",
+        "zh": "目前為平靜至輕微擾動。最新完整分鐘估計 Kp 為 0.67；公開窗峰值 3.00（14:03 UTC）。"
       },
       "data": {
-        "estimated_kp": 1.33
+        "estimated_kp": 0.67,
+        "kp_label": "1M",
+        "window_max": 3.0,
+        "last180_max": 3.0,
+        "n_samples": 358,
+        "window_start": "2026-09-17T10:30:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
-        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest complete minute (not a new-hour 0.00 placeholder). Report last-180 and full published-window maxima.",
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window (~358 samples), so earlier hours fall out of the file."
       },
       "visual": {
         "type": "bar",
-        "value": 1.33,
+        "value": 0.67,
         "min": 0,
-        "max": 9
+        "max": 9,
+        "label": "Kp"
+      }
+    },
+    {
+      "id": "usgs-us7000ti1p",
+      "type": "earthquake",
+      "time_utc": "2026-09-17T14:19:53Z",
+      "title": {
+        "en": "A magnitude 6.5 earthquake occurred 165 km W of Nikolski, Alaska on 17 September 2026.",
+        "zh": "2026 年 9 月 17 日，阿拉斯加 Nikolski 以西約 165 公里發生規模 6.5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mww 6.5, depth about 112 km. Largest event currently in the 1-day feed.",
+        "zh": "USGS M4.5+ 一日饋送：mww 6.5，深度約 112 公里。目前為一日饋送最大事件。"
+      },
+      "data": {
+        "magnitude": 6.5,
+        "magType": "mww",
+        "place": "165 km W of Nikolski, Alaska",
+        "depth_km": 111.666,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti1p"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 6.5,
+        "min": 0,
+        "max": 10
       }
     },
     {
