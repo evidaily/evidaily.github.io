@@ -1,0 +1,258 @@
+{
+  "date": "2026-09-15",
+  "updated": "2026-09-15T23:59:00+08:00",
+  "entries": [
+    {
+      "id": "usgs-us7000thr6",
+      "type": "earthquake",
+      "time_utc": "2026-09-15T23:46:59Z",
+      "title": {
+        "en": "A magnitude 4.7 earthquake occurred 159 km N of Caluula, Somalia on 15 September 2026.",
+        "zh": "A magnitude 4.7 earthquake occurred 159 km N of Caluula, Somalia on 15 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.7
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.7,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thr4",
+      "type": "earthquake",
+      "time_utc": "2026-09-15T23:45:06Z",
+      "title": {
+        "en": "A magnitude 4.5 earthquake occurred 17 km WNW of Palora, Ecuador on 15 September 2026.",
+        "zh": "A magnitude 4.5 earthquake occurred 17 km WNW of Palora, Ecuador on 15 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.5
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thq1",
+      "type": "earthquake",
+      "time_utc": "2026-09-15T21:00:35Z",
+      "title": {
+        "en": "A magnitude 4.7 earthquake occurred 89 km NE of Yonakuni, Japan on 15 September 2026.",
+        "zh": "A magnitude 4.7 earthquake occurred 89 km NE of Yonakuni, Japan on 15 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.7
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.7,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thni",
+      "type": "earthquake",
+      "time_utc": "2026-09-15T17:41:25Z",
+      "title": {
+        "en": "A magnitude 4.5 earthquake occurred 49 km SW of Cachí, Argentina on 15 September 2026.",
+        "zh": "A magnitude 4.5 earthquake occurred 49 km SW of Cachí, Argentina on 15 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.5
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thn3",
+      "type": "earthquake",
+      "time_utc": "2026-09-15T16:12:49Z",
+      "title": {
+        "en": "A magnitude 4.5 earthquake occurred 55 km SSW of Bengkulu, Indonesia on 15 September 2026.",
+        "zh": "A magnitude 4.5 earthquake occurred 55 km SSW of Bengkulu, Indonesia on 15 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.5
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thlq",
+      "type": "earthquake",
+      "time_utc": "2026-09-15T14:16:11Z",
+      "title": {
+        "en": "A magnitude 4.5 earthquake occurred 251 km E of Lospalos, Timor Leste on 15 September 2026.",
+        "zh": "A magnitude 4.5 earthquake occurred 251 km E of Lospalos, Timor Leste on 15 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.5
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thl5",
+      "type": "earthquake",
+      "time_utc": "2026-09-15T11:34:58Z",
+      "title": {
+        "en": "A magnitude 4.7 earthquake occurred 120 km S of Panguna, Papua New Guinea on 15 September 2026.",
+        "zh": "A magnitude 4.7 earthquake occurred 120 km S of Panguna, Papua New Guinea on 15 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.7
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.7,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thjr",
+      "type": "earthquake",
+      "time_utc": "2026-09-15T06:07:52Z",
+      "title": {
+        "en": "A magnitude 4.8 earthquake occurred 289 km WSW of Tual, Indonesia on 15 September 2026.",
+        "zh": "A magnitude 4.8 earthquake occurred 289 km WSW of Tual, Indonesia on 15 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.8
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.8,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000thjj",
+      "type": "earthquake",
+      "time_utc": "2026-09-15T04:52:26Z",
+      "title": {
+        "en": "A magnitude 4.8 earthquake occurred 229 km E of Tadine, New Caledonia on 15 September 2026.",
+        "zh": "A magnitude 4.8 earthquake occurred 229 km E of Tadine, New Caledonia on 15 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.8
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.8,
+        "min": 0,
+        "max": 10
+      }
+    }
+  ]
+}
