@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Archive · Evidence Daily</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    (function() {
+      const saved = localStorage.getItem("evidaily-theme");
+      const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      const theme = saved || (prefersDark ? "dark" : "light");
+      document.documentElement.setAttribute("data-theme", theme);
+    })();
+  </script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-top">
+        <h1 class="site-title"><a href="index.html" style="text-decoration:none;color:inherit;">Evidence Daily</a> · Archive</h1>
+        <div class="controls">
+          <button id="theme-toggle" class="theme-btn" onclick="toggleTheme()">☾</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="container">
+    <h2>Historical Archive</h2>
+    <p>Daily data files are stored under <code>/data/YYYY-MM-DD.json</code>.</p>
+    <p>Full month pages and complete historical migration are in progress (started 2026-09-17).</p>
+    <ul>
+      <li><strong>2026-09</strong> — Partial (recent days available in data/). Older entries still being extracted from the previous single-file version.</li>
+    </ul>
+    <p><a href="index.html">← Back to recent evidence (last 14 days)</a></p>
+  </main>
+  <script>
+    function toggleTheme() {
+      const html = document.documentElement;
+      const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      localStorage.setItem('evidaily-theme', next);
+    }
+  </script>
+</body>
+</html>
