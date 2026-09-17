@@ -1,0 +1,370 @@
+{
+  "date": "2026-09-05",
+  "updated": "2026-09-05T23:59:00+08:00",
+  "entries": [
+    {
+      "id": "usgs-us7000telf",
+      "type": "earthquake",
+      "time_utc": "2026-09-05T23:46:26Z",
+      "title": {
+        "en": "A magnitude 4.6 earthquake occurred 71 km N of Isangel, Vanuatu on 5 September 2026.",
+        "zh": "A magnitude 4.6 earthquake occurred 71 km N of Isangel, Vanuatu on 5 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.6
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.6,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tel1",
+      "type": "earthquake",
+      "time_utc": "2026-09-05T21:06:01Z",
+      "title": {
+        "en": "A magnitude 4.7 earthquake occurred 95 km ESE of Isangel, Vanuatu on 5 September 2026.",
+        "zh": "A magnitude 4.7 earthquake occurred 95 km ESE of Isangel, Vanuatu on 5 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.7
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.7,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tek7",
+      "type": "earthquake",
+      "time_utc": "2026-09-05T18:00:09Z",
+      "title": {
+        "en": "A magnitude 4.9 earthquake occurred 80 km SSW of Nikolski, Alaska on 5 September 2026.",
+        "zh": "A magnitude 4.9 earthquake occurred 80 km SSW of Nikolski, Alaska on 5 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.9
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.9,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tek0",
+      "type": "earthquake",
+      "time_utc": "2026-09-05T17:02:11Z",
+      "title": {
+        "en": "A magnitude 5.6 earthquake occurred 96 km ESE of Isangel, Vanuatu on 5 September 2026.",
+        "zh": "A magnitude 5.6 earthquake occurred 96 km ESE of Isangel, Vanuatu on 5 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.6
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.6,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000teji",
+      "type": "earthquake",
+      "time_utc": "2026-09-05T14:12:07Z",
+      "title": {
+        "en": "A magnitude 5.5 earthquake occurred 157 km E of Kokopo, Papua New Guinea on 5 September 2026.",
+        "zh": "A magnitude 5.5 earthquake occurred 157 km E of Kokopo, Papua New Guinea on 5 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.5
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.5,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tejg",
+      "type": "earthquake",
+      "time_utc": "2026-09-05T14:06:07Z",
+      "title": {
+        "en": "A magnitude 5.2 earthquake occurred 77 km SSW of Sibolga, Indonesia on 5 September 2026.",
+        "zh": "A magnitude 5.2 earthquake occurred 77 km SSW of Sibolga, Indonesia on 5 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.2
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.2,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tej2",
+      "type": "earthquake",
+      "time_utc": "2026-09-05T11:37:12Z",
+      "title": {
+        "en": "A magnitude 5.1 earthquake occurred 69 km E of Antofagasta de la Sierra, Argentina on 5 September 2026.",
+        "zh": "A magnitude 5.1 earthquake occurred 69 km E of Antofagasta de la Sierra, Argentina on 5 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.1
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.1,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000teiy",
+      "type": "earthquake",
+      "time_utc": "2026-09-05T10:59:15Z",
+      "title": {
+        "en": "A magnitude 5.0 earthquake occurred 70 km SW of Pagar Alam, Indonesia on 5 September 2026.",
+        "zh": "A magnitude 5.0 earthquake occurred 70 km SW of Pagar Alam, Indonesia on 5 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.0
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.0,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000teim",
+      "type": "earthquake",
+      "time_utc": "2026-09-05T09:14:15Z",
+      "title": {
+        "en": "A magnitude 4.5 earthquake occurred 87 km NNW of Sinabang, Indonesia on 5 September 2026.",
+        "zh": "A magnitude 4.5 earthquake occurred 87 km NNW of Sinabang, Indonesia on 5 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.5
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tehs",
+      "type": "earthquake",
+      "time_utc": "2026-09-05T06:34:55Z",
+      "title": {
+        "en": "A magnitude 4.5 earthquake occurred 76 km S of Gorontalo, Indonesia on 5 September 2026.",
+        "zh": "A magnitude 4.5 earthquake occurred 76 km S of Gorontalo, Indonesia on 5 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.5
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tehe",
+      "type": "earthquake",
+      "time_utc": "2026-09-05T05:00:06Z",
+      "title": {
+        "en": "A magnitude 5.0 earthquake occurred off the coast of Central America on 5 September 2026.",
+        "zh": "A magnitude 5.0 earthquake occurred off the coast of Central America on 5 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.0
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.0,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tegg",
+      "type": "earthquake",
+      "time_utc": "2026-09-05T01:41:01Z",
+      "title": {
+        "en": "A magnitude 4.8 earthquake occurred in the Kermadec Islands, New Zealand on 5 September 2026.",
+        "zh": "A magnitude 4.8 earthquake occurred in the Kermadec Islands, New Zealand on 5 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.8
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.8,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000teg7",
+      "type": "earthquake",
+      "time_utc": "2026-09-05T00:22:45Z",
+      "title": {
+        "en": "A magnitude 4.5 earthquake occurred 159 km ENE of Noda, Japan on 5 September 2026.",
+        "zh": "A magnitude 4.5 earthquake occurred 159 km ENE of Noda, Japan on 5 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.5
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
+      }
+    }
+  ]
+}
