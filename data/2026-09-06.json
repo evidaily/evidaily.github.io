@@ -1,0 +1,426 @@
+{
+  "date": "2026-09-06",
+  "updated": "2026-09-06T23:59:00+08:00",
+  "entries": [
+    {
+      "id": "usgs-us7000tert",
+      "type": "earthquake",
+      "time_utc": "2026-09-06T21:08:44Z",
+      "title": {
+        "en": "A magnitude 4.5 earthquake occurred 235 km E of Levuka, Fiji on 6 September 2026.",
+        "zh": "A magnitude 4.5 earthquake occurred 235 km E of Levuka, Fiji on 6 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.5
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000terb",
+      "type": "earthquake",
+      "time_utc": "2026-09-06T18:46:18Z",
+      "title": {
+        "en": "A magnitude 4.8 earthquake occurred 39 km SW of Copala, Mexico on 6 September 2026.",
+        "zh": "A magnitude 4.8 earthquake occurred 39 km SW of Copala, Mexico on 6 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.8
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.8,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000teqz",
+      "type": "earthquake",
+      "time_utc": "2026-09-06T16:37:01Z",
+      "title": {
+        "en": "A magnitude 4.5 earthquake occurred 98 km ENE of Donggang, Taiwan on 6 September 2026.",
+        "zh": "A magnitude 4.5 earthquake occurred 98 km ENE of Donggang, Taiwan on 6 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.5
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000teq9",
+      "type": "earthquake",
+      "time_utc": "2026-09-06T12:50:34Z",
+      "title": {
+        "en": "A magnitude 4.7 earthquake occurred Svalbard region on 6 September 2026.",
+        "zh": "A magnitude 4.7 earthquake occurred Svalbard region on 6 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.7
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.7,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000teq4",
+      "type": "earthquake",
+      "time_utc": "2026-09-06T12:17:14Z",
+      "title": {
+        "en": "A magnitude 4.6 earthquake occurred 219 km SSE of Wada, Japan on 6 September 2026.",
+        "zh": "A magnitude 4.6 earthquake occurred 219 km SSE of Wada, Japan on 6 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.6
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.6,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tepx",
+      "type": "earthquake",
+      "time_utc": "2026-09-06T12:00:16Z",
+      "title": {
+        "en": "A magnitude 5.2 earthquake occurred southern East Pacific Rise on 6 September 2026.",
+        "zh": "A magnitude 5.2 earthquake occurred southern East Pacific Rise on 6 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.2
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.2,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000teph",
+      "type": "earthquake",
+      "time_utc": "2026-09-06T11:15:46Z",
+      "title": {
+        "en": "A magnitude 4.6 earthquake occurred 105 km NNW of Pante Makasar, Timor Leste on 6 September 2026.",
+        "zh": "A magnitude 4.6 earthquake occurred 105 km NNW of Pante Makasar, Timor Leste on 6 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.6
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.6,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tep0",
+      "type": "earthquake",
+      "time_utc": "2026-09-06T10:39:32Z",
+      "title": {
+        "en": "A magnitude 4.8 earthquake occurred 33 km NE of Calama, Chile on 6 September 2026.",
+        "zh": "A magnitude 4.8 earthquake occurred 33 km NE of Calama, Chile on 6 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.8
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.8,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tepa",
+      "type": "earthquake",
+      "time_utc": "2026-09-06T10:38:35Z",
+      "title": {
+        "en": "A magnitude 5.1 earthquake occurred on the southern East Pacific Rise on 6 September 2026.",
+        "zh": "A magnitude 5.1 earthquake occurred on the southern East Pacific Rise on 6 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.1
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.1,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tep6",
+      "type": "earthquake",
+      "time_utc": "2026-09-06T10:32:28Z",
+      "title": {
+        "en": "A magnitude 5.2 earthquake occurred on the southern East Pacific Rise on 6 September 2026.",
+        "zh": "A magnitude 5.2 earthquake occurred on the southern East Pacific Rise on 6 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.2
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.2,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tena",
+      "type": "earthquake",
+      "time_utc": "2026-09-06T06:41:21Z",
+      "title": {
+        "en": "A magnitude 4.6 earthquake occurred 91 km NE of Luwuk, Indonesia on 6 September 2026.",
+        "zh": "A magnitude 4.6 earthquake occurred 91 km NE of Luwuk, Indonesia on 6 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.6
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.6,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000temw",
+      "type": "earthquake",
+      "time_utc": "2026-09-06T05:15:45Z",
+      "title": {
+        "en": "A magnitude 4.9 earthquake occurred 118 km ENE of Kuji, Japan on 6 September 2026.",
+        "zh": "A magnitude 4.9 earthquake occurred 118 km ENE of Kuji, Japan on 6 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.9
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.9,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000temt",
+      "type": "earthquake",
+      "time_utc": "2026-09-06T04:52:40Z",
+      "title": {
+        "en": "A magnitude 4.6 earthquake occurred in the Kermadec Islands region on 6 September 2026.",
+        "zh": "A magnitude 4.6 earthquake occurred in the Kermadec Islands region on 6 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.6
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.6,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000temi",
+      "type": "earthquake",
+      "time_utc": "2026-09-06T04:05:30Z",
+      "title": {
+        "en": "A magnitude 5.6 earthquake occurred 93 km SE of Kirakira, Solomon Islands on 6 September 2026.",
+        "zh": "A magnitude 5.6 earthquake occurred 93 km SE of Kirakira, Solomon Islands on 6 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.6
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.6,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tem2",
+      "type": "earthquake",
+      "time_utc": "2026-09-06T02:56:32Z",
+      "title": {
+        "en": "A magnitude 5.3 earthquake occurred 108 km SW of Puerto Madero, Mexico on 6 September 2026.",
+        "zh": "A magnitude 5.3 earthquake occurred 108 km SW of Puerto Madero, Mexico on 6 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.3
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.3,
+        "min": 0,
+        "max": 10
+      }
+    }
+  ]
+}
