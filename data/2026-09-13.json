@@ -1,0 +1,230 @@
+{
+  "date": "2026-09-13",
+  "updated": "2026-09-13T23:59:00+08:00",
+  "entries": [
+    {
+      "id": "usgs-us7000th8v",
+      "type": "earthquake",
+      "time_utc": "2026-09-13T22:44:41Z",
+      "title": {
+        "en": "A magnitude 4.6 earthquake occurred 120 km NE of Hengchun, Taiwan on 13 September 2026.",
+        "zh": "A magnitude 4.6 earthquake occurred 120 km NE of Hengchun, Taiwan on 13 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.6
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.6,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000th8u",
+      "type": "earthquake",
+      "time_utc": "2026-09-13T22:40:01Z",
+      "title": {
+        "en": "A magnitude 5.1 earthquake occurred 50 km N of Ruteng, Indonesia on 13 September 2026.",
+        "zh": "A magnitude 5.1 earthquake occurred 50 km N of Ruteng, Indonesia on 13 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.1
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.1,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000th81",
+      "type": "earthquake",
+      "time_utc": "2026-09-13T19:41:43Z",
+      "title": {
+        "en": "A magnitude 4.9 earthquake occurred 86 km SSW of Isangel, Vanuatu on 13 September 2026.",
+        "zh": "A magnitude 4.9 earthquake occurred 86 km SSW of Isangel, Vanuatu on 13 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.9
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.9,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000th7y",
+      "type": "earthquake",
+      "time_utc": "2026-09-13T19:40:25Z",
+      "title": {
+        "en": "A magnitude 4.7 earthquake occurred 60 km W of Cafayate, Argentina on 13 September 2026.",
+        "zh": "A magnitude 4.7 earthquake occurred 60 km W of Cafayate, Argentina on 13 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.7
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.7,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000th5d",
+      "type": "earthquake",
+      "time_utc": "2026-09-13T08:31:15Z",
+      "title": {
+        "en": "A magnitude 4.7 earthquake occurred 25 km N of Mutsu, Japan on 13 September 2026.",
+        "zh": "A magnitude 4.7 earthquake occurred 25 km N of Mutsu, Japan on 13 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.7
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.7,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000th50",
+      "type": "earthquake",
+      "time_utc": "2026-09-13T07:30:23Z",
+      "title": {
+        "en": "A magnitude 5.0 earthquake occurred southeast of the Loyalty Islands on 13 September 2026.",
+        "zh": "A magnitude 5.0 earthquake occurred southeast of the Loyalty Islands on 13 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.0
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.0,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000th4y",
+      "type": "earthquake",
+      "time_utc": "2026-09-13T07:19:21Z",
+      "title": {
+        "en": "A magnitude 5.2 earthquake occurred 43 km ESE of Port-Olry, Vanuatu on 13 September 2026.",
+        "zh": "A magnitude 5.2 earthquake occurred 43 km ESE of Port-Olry, Vanuatu on 13 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 5.2
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.2,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000th3a",
+      "type": "earthquake",
+      "time_utc": "2026-09-13T03:50:32Z",
+      "title": {
+        "en": "A magnitude 4.9 earthquake occurred in the Bonin Islands, Japan region on 13 September 2026.",
+        "zh": "A magnitude 4.9 earthquake occurred in the Bonin Islands, Japan region on 13 September 2026."
+      },
+      "summary": {
+        "en": "",
+        "zh": ""
+      },
+      "data": {
+        "magnitude": 4.9
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Migrated from previous single-file site snapshot (2026-09-17).",
+        "limitations": "Basic fields migrated; full bilingual evidence chain enrichment pending."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.9,
+        "min": 0,
+        "max": 10
+      }
+    }
+  ]
+}
