@@ -7811,6 +7811,41 @@
 
   <script src="i18n.js"></script>
   <script>
+    
+    function applyTranslations(lang) {
+      var dict = (typeof translations !== "undefined" && translations[lang]) ? translations[lang] : null;
+      if (!dict) return;
+      document.querySelectorAll("[data-i18n]").forEach(function (el) {
+        var key = el.getAttribute("data-i18n");
+        if (!key) return;
+        if (Object.prototype.hasOwnProperty.call(dict, key) && dict[key] != null) {
+          el.textContent = dict[key];
+        }
+      });
+      document.documentElement.setAttribute("lang", lang === "zh" ? "zh-Hant" : "en");
+      var enBtn = document.getElementById("lang-en");
+      var zhBtn = document.getElementById("lang-zh");
+      if (enBtn) enBtn.classList.toggle("active", lang === "en");
+      if (zhBtn) zhBtn.classList.toggle("active", lang === "zh");
+    }
+
+    function setLang(lang) {
+      var next = (lang === "zh") ? "zh" : "en";
+      try { localStorage.setItem("evidaily-lang", next); } catch (e) {}
+      applyTranslations(next);
+    }
+
+    (function initLang() {
+      var saved = null;
+      try { saved = localStorage.getItem("evidaily-lang"); } catch (e) {}
+      var lang = (saved === "zh" || saved === "en") ? saved : "en";
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", function () { applyTranslations(lang); });
+      } else {
+        applyTranslations(lang);
+      }
+    })();
+
     function updateThemeIcon() {
       const theme = document.documentElement.getAttribute("data-theme");
       const icon = document.getElementById("theme-icon");
