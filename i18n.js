@@ -13,12 +13,12 @@ var translations = {
     "status-secondary": "Earlier today",
     "data-title": "Key data",
     "evidence-heading": "Evidence Chain",
-    "kp-conclusion": "Latest complete-minute estimated Kp = 0.00 (label 0Z at 2026-09-17 09:59 UTC); last-180-sample maximum is 1.67; published-window maximum is 2.00; estimated_kp still below 5.0. The 16:00 through 03:00 UTC bins have rolled out of the public window. The remaining 04:00 UTC slice in the public window peaks at 1.67 / 2M (42 samples). The completed 05:00 UTC bin closed at 2.00 / 2Z. The completed 06:00 UTC bin closed at 1.00 / 1Z. The completed 07:00 UTC bin closed at 1.67 / 2M. The completed 08:00 UTC bin closed at 1.67 / 2M. The completed 09:00 UTC bin closed at 0.00 / 0Z. The in-progress 10:00 UTC bin currently peaks at 0.33 / 0P.",
-    "viz-kp": "Estimated Kp (0–9). Marker at 0.00",
+    "kp-conclusion": "Latest complete-minute estimated Kp = 1.67 (label 2M at 2026-09-17 10:58 UTC); last-180-sample maximum is 1.67; published-window maximum is 2.00; estimated_kp still below 5.0. The 16:00 through 04:00 UTC bins have rolled out of the public window. The remaining 05:00 UTC slice in the public window peaks at 2.00 / 2Z (58 samples). The completed 06:00 UTC bin closed at 1.00 / 1Z. The completed 07:00 UTC bin closed at 1.67 / 2M. The completed 08:00 UTC bin closed at 1.67 / 2M. The completed 09:00 UTC bin closed at 0.00 / 0Z. The in-progress 10:00 UTC bin currently peaks at 1.67 / 2M.",
+    "viz-kp": "Estimated Kp (0–9). Marker at 1.67",
     "kp-data-title": "Key data",
-    "kp-time": "Sample time: 2026-09-17 09:59 UTC",
-    "kp-est": "Estimated Kp: 0.00 (label 0Z)",
-    "kp-max": "Max estimated Kp in last 180 samples: 1.67 (latest at 2026-09-17 08:59 UTC)",
+    "kp-time": "Sample time: 2026-09-17 10:58 UTC",
+    "kp-est": "Estimated Kp: 1.67 (label 2M)",
+    "kp-max": "Max estimated Kp in last 180 samples: 1.67 (latest at 2026-09-17 10:58 UTC)",
 
 
     "eq-thzd-conclusion": "A magnitude 4.6 earthquake occurred 31 km WSW of Puerto San José, Guatemala on 17 September 2026.",
@@ -2359,10 +2359,10 @@ var translations = {
 
 
     "kp-source": "Source: NOAA Space Weather Prediction Center public JSON — planetary_k_index_1m.json",
-    "kp-method": "Method: Used the latest complete 1-minute estimated Kp sample in the published window (09:59 UTC is a complete minute at 0.00 / 0Z), plus the maximum estimated_kp among the last 180 samples. The 05:00 through 09:00 UTC hour bins are complete (60 samples each). The remaining 04:00 UTC slice has 42 samples after window roll. The earlier 16:00 through 03:00 UTC slices have rolled out of the public window; the remaining window starts at 04:18 UTC.",
+    "kp-method": "Method: Used the latest complete 1-minute estimated Kp sample in the published window (10:58 UTC is a complete minute at 1.67 / 2M), plus the maximum estimated_kp among the last 180 samples. The 06:00 through 09:00 UTC hour bins are complete (60 samples each). The remaining 05:00 UTC slice has 58 samples after window roll. The earlier 16:00 through 04:00 UTC slices have rolled out of the public window; the remaining window starts at 05:02 UTC.",
     "kp-link": "Kp JSON: https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
     "kp-repro": "Reproducibility: The endpoint is public, unauthenticated, and returns the same numeric fields used here.",
-    "kp-limit": "Limitation: 1-minute estimated Kp is a nowcast, not the final official 3-hour Kp; values can be revised and a new 3-hour bin often starts at 0.00 before accumulating. F10.7 noon flux was omitted this cycle because the published series on the public endpoint can mix stale records. Window start 2026-09-17 03:03 UTC (358 samples; latest complete minute 2026-09-17 08:59 UTC = 1.33 / 1P; last-180 maximum 1.67 at 08:58 UTC; window maximum 2.00 at 05:28–05:39 UTC).",
+    "kp-limit": "Limitation: 1-minute estimated Kp is a nowcast, not the final official 3-hour Kp; values can be revised and a new 3-hour bin often starts at 0.00 before accumulating. F10.7 noon flux was omitted this cycle because the published series on the public endpoint can mix stale records. Window start 2026-09-17 05:02 UTC (357 samples; latest complete minute 2026-09-17 10:58 UTC = 1.67 / 2M; last-180 maximum 1.67 at 10:58 UTC; window maximum 2.00 at 05:39 UTC).",
     "eq-te82-conclusion": "A magnitude 5.2 earthquake occurred 28 km S of Cilacap, Indonesia on 4 September 2026.",
     "eq-te82-viz": "Magnitude scale (0–10). Marker at 5.2",
     "eq-te82-mag": "Magnitude: 5.2 (mb)",
@@ -2918,12 +2918,12 @@ var translations = {
     "status-secondary": "稍早更新",
     "data-title": "關鍵數據",
     "evidence-heading": "證據鏈",
-    "kp-conclusion": "最新完整分鐘估計 Kp = 0.00（標籤 0Z，2026-09-17 09:59 UTC）；近 180 筆最大為 1.67；公開視窗最大為 2.00；estimated_kp 仍低於 5.0。16:00 至 03:00 UTC 區間已滾出公開窗。公開窗內殘留的 04:00 UTC 切片峰值 1.67／2M（42 筆）。已結束的 05:00 UTC 區間收在 2.00／2Z。已結束的 06:00 UTC 區間收在 1.00／1Z。已結束的 07:00 UTC 區間收在 1.67／2M。已結束的 08:00 UTC 區間收在 1.67／2M。已結束的 09:00 UTC 區間收在 0.00／0Z。進行中的 10:00 UTC 區間目前峰值 0.33／0P。",
-    "viz-kp": "估計 Kp（0–9）。標記在 0.00",
+    "kp-conclusion": "最新完整分鐘估計 Kp = 1.67（標籤 2M，2026-09-17 10:58 UTC）；近 180 筆最大為 1.67；公開視窗最大為 2.00；estimated_kp 仍低於 5.0。16:00 至 04:00 UTC 區間已滾出公開窗。公開窗內殘留的 05:00 UTC 切片峰值 2.00／2Z（58 筆）。已結束的 06:00 UTC 區間收在 1.00／1Z。已結束的 07:00 UTC 區間收在 1.67／2M。已結束的 08:00 UTC 區間收在 1.67／2M。已結束的 09:00 UTC 區間收在 0.00／0Z。進行中的 10:00 UTC 區間目前峰值 1.67／2M。",
+    "viz-kp": "估計 Kp（0–9）。標記在 1.67",
     "kp-data-title": "關鍵數據",
-    "kp-time": "取樣時間：2026-09-17 09:59 UTC",
-    "kp-est": "估計 Kp：0.00（標籤 0Z）",
-    "kp-max": "近 180 筆最大估計 Kp：1.67（最近出現於 2026-09-17 08:59 UTC）",
+    "kp-time": "取樣時間：2026-09-17 10:58 UTC",
+    "kp-est": "估計 Kp：1.67（標籤 2M）",
+    "kp-max": "近 180 筆最大估計 Kp：1.67（最近出現於 2026-09-17 10:58 UTC）",
 
 
     "eq-thzd-conclusion": "2026 年 9 月 17 日，瓜地馬拉 Puerto San José 西南偏西約 31 公里發生規模 4.6 地震。",
@@ -3090,10 +3090,10 @@ var translations = {
     "eq-thxb-limit": "限制：目錄參數經審核後可能修正；深度與震源位置可能再精煉。一日饋送為滾動視窗。",
 
     "kp-source": "來源：NOAA 太空天氣預測中心公開 JSON — planetary_k_index_1m.json",
-    "kp-method": "方法：採用公開視窗內最新完整 1 分鐘估計 Kp 樣本（09:59 UTC 為完整分鐘，0.00／0Z），並取近 180 筆 estimated_kp 最大值。05:00 至 09:00 UTC 區間皆已結束（各 60 筆）。公開窗內殘留的 04:00 UTC 切片為 42 筆。稍早的 16:00 至 03:00 UTC 切片已滾出公開窗；目前視窗起點為 04:18 UTC。",
+    "kp-method": "方法：採用公開視窗內最新完整 1 分鐘估計 Kp 樣本（10:58 UTC 為完整分鐘，1.67／2M），並取近 180 筆 estimated_kp 最大值。06:00 至 09:00 UTC 區間皆已結束（各 60 筆）。公開窗內殘留的 05:00 UTC 切片為 58 筆。稍早的 16:00 至 04:00 UTC 切片已滾出公開窗；目前視窗起點為 05:02 UTC。",
     "kp-link": "Kp JSON：https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
     "kp-repro": "可重現性：該端點公開、無需驗證，回傳此處使用的同一數值欄位。",
-    "kp-limit": "限制：1 分鐘估計 Kp 為即時預報，並非正式 3 小時 Kp；數值可能修正，新的 3 小時區間常先從 0.00 起算。本輪省略 F10.7：公開 f107_cm_flux.json 正午序列仍可能混有過時紀錄。視窗起點 2026-09-17 03:03 UTC（358 筆；最新完整分鐘 2026-09-17 08:59 UTC = 1.33／1P；近 180 筆最大 1.67 於 08:58 UTC；視窗最大 2.00，出現於 05:28–05:39 UTC）。",
+    "kp-limit": "限制：1 分鐘估計 Kp 為即時預報，並非正式 3 小時 Kp；數值可能修正，新的 3 小時區間常先從 0.00 起算。本輪省略 F10.7：公開 f107_cm_flux.json 正午序列仍可能混有過時紀錄。視窗起點 2026-09-17 05:02 UTC（357 筆；最新完整分鐘 2026-09-17 10:58 UTC = 1.67／2M；近 180 筆最大 1.67 於 10:58 UTC；視窗最大 2.00，出現於 05:39 UTC）。",
 
 
 
