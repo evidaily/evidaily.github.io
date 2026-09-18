@@ -1,26 +1,26 @@
 {
   "date": "2026-09-18",
-  "updated": "2026-09-19T04:08:00+08:00",
+  "updated": "2026-09-19T05:09:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-18T20:03:00Z",
+      "time_utc": "2026-09-18T21:03:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.33 (quiet) at 20:03 UTC on 18 September 2026.",
-        "zh": "2026 年 9 月 18 日 20:03 UTC，估計行星 Kp 為 0.33（平靜）。"
+        "en": "Estimated planetary Kp is 0.00 (quiet) at 21:03 UTC on 18 September 2026.",
+        "zh": "2026 年 9 月 18 日 21:03 UTC，估計行星 Kp 為 0.00（平靜）。"
       },
       "summary": {
-        "en": "Latest complete-minute estimated Kp = 0.33 (label 0P). Last-180-sample maximum is 1.00 (at 17:44 UTC); published-window maximum is 1.00 (at 14:06 UTC). Hours through 13:00 UTC have rolled out of the public window. Residual 14:00 UTC slice: peak 1.00 / 1Z (54 samples, closed at 0.67 / 1M). Completed bins 15:00–19:00 UTC closed at 0.67 / 0.67 / 1.00 / 0.00 / 0.67 respectively. In-progress 20:00 UTC bin: 0.33 / 0P after 4 samples. estimated_kp remains below 5.0.",
-        "zh": "最新完整分鐘估計 Kp = 0.33（標籤 0P）。近 180 筆最大 1.00（17:44 UTC）；公開窗最大 1.00（14:06 UTC）。至 13:00 UTC 已滾出公開窗。殘留 14:00 UTC 切片：峰值 1.00／1Z（54 筆，收在 0.67／1M）。15:00–19:00 UTC 已結束（分別收在 0.67／0.67／1.00／0.00／0.67）。20:00 UTC 進行中（4 筆、目前 0.33／0P）。estimated_kp 仍低於 5.0。"
+        "en": "Latest complete-minute estimated Kp = 0.00 (label 0Z). Last-180-sample maximum is 0.67 (at 19:18 UTC); published-window maximum is 1.00 (at 17:44 UTC). Hours through 14:00 UTC have rolled out of the public window. Residual 15:00 UTC slice: peak 0.67 / 1M (54 samples, closed at 0.67 / 1M). Completed bins 16:00–20:00 UTC closed at 0.67 / 1.00 / 0.00 / 0.67 / 0.67 respectively. In-progress 21:00 UTC bin: 0.00 / 0Z after 4 samples. estimated_kp remains below 5.0.",
+        "zh": "最新完整分鐘估計 Kp = 0.00（標籤 0Z）。近 180 筆最大 0.67（19:18 UTC）；公開窗最大 1.00（17:44 UTC）。至 14:00 UTC 已滾出公開窗。殘留 15:00 UTC 切片：峰值 0.67／1M（54 筆，收在 0.67／1M）。16:00–20:00 UTC 已結束（分別收在 0.67／1.00／0.00／0.67／0.67）。21:00 UTC 進行中（4 筆、目前 0.00／0Z）。estimated_kp 仍低於 5.0。"
       },
       "data": {
-        "estimated_kp": 0.33,
-        "kp_label": "0P",
+        "estimated_kp": 0.0,
+        "kp_label": "0Z",
         "window_max": 1.0,
-        "last180_max": 1.0,
+        "last180_max": 0.67,
         "n_samples": 358,
-        "window_start": "2026-09-18T14:06:00Z"
+        "window_start": "2026-09-18T15:06:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
@@ -30,9 +30,41 @@
       },
       "visual": {
         "type": "bar",
-        "value": 0.33,
+        "value": 0.0,
         "min": 0,
         "max": 9
+      }
+    },
+    {
+      "id": "usgs-us7000tie4",
+      "type": "earthquake",
+      "time_utc": "2026-09-18T18:41:22Z",
+      "title": {
+        "en": "A magnitude 4.5 earthquake occurred 23 km SW of Sipí, Colombia on 18 September 2026.",
+        "zh": "2026 年 9 月 18 日，哥倫比亞 Sipí 西南約 23 公里處發生規模 4.5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 73 km. Newly listed this hour.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 73 公里。本小時新上架。"
+      },
+      "data": {
+        "magnitude": 4.5,
+        "magType": "mb",
+        "place": "23 km SW of Sipí, Colombia",
+        "depth_km": 72.587,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tie4"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
       }
     },
     {
