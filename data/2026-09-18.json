@@ -1,26 +1,26 @@
 {
   "date": "2026-09-18",
-  "updated": "2026-09-18T10:09:00+08:00",
+  "updated": "2026-09-18T11:10:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-18T02:04:00Z",
+      "time_utc": "2026-09-18T02:59:00Z",
       "title": {
-        "en": "Latest complete-minute estimated Kp = 1.33 (label 1P at 2026-09-18 02:04 UTC); last-180-sample maximum is 2.33; published-window maximum is 2.33; estimated_kp still below 5.0. Hours through 19:00 UTC have rolled out of the public window. The remaining 20:00 UTC slice in the public window peaks at 1.67 / 2M (53 samples). The completed 21:00 UTC bin closed at 1.33 / 1P. The completed 22:00 UTC bin peaked at 1.67 / 2M and closed at 1.33 / 1P. The completed 23:00 UTC bin closed at 2.33 / 2P. The completed 00:00 UTC bin peaked at 0.67 / 1M and closed at 0.67 / 1M. The completed 01:00 UTC bin peaked at 1.67 / 2M and closed at 1.67 / 2M. The in-progress 02:00 UTC bin currently peaks at 1.33 / 1P (5 samples; latest minute 1.33 / 1P).",
-        "zh": "最新完整分鐘估計 Kp = 1.33（標籤 1P，2026-09-18 02:04 UTC）；近 180 筆最大為 2.33；公開窗最大為 2.33；estimated_kp 仍低於 5.0。至 19:00 UTC 的區間已滾出公開窗。公開窗內殘留的 20:00 UTC 切片峰值 1.67／2M（53 筆）。已結束的 21:00 UTC 區間收在 1.33／1P；22:00 峰值 1.67／2M、收在 1.33／1P；23:00 收在 2.33／2P；00:00 峰值 0.67／1M、收在 0.67／1M；01:00 峰值 1.67／2M、收在 1.67／2M。進行中的 02:00 UTC 區間目前峰值 1.33／1P（5 筆；最新分鐘 1.33／1P）。"
+        "en": "Latest complete-minute estimated Kp = 1.67 (label 2M at 2026-09-18 02:59 UTC); last-180-sample maximum is 1.67; published-window maximum is 2.33; estimated_kp still below 5.0. Hours through 20:00 UTC have rolled out of the public window. The remaining 21:00 UTC slice in the public window peaks at 1.33 / 1P (50 samples). The completed 22:00 UTC bin peaked at 1.67 / 2M and closed at 1.33 / 1P. The completed 23:00 UTC bin closed at 2.33 / 2P. The completed 00:00 UTC bin peaked at 0.67 / 1M and closed at 0.67 / 1M. The completed 01:00 UTC bin peaked at 1.67 / 2M and closed at 1.67 / 2M. The completed 02:00 UTC bin held 1.67 / 2M throughout (60 samples). The in-progress 03:00 UTC bin currently shows placeholder 0.00 / 0Z (8 samples) and is not used as the latest complete minute.",
+        "zh": "最新完整分鐘估計 Kp = 1.67（標籤 2M，2026-09-18 02:59 UTC）；近 180 筆最大為 1.67；公開窗最大為 2.33；estimated_kp 仍低於 5.0。至 20:00 UTC 的區間已滾出公開窗。公開窗內殘留的 21:00 UTC 切片峰值 1.33／1P（50 筆）。已結束的 22:00 UTC 區間峰值 1.67／2M、收在 1.33／1P；23:00 收在 2.33／2P；00:00 峰值 0.67／1M、收在 0.67／1M；01:00 峰值 1.67／2M、收在 1.67／2M；02:00 全程 1.67／2M（60 筆）。進行中的 03:00 UTC 區間目前為佔位 0.00／0Z（8 筆），不採用為最新完整分鐘。"
       },
       "summary": {
-        "en": "Quiet. Latest complete-minute estimated Kp is 1.33; window peak remains 2.33 at 23:11 UTC on 17 September.",
-        "zh": "目前為平靜。最新完整分鐘估計 Kp 為 1.33；公開窗峰值仍為 2.33（9 月 17 日 23:11 UTC）。"
+        "en": "Quiet. Latest complete-minute estimated Kp is 1.67; window peak remains 2.33 at 23:11 UTC on 17 September.",
+        "zh": "目前為平靜。最新完整分鐘估計 Kp 為 1.67；公開窗峰值仍為 2.33（9 月 17 日 23:11 UTC）。"
       },
       "data": {
-        "estimated_kp": 1.33,
-        "kp_label": "1P",
+        "estimated_kp": 1.67,
+        "kp_label": "2M",
         "window_max": 2.33,
-        "last180_max": 2.33,
+        "last180_max": 1.67,
         "n_samples": 358,
-        "window_start": "2026-09-17T20:07:00Z"
+        "window_start": "2026-09-17T21:10:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
@@ -30,10 +30,42 @@
       },
       "visual": {
         "type": "bar",
-        "value": 1.33,
+        "value": 1.67,
         "min": 0,
         "max": 9,
         "label": "Kp"
+      }
+    },
+    {
+      "id": "usgs-us7000ti79",
+      "type": "earthquake",
+      "time_utc": "2026-09-18T02:12:28Z",
+      "title": {
+        "en": "A magnitude 4.5 earthquake occurred in the Izu Islands, Japan region on 18 September 2026.",
+        "zh": "2026 年 9 月 18 日，日本伊豆諸島區域發生規模 4.5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 36 km. Newly listed since the previous hourly update.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 36 公里。為本輪新上架事件。"
+      },
+      "data": {
+        "magnitude": 4.5,
+        "magType": "mb",
+        "place": "Izu Islands, Japan region",
+        "depth_km": 36.296,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti79"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
       }
     },
     {
@@ -45,8 +77,8 @@
         "zh": "2026 年 9 月 18 日，日本 Tsunō 東南偏東約 20 公里發生規模 4.6 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.6, depth about 54 km. Newly listed since the previous hourly update.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 54 公里。為本輪新上架事件。"
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 54 km. Listed in an earlier hourly update today.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 54 公里。稍早每小時更新已上架。"
       },
       "data": {
         "magnitude": 4.6,
