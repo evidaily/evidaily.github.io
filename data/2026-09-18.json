@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-18",
+  "updated": "2026-09-18T09:01:00+08:00",
+  "entries": [
+    {
+      "id": "noaa-kp-1m",
+      "type": "space-weather",
+      "time_utc": "2026-09-18T00:58:00Z",
+      "title": {
+        "en": "Latest complete-minute estimated Kp = 0.00 (label 0Z at 2026-09-18 00:58 UTC); last-180-sample maximum is 2.33; published-window maximum is 2.33; estimated_kp still below 5.0. Hours through 18:00 UTC have rolled out of the public window. The remaining 19:00 UTC slice in the public window peaks at 1.67 / 2M (59 samples). The completed 20:00 UTC bin closed at 1.67 / 2M. The completed 21:00 UTC bin closed at 1.33 / 1P. The completed 22:00 UTC bin peaked at 1.67 / 2M and closed at 1.33 / 1P. The completed 23:00 UTC bin closed at 2.33 / 2P. The in-progress 00:00 UTC bin currently peaks at 0.67 / 1M (59 samples; latest minute 0.00 / 0Z).",
+        "zh": "最新完整分鐘估計 Kp = 0.00（標籤 0Z，2026-09-18 00:58 UTC）；近 180 筆最大為 2.33；公開窗最大為 2.33；estimated_kp 仍低於 5.0。至 18:00 UTC 的區間已滾出公開窗。公開窗內殘留的 19:00 UTC 切片峰值 1.67／2M（59 筆）。已結束的 20:00 UTC 區間收在 1.67／2M；21:00 收在 1.33／1P；22:00 峰值 1.67／2M、收在 1.33／1P；23:00 收在 2.33／2P。進行中的 00:00 UTC 區間目前峰值 0.67／1M（59 筆；最新分鐘 0.00／0Z）。"
+      },
+      "summary": {
+        "en": "Quiet. Latest complete-minute estimated Kp is 0.00; window peak remains 2.33 at 23:11 UTC on 17 September.",
+        "zh": "目前為平靜。最新完整分鐘估計 Kp 為 0.00；公開窗峰值仍為 2.33（9 月 17 日 23:11 UTC）。"
+      },
+      "data": {
+        "estimated_kp": 0.0,
+        "kp_label": "0Z",
+        "window_max": 2.33,
+        "last180_max": 2.33,
+        "n_samples": 358,
+        "window_start": "2026-09-17T19:01:00Z"
+      },
+      "evidence": {
+        "source_name": "NOAA SWPC",
+        "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest complete minute (not a lone new-hour 0.00 placeholder). Report last-180 and full published-window maxima.",
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window (~358 samples), so earlier hours fall out of the file."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 0.0,
+        "min": 0,
+        "max": 9,
+        "label": "Kp"
+      }
+    }
+  ]
+}
