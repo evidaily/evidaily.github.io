@@ -1,40 +1,39 @@
 {
   "date": "2026-09-18",
-  "updated": "2026-09-19T01:20:00+08:00",
+  "updated": "2026-09-19T02:05:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-18T17:12:00Z",
+      "time_utc": "2026-09-18T18:01:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.33 (quiet) at 17:12 UTC on 18 September 2026.",
-        "zh": "2026 年 9 月 18 日 17:12 UTC，估計行星 Kp 為 0.33（平靜）。"
+        "en": "Estimated planetary Kp is 0.00 (quiet) at 18:01 UTC on 18 September 2026.",
+        "zh": "2026 年 9 月 18 日 18:01 UTC，估計行星 Kp 為 0.00（平靜）。"
       },
       "summary": {
-        "en": "Latest complete-minute estimated Kp = 0.33 (label 0P). Last-180-sample maximum is 1.00; published-window maximum is 1.67 (at 11:34 UTC). Hours through 10:00 UTC have rolled out of the public window. Residual 11:00 UTC slice: peak 1.67 / 2M (45 samples). Completed bins 12:00–16:00 UTC closed at 0.67 / 1.00 / 0.67 / 0.67 / 0.67 respectively. In-progress 17:00 UTC bin: 0.33 / 0P after 13 samples. estimated_kp remains below 5.0.",
-        "zh": "最新完整分鐘估計 Kp = 0.33（標籤 0P）。近 180 筆最大 1.00；公開窗最大 1.67（11:34 UTC）。至 10:00 UTC 已滾出公開窗。殘留 11:00 UTC 切片峰值 1.67／2M（45 筆）。已結束 12:00–16:00 區間分別收在 0.67／1.00／0.67／0.67／0.67。進行中 17:00 UTC：0.33／0P（13 筆）。estimated_kp 仍低於 5.0。"
+        "en": "Latest complete-minute estimated Kp = 0.00 (label 0Z). Last-180-sample maximum is 1.00 (at 17:44 UTC); published-window maximum is 1.00 (at 13:14 UTC). Hours through 11:00 UTC have rolled out of the public window. Residual 12:00 UTC slice: peak 0.67 / 1M (55 samples). Completed bins 13:00–17:00 UTC closed at 1.00 / 0.67 / 0.67 / 0.67 / 1.00 respectively. In-progress 18:00 UTC bin: 0.00 / 0Z after 2 samples. estimated_kp remains below 5.0.",
+        "zh": "最新完整分鐘估計 Kp = 0.00（標籤 0Z）。近 180 筆最大 1.00（17:44 UTC）；公開窗最大 1.00（13:14 UTC）。至 11:00 UTC 已滾出公開窗。殘留 12:00 UTC 切片峰值 0.67／1M（55 筆）。已結束 13:00–17:00 區間分別收在 1.00／0.67／0.67／0.67／1.00。進行中 18:00 UTC：0.00／0Z（2 筆）。estimated_kp 仍低於 5.0。"
       },
       "data": {
-        "estimated_kp": 0.33,
-        "kp_label": "0P",
-        "window_max": 1.67,
+        "estimated_kp": 0.0,
+        "kp_label": "0Z",
+        "window_max": 1.0,
         "last180_max": 1.0,
-        "n_samples": 358,
-        "window_start": "2026-09-18T11:15:00Z"
+        "n_samples": 357,
+        "window_start": "2026-09-18T12:05:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
         "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest complete minute (not a lone new-hour 0.00 placeholder). Report last-180 and full published-window maxima.",
-        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window (~358 samples), so earlier hours fall out of the file."
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window (~357 samples), so earlier hours fall out of the file."
       },
       "visual": {
         "type": "bar",
-        "value": 0.33,
+        "value": 0.0,
         "min": 0,
         "max": 9
-      },
-      "updated_note": "title shortened for readability 2026-09-19T01:20+08"
+      }
     },
     {
       "id": "usgs-us7000tid4",
@@ -480,6 +479,134 @@
       "visual": {
         "type": "bar",
         "value": 4.6,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000ti5y",
+      "type": "earthquake",
+      "time_utc": "2026-09-17T21:10:25Z",
+      "title": {
+        "en": "A magnitude 4.7 earthquake occurred 24 km SW of Sipí, Colombia on 17 September 2026.",
+        "zh": "2026 年 9 月 17 日，24 km SW of Sipí, Colombia發生規模 4.7 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.7, depth about 58 km. Newly listed this hour.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 58 公里。本小時新上架。"
+      },
+      "data": {
+        "magnitude": 4.7,
+        "magType": "mb",
+        "place": "24 km SW of Sipí, Colombia",
+        "depth_km": 57.808,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti5y"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.7,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000ti5v",
+      "type": "earthquake",
+      "time_utc": "2026-09-17T20:23:46Z",
+      "title": {
+        "en": "A magnitude 4.6 earthquake occurred 223 km W of Tual, Indonesia on 17 September 2026.",
+        "zh": "2026 年 9 月 17 日，223 km W of Tual, Indonesia發生規模 4.6 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 74 km. Newly listed this hour.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 74 公里。本小時新上架。"
+      },
+      "data": {
+        "magnitude": 4.6,
+        "magType": "mb",
+        "place": "223 km W of Tual, Indonesia",
+        "depth_km": 73.566,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti5v"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.6,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000ti5b",
+      "type": "earthquake",
+      "time_utc": "2026-09-17T19:19:06Z",
+      "title": {
+        "en": "A magnitude 4.9 earthquake occurred northern Mid-Atlantic Ridge on 17 September 2026.",
+        "zh": "2026 年 9 月 17 日，northern Mid-Atlantic Ridge發生規模 4.9 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.9, depth about 10 km. Newly listed this hour.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 10 公里。本小時新上架。"
+      },
+      "data": {
+        "magnitude": 4.9,
+        "magType": "mb",
+        "place": "northern Mid-Atlantic Ridge",
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti5b"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.9,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000ti5c",
+      "type": "earthquake",
+      "time_utc": "2026-09-17T19:17:33Z",
+      "title": {
+        "en": "A magnitude 4.5 earthquake occurred 204 km SW of Labuan, Indonesia on 17 September 2026.",
+        "zh": "2026 年 9 月 17 日，204 km SW of Labuan, Indonesia發生規模 4.5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 10 km. Newly listed this hour.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 10 公里。本小時新上架。"
+      },
+      "data": {
+        "magnitude": 4.5,
+        "magType": "mb",
+        "place": "204 km SW of Labuan, Indonesia",
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti5c"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
         "min": 0,
         "max": 10
       }
