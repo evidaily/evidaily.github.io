@@ -1,18 +1,18 @@
 {
   "date": "2026-09-18",
-  "updated": "2026-09-19T01:16:00+08:00",
+  "updated": "2026-09-19T01:20:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
       "time_utc": "2026-09-18T17:12:00Z",
       "title": {
-        "en": "Latest complete-minute estimated Kp = 0.33 (label 0P at 2026-09-18 17:12 UTC); last-180-sample maximum is 1.00; published-window maximum is 1.67; estimated_kp still below 5.0. Hours through 10:00 UTC have rolled out of the public window. The remaining 11:00 UTC slice in the public window peaks at 1.67 / 2M (45 samples) and closed at 1.67 / 2M. The completed 12:00 UTC bin peaked at 0.67 / 1M and closed at 0.67 / 1M (60 samples). The completed 13:00 UTC bin peaked at 1.00 / 1Z and closed at 1.00 / 1Z (60 samples). The completed 14:00 UTC bin peaked at 1.00 / 1Z and closed at 0.67 / 1M (60 samples). The completed 15:00 UTC bin peaked at 0.67 / 1M and closed at 0.67 / 1M (60 samples). The completed 16:00 UTC bin peaked at 0.67 / 1M and closed at 0.67 / 1M (60 samples). The in-progress 17:00 UTC bin currently shows 0.33 / 0P after 13 samples.",
-        "zh": "最新完整分鐘估計 Kp = 0.33（標籤 0P，2026-09-18 17:12 UTC）；近 180 筆最大為 1.00；公開窗最大為 1.67；estimated_kp 仍低於 5.0。至 10:00 UTC 的區間已滾出公開窗。公開窗內殘留的 11:00 UTC 切片峰值 1.67／2M（45 筆）、收在 1.67／2M。已結束的 12:00 峰值 0.67／1M、收在 0.67／1M（60 筆）；13:00 峰值 1.00／1Z、收在 1.00／1Z（60 筆）；14:00 峰值 1.00／1Z、收在 0.67／1M（60 筆）；15:00 峰值 0.67／1M、收在 0.67／1M（60 筆）；16:00 峰值 0.67／1M、收在 0.67／1M（60 筆）。進行中的 17:00 UTC 區間目前 0.33／0P（13 筆）。"
+        "en": "Estimated planetary Kp is 0.33 (quiet) at 17:12 UTC on 18 September 2026.",
+        "zh": "2026 年 9 月 18 日 17:12 UTC，估計行星 Kp 為 0.33（平靜）。"
       },
       "summary": {
-        "en": "Quiet. Latest complete-minute estimated Kp is 0.33; window peak is 1.67 at 11:34 UTC on 18 September.",
-        "zh": "目前為平靜。最新完整分鐘估計 Kp 為 0.33；公開窗峰值為 1.67（9 月 18 日 11:34 UTC）。"
+        "en": "Latest complete-minute estimated Kp = 0.33 (label 0P). Last-180-sample maximum is 1.00; published-window maximum is 1.67 (at 11:34 UTC). Hours through 10:00 UTC have rolled out of the public window. Residual 11:00 UTC slice: peak 1.67 / 2M (45 samples). Completed bins 12:00–16:00 UTC closed at 0.67 / 1.00 / 0.67 / 0.67 / 0.67 respectively. In-progress 17:00 UTC bin: 0.33 / 0P after 13 samples. estimated_kp remains below 5.0.",
+        "zh": "最新完整分鐘估計 Kp = 0.33（標籤 0P）。近 180 筆最大 1.00；公開窗最大 1.67（11:34 UTC）。至 10:00 UTC 已滾出公開窗。殘留 11:00 UTC 切片峰值 1.67／2M（45 筆）。已結束 12:00–16:00 區間分別收在 0.67／1.00／0.67／0.67／0.67。進行中 17:00 UTC：0.33／0P（13 筆）。estimated_kp 仍低於 5.0。"
       },
       "data": {
         "estimated_kp": 0.33,
@@ -33,7 +33,8 @@
         "value": 0.33,
         "min": 0,
         "max": 9
-      }
+      },
+      "updated_note": "title shortened for readability 2026-09-19T01:20+08"
     },
     {
       "id": "usgs-us7000tid4",
