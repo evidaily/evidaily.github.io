@@ -1,26 +1,26 @@
 {
   "date": "2026-09-18",
-  "updated": "2026-09-19T05:11:00+08:00",
+  "updated": "2026-09-19T06:20:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-18T21:06:00Z",
+      "time_utc": "2026-09-18T21:57:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (quiet) at 21:06 UTC on 18 September 2026.",
-        "zh": "2026 年 9 月 18 日 21:06 UTC，估計行星 Kp 為 0.00（平靜）。"
+        "en": "Estimated planetary Kp is 0.33 (quiet) at 21:57 UTC on 18 September 2026.",
+        "zh": "2026 年 9 月 18 日 21:57 UTC，估計行星 Kp 為 0.33（平靜）。"
       },
       "summary": {
-        "en": "Latest complete-minute estimated Kp = 0.00 (label 0Z). Last-180-sample maximum is 0.67 (at 19:18 UTC); published-window maximum is 1.00 (at 17:44 UTC). Hours through 14:00 UTC have rolled out of the public window. Residual 15:00 UTC slice: peak 0.67 / 1M (50 samples, closed at 0.67 / 1M). Completed bins 16:00–20:00 UTC closed at 0.67 / 1.00 / 0.00 / 0.67 / 0.67 respectively. In-progress 21:00 UTC bin: 0.00 / 0Z after 7 samples. estimated_kp remains below 5.0.",
-        "zh": "最新完整分鐘估計 Kp = 0.00（標籤 0Z）。近 180 筆最大 0.67（19:18 UTC）；公開窗最大 1.00（17:44 UTC）。至 14:00 UTC 已滾出公開窗。殘留 15:00 UTC 切片：峰值 0.67／1M（50 筆，收在 0.67／1M）。16:00–20:00 UTC 已結束（分別收在 0.67／1.00／0.00／0.67／0.67）。21:00 UTC 進行中（7 筆、目前 0.00／0Z）。estimated_kp 仍低於 5.0。"
+        "en": "Latest complete-minute estimated Kp = 0.33 (label 0P). Last-180-sample maximum is 1.33 (at 21:52 UTC); published-window maximum is 1.33 (at 21:52 UTC). Hours through 15:00 UTC have rolled out of the public window. Residual 16:00 UTC slice: peak 0.67 / 1M (59 samples, closed at 0.67 / 1M). Completed bins 17:00–20:00 UTC closed at 1.00 / 0.00 / 0.67 / 0.67 respectively. In-progress 21:00 UTC bin: 0.33 / 0P after 58 samples (hour peak 1.33 / 1P at 21:52 UTC). estimated_kp remains below 5.0.",
+        "zh": "最新完整分鐘估計 Kp = 0.33（標籤 0P）。近 180 筆最大 1.33（21:52 UTC）；公開窗最大 1.33（21:52 UTC）。至 15:00 UTC 已滾出公開窗。殘留 16:00 UTC 切片：峰值 0.67／1M（59 筆，收在 0.67／1M）。17:00–20:00 UTC 已結束（分別收在 1.00／0.00／0.67／0.67）。21:00 UTC 進行中（58 筆、目前 0.33／0P；本時峰值 1.33／1P 於 21:52 UTC）。estimated_kp 仍低於 5.0。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp_label": "0Z",
-        "window_max": 1.0,
-        "last180_max": 0.67,
+        "estimated_kp": 0.33,
+        "kp_label": "0P",
+        "window_max": 1.33,
+        "last180_max": 1.33,
         "n_samples": 357,
-        "window_start": "2026-09-18T15:10:00Z"
+        "window_start": "2026-09-18T16:01:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
@@ -30,9 +30,41 @@
       },
       "visual": {
         "type": "bar",
-        "value": 0.0,
+        "value": 0.33,
         "min": 0,
         "max": 9
+      }
+    },
+    {
+      "id": "usgs-us7000tiem",
+      "type": "earthquake",
+      "time_utc": "2026-09-18T19:16:37Z",
+      "title": {
+        "en": "A magnitude 4.5 earthquake occurred 112 km ESE of Ust’-Kamchatsk Staryy, Russia on 18 September 2026.",
+        "zh": "2026 年 9 月 18 日，俄羅斯 Ust’-Kamchatsk Staryy 東南東約 112 公里處發生規模 4.5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 31 km. Newly listed this hour.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 31 公里。本小時新上架。"
+      },
+      "data": {
+        "magnitude": 4.5,
+        "magType": "mb",
+        "place": "112 km ESE of Ust’-Kamchatsk Staryy, Russia",
+        "depth_km": 30.943,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiem"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
       }
     },
     {
