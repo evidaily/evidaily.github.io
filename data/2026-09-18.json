@@ -1,26 +1,26 @@
 {
   "date": "2026-09-18",
-  "updated": "2026-09-18T14:20:00+08:00",
+  "updated": "2026-09-18T15:18:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-18T06:17:00Z",
+      "time_utc": "2026-09-18T07:14:00Z",
       "title": {
-        "en": "Latest complete-minute estimated Kp = 0.00 (label 0Z at 2026-09-18 06:17 UTC); last-180-sample maximum is 2.00; published-window maximum is 2.00; estimated_kp still below 5.0. Hours through 23:00 UTC have rolled out of the public window. The remaining 00:00 UTC slice in the public window peaks at 0.67 / 1M (40 samples) and sits at 0.67 / 1M. The completed 01:00 UTC bin peaked at 1.67 / 2M and closed at 1.67 / 2M (60 samples). The completed 02:00 UTC bin held 1.67 / 2M throughout (60 samples). The completed 03:00 UTC bin peaked at 1.33 / 1P and closed at 1.33 / 1P (60 samples). The completed 04:00 UTC bin peaked at 1.67 / 2M and closed at 1.67 / 2M (60 samples). The completed 05:00 UTC bin peaked at 2.00 / 2Z and closed at 2.00 / 2Z (60 samples). The in-progress 06:00 UTC bin currently shows 0.00 / 0Z after 18 samples (peak so far 0.00 / 0Z).",
-        "zh": "最新完整分鐘估計 Kp = 0.00（標籤 0Z，2026-09-18 06:17 UTC）；近 180 筆最大為 2.00；公開窗最大為 2.00；estimated_kp 仍低於 5.0。至 23:00 UTC 的區間已滾出公開窗。公開窗內殘留的 00:00 UTC 切片峰值 0.67／1M（40 筆）、目前 0.67／1M。已結束的 01:00 UTC 區間峰值 1.67／2M、收在 1.67／2M（60 筆）；02:00 全程 1.67／2M（60 筆）；03:00 峰值 1.33／1P、收在 1.33／1P（60 筆）；04:00 峰值 1.67／2M、收在 1.67／2M（60 筆）；05:00 峰值 2.00／2Z、收在 2.00／2Z（60 筆）。進行中的 06:00 UTC 區間目前 0.00／0Z（18 筆，峰值暫 0.00／0Z）。"
+        "en": "Latest complete-minute estimated Kp = 1.00 (label 1Z at 2026-09-18 07:14 UTC); last-180-sample maximum is 2.00; published-window maximum is 2.00; estimated_kp still below 5.0. Hours through 00:00 UTC have rolled out of the public window. The remaining 01:00 UTC slice in the public window peaks at 1.67 / 2M (43 samples) and sits at 1.67 / 2M. The completed 02:00 UTC bin held 1.67 / 2M throughout (60 samples). The completed 03:00 UTC bin peaked at 1.33 / 1P and closed at 1.33 / 1P (60 samples). The completed 04:00 UTC bin peaked at 1.67 / 2M and closed at 1.67 / 2M (60 samples). The completed 05:00 UTC bin peaked at 2.00 / 2Z and closed at 2.00 / 2Z (60 samples). The completed 06:00 UTC bin peaked at 1.00 / 1Z and closed at 1.00 / 1Z (60 samples). The in-progress 07:00 UTC bin currently shows 1.00 / 1Z after 15 samples (peak so far 1.33 / 1P).",
+        "zh": "最新完整分鐘估計 Kp = 1.00（標籤 1Z，2026-09-18 07:14 UTC）；近 180 筆最大為 2.00；公開窗最大為 2.00；estimated_kp 仍低於 5.0。至 00:00 UTC 的區間已滾出公開窗。公開窗內殘留的 01:00 UTC 切片峰值 1.67／2M（43 筆）、目前 1.67／2M。已結束的 02:00 UTC 區間全程 1.67／2M（60 筆）；03:00 峰值 1.33／1P、收在 1.33／1P（60 筆）；04:00 峰值 1.67／2M、收在 1.67／2M（60 筆）；05:00 峰值 2.00／2Z、收在 2.00／2Z（60 筆）；06:00 峰值 1.00／1Z、收在 1.00／1Z（60 筆）。進行中的 07:00 UTC 區間目前 1.00／1Z（15 筆，峰值暫 1.33／1P）。"
       },
       "summary": {
-        "en": "Quiet. Latest complete-minute estimated Kp is 0.00; window peak is 2.00 at 05:29 UTC on 18 September.",
-        "zh": "目前為平靜。最新完整分鐘估計 Kp 為 0.00；公開窗峰值為 2.00（9 月 18 日 05:29 UTC）。"
+        "en": "Quiet. Latest complete-minute estimated Kp is 1.00; window peak is 2.00 at 05:29 UTC on 18 September.",
+        "zh": "目前為平靜。最新完整分鐘估計 Kp 為 1.00；公開窗峰值為 2.00（9 月 18 日 05:29 UTC）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp_label": "0Z",
+        "estimated_kp": 1.0,
+        "kp_label": "1Z",
         "window_max": 2.0,
         "last180_max": 2.0,
         "n_samples": 358,
-        "window_start": "2026-09-18T00:20:00Z"
+        "window_start": "2026-09-18T01:17:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
@@ -30,10 +30,73 @@
       },
       "visual": {
         "type": "bar",
-        "value": 0.0,
+        "value": 1.0,
         "min": 0,
-        "max": 9,
-        "label": "Kp"
+        "max": 9
+      }
+    },
+    {
+      "id": "usgs-us7000ti83",
+      "type": "earthquake",
+      "time_utc": "2026-09-18T06:42:29Z",
+      "title": {
+        "en": "A magnitude 4.7 earthquake occurred in the Fiji region on 18 September 2026.",
+        "zh": "2026 年 9 月 18 日，斐濟區域發生規模 4.7 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.7, depth about 548 km. Newly listed this hour.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 548 公里。本小時新上架。"
+      },
+      "data": {
+        "magnitude": 4.7,
+        "magType": "mb",
+        "place": "Fiji region",
+        "depth_km": 548.378,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti83"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.7,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000ti7x",
+      "type": "earthquake",
+      "time_utc": "2026-09-18T06:17:03Z",
+      "title": {
+        "en": "A magnitude 4.7 earthquake occurred 40 km SSW of Sipí, Colombia on 18 September 2026.",
+        "zh": "2026 年 9 月 18 日，哥倫比亞 Sipí 西南偏南約 40 公里發生規模 4.7 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.7, depth about 68 km. Newly listed this hour.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 68 公里。本小時新上架。"
+      },
+      "data": {
+        "magnitude": 4.7,
+        "magType": "mb",
+        "place": "40 km SSW of Sipí, Colombia",
+        "depth_km": 68.374,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti7x"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.7,
+        "min": 0,
+        "max": 10
       }
     },
     {
