@@ -67,8 +67,9 @@
 
     <div class="archive-nav" id="month-nav"></div>
     <div class="archive-nav" id="day-nav" style="display:none;"></div>
+
     <div id="archive-entries">
-      <p style="opacity:0.7;">Select a day to load entries.</p>
+      <p style="opacity:0.7;">Loading available dates…</p>
     </div>
   </main>
 
@@ -86,11 +87,7 @@
       document.getElementById('theme-icon').textContent = next === 'dark' ? '☀' : '☾';
     }
 
-    const AVAILABLE = [
-      "2026-09-04","2026-09-05","2026-09-06","2026-09-07","2026-09-08",
-      "2026-09-09","2026-09-10","2026-09-11","2026-09-12","2026-09-13",
-      "2026-09-14","2026-09-15","2026-09-16","2026-09-17"
-    ];
+    let AVAILABLE = [];
 
     function getMonths() {
       return [...new Set(AVAILABLE.map(d => d.slice(0,7)))].sort().reverse();
@@ -102,7 +99,12 @@
 
     function renderMonthNav() {
       const nav = document.getElementById('month-nav');
-      nav.innerHTML = getMonths().map(m => 
+      const months = getMonths();
+      if (months.length === 0) {
+        nav.innerHTML = '<p style="opacity:0.7;">No archived dates found.</p>';
+        return;
+      }
+      nav.innerHTML = months.map(m => 
         `<button class="month-btn" data-month="${m}" onclick="selectMonth('${m}')">${m}</button>`
       ).join('');
     }
@@ -160,10 +162,34 @@
       if (active) loadDay(active.dataset.day);
     }
 
-    document.addEventListener('DOMContentLoaded', () => {
+    async function initArchive() {
+      const container = document.getElementById('archive-entries');
+      try {
+        const res = await fetch('data/available.json');
+        if (!res.ok) throw new Error('manifest missing');
+        const manifest = await res.json();
+        AVAILABLE = Array.isArray(manifest.dates) ? manifest.dates : [];
+        // Ensure newest first
+        AVAILABLE.sort().reverse();
+      } catch (err) {
+        console.warn('Failed to load available.json, falling back to empty', err);
+        AVAILABLE = [];
+        container.innerHTML = '<p style="opacity:0.7;">Could not load archive index. Please try again later.</p>';
+        return;
+      }
+
+      if (AVAILABLE.length === 0) {
+        container.innerHTML = '<p style="opacity:0.7;">No archived dates found.</p>';
+        return;
+      }
+
       renderMonthNav();
       const months = getMonths();
       if (months.length) selectMonth(months[0]);
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      initArchive();
     });
   </script>
 </body>
