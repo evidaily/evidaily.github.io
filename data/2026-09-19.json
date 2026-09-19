@@ -1,36 +1,36 @@
 {
   "date": "2026-09-19",
-  "updated": "2026-09-19T13:05:00+08:00",
+  "updated": "2026-09-19T14:22:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-19T05:00:00Z",
+      "time_utc": "2026-09-19T06:19:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 2.33 (quiet) at 05:00 UTC on 19 September 2026.",
-        "zh": "2026 年 9 月 19 日 05:00 UTC，估計行星 Kp 為 2.33（平靜）。"
+        "en": "Estimated planetary Kp is 0.00 (quiet) at 06:19 UTC on 19 September 2026.",
+        "zh": "2026 年 9 月 19 日 06:19 UTC，估計行星 Kp 為 0.00（平靜）。"
       },
       "summary": {
-        "en": "Latest complete-minute estimated Kp = 2.33 (label 2P). Last-180-sample maximum is 2.67 (at 04:57 UTC); published-window maximum is 2.67 (at 04:57 UTC). Hours through 22:00 UTC have rolled out of the public window. Residual 23:00 UTC slice: peak 2.00 / 2Z (57 samples, closed at 2.00 / 2Z). Completed bins 00:00–04:00 UTC closed at 0.00 / 2.33 / 2.33 / 0.67 / 2.33 respectively (04:00 peak 2.67 / 3M). 05:00 UTC bin is in progress (1 sample; peak 2.33 / 2P, last 2.33 / 2P). estimated_kp remains below 5.0.",
-        "zh": "最新完整分鐘估計 Kp = 2.33（標籤 2P）。近 180 筆最大 2.67（04:57 UTC）；公開窗最大 2.67（04:57 UTC）。至 22:00 UTC 已滾出公開窗。殘留 23:00 UTC 切片：峰值 2.00／2Z（57 筆，收在 2.00／2Z）。00:00–04:00 UTC 已結束（分別收在 0.00／2.33／2.33／0.67／2.33；04:00 峰值 2.67／3M）。05:00 UTC 進行中（1 筆、峰值 2.33／2P、最新 2.33／2P）。estimated_kp 仍低於 5.0。"
+        "en": "Latest complete-minute estimated Kp = 0.00 (label 0Z). Last-180-sample maximum is 2.67 (at 04:57 UTC); published-window maximum is 2.67 (at 05:59 UTC). Hours through 23:00 UTC have rolled out of the public window. Residual 00:00 UTC slice: peak 0.00 / 0Z (38 samples from 00:22, closed at 0.00 / 0Z). Completed bins 01:00–05:00 UTC closed at 2.33 / 2.33 / 0.67 / 2.33 / 2.67 respectively (04:00 peak 2.67 / 3M; 05:00 peak 2.67 / 3M). 06:00 UTC bin is in progress (20 samples; peak 0.00 / 0Z, last 0.00 / 0Z). estimated_kp remains below 5.0.",
+        "zh": "最新完整分鐘估計 Kp = 0.00（標籤 0Z）。近 180 筆最大 2.67（04:57 UTC）；公開窗最大 2.67（05:59 UTC）。至 23:00 UTC 已滾出公開窗。殘留 00:00 UTC 切片：峰值 0.00／0Z（自 00:22 起 38 筆，收在 0.00／0Z）。01:00–05:00 UTC 已結束（分別收在 2.33／2.33／0.67／2.33／2.67；04:00 與 05:00 峰值皆 2.67／3M）。06:00 UTC 進行中（20 筆、峰值 0.00／0Z、最新 0.00／0Z）。estimated_kp 仍低於 5.0。"
       },
       "data": {
-        "estimated_kp": 2.33,
-        "kp_label": "2P",
+        "estimated_kp": 0.0,
+        "kp_label": "0Z",
         "window_max": 2.67,
         "last180_max": 2.67,
         "n_samples": 358,
-        "window_start": "2026-09-18T23:03:00Z"
+        "window_start": "2026-09-19T00:22:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
         "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest complete minute (not a lone new-hour 0.00 placeholder). Report last-180 and full published-window maxima.",
-        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window (~355 samples), so earlier hours fall out of the file."
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window (~355 samples), so earlier hours fall out of the file. The in-progress 06:00 UTC hour is currently filled with 0.00 / 0Z samples and may be revised as NOAA updates."
       },
       "visual": {
         "type": "bar",
-        "value": 2.33,
+        "value": 0.0,
         "min": 0,
         "max": 9
       }
@@ -44,8 +44,8 @@
         "zh": "2026 年 9 月 19 日，印尼阿貝普拉西北西約 210 公里發生規模 5.2 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 5.2, depth about 10 km (operator assigned). Newly listed this hour. Current day-feed maximum remains mww 5.5 (us7000tigd).",
-        "zh": "USGS M4.5+ 一日饋送：mb 5.2，深度約 10 公里（作業員指定）。本小時新增上架。一日饋送目前最大仍為 mww 5.5（us7000tigd）。"
+        "en": "USGS M4.5+ day feed: mb 5.2, depth about 10 km (operator assigned). Retained from earlier listing. Current day-feed maximum remains mww 5.5 (us7000tigd).",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.2，深度約 10 公里（作業員指定）。沿用稍早上架紀錄。一日饋送目前最大仍為 mww 5.5（us7000tigd）。"
       },
       "data": {
         "magnitude": 5.2,
