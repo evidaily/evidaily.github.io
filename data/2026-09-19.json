@@ -1,18 +1,18 @@
 {
   "date": "2026-09-19",
-  "updated": "2026-09-19T17:12:00+08:00",
+  "updated": "2026-09-19T18:15:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-19T09:09:00Z",
+      "time_utc": "2026-09-19T10:12:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (quiet) at 09:09 UTC on 19 September 2026.",
-        "zh": "2026 年 9 月 19 日 09:09 UTC，估計行星 Kp 為 0.00（平靜）。"
+        "en": "Estimated planetary Kp is 0.00 (quiet) at 10:12 UTC on 19 September 2026.",
+        "zh": "2026 年 9 月 19 日 10:12 UTC，估計行星 Kp 為 0.00（平靜）。"
       },
       "summary": {
-        "en": "Latest complete-minute estimated Kp = 0.00 (label 0Z). Last-180-sample maximum is 1.67 (at 08:18 UTC); published-window maximum is 2.67 (at 04:57 UTC). Hours through 02:00 UTC have rolled out of the public window. Residual 03:00 UTC slice: peak 0.67 / 1M (48 samples from 03:12, closed at 0.67 / 1M). Completed bins 04:00–08:00 UTC closed at 2.33 / 2.67 / 1.00 / 1.00 / 1.67 respectively (04:00 peak 2.67 / 3M; 05:00 peak 2.67 / 3M; 07:00 peak 1.33 / 1P; 08:00 peak 1.67 / 2M). 09:00 UTC bin is in progress (10 samples; peak 0.00 / 0Z, last 0.00 / 0Z). estimated_kp remains below 5.0.",
-        "zh": "最新完整分鐘估計 Kp = 0.00（標籤 0Z）。近 180 筆最大 1.67（08:18 UTC）；公開窗最大 2.67（04:57 UTC）。至 02:00 UTC 已滾出公開窗。殘留 03:00 UTC 切片：峰值 0.67／1M（自 03:12 起 48 筆，收在 0.67／1M）。04:00–08:00 UTC 已結束（分別收在 2.33／2.67／1.00／1.00／1.67；04:00 與 05:00 峰值皆 2.67／3M；07:00 峰值 1.33／1P；08:00 峰值 1.67／2M）。09:00 UTC 進行中（10 筆、峰值 0.00／0Z、最新 0.00／0Z）。estimated_kp 仍低於 5.0。"
+        "en": "Latest complete-minute estimated Kp = 0.00 (label 0Z). Last-180-sample maximum is 1.67 (at 08:18 UTC); published-window maximum is 2.67 (at 04:57 UTC). Hours through 03:00 UTC have rolled out of the public window. Residual 04:00 UTC slice: peak 2.67 / 3M (45 samples from 04:15, closed at 2.33 / 2P). Completed bins 05:00–09:00 UTC closed at 2.67 / 1.00 / 1.00 / 1.67 / 0.33 respectively (05:00 peak 2.67 / 3M; 07:00 peak 1.33 / 1P; 08:00 peak 1.67 / 2M; 09:00 peak 0.33 / 0P). 10:00 UTC bin is in progress (13 samples; peak 0.33 / 0P, last 0.00 / 0Z). estimated_kp remains below 5.0.",
+        "zh": "最新完整分鐘估計 Kp = 0.00（標籤 0Z）。近 180 筆最大 1.67（08:18 UTC）；公開窗最大 2.67（04:57 UTC）。至 03:00 UTC 已滾出公開窗。殘留 04:00 UTC 切片：峰值 2.67／3M（自 04:15 起 45 筆，收在 2.33／2P）。05:00–09:00 UTC 已結束（分別收在 2.67／1.00／1.00／1.67／0.33；05:00 峰值 2.67／3M；07:00 峰值 1.33／1P；08:00 峰值 1.67／2M；09:00 峰值 0.33／0P）。10:00 UTC 進行中（13 筆、峰值 0.33／0P、最新 0.00／0Z）。estimated_kp 仍低於 5.0。"
       },
       "data": {
         "estimated_kp": 0.0,
@@ -20,19 +20,52 @@
         "window_max": 2.67,
         "last180_max": 1.67,
         "n_samples": 358,
-        "window_start": "2026-09-19T03:12:00Z"
+        "window_start": "2026-09-19T04:15:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
         "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest complete minute (not a lone new-hour 0.00 placeholder). Report last-180 and full published-window maxima.",
-        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window (~355 samples), so earlier hours fall out of the file. The in-progress 09:00 UTC hour currently ends at 0.00 / 0Z and may be revised as NOAA updates."
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window (~355 samples), so earlier hours fall out of the file. The in-progress 10:00 UTC hour currently ends at 0.00 / 0Z and may be revised as NOAA updates."
       },
       "visual": {
         "type": "bar",
         "value": 0.0,
         "min": 0,
         "max": 9
+      }
+    },
+    {
+      "id": "usgs-us7000tiim",
+      "type": "earthquake",
+      "time_utc": "2026-09-19T09:34:04Z",
+      "title": {
+        "en": "A magnitude 4.8 earthquake occurred 268 km NNW of Kuril’sk, Russia on 19 September 2026.",
+        "zh": "2026 年 9 月 19 日，俄羅斯庫里爾斯克北北西約 268 公里發生規模 4.8 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.8, depth about 394 km. Newly listed this hour. Current day-feed maximum remains mww 5.5 (us7000tigd).",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 394 公里。本輪新上架。一日饋送目前最大仍為 mww 5.5（us7000tigd）。"
+      },
+      "data": {
+        "magnitude": 4.8,
+        "magType": "mb",
+        "place": "268 km NNW of Kuril’sk, Russia",
+        "depth_km": 394.117,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiim"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiim"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.8,
+        "min": 0,
+        "max": 10
       }
     },
     {
