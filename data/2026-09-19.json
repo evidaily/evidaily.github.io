@@ -1,38 +1,137 @@
 {
   "date": "2026-09-19",
-  "updated": "2026-09-19T15:22:00+08:00",
+  "updated": "2026-09-19T16:10:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-19T07:18:00Z",
+      "time_utc": "2026-09-19T08:07:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.33 (quiet) at 07:18 UTC on 19 September 2026.",
-        "zh": "2026 年 9 月 19 日 07:18 UTC，估計行星 Kp 為 0.33（平靜）。"
+        "en": "Estimated planetary Kp is 0.67 (quiet) at 08:07 UTC on 19 September 2026.",
+        "zh": "2026 年 9 月 19 日 08:07 UTC，估計行星 Kp 為 0.67（平靜）。"
       },
       "summary": {
-        "en": "Latest complete-minute estimated Kp = 0.33 (label 0P). Last-180-sample maximum is 2.67 (at 04:57 UTC); published-window maximum is 2.67 (at 04:57 UTC). Hours through 00:00 UTC have rolled out of the public window. Residual 01:00 UTC slice: peak 2.33 / 2P (38 samples from 01:22, closed at 2.33 / 2P). Completed bins 02:00–06:00 UTC closed at 2.33 / 0.67 / 2.33 / 2.67 / 1.00 respectively (04:00 peak 2.67 / 3M; 05:00 peak 2.67 / 3M; 06:00 peak 1.00 / 1Z). 07:00 UTC bin is in progress (19 samples; peak 1.00 / 1Z, last 0.33 / 0P). estimated_kp remains below 5.0.",
-        "zh": "最新完整分鐘估計 Kp = 0.33（標籤 0P）。近 180 筆最大 2.67（04:57 UTC）；公開窗最大 2.67（04:57 UTC）。至 00:00 UTC 已滾出公開窗。殘留 01:00 UTC 切片：峰值 2.33／2P（自 01:22 起 38 筆，收在 2.33／2P）。02:00–06:00 UTC 已結束（分別收在 2.33／0.67／2.33／2.67／1.00；04:00 與 05:00 峰值皆 2.67／3M；06:00 峰值 1.00／1Z）。07:00 UTC 進行中（19 筆、峰值 1.00／1Z、最新 0.33／0P）。estimated_kp 仍低於 5.0。"
+        "en": "Latest complete-minute estimated Kp = 0.67 (label 1M). Last-180-sample maximum is 2.67 (at 05:08 UTC); published-window maximum is 2.67 (at 04:57 UTC). Hours through 01:00 UTC have rolled out of the public window. Residual 02:00 UTC slice: peak 2.33 / 2P (51 samples from 02:09, closed at 2.33 / 2P). Completed bins 03:00–07:00 UTC closed at 0.67 / 2.33 / 2.67 / 1.00 / 1.00 respectively (04:00 peak 2.67 / 3M; 05:00 peak 2.67 / 3M; 07:00 peak 1.33 / 1P). 08:00 UTC bin is in progress (8 samples; peak 1.00 / 1Z, last 0.67 / 1M). estimated_kp remains below 5.0.",
+        "zh": "最新完整分鐘估計 Kp = 0.67（標籤 1M）。近 180 筆最大 2.67（05:08 UTC）；公開窗最大 2.67（04:57 UTC）。至 01:00 UTC 已滾出公開窗。殘留 02:00 UTC 切片：峰值 2.33／2P（自 02:09 起 51 筆，收在 2.33／2P）。03:00–07:00 UTC 已結束（分別收在 0.67／2.33／2.67／1.00／1.00；04:00 與 05:00 峰值皆 2.67／3M；07:00 峰值 1.33／1P）。08:00 UTC 進行中（8 筆、峰值 1.00／1Z、最新 0.67／1M）。estimated_kp 仍低於 5.0。"
       },
       "data": {
-        "estimated_kp": 0.33,
-        "kp_label": "0P",
+        "estimated_kp": 0.67,
+        "kp_label": "1M",
         "window_max": 2.67,
         "last180_max": 2.67,
-        "n_samples": 357,
-        "window_start": "2026-09-19T01:22:00Z"
+        "n_samples": 359,
+        "window_start": "2026-09-19T02:09:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
         "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest complete minute (not a lone new-hour 0.00 placeholder). Report last-180 and full published-window maxima.",
-        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window (~355 samples), so earlier hours fall out of the file. The in-progress 07:00 UTC hour currently ends at 0.33 / 0P and may be revised as NOAA updates."
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window (~355 samples), so earlier hours fall out of the file. The in-progress 08:00 UTC hour currently ends at 0.67 / 1M and may be revised as NOAA updates."
       },
       "visual": {
         "type": "bar",
-        "value": 0.33,
+        "value": 0.67,
         "min": 0,
         "max": 9
+      }
+    },
+    {
+      "id": "usgs-us7000tiib",
+      "type": "earthquake",
+      "time_utc": "2026-09-19T07:44:25Z",
+      "title": {
+        "en": "A magnitude 4.8 earthquake occurred 210 km W of Abepura, Indonesia on 19 September 2026.",
+        "zh": "2026 年 9 月 19 日，印尼阿貝普拉以西約 210 公里發生規模 4.8 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.8, depth about 10 km (operator assigned). Newly listed this hour. Current day-feed maximum remains mww 5.5 (us7000tigd).",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 10 公里（作業員指定）。本輪新上架。一日饋送目前最大仍為 mww 5.5（us7000tigd）。"
+      },
+      "data": {
+        "magnitude": 4.8,
+        "magType": "mb",
+        "place": "210 km W of Abepura, Indonesia",
+        "depth_km": 10.0,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiib"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events. Depth is operator assigned.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiib"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.8,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tii3",
+      "type": "earthquake",
+      "time_utc": "2026-09-19T07:12:27Z",
+      "title": {
+        "en": "A magnitude 4.9 earthquake occurred 117 km NW of Barranca, Peru on 19 September 2026.",
+        "zh": "2026 年 9 月 19 日，秘魯巴蘭卡西北約 117 公里發生規模 4.9 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mww 4.9, depth about 10 km (operator assigned). Newly listed this hour. Current day-feed maximum remains mww 5.5 (us7000tigd).",
+        "zh": "USGS M4.5+ 一日饋送：mww 4.9，深度約 10 公里（作業員指定）。本輪新上架。一日饋送目前最大仍為 mww 5.5（us7000tigd）。"
+      },
+      "data": {
+        "magnitude": 4.9,
+        "magType": "mww",
+        "place": "117 km NW of Barranca, Peru",
+        "depth_km": 10.0,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tii3"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events. Depth is operator assigned.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tii3"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.9,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tii4",
+      "type": "earthquake",
+      "time_utc": "2026-09-19T07:08:23Z",
+      "title": {
+        "en": "A magnitude 4.6 earthquake occurred 57 km ESE of Koseda, Japan on 19 September 2026.",
+        "zh": "2026 年 9 月 19 日，日本小瀬田東南東約 57 公里發生規模 4.6 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 38.5 km. Newly listed this hour. Current day-feed maximum remains mww 5.5 (us7000tigd).",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 38.5 公里。本輪新上架。一日饋送目前最大仍為 mww 5.5（us7000tigd）。"
+      },
+      "data": {
+        "magnitude": 4.6,
+        "magType": "mb",
+        "place": "57 km ESE of Koseda, Japan",
+        "depth_km": 38.536,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tii4"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tii4"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.6,
+        "min": 0,
+        "max": 10
       }
     },
     {
