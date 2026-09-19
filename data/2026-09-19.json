@@ -1,26 +1,26 @@
 {
   "date": "2026-09-19",
-  "updated": "2026-09-19T10:18:00+08:00",
+  "updated": "2026-09-19T11:04:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-19T02:12:00Z",
+      "time_utc": "2026-09-19T02:59:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 2.00 (quiet) at 02:12 UTC on 19 September 2026.",
-        "zh": "2026 年 9 月 19 日 02:12 UTC，估計行星 Kp 為 2.00（平靜）。"
+        "en": "Estimated planetary Kp is 2.00 (quiet) at 02:59 UTC on 19 September 2026.",
+        "zh": "2026 年 9 月 19 日 02:59 UTC，估計行星 Kp 為 2.00（平靜）。"
       },
       "summary": {
-        "en": "Latest complete-minute estimated Kp = 2.00 (label 2Z). Last-180-sample maximum is 2.33 (at 01:43 UTC); published-window maximum is 2.33 (at 01:43 UTC). Hours through 19:00 UTC have rolled out of the public window. Residual 20:00 UTC slice: peak 0.67 / 1M (45 samples, closed at 0.67 / 1M). Completed bins 21:00–01:00 UTC closed at 1.33 / 1.67 / 2.00 / 0.00 / 2.33 respectively. In-progress 02:00 UTC bin: 2.00 / 2Z after 13 samples. estimated_kp remains below 5.0.",
-        "zh": "最新完整分鐘估計 Kp = 2.00（標籤 2Z）。近 180 筆最大 2.33（01:43 UTC）；公開窗最大 2.33（01:43 UTC）。至 19:00 UTC 已滾出公開窗。殘留 20:00 UTC 切片：峰值 0.67／1M（45 筆，收在 0.67／1M）。21:00–01:00 UTC 已結束（分別收在 1.33／1.67／2.00／0.00／2.33）。02:00 UTC 進行中（13 筆、目前 2.00／2Z）。estimated_kp 仍低於 5.0。"
+        "en": "Latest complete-minute estimated Kp = 2.00 (label 2Z). Last-180-sample maximum is 2.33 (at 01:43 UTC); published-window maximum is 2.33 (at 01:43 UTC). Hours through 20:00 UTC have rolled out of the public window. Residual 21:00 UTC slice: peak 1.33 / 1P (57 samples, closed at 1.33 / 1P). Completed bins 22:00–01:00 UTC closed at 1.67 / 2.00 / 0.00 / 2.33 respectively. 02:00 UTC bin now complete (60 samples; peak 2.33 / 2P, closed at 2.00 / 2Z). estimated_kp remains below 5.0.",
+        "zh": "最新完整分鐘估計 Kp = 2.00（標籤 2Z）。近 180 筆最大 2.33（01:43 UTC）；公開窗最大 2.33（01:43 UTC）。至 20:00 UTC 已滾出公開窗。殘留 21:00 UTC 切片：峰值 1.33／1P（57 筆，收在 1.33／1P）。22:00–01:00 UTC 已結束（分別收在 1.67／2.00／0.00／2.33）。02:00 UTC 已結束（60 筆、峰值 2.33／2P、收在 2.00／2Z）。estimated_kp 仍低於 5.0。"
       },
       "data": {
         "estimated_kp": 2.0,
         "kp_label": "2Z",
         "window_max": 2.33,
         "last180_max": 2.33,
-        "n_samples": 358,
-        "window_start": "2026-09-18T20:15:00Z"
+        "n_samples": 357,
+        "window_start": "2026-09-18T21:03:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
@@ -44,8 +44,8 @@
         "zh": "2026 年 9 月 18 日，克馬德克群島海域發生規模 5.5 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mww 5.5, depth about 94 km. Newly listed this hour. Current day-feed maximum is mww 5.5 (us7000tigd).",
-        "zh": "USGS M4.5+ 一日饋送：mww 5.5，深度約 94 公里。本小時新上架。一日饋送目前最大為 mww 5.5（us7000tigd）。"
+        "en": "USGS M4.5+ day feed: mww 5.5, depth about 94 km. No new events listed this hour. Current day-feed maximum is mww 5.5 (us7000tigd).",
+        "zh": "USGS M4.5+ 一日饋送：mww 5.5，深度約 94 公里。本小時無新增上架。一日饋送目前最大為 mww 5.5（us7000tigd）。"
       },
       "data": {
         "magnitude": 5.5,
