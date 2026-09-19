@@ -1,38 +1,71 @@
 {
   "date": "2026-09-19",
-  "updated": "2026-09-20T03:08:00+08:00",
+  "updated": "2026-09-20T04:16:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-19T19:00:00Z",
+      "time_utc": "2026-09-19T20:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 1.00 (quiet) at 19:00 UTC on 19 September 2026.",
-        "zh": "2026 年 9 月 19 日 19:00 UTC，估計行星 Kp 為 1.00（平靜）。"
+        "en": "Estimated planetary Kp is 1.33 (quiet) at 20:00 UTC on 19 September 2026.",
+        "zh": "2026 年 9 月 19 日 20:00 UTC，估計行星 Kp 為 1.33（平靜）。"
       },
       "summary": {
-        "en": "Latest hour-start estimated Kp = 1.00 (label 1Z). Last-180-sample maximum is 1.67 (at 17:59 UTC); published-window maximum is 1.67 (at 17:59 UTC). Hours through 12:00 UTC have rolled out of the public window. Completed bins 13:00–18:00 UTC closed at 1.00 / 1.67 / 1.00 / 1.33 / 1.67 / 1.00 respectively (13:00 partial from 13:07, peak 1.00 / 1Z; 14:00 peak 1.67 / 2M at 14:59, closed at 1.67 / 2M; 15:00 peak 1.00 / 1Z; 16:00 peak 1.33 / 1P at 16:59, closed at 1.33 / 1P; 17:00 peak 1.67 / 2M at 17:59, closed at 1.67 / 2M; 18:00 peak 1.00 / 1Z, closed at 1.00 / 1Z, 60 samples). 19:00 UTC bin is in progress (5 samples; peak 1.00 / 1Z at 19:02, last 0.33 / 0P at 19:04). estimated_kp remains below 5.0.",
-        "zh": "最新整點估計 Kp = 1.00（標籤 1Z）。近 180 筆最大 1.67（17:59 UTC）；公開窗最大 1.67（17:59 UTC）。至 12:00 UTC 已滾出公開窗。13:00–18:00 UTC 已結束（分別收在 1.00／1.67／1.00／1.33／1.67／1.00；13:00 自 13:07 起不完整，峰值 1.00／1Z；14:00 峰值 1.67／2M 於 14:59，收在 1.67／2M；15:00 峰值 1.00／1Z；16:00 峰值 1.33／1P 於 16:59，收在 1.33／1P；17:00 峰值 1.67／2M 於 17:59，收在 1.67／2M；18:00 峰值 1.00／1Z，收在 1.00／1Z、60 筆）。19:00 UTC 進行中（5 筆、峰值 1.00／1Z 於 19:02、最新 0.33／0P 於 19:04）。estimated_kp 仍低於 5.0。"
+        "en": "Latest hour-start estimated Kp = 1.33 (label 1P). Last-180-sample maximum is 1.67 (at 17:32 UTC); published-window maximum is 1.67 (at 14:52 UTC). Hours through 13:00 UTC have rolled out of the public window. Completed bins 14:00–19:00 UTC closed at 1.67 / 1.00 / 1.33 / 1.67 / 1.00 / 1.33 respectively (14:00 partial from 14:17, 43 samples, peak 1.67 / 2M at 14:52, closed at 1.67 / 2M; 15:00 peak 1.00 / 1Z; 16:00 peak 1.33 / 1P at 16:49, closed at 1.33 / 1P; 17:00 peak 1.67 / 2M at 17:32, closed at 1.67 / 2M; 18:00 peak 1.00 / 1Z, closed at 1.00 / 1Z, 60 samples; 19:00 peak 1.33 / 1P at 19:12, closed at 1.33 / 1P, 60 samples). 20:00 UTC bin is in progress (15 samples; peak 1.33 / 1P at 20:00, last 0.33 / 0P at 20:14). estimated_kp remains below 5.0.",
+        "zh": "最新整點估計 Kp = 1.33（標籤 1P）。近 180 筆最大 1.67（17:32 UTC）；公開窗最大 1.67（14:52 UTC）。至 13:00 UTC 已滾出公開窗。14:00–19:00 UTC 已結束（分別收在 1.67／1.00／1.33／1.67／1.00／1.33；14:00 自 14:17 起不完整、43 筆，峰值 1.67／2M 於 14:52，收在 1.67／2M；15:00 峰值 1.00／1Z；16:00 峰值 1.33／1P 於 16:49，收在 1.33／1P；17:00 峰值 1.67／2M 於 17:32，收在 1.67／2M；18:00 峰值 1.00／1Z，收在 1.00／1Z、60 筆；19:00 峰值 1.33／1P 於 19:12，收在 1.33／1P、60 筆）。20:00 UTC 進行中（15 筆、峰值 1.33／1P 於 20:00、最新 0.33／0P 於 20:14）。estimated_kp 仍低於 5.0。"
       },
       "data": {
-        "estimated_kp": 1.0,
-        "kp_label": "1Z",
+        "estimated_kp": 1.33,
+        "kp_label": "1P",
         "window_max": 1.67,
         "last180_max": 1.67,
         "n_samples": 358,
-        "window_start": "2026-09-19T13:07:00Z"
+        "window_start": "2026-09-19T14:17:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute (19:00 UTC). Report last-180 and full published-window maxima.",
-        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window (~358 samples), so earlier hours fall out of the file. The in-progress 19:00 UTC hour currently ends at 0.33 / 0P and may be revised as NOAA updates."
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute (20:00 UTC). Report last-180 and full published-window maxima.",
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window (~358 samples), so earlier hours fall out of the file. The in-progress 20:00 UTC hour currently ends at 0.33 / 0P and may be revised as NOAA updates."
       },
       "visual": {
         "type": "bar",
-        "value": 1.0,
+        "value": 1.33,
         "min": 0,
         "max": 9
+      }
+    },
+    {
+      "id": "usgs-us7000tikb",
+      "type": "earthquake",
+      "time_utc": "2026-09-19T15:53:54Z",
+      "title": {
+        "en": "A magnitude 4.5 earthquake occurred 75 km SE of Kuqa, China on 19 September 2026.",
+        "zh": "2026 年 9 月 19 日，中國庫車東南約 75 公里發生規模 4.5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 10 km. Newly listed this hour. Current day-feed maximum remains mww 5.5 (us7000tigd).",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 10 公里。本輪新上架。一日饋送目前最大仍為 mww 5.5（us7000tigd）。"
+      },
+      "data": {
+        "magnitude": 4.5,
+        "magType": "mb",
+        "place": "75 km SE of Kuqa, China",
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tikb"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tikb"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
       }
     },
     {
