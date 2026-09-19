@@ -1,26 +1,26 @@
 {
   "date": "2026-09-19",
-  "updated": "2026-09-19T08:10:00+08:00",
+  "updated": "2026-09-19T09:17:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-18T23:59:00Z",
+      "time_utc": "2026-09-19T01:14:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 2.00 (quiet) at 23:59 UTC on 18 September 2026.",
-        "zh": "2026 年 9 月 18 日 23:59 UTC，估計行星 Kp 為 2.00（平靜）。"
+        "en": "Estimated planetary Kp is 0.67 (quiet) at 01:14 UTC on 19 September 2026.",
+        "zh": "2026 年 9 月 19 日 01:14 UTC，估計行星 Kp 為 0.67（平靜）。"
       },
       "summary": {
-        "en": "Latest complete-minute estimated Kp = 2.00 (label 2Z). Last-180-sample maximum is 2.00 (at 23:57 UTC); published-window maximum is 2.00 (at 23:57 UTC). Hours through 17:00 UTC have rolled out of the public window. Residual 18:00 UTC slice: peak 0.00 / 0Z (52 samples, closed at 0.00 / 0Z). Completed bins 19:00–23:00 UTC closed at 0.67 / 0.67 / 1.33 / 1.67 / 2.00 respectively. In-progress 00:00 UTC bin: 0.00 / 0Z after 3 samples (new-hour placeholders; not used as the headline sample). estimated_kp remains below 5.0.",
-        "zh": "最新完整分鐘估計 Kp = 2.00（標籤 2Z）。近 180 筆最大 2.00（23:57 UTC）；公開窗最大 2.00（23:57 UTC）。至 17:00 UTC 已滾出公開窗。殘留 18:00 UTC 切片：峰值 0.00／0Z（52 筆，收在 0.00／0Z）。19:00–23:00 UTC 已結束（分別收在 0.67／0.67／1.33／1.67／2.00）。00:00 UTC 進行中（3 筆、目前 0.00／0Z，為新時段佔位，不作為標題樣本）。estimated_kp 仍低於 5.0。"
+        "en": "Latest complete-minute estimated Kp = 0.67 (label 1M). Last-180-sample maximum is 2.00 (at 23:57 UTC); published-window maximum is 2.00 (at 23:57 UTC). Hours through 18:00 UTC have rolled out of the public window. Residual 19:00 UTC slice: peak 0.67 / 1M (42 samples, closed at 0.67 / 1M). Completed bins 20:00–00:00 UTC closed at 0.67 / 1.33 / 1.67 / 2.00 / 0.00 respectively. In-progress 01:00 UTC bin: 0.67 / 1M after 15 samples. estimated_kp remains below 5.0.",
+        "zh": "最新完整分鐘估計 Kp = 0.67（標籤 1M）。近 180 筆最大 2.00（23:57 UTC）；公開窗最大 2.00（23:57 UTC）。至 18:00 UTC 已滾出公開窗。殘留 19:00 UTC 切片：峰值 0.67／1M（42 筆，收在 0.67／1M）。20:00–00:00 UTC 已結束（分別收在 0.67／1.33／1.67／2.00／0.00）。01:00 UTC 進行中（15 筆、目前 0.67／1M）。estimated_kp 仍低於 5.0。"
       },
       "data": {
-        "estimated_kp": 2.0,
-        "kp_label": "2Z",
+        "estimated_kp": 0.67,
+        "kp_label": "1M",
         "window_max": 2.0,
         "last180_max": 2.0,
-        "n_samples": 355,
-        "window_start": "2026-09-18T18:08:00Z"
+        "n_samples": 357,
+        "window_start": "2026-09-18T19:18:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
@@ -30,7 +30,7 @@
       },
       "visual": {
         "type": "bar",
-        "value": 2.0,
+        "value": 0.67,
         "min": 0,
         "max": 9
       }
