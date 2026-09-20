@@ -1,38 +1,71 @@
 {
   "date": "2026-09-20",
-  "updated": "2026-09-20T09:12:00+08:00",
+  "updated": "2026-09-20T10:09:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-20T01:00:00Z",
+      "time_utc": "2026-09-20T02:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 1.00 (quiet) at 01:00 UTC on 20 September 2026.",
-        "zh": "2026 年 9 月 20 日 01:00 UTC，估計行星 Kp 為 1.00（平靜）。"
+        "en": "Estimated planetary Kp is 1.67 (low unsettled) at 02:00 UTC on 20 September 2026.",
+        "zh": "2026 年 9 月 20 日 02:00 UTC，估計行星 Kp 為 1.67（輕度擾動）。"
       },
       "summary": {
-        "en": "Latest hour-start estimated Kp = 1.00 (label 1Z). Last-180-sample maximum is 2.00 (at 23:57 UTC on 19 September); published-window maximum is 2.00 (same time). Hours through 18:00 UTC have rolled out of the public window; 19:00 UTC is partially rolled out (52 samples from 19:08). Completed bins 20:00–00:00 UTC closed at 1.67 / 0.00 / 1.00 / 2.00 / 1.33 respectively (20:00 peak 1.67 / 2M at 20:05, 60 samples; 21:00 peak 0.00 / 0Z, closed at 0.00 / 0Z, 60 samples; 22:00 peak 1.00 / 1Z at 22:43, 60 samples; 23:00 peak 2.00 / 2Z at 23:57, closed at 2.00 / 2Z, 60 samples; 00:00 peak 1.33 / 1P at 00:31, closed at 1.33 / 1P, 60 samples). 01:00 UTC bin is in progress (6 samples; peak 1.33 / 1P at 01:02; latest sample 0.67 / 1M at 01:05). estimated_kp remains below 5.0.",
-        "zh": "最新整點估計 Kp = 1.00（標籤 1Z）。近 180 筆最大 2.00（9 月 19 日 23:57 UTC）；公開窗最大 2.00（同時間）。至 18:00 UTC 已滾出公開窗；19:00 UTC 區間部分滾出（自 19:08 起 52 筆）。20:00–00:00 UTC 已結束（分別收在 1.67／0.00／1.00／2.00／1.33；20:00 峰值 1.67／2M 於 20:05、60 筆；21:00 峰值 0.00／0Z，收在 0.00／0Z、60 筆；22:00 峰值 1.00／1Z 於 22:43、60 筆；23:00 峰值 2.00／2Z 於 23:57，收在 2.00／2Z、60 筆；00:00 峰值 1.33／1P 於 00:31，收在 1.33／1P、60 筆）。01:00 UTC 進行中（6 筆；峰值 1.33／1P 於 01:02；最新樣本 0.67／1M 於 01:05）。estimated_kp 仍低於 5.0。"
+        "en": "Latest hour-start estimated Kp = 1.67 (label 2M). Last-180-sample maximum is 2.00 (at 23:57 UTC on 19 September and again at 01:17 UTC on 20 September); published-window maximum is 2.00 (same times). Hours through 19:00 UTC have rolled out of the public window; 20:00 UTC is partially rolled out (53 samples from 20:07). Completed bins 21:00–01:00 UTC closed at 0.00 / 1.00 / 2.00 / 1.33 / 2.00 respectively (21:00 peak 0.00 / 0Z, closed at 0.00 / 0Z, 60 samples; 22:00 peak 1.00 / 1Z at 22:43, 60 samples; 23:00 peak 2.00 / 2Z at 23:57, closed at 2.00 / 2Z, 60 samples; 00:00 peak 1.33 / 1P at 00:31, closed at 1.33 / 1P, 60 samples; 01:00 peak 2.00 / 2Z at 01:17, closed at 2.00 / 2Z, 60 samples). 02:00 UTC bin is in progress (5 samples; peak 1.67 / 2M at 02:00; latest sample 1.33 / 1P at 02:04). estimated_kp remains below 5.0.",
+        "zh": "最新整點估計 Kp = 1.67（標籤 2M）。近 180 筆最大 2.00（9 月 19 日 23:57 UTC，以及 20 日 01:17 UTC）；公開窗最大 2.00（同時間）。至 19:00 UTC 已滾出公開窗；20:00 UTC 區間部分滾出（自 20:07 起 53 筆）。21:00–01:00 UTC 已結束（分別收在 0.00／1.00／2.00／1.33／2.00；21:00 峰值 0.00／0Z，收在 0.00／0Z、60 筆；22:00 峰值 1.00／1Z 於 22:43、60 筆；23:00 峰值 2.00／2Z 於 23:57，收在 2.00／2Z、60 筆；00:00 峰值 1.33／1P 於 00:31，收在 1.33／1P、60 筆；01:00 峰值 2.00／2Z 於 01:17，收在 2.00／2Z、60 筆）。02:00 UTC 進行中（5 筆；峰值 1.67／2M 於 02:00；最新樣本 1.33／1P 於 02:04）。estimated_kp 仍低於 5.0。"
       },
       "data": {
-        "estimated_kp": 1.0,
-        "kp_label": "1Z",
+        "estimated_kp": 1.67,
+        "kp_label": "2M",
         "window_max": 2.0,
         "last180_max": 2.0,
         "n_samples": 358,
-        "window_start": "2026-09-19T19:08:00Z"
+        "window_start": "2026-09-19T20:07:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute (01:00 UTC). Report last-180 and full published-window maxima.",
-        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window (~358 samples), so earlier hours fall out of the file. The in-progress 01:00 UTC hour currently has 6 samples and may be revised as NOAA updates."
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute (02:00 UTC). Report last-180 and full published-window maxima.",
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window (~358 samples), so earlier hours fall out of the file. The in-progress 02:00 UTC hour currently has 5 samples and may be revised as NOAA updates."
       },
       "visual": {
         "type": "bar",
-        "value": 1.0,
+        "value": 1.67,
         "min": 0,
         "max": 9
+      }
+    },
+    {
+      "id": "usgs-us7000timy",
+      "type": "earthquake",
+      "time_utc": "2026-09-20T00:58:14Z",
+      "title": {
+        "en": "A magnitude 5.3 earthquake occurred at the Reykjanes Ridge on 20 September 2026.",
+        "zh": "2026 年 9 月 20 日，雷克雅內斯海嶺發生規模 5.3 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mww 5.3, depth about 10 km. Newly listed this hour. This event is also the current day-feed maximum.",
+        "zh": "USGS M4.5+ 一日饋送：mww 5.3，深度約 10 公里。本輪新上架。此事件同時為一日饋送目前最大。"
+      },
+      "data": {
+        "magnitude": 5.3,
+        "magType": "mww",
+        "place": "Reykjanes Ridge",
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000timy"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000timy"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.3,
+        "min": 0,
+        "max": 10
       }
     },
     {
@@ -44,8 +77,8 @@
         "zh": "2026 年 9 月 20 日，東加希希福以西約 85 公里發生規模 4.9 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.9, depth about 10 km. Newly listed this hour. Current day-feed maximum is mww 5.2 (us7000tild, Reykjanes Ridge).",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 10 公里。本輪新上架。一日饋送目前最大為 mww 5.2（us7000tild，雷克雅內斯海嶺）。"
+        "en": "USGS M4.5+ day feed: mb 4.9, depth about 10 km. Listed earlier today. Current day-feed maximum is mww 5.3 (us7000timy, Reykjanes Ridge).",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 10 公里。稍早已上架。一日饋送目前最大為 mww 5.3（us7000timy，雷克雅內斯海嶺）。"
       },
       "data": {
         "magnitude": 4.9,
