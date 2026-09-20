@@ -1,38 +1,71 @@
 {
   "date": "2026-09-20",
-  "updated": "2026-09-20T15:21:00+08:00",
+  "updated": "2026-09-20T16:22:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-20T07:00:00Z",
+      "time_utc": "2026-09-20T08:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 1.33 (quiet) at 07:00 UTC on 20 September 2026.",
-        "zh": "2026 年 9 月 20 日 07:00 UTC，估計行星 Kp 為 1.33（平靜）。"
+        "en": "Estimated planetary Kp is 1.67 (quiet) at 08:00 UTC on 20 September 2026.",
+        "zh": "2026 年 9 月 20 日 08:00 UTC，估計行星 Kp 為 1.67（平靜）。"
       },
       "summary": {
-        "en": "Latest hour-start estimated Kp = 1.33 (label 1P). Last-180-sample maximum is 3.00 (at 04:30 UTC on 20 September); published-window maximum is 3.00 (same time). Hours through 00:00 UTC have rolled out of the public window; 01:00 UTC is partially rolled out (40 samples from 01:20). Completed bins 02:00–06:00 UTC closed at 2.33 / 0.67 / 3.00 / 3.00 / 1.33 respectively (02:00 peak 2.33 / 2P at 02:21, closed at 2.33 / 2P, 60 samples; 03:00 peak 1.00 / 1Z at 03:42, closed at 0.67 / 1M, 60 samples; 04:00 peak 3.00 / 3Z at 04:30, closed at 3.00 / 3Z, 60 samples; 05:00 peak 3.00 / 3Z at 05:00, closed at 3.00 / 3Z, 60 samples; 06:00 peak 1.33 / 1P at 06:40, closed at 1.33 / 1P, 60 samples). 07:00 UTC bin is in progress (19 samples; peak 1.67 / 2M at 07:16; latest sample 1.33 / 1P at 07:18). estimated_kp remains below 5.0.",
-        "zh": "最新整點估計 Kp = 1.33（標籤 1P）。近 180 筆最大 3.00（9 月 20 日 04:30 UTC）；公開窗最大 3.00（同時間）。至 00:00 UTC 已滾出公開窗；01:00 UTC 區間部分滾出（自 01:20 起 40 筆）。02:00–06:00 UTC 已結束（分別收在 2.33／0.67／3.00／3.00／1.33；02:00 峰值 2.33／2P 於 02:21，收在 2.33／2P、60 筆；03:00 峰值 1.00／1Z 於 03:42，收在 0.67／1M、60 筆；04:00 峰值 3.00／3Z 於 04:30，收在 3.00／3Z、60 筆；05:00 峰值 3.00／3Z 於 05:00，收在 3.00／3Z、60 筆；06:00 峰值 1.33／1P 於 06:40，收在 1.33／1P、60 筆）。07:00 UTC 進行中（19 筆；峰值 1.67／2M 於 07:16；最新樣本 1.33／1P 於 07:18）。estimated_kp 仍低於 5.0。"
+        "en": "Latest hour-start estimated Kp = 1.67 (label 2M). Last-180-sample maximum is 3.00 (still present in the 05:00 UTC hour; last-180 window begins about 05:19 UTC); published-window maximum is 3.00 (first at 04:30 UTC on 20 September). Hours through 01:00 UTC have rolled out of the public window; 02:00 UTC is partially rolled out (39 samples from 02:21). Completed bins 03:00–07:00 UTC closed at 0.67 / 3.00 / 3.00 / 1.33 / 1.67 respectively (03:00 peak 1.00 / 1Z at 03:42, closed at 0.67 / 1M, 60 samples; 04:00 peak 3.00 / 3Z at 04:30, closed at 3.00 / 3Z, 60 samples; 05:00 peak 3.00 / 3Z at 05:00, closed at 3.00 / 3Z, 60 samples; 06:00 peak 1.33 / 1P at 06:40, closed at 1.33 / 1P, 60 samples; 07:00 peak 1.67 / 2M at 07:36, closed at 1.67 / 2M, 60 samples). 08:00 UTC bin is in progress (19 samples; peak 1.67 / 2M at 08:00; latest sample 1.33 / 1P at 08:18). estimated_kp remains below 5.0.",
+        "zh": "最新整點估計 Kp = 1.67（標籤 2M）。近 180 筆最大 3.00（仍見於 05:00 UTC 時段；近 180 筆窗約自 05:19 UTC 起）；公開窗最大 3.00（首次於 9 月 20 日 04:30 UTC）。至 01:00 UTC 已滾出公開窗；02:00 UTC 區間部分滾出（自 02:21 起 39 筆）。03:00–07:00 UTC 已結束（分別收在 0.67／3.00／3.00／1.33／1.67；03:00 峰值 1.00／1Z 於 03:42，收在 0.67／1M、60 筆；04:00 峰值 3.00／3Z 於 04:30，收在 3.00／3Z、60 筆；05:00 峰值 3.00／3Z 於 05:00，收在 3.00／3Z、60 筆；06:00 峰值 1.33／1P 於 06:40，收在 1.33／1P、60 筆；07:00 峰值 1.67／2M 於 07:36，收在 1.67／2M、60 筆）。08:00 UTC 進行中（19 筆；峰值 1.67／2M 於 08:00；最新樣本 1.33／1P 於 08:18）。estimated_kp 仍低於 5.0。"
       },
       "data": {
-        "estimated_kp": 1.33,
-        "kp_label": "1P",
+        "estimated_kp": 1.67,
+        "kp_label": "2M",
         "window_max": 3.0,
         "last180_max": 3.0,
-        "n_samples": 359,
-        "window_start": "2026-09-20T01:20:00Z"
+        "n_samples": 358,
+        "window_start": "2026-09-20T02:21:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute (07:00 UTC). Report last-180 and full published-window maxima.",
-        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window (~359 samples), so earlier hours fall out of the file. The in-progress 07:00 UTC hour currently has 19 samples and may be revised as NOAA updates."
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute (08:00 UTC). Report last-180 and full published-window maxima.",
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window (~358 samples), so earlier hours fall out of the file. The in-progress 08:00 UTC hour currently has 19 samples and may be revised as NOAA updates."
       },
       "visual": {
         "type": "bar",
-        "value": 1.33,
+        "value": 1.67,
         "min": 0,
         "max": 9
+      }
+    },
+    {
+      "id": "usgs-us7000tipl",
+      "type": "earthquake",
+      "time_utc": "2026-09-20T07:28:22Z",
+      "title": {
+        "en": "A magnitude 5.1 earthquake occurred 14 km WNW of Naze, Japan on 20 September 2026.",
+        "zh": "2026 年 9 月 20 日，日本名瀨西北西約 14 公里發生規模 5.1 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mww 5.1, depth about 69 km. Newly listed this hour. Current day-feed maximum remains mb 5.3 (us7000tinl, Guam); tied in magnitude with mww 5.3 (us7000timy, Reykjanes Ridge).",
+        "zh": "USGS M4.5+ 一日饋送：mww 5.1，深度約 69 公里。本輪新上架。一日饋送目前最大仍為 mb 5.3（us7000tinl，關島）；規模同為 5.3 的還有 mww 5.3（us7000timy，雷克雅內斯海嶺）。"
+      },
+      "data": {
+        "magnitude": 5.1,
+        "magType": "mww",
+        "place": "14 km WNW of Naze, Japan",
+        "depth_km": 68.834,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tipl"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tipl"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.1,
+        "min": 0,
+        "max": 10
       }
     },
     {
