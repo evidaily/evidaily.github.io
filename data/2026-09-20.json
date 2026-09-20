@@ -1,37 +1,69 @@
 {
   "date": "2026-09-20",
-  "updated": "2026-09-20T11:04:00+08:00",
+  "updated": "2026-09-20T12:20:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-20T03:00:00Z",
+      "time_utc": "2026-09-20T04:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (quiet) at 03:00 UTC on 20 September 2026.",
-        "zh": "2026 年 9 月 20 日 03:00 UTC，估計行星 Kp 為 0.00（平靜）。"
+        "en": "Estimated planetary Kp is 0.67 (quiet) at 04:00 UTC on 20 September 2026.",
+        "zh": "2026 年 9 月 20 日 04:00 UTC，估計行星 Kp 為 0.67（平靜）。"
       },
       "summary": {
-        "en": "Latest hour-start estimated Kp = 0.00 (label 0Z). Last-180-sample maximum is 2.33 (at 02:21–02:25 UTC on 20 September); published-window maximum is 2.33 (same interval). Hours through 20:00 UTC have rolled out of the public window; 21:00 UTC is partially rolled out (56 samples from 21:04). Completed bins 22:00–02:00 UTC closed at 1.00 / 2.00 / 1.33 / 2.00 / 2.00 respectively (22:00 peak 1.00 / 1Z, 60 samples; 23:00 peak 2.00 / 2Z at 23:57, closed at 2.00 / 2Z, 60 samples; 00:00 peak 1.33 / 1P at 00:31, closed at 1.33 / 1P, 60 samples; 01:00 peak 2.00 / 2Z at 01:17, closed at 2.00 / 2Z, 60 samples; 02:00 peak 2.33 / 2P at 02:21, closed at 2.00 / 2Z, 60 samples). 03:00 UTC bin is in progress (1 sample; peak 0.00 / 0Z at 03:00; latest sample 0.00 / 0Z at 03:00). estimated_kp remains below 5.0.",
-        "zh": "最新整點估計 Kp = 0.00（標籤 0Z）。近 180 筆最大 2.33（9 月 20 日 02:21–02:25 UTC）；公開窗最大 2.33（同區間）。至 20:00 UTC 已滾出公開窗；21:00 UTC 區間部分滾出（自 21:04 起 56 筆）。22:00–02:00 UTC 已結束（分別收在 1.00／2.00／1.33／2.00／2.00；22:00 峰值 1.00／1Z、60 筆；23:00 峰值 2.00／2Z 於 23:57，收在 2.00／2Z、60 筆；00:00 峰值 1.33／1P 於 00:31，收在 1.33／1P、60 筆；01:00 峰值 2.00／2Z 於 01:17，收在 2.00／2Z、60 筆；02:00 峰值 2.33／2P 於 02:21，收在 2.00／2Z、60 筆）。03:00 UTC 進行中（1 筆；峰值 0.00／0Z 於 03:00；最新樣本 0.00／0Z 於 03:00）。estimated_kp 仍低於 5.0。"
+        "en": "Latest hour-start estimated Kp = 0.67 (label 1M). Last-180-sample maximum is 2.33 (at 02:21 UTC on 20 September); published-window maximum is 2.33 (same time). Hours through 21:00 UTC have rolled out of the public window; 22:00 UTC is partially rolled out (40 samples from 22:20). Completed bins 23:00–03:00 UTC closed at 2.00 / 1.33 / 2.00 / 2.33 / 0.67 respectively (23:00 peak 2.00 / 2Z at 23:57, 60 samples; 00:00 peak 1.33 / 1P at 00:31, 60 samples; 01:00 peak 2.00 / 2Z at 01:17, 60 samples; 02:00 peak 2.33 / 2P at 02:21, closed at 2.33 / 2P, 60 samples; 03:00 peak 1.00 / 1Z at 03:42, closed at 0.67 / 1M, 60 samples). 04:00 UTC bin is in progress (18 samples; peak 1.33 / 1P at 04:13; latest sample 1.33 / 1P at 04:17). estimated_kp remains below 5.0.",
+        "zh": "最新整點估計 Kp = 0.67（標籤 1M）。近 180 筆最大 2.33（9 月 20 日 02:21 UTC）；公開窗最大 2.33（同時間）。至 21:00 UTC 已滾出公開窗；22:00 UTC 區間部分滾出（自 22:20 起 40 筆）。23:00–03:00 UTC 已結束（分別收在 2.00／1.33／2.00／2.33／0.67；23:00 峰值 2.00／2Z 於 23:57、60 筆；00:00 峰值 1.33／1P 於 00:31、60 筆；01:00 峰值 2.00／2Z 於 01:17、60 筆；02:00 峰值 2.33／2P 於 02:21，收在 2.33／2P、60 筆；03:00 峰值 1.00／1Z 於 03:42，收在 0.67／1M、60 筆）。04:00 UTC 進行中（18 筆；峰值 1.33／1P 於 04:13；最新樣本 1.33／1P 於 04:17）。estimated_kp 仍低於 5.0。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp_label": "0Z",
+        "estimated_kp": 0.67,
+        "kp_label": "1M",
         "window_max": 2.33,
         "last180_max": 2.33,
-        "n_samples": 357,
-        "window_start": "2026-09-19T21:04:00Z"
+        "n_samples": 358,
+        "window_start": "2026-09-19T22:20:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute (03:00 UTC). Report last-180 and full published-window maxima.",
-        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window (~357 samples), so earlier hours fall out of the file. The in-progress 03:00 UTC hour currently has 1 sample and may be revised as NOAA updates."
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute (04:00 UTC). Report last-180 and full published-window maxima.",
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window (~358 samples), so earlier hours fall out of the file. The in-progress 04:00 UTC hour currently has 18 samples and may be revised as NOAA updates."
       },
       "visual": {
         "type": "bar",
-        "value": 0.0,
+        "value": 0.67,
         "min": 0,
+        "max": 9
+      }
+    },
+    {
+      "id": "usgs-us7000tinl",
+      "type": "earthquake",
+      "time_utc": "2026-09-20T03:43:24Z",
+      "title": {
+        "en": "A magnitude 5.3 earthquake occurred 108 km ESE of Yigo Village, Guam on 20 September 2026.",
+        "zh": "2026 年 9 月 20 日，關島伊戈村東南東約 108 公里發生規模 5.3 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5.3, depth about 10 km. Newly listed this hour. Current day-feed maximum is mb 5.3 (us7000tinl, Guam); tied in magnitude with mww 5.3 (us7000timy, Reykjanes Ridge).",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.3，深度約 10 公里。本輪新上架。一日饋送目前最大為 mb 5.3（us7000tinl，關島）；規模同為 5.3 的還有 mww 5.3（us7000timy，雷克雅內斯海嶺）。"
+      },
+      "data": {
+        "magnitude": 5.3,
+        "magType": "mb",
+        "place": "108 km ESE of Yigo Village, Guam",
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tinl"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Read the public USGS M4.5+ past-day GeoJSON feed and list new event IDs not already on the page.",
+        "limitations": "Magnitudes and locations are preliminary and can be revised by USGS. The day feed only includes events currently listed at M4.5 or above."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.3,
+        "min": 4.5,
         "max": 9
       }
     },
