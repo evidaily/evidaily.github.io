@@ -1,38 +1,104 @@
 {
   "date": "2026-09-20",
-  "updated": "2026-09-20T20:15:00+08:00",
+  "updated": "2026-09-20T21:25:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-20T12:00:00Z",
+      "time_utc": "2026-09-20T13:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (quiet) at 12:00 UTC on 20 September 2026.",
-        "zh": "2026 年 9 月 20 日 12:00 UTC，估計行星 Kp 為 0.00（平靜）。"
+        "en": "Estimated planetary Kp is 0.33 (quiet) at 13:00 UTC on 20 September 2026.",
+        "zh": "2026 年 9 月 20 日 13:00 UTC，估計行星 Kp 為 0.33（平靜）。"
       },
       "summary": {
-        "en": "Latest hour-start estimated Kp = 0.00 (label 0Z). Last-180-sample maximum is 0.67 (09:57 UTC; last-180 window begins about 09:12 UTC); published-window maximum is 2.00 (08:15 UTC). Hours through 05:00 UTC have rolled out of the public window; 06:00 UTC is partial (46 samples from 06:14). Completed bins 07:00–11:00 UTC closed at 1.67 / 2.00 / 0.67 / 0.67 / 0.67 respectively (07:00 peak 1.67 / 2M at 07:36, closed at 1.67 / 2M, 60 samples; 08:00 peak 2.00 / 2Z at 08:15, closed at 2.00 / 2Z, 60 samples; 09:00 peak 0.67 / 1M at 09:57, closed at 0.67 / 1M, 60 samples; 10:00 peak 0.67 / 1M at 10:00, closed at 0.67 / 1M, 60 samples; 11:00 peak 0.67 / 1M at 11:00, closed at 0.67 / 1M, 60 samples). 12:00 UTC bin is in progress (12 samples; peak 0.00 / 0Z at 12:00; latest sample 0.00 / 0Z at 12:11). estimated_kp remains below 5.0.",
-        "zh": "最新整點估計 Kp = 0.00（標籤 0Z）。近 180 筆最大 0.67（09:57 UTC；近 180 筆窗約自 09:12 UTC 起）；公開窗最大 2.00（08:15 UTC）。至 05:00 UTC 已滾出公開窗；06:00 UTC 區間部分滾出（自 06:14 起 46 筆）。07:00–11:00 UTC 已結束（分別收在 1.67／2.00／0.67／0.67／0.67；07:00 峰值 1.67／2M 於 07:36，收在 1.67／2M、60 筆；08:00 峰值 2.00／2Z 於 08:15，收在 2.00／2Z、60 筆；09:00 峰值 0.67／1M 於 09:57，收在 0.67／1M、60 筆；10:00 峰值 0.67／1M 於 10:00，收在 0.67／1M、60 筆；11:00 峰值 0.67／1M 於 11:00，收在 0.67／1M、60 筆）。12:00 UTC 進行中（12 筆；峰值 0.00／0Z 於 12:00；最新樣本 0.00／0Z 於 12:11）。estimated_kp 仍低於 5.0。"
+        "en": "Latest hour-start estimated Kp = 0.33 (label 0P). Last-180-sample maximum is 0.67 (10:21 UTC; last-180 window begins about 10:21 UTC); published-window maximum is 2.00 (08:15 UTC). Hours through 06:00 UTC have rolled out of the public window; 07:00 UTC is partial (37 samples from 07:23). Completed bins 08:00–12:00 UTC closed at 2.00 / 0.67 / 0.67 / 0.67 / 0.33 respectively (08:00 peak 2.00 / 2Z at 08:15, closed at 2.00 / 2Z, 60 samples; 09:00 peak 0.67 / 1M at 09:57, closed at 0.67 / 1M, 60 samples; 10:00 peak 0.67 / 1M at 10:00, closed at 0.67 / 1M, 60 samples; 11:00 peak 0.67 / 1M at 11:00, closed at 0.67 / 1M, 60 samples; 12:00 peak 0.33 / 0P at 12:47, closed at 0.33 / 0P, 60 samples). 13:00 UTC bin is in progress (21 samples; peak 0.33 / 0P at 13:00; latest sample 0.00 / 0Z at 13:20). estimated_kp remains below 5.0.",
+        "zh": "最新整點估計 Kp = 0.33（標籤 0P）。近 180 筆最大 0.67（10:21 UTC；近 180 筆窗約自 10:21 UTC 起）；公開窗最大 2.00（08:15 UTC）。至 06:00 UTC 已滾出公開窗；07:00 UTC 區間部分滾出（自 07:23 起 37 筆）。08:00–12:00 UTC 已結束（分別收在 2.00／0.67／0.67／0.67／0.33；08:00 峰值 2.00／2Z 於 08:15，收在 2.00／2Z、60 筆；09:00 峰值 0.67／1M 於 09:57，收在 0.67／1M、60 筆；10:00 峰值 0.67／1M 於 10:00，收在 0.67／1M、60 筆；11:00 峰值 0.67／1M 於 11:00，收在 0.67／1M、60 筆；12:00 峰值 0.33／0P 於 12:47，收在 0.33／0P、60 筆）。13:00 UTC 進行中（21 筆；峰值 0.33／0P 於 13:00；最新樣本 0.00／0Z 於 13:20）。estimated_kp 仍低於 5.0。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp_label": "0Z",
+        "estimated_kp": 0.33,
+        "kp_label": "0P",
         "window_max": 2.0,
         "last180_max": 0.67,
         "n_samples": 358,
-        "window_start": "2026-09-20T06:14:00Z"
+        "window_start": "2026-09-20T07:23:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute (12:00 UTC). Report last-180 and full published-window maxima.",
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute (13:00 UTC). Report last-180 and full published-window maxima.",
         "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off."
       },
       "visual": {
         "type": "bar",
-        "value": 0.0,
+        "value": 0.33,
         "min": 0,
         "max": 9
+      }
+    },
+    {
+      "id": "usgs-us7000tirh",
+      "type": "earthquake",
+      "time_utc": "2026-09-20T12:45:53Z",
+      "title": {
+        "en": "A magnitude 5.4 earthquake occurred 68 km NNE of Kainantu, Papua New Guinea on 20 September 2026.",
+        "zh": "2026 年 9 月 20 日，巴布亞紐幾內亞凱南圖東北偏北約 68 公里發生規模 5.4 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mww 5.4, depth about 116 km. Newly listed this hour. Current day-feed maximum remains mww 6.4 (us7000tiqc, Papua New Guinea).",
+        "zh": "USGS M4.5+ 一日饋送：mww 5.4，深度約 116 公里。本輪新上架。一日饋送目前最大仍為 mww 6.4（us7000tiqc，巴布亞紐幾內亞）。"
+      },
+      "data": {
+        "magnitude": 5.4,
+        "magType": "mww",
+        "place": "68 km NNE of Kainantu, Papua New Guinea",
+        "depth_km": 116.019,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tirh"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tirh"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.4,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tirf",
+      "type": "earthquake",
+      "time_utc": "2026-09-20T12:24:22Z",
+      "title": {
+        "en": "A magnitude 4.8 earthquake occurred 92 km W of Lata, Solomon Islands on 20 September 2026.",
+        "zh": "2026 年 9 月 20 日，索羅門群島拉塔以西約 92 公里發生規模 4.8 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.8, depth about 34 km. Newly listed this hour. Current day-feed maximum remains mww 6.4 (us7000tiqc, Papua New Guinea).",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 34 公里。本輪新上架。一日饋送目前最大仍為 mww 6.4（us7000tiqc，巴布亞紐幾內亞）。"
+      },
+      "data": {
+        "magnitude": 4.8,
+        "magType": "mb",
+        "place": "92 km W of Lata, Solomon Islands",
+        "depth_km": 33.9,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tirf"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tirf"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.8,
+        "min": 0,
+        "max": 10
       }
     },
     {
