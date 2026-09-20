@@ -1,36 +1,36 @@
 {
   "date": "2026-09-20",
-  "updated": "2026-09-21T02:12:00+08:00",
+  "updated": "2026-09-21T03:07:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-20T18:00:00Z",
+      "time_utc": "2026-09-20T19:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (quiet) at 18:00 UTC on 20 September 2026.",
-        "zh": "2026 年 9 月 20 日 18:00 UTC，估計行星 Kp 為 0.00（平靜）。"
+        "en": "Estimated planetary Kp is 0.33 (quiet) at 19:00 UTC on 20 September 2026.",
+        "zh": "2026 年 9 月 20 日 19:00 UTC，估計行星 Kp 為 0.33（平靜）。"
       },
       "summary": {
-        "en": "Latest hour-start estimated Kp = 0.00 (label 0Z). Last-180-sample maximum is 0.33 (15:40 UTC; last-180 window begins about 15:06 UTC); published-window maximum is 1.00 (14:48 UTC). Hours through 11:00 UTC have rolled out of the public window; 12:00 UTC is partial (51 samples from 12:09). Completed bins 13:00–17:00 UTC closed at 0.33 / 1.00 / 0.33 / 0.33 / 0.33 respectively (13:00 peak 0.67 / 1M at 13:24, closed at 0.33 / 0P, 60 samples; 14:00 peak 1.00 / 1Z at 14:48, closed at 1.00 / 1Z, 60 samples; 15:00 peak 0.33 / 0P at 15:40, closed at 0.33 / 0P, 60 samples; 16:00 peak 0.33 / 0P at 16:00, closed at 0.33 / 0P, 60 samples; 17:00 peak 0.33 / 0P at 17:00, closed at 0.33 / 0P, 60 samples). 18:00 UTC bin is in progress (6 samples; peak 0.00 / 0Z at 18:00; latest sample 0.00 / 0Z at 18:05). estimated_kp remains below 5.0.",
-        "zh": "最新整點估計 Kp = 0.00（標籤 0Z）。近 180 筆最大 0.33（15:40 UTC；近 180 筆窗約自 15:06 UTC 起）；公開窗最大 1.00（14:48 UTC）。至 11:00 UTC 已滾出公開窗；12:00 UTC 區間部分滾出（自 12:09 起 51 筆）。13:00–17:00 UTC 已結束（分別收在 0.33／1.00／0.33／0.33／0.33；13:00 峰值 0.67／1M 於 13:24，收在 0.33／0P、60 筆；14:00 峰值 1.00／1Z 於 14:48，收在 1.00／1Z、60 筆；15:00 峰值 0.33／0P 於 15:40，收在 0.33／0P、60 筆；16:00 峰值 0.33／0P 於 16:00，收在 0.33／0P、60 筆；17:00 峰值 0.33／0P 於 17:00，收在 0.33／0P、60 筆）。18:00 UTC 進行中（6 筆；峰值 0.00／0Z 於 18:00；最新樣本 0.00／0Z 於 18:05）。estimated_kp 仍低於 5.0。"
+        "en": "Latest hour-start estimated Kp = 0.33 (label 0P). Last-180-sample maximum is 0.33 (16:03 UTC; last-180 window begins about 16:03 UTC); published-window maximum is 1.00 (14:48 UTC). Hours through 12:00 UTC have rolled out of the public window; 13:00 UTC is partial (55 samples from 13:05). Completed bins 14:00–18:00 UTC closed at 1.00 / 0.33 / 0.33 / 0.33 / 0.33 respectively (14:00 peak 1.00 / 1Z at 14:48, closed at 1.00 / 1Z, 60 samples; 15:00 peak 0.33 / 0P at 15:40, closed at 0.33 / 0P, 60 samples; 16:00 peak 0.33 / 0P at 16:00, closed at 0.33 / 0P, 60 samples; 17:00 peak 0.33 / 0P at 17:00, closed at 0.33 / 0P, 60 samples; 18:00 peak 0.33 / 0P at 18:39, closed at 0.33 / 0P, 60 samples). 19:00 UTC bin is in progress (3 samples; hour-start 0.33 / 0P at 19:00; latest raw sample 0.00 / 0Z at 19:02 treated as a new-minute placeholder and not used as the card value). estimated_kp remains below 5.0.",
+        "zh": "最新整點估計 Kp = 0.33（標籤 0P）。近 180 筆最大 0.33（16:03 UTC；近 180 筆窗約自 16:03 UTC 起）；公開窗最大 1.00（14:48 UTC）。至 12:00 UTC 已滾出公開窗；13:00 UTC 區間部分滾出（自 13:05 起 55 筆）。14:00–18:00 UTC 已結束（分別收在 1.00／0.33／0.33／0.33／0.33；14:00 峰值 1.00／1Z 於 14:48，收在 1.00／1Z、60 筆；15:00 峰值 0.33／0P 於 15:40，收在 0.33／0P、60 筆；16:00 峰值 0.33／0P 於 16:00，收在 0.33／0P、60 筆；17:00 峰值 0.33／0P 於 17:00，收在 0.33／0P、60 筆；18:00 峰值 0.33／0P 於 18:39，收在 0.33／0P、60 筆）。19:00 UTC 進行中（3 筆；整點 0.33／0P 於 19:00；最新原始樣本 0.00／0Z 於 19:02 視為新分鐘占位，不作為卡片數值）。estimated_kp 仍低於 5.0。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp_label": "0Z",
+        "estimated_kp": 0.33,
+        "kp_label": "0P",
         "window_max": 1.0,
         "last180_max": 0.33,
-        "n_samples": 357,
-        "window_start": "2026-09-20T12:09:00Z"
+        "n_samples": 358,
+        "window_start": "2026-09-20T13:05:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute (18:00 UTC). Report last-180 and full published-window maxima.",
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute (19:00 UTC). Report last-180 and full published-window maxima.",
         "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off."
       },
       "visual": {
         "type": "bar",
-        "value": 0.0,
+        "value": 0.33,
         "min": 0,
         "max": 9
       }
