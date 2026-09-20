@@ -1,6 +1,6 @@
 {
   "date": "2026-09-20",
-  "updated": "2026-09-21T06:16:00+08:00",
+  "updated": "2026-09-21T07:06:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
@@ -11,21 +11,21 @@
         "zh": "2026 年 9 月 20 日 22:00 UTC，估計行星 Kp 為 0.33（平靜）。"
       },
       "summary": {
-        "en": "Latest hour-start estimated Kp = 0.33 (label 0P). Last-180-sample maximum is 0.67 (20:49 UTC; last-180 window begins about 19:12 UTC); published-window maximum is 0.67 (20:49 UTC). Hours through 15:00 UTC have rolled out of the public window; window start is 16:14 UTC (358 samples). Completed bins 16:00–21:00 UTC closed at 0.33 / 0.33 / 0.33 / 0.33 / 0.67-peak / 0.00 respectively (16:00–19:00 closed near 0.33 / 0P; 20:00 peak 0.67 / 1M at 20:49, closed at 0.00 / 0Z at 21:00; 21:00 hour-start 0.00 / 0Z). 22:00 UTC bin is in progress (hour-start 0.33 / 0P at 22:00; latest raw samples 0.00 / 0Z from 22:06 treated as new-minute placeholders and not used as the card value). estimated_kp remains below 5.0.",
-        "zh": "最新整點估計 Kp = 0.33（標籤 0P）。近 180 筆最大 0.67（20:49 UTC；近 180 筆窗約自 19:12 UTC 起）；公開窗最大 0.67（20:49 UTC）。至 15:00 UTC 已滾出公開窗；窗起點 16:14 UTC（358 筆）。16:00–21:00 UTC 已結束（16:00–19:00 收在約 0.33／0P；20:00 峰值 0.67／1M 於 20:49，21:00 收在 0.00／0Z；21:00 整點 0.00／0Z）。22:00 UTC 進行中（整點 0.33／0P 於 22:00；22:06 起 0.00／0Z 視為新分鐘占位，不作為卡片數值）。estimated_kp 仍低於 5.0。"
+        "en": "Latest hour-start estimated Kp = 0.33 (label 0P). Last-180 maximum 1.00 at 22:18 UTC (label 1Z; last-180 window from about 20:01 UTC). Published-window maximum 1.00 at 22:18 UTC. Window start 17:03 UTC (358 samples). 23:00 UTC is 0.00/0Z immediately after 22:59 0.00/0Z and is treated as a new-minute placeholder, not used as the card value. estimated_kp remains below 5.0.",
+        "zh": "最新整點估計 Kp = 0.33（標籤 0P）。近 180 筆最大 1.00（22:18 UTC；標籤 1Z；近 180 筆窗約自 20:01 UTC 起）；公開窗最大 1.00（22:18 UTC）。窗起點 17:03 UTC（358 筆）。23:00 UTC 為 0.00／0Z，緊接 22:59 的 0.00／0Z，視為新分鐘占位，不採為卡片數值。estimated_kp 仍低於 5.0。"
       },
       "data": {
         "estimated_kp": 0.33,
         "kp_label": "0P",
-        "window_max": 0.67,
-        "last180_max": 0.67,
+        "window_max": 1.0,
+        "last180_max": 1.0,
         "n_samples": 358,
-        "window_start": "2026-09-20T16:14:00Z"
+        "window_start": "2026-09-20T17:03:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute (22:00 UTC). Report last-180 and full published-window maxima. Trailing 0.00/0Z minutes after 22:05 treated as placeholders.",
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute that is not a trailing 0.00/0Z placeholder (22:00 UTC). Report last-180 and full published-window maxima.",
         "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off."
       },
       "visual": {
@@ -33,6 +33,39 @@
         "value": 0.33,
         "min": 0,
         "max": 9
+      }
+    },
+    {
+      "id": "usgs-us7000titt",
+      "type": "earthquake",
+      "time_utc": "2026-09-20T22:09:58Z",
+      "title": {
+        "en": "A magnitude 4.7 earthquake occurred southeast of the Loyalty Islands on 20 September 2026.",
+        "zh": "2026 年 9 月 20 日，LOYALTY 群島東南方海域發生規模 4.7 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.7, depth about 10 km. Newly listed this hour. Current day-feed maximum is mww 6.4 (us7000tiqc, Papua New Guinea).",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 10 公里。本輪新上架。一日饋送目前最大為 mww 6.4（us7000tiqc，巴布亞紐幾內亞）。"
+      },
+      "data": {
+        "magnitude": 4.7,
+        "magType": "mb",
+        "place": "southeast of the Loyalty Islands",
+        "depth_km": 10.0,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000titt"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000titt"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.7,
+        "min": 0,
+        "max": 10
       }
     },
     {
