@@ -1,37 +1,69 @@
 {
   "date": "2026-09-20",
-  "updated": "2026-09-20T13:19:00+08:00",
+  "updated": "2026-09-20T14:18:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-20T05:00:00Z",
+      "time_utc": "2026-09-20T06:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 3.00 (unsettled) at 05:00 UTC on 20 September 2026.",
-        "zh": "2026 年 9 月 20 日 05:00 UTC，估計行星 Kp 為 3.00（擾動）。"
+        "en": "Estimated planetary Kp is 0.00 (quiet) at 06:00 UTC on 20 September 2026.",
+        "zh": "2026 年 9 月 20 日 06:00 UTC，估計行星 Kp 為 0.00（平靜）。"
       },
       "summary": {
-        "en": "Latest hour-start estimated Kp = 3.00 (label 3Z). Last-180-sample maximum is 3.33 (at 05:14 UTC on 20 September); published-window maximum is 3.33 (same time). Hours through 22:00 UTC have rolled out of the public window; 23:00 UTC is partially rolled out (43 samples from 23:17). Completed bins 00:00–04:00 UTC closed at 1.33 / 2.00 / 2.33 / 0.67 / 3.00 respectively (00:00 peak 1.33 / 1P at 00:31, 60 samples; 01:00 peak 2.00 / 2Z at 01:17, 60 samples; 02:00 peak 2.33 / 2P at 02:21, closed at 2.33 / 2P, 60 samples; 03:00 peak 1.00 / 1Z at 03:42, closed at 0.67 / 1M, 60 samples; 04:00 peak 3.00 / 3Z at 04:30, closed at 3.00 / 3Z, 60 samples). 05:00 UTC bin is in progress (15 samples; peak 3.33 / 3P at 05:14; latest sample 3.33 / 3P at 05:14). estimated_kp remains below 5.0.",
-        "zh": "最新整點估計 Kp = 3.00（標籤 3Z）。近 180 筆最大 3.33（9 月 20 日 05:14 UTC）；公開窗最大 3.33（同時間）。至 22:00 UTC 已滾出公開窗；23:00 UTC 區間部分滾出（自 23:17 起 43 筆）。00:00–04:00 UTC 已結束（分別收在 1.33／2.00／2.33／0.67／3.00；00:00 峰值 1.33／1P 於 00:31、60 筆；01:00 峰值 2.00／2Z 於 01:17、60 筆；02:00 峰值 2.33／2P 於 02:21，收在 2.33／2P、60 筆；03:00 峰值 1.00／1Z 於 03:42，收在 0.67／1M、60 筆；04:00 峰值 3.00／3Z 於 04:30，收在 3.00／3Z、60 筆）。05:00 UTC 進行中（15 筆；峰值 3.33／3P 於 05:14；最新樣本 3.33／3P 於 05:14）。estimated_kp 仍低於 5.0。"
+        "en": "Latest hour-start estimated Kp = 0.00 (label 0Z). Last-180-sample maximum is 3.00 (at 04:30 UTC on 20 September); published-window maximum is 3.00 (same time). Hours through 23:00 UTC have rolled out of the public window; 00:00 UTC is partially rolled out (43 samples from 00:17). Completed bins 01:00–05:00 UTC closed at 2.00 / 2.33 / 0.67 / 3.00 / 3.00 respectively (01:00 peak 2.00 / 2Z at 01:17, 60 samples; 02:00 peak 2.33 / 2P at 02:21, closed at 2.33 / 2P, 60 samples; 03:00 peak 1.00 / 1Z at 03:42, closed at 0.67 / 1M, 60 samples; 04:00 peak 3.00 / 3Z at 04:30, closed at 3.00 / 3Z, 60 samples; 05:00 peak 3.00 / 3Z at 05:00, closed at 3.00 / 3Z, 60 samples). 06:00 UTC bin is in progress (15 samples; peak 0.00 / 0Z at 06:00; latest sample 0.00 / 0Z at 06:14). estimated_kp remains below 5.0.",
+        "zh": "最新整點估計 Kp = 0.00（標籤 0Z）。近 180 筆最大 3.00（9 月 20 日 04:30 UTC）；公開窗最大 3.00（同時間）。至 23:00 UTC 已滾出公開窗；00:00 UTC 區間部分滾出（自 00:17 起 43 筆）。01:00–05:00 UTC 已結束（分別收在 2.00／2.33／0.67／3.00／3.00；01:00 峰值 2.00／2Z 於 01:17、60 筆；02:00 峰值 2.33／2P 於 02:21，收在 2.33／2P、60 筆；03:00 峰值 1.00／1Z 於 03:42，收在 0.67／1M、60 筆；04:00 峰值 3.00／3Z 於 04:30，收在 3.00／3Z、60 筆；05:00 峰值 3.00／3Z 於 05:00，收在 3.00／3Z、60 筆）。06:00 UTC 進行中（15 筆；峰值 0.00／0Z 於 06:00；最新樣本 0.00／0Z 於 06:14）。estimated_kp 仍低於 5.0。"
       },
       "data": {
-        "estimated_kp": 3.0,
-        "kp_label": "3Z",
-        "window_max": 3.33,
-        "last180_max": 3.33,
+        "estimated_kp": 0.0,
+        "kp_label": "0Z",
+        "window_max": 3.0,
+        "last180_max": 3.0,
         "n_samples": 358,
-        "window_start": "2026-09-19T23:17:00Z"
+        "window_start": "2026-09-20T00:17:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute (05:00 UTC). Report last-180 and full published-window maxima.",
-        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window (~358 samples), so earlier hours fall out of the file. The in-progress 05:00 UTC hour currently has 15 samples and may be revised as NOAA updates."
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute (06:00 UTC). Report last-180 and full published-window maxima.",
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window (~358 samples), so earlier hours fall out of the file. The in-progress 06:00 UTC hour currently has 15 samples and may be revised as NOAA updates."
       },
       "visual": {
         "type": "bar",
-        "value": 3.0,
+        "value": 0.0,
         "min": 0,
+        "max": 9
+      }
+    },
+    {
+      "id": "usgs-us7000tip2",
+      "type": "earthquake",
+      "time_utc": "2026-09-20T05:07:03Z",
+      "title": {
+        "en": "A magnitude 5.0 earthquake occurred 103 km W of Hihifo, Tonga on 20 September 2026.",
+        "zh": "2026 年 9 月 20 日，東加希希福以西約 103 公里發生規模 5.0 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5.0, depth about 10 km. Newly listed this hour. Current day-feed maximum remains mb 5.3 (us7000tinl, Guam); tied in magnitude with mww 5.3 (us7000timy, Reykjanes Ridge).",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.0，深度約 10 公里。本輪新上架。一日饋送目前最大仍為 mb 5.3（us7000tinl，關島）；規模同為 5.3 的還有 mww 5.3（us7000timy，雷克雅內斯海嶺）。"
+      },
+      "data": {
+        "magnitude": 5.0,
+        "magType": "mb",
+        "place": "103 km W of Hihifo, Tonga",
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tip2"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Read the public USGS M4.5+ past-day GeoJSON feed and list new event IDs not already on the page.",
+        "limitations": "Magnitudes and locations are preliminary and can be revised by USGS. The day feed only includes events currently listed at M4.5 or above."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.0,
+        "min": 4.5,
         "max": 9
       }
     },
