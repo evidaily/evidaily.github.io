@@ -1,38 +1,104 @@
 {
   "date": "2026-09-21",
-  "updated": "2026-09-21T12:07:00+08:00",
+  "updated": "2026-09-21T13:12:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-21T03:00:00Z",
+      "time_utc": "2026-09-21T04:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (quiet) at 03:00 UTC on 21 September 2026.",
-        "zh": "2026 年 9 月 21 日 03:00 UTC，估計行星 Kp 為 0.00（平靜）。"
+        "en": "Estimated planetary Kp is 1.00 (quiet) at 04:00 UTC on 21 September 2026.",
+        "zh": "2026 年 9 月 21 日 04:00 UTC，估計行星 Kp 為 1.00（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp = 0.00 (label 0Z) at 03:00 UTC. The 03:00 hour is now complete (60 samples through 03:59; end-of-hour 0.67/1M). 04:00 UTC is a trailing incomplete hour (only 3 samples to 04:02), so it is not used. Last-180 maximum 1.67 first at 02:34 UTC on 21 September (label 2M; last-180 window from 01:03 UTC). Published-window maximum 1.67. Window start 22:04 UTC on 20 September (359 samples). estimated_kp remains below 5.0.",
-        "zh": "最新可靠整點估計 Kp = 0.00（標籤 0Z；03:00 UTC）。03:00 時段已收滿 60 筆（至 03:59，時段末 0.67／1M）。04:00 UTC 為未收滿時段（至 04:02 僅 3 筆），故不採用。近 180 筆最大 1.67（最先見於 2026-09-21 02:34 UTC；標籤 2M；近 180 筆窗自 01:03 UTC 起）；公開窗最大 1.67。窗起點 2026-09-20 22:04 UTC（359 筆）。estimated_kp 仍低於 5.0。"
+        "en": "Latest reliable hour-start estimated Kp = 1.00 (label 1Z) at 04:00 UTC. The 04:00 hour is now complete (60 samples through 04:59; end-of-hour 1.00/1Z). 05:00 UTC is a trailing incomplete hour (only 6 samples to 05:05), so it is not used. Last-180 maximum 1.67 first at 02:34 UTC on 21 September (label 2M; last-180 window from 02:06 UTC). Published-window maximum 1.67. Window start 23:08 UTC on 20 September (358 samples). estimated_kp remains below 5.0.",
+        "zh": "最新可靠整點估計 Kp = 1.00（標籤 1Z；04:00 UTC）。04:00 時段已收滿 60 筆（至 04:59，時段末 1.00／1Z）。05:00 UTC 為未收滿時段（至 05:05 僅 6 筆），故不採用。近 180 筆最大 1.67（最先見於 2026-09-21 02:34 UTC；標籤 2M；近 180 筆窗自 02:06 UTC 起）；公開窗最大 1.67。窗起點 2026-09-20 23:08 UTC（358 筆）。estimated_kp 仍低於 5.0。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp_label": "0Z",
+        "estimated_kp": 1.0,
+        "kp_label": "1Z",
         "window_max": 1.67,
         "last180_max": 1.67,
-        "n_samples": 359,
-        "window_start": "2026-09-20T22:04:00Z"
+        "n_samples": 358,
+        "window_start": "2026-09-20T23:08:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of a completed hour that is not a trailing incomplete placeholder (03:00 UTC). Report last-180 and full published-window maxima.",
-        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 03:00 UTC is 0.00/0Z even though later minutes in that hour rose to 0.67/1M."
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of a completed hour that is not a trailing incomplete placeholder (04:00 UTC). Report last-180 and full published-window maxima.",
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 04:00 UTC is 1.00/1Z; the trailing 05:00 hour is incomplete and unused."
       },
       "visual": {
         "type": "bar",
-        "value": 0.0,
+        "value": 1.0,
         "min": 0,
         "max": 9
+      }
+    },
+    {
+      "id": "usgs-us7000tivi",
+      "type": "earthquake",
+      "time_utc": "2026-09-21T04:28:40Z",
+      "title": {
+        "en": "A magnitude 4.7 earthquake occurred 156 km NNW of Hicks Bay, New Zealand on 21 September 2026.",
+        "zh": "2026 年 9 月 21 日，紐西蘭 Hicks Bay 北北西約 156 公里發生規模 4.7 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.7, depth about 213 km. Current day-feed maximum is mww 6.4 (us7000tiqc, Papua New Guinea).",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 213 公里。本輪新上架。一日饋送目前最大為 mww 6.4（us7000tiqc，巴布亞紐幾內亞）。"
+      },
+      "data": {
+        "magnitude": 4.7,
+        "magType": "mb",
+        "place": "156 km NNW of Hicks Bay, New Zealand",
+        "depth_km": 213,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tivi"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tivi"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.7,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tivb",
+      "type": "earthquake",
+      "time_utc": "2026-09-21T03:58:24Z",
+      "title": {
+        "en": "A magnitude 4.5 earthquake occurred 4 km W of Victor Raul, Peru on 21 September 2026.",
+        "zh": "2026 年 9 月 21 日，秘魯 Victor Raul 以西約 4 公里發生規模 4.5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 73 km. Current day-feed maximum is mww 6.4 (us7000tiqc, Papua New Guinea).",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 73 公里。本輪新上架。一日饋送目前最大為 mww 6.4（us7000tiqc，巴布亞紐幾內亞）。"
+      },
+      "data": {
+        "magnitude": 4.5,
+        "magType": "mb",
+        "place": "4 km W of Victor Raul, Peru",
+        "depth_km": 73,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tivb"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tivb"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
       }
     },
     {
@@ -78,7 +144,7 @@
       },
       "summary": {
         "en": "USGS M4.5+ day feed: mww 4.9, depth about 10 km. Current day-feed maximum is mww 6.4 (us7000tiqc, Papua New Guinea).",
-        "zh": "USGS M4.5+ 一日饋送：mww 4.9，深度約 10 公里。本輪新上架。一日饋送目前最大為 mww 6.4（us7000tiqc，巴布亞紐幾內亞）。"
+        "zh": "USGS M4.5+ 一日饋送：mww 4.9，深度約 10 公里。一日饋送目前最大為 mww 6.4（us7000tiqc，巴布亞紐幾內亞）。"
       },
       "data": {
         "magnitude": 4.9,
