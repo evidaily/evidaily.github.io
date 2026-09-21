@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "updated": "2026-09-21T18:18:00+08:00",
+  "updated": "2026-09-21T19:01:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
@@ -11,22 +11,22 @@
         "zh": "2026 年 9 月 21 日 09:00 UTC，估計行星 Kp 為 0.00（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp = 0.00 (label 0Z) at 09:00 UTC. The 09:00 hour is now complete (60 samples through 09:59; end-of-hour 0.00/0Z). 10:00 UTC is a trailing incomplete hour (only 16 samples to 10:15), so it is not used. Last-180 maximum 0.33 first at 07:44 UTC on 21 September (label 0P; last-180 window from 07:16 UTC). Published-window maximum 1.00 (04:17 UTC, label 1Z). Window start 04:17 UTC on 21 September (359 samples). estimated_kp remains below 5.0.",
-        "zh": "最新可靠整點估計 Kp = 0.00（標籤 0Z；09:00 UTC）。09:00 時段已收滿 60 筆（至 09:59，時段末 0.00／0Z）。10:00 UTC 為未收滿時段（至 10:15 僅 16 筆），故不採用。近 180 筆最大 0.33（最先見於 2026-09-21 07:44 UTC；標籤 0P；近 180 筆窗自 07:16 UTC 起）；公開窗最大 1.00（04:17 UTC；標籤 1Z）。窗起點 2026-09-21 04:17 UTC（359 筆）。estimated_kp 仍低於 5.0。"
+        "en": "Latest reliable hour-start estimated Kp = 0.00 (label 0Z) at 09:00 UTC. The 09:00 hour is complete (60 samples through 09:59; end-of-hour 0.00/0Z). 10:00 UTC is a trailing incomplete hour (57 samples to 10:56), so it is not used. Last-180 maximum 0.33 first at 07:57 UTC on 21 September (label 0P; last-180 window from 07:57 UTC). Published-window maximum 1.00 (04:59 UTC, label 1Z). Window start 04:59 UTC on 21 September (358 samples). estimated_kp remains below 5.0.",
+        "zh": "最新可靠整點估計 Kp = 0.00（標籤 0Z；09:00 UTC）。09:00 時段已收滿 60 筆（至 09:59，時段末 0.00／0Z）。10:00 UTC 為未收滿時段（至 10:56 共 57 筆），故不採用。近 180 筆最大 0.33（最先見於 2026-09-21 07:57 UTC；標籤 0P；近 180 筆窗自 07:57 UTC 起）；公開窗最大 1.00（04:59 UTC；標籤 1Z）。窗起點 2026-09-21 04:59 UTC（358 筆）。estimated_kp 仍低於 5.0。"
       },
       "data": {
         "estimated_kp": 0.0,
         "kp_label": "0Z",
         "window_max": 1.0,
         "last180_max": 0.33,
-        "n_samples": 359,
-        "window_start": "2026-09-21T04:17:00Z"
+        "n_samples": 358,
+        "window_start": "2026-09-21T04:59:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
         "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of a completed hour that is not a trailing incomplete placeholder (09:00 UTC). Report last-180 and full published-window maxima.",
-        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 09:00 UTC is 0.00/0Z; the trailing 10:00 hour is incomplete and unused."
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 09:00 UTC is 0.00/0Z; the trailing 10:00 hour is incomplete (57 samples to 10:56) and unused."
       },
       "visual": {
         "type": "bar",
@@ -44,8 +44,8 @@
         "zh": "2026 年 9 月 21 日，印尼 Luwuk 西北西約 34 公里發生規模 5.0 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 5.0, depth about 9.9 km. Newly listed this hour. Current day-feed maximum is mww 6.4 (us7000tiqc, Papua New Guinea).",
-        "zh": "USGS M4.5+ 一日饋送：mb 5.0，深度約 9.9 公里。本輪新上架。一日饋送目前最大為 mww 6.4（us7000tiqc，巴布亞紐幾內亞）。"
+        "en": "USGS M4.5+ day feed: mb 5.0, depth about 9.9 km. Newly listed this hour. Current day-feed maximum is mww 5.7 (us7000tit5, south of Africa).",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.0，深度約 9.9 公里。本輪新上架。一日饋送目前最大為 mww 5.7（us7000tit5，south of Africa）。"
       },
       "data": {
         "magnitude": 5.0,
@@ -77,8 +77,8 @@
         "zh": "2026 年 9 月 21 日，紐西蘭 Hicks Bay 北北西約 156 公里發生規模 4.7 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.7, depth about 213 km. Current day-feed maximum is mww 6.4 (us7000tiqc, Papua New Guinea).",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 213 公里。本輪新上架。一日饋送目前最大為 mww 6.4（us7000tiqc，巴布亞紐幾內亞）。"
+        "en": "USGS M4.5+ day feed: mb 4.7, depth about 213 km. Current day-feed maximum is mww 5.7 (us7000tit5, south of Africa).",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 213 公里。本輪新上架。一日饋送目前最大為 mww 5.7（us7000tit5，south of Africa）。"
       },
       "data": {
         "magnitude": 4.7,
@@ -110,8 +110,8 @@
         "zh": "2026 年 9 月 21 日，秘魯 Victor Raul 以西約 4 公里發生規模 4.5 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.5, depth about 73 km. Current day-feed maximum is mww 6.4 (us7000tiqc, Papua New Guinea).",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 73 公里。本輪新上架。一日饋送目前最大為 mww 6.4（us7000tiqc，巴布亞紐幾內亞）。"
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 73 km. Current day-feed maximum is mww 5.7 (us7000tit5, south of Africa).",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 73 公里。本輪新上架。一日饋送目前最大為 mww 5.7（us7000tit5，south of Africa）。"
       },
       "data": {
         "magnitude": 4.5,
@@ -143,8 +143,8 @@
         "zh": "2026 年 9 月 21 日，印尼 Ruteng 北北東約 35 公里發生規模 5.5 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 5.5, depth about 10 km. Current day-feed maximum is mww 6.4 (us7000tiqc, Papua New Guinea).",
-        "zh": "USGS M4.5+ 一日饋送：mb 5.5，深度約 10 公里。一日饋送目前最大為 mww 6.4（us7000tiqc，巴布亞紐幾內亞）。"
+        "en": "USGS M4.5+ day feed: mb 5.5, depth about 10 km. Current day-feed maximum is mww 5.7 (us7000tit5, south of Africa).",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.5，深度約 10 公里。一日饋送目前最大為 mww 5.7（us7000tit5，south of Africa）。"
       },
       "data": {
         "magnitude": 5.5,
@@ -176,8 +176,8 @@
         "zh": "2026 年 9 月 21 日，土耳其 Saimbeyli 東南約 26 公里發生規模 4.9 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mww 4.9, depth about 10 km. Current day-feed maximum is mww 6.4 (us7000tiqc, Papua New Guinea).",
-        "zh": "USGS M4.5+ 一日饋送：mww 4.9，深度約 10 公里。一日饋送目前最大為 mww 6.4（us7000tiqc，巴布亞紐幾內亞）。"
+        "en": "USGS M4.5+ day feed: mww 4.9, depth about 10 km. Current day-feed maximum is mww 5.7 (us7000tit5, south of Africa).",
+        "zh": "USGS M4.5+ 一日饋送：mww 4.9，深度約 10 公里。一日饋送目前最大為 mww 5.7（us7000tit5，south of Africa）。"
       },
       "data": {
         "magnitude": 4.9,
