@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "updated": "2026-09-21T10:12:00+08:00",
+  "updated": "2026-09-21T11:04:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
@@ -11,16 +11,16 @@
         "zh": "2026 年 9 月 21 日 02:00 UTC，估計行星 Kp 為 1.33（平靜）。"
       },
       "summary": {
-        "en": "Latest hour-start estimated Kp = 1.33 (label 1P). Last-180 maximum 1.33 first at 23:58 UTC on 20 September (label 1P; last-180 window from 23:09 UTC). Published-window maximum 1.33. Window start 20:11 UTC (358 samples). 01:00 hour is now complete (60 samples); 01:00 hour-start revised to 1.33/1P. 02:00 UTC follows 01:59 1.33/1P and is a real hour-start, not a trailing placeholder. 02:00 hour is still incomplete (9 samples to 02:08 UTC) so the card uses the hour-start minute. estimated_kp remains below 5.0.",
-        "zh": "最新整點估計 Kp = 1.33（標籤 1P）。近 180 筆最大 1.33（最先見於 2026-09-20 23:58 UTC；標籤 1P；近 180 筆窗自 23:09 UTC 起）；公開窗最大 1.33。窗起點 20:11 UTC（358 筆）。01:00 時段已收滿 60 筆，01:00 整點修正為 1.33／1P。02:00 UTC 接在 01:59 的 1.33／1P 之後，視為真實整點值而非尾端占位。02:00 時段尚未收滿（至 02:08 UTC 共 9 筆），主卡片採用整點分鐘。estimated_kp 仍低於 5.0。"
+        "en": "Latest reliable hour-start estimated Kp = 1.33 (label 1P) at 02:00 UTC. The 02:00 hour is now complete (60 samples through 02:59). 03:00 UTC is a trailing 0.00/0Z placeholder with only 2 samples (to 03:01 UTC), so it is not used. Last-180 maximum 1.67 first at 02:34 UTC on 21 September (label 2M; last-180 window from 00:02 UTC). Published-window maximum 1.67. Window start 21:04 UTC on 20 September (358 samples). estimated_kp remains below 5.0.",
+        "zh": "最新可靠整點估計 Kp = 1.33（標籤 1P；02:00 UTC）。02:00 時段已收滿 60 筆（至 02:59）。03:00 UTC 為尾端 0.00／0Z 占位（至 03:01 僅 2 筆），故不採用。近 180 筆最大 1.67（最先見於 2026-09-21 02:34 UTC；標籤 2M；近 180 筆窗自 00:02 UTC 起）；公開窗最大 1.67。窗起點 2026-09-20 21:04 UTC（358 筆）。estimated_kp 仍低於 5.0。"
       },
       "data": {
         "estimated_kp": 1.33,
         "kp_label": "1P",
-        "window_max": 1.33,
-        "last180_max": 1.33,
+        "window_max": 1.67,
+        "last180_max": 1.67,
         "n_samples": 358,
-        "window_start": "2026-09-20T20:11:00Z"
+        "window_start": "2026-09-20T21:04:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
@@ -44,8 +44,8 @@
         "zh": "2026 年 9 月 21 日，印尼 Ruteng 北北東約 35 公里發生規模 5.5 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 5.5, depth about 10 km. Newly listed this hour. Current day-feed maximum is mww 6.4 (us7000tiqc, Papua New Guinea).",
-        "zh": "USGS M4.5+ 一日饋送：mb 5.5，深度約 10 公里。本輪新上架。一日饋送目前最大為 mww 6.4（us7000tiqc，巴布亞紐幾內亞）。"
+        "en": "USGS M4.5+ day feed: mb 5.5, depth about 10 km. Current day-feed maximum is mww 6.4 (us7000tiqc, Papua New Guinea).",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.5，深度約 10 公里。一日饋送目前最大為 mww 6.4（us7000tiqc，巴布亞紐幾內亞）。"
       },
       "data": {
         "magnitude": 5.5,
@@ -77,7 +77,7 @@
         "zh": "2026 年 9 月 21 日，土耳其 Saimbeyli 東南約 26 公里發生規模 4.9 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mww 4.9, depth about 10 km. Newly listed this hour. Current day-feed maximum is mww 6.4 (us7000tiqc, Papua New Guinea).",
+        "en": "USGS M4.5+ day feed: mww 4.9, depth about 10 km. Current day-feed maximum is mww 6.4 (us7000tiqc, Papua New Guinea).",
         "zh": "USGS M4.5+ 一日饋送：mww 4.9，深度約 10 公里。本輪新上架。一日饋送目前最大為 mww 6.4（us7000tiqc，巴布亞紐幾內亞）。"
       },
       "data": {
