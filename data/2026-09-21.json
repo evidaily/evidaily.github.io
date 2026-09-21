@@ -1,38 +1,71 @@
 {
   "date": "2026-09-21",
-  "updated": "2026-09-22T05:07:00+08:00",
+  "updated": "2026-09-22T06:12:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-21T20:00:00Z",
+      "time_utc": "2026-09-21T21:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (quiet) at 20:00 UTC on 21 September 2026.",
-        "zh": "2026 年 9 月 21 日 20:00 UTC，估計行星 Kp 為 0.00（平靜）。"
+        "en": "Estimated planetary Kp is 0.00 (quiet) at 21:00 UTC on 21 September 2026.",
+        "zh": "2026 年 9 月 21 日 21:00 UTC，估計行星 Kp 為 0.00（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp = 0.00 (label 0Z) at 20:00 UTC. The 20:00 hour is complete (60 samples through 20:59; end-of-hour 0.00/0Z). 21:00 UTC is a trailing incomplete hour (4 samples to 21:03), so it is not used. Last-180 maximum 0.00 first at 18:04 UTC on 21 September (label 0Z; last-180 window from 18:04 UTC). Published-window maximum 0.33 (15:50 UTC, label 0P). Window start 15:08 UTC on 21 September (356 samples). estimated_kp remains below 5.0.",
-        "zh": "最新可靠整點估計 Kp = 0.00（標籤 0Z；20:00 UTC）。20:00 時段已收滿 60 筆（至 20:59，時段末 0.00／0Z）。21:00 UTC 為未收滿時段（至 21:03 共 4 筆），故不採用。近 180 筆最大 0.00（最先見於 2026-09-21 18:04 UTC；標籤 0Z；近 180 筆窗自 18:04 UTC 起）；公開窗最大 0.33（15:50 UTC；標籤 0P）。窗起點 2026-09-21 15:08 UTC（356 筆）。estimated_kp 仍低於 5.0。"
+        "en": "Latest reliable hour-start estimated Kp = 0.00 (label 0Z) at 21:00 UTC. The 21:00 hour is complete (60 samples through 21:59; end-of-hour 0.33/0P). 22:00 UTC is a trailing incomplete hour (9 samples to 22:08), so it is not used. Last-180 maximum 0.33 first at 21:23 UTC on 21 September (label 0P; last-180 window from 19:09 UTC). Published-window maximum 0.33 (16:11 UTC, label 0P). Window start 16:11 UTC on 21 September (358 samples). estimated_kp remains below 5.0.",
+        "zh": "最新可靠整點估計 Kp = 0.00（標籤 0Z；21:00 UTC）。21:00 時段已收滿 60 筆（至 21:59，時段末 0.33／0P）。22:00 UTC 為未收滿時段（至 22:08 共 9 筆），故不採用。近 180 筆最大 0.33（最先見於 2026-09-21 21:23 UTC；標籤 0P；近 180 筆窗自 19:09 UTC 起）；公開窗最大 0.33（16:11 UTC；標籤 0P）。窗起點 2026-09-21 16:11 UTC（358 筆）。estimated_kp 仍低於 5.0。"
       },
       "data": {
         "estimated_kp": 0.0,
         "kp_label": "0Z",
         "window_max": 0.33,
-        "last180_max": 0.0,
-        "n_samples": 356,
-        "window_start": "2026-09-21T15:08:00Z"
+        "last180_max": 0.33,
+        "n_samples": 358,
+        "window_start": "2026-09-21T16:11:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of a completed hour that is not a trailing incomplete placeholder (20:00 UTC). Report last-180 and full published-window maxima.",
-        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 20:00 UTC is 0.00/0Z; the trailing 21:00 hour is incomplete (4 samples to 21:03) and unused."
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of a completed hour that is not a trailing incomplete placeholder (21:00 UTC). Report last-180 and full published-window maxima.",
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 21:00 UTC is 0.00/0Z; the trailing 22:00 hour is incomplete (9 samples to 22:08) and unused."
       },
       "visual": {
         "type": "bar",
         "value": 0.0,
         "min": 0,
         "max": 9
+      }
+    },
+    {
+      "id": "usgs-us7000tj0z",
+      "type": "earthquake",
+      "time_utc": "2026-09-21T21:37:05Z",
+      "title": {
+        "en": "A magnitude 5.0 earthquake occurred in the South Sandwich Islands region on 21 September 2026.",
+        "zh": "2026 年 9 月 21 日，南三明治群島區域發生規模 5.0 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5.0, depth about 10 km. Current day-feed maximum is mb 5.5 (us7000tiur, 35 km NNE of Ruteng, Indonesia).",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.0，深度約 10 公里。一日饋送目前最大為 mb 5.5（us7000tiur，印尼 Ruteng 北北東約 35 公里）。"
+      },
+      "data": {
+        "magnitude": 5.0,
+        "magType": "mb",
+        "place": "South Sandwich Islands region",
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tj0z"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tj0z"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.0,
+        "min": 0,
+        "max": 10
       }
     },
     {
