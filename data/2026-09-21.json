@@ -1,36 +1,36 @@
 {
   "date": "2026-09-21",
-  "updated": "2026-09-22T06:12:00+08:00",
+  "updated": "2026-09-22T07:22:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-21T21:00:00Z",
+      "time_utc": "2026-09-21T22:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (quiet) at 21:00 UTC on 21 September 2026.",
-        "zh": "2026 年 9 月 21 日 21:00 UTC，估計行星 Kp 為 0.00（平靜）。"
+        "en": "Estimated planetary Kp is 0.33 (quiet) at 22:00 UTC on 21 September 2026.",
+        "zh": "2026 年 9 月 21 日 22:00 UTC，估計行星 Kp 為 0.33（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp = 0.00 (label 0Z) at 21:00 UTC. The 21:00 hour is complete (60 samples through 21:59; end-of-hour 0.33/0P). 22:00 UTC is a trailing incomplete hour (9 samples to 22:08), so it is not used. Last-180 maximum 0.33 first at 21:23 UTC on 21 September (label 0P; last-180 window from 19:09 UTC). Published-window maximum 0.33 (16:11 UTC, label 0P). Window start 16:11 UTC on 21 September (358 samples). estimated_kp remains below 5.0.",
-        "zh": "最新可靠整點估計 Kp = 0.00（標籤 0Z；21:00 UTC）。21:00 時段已收滿 60 筆（至 21:59，時段末 0.33／0P）。22:00 UTC 為未收滿時段（至 22:08 共 9 筆），故不採用。近 180 筆最大 0.33（最先見於 2026-09-21 21:23 UTC；標籤 0P；近 180 筆窗自 19:09 UTC 起）；公開窗最大 0.33（16:11 UTC；標籤 0P）。窗起點 2026-09-21 16:11 UTC（358 筆）。estimated_kp 仍低於 5.0。"
+        "en": "Latest reliable hour-start estimated Kp = 0.33 (label 0P) at 22:00 UTC. The 22:00 hour is complete (60 samples through 22:59; end-of-hour 1.33/1P). 23:00 UTC is a trailing incomplete hour (18 samples to 23:17), so it is not used. Last-180 maximum 1.33 first at 22:54 UTC on 21 September (label 1P; last-180 window from 20:18 UTC). Published-window maximum 1.33 (22:54 UTC, label 1P). Window start 17:21 UTC on 21 September (357 samples). estimated_kp remains below 5.0.",
+        "zh": "最新可靠整點估計 Kp = 0.33（標籤 0P；22:00 UTC）。22:00 時段已收滿 60 筆（至 22:59，時段末 1.33／1P）。23:00 UTC 為未收滿時段（至 23:17 共 18 筆），故不採用。近 180 筆最大 1.33（最先見於 2026-09-21 22:54 UTC；標籤 1P；近 180 筆窗自 20:18 UTC 起）；公開窗最大 1.33（22:54 UTC；標籤 1P）。窗起點 2026-09-21 17:21 UTC（357 筆）。estimated_kp 仍低於 5.0。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp_label": "0Z",
-        "window_max": 0.33,
-        "last180_max": 0.33,
-        "n_samples": 358,
-        "window_start": "2026-09-21T16:11:00Z"
+        "estimated_kp": 0.33,
+        "kp_label": "0P",
+        "window_max": 1.33,
+        "last180_max": 1.33,
+        "n_samples": 357,
+        "window_start": "2026-09-21T17:21:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of a completed hour that is not a trailing incomplete placeholder (21:00 UTC). Report last-180 and full published-window maxima.",
-        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 21:00 UTC is 0.00/0Z; the trailing 22:00 hour is incomplete (9 samples to 22:08) and unused."
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of a completed hour that is not a trailing incomplete placeholder (22:00 UTC). Report last-180 and full published-window maxima.",
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 22:00 UTC is 0.33/0P; the trailing 23:00 hour is incomplete (18 samples to 23:17) and unused."
       },
       "visual": {
         "type": "bar",
-        "value": 0.0,
+        "value": 0.33,
         "min": 0,
         "max": 9
       }
@@ -427,6 +427,39 @@
       "visual": {
         "type": "bar",
         "value": 4.9,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tiu3",
+      "type": "earthquake",
+      "time_utc": "2026-09-20T23:25:37Z",
+      "title": {
+        "en": "A magnitude 4.6 earthquake occurred 25 km SSW of Shikotan, Russia on 20 September 2026.",
+        "zh": "2026 年 9 月 20 日，俄羅斯色丹島南南西約 25 公里發生規模 4.6 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mww 4.6, depth about 57 km. Current day-feed maximum is mb 5.5 (us7000tiur, 35 km NNE of Ruteng, Indonesia).",
+        "zh": "USGS M4.5+ 一日饋送：mww 4.6，深度約 57 公里。一日饋送目前最大為 mb 5.5（us7000tiur，印尼 Ruteng 北北東約 35 公里）。"
+      },
+      "data": {
+        "magnitude": 4.6,
+        "magType": "mww",
+        "place": "25 km SSW of Shikotan, Russia",
+        "depth_km": 57.379,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiu3"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiu3"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.6,
         "min": 0,
         "max": 10
       }
