@@ -1,38 +1,71 @@
 {
   "date": "2026-09-21",
-  "updated": "2026-09-21T19:01:00+08:00",
+  "updated": "2026-09-21T20:08:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-21T09:00:00Z",
+      "time_utc": "2026-09-21T11:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (quiet) at 09:00 UTC on 21 September 2026.",
-        "zh": "2026 年 9 月 21 日 09:00 UTC，估計行星 Kp 為 0.00（平靜）。"
+        "en": "Estimated planetary Kp is 0.33 (quiet) at 11:00 UTC on 21 September 2026.",
+        "zh": "2026 年 9 月 21 日 11:00 UTC，估計行星 Kp 為 0.33（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp = 0.00 (label 0Z) at 09:00 UTC. The 09:00 hour is complete (60 samples through 09:59; end-of-hour 0.00/0Z). 10:00 UTC is a trailing incomplete hour (57 samples to 10:56), so it is not used. Last-180 maximum 0.33 first at 07:57 UTC on 21 September (label 0P; last-180 window from 07:57 UTC). Published-window maximum 1.00 (04:59 UTC, label 1Z). Window start 04:59 UTC on 21 September (358 samples). estimated_kp remains below 5.0.",
-        "zh": "最新可靠整點估計 Kp = 0.00（標籤 0Z；09:00 UTC）。09:00 時段已收滿 60 筆（至 09:59，時段末 0.00／0Z）。10:00 UTC 為未收滿時段（至 10:56 共 57 筆），故不採用。近 180 筆最大 0.33（最先見於 2026-09-21 07:57 UTC；標籤 0P；近 180 筆窗自 07:57 UTC 起）；公開窗最大 1.00（04:59 UTC；標籤 1Z）。窗起點 2026-09-21 04:59 UTC（358 筆）。estimated_kp 仍低於 5.0。"
+        "en": "Latest reliable hour-start estimated Kp = 0.33 (label 0P) at 11:00 UTC. The 11:00 hour is complete (60 samples through 11:59; end-of-hour 0.33/0P). 12:00 UTC is a trailing incomplete hour (6 samples to 12:05), so it is not used. Last-180 maximum 0.67 first at 11:24 UTC on 21 September (label 1M; last-180 window from 09:06 UTC). Published-window maximum 0.67 (11:24 UTC, label 1M). Window start 06:08 UTC on 21 September (358 samples). estimated_kp remains below 5.0.",
+        "zh": "最新可靠整點估計 Kp = 0.33（標籤 0P；11:00 UTC）。11:00 時段已收滿 60 筆（至 11:59，時段末 0.33／0P）。12:00 UTC 為未收滿時段（至 12:05 共 6 筆），故不採用。近 180 筆最大 0.67（最先見於 2026-09-21 11:24 UTC；標籤 1M；近 180 筆窗自 09:06 UTC 起）；公開窗最大 0.67（11:24 UTC；標籤 1M）。窗起點 2026-09-21 06:08 UTC（358 筆）。estimated_kp 仍低於 5.0。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp_label": "0Z",
-        "window_max": 1.0,
-        "last180_max": 0.33,
+        "estimated_kp": 0.33,
+        "kp_label": "0P",
+        "window_max": 0.67,
+        "last180_max": 0.67,
         "n_samples": 358,
-        "window_start": "2026-09-21T04:59:00Z"
+        "window_start": "2026-09-21T06:08:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of a completed hour that is not a trailing incomplete placeholder (09:00 UTC). Report last-180 and full published-window maxima.",
-        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 09:00 UTC is 0.00/0Z; the trailing 10:00 hour is incomplete (57 samples to 10:56) and unused."
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of a completed hour that is not a trailing incomplete placeholder (11:00 UTC). Report last-180 and full published-window maxima.",
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 11:00 UTC is 0.33/0P; the trailing 12:00 hour is incomplete (6 samples to 12:05) and unused."
       },
       "visual": {
         "type": "bar",
-        "value": 0.0,
+        "value": 0.33,
         "min": 0,
         "max": 9
+      }
+    },
+    {
+      "id": "usgs-us7000tixc",
+      "type": "earthquake",
+      "time_utc": "2026-09-21T11:48:28Z",
+      "title": {
+        "en": "A magnitude 5.2 earthquake occurred 167 km WNW of Mejillones, Chile on 21 September 2026.",
+        "zh": "2026 年 9 月 21 日，智利 Mejillones 西北西約 167 公里發生規模 5.2 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5.2, depth about 10 km. Current day-feed maximum is mww 5.7 (us7000tit5, south of Africa).",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.2，深度約 10 公里。一日饋送目前最大為 mww 5.7（us7000tit5，south of Africa）。"
+      },
+      "data": {
+        "magnitude": 5.2,
+        "magType": "mb",
+        "place": "167 km WNW of Mejillones, Chile",
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tixc"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tixc"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.2,
+        "min": 0,
+        "max": 10
       }
     },
     {
