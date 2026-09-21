@@ -1,6 +1,6 @@
 {
   "date": "2026-09-20",
-  "updated": "2026-09-21T07:06:00+08:00",
+  "updated": "2026-09-21T08:24:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
@@ -33,6 +33,39 @@
         "value": 0.33,
         "min": 0,
         "max": 9
+      }
+    },
+    {
+      "id": "usgs-us7000tiu3",
+      "type": "earthquake",
+      "time_utc": "2026-09-20T23:25:38Z",
+      "title": {
+        "en": "A magnitude 5.0 earthquake occurred 16 km WSW of Shikotan, Russia on 20 September 2026.",
+        "zh": "2026 年 9 月 20 日，俄羅斯色丹島西南偏西約 16 公里發生規模 5.0 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5.0, depth about 65 km. Newly listed this hour. Current day-feed maximum is mww 6.4 (us7000tiqc, Papua New Guinea).",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.0，深度約 65 公里。本輪新上架。一日饋送目前最大為 mww 6.4（us7000tiqc，巴布亞紐幾內亞）。"
+      },
+      "data": {
+        "magnitude": 5.0,
+        "magType": "mb",
+        "place": "16 km WSW of Shikotan, Russia",
+        "depth_km": 64.936,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiu3"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiu3"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.0,
+        "min": 0,
+        "max": 10
       }
     },
     {
