@@ -1,38 +1,104 @@
 {
   "date": "2026-09-21",
-  "updated": "2026-09-21T09:09:00+08:00",
+  "updated": "2026-09-21T10:12:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-21T01:00:00Z",
+      "time_utc": "2026-09-21T02:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 1.00 (quiet) at 01:00 UTC on 21 September 2026.",
-        "zh": "2026 年 9 月 21 日 01:00 UTC，估計行星 Kp 為 1.00（平靜）。"
+        "en": "Estimated planetary Kp is 1.33 (quiet) at 02:00 UTC on 21 September 2026.",
+        "zh": "2026 年 9 月 21 日 02:00 UTC，估計行星 Kp 為 1.33（平靜）。"
       },
       "summary": {
-        "en": "Latest hour-start estimated Kp = 1.00 (label 1Z). Last-180 maximum 1.33 first at 23:58 UTC on 20 September (label 1P; also 01:02 UTC; last-180 window from 22:05 UTC). Published-window maximum 1.33. Window start 19:07 UTC (358 samples). 01:00 UTC follows 00:59 1.33/1P and is a real hour-start, not a trailing placeholder. 01:00 hour is still incomplete (5 samples) so the card uses the hour-start minute. estimated_kp remains below 5.0.",
-        "zh": "最新整點估計 Kp = 1.00（標籤 1Z）。近 180 筆最大 1.33（最先見於 2026-09-20 23:58 UTC；標籤 1P；其後 01:02 UTC 同值；近 180 筆窗自 22:05 UTC 起）；公開窗最大 1.33。窗起點 19:07 UTC（358 筆）。01:00 UTC 接在 00:59 的 1.33／1P 之後，視為真實整點值而非尾端占位。01:00 時段尚未收滿（5 筆），主卡片採用整點分鐘。estimated_kp 仍低於 5.0。"
+        "en": "Latest hour-start estimated Kp = 1.33 (label 1P). Last-180 maximum 1.33 first at 23:58 UTC on 20 September (label 1P; last-180 window from 23:09 UTC). Published-window maximum 1.33. Window start 20:11 UTC (358 samples). 01:00 hour is now complete (60 samples); 01:00 hour-start revised to 1.33/1P. 02:00 UTC follows 01:59 1.33/1P and is a real hour-start, not a trailing placeholder. 02:00 hour is still incomplete (9 samples to 02:08 UTC) so the card uses the hour-start minute. estimated_kp remains below 5.0.",
+        "zh": "最新整點估計 Kp = 1.33（標籤 1P）。近 180 筆最大 1.33（最先見於 2026-09-20 23:58 UTC；標籤 1P；近 180 筆窗自 23:09 UTC 起）；公開窗最大 1.33。窗起點 20:11 UTC（358 筆）。01:00 時段已收滿 60 筆，01:00 整點修正為 1.33／1P。02:00 UTC 接在 01:59 的 1.33／1P 之後，視為真實整點值而非尾端占位。02:00 時段尚未收滿（至 02:08 UTC 共 9 筆），主卡片採用整點分鐘。estimated_kp 仍低於 5.0。"
       },
       "data": {
-        "estimated_kp": 1.0,
-        "kp_label": "1Z",
+        "estimated_kp": 1.33,
+        "kp_label": "1P",
         "window_max": 1.33,
         "last180_max": 1.33,
         "n_samples": 358,
-        "window_start": "2026-09-20T19:07:00Z"
+        "window_start": "2026-09-20T20:11:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute that is not a trailing 0.00/0Z placeholder (01:00 UTC). Report last-180 and full published-window maxima.",
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute that is not a trailing 0.00/0Z placeholder (02:00 UTC). Report last-180 and full published-window maxima.",
         "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off."
       },
       "visual": {
         "type": "bar",
-        "value": 1.0,
+        "value": 1.33,
         "min": 0,
         "max": 9
+      }
+    },
+    {
+      "id": "usgs-us7000tiur",
+      "type": "earthquake",
+      "time_utc": "2026-09-21T01:41:36Z",
+      "title": {
+        "en": "A magnitude 5.5 earthquake occurred 35 km NNE of Ruteng, Indonesia on 21 September 2026.",
+        "zh": "2026 年 9 月 21 日，印尼 Ruteng 北北東約 35 公里發生規模 5.5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5.5, depth about 10 km. Newly listed this hour. Current day-feed maximum is mww 6.4 (us7000tiqc, Papua New Guinea).",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.5，深度約 10 公里。本輪新上架。一日饋送目前最大為 mww 6.4（us7000tiqc，巴布亞紐幾內亞）。"
+      },
+      "data": {
+        "magnitude": 5.5,
+        "magType": "mb",
+        "place": "35 km NNE of Ruteng, Indonesia",
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiur"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiur"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.5,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tiui",
+      "type": "earthquake",
+      "time_utc": "2026-09-21T01:02:04Z",
+      "title": {
+        "en": "A magnitude 4.9 earthquake occurred 26 km SE of Saimbeyli, Turkey on 21 September 2026.",
+        "zh": "2026 年 9 月 21 日，土耳其 Saimbeyli 東南約 26 公里發生規模 4.9 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mww 4.9, depth about 10 km. Newly listed this hour. Current day-feed maximum is mww 6.4 (us7000tiqc, Papua New Guinea).",
+        "zh": "USGS M4.5+ 一日饋送：mww 4.9，深度約 10 公里。本輪新上架。一日饋送目前最大為 mww 6.4（us7000tiqc，巴布亞紐幾內亞）。"
+      },
+      "data": {
+        "magnitude": 4.9,
+        "magType": "mww",
+        "place": "26 km SE of Saimbeyli, Turkey",
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiui"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiui"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.9,
+        "min": 0,
+        "max": 10
       }
     }
   ]
