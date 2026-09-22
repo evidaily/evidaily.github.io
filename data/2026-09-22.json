@@ -1,0 +1,39 @@
+{
+  "date": "2026-09-22",
+  "updated": "2026-09-22T09:33:00+08:00",
+  "entries": [
+    {
+      "id": "noaa-kp-1m",
+      "type": "space-weather",
+      "time_utc": "2026-09-22T00:00:00Z",
+      "title": {
+        "en": "Estimated planetary Kp is 0.00 (quiet) at 00:00 UTC on 22 September 2026.",
+        "zh": "2026 年 9 月 22 日 00:00 UTC，估計行星 Kp 為 0.00（平靜）。"
+      },
+      "summary": {
+        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 00:00 UTC. The 00:00 hour is complete (60 samples through 00:59; hour-end 1.33/1P). The trailing 01:00 UTC hour is incomplete (31 samples through 01:30) and is not used for the headline. Last-180 maximum is 1.67 (first at 2026-09-22 01:00 UTC; label 2M; last-180 window from 22:31 UTC). Published-window maximum is 1.67 (01:00 UTC; label 2M). Window start 2026-09-21 19:33 UTC (358 samples). estimated_kp remains below 5.0.",
+        "zh": "最後可靠整點估計 Kp 為 0.00（0Z），取樣 00:00 UTC。00:00 時段已收滿 60 筆（至 00:59，時段末 1.33／1P）。2026-09-22 01:00 UTC 為未收滿時段（至 01:30 共 31 筆），故不採用。近 180 筆最大 1.67（最先見於 2026-09-22 01:00 UTC；標籤 2M；近 180 筆窗自 22:31 UTC 起）；公開窗最大 1.67（01:00 UTC；標籤 2M）。窗起點 2026-09-21 19:33 UTC（358 筆）。estimated_kp 仍低於 5.0。"
+      },
+      "data": {
+        "estimated_kp": 0.0,
+        "kp_label": "0Z",
+        "window_max": 1.67,
+        "last180_max": 1.67,
+        "n_samples": 358,
+        "window_start": "2026-09-21T19:33:00Z"
+      },
+      "evidence": {
+        "source_name": "NOAA SWPC",
+        "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of a completed hour that is not a trailing incomplete placeholder (00:00 UTC). Report last-180 and full published-window maxima.",
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 00:00 UTC is 0.00/0Z; the trailing 01:00 hour on 22 September is incomplete (31 samples to 01:30) and unused."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 0.0,
+        "min": 0,
+        "max": 9
+      }
+    }
+  ]
+}
