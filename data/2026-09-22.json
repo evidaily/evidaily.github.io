@@ -1,38 +1,71 @@
 {
   "date": "2026-09-22",
-  "updated": "2026-09-22T19:26:00+08:00",
+  "updated": "2026-09-22T20:42:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-22T10:00:00Z",
+      "time_utc": "2026-09-22T11:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (quiet) at 10:00 UTC on 22 September 2026.",
-        "zh": "2026 年 9 月 22 日 10:00 UTC，估計行星 Kp 為 0.00（平靜）。"
+        "en": "Estimated planetary Kp is 0.00 (quiet) at 11:00 UTC on 22 September 2026.",
+        "zh": "2026 年 9 月 22 日 11:00 UTC，估計行星 Kp 為 0.00（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 10:00 UTC. The 10:00 hour is complete (60 samples through 10:59; hour-end 0.00/0Z). The trailing 11:00 hour is incomplete (21 samples through 11:20) and is not used as the headline hour. Last-180 maximum is 0.33 (first at 2026-09-22 08:57 UTC; label 0P; last-180 window from 08:21 UTC). Published-window maximum is 1.00 (05:44 UTC; label 1Z). Window start 2026-09-22 05:23 UTC (358 samples). estimated_kp remains below 5.0.",
-        "zh": "最後可靠整點估計 Kp 為 0.00（0Z），取樣 10:00 UTC。10:00 時段已收滿 60 筆（至 10:59，時段末 0.00／0Z）。11:00 時段尚未收滿（21 筆至 11:20），不作為主卡片整點。近 180 筆最大 0.33（最先見於 2026-09-22 08:57 UTC；標籤 0P；近 180 筆窗自 08:21 UTC 起）；公開窗最大 1.00（05:44 UTC；標籤 1Z）。窗起點 2026-09-22 05:23 UTC（358 筆）。estimated_kp 仍低於 5.0。"
+        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 11:00 UTC. The 11:00 hour is complete (60 samples through 11:59; hour-end 0.33/0P). The trailing 12:00 hour is incomplete (37 samples through 12:36) and is not used as the headline hour. Last-180 maximum is 0.33 (first at 2026-09-22 11:13 UTC; label 0P; last-180 window from 09:37 UTC). Published-window maximum is 0.33 (first at 2026-09-22 07:21 UTC; label 0P). Window start 2026-09-22 06:39 UTC (358 samples). estimated_kp remains below 5.0.",
+        "zh": "最後可靠整點估計 Kp 為 0.00（0Z），取樣 11:00 UTC。11:00 時段已收滿 60 筆（至 11:59，時段末 0.33／0P）。12:00 時段尚未收滿（37 筆至 12:36），不作為主卡片整點。近 180 筆最大 0.33（最先見於 2026-09-22 11:13 UTC；標籤 0P；近 180 筆窗自 09:37 UTC 起）；公開窗最大 0.33（最先見於 07:21 UTC；標籤 0P）。窗起點 2026-09-22 06:39 UTC（358 筆）。estimated_kp 仍低於 5.0。"
       },
       "data": {
         "estimated_kp": 0.0,
         "kp_label": "0Z",
-        "window_max": 1.0,
+        "window_max": 0.33,
         "last180_max": 0.33,
         "n_samples": 358,
-        "window_start": "2026-09-22T05:23:00Z"
+        "window_start": "2026-09-22T06:39:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of a completed hour that is not a trailing incomplete placeholder (10:00 UTC). Report last-180 and full published-window maxima.",
-        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 10:00 UTC is 0.00/0Z; the hour stays quiet (ends 0.00/0Z at 10:59). The incomplete 11:00 hour is excluded from the headline."
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of a completed hour that is not a trailing incomplete placeholder (11:00 UTC). Report last-180 and full published-window maxima.",
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 11:00 UTC is 0.00/0Z; the hour ends 0.33/0P at 11:59. The incomplete 12:00 hour is excluded from the headline."
       },
       "visual": {
         "type": "bar",
         "value": 0.0,
         "min": 0,
         "max": 9
+      }
+    },
+    {
+      "id": "usgs-us7000tj58",
+      "type": "earthquake",
+      "time_utc": "2026-09-22T11:43:45Z",
+      "title": {
+        "en": "A magnitude 4.7 earthquake occurred 7 km WNW of La Gomera, Guatemala on 22 September 2026.",
+        "zh": "2026 年 9 月 22 日，瓜地馬拉 La Gomera 西北西約 7 公里發生規模 4.7 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.7, depth about 89 km. Current day-feed maximum is mb 5.3 (us7000tj1s, 97 km S of Sarangani, Philippines).",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 89 公里。一日饋送目前最大為 mb 5.3（us7000tj1s，菲律賓 Sarangani 以南約 97 公里）。"
+      },
+      "data": {
+        "magnitude": 4.7,
+        "magType": "mb",
+        "place": "7 km WNW of La Gomera, Guatemala",
+        "depth_km": 88.793,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tj58"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tj58"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.7,
+        "min": 0,
+        "max": 10
       }
     },
     {
