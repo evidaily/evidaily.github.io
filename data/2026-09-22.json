@@ -1,38 +1,104 @@
 {
   "date": "2026-09-22",
-  "updated": "2026-09-22T14:22:00+08:00",
+  "updated": "2026-09-22T15:11:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-22T05:00:00Z",
+      "time_utc": "2026-09-22T06:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.67 (quiet to unsettled) at 05:00 UTC on 22 September 2026.",
-        "zh": "2026 年 9 月 22 日 05:00 UTC，估計行星 Kp 為 0.67（平靜至輕微擾動）。"
+        "en": "Estimated planetary Kp is 0.00 (quiet) at 06:00 UTC on 22 September 2026.",
+        "zh": "2026 年 9 月 22 日 06:00 UTC，估計行星 Kp 為 0.00（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.67 (1M) at 05:00 UTC. The 05:00 hour is complete (60 samples through 05:59; hour-end 0.67/1M). The trailing 06:00 hour is incomplete (19 samples through 06:18) and is not used as the headline hour. Last-180 maximum is 1.00 (first at 2026-09-22 05:44 UTC; label 1Z; last-180 window from 03:19 UTC). Published-window maximum is 2.00 (02:48 UTC; label 2Z). Window start 2026-09-22 00:21 UTC (358 samples). estimated_kp remains below 5.0.",
-        "zh": "最後可靠整點估計 Kp 為 0.67（1M），取樣 05:00 UTC。05:00 時段已收滿 60 筆（至 05:59，時段末 0.67／1M）。06:00 時段尚未收滿（19 筆至 06:18），不作為主卡片整點。近 180 筆最大 1.00（最先見於 2026-09-22 05:44 UTC；標籤 1Z；近 180 筆窗自 03:19 UTC 起）；公開窗最大 2.00（02:48 UTC；標籤 2Z）。窗起點 2026-09-22 00:21 UTC（358 筆）。estimated_kp 仍低於 5.0。"
+        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 06:00 UTC. The 06:00 hour is complete (60 samples through 06:59; hour-end 0.00/0Z). The trailing 07:00 hour is incomplete (10 samples through 07:09) and is not used as the headline hour. Last-180 maximum is 1.00 (first at 2026-09-22 05:44 UTC; label 1Z; last-180 window from 04:10 UTC). Published-window maximum is 2.00 (02:48 UTC; label 2Z). Window start 2026-09-22 01:12 UTC (358 samples). estimated_kp remains below 5.0.",
+        "zh": "最後可靠整點估計 Kp 為 0.00（0Z），取樣 06:00 UTC。06:00 時段已收滿 60 筆（至 06:59，時段末 0.00／0Z）。07:00 時段尚未收滿（10 筆至 07:09），不作為主卡片整點。近 180 筆最大 1.00（最先見於 2026-09-22 05:44 UTC；標籤 1Z；近 180 筆窗自 04:10 UTC 起）；公開窗最大 2.00（02:48 UTC；標籤 2Z）。窗起點 2026-09-22 01:12 UTC（358 筆）。estimated_kp 仍低於 5.0。"
       },
       "data": {
-        "estimated_kp": 0.67,
-        "kp_label": "1M",
+        "estimated_kp": 0.0,
+        "kp_label": "0Z",
         "window_max": 2.0,
         "last180_max": 1.0,
         "n_samples": 358,
-        "window_start": "2026-09-22T00:21:00Z"
+        "window_start": "2026-09-22T01:12:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of a completed hour that is not a trailing incomplete placeholder (05:00 UTC). Report last-180 and full published-window maxima.",
-        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 05:00 UTC is 0.67/1M; the hour stays near quiet-to-unsettled low (ends 0.67/1M at 05:59). The incomplete 06:00 hour is excluded from the headline."
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of a completed hour that is not a trailing incomplete placeholder (06:00 UTC). Report last-180 and full published-window maxima.",
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 06:00 UTC is 0.00/0Z; the hour stays quiet (ends 0.00/0Z at 06:59). The incomplete 07:00 hour is excluded from the headline."
       },
       "visual": {
         "type": "bar",
-        "value": 0.67,
+        "value": 0.0,
         "min": 0,
         "max": 9
+      }
+    },
+    {
+      "id": "usgs-us7000tj3v",
+      "type": "earthquake",
+      "time_utc": "2026-09-22T06:48:09Z",
+      "title": {
+        "en": "A magnitude 4.6 earthquake occurred 19 km ENE of Nailong, Philippines on 22 September 2026.",
+        "zh": "2026 年 9 月 22 日，菲律賓 Nailong 東北東約 19 公里發生規模 4.6 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 10 km. Current day-feed maximum is mb 5.3 (us7000tj1s, 97 km S of Sarangani, Philippines).",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 10 公里。一日饋送目前最大為 mb 5.3（us7000tj1s，菲律賓 Sarangani 以南約 97 公里）。"
+      },
+      "data": {
+        "magnitude": 4.6,
+        "magType": "mb",
+        "place": "19 km ENE of Nailong, Philippines",
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tj3v"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tj3v"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.6,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us7000tj3s",
+      "type": "earthquake",
+      "time_utc": "2026-09-22T06:11:10Z",
+      "title": {
+        "en": "A magnitude 4.9 earthquake occurred in the Volcano Islands, Japan region on 22 September 2026.",
+        "zh": "2026 年 9 月 22 日，日本火山群島海域發生規模 4.9 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.9, depth about 10 km. Current day-feed maximum is mb 5.3 (us7000tj1s, 97 km S of Sarangani, Philippines).",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 10 公里。一日饋送目前最大為 mb 5.3（us7000tj1s，菲律賓 Sarangani 以南約 97 公里）。"
+      },
+      "data": {
+        "magnitude": 4.9,
+        "magType": "mb",
+        "place": "Volcano Islands, Japan region",
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tj3s"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tj3s"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.9,
+        "min": 0,
+        "max": 10
       }
     },
     {
