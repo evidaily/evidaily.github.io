@@ -1,38 +1,71 @@
 {
   "date": "2026-09-22",
-  "updated": "2026-09-23T00:37:00+08:00",
+  "updated": "2026-09-23T01:22:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-22T15:00:00Z",
+      "time_utc": "2026-09-22T16:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (quiet) at 15:00 UTC on 22 September 2026.",
-        "zh": "2026 年 9 月 22 日 15:00 UTC，估計行星 Kp 為 0.00（平靜）。"
+        "en": "Estimated planetary Kp is 0.33 (quiet) at 16:00 UTC on 22 September 2026.",
+        "zh": "2026 年 9 月 22 日 16:00 UTC，估計行星 Kp 為 0.33（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 15:00 UTC. The 15:00 hour is complete (60 samples through 15:59; hour-start 0.00/0Z, hour-end 0.33/0P). The trailing 16:00 hour is incomplete (33 samples through 16:32) and is not used as the headline hour. Last-180 maximum is 0.33 (first at 2026-09-22 13:33 UTC; label 0P; last-180 window from 13:33 UTC). Published-window maximum is 0.33 (first at 2026-09-22 11:13 UTC; label 0P). Window start 2026-09-22 10:35 UTC (358 samples). estimated_kp remains below 5.0.",
-        "zh": "最後可靠整點估計 Kp 為 0.00（0Z），取樣 15:00 UTC。15:00 時段已收滿 60 筆（至 15:59，時段初 0.00／0Z、時段末 0.33／0P）。16:00 時段尚未收滿（33 筆至 16:32），不作為主卡片整點。近 180 筆最大 0.33（最先見於 2026-09-22 13:33 UTC；標籤 0P；近 180 筆窗自 13:33 UTC 起）；公開窗最大 0.33（最先見於 11:13 UTC；標籤 0P）。窗起點 2026-09-22 10:35 UTC（358 筆）。estimated_kp 仍低於 5.0。"
+        "en": "Latest reliable hour-start estimated Kp is 0.33 (0P) at 16:00 UTC. The 16:00 hour is complete (60 samples through 16:59; hour-start 0.33/0P, hour-end 0.33/0P). The trailing 17:00 hour is incomplete (14 samples through 17:13) and is not used as the headline hour. Last-180 maximum is 0.33 (first at 2026-09-22 14:14 UTC; label 0P; last-180 window from 14:14 UTC). Published-window maximum is 0.33 (first at 2026-09-22 11:15 UTC; label 0P). Window start 2026-09-22 11:15 UTC (359 samples). estimated_kp remains below 5.0.",
+        "zh": "最後可靠整點估計 Kp 為 0.33（0P），取樣 16:00 UTC。16:00 時段已收滿 60 筆（至 16:59，時段初 0.33／0P、時段末 0.33／0P）。17:00 時段尚未收滿（14 筆至 17:13），不作為主卡片整點。近 180 筆最大 0.33（最先見於 2026-09-22 14:14 UTC；標籤 0P；近 180 筆窗自 14:14 UTC 起）；公開窗最大 0.33（最先見於 11:15 UTC；標籤 0P）。窗起點 2026-09-22 11:15 UTC（359 筆）。estimated_kp 仍低於 5.0。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp_label": "0Z",
+        "estimated_kp": 0.33,
+        "kp_label": "0P",
         "window_max": 0.33,
         "last180_max": 0.33,
-        "n_samples": 358,
-        "window_start": "2026-09-22T10:35:00Z"
+        "n_samples": 359,
+        "window_start": "2026-09-22T11:15:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of a completed hour that is not a trailing incomplete placeholder (15:00 UTC). Report last-180 and full published-window maxima.",
-        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 15:00 UTC is 0.00/0Z; the hour ends 0.33/0P at 15:59. The incomplete 16:00 hour is excluded from the headline."
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of a completed hour that is not a trailing incomplete placeholder (16:00 UTC). Report last-180 and full published-window maxima.",
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 16:00 UTC is 0.33/0P; the hour ends 0.33/0P at 16:59. The incomplete 17:00 hour is excluded from the headline."
       },
       "visual": {
         "type": "bar",
-        "value": 0.0,
+        "value": 0.33,
         "min": 0,
         "max": 9
+      }
+    },
+    {
+      "id": "usgs-us7000tj5n",
+      "type": "earthquake",
+      "time_utc": "2026-09-22T13:56:15Z",
+      "title": {
+        "en": "A magnitude 4.6 earthquake occurred 37 km SE of Severo-Kurilsk, Russia on 22 September 2026.",
+        "zh": "2026 年 9 月 22 日，俄羅斯 Severo-Kurilsk 東南約 37 公里發生規模 4.6 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 84 km. Current day-feed maximum is mb 5.3 (us7000tj1s, 97 km S of Sarangani, Philippines).",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 84 公里。一日饋送目前最大為 mb 5.3（us7000tj1s，菲律賓 Sarangani 以南約 97 公里）。"
+      },
+      "data": {
+        "magnitude": 4.6,
+        "magType": "mb",
+        "place": "37 km SE of Severo-Kurilsk, Russia",
+        "depth_km": 83.948,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tj5n"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tj5n"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.6,
+        "min": 0,
+        "max": 10
       }
     },
     {
