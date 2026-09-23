@@ -1,38 +1,104 @@
 {
   "date": "2026-09-23",
-  "updated": "2026-09-24T02:07:00+08:00",
+  "updated": "2026-09-24T03:10:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-23T17:00:00Z",
+      "time_utc": "2026-09-23T18:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.67 (quiet) at 17:00 UTC on 23 September 2026.",
-        "zh": "2026 年 9 月 23 日 17:00 UTC，估計行星 Kp 為 0.67（平靜）。"
+        "en": "Estimated planetary Kp is 0.00 (quiet) at 18:00 UTC on 23 September 2026.",
+        "zh": "2026 年 9 月 23 日 18:00 UTC，估計行星 Kp 為 0.00（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.67 (1M) at 17:00 UTC on 23 September. The 17:00 hour is complete (60 samples through 17:59; hour-start 0.67/1M, hour-end 0.67/1M). Last-180 maximum is 0.67 (first at 2026-09-23 16:16 UTC; label 1M; last-180 window from 15:03 UTC). Published-window maximum is 0.67 (first at 2026-09-23 13:52 UTC; label 1M). Window start 2026-09-23 12:08 UTC (355 samples). estimated_kp remains below 5.0. The 18:00 UTC hour is still incomplete (3 samples through 18:02) and is not used as the main card.",
-        "zh": "最後可靠整點估計 Kp 為 0.67（1M），取樣 2026-09-23 17:00 UTC。17:00 時段已收滿 60 筆（至 17:59，時段初 0.67／1M、時段末 0.67／1M）。近 180 筆最大 0.67（最先見於 2026-09-23 16:16 UTC；標籤 1M；近 180 筆窗自 15:03 UTC 起）；公開窗最大 0.67（最先見於 2026-09-23 13:52 UTC；標籤 1M）。窗起點 2026-09-23 12:08 UTC（355 筆）。estimated_kp 仍低於 5.0。18:00 UTC 時段尚未收滿（至 18:02 僅 3 筆），不作為主卡片。"
+        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 18:00 UTC on 23 September. The 18:00 hour is complete (60 samples through 18:59; hour-start 0.00/0Z, hour-end 1.33/1P). Last-180 maximum is 1.33 (first at 2026-09-23 18:57 UTC; label 1P; last-180 window from 16:06 UTC). Published-window maximum is 1.33 (first at 2026-09-23 18:57 UTC; label 1P). Window start 2026-09-23 13:08 UTC (358 samples). estimated_kp remains below 5.0. The 19:00 UTC hour is still incomplete (6 samples through 19:05) and is not used as the main card.",
+        "zh": "最後可靠整點估計 Kp 為 0.00（0Z），取樣 2026-09-23 18:00 UTC。18:00 時段已收滿 60 筆（至 18:59，時段初 0.00／0Z、時段末 1.33／1P）。近 180 筆最大 1.33（最先見於 2026-09-23 18:57 UTC；標籤 1P；近 180 筆窗自 16:06 UTC 起）；公開窗最大 1.33（最先見於 2026-09-23 18:57 UTC；標籤 1P）。窗起點 2026-09-23 13:08 UTC（358 筆）。estimated_kp 仍低於 5.0。19:00 UTC 時段尚未收滿（至 19:05 僅 6 筆），不作為主卡片。"
       },
       "data": {
-        "estimated_kp": 0.67,
-        "kp_label": "1M",
-        "window_max": 0.67,
-        "last180_max": 0.67,
-        "n_samples": 355,
-        "window_start": "2026-09-23T12:08:00Z"
+        "estimated_kp": 0.0,
+        "kp_label": "0Z",
+        "window_max": 1.33,
+        "last180_max": 1.33,
+        "n_samples": 358,
+        "window_start": "2026-09-23T13:08:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of a completed hour that is not a trailing incomplete placeholder (17:00 UTC on 23 September). Report last-180 and full published-window maxima.",
-        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 17:00 UTC is 0.67/1M; the hour ends 0.67/1M at 17:59. The earlier 1.00/1Z sample has already rolled off the published window."
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of a completed hour that is not a trailing incomplete placeholder (18:00 UTC on 23 September). Report last-180 and full published-window maxima.",
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 18:00 UTC is 0.00/0Z; the hour ends 1.33/1P at 18:59. The 19:00 UTC hour is incomplete."
       },
       "visual": {
         "type": "bar",
-        "value": 0.67,
+        "value": 0.0,
         "min": 0,
         "max": 9
+      }
+    },
+    {
+      "id": "usgs-us6000tx58",
+      "type": "earthquake",
+      "time_utc": "2026-09-23T17:46:06Z",
+      "title": {
+        "en": "M5.0 earthquake 140 km NNE of Ba, Fiji on 23 September 2026.",
+        "zh": "2026 年 9 月 23 日，斐濟巴市北北東約 140 公里發生規模 5.0 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mww 5.0, depth about 10 km. Current day-feed maximum is mww 5.7 (us6000tx3m, 180 km NW of Hihifo, Tonga).",
+        "zh": "USGS M4.5+ 一日饋送：mww 5.0，深度約 10 公里。一日饋送目前最大為 mww 5.7（us6000tx3m，東加 Hihifo 西北約 180 公里）。"
+      },
+      "data": {
+        "magnitude": 5.0,
+        "magType": "mww",
+        "place": "140 km NNE of Ba, Fiji",
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx58"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx58"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.0,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us6000tx4w",
+      "type": "earthquake",
+      "time_utc": "2026-09-23T16:48:37Z",
+      "title": {
+        "en": "M4.6 earthquake 59 km WNW of San Antonio de los Cobres, Argentina on 23 September 2026.",
+        "zh": "2026 年 9 月 23 日，阿根廷聖安東尼奧德洛斯科布雷斯西北西約 59 公里發生規模 4.6 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 193 km. Current day-feed maximum is mww 5.7 (us6000tx3m, 180 km NW of Hihifo, Tonga).",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 193 公里。一日饋送目前最大為 mww 5.7（us6000tx3m，東加 Hihifo 西北約 180 公里）。"
+      },
+      "data": {
+        "magnitude": 4.6,
+        "magType": "mb",
+        "place": "59 km WNW of San Antonio de los Cobres, Argentina",
+        "depth_km": 193,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx4w"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx4w"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.6,
+        "min": 0,
+        "max": 10
       }
     },
     {
