@@ -1,38 +1,104 @@
 {
   "date": "2026-09-23",
-  "updated": "2026-09-23T20:09:00+08:00",
+  "updated": "2026-09-23T21:38:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-23T11:00:00Z",
+      "time_utc": "2026-09-23T12:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.33 (quiet) at 11:00 UTC on 23 September 2026.",
-        "zh": "2026 年 9 月 23 日 11:00 UTC，估計行星 Kp 為 0.33（平靜）。"
+        "en": "Estimated planetary Kp is 0.00 (quiet) at 12:00 UTC on 23 September 2026.",
+        "zh": "2026 年 9 月 23 日 12:00 UTC，估計行星 Kp 為 0.00（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.33 (0P) at 11:00 UTC on 23 September. The 11:00 hour is complete (60 samples through 11:59; hour-start 0.33/0P, hour-end 0.67/1M). Last-180 maximum is 1.00 (first at 2026-09-23 11:42 UTC; label 1Z; last-180 window from 09:05 UTC). Published-window maximum is 1.00 (first at 2026-09-23 11:42 UTC; label 1Z). Window start 2026-09-23 06:08 UTC (357 samples). estimated_kp remains below 5.0. The 12:00 UTC hour is still incomplete (5 samples through 12:04) and is not used as the main card.",
-        "zh": "最後可靠整點估計 Kp 為 0.33（0P），取樣 2026-09-23 11:00 UTC。11:00 時段已收滿 60 筆（至 11:59，時段初 0.33／0P、時段末 0.67／1M）。近 180 筆最大 1.00（最先見於 2026-09-23 11:42 UTC；標籤 1Z；近 180 筆窗自 09:05 UTC 起）；公開窗最大 1.00（最先見於 2026-09-23 11:42 UTC；標籤 1Z）。窗起點 2026-09-23 06:08 UTC（357 筆）。estimated_kp 仍低於 5.0。12:00 UTC 時段尚未收滿（至 12:04 僅 5 筆），不作為主卡片。"
+        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 12:00 UTC on 23 September. The 12:00 hour is complete (60 samples through 12:59; hour-start 0.00/0Z, hour-end 0.33/0P). Last-180 maximum is 1.00 (first at 2026-09-23 11:42 UTC; label 1Z; last-180 window from 10:34 UTC). Published-window maximum is 1.00 (first at 2026-09-23 11:42 UTC; label 1Z). Window start 2026-09-23 07:36 UTC (358 samples). estimated_kp remains below 5.0. The 13:00 UTC hour is still incomplete (34 samples through 13:33) and is not used as the main card.",
+        "zh": "最後可靠整點估計 Kp 為 0.00（0Z），取樣 2026-09-23 12:00 UTC。12:00 時段已收滿 60 筆（至 12:59，時段初 0.00／0Z、時段末 0.33／0P）。近 180 筆最大 1.00（最先見於 2026-09-23 11:42 UTC；標籤 1Z；近 180 筆窗自 10:34 UTC 起）；公開窗最大 1.00（最先見於 2026-09-23 11:42 UTC；標籤 1Z）。窗起點 2026-09-23 07:36 UTC（358 筆）。estimated_kp 仍低於 5.0。13:00 UTC 時段尚未收滿（至 13:33 僅 34 筆），不作為主卡片。"
       },
       "data": {
-        "estimated_kp": 0.33,
-        "kp_label": "0P",
+        "estimated_kp": 0.0,
+        "kp_label": "0Z",
         "window_max": 1.0,
         "last180_max": 1.0,
-        "n_samples": 357,
-        "window_start": "2026-09-23T06:08:00Z"
+        "n_samples": 358,
+        "window_start": "2026-09-23T07:36:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of a completed hour that is not a trailing incomplete placeholder (11:00 UTC on 23 September). Report last-180 and full published-window maxima.",
-        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 11:00 UTC is 0.33/0P; the hour ends 0.67/1M at 11:59. A 1.00/1Z sample appears at 2026-09-23 11:42 UTC."
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of a completed hour that is not a trailing incomplete placeholder (12:00 UTC on 23 September). Report last-180 and full published-window maxima.",
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 12:00 UTC is 0.00/0Z; the hour ends 0.33/0P at 12:59. A 1.00/1Z sample appears at 2026-09-23 11:42 UTC."
       },
       "visual": {
         "type": "bar",
-        "value": 0.33,
+        "value": 0.0,
         "min": 0,
         "max": 9
+      }
+    },
+    {
+      "id": "usgs-us6000tx38",
+      "type": "earthquake",
+      "time_utc": "2026-09-23T13:01:51Z",
+      "title": {
+        "en": "A magnitude 5.0 earthquake occurred in the Mariana Islands region on 23 September 2026.",
+        "zh": "2026 年 9 月 23 日，馬里亞納群島區域發生規模 5.0 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5.0, depth about 306 km. Current day-feed maximum is mww 5.3 (us6000tx29, 51 km WSW of Arauco, Argentina).",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.0，深度約 306 公里。一日饋送目前最大為 mww 5.3（us6000tx29，阿根廷 Arauco 西南偏西約 51 公里）。"
+      },
+      "data": {
+        "magnitude": 5.0,
+        "magType": "mb",
+        "place": "Mariana Islands region",
+        "depth_km": 306,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx38"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx38"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.0,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us6000tx31",
+      "type": "earthquake",
+      "time_utc": "2026-09-23T12:23:20Z",
+      "title": {
+        "en": "A magnitude 4.6 earthquake occurred 106 km WNW of Ternate, Indonesia on 23 September 2026.",
+        "zh": "2026 年 9 月 23 日，印尼 Ternate 西北偏西約 106 公里發生規模 4.6 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 48 km. Current day-feed maximum is mww 5.3 (us6000tx29, 51 km WSW of Arauco, Argentina).",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 48 公里。一日饋送目前最大為 mww 5.3（us6000tx29，阿根廷 Arauco 西南偏西約 51 公里）。"
+      },
+      "data": {
+        "magnitude": 4.6,
+        "magType": "mb",
+        "place": "106 km WNW of Ternate, Indonesia",
+        "depth_km": 48,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx31"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx31"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.6,
+        "min": 0,
+        "max": 10
       }
     },
     {
