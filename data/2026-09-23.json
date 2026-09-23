@@ -1,38 +1,71 @@
 {
   "date": "2026-09-23",
-  "updated": "2026-09-24T01:28:00+08:00",
+  "updated": "2026-09-24T02:07:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-23T16:00:00Z",
+      "time_utc": "2026-09-23T17:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.33 (quiet) at 16:00 UTC on 23 September 2026.",
-        "zh": "2026 年 9 月 23 日 16:00 UTC，估計行星 Kp 為 0.33（平靜）。"
+        "en": "Estimated planetary Kp is 0.67 (quiet) at 17:00 UTC on 23 September 2026.",
+        "zh": "2026 年 9 月 23 日 17:00 UTC，估計行星 Kp 為 0.67（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.33 (0P) at 16:00 UTC on 23 September. The 16:00 hour is complete (60 samples through 16:59; hour-start 0.33/0P, hour-end 0.67/1M). Last-180 maximum is 0.67 (first at 2026-09-23 14:24 UTC; label 1M; last-180 window from 14:24 UTC). Published-window maximum is 1.00 (first at 2026-09-23 11:42 UTC; label 1Z). Window start 2026-09-23 11:26 UTC (358 samples). estimated_kp remains below 5.0. The 17:00 UTC hour is still incomplete (24 samples through 17:23) and is not used as the main card.",
-        "zh": "最後可靠整點估計 Kp 為 0.33（0P），取樣 2026-09-23 16:00 UTC。16:00 時段已收滿 60 筆（至 16:59，時段初 0.33／0P、時段末 0.67／1M）。近 180 筆最大 0.67（最先見於 2026-09-23 14:24 UTC；標籤 1M；近 180 筆窗自 14:24 UTC 起）；公開窗最大 1.00（最先見於 2026-09-23 11:42 UTC；標籤 1Z）。窗起點 2026-09-23 11:26 UTC（358 筆）。estimated_kp 仍低於 5.0。17:00 UTC 時段尚未收滿（至 17:23 僅 24 筆），不作為主卡片。"
+        "en": "Latest reliable hour-start estimated Kp is 0.67 (1M) at 17:00 UTC on 23 September. The 17:00 hour is complete (60 samples through 17:59; hour-start 0.67/1M, hour-end 0.67/1M). Last-180 maximum is 0.67 (first at 2026-09-23 16:16 UTC; label 1M; last-180 window from 15:03 UTC). Published-window maximum is 0.67 (first at 2026-09-23 13:52 UTC; label 1M). Window start 2026-09-23 12:08 UTC (355 samples). estimated_kp remains below 5.0. The 18:00 UTC hour is still incomplete (3 samples through 18:02) and is not used as the main card.",
+        "zh": "最後可靠整點估計 Kp 為 0.67（1M），取樣 2026-09-23 17:00 UTC。17:00 時段已收滿 60 筆（至 17:59，時段初 0.67／1M、時段末 0.67／1M）。近 180 筆最大 0.67（最先見於 2026-09-23 16:16 UTC；標籤 1M；近 180 筆窗自 15:03 UTC 起）；公開窗最大 0.67（最先見於 2026-09-23 13:52 UTC；標籤 1M）。窗起點 2026-09-23 12:08 UTC（355 筆）。estimated_kp 仍低於 5.0。18:00 UTC 時段尚未收滿（至 18:02 僅 3 筆），不作為主卡片。"
       },
       "data": {
-        "estimated_kp": 0.33,
-        "kp_label": "0P",
-        "window_max": 1.0,
+        "estimated_kp": 0.67,
+        "kp_label": "1M",
+        "window_max": 0.67,
         "last180_max": 0.67,
-        "n_samples": 358,
-        "window_start": "2026-09-23T11:26:00Z"
+        "n_samples": 355,
+        "window_start": "2026-09-23T12:08:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of a completed hour that is not a trailing incomplete placeholder (16:00 UTC on 23 September). Report last-180 and full published-window maxima.",
-        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 16:00 UTC is 0.33/0P; the hour ends 0.67/1M at 16:59. A 1.00/1Z sample remains in the published window at 2026-09-23 11:42 UTC."
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of a completed hour that is not a trailing incomplete placeholder (17:00 UTC on 23 September). Report last-180 and full published-window maxima.",
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 17:00 UTC is 0.67/1M; the hour ends 0.67/1M at 17:59. The earlier 1.00/1Z sample has already rolled off the published window."
       },
       "visual": {
         "type": "bar",
-        "value": 0.33,
+        "value": 0.67,
         "min": 0,
         "max": 9
+      }
+    },
+    {
+      "id": "usgs-us6000tx53",
+      "type": "earthquake",
+      "time_utc": "2026-09-23T17:20:32Z",
+      "title": {
+        "en": "A magnitude 4.9 earthquake occurred 193 km SE of Mata-Utu, Wallis and Futuna on 23 September 2026.",
+        "zh": "2026 年 9 月 23 日，瓦利斯和富圖納馬塔烏圖東南約 193 公里發生規模 4.9 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.9, depth about 10 km. Current day-feed maximum is mww 5.7 (us6000tx3m, 180 km NW of Hihifo, Tonga).",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 10 公里。一日饋送目前最大為 mww 5.7（us6000tx3m，東加 Hihifo 西北約 180 公里）。"
+      },
+      "data": {
+        "magnitude": 4.9,
+        "magType": "mb",
+        "place": "193 km SE of Mata-Utu, Wallis and Futuna",
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx53"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx53"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.9,
+        "min": 0,
+        "max": 10
       }
     },
     {
