@@ -1,38 +1,104 @@
 {
   "date": "2026-09-23",
-  "updated": "2026-09-23T21:38:00+08:00",
+  "updated": "2026-09-23T23:33:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-23T12:00:00Z",
+      "time_utc": "2026-09-23T14:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (quiet) at 12:00 UTC on 23 September 2026.",
-        "zh": "2026 年 9 月 23 日 12:00 UTC，估計行星 Kp 為 0.00（平靜）。"
+        "en": "Estimated planetary Kp is 0.33 (quiet) at 14:00 UTC on 23 September 2026.",
+        "zh": "2026 年 9 月 23 日 14:00 UTC，估計行星 Kp 為 0.33（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 12:00 UTC on 23 September. The 12:00 hour is complete (60 samples through 12:59; hour-start 0.00/0Z, hour-end 0.33/0P). Last-180 maximum is 1.00 (first at 2026-09-23 11:42 UTC; label 1Z; last-180 window from 10:34 UTC). Published-window maximum is 1.00 (first at 2026-09-23 11:42 UTC; label 1Z). Window start 2026-09-23 07:36 UTC (358 samples). estimated_kp remains below 5.0. The 13:00 UTC hour is still incomplete (34 samples through 13:33) and is not used as the main card.",
-        "zh": "最後可靠整點估計 Kp 為 0.00（0Z），取樣 2026-09-23 12:00 UTC。12:00 時段已收滿 60 筆（至 12:59，時段初 0.00／0Z、時段末 0.33／0P）。近 180 筆最大 1.00（最先見於 2026-09-23 11:42 UTC；標籤 1Z；近 180 筆窗自 10:34 UTC 起）；公開窗最大 1.00（最先見於 2026-09-23 11:42 UTC；標籤 1Z）。窗起點 2026-09-23 07:36 UTC（358 筆）。estimated_kp 仍低於 5.0。13:00 UTC 時段尚未收滿（至 13:33 僅 34 筆），不作為主卡片。"
+        "en": "Latest reliable hour-start estimated Kp is 0.33 (0P) at 14:00 UTC on 23 September. The 14:00 hour is complete (60 samples through 14:59; hour-start 0.33/0P, hour-end 0.67/1M). Last-180 maximum is 0.67 (first at 2026-09-23 13:52 UTC; label 1M; last-180 window from 12:30 UTC). Published-window maximum is 1.00 (first at 2026-09-23 11:42 UTC; label 1Z). Window start 2026-09-23 09:32 UTC (358 samples). estimated_kp remains below 5.0. The 15:00 UTC hour is still incomplete (30 samples through 15:29) and is not used as the main card.",
+        "zh": "最後可靠整點估計 Kp 為 0.33（0P），取樣 2026-09-23 14:00 UTC。14:00 時段已收滿 60 筆（至 14:59，時段初 0.33／0P、時段末 0.67／1M）。近 180 筆最大 0.67（最先見於 2026-09-23 13:52 UTC；標籤 1M；近 180 筆窗自 12:30 UTC 起）；公開窗最大 1.00（最先見於 2026-09-23 11:42 UTC；標籤 1Z）。窗起點 2026-09-23 09:32 UTC（358 筆）。estimated_kp 仍低於 5.0。15:00 UTC 時段尚未收滿（至 15:29 僅 30 筆），不作為主卡片。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp_label": "0Z",
+        "estimated_kp": 0.33,
+        "kp_label": "0P",
         "window_max": 1.0,
-        "last180_max": 1.0,
+        "last180_max": 0.67,
         "n_samples": 358,
-        "window_start": "2026-09-23T07:36:00Z"
+        "window_start": "2026-09-23T09:32:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of a completed hour that is not a trailing incomplete placeholder (12:00 UTC on 23 September). Report last-180 and full published-window maxima.",
-        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 12:00 UTC is 0.00/0Z; the hour ends 0.33/0P at 12:59. A 1.00/1Z sample appears at 2026-09-23 11:42 UTC."
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of a completed hour that is not a trailing incomplete placeholder (14:00 UTC on 23 September). Report last-180 and full published-window maxima.",
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 14:00 UTC is 0.33/0P; the hour ends 0.67/1M at 14:59. A 1.00/1Z sample remains in the published window at 2026-09-23 11:42 UTC."
       },
       "visual": {
         "type": "bar",
-        "value": 0.0,
+        "value": 0.33,
         "min": 0,
         "max": 9
+      }
+    },
+    {
+      "id": "usgs-us6000tx3n",
+      "type": "earthquake",
+      "time_utc": "2026-09-23T14:45:35Z",
+      "title": {
+        "en": "A magnitude 4.6 earthquake occurred south of the Fiji Islands on 23 September 2026.",
+        "zh": "2026 年 9 月 23 日，斐濟群島以南發生規模 4.6 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 528 km. Current day-feed maximum is mww 5.7 (us6000tx3m, 180 km NW of Hihifo, Tonga).",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 528 公里。一日饋送目前最大為 mww 5.7（us6000tx3m，東加 Hihifo 西北約 180 公里）。"
+      },
+      "data": {
+        "magnitude": 4.6,
+        "magType": "mb",
+        "place": "south of the Fiji Islands",
+        "depth_km": 528,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx3n"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx3n"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.6,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us6000tx3m",
+      "type": "earthquake",
+      "time_utc": "2026-09-23T14:41:02Z",
+      "title": {
+        "en": "A magnitude 5.7 earthquake occurred 180 km NW of Hihifo, Tonga on 23 September 2026.",
+        "zh": "2026 年 9 月 23 日，東加 Hihifo 西北約 180 公里發生規模 5.7 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mww 5.7, depth about 10 km. This event is also the current day-feed maximum.",
+        "zh": "USGS M4.5+ 一日饋送：mww 5.7，深度約 10 公里。此事件同時為一日饋送目前最大。"
+      },
+      "data": {
+        "magnitude": 5.7,
+        "magType": "mww",
+        "place": "180 km NW of Hihifo, Tonga",
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx3m"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx3m"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.7,
+        "min": 0,
+        "max": 10
       }
     },
     {
