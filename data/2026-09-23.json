@@ -1,36 +1,36 @@
 {
   "date": "2026-09-23",
-  "updated": "2026-09-24T05:10:00+08:00",
+  "updated": "2026-09-24T06:14:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-23T20:00:00Z",
+      "time_utc": "2026-09-23T21:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 1.67 (unsettled) at 20:00 UTC on 23 September 2026.",
-        "zh": "2026 年 9 月 23 日 20:00 UTC，估計行星 Kp 為 1.67（不穩）。"
+        "en": "Estimated planetary Kp is 0.00 (quiet) at 21:00 UTC on 23 September 2026.",
+        "zh": "2026 年 9 月 23 日 21:00 UTC，估計行星 Kp 為 0.00（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 1.67 (2M) at 20:00 UTC on 23 September. The 20:00 hour is complete (60 samples through 20:59; hour-start 1.67/2M, hour-end 1.67/2M). Last-180 maximum is 1.67 (first at 2026-09-23 19:51 UTC; label 2M; last-180 window from 18:06 UTC). Published-window maximum is 1.67 (first at 2026-09-23 19:51 UTC; label 2M). Window start 2026-09-23 15:08 UTC (358 samples). estimated_kp remains below 5.0. The 21:00 UTC hour is still incomplete (6 samples through 21:05) and is not used as the main card.",
-        "zh": "最後可靠整點估計 Kp 為 1.67（2M），取樣 2026-09-23 20:00 UTC。20:00 時段已收滿 60 筆（至 20:59，時段初 1.67／2M、時段末 1.67／2M）。近 180 筆最大 1.67（最先見於 2026-09-23 19:51 UTC；標籤 2M；近 180 筆窗自 18:06 UTC 起）；公開窗最大 1.67（最先見於 2026-09-23 19:51 UTC；標籤 2M）。窗起點 2026-09-23 15:08 UTC（358 筆）。estimated_kp 仍低於 5.0。21:00 UTC 時段尚未收滿（至 21:05 僅 6 筆），不作為主卡片。"
+        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 21:00 UTC on 23 September. The 21:00 hour is complete (60 samples through 21:59; hour-start 0.00/0Z, hour-end 0.67/1M). Last-180 maximum is 1.67 (first at 2026-09-23 19:51 UTC; label 2M; last-180 window from 19:11 UTC). Published-window maximum is 1.67 (first at 2026-09-23 19:51 UTC; label 2M). Window start 2026-09-23 16:13 UTC (358 samples). estimated_kp remains below 5.0. The 22:00 UTC hour is still incomplete (11 samples through 22:10) and is not used as the main card.",
+        "zh": "最後可靠整點估計 Kp 為 0.00（0Z），取樣 2026-09-23 21:00 UTC。21:00 時段已收滿 60 筆（至 21:59，時段初 0.00／0Z、時段末 0.67／1M）。近 180 筆最大 1.67（最先見於 2026-09-23 19:51 UTC；標籤 2M；近 180 筆窗自 19:11 UTC 起）；公開窗最大 1.67（最先見於 2026-09-23 19:51 UTC；標籤 2M）。窗起點 2026-09-23 16:13 UTC（358 筆）。estimated_kp 仍低於 5.0。22:00 UTC 時段尚未收滿（至 22:10 僅 11 筆），不作為主卡片。"
       },
       "data": {
-        "estimated_kp": 1.67,
-        "kp_label": "2M",
+        "estimated_kp": 0.0,
+        "kp_label": "0Z",
         "window_max": 1.67,
         "last180_max": 1.67,
         "n_samples": 358,
-        "window_start": "2026-09-23T15:08:00Z"
+        "window_start": "2026-09-23T16:13:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of a completed hour that is not a trailing incomplete placeholder (20:00 UTC on 23 September). Report last-180 and full published-window maxima.",
-        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 20:00 UTC is 1.67/2M; the hour ends 1.67/2M at 20:59. The 21:00 UTC hour is incomplete."
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of a completed hour that is not a trailing incomplete placeholder (21:00 UTC on 23 September). Report last-180 and full published-window maxima.",
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 21:00 UTC is 0.00/0Z; the hour ends 0.67/1M at 21:59. The 22:00 UTC hour is incomplete."
       },
       "visual": {
         "type": "bar",
-        "value": 1.67,
+        "value": 0.0,
         "min": 0,
         "max": 9
       }
