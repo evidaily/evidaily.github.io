@@ -1,38 +1,71 @@
 {
   "date": "2026-09-23",
-  "updated": "2026-09-23T16:01:00+08:00",
+  "updated": "2026-09-23T17:16:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-23T06:00:00Z",
+      "time_utc": "2026-09-23T08:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (quiet) at 06:00 UTC on 23 September 2026.",
-        "zh": "2026 年 9 月 23 日 06:00 UTC，估計行星 Kp 為 0.00（平靜）。"
+        "en": "Estimated planetary Kp is 0.33 (quiet) at 08:00 UTC on 23 September 2026.",
+        "zh": "2026 年 9 月 23 日 08:00 UTC，估計行星 Kp 為 0.33（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 06:00 UTC on 23 September. The 06:00 hour is complete (60 samples through 06:59; hour-start 0.00/0Z, hour-end 0.00/0Z). Last-180 maximum is 0.67 (first at 2026-09-23 04:57 UTC; label 1M; last-180 window from 04:57 UTC). Published-window maximum is 0.67 (first at 2026-09-23 04:41 UTC; label 1M). Window start 2026-09-23 01:59 UTC (358 samples). estimated_kp remains below 5.0. The 07:00 UTC hour is still incomplete (57 samples through 07:56) and is not used as the main card.",
-        "zh": "最後可靠整點估計 Kp 為 0.00（0Z），取樣 2026-09-23 06:00 UTC。06:00 時段已收滿 60 筆（至 06:59，時段初 0.00／0Z、時段末 0.00／0Z）。近 180 筆最大 0.67（最先見於 2026-09-23 04:57 UTC；標籤 1M；近 180 筆窗自 04:57 UTC 起）；公開窗最大 0.67（最先見於 2026-09-23 04:41 UTC；標籤 1M）。窗起點 2026-09-23 01:59 UTC（358 筆）。estimated_kp 仍低於 5.0。07:00 UTC 時段尚未收滿（至 07:56 僅 57 筆），不作為主卡片。"
+        "en": "Latest reliable hour-start estimated Kp is 0.33 (0P) at 08:00 UTC on 23 September. The 08:00 hour is complete (60 samples through 08:59; hour-start 0.33/0P, hour-end 0.33/0P). Last-180 maximum is 0.33 (first at 2026-09-23 07:57 UTC; label 0P; last-180 window from 06:13 UTC). Published-window maximum is 0.67 (first at 2026-09-23 04:41 UTC; label 1M). Window start 2026-09-23 03:15 UTC (358 samples). estimated_kp remains below 5.0. The 09:00 UTC hour is still incomplete (13 samples through 09:12) and is not used as the main card.",
+        "zh": "最後可靠整點估計 Kp 為 0.33（0P），取樣 2026-09-23 08:00 UTC。08:00 時段已收滿 60 筆（至 08:59，時段初 0.33／0P、時段末 0.33／0P）。近 180 筆最大 0.33（最先見於 2026-09-23 07:57 UTC；標籤 0P；近 180 筆窗自 06:13 UTC 起）；公開窗最大 0.67（最先見於 2026-09-23 04:41 UTC；標籤 1M）。窗起點 2026-09-23 03:15 UTC（358 筆）。estimated_kp 仍低於 5.0。09:00 UTC 時段尚未收滿（至 09:12 僅 13 筆），不作為主卡片。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp_label": "0Z",
+        "estimated_kp": 0.33,
+        "kp_label": "0P",
         "window_max": 0.67,
-        "last180_max": 0.67,
+        "last180_max": 0.33,
         "n_samples": 358,
-        "window_start": "2026-09-23T01:59:00Z"
+        "window_start": "2026-09-23T03:15:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of a completed hour that is not a trailing incomplete placeholder (06:00 UTC on 23 September). Report last-180 and full published-window maxima.",
-        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 06:00 UTC is 0.00/0Z; the hour ends 0.00/0Z at 06:59. A 0.67/1M excursion remains in the published window (first remaining sample at 2026-09-23 04:41 UTC)."
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of a completed hour that is not a trailing incomplete placeholder (08:00 UTC on 23 September). Report last-180 and full published-window maxima.",
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 08:00 UTC is 0.33/0P; the hour ends 0.33/0P at 08:59. A 0.67/1M excursion remains in the published window (first remaining sample at 2026-09-23 04:41 UTC)."
       },
       "visual": {
         "type": "bar",
-        "value": 0.0,
+        "value": 0.33,
         "min": 0,
         "max": 9
+      }
+    },
+    {
+      "id": "usgs-us6000tx23",
+      "type": "earthquake",
+      "time_utc": "2026-09-23T08:41:58Z",
+      "title": {
+        "en": "A magnitude 4.9 earthquake occurred in the Scotia Sea on 23 September 2026.",
+        "zh": "2026 年 9 月 23 日，斯科舍海發生規模 4.9 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.9, depth about 10 km. Current day-feed maximum is mww 5.1 (us7000tj4y, 88 km NNW of Uken, Japan).",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 10 公里。一日饋送目前最大為 mww 5.1（us7000tj4y，日本 Uken 西北偏北約 88 公里）。"
+      },
+      "data": {
+        "magnitude": 4.9,
+        "magType": "mb",
+        "place": "Scotia Sea",
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx23"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx23"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.9,
+        "min": 0,
+        "max": 10
       }
     },
     {
@@ -44,14 +77,13 @@
         "zh": "2026 年 9 月 23 日，塔吉克 Khorugh 東南約 30 公里發生規模 4.7 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.7, depth about 141 km. Current day-feed maximum is mww 5.1 (us7000tj4y, 88 km NNW of Uken, Japan).",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 141 公里。一日饋送目前最大為 mww 5.1（us7000tj4y，日本 Uken 西北偏北約 88 公里）。"
+        "en": "USGS M4.5+ day feed: mb 4.7. Current day-feed maximum is mww 5.1 (us7000tj4y, 88 km NNW of Uken, Japan).",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.7。一日饋送目前最大為 mww 5.1（us7000tj4y，日本 Uken 西北偏北約 88 公里）。"
       },
       "data": {
         "magnitude": 4.7,
         "magType": "mb",
         "place": "30 km SE of Khorugh, Tajikistan",
-        "depth_km": 141,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx16"
       },
       "evidence": {
