@@ -1,36 +1,36 @@
 {
   "date": "2026-09-23",
-  "updated": "2026-09-24T03:10:00+08:00",
+  "updated": "2026-09-24T04:17:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-23T18:00:00Z",
+      "time_utc": "2026-09-23T19:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (quiet) at 18:00 UTC on 23 September 2026.",
-        "zh": "2026 年 9 月 23 日 18:00 UTC，估計行星 Kp 為 0.00（平靜）。"
+        "en": "Estimated planetary Kp is 1.33 (quiet to unsettled) at 19:00 UTC on 23 September 2026.",
+        "zh": "2026 年 9 月 23 日 19:00 UTC，估計行星 Kp 為 1.33（平靜偏不穩）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 18:00 UTC on 23 September. The 18:00 hour is complete (60 samples through 18:59; hour-start 0.00/0Z, hour-end 1.33/1P). Last-180 maximum is 1.33 (first at 2026-09-23 18:57 UTC; label 1P; last-180 window from 16:06 UTC). Published-window maximum is 1.33 (first at 2026-09-23 18:57 UTC; label 1P). Window start 2026-09-23 13:08 UTC (358 samples). estimated_kp remains below 5.0. The 19:00 UTC hour is still incomplete (6 samples through 19:05) and is not used as the main card.",
-        "zh": "最後可靠整點估計 Kp 為 0.00（0Z），取樣 2026-09-23 18:00 UTC。18:00 時段已收滿 60 筆（至 18:59，時段初 0.00／0Z、時段末 1.33／1P）。近 180 筆最大 1.33（最先見於 2026-09-23 18:57 UTC；標籤 1P；近 180 筆窗自 16:06 UTC 起）；公開窗最大 1.33（最先見於 2026-09-23 18:57 UTC；標籤 1P）。窗起點 2026-09-23 13:08 UTC（358 筆）。estimated_kp 仍低於 5.0。19:00 UTC 時段尚未收滿（至 19:05 僅 6 筆），不作為主卡片。"
+        "en": "Latest reliable hour-start estimated Kp is 1.33 (1P) at 19:00 UTC on 23 September. The 19:00 hour is complete (60 samples through 19:59; hour-start 1.33/1P, hour-end 1.67/2M). Last-180 maximum is 1.67 (first at 2026-09-23 19:51 UTC; label 2M; last-180 window from 17:15 UTC). Published-window maximum is 1.67 (first at 2026-09-23 19:51 UTC; label 2M). Window start 2026-09-23 14:18 UTC (357 samples). estimated_kp remains below 5.0. The 20:00 UTC hour is still incomplete (15 samples through 20:14) and is not used as the main card.",
+        "zh": "最後可靠整點估計 Kp 為 1.33（1P），取樣 2026-09-23 19:00 UTC。19:00 時段已收滿 60 筆（至 19:59，時段初 1.33／1P、時段末 1.67／2M）。近 180 筆最大 1.67（最先見於 2026-09-23 19:51 UTC；標籤 2M；近 180 筆窗自 17:15 UTC 起）；公開窗最大 1.67（最先見於 2026-09-23 19:51 UTC；標籤 2M）。窗起點 2026-09-23 14:18 UTC（357 筆）。estimated_kp 仍低於 5.0。20:00 UTC 時段尚未收滿（至 20:14 僅 15 筆），不作為主卡片。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp_label": "0Z",
-        "window_max": 1.33,
-        "last180_max": 1.33,
-        "n_samples": 358,
-        "window_start": "2026-09-23T13:08:00Z"
+        "estimated_kp": 1.33,
+        "kp_label": "1P",
+        "window_max": 1.67,
+        "last180_max": 1.67,
+        "n_samples": 357,
+        "window_start": "2026-09-23T14:18:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of a completed hour that is not a trailing incomplete placeholder (18:00 UTC on 23 September). Report last-180 and full published-window maxima.",
-        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 18:00 UTC is 0.00/0Z; the hour ends 1.33/1P at 18:59. The 19:00 UTC hour is incomplete."
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of a completed hour that is not a trailing incomplete placeholder (19:00 UTC on 23 September). Report last-180 and full published-window maxima.",
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 19:00 UTC is 1.33/1P; the hour ends 1.67/2M at 19:59. The 20:00 UTC hour is incomplete."
       },
       "visual": {
         "type": "bar",
-        "value": 0.0,
+        "value": 1.33,
         "min": 0,
         "max": 9
       }
