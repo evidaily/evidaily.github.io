@@ -1,40 +1,73 @@
 {
   "date": "2026-09-25",
-  "updated": "2026-09-25T19:12:00+08:00",
+  "updated": "2026-09-25T20:04:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-25T10:00:00Z",
+      "time_utc": "2026-09-25T11:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 3.67 (unsettled) at 10:00 UTC on 25 September 2026.",
-        "zh": "2026 年 9 月 25 日 10:00 UTC，估計行星 Kp 為 3.67（不穩定）。"
+        "en": "Estimated planetary Kp is 4.00 (active) at 11:00 UTC on 25 September 2026.",
+        "zh": "2026 年 9 月 25 日 11:00 UTC，估計行星 Kp 為 4.00（活躍）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 3.67 (4M) at 10:00 UTC on 25 September. The 10:00 hour is complete (60 samples through 10:59; hour-start 3.67/4M, hour-end 4.00/4Z). Last-180 maximum is 4.00 (first at 2026-09-25T08:09:00 UTC; label 4Z). Published-window maximum is 4.00 (first at 2026-09-25T07:47:00 UTC; label 4Z). Window start 2026-09-25T05:11:00 UTC (358 samples). estimated_kp remains below 5.0. The 11:00 UTC hour on 25 September is still incomplete (9 samples).",
-        "zh": "最新可靠整點估計 Kp 為 3.67（4M），取樣 2026-09-25 10:00 UTC。10:00 時段已收滿 60 筆（至 10:59，時段初 3.67／4M、時段末 4.00／4Z）。近 180 筆最大 4.00（最先見於 2026-09-25T08:09:00 UTC；標籤 4Z）；公開窗最大 4.00（最先見於 2026-09-25T07:47:00 UTC；標籤 4Z）。窗起點 2026-09-25T05:11:00 UTC（358 筆）。estimated_kp 仍低於 5.0。2026-09-25 11:00 UTC 時段尚未收滿（9 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 4.00 (4Z) at 11:00 UTC on 25 September. The 11:00 hour is complete (60 samples through 11:59; hour-start 4.00/4Z, hour-end 4.33/4P). Last-180 maximum is 4.33 (first at 2026-09-25T11:57:00 UTC; label 4P). Published-window maximum is 4.33 (first at 2026-09-25T11:57:00 UTC; label 4P). Window start 2026-09-25T06:03:00 UTC (357 samples). estimated_kp remains below 5.0. The 12:00 UTC hour on 25 September is still incomplete (0 samples).",
+        "zh": "最新可靠整點估計 Kp 為 4.00（4Z），取樣 2026-09-25 11:00 UTC。11:00 時段已收滿 60 筆（至 11:59，時段初 4.00／4Z、時段末 4.33／4P）。近 180 筆最大 4.33（最先見於 2026-09-25T11:57:00 UTC；標籤 4P）；公開窗最大 4.33（最先見於 2026-09-25T11:57:00 UTC；標籤 4P）。窗起點 2026-09-25T06:03:00 UTC（357 筆）。estimated_kp 仍低於 5.0。2026-09-25 12:00 UTC 時段尚未收滿（0 筆）。"
       },
       "data": {
-        "estimated_kp": 3.67,
-        "kp_label": "4M",
-        "window_max": 4.0,
-        "last180_max": 4.0,
-        "n_samples": 358,
-        "window_start": "2026-09-25T05:11:00Z"
+        "estimated_kp": 4.0,
+        "kp_label": "4Z",
+        "window_max": 4.33,
+        "last180_max": 4.33,
+        "n_samples": 357,
+        "window_start": "2026-09-25T06:03:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of the most complete recent hour (10:00 UTC on 25 September). Report last-180 and full published-window maxima.",
-        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 10:00 UTC is 3.67/4M and the hour ends 4.00/4Z at 10:59. The 11:00 UTC hour on 25 September is incomplete (9 samples through 11:08)."
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of the most complete recent hour (11:00 UTC on 25 September). Report last-180 and full published-window maxima.",
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 11:00 UTC is 4.00/4Z and the hour ends 4.33/4P at 11:59. The 12:00 UTC hour on 25 September is incomplete (0 samples)."
       },
       "visual": {
         "type": "bar",
-        "value": 3.67,
+        "value": 4.0,
         "min": 0,
         "max": 9
       },
       "updated": null
+    },
+    {
+      "id": "usgs-us6000txjy",
+      "type": "earthquake",
+      "time_utc": "2026-09-25T11:12:15Z",
+      "title": {
+        "en": "M5.3 earthquake Vanuatu region on 25 September 2026.",
+        "zh": "2026 年 9 月 25 日，Vanuatu region發生規模 5.3 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mww 5.3, depth about 23.966 km.",
+        "zh": "USGS M4.5+ 一日饋送：mww 5.3，深度約 23.966 公里。"
+      },
+      "data": {
+        "magnitude": 5.3,
+        "magType": "mww",
+        "place": "Vanuatu region",
+        "depth_km": 23.966,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txjy"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Retained from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txjy"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.3,
+        "min": 0,
+        "max": 10
+      }
     },
     {
       "id": "usgs-us6000txim",
