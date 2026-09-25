@@ -1,40 +1,73 @@
 {
   "date": "2026-09-25",
-  "updated": "2026-09-25T11:04:00+08:00",
+  "updated": "2026-09-25T12:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-25T01:00:00Z",
+      "time_utc": "2026-09-25T02:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 3.00 (unsettled) at 01:00 UTC on 25 September 2026.",
-        "zh": "2026 年 9 月 25 日 01:00 UTC，估計行星 Kp 為 3.00（不穩定）。"
+        "en": "Estimated planetary Kp is 3.33 (unsettled) at 02:00 UTC on 25 September 2026.",
+        "zh": "2026 年 9 月 25 日 02:00 UTC，估計行星 Kp 為 3.33（不穩定）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 3.00 (3Z) at 01:00 UTC on 25 September. The 01:00 hour is complete (60 samples through 01:59; hour-start 3.00/3Z, hour-end 3.33/3P). Last-180 maximum is 3.67 (first at 2026-09-25T02:18:00 UTC; label 4M). Published-window maximum is 3.67 (first at 2026-09-25T02:18:00 UTC; label 4M). Window start 2026-09-24T21:02:00 UTC (357 samples). estimated_kp remains below 5.0. The 02:00 UTC hour on 25 September is still incomplete (59 samples).",
-        "zh": "最新可靠整點估計 Kp 為 3.00（3Z），取樣 2026-09-25 01:00 UTC。01:00 時段已收滿 60 筆（至 01:59，時段初 3.00／3Z、時段末 3.33／3P）。近 180 筆最大 3.67（最先見於 2026-09-25T02:18:00 UTC；標籤 4M）；公開窗最大 3.67（最先見於 2026-09-25T02:18:00 UTC；標籤 4M）。窗起點 2026-09-24T21:02:00 UTC（357 筆）。estimated_kp 仍低於 5.0。2026-09-25 02:00 UTC 時段尚未收滿（59 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 3.33 (3P) at 02:00 UTC on 25 September. The 02:00 hour is complete (60 samples through 02:59; hour-start 3.33/3P, hour-end 3.67/4M). Last-180 maximum is 3.67 (first at 2026-09-25T02:18:00 UTC; label 4M). Published-window maximum is 3.67 (first at 2026-09-25T02:18:00 UTC; label 4M). Window start 2026-09-24T22:00:00 UTC (358 samples). estimated_kp remains below 5.0. The 03:00 UTC hour on 25 September is still incomplete (58 samples).",
+        "zh": "最新可靠整點估計 Kp 為 3.33（3P），取樣 2026-09-25 02:00 UTC。02:00 時段已收滿 60 筆（至 02:59，時段初 3.33／3P、時段末 3.67／4M）。近 180 筆最大 3.67（最先見於 2026-09-25T02:18:00 UTC；標籤 4M）；公開窗最大 3.67（最先見於 2026-09-25T02:18:00 UTC；標籤 4M）。窗起點 2026-09-24T22:00:00 UTC（358 筆）。estimated_kp 仍低於 5.0。2026-09-25 03:00 UTC 時段尚未收滿（58 筆）。"
       },
       "data": {
-        "estimated_kp": 3.0,
-        "kp_label": "3Z",
+        "estimated_kp": 3.33,
+        "kp_label": "3P",
         "window_max": 3.67,
         "last180_max": 3.67,
-        "n_samples": 357,
-        "window_start": "2026-09-24T21:02:00Z"
+        "n_samples": 358,
+        "window_start": "2026-09-24T22:00:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of the most complete recent hour (01:00 UTC on 25 September). Report last-180 and full published-window maxima.",
-        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 01:00 UTC is 3.00/3Z and the hour ends 3.33/3P at 01:59. The 02:00 UTC hour on 25 September is incomplete (59 samples through 02:58)."
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of the most complete recent hour (02:00 UTC on 25 September). Report last-180 and full published-window maxima.",
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 02:00 UTC is 3.33/3P and the hour ends 3.67/4M at 02:59. The 03:00 UTC hour on 25 September is incomplete (58 samples through 03:57)."
       },
       "visual": {
         "type": "bar",
-        "value": 3.0,
+        "value": 3.33,
         "min": 0,
         "max": 9
       },
       "updated": null
+    },
+    {
+      "id": "usgs-us6000txhs",
+      "type": "earthquake",
+      "time_utc": "2026-09-25T00:57:07Z",
+      "title": {
+        "en": "M4.5 earthquake 39 km WSW of Sipí, Colombia on 25 September 2026.",
+        "zh": "2026 年 9 月 25 日，哥倫比亞西皮西南偏西約 39 公里發生規模 4.5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 52.219 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 52.219 公里。"
+      },
+      "data": {
+        "magnitude": 4.5,
+        "magType": "mb",
+        "place": "39 km WSW of Sipí, Colombia",
+        "depth_km": 52.219,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txhs"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txhs"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
+      }
     },
     {
       "id": "usgs-us6000txhp",
@@ -362,39 +395,6 @@
       "visual": {
         "type": "bar",
         "value": 5.3,
-        "min": 0,
-        "max": 10
-      }
-    },
-    {
-      "id": "usgs-us6000tx8q",
-      "type": "earthquake",
-      "time_utc": "2026-09-24T03:30:26Z",
-      "title": {
-        "en": "M4.5 earthquake 31 km NNW of Komodo, Indonesia on 24 September 2026.",
-        "zh": "2026 年 9 月 24 日，印尼科莫多北北西約 31 公里發生規模 4.5 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.5, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 10 公里。"
-      },
-      "data": {
-        "magnitude": 4.5,
-        "magType": "mb",
-        "place": "31 km NNW of Komodo, Indonesia",
-        "depth_km": 10,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx8q"
-      },
-      "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "method": "Retained from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx8q"
-      },
-      "visual": {
-        "type": "bar",
-        "value": 4.5,
         "min": 0,
         "max": 10
       }
