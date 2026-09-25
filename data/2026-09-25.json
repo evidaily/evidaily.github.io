@@ -1,36 +1,36 @@
 {
   "date": "2026-09-25",
-  "updated": "2026-09-25T18:02:00+08:00",
+  "updated": "2026-09-25T19:12:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-25T08:00:00Z",
+      "time_utc": "2026-09-25T10:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 4.00 (active) at 08:00 UTC on 25 September 2026.",
-        "zh": "2026 年 9 月 25 日 08:00 UTC，估計行星 Kp 為 4.00（活躍）。"
+        "en": "Estimated planetary Kp is 3.67 (unsettled) at 10:00 UTC on 25 September 2026.",
+        "zh": "2026 年 9 月 25 日 10:00 UTC，估計行星 Kp 為 3.67（不穩定）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 4.00 (4Z) at 08:00 UTC on 25 September. The 08:00 hour is complete (60 samples through 08:59; hour-start 4.00/4Z, hour-end 4.00/4Z). Last-180 maximum is 4.00 (first at 2026-09-25T07:47:00 UTC; label 4Z). Published-window maximum is 4.00 (first at 2026-09-25T07:47:00 UTC; label 4Z). Window start 2026-09-25T04:01:00 UTC (358 samples). estimated_kp remains below 5.0. The 09:00 UTC hour on 25 September is still incomplete (59 samples).",
-        "zh": "最新可靠整點估計 Kp 為 4.00（4Z），取樣 2026-09-25 08:00 UTC。08:00 時段已收滿 60 筆（至 08:59，時段初 4.00／4Z、時段末 4.00／4Z）。近 180 筆最大 4.00（最先見於 2026-09-25T07:47:00 UTC；標籤 4Z）；公開窗最大 4.00（最先見於 2026-09-25T07:47:00 UTC；標籤 4Z）。窗起點 2026-09-25T04:01:00 UTC（358 筆）。estimated_kp 仍低於 5.0。2026-09-25 09:00 UTC 時段尚未收滿（59 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 3.67 (4M) at 10:00 UTC on 25 September. The 10:00 hour is complete (60 samples through 10:59; hour-start 3.67/4M, hour-end 4.00/4Z). Last-180 maximum is 4.00 (first at 2026-09-25T08:09:00 UTC; label 4Z). Published-window maximum is 4.00 (first at 2026-09-25T07:47:00 UTC; label 4Z). Window start 2026-09-25T05:11:00 UTC (358 samples). estimated_kp remains below 5.0. The 11:00 UTC hour on 25 September is still incomplete (9 samples).",
+        "zh": "最新可靠整點估計 Kp 為 3.67（4M），取樣 2026-09-25 10:00 UTC。10:00 時段已收滿 60 筆（至 10:59，時段初 3.67／4M、時段末 4.00／4Z）。近 180 筆最大 4.00（最先見於 2026-09-25T08:09:00 UTC；標籤 4Z）；公開窗最大 4.00（最先見於 2026-09-25T07:47:00 UTC；標籤 4Z）。窗起點 2026-09-25T05:11:00 UTC（358 筆）。estimated_kp 仍低於 5.0。2026-09-25 11:00 UTC 時段尚未收滿（9 筆）。"
       },
       "data": {
-        "estimated_kp": 4.0,
-        "kp_label": "4Z",
+        "estimated_kp": 3.67,
+        "kp_label": "4M",
         "window_max": 4.0,
         "last180_max": 4.0,
         "n_samples": 358,
-        "window_start": "2026-09-25T04:01:00Z"
+        "window_start": "2026-09-25T05:11:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of the most complete recent hour (08:00 UTC on 25 September). Report last-180 and full published-window maxima.",
-        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 08:00 UTC is 4.00/4Z and the hour ends 4.00/4Z at 08:59. The 09:00 UTC hour on 25 September is incomplete (59 samples through 09:58)."
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of the most complete recent hour (10:00 UTC on 25 September). Report last-180 and full published-window maxima.",
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 10:00 UTC is 3.67/4M and the hour ends 4.00/4Z at 10:59. The 11:00 UTC hour on 25 September is incomplete (9 samples through 11:08)."
       },
       "visual": {
         "type": "bar",
-        "value": 4.0,
+        "value": 3.67,
         "min": 0,
         "max": 9
       },
@@ -362,39 +362,6 @@
       "visual": {
         "type": "bar",
         "value": 5.2,
-        "min": 0,
-        "max": 10
-      }
-    },
-    {
-      "id": "usgs-us6000txb3",
-      "type": "earthquake",
-      "time_utc": "2026-09-24T11:08:24Z",
-      "title": {
-        "en": "M4.9 earthquake Kermadec Islands, New Zealand on 24 September 2026.",
-        "zh": "2026 年 9 月 24 日，Kermadec Islands, New Zealand發生規模 4.9 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.9, depth about 35 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 35 公里。"
-      },
-      "data": {
-        "magnitude": 4.9,
-        "magType": "mb",
-        "place": "Kermadec Islands, New Zealand",
-        "depth_km": 35,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txb3"
-      },
-      "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "method": "Retained from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txb3"
-      },
-      "visual": {
-        "type": "bar",
-        "value": 4.9,
         "min": 0,
         "max": 10
       }
