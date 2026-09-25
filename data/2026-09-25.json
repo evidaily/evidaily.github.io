@@ -1,36 +1,36 @@
 {
   "date": "2026-09-25",
-  "updated": "2026-09-25T13:02:00+08:00",
+  "updated": "2026-09-25T14:02:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-25T03:00:00Z",
+      "time_utc": "2026-09-25T04:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (quiet) at 03:00 UTC on 25 September 2026.",
-        "zh": "2026 年 9 月 25 日 03:00 UTC，估計行星 Kp 為 0.00（平靜）。"
+        "en": "Estimated planetary Kp is 2.33 (unsettled) at 04:00 UTC on 25 September 2026.",
+        "zh": "2026 年 9 月 25 日 04:00 UTC，估計行星 Kp 為 2.33（擾動）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 03:00 UTC on 25 September. The 03:00 hour is complete (60 samples through 03:59; hour-start 0.00/0Z, hour-end 2.33/2P). Last-180 maximum is 3.67 (first at 2026-09-25T02:18:00 UTC; label 4M). Published-window maximum is 3.67 (first at 2026-09-25T02:18:00 UTC; label 4M). Window start 2026-09-24T23:00:00 UTC (358 samples). estimated_kp remains below 5.0. The 04:00 UTC hour on 25 September is still incomplete (58 samples).",
-        "zh": "最新可靠整點估計 Kp 為 0.00（0Z），取樣 2026-09-25 03:00 UTC。03:00 時段已收滿 60 筆（至 03:59，時段初 0.00／0Z、時段末 2.33／2P）。近 180 筆最大 3.67（最先見於 2026-09-25T02:18:00 UTC；標籤 4M）；公開窗最大 3.67（最先見於 2026-09-25T02:18:00 UTC；標籤 4M）。窗起點 2026-09-24T23:00:00 UTC（358 筆）。estimated_kp 仍低於 5.0。2026-09-25 04:00 UTC 時段尚未收滿（58 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 2.33 (2P) at 04:00 UTC on 25 September. The 04:00 hour is complete (60 samples through 04:59; hour-start 2.33/2P, hour-end 2.67/3M). Last-180 maximum is 3.67 (first at 2026-09-25T02:58:00 UTC; label 4M). Published-window maximum is 3.67 (first at 2026-09-25T02:18:00 UTC; label 4M). Window start 2026-09-25T00:00:00 UTC (358 samples). estimated_kp remains below 5.0. The 05:00 UTC hour on 25 September is still incomplete (58 samples).",
+        "zh": "最新可靠整點估計 Kp 為 2.33（2P），取樣 2026-09-25 04:00 UTC。04:00 時段已收滿 60 筆（至 04:59，時段初 2.33／2P、時段末 2.67／3M）。近 180 筆最大 3.67（最先見於 2026-09-25T02:58:00 UTC；標籤 4M）；公開窗最大 3.67（最先見於 2026-09-25T02:18:00 UTC；標籤 4M）。窗起點 2026-09-25T00:00:00 UTC（358 筆）。estimated_kp 仍低於 5.0。2026-09-25 05:00 UTC 時段尚未收滿（58 筆）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp_label": "0Z",
+        "estimated_kp": 2.33,
+        "kp_label": "2P",
         "window_max": 3.67,
         "last180_max": 3.67,
         "n_samples": 358,
-        "window_start": "2026-09-24T23:00:00Z"
+        "window_start": "2026-09-25T00:00:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of the most complete recent hour (03:00 UTC on 25 September). Report last-180 and full published-window maxima.",
-        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 03:00 UTC is 0.00/0Z and the hour ends 2.33/2P at 03:59. The 04:00 UTC hour on 25 September is incomplete (58 samples through 04:57)."
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of the most complete recent hour (04:00 UTC on 25 September). Report last-180 and full published-window maxima.",
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 04:00 UTC is 2.33/2P and the hour ends 2.67/3M at 04:59. The 05:00 UTC hour on 25 September is incomplete (58 samples through 05:57)."
       },
       "visual": {
         "type": "bar",
-        "value": 0.0,
+        "value": 2.33,
         "min": 0,
         "max": 9
       },
