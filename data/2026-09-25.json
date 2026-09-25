@@ -1,0 +1,402 @@
+{
+  "date": "2026-09-25",
+  "updated": "2026-09-25T09:10:00+08:00",
+  "entries": [
+    {
+      "id": "noaa-kp-1m",
+      "type": "space-weather",
+      "time_utc": "2026-09-25T00:00:00Z",
+      "title": {
+        "en": "Estimated planetary Kp is 0.00 (quiet) at 00:00 UTC on 25 September 2026.",
+        "zh": "2026 年 9 月 25 日 00:00 UTC，估計行星 Kp 為 0.00（平靜）。"
+      },
+      "summary": {
+        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 00:00 UTC on 25 September. The 00:00 hour is complete (60 samples through 00:59; hour-start 0.00/0Z, hour-end 3.00/3Z). Last-180 maximum is 3.00 (first at 2026-09-24T23:58:00 UTC; label 3Z). Published-window maximum is 3.00 (first at 2026-09-24T23:58:00 UTC; label 3Z). Window start 2026-09-24T19:11:00 UTC (357 samples). estimated_kp remains below 5.0. The 01:00 UTC hour on 25 September is still incomplete (8 samples).",
+        "zh": "最新可靠整點估計 Kp 為 0.00（0Z），取樣 2026-09-25 00:00 UTC。00:00 時段已收滿 60 筆（至 00:59，時段初 0.00／0Z、時段末 3.00／3Z）。近 180 筆最大 3.00（最先見於 2026-09-24T23:58:00 UTC；標籤 3Z）；公開窗最大 3.00（最先見於 2026-09-24T23:58:00 UTC；標籤 3Z）。窗起點 2026-09-24T19:11:00 UTC（357 筆）。estimated_kp 仍低於 5.0。2026-09-25 01:00 UTC 時段尚未收滿（8 筆）。"
+      },
+      "data": {
+        "estimated_kp": 0.0,
+        "kp_label": "0Z",
+        "window_max": 3.0,
+        "last180_max": 3.0,
+        "n_samples": 357,
+        "window_start": "2026-09-24T19:11:00Z"
+      },
+      "evidence": {
+        "source_name": "NOAA SWPC",
+        "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of a completed hour that is not a trailing incomplete placeholder (00:00 UTC on 25 September). Report last-180 and full published-window maxima.",
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 00:00 UTC is 0.00/0Z and the hour ends 3.00/3Z at 00:59. The 01:00 UTC hour on 25 September is incomplete."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 0.0,
+        "min": 0,
+        "max": 9
+      }
+    },
+    {
+      "id": "usgs-us6000txhp",
+      "type": "earthquake",
+      "time_utc": "2026-09-24T23:30:28Z",
+      "title": {
+        "en": "M5.3 earthquake 72 km NW of Finschhafen, Papua New Guinea on 24 September 2026.",
+        "zh": "2026 年 9 月 24 日，巴布亞紐幾內亞芬什哈芬西北約 72 公里發生規模 5.3 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mww 5.3, depth about 53.586 km. Current day-feed maximum is tied at mww 5.3 (us6000txhp and us6000tx9u).",
+        "zh": "USGS M4.5+ 一日饋送：mww 5.3，深度約 53.586 公里。 一日饋送目前最大為 mww 5.3（us6000txhp 與 us6000tx9u）。"
+      },
+      "data": {
+        "magnitude": 5.3,
+        "magType": "mww",
+        "place": "72 km NW of Finschhafen, Papua New Guinea",
+        "depth_km": 53.586,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txhp"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Retained from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txhp"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.3,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us6000txha",
+      "type": "earthquake",
+      "time_utc": "2026-09-24T22:22:59Z",
+      "title": {
+        "en": "M4.9 earthquake in the Kermadec Islands, New Zealand on 24 September 2026.",
+        "zh": "2026 年 9 月 24 日，紐西蘭克馬德克群島發生規模 4.9 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.9, depth about 48.811 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 48.811 公里。"
+      },
+      "data": {
+        "magnitude": 4.9,
+        "magType": "mb",
+        "place": "Kermadec Islands, New Zealand",
+        "depth_km": 48.811,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txha"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txha"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.9,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us6000txg5",
+      "type": "earthquake",
+      "time_utc": "2026-09-24T20:05:25Z",
+      "title": {
+        "en": "M4.6 earthquake 155 km NW of Ternate, Indonesia on 24 September 2026.",
+        "zh": "2026 年 9 月 24 日，印尼特爾納特西北約 155 公里發生規模 4.6 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 48.469 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 48.469 公里。"
+      },
+      "data": {
+        "magnitude": 4.6,
+        "magType": "mb",
+        "place": "155 km NW of Ternate, Indonesia",
+        "depth_km": 48.469,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txg5"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Retained from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txg5"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.6,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us6000txf9",
+      "type": "earthquake",
+      "time_utc": "2026-09-24T18:00:47Z",
+      "title": {
+        "en": "M5.1 earthquake 32 km S of Kokopo, Papua New Guinea on 24 September 2026.",
+        "zh": "2026 年 9 月 24 日，巴布亞紐幾內亞科科波以南約 32 公里發生規模 5.1 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5.1, depth about 93.994 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.1，深度約 93.994 公里。"
+      },
+      "data": {
+        "magnitude": 5.1,
+        "magType": "mb",
+        "place": "32 km S of Kokopo, Papua New Guinea",
+        "depth_km": 93.994,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txf9"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Retained from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txf9"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.1,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us6000txdb",
+      "type": "earthquake",
+      "time_utc": "2026-09-24T16:46:31Z",
+      "title": {
+        "en": "M4.6 earthquake 21 km NNW of Rioblanco, Colombia on 24 September 2026.",
+        "zh": "2026 年 9 月 24 日，哥倫比亞里奧布蘭科北北西約 21 公里發生規模 4.6 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 10 公里。"
+      },
+      "data": {
+        "magnitude": 4.6,
+        "magType": "mb",
+        "place": "21 km NNW of Rioblanco, Colombia",
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txdb"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Retained from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txdb"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.6,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us6000txcw",
+      "type": "earthquake",
+      "time_utc": "2026-09-24T16:28:00Z",
+      "title": {
+        "en": "M4.6 earthquake 119 km SW of Abepura, Indonesia on 24 September 2026.",
+        "zh": "2026 年 9 月 24 日，印尼阿貝普拉西南約 119 公里發生規模 4.6 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 68.453 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 68.453 公里。"
+      },
+      "data": {
+        "magnitude": 4.6,
+        "magType": "mb",
+        "place": "119 km SW of Abepura, Indonesia",
+        "depth_km": 68.453,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txcw"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Retained from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txcw"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.6,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us6000txc1",
+      "type": "earthquake",
+      "time_utc": "2026-09-24T14:02:42Z",
+      "title": {
+        "en": "M4.5 earthquake 106 km SW of Puerto Madero, Mexico on 24 September 2026.",
+        "zh": "2026 年 9 月 24 日，墨西哥馬德羅港西南約 106 公里發生規模 4.5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 10 公里。"
+      },
+      "data": {
+        "magnitude": 4.5,
+        "magType": "mb",
+        "place": "106 km SW of Puerto Madero, Mexico",
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txc1"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Retained from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txc1"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us6000txbm",
+      "type": "earthquake",
+      "time_utc": "2026-09-24T12:29:58Z",
+      "title": {
+        "en": "M5.2 earthquake 139 km SW of Kokopo, Papua New Guinea on 24 September 2026.",
+        "zh": "2026 年 9 月 24 日，巴布亞紐幾內亞科科波西南約 139 公里發生規模 5.2 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5.2, depth about 95.598 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.2，深度約 95.598 公里。"
+      },
+      "data": {
+        "magnitude": 5.2,
+        "magType": "mb",
+        "place": "139 km SW of Kokopo, Papua New Guinea",
+        "depth_km": 95.598,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txbm"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Retained from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txbm"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.2,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us6000txb3",
+      "type": "earthquake",
+      "time_utc": "2026-09-24T11:08:24Z",
+      "title": {
+        "en": "M4.9 earthquake Kermadec Islands, New Zealand on 24 September 2026.",
+        "zh": "2026 年 9 月 24 日，紐西蘭克馬德克群島發生規模 4.9 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.9, depth about 35 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 35 公里。"
+      },
+      "data": {
+        "magnitude": 4.9,
+        "magType": "mb",
+        "place": "Kermadec Islands, New Zealand",
+        "depth_km": 35,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txb3"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Retained from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txb3"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.9,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us6000tx9u",
+      "type": "earthquake",
+      "time_utc": "2026-09-24T07:40:58Z",
+      "title": {
+        "en": "M5.3 earthquake 15 km SSW of Hilvan, Turkey on 24 September 2026.",
+        "zh": "2026 年 9 月 24 日，土耳其希爾萬西南偏南約 15 公里發生規模 5.3 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mww 5.3, depth about 10 km. Current day-feed maximum is tied at mww 5.3 (us6000txhp and us6000tx9u).",
+        "zh": "USGS M4.5+ 一日饋送：mww 5.3，深度約 10 公里。 一日饋送目前最大為 mww 5.3（us6000txhp 與 us6000tx9u）。"
+      },
+      "data": {
+        "magnitude": 5.3,
+        "magType": "mww",
+        "place": "15 km SSW of Hilvan, Turkey",
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx9u"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Retained from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx9u"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.3,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us6000tx8q",
+      "type": "earthquake",
+      "time_utc": "2026-09-24T03:30:26Z",
+      "title": {
+        "en": "M4.5 earthquake 31 km NNW of Komodo, Indonesia on 24 September 2026.",
+        "zh": "2026 年 9 月 24 日，印尼科莫多北北西約 31 公里發生規模 4.5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 10 公里。"
+      },
+      "data": {
+        "magnitude": 4.5,
+        "magType": "mb",
+        "place": "31 km NNW of Komodo, Indonesia",
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx8q"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Retained from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx8q"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
+      }
+    }
+  ]
+}
