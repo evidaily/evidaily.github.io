@@ -1,38 +1,71 @@
 {
   "date": "2026-09-24",
-  "updated": "2026-09-25T07:05:00+08:00",
+  "updated": "2026-09-25T08:09:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-24T22:00:00Z",
+      "time_utc": "2026-09-24T23:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 2.00 (quiet) at 22:00 UTC on 24 September 2026.",
-        "zh": "2026 年 9 月 24 日 22:00 UTC，估計行星 Kp 為 2.00（平靜）。"
+        "en": "Estimated planetary Kp is 2.33 (quiet) at 23:00 UTC on 24 September 2026.",
+        "zh": "2026 年 9 月 24 日 23:00 UTC，估計行星 Kp 為 2.33（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 2.00 (2Z) at 22:00 UTC on 24 September. The 22:00 hour is complete (60 samples through 22:59; hour-start 2.00/2Z, hour-end 2.33/2P). Last-180 maximum is 2.67 (first at 2026-09-24 20:00 UTC; label 3M). Published-window maximum is 3.00 (first at 2026-09-24 17:14 UTC; label 3Z). Window start 2026-09-24 17:02 UTC (358 samples). estimated_kp remains below 5.0. The 23:00 UTC hour has not started in the public file.",
-        "zh": "最後可靠整點估計 Kp 為 2.00（2Z），取樣 2026-09-24 22:00 UTC。22:00 時段已收滿 60 筆（至 22:59，時段初 2.00／2Z、時段末 2.33／2P）。近 180 筆最大 2.67（最先見於 2026-09-24 20:00 UTC；標籤 3M）；公開窗最大 3.00（最先見於 2026-09-24 17:14 UTC；標籤 3Z）。窗起點 2026-09-24 17:02 UTC（358 筆）。estimated_kp 仍低於 5.0。公開檔尚未出現 23:00 UTC 時段。"
+        "en": "Latest reliable hour-start estimated Kp is 2.33 (2P) at 23:00 UTC on 24 September. The 23:00 hour is complete (60 samples through 23:59; hour-start 2.33/2P, hour-end 2.33/2P). Last-180 maximum is 2.67 (first at 2026-09-24 23:17 UTC; label 3M). Published-window maximum is 2.67 (first at 2026-09-24 19:46 UTC; label 3M). Window start 2026-09-24 18:08 UTC (355 samples). estimated_kp remains below 5.0. The 00:00 UTC hour on 25 September is still incomplete (3 samples).",
+        "zh": "最新可靠整點估計 Kp 為 2.33（2P），取樣 2026-09-24 23:00 UTC。23:00 時段已收滿 60 筆（至 23:59，時段初 2.33／2P、時段末 2.33／2P）。近 180 筆最大 2.67（最先見於 2026-09-24 23:17 UTC；標籤 3M）；公開窗最大 2.67（最先見於 2026-09-24 19:46 UTC；標籤 3M）。窗起點 2026-09-24 18:08 UTC（355 筆）。estimated_kp 仍低於 5.0。2026-09-25 00:00 UTC 時段尚未收滿（3 筆）。"
       },
       "data": {
-        "estimated_kp": 2.0,
-        "kp_label": "2Z",
-        "window_max": 3.0,
+        "estimated_kp": 2.33,
+        "kp_label": "2P",
+        "window_max": 2.67,
         "last180_max": 2.67,
-        "n_samples": 358,
-        "window_start": "2026-09-24T17:02:00Z"
+        "n_samples": 355,
+        "window_start": "2026-09-24T18:08:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of a completed hour that is not a trailing incomplete placeholder (22:00 UTC on 24 September). Report last-180 and full published-window maxima.",
-        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 22:00 UTC is 2.00/2Z; the hour ends 2.33/2P at 22:59. The 23:00 UTC hour on 24 September has not appeared yet."
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of a completed hour that is not a trailing incomplete placeholder (23:00 UTC on 24 September). Report last-180 and full published-window maxima.",
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 23:00 UTC is 2.33/2P and the hour ends 2.33/2P at 23:59. The 00:00 UTC hour on 25 September is incomplete."
       },
       "visual": {
         "type": "bar",
-        "value": 2.0,
+        "value": 2.33,
         "min": 0,
         "max": 9
+      }
+    },
+    {
+      "id": "usgs-us6000txhp",
+      "type": "earthquake",
+      "time_utc": "2026-09-24T23:30:28Z",
+      "title": {
+        "en": "M5.3 earthquake 72 km NW of Finschhafen, Papua New Guinea on 24 September 2026.",
+        "zh": "2026 年 9 月 24 日，巴布亞紐幾內亞芬什哈芬西北約 72 公里發生規模 5.3 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mww 5.3, depth about 53.586 km. Current day-feed maximum is tied at mww 5.3 (us6000txhp and us6000tx9u).",
+        "zh": "USGS M4.5+ 一日饋送：mww 5.3，深度約 53.586 公里。一日饋送目前最大為 mww 5.3（us6000txhp 與 us6000tx9u）。"
+      },
+      "data": {
+        "magnitude": 5.3,
+        "magType": "mww",
+        "place": "72 km NW of Finschhafen, Papua New Guinea",
+        "depth_km": 53.586,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txhp"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txhp"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.3,
+        "min": 0,
+        "max": 10
       }
     },
     {
