@@ -1,40 +1,73 @@
 {
   "date": "2026-09-25",
-  "updated": "2026-09-25T12:00:00+08:00",
+  "updated": "2026-09-25T13:02:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-25T02:00:00Z",
+      "time_utc": "2026-09-25T03:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 3.33 (unsettled) at 02:00 UTC on 25 September 2026.",
-        "zh": "2026 年 9 月 25 日 02:00 UTC，估計行星 Kp 為 3.33（不穩定）。"
+        "en": "Estimated planetary Kp is 0.00 (quiet) at 03:00 UTC on 25 September 2026.",
+        "zh": "2026 年 9 月 25 日 03:00 UTC，估計行星 Kp 為 0.00（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 3.33 (3P) at 02:00 UTC on 25 September. The 02:00 hour is complete (60 samples through 02:59; hour-start 3.33/3P, hour-end 3.67/4M). Last-180 maximum is 3.67 (first at 2026-09-25T02:18:00 UTC; label 4M). Published-window maximum is 3.67 (first at 2026-09-25T02:18:00 UTC; label 4M). Window start 2026-09-24T22:00:00 UTC (358 samples). estimated_kp remains below 5.0. The 03:00 UTC hour on 25 September is still incomplete (58 samples).",
-        "zh": "最新可靠整點估計 Kp 為 3.33（3P），取樣 2026-09-25 02:00 UTC。02:00 時段已收滿 60 筆（至 02:59，時段初 3.33／3P、時段末 3.67／4M）。近 180 筆最大 3.67（最先見於 2026-09-25T02:18:00 UTC；標籤 4M）；公開窗最大 3.67（最先見於 2026-09-25T02:18:00 UTC；標籤 4M）。窗起點 2026-09-24T22:00:00 UTC（358 筆）。estimated_kp 仍低於 5.0。2026-09-25 03:00 UTC 時段尚未收滿（58 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 03:00 UTC on 25 September. The 03:00 hour is complete (60 samples through 03:59; hour-start 0.00/0Z, hour-end 2.33/2P). Last-180 maximum is 3.67 (first at 2026-09-25T02:18:00 UTC; label 4M). Published-window maximum is 3.67 (first at 2026-09-25T02:18:00 UTC; label 4M). Window start 2026-09-24T23:00:00 UTC (358 samples). estimated_kp remains below 5.0. The 04:00 UTC hour on 25 September is still incomplete (58 samples).",
+        "zh": "最新可靠整點估計 Kp 為 0.00（0Z），取樣 2026-09-25 03:00 UTC。03:00 時段已收滿 60 筆（至 03:59，時段初 0.00／0Z、時段末 2.33／2P）。近 180 筆最大 3.67（最先見於 2026-09-25T02:18:00 UTC；標籤 4M）；公開窗最大 3.67（最先見於 2026-09-25T02:18:00 UTC；標籤 4M）。窗起點 2026-09-24T23:00:00 UTC（358 筆）。estimated_kp 仍低於 5.0。2026-09-25 04:00 UTC 時段尚未收滿（58 筆）。"
       },
       "data": {
-        "estimated_kp": 3.33,
-        "kp_label": "3P",
+        "estimated_kp": 0.0,
+        "kp_label": "0Z",
         "window_max": 3.67,
         "last180_max": 3.67,
         "n_samples": 358,
-        "window_start": "2026-09-24T22:00:00Z"
+        "window_start": "2026-09-24T23:00:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of the most complete recent hour (02:00 UTC on 25 September). Report last-180 and full published-window maxima.",
-        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 02:00 UTC is 3.33/3P and the hour ends 3.67/4M at 02:59. The 03:00 UTC hour on 25 September is incomplete (58 samples through 03:57)."
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of the most complete recent hour (03:00 UTC on 25 September). Report last-180 and full published-window maxima.",
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 03:00 UTC is 0.00/0Z and the hour ends 2.33/2P at 03:59. The 04:00 UTC hour on 25 September is incomplete (58 samples through 04:57)."
       },
       "visual": {
         "type": "bar",
-        "value": 3.33,
+        "value": 0.0,
         "min": 0,
         "max": 9
       },
       "updated": null
+    },
+    {
+      "id": "usgs-us6000txim",
+      "type": "earthquake",
+      "time_utc": "2026-09-25T04:27:40Z",
+      "title": {
+        "en": "M5 earthquake 124 km N of Metinaro, Timor Leste on 25 September 2026.",
+        "zh": "2026 年 9 月 25 日，東帝汶梅蒂納羅以北約 124 公里發生規模 5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5, depth about 10.0 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5，深度約 10.0 公里。"
+      },
+      "data": {
+        "magnitude": 5.0,
+        "magType": "mb",
+        "place": "124 km N of Metinaro, Timor Leste",
+        "depth_km": 10.0,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txim"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txim"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.0,
+        "min": 0,
+        "max": 10
+      }
     },
     {
       "id": "usgs-us6000txhs",
@@ -58,7 +91,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "method": "Retained from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
         "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
         "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txhs"
       },
@@ -78,8 +111,8 @@
         "zh": "2026 年 9 月 24 日，巴布亞紐幾內亞芬什哈芬西北約 72 公里發生規模 5.3 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mww 5.3, depth about 53.586 km. Current day-feed maximum is tied at mww 5.3 (us6000txhp and us6000tx9u).",
-        "zh": "USGS M4.5+ 一日饋送：mww 5.3，深度約 53.586 公里。 一日饋送目前最大為 mww 5.3（us6000txhp 與 us6000tx9u）。"
+        "en": "USGS M4.5+ day feed: mww 5.3, depth about 53.586 km.",
+        "zh": "USGS M4.5+ 一日饋送：mww 5.3，深度約 53.586 公里。"
       },
       "data": {
         "magnitude": 5.3,
@@ -107,7 +140,7 @@
       "type": "earthquake",
       "time_utc": "2026-09-24T22:22:59Z",
       "title": {
-        "en": "M4.9 earthquake in the Kermadec Islands, New Zealand on 24 September 2026.",
+        "en": "M4.9 earthquake Kermadec Islands, New Zealand on 24 September 2026.",
         "zh": "2026 年 9 月 24 日，紐西蘭克馬德克群島發生規模 4.9 地震。"
       },
       "summary": {
@@ -124,7 +157,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "method": "Added from the public USGS all-day M4.5+ GeoJSON feed when the event first appeared in the rolling 24-hour window.",
+        "method": "Retained from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
         "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
         "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txha"
       },
@@ -210,14 +243,14 @@
         "zh": "2026 年 9 月 24 日，哥倫比亞里奧布蘭科北北西約 21 公里發生規模 4.6 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.6, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 10 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 10.0 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 10.0 公里。"
       },
       "data": {
         "magnitude": 4.6,
         "magType": "mb",
         "place": "21 km NNW of Rioblanco, Colombia",
-        "depth_km": 10,
+        "depth_km": 10.0,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txdb"
       },
       "evidence": {
@@ -276,14 +309,14 @@
         "zh": "2026 年 9 月 24 日，墨西哥馬德羅港西南約 106 公里發生規模 4.5 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.5, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 10 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 10.0 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 10.0 公里。"
       },
       "data": {
         "magnitude": 4.5,
         "magType": "mb",
         "place": "106 km SW of Puerto Madero, Mexico",
-        "depth_km": 10,
+        "depth_km": 10.0,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txc1"
       },
       "evidence": {
@@ -342,14 +375,14 @@
         "zh": "2026 年 9 月 24 日，紐西蘭克馬德克群島發生規模 4.9 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.9, depth about 35 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 35 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.9, depth about 35.0 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 35.0 公里。"
       },
       "data": {
         "magnitude": 4.9,
         "magType": "mb",
         "place": "Kermadec Islands, New Zealand",
-        "depth_km": 35,
+        "depth_km": 35.0,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txb3"
       },
       "evidence": {
@@ -375,14 +408,14 @@
         "zh": "2026 年 9 月 24 日，土耳其希爾萬西南偏南約 15 公里發生規模 5.3 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mww 5.3, depth about 10 km. Current day-feed maximum is tied at mww 5.3 (us6000txhp and us6000tx9u).",
-        "zh": "USGS M4.5+ 一日饋送：mww 5.3，深度約 10 公里。 一日饋送目前最大為 mww 5.3（us6000txhp 與 us6000tx9u）。"
+        "en": "USGS M4.5+ day feed: mww 5.3, depth about 10.0 km.",
+        "zh": "USGS M4.5+ 一日饋送：mww 5.3，深度約 10.0 公里。"
       },
       "data": {
         "magnitude": 5.3,
         "magType": "mww",
         "place": "15 km SSW of Hilvan, Turkey",
-        "depth_km": 10,
+        "depth_km": 10.0,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx9u"
       },
       "evidence": {
