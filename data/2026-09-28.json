@@ -1,32 +1,32 @@
 {
   "date": "2026-09-28",
-  "updated": "2026-09-28T05:01:00+08:00",
+  "updated": "2026-09-28T06:01:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-27T19:00:00Z",
+      "time_utc": "2026-09-27T20:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.33 (quiet) at 19:00 UTC on 27 September 2026.",
-        "zh": "2026 年 9 月 27 日 19:00 UTC，估計行星 Kp 為 0.33（平靜）。"
+        "en": "Estimated planetary Kp is 0.33 (quiet) at 20:00 UTC on 27 September 2026.",
+        "zh": "2026 年 9 月 27 日 20:00 UTC，估計行星 Kp 為 0.33（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.33 (0P) at 19:00 UTC on 27 September. The 19:00 hour is complete (60 samples through 19:59; hour-start 0.33/0P, hour-end 0.33/0P). Last-180 maximum is 0.67 (first at 2026-09-27T17:57:00 UTC; label 1M). Published-window maximum is 1.33 (first at 2026-09-27T14:58:00 UTC; label 1P). Window start 2026-09-27T14:58:00 UTC (358 samples). estimated_kp remains below 5.0. The 20:00 UTC hour on 27 September is still incomplete (56 samples through 20:55).",
-        "zh": "最新可靠整點估計 Kp 為 0.33（0P），取樣 2026-09-27 19:00 UTC。19:00 時段已收滿 60 筆（至 19:59，時段初 0.33／0P、時段末 0.33／0P）。近 180 筆最大 0.67（最先見於 2026-09-27T17:57:00 UTC；標籤 1M）；公開窗最大 1.33（最先見於 2026-09-27T14:58:00 UTC；標籤 1P）。窗起點 2026-09-27T14:58:00 UTC（358 筆）。estimated_kp 仍低於 5.0。2026-09-27 20:00 UTC 時段尚未收滿（56 筆至 20:55）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.33 (0P) at 20:00 UTC on 27 September. The 20:00 hour is complete (60 samples through 20:59; hour-start 0.33/0P, hour-end 0.33/0P). Last-180 maximum is 0.33 (first at 2026-09-27T18:57:00 UTC; label 0P). Published-window maximum is 0.67 (first at 2026-09-27T17:09:00 UTC; label 1M). Window start 2026-09-27T15:59:00 UTC (358 samples). estimated_kp remains below 5.0. The 21:00 UTC hour on 27 September is still incomplete (57 samples through 21:56).",
+        "zh": "最新可靠整點估計 Kp 為 0.33（0P），取樣 2026-09-27 20:00 UTC。20:00 時段已收滿 60 筆（至 20:59，時段初 0.33／0P、時段末 0.33／0P）。近 180 筆最大 0.33（最先見於 2026-09-27T18:57:00 UTC；標籤 0P）；公開窗最大 0.67（最先見於 2026-09-27T17:09:00 UTC；標籤 1M）。窗起點 2026-09-27T15:59:00 UTC（358 筆）。estimated_kp 仍低於 5.0。2026-09-27 21:00 UTC 時段尚未收滿（57 筆至 21:56）。"
       },
       "data": {
         "estimated_kp": 0.33,
         "kp_label": "0P",
-        "window_max": 1.33,
-        "last180_max": 0.67,
+        "window_max": 0.67,
+        "last180_max": 0.33,
         "n_samples": 358,
-        "window_start": "2026-09-27T14:58:00Z"
+        "window_start": "2026-09-27T15:59:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of the most complete recent hour (19:00 UTC on 27 September). Report last-180 and full published-window maxima.",
-        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 19:00 UTC is 0.33/0P and the hour ends 0.33/0P at 19:59. The 20:00 UTC hour on 27 September is incomplete (36 samples through 20:35)."
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of the most complete recent hour (20:00 UTC on 27 September). Report last-180 and full published-window maxima.",
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 20:00 UTC is 0.33/0P and the hour ends 0.33/0P at 20:59. The 21:00 UTC hour on 27 September is incomplete (57 samples through 21:56)."
       },
       "visual": {
         "type": "bar",
@@ -35,6 +35,72 @@
         "max": 9
       },
       "updated": null
+    },
+    {
+      "id": "usgs-pt26270050",
+      "type": "earthquake",
+      "time_utc": "2026-09-27T21:49:46Z",
+      "title": {
+        "en": "M5.2 earthquake 8 km SE of Ramón Santana, Dominican Republic on 27 September 2026.",
+        "zh": "2026 年 9 月 27 日，8 km SE of Ramón Santana, Dominican Republic發生規模 5.2 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: Mi 5.2, depth about 109 km.",
+        "zh": "USGS M4.5+ 一日饋送：Mi 5.2，深度約 109 公里。"
+      },
+      "data": {
+        "magnitude": 5.2,
+        "magType": "Mi",
+        "place": "8 km SE of Ramón Santana, Dominican Republic",
+        "depth_km": 109,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt26270050"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/pt26270050"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.2,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us6000ty0j",
+      "type": "earthquake",
+      "time_utc": "2026-09-27T21:13:33Z",
+      "title": {
+        "en": "M5 earthquake South Sandwich Islands region on 27 September 2026.",
+        "zh": "2026 年 9 月 27 日，South Sandwich Islands region發生規模 5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5, depth about 103.838 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5，深度約 103.838 公里。"
+      },
+      "data": {
+        "magnitude": 5,
+        "magType": "mb",
+        "place": "South Sandwich Islands region",
+        "depth_km": 103.838,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty0j"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty0j"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5,
+        "min": 0,
+        "max": 10
+      }
     },
     {
       "id": "usgs-us6000txzx",
@@ -263,39 +329,6 @@
       "visual": {
         "type": "bar",
         "value": 5,
-        "min": 0,
-        "max": 10
-      }
-    },
-    {
-      "id": "usgs-us6000txv7",
-      "type": "earthquake",
-      "time_utc": "2026-09-26T21:49:27Z",
-      "title": {
-        "en": "M4.9 earthquake 78 km ESE of Kokopo, Papua New Guinea on 26 September 2026.",
-        "zh": "2026 年 9 月 26 日，78 km ESE of Kokopo, Papua New Guinea發生規模 4.9 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.9, depth about 63.571 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 63.571 公里。"
-      },
-      "data": {
-        "magnitude": 4.9,
-        "magType": "mb",
-        "place": "78 km ESE of Kokopo, Papua New Guinea",
-        "depth_km": 63.571,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txv7"
-      },
-      "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "method": "Retained from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txv7"
-      },
-      "visual": {
-        "type": "bar",
-        "value": 4.9,
         "min": 0,
         "max": 10
       }
