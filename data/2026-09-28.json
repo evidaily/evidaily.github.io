@@ -1,0 +1,304 @@
+{
+  "date": "2026-09-28",
+  "updated": "2026-09-28T04:41:00+08:00",
+  "entries": [
+    {
+      "id": "noaa-kp-1m",
+      "type": "space-weather",
+      "time_utc": "2026-09-27T19:00:00Z",
+      "title": {
+        "en": "Estimated planetary Kp is 0.33 (quiet) at 19:00 UTC on 27 September 2026.",
+        "zh": "2026 年 9 月 27 日 19:00 UTC，估計行星 Kp 為 0.33（平靜）。"
+      },
+      "summary": {
+        "en": "Latest reliable hour-start estimated Kp is 0.33 (0P) at 19:00 UTC on 27 September. The 19:00 hour is complete (60 samples through 19:59; hour-start 0.33/0P, hour-end 0.33/0P). Last-180 maximum is 0.67 (first at 2026-09-27T17:36:00 UTC; label 1M). Published-window maximum is 1.33 (first at 2026-09-27T14:38:00 UTC; label 1P). Window start 2026-09-27T14:38:00 UTC (358 samples). estimated_kp remains below 5.0. The 20:00 UTC hour on 27 September is still incomplete (36 samples through 20:35).",
+        "zh": "最新可靠整點估計 Kp 為 0.33（0P），取樣 2026-09-27 19:00 UTC。19:00 時段已收滿 60 筆（至 19:59，時段初 0.33／0P、時段末 0.33／0P）。近 180 筆最大 0.67（最先見於 2026-09-27T17:36:00 UTC；標籤 1M）；公開窗最大 1.33（最先見於 2026-09-27T14:38:00 UTC；標籤 1P）。窗起點 2026-09-27T14:38:00 UTC（358 筆）。estimated_kp 仍低於 5.0。2026-09-27 20:00 UTC 時段尚未收滿（36 筆至 20:35）。"
+      },
+      "data": {
+        "estimated_kp": 0.33,
+        "kp_label": "0P",
+        "window_max": 1.33,
+        "last180_max": 0.67,
+        "n_samples": 358,
+        "window_start": "2026-09-27T14:38:00Z"
+      },
+      "evidence": {
+        "source_name": "NOAA SWPC",
+        "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of the most complete recent hour (19:00 UTC on 27 September). Report last-180 and full published-window maxima.",
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 19:00 UTC is 0.33/0P and the hour ends 0.33/0P at 19:59. The 20:00 UTC hour on 27 September is incomplete (36 samples through 20:35)."
+      },
+      "visual": {
+        "type": "bar",
+        "value": 0.33,
+        "min": 0,
+        "max": 9
+      },
+      "updated": null
+    },
+    {
+      "id": "usgs-us6000txzx",
+      "type": "earthquake",
+      "time_utc": "2026-09-27T18:30:09Z",
+      "title": {
+        "en": "M4.5 earthquake 78 km N of Daocheng, China on 27 September 2026.",
+        "zh": "2026 年 9 月 27 日，78 km N of Daocheng, China發生規模 4.5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 10 公里。"
+      },
+      "data": {
+        "magnitude": 4.5,
+        "magType": "mb",
+        "place": "78 km N of Daocheng, China",
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txzx"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Retained from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txzx"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us6000txzj",
+      "type": "earthquake",
+      "time_utc": "2026-09-27T16:43:10Z",
+      "title": {
+        "en": "M5 earthquake 191 km NW of Oula Xiuma, China on 27 September 2026.",
+        "zh": "2026 年 9 月 27 日，191 km NW of Oula Xiuma, China發生規模 5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5，深度約 10 公里。"
+      },
+      "data": {
+        "magnitude": 5,
+        "magType": "mb",
+        "place": "191 km NW of Oula Xiuma, China",
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txzj"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Retained from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txzj"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us6000txxm",
+      "type": "earthquake",
+      "time_utc": "2026-09-27T07:48:11Z",
+      "title": {
+        "en": "M4.6 earthquake Rat Islands, Aleutian Islands, Alaska on 27 September 2026.",
+        "zh": "2026 年 9 月 27 日，Rat Islands, Aleutian Islands, Alaska發生規模 4.6 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 46.522 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 46.522 公里。"
+      },
+      "data": {
+        "magnitude": 4.6,
+        "magType": "mb",
+        "place": "Rat Islands, Aleutian Islands, Alaska",
+        "depth_km": 46.522,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txxm"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Retained from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txxm"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.6,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us6000txwy",
+      "type": "earthquake",
+      "time_utc": "2026-09-27T04:59:48Z",
+      "title": {
+        "en": "M4.9 earthquake 159 km ESE of Gizo, Solomon Islands on 27 September 2026.",
+        "zh": "2026 年 9 月 27 日，159 km ESE of Gizo, Solomon Islands發生規模 4.9 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.9, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 10 公里。"
+      },
+      "data": {
+        "magnitude": 4.9,
+        "magType": "mb",
+        "place": "159 km ESE of Gizo, Solomon Islands",
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txwy"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Retained from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txwy"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.9,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us6000txwk",
+      "type": "earthquake",
+      "time_utc": "2026-09-27T04:14:44Z",
+      "title": {
+        "en": "M4.5 earthquake 145 km WNW of Lebu, Chile on 27 September 2026.",
+        "zh": "2026 年 9 月 27 日，145 km WNW of Lebu, Chile發生規模 4.5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 10 公里。"
+      },
+      "data": {
+        "magnitude": 4.5,
+        "magType": "mb",
+        "place": "145 km WNW of Lebu, Chile",
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txwk"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Retained from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txwk"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us6000txw5",
+      "type": "earthquake",
+      "time_utc": "2026-09-27T02:22:10Z",
+      "title": {
+        "en": "M5.1 earthquake 90 km ENE of Tadine, New Caledonia on 27 September 2026.",
+        "zh": "2026 年 9 月 27 日，90 km ENE of Tadine, New Caledonia發生規模 5.1 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5.1, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.1，深度約 10 公里。"
+      },
+      "data": {
+        "magnitude": 5.1,
+        "magType": "mb",
+        "place": "90 km ENE of Tadine, New Caledonia",
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txw5"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Retained from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txw5"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5.1,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us6000txvu",
+      "type": "earthquake",
+      "time_utc": "2026-09-27T01:18:25Z",
+      "title": {
+        "en": "M5 earthquake 61 km ENE of Tadine, New Caledonia on 27 September 2026.",
+        "zh": "2026 年 9 月 27 日，61 km ENE of Tadine, New Caledonia發生規模 5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5，深度約 10 公里。"
+      },
+      "data": {
+        "magnitude": 5,
+        "magType": "mb",
+        "place": "61 km ENE of Tadine, New Caledonia",
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txvu"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Retained from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txvu"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 5,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us6000txv7",
+      "type": "earthquake",
+      "time_utc": "2026-09-26T21:49:27Z",
+      "title": {
+        "en": "M4.9 earthquake 78 km ESE of Kokopo, Papua New Guinea on 26 September 2026.",
+        "zh": "2026 年 9 月 26 日，78 km ESE of Kokopo, Papua New Guinea發生規模 4.9 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.9, depth about 63.571 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 63.571 公里。"
+      },
+      "data": {
+        "magnitude": 4.9,
+        "magType": "mb",
+        "place": "78 km ESE of Kokopo, Papua New Guinea",
+        "depth_km": 63.571,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txv7"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Retained from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txv7"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.9,
+        "min": 0,
+        "max": 10
+      }
+    }
+  ]
+}
