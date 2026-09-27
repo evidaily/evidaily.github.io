@@ -1,7 +1,8 @@
 /**
  * Evidence Daily - app.js
  * Loads recent daily JSON files and renders cards.
- * Homepage shows last 14 days only.
+ * Homepage shows the newest 14 dates listed in data/available.json
+ * (same source as Archive). Falls back to UTC calendar window if needed.
  */
 
 const DAYS_TO_LOAD = 14;
@@ -49,7 +50,23 @@ function t(key) {
   return (UI[lang] && UI[lang][key]) || UI.en[key] || key;
 }
 
-function getRecentDates(n = DAYS_TO_LOAD) {
+/**
+ * Homepage date list: read available.json (same source as Archive),
+ * sort newest-first, take the first n dates that actually exist.
+ * Falls back to calendar UTC rolling window only if available.json is missing.
+ */
+async function getRecentDates(n = DAYS_TO_LOAD) {
+  try {
+    const res = await fetch(`${DATA_PATH}available.json`);
+    if (res.ok) {
+      const manifest = await res.json();
+      const list = Array.isArray(manifest.dates) ? manifest.dates.slice() : [];
+      list.sort().reverse();
+      if (list.length > 0) return list.slice(0, n);
+    }
+  } catch (e) {
+    console.warn('available.json unavailable, falling back to calendar dates', e);
+  }
   const dates = [];
   const now = new Date();
   for (let i = 0; i < n; i++) {
@@ -72,7 +89,7 @@ async function loadDay(dateStr) {
 }
 
 async function loadRecentEntries() {
-  const dates = getRecentDates();
+  const dates = await getRecentDates();
   const results = await Promise.all(dates.map(loadDay));
   const all = [];
   for (const day of results) {
