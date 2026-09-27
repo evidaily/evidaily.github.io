@@ -1,6 +1,6 @@
 {
   "date": "2026-09-28",
-  "updated": "2026-09-28T04:41:00+08:00",
+  "updated": "2026-09-28T05:01:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
@@ -11,8 +11,8 @@
         "zh": "2026 年 9 月 27 日 19:00 UTC，估計行星 Kp 為 0.33（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.33 (0P) at 19:00 UTC on 27 September. The 19:00 hour is complete (60 samples through 19:59; hour-start 0.33/0P, hour-end 0.33/0P). Last-180 maximum is 0.67 (first at 2026-09-27T17:36:00 UTC; label 1M). Published-window maximum is 1.33 (first at 2026-09-27T14:38:00 UTC; label 1P). Window start 2026-09-27T14:38:00 UTC (358 samples). estimated_kp remains below 5.0. The 20:00 UTC hour on 27 September is still incomplete (36 samples through 20:35).",
-        "zh": "最新可靠整點估計 Kp 為 0.33（0P），取樣 2026-09-27 19:00 UTC。19:00 時段已收滿 60 筆（至 19:59，時段初 0.33／0P、時段末 0.33／0P）。近 180 筆最大 0.67（最先見於 2026-09-27T17:36:00 UTC；標籤 1M）；公開窗最大 1.33（最先見於 2026-09-27T14:38:00 UTC；標籤 1P）。窗起點 2026-09-27T14:38:00 UTC（358 筆）。estimated_kp 仍低於 5.0。2026-09-27 20:00 UTC 時段尚未收滿（36 筆至 20:35）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.33 (0P) at 19:00 UTC on 27 September. The 19:00 hour is complete (60 samples through 19:59; hour-start 0.33/0P, hour-end 0.33/0P). Last-180 maximum is 0.67 (first at 2026-09-27T17:57:00 UTC; label 1M). Published-window maximum is 1.33 (first at 2026-09-27T14:58:00 UTC; label 1P). Window start 2026-09-27T14:58:00 UTC (358 samples). estimated_kp remains below 5.0. The 20:00 UTC hour on 27 September is still incomplete (56 samples through 20:55).",
+        "zh": "最新可靠整點估計 Kp 為 0.33（0P），取樣 2026-09-27 19:00 UTC。19:00 時段已收滿 60 筆（至 19:59，時段初 0.33／0P、時段末 0.33／0P）。近 180 筆最大 0.67（最先見於 2026-09-27T17:57:00 UTC；標籤 1M）；公開窗最大 1.33（最先見於 2026-09-27T14:58:00 UTC；標籤 1P）。窗起點 2026-09-27T14:58:00 UTC（358 筆）。estimated_kp 仍低於 5.0。2026-09-27 20:00 UTC 時段尚未收滿（56 筆至 20:55）。"
       },
       "data": {
         "estimated_kp": 0.33,
@@ -20,7 +20,7 @@
         "window_max": 1.33,
         "last180_max": 0.67,
         "n_samples": 358,
-        "window_start": "2026-09-27T14:38:00Z"
+        "window_start": "2026-09-27T14:58:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
