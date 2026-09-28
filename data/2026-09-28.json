@@ -1,6 +1,6 @@
 {
   "date": "2026-09-28",
-  "updated": "2026-09-28T08:04:00+08:00",
+  "updated": "2026-09-28T09:03:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
@@ -11,22 +11,22 @@
         "zh": "2026 年 9 月 27 日 23:00 UTC，估計行星 Kp 為 0.67（偏平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.67 (1M) at 23:00 UTC on 27 September. The 23:00 hour is complete (60 samples through 23:59; hour-start 0.67/1M, hour-end 0.00/0Z). Last-180 maximum is 0.67 (first at 2026-09-27T22:55:00 UTC; label 1M). Published-window maximum is 0.67 (first at 2026-09-27T22:55:00 UTC; label 1M). Window start 2026-09-27T18:04:00Z (357 samples). estimated_kp remains below 5.0. The 00:00 UTC hour on 28 September is still incomplete (1 sample at 00:00).",
-        "zh": "最新可靠整點估計 Kp 為 0.67（1M），取樣 2026-09-27 23:00 UTC。23:00 時段已收滿 60 筆（至 23:59，時段初 0.67／1M、時段末 0.00／0Z）。近 180 筆最大 0.67（最先見於 2026-09-27T22:55:00 UTC；標籤 1M）；公開窗最大 0.67（最先見於 2026-09-27T22:55:00 UTC；標籤 1M）。窗起點 2026-09-27T18:04:00 UTC（357 筆）。estimated_kp 仍低於 5.0。2026-09-28 00:00 UTC 時段尚未收滿（1 筆於 00:00）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.67 (1M) at 23:00 UTC on 27 September. The 23:00 hour is complete (60 samples through 23:59; hour-start 0.67/1M, hour-end 0.67/1M). Last-180 maximum is 0.67 (first at 2026-09-27T22:55:00 UTC; label 1M). Published-window maximum is 0.67 (first at 2026-09-27T22:55:00 UTC; label 1M). Window start 2026-09-27T19:00:00Z (358 samples). estimated_kp remains below 5.0. The 00:00 UTC hour on 28 September is still incomplete (58 samples through 00:57).",
+        "zh": "最新可靠整點估計 Kp 為 0.67（1M），取樣 2026-09-27 23:00 UTC。23:00 時段已收滿 60 筆（至 23:59，時段初 0.67／1M、時段末 0.67／1M）。近 180 筆最大 0.67（最先見於 2026-09-27T22:55:00 UTC；標籤 1M）；公開窗最大 0.67（最先見於 2026-09-27T22:55:00 UTC；標籤 1M）。窗起點 2026-09-27T19:00:00 UTC（358 筆）。estimated_kp 仍低於 5.0。2026-09-28 00:00 UTC 時段尚未收滿（58 筆至 00:57）。"
       },
       "data": {
         "estimated_kp": 0.67,
         "kp_label": "1M",
         "window_max": 0.67,
         "last180_max": 0.67,
-        "n_samples": 357,
-        "window_start": "2026-09-27T18:04:00Z"
+        "n_samples": 358,
+        "window_start": "2026-09-27T19:00:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
         "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of the most complete recent hour (23:00 UTC on 27 September). Report last-180 and full published-window maxima.",
-        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 23:00 UTC is 0.67/1M and the hour ends 0.00/0Z at 23:59. The 00:00 UTC hour on 28 September is incomplete (1 sample at 00:00)."
+        "limitations": "estimated_kp is a near-real-time estimate, not the final observatory Kp. The public file is a rolling ~6-hour window and older samples drop off. Hour-start 23:00 UTC is 0.67/1M and the hour ends 0.67/1M at 23:59. The 00:00 UTC hour on 28 September is incomplete (58 samples through 00:57)."
       },
       "visual": {
         "type": "bar",
@@ -98,6 +98,39 @@
       "visual": {
         "type": "bar",
         "value": 4.8,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us6000ty0k",
+      "type": "earthquake",
+      "time_utc": "2026-09-27T21:14:51Z",
+      "title": {
+        "en": "M4.5 earthquake 0 km ESE of Naisano Dua, Indonesia on 27 September 2026.",
+        "zh": "2026 年 9 月 27 日，0 km ESE of Naisano Dua, Indonesia發生規模 4.5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 35 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 35 公里。"
+      },
+      "data": {
+        "magnitude": 4.5,
+        "magType": "mb",
+        "place": "0 km ESE of Naisano Dua, Indonesia",
+        "depth_km": 35,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty0k"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty0k"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.5,
         "min": 0,
         "max": 10
       }
