@@ -1,38 +1,104 @@
 {
   "date": "2026-09-28",
-  "updated": "2026-09-28T22:00:00+08:00",
+  "updated": "2026-09-29T00:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-28T12:00:00Z",
+      "time_utc": "2026-09-28T14:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (quiet) at 12:00 UTC on 28 September 2026.",
-        "zh": "2026 年 9 月 28 日 12:00 UTC，估計行星 Kp 為 0.00（平靜）。"
+        "en": "Estimated planetary Kp is 0.67 (quiet) at 14:00 UTC on 28 September 2026.",
+        "zh": "2026 年 9 月 28 日 14:00 UTC，估計行星 Kp 為 0.67（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 12:00 UTC on 28 September. The 12:00 hour is complete (60 samples through 12:59; hour-start 0.00/0Z, hour-end 0.33/0P). Last-180 maximum is 1.33 (first at 2026-09-28T11:25:00Z; label 1P). Published-window maximum is 1.33 (first at 2026-09-28T11:25:00Z; label 1P). Window start 2026-09-28T07:59:00Z (357 samples). estimated_kp remains below 5.0. The 13:00 UTC hour on 28 September is still incomplete (56 samples through 13:55).",
-        "zh": "最新可靠整點估計 Kp 為 0.00（0Z），取樣 2026-09-28 12:00 UTC。12:00 時段已收滿 60 筆（至 12:59，時段初 0.00／0Z、時段末 0.33／0P）。近 180 筆最大 1.33（最先見於 2026-09-28T11:25:00Z；標籤 1P）；公開窗最大 1.33（最先見於 2026-09-28T11:25:00Z；標籤 1P）。窗起點 2026-09-28T07:59:00Z（357 筆）。estimated_kp 仍低於 5.0。2026-09-28 13:00 UTC 時段尚未收滿（56 筆至 13:55）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.67 (1M) at 14:00 UTC on 28 September. The 14:00 hour is complete (60 samples through 14:59; hour-start 0.67/1M, hour-end 1.00/1Z). Last-180 maximum is 1.33 (first at 2026-09-28T14:57:00Z; label 1P). Published-window maximum is 1.33 (first at 2026-09-28T11:25:00Z; label 1P). Window start 2026-09-28T09:59:00Z (358 samples). estimated_kp remains below 5.0. The 15:00 UTC hour on 28 September is still incomplete (57 samples through 15:56).",
+        "zh": "最新可靠整點估計 Kp 為 0.67（1M），取樣 2026-09-28 14:00 UTC。14:00 時段已收滿 60 筆（至 14:59，時段初 0.67／1M、時段末 1.00／1Z）。近 180 筆最大 1.33（最先見於 2026-09-28T14:57:00Z；標籤 1P）；公開窗最大 1.33（最先見於 2026-09-28T11:25:00Z；標籤 1P）。窗起點 2026-09-28T09:59:00Z（358 筆）。estimated_kp 仍低於 5.0。2026-09-28 15:00 UTC 時段尚未收滿（57 筆至 15:56）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp_label": "0Z",
+        "estimated_kp": 0.67,
+        "kp_label": "1M",
         "window_max": 1.33,
         "last180_max": 1.33,
-        "n_samples": 357,
-        "window_start": "2026-09-28T07:59:00Z"
+        "n_samples": 358,
+        "window_start": "2026-09-28T09:59:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of the most complete recent hour (12:00 UTC on 28 September). Report last-180 and full published-window maxima.",
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of the most complete recent hour (14:00 UTC on 28 September). Report last-180 and full published-window maxima.",
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The public feed is a rolling ~6-hour window, not a full-day archive."
       },
       "visual": {
         "type": "bar",
-        "value": 0.0,
+        "value": 0.67,
         "min": 0,
         "max": 9
+      }
+    },
+    {
+      "id": "usgs-us6000ty5m",
+      "type": "earthquake",
+      "time_utc": "2026-09-28T15:01:39Z",
+      "title": {
+        "en": "M4.9 earthquake 124 km SE of Pondaguitan, Philippines on 28 September 2026.",
+        "zh": "2026 年 9 月 28 日，124 km SE of Pondaguitan, Philippines發生規模 4.9 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.9, depth about 78.202 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 78.202 公里。"
+      },
+      "data": {
+        "magnitude": 4.9,
+        "magType": "mb",
+        "place": "124 km SE of Pondaguitan, Philippines",
+        "depth_km": 78.202,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty5m"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty5m"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.9,
+        "min": 0,
+        "max": 10
+      }
+    },
+    {
+      "id": "usgs-us6000ty5b",
+      "type": "earthquake",
+      "time_utc": "2026-09-28T13:38:40Z",
+      "title": {
+        "en": "M4.9 earthquake 22 km WNW of Malango, Solomon Islands on 28 September 2026.",
+        "zh": "2026 年 9 月 28 日，22 km WNW of Malango, Solomon Islands發生規模 4.9 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.9, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 10 公里。"
+      },
+      "data": {
+        "magnitude": 4.9,
+        "magType": "mb",
+        "place": "22 km WNW of Malango, Solomon Islands",
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty5b"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty5b"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.9,
+        "min": 0,
+        "max": 10
       }
     },
     {
@@ -634,7 +700,7 @@
       "type": "earthquake",
       "time_utc": "2026-09-27T23:55:48Z",
       "title": {
-        "en": "M4.5 earthquake Fiji region on 28 September 2026.",
+        "en": "M4.5 earthquake Fiji region on 27 September 2026.",
         "zh": "2026 年 9 月 27 日，Fiji region發生規模 4.5 地震。"
       },
       "summary": {
@@ -667,7 +733,7 @@
       "type": "earthquake",
       "time_utc": "2026-09-27T21:57:52Z",
       "title": {
-        "en": "M4.6 earthquake 19 km SW of Sipí, Colombia on 28 September 2026.",
+        "en": "M4.6 earthquake 19 km SW of Sipí, Colombia on 27 September 2026.",
         "zh": "2026 年 9 月 27 日，19 km SW of Sipí, Colombia發生規模 4.6 地震。"
       },
       "summary": {
@@ -700,7 +766,7 @@
       "type": "earthquake",
       "time_utc": "2026-09-27T21:49:48Z",
       "title": {
-        "en": "M4.8 earthquake 2 km W of Guaymate, Dominican Republic on 28 September 2026.",
+        "en": "M4.8 earthquake 2 km W of Guaymate, Dominican Republic on 27 September 2026.",
         "zh": "2026 年 9 月 27 日，2 km W of Guaymate, Dominican Republic發生規模 4.8 地震。"
       },
       "summary": {
@@ -733,7 +799,7 @@
       "type": "earthquake",
       "time_utc": "2026-09-27T21:14:51Z",
       "title": {
-        "en": "M4.5 earthquake 0 km ESE of Naisano Dua, Indonesia on 28 September 2026.",
+        "en": "M4.5 earthquake 0 km ESE of Naisano Dua, Indonesia on 27 September 2026.",
         "zh": "2026 年 9 月 27 日，0 km ESE of Naisano Dua, Indonesia發生規模 4.5 地震。"
       },
       "summary": {
@@ -766,7 +832,7 @@
       "type": "earthquake",
       "time_utc": "2026-09-27T21:13:33Z",
       "title": {
-        "en": "M5 earthquake South Sandwich Islands region on 28 September 2026.",
+        "en": "M5 earthquake South Sandwich Islands region on 27 September 2026.",
         "zh": "2026 年 9 月 27 日，South Sandwich Islands region發生規模 5 地震。"
       },
       "summary": {
@@ -799,7 +865,7 @@
       "type": "earthquake",
       "time_utc": "2026-09-27T18:30:09Z",
       "title": {
-        "en": "M4.5 earthquake 78 km N of Daocheng, China on 28 September 2026.",
+        "en": "M4.5 earthquake 78 km N of Daocheng, China on 27 September 2026.",
         "zh": "2026 年 9 月 27 日，78 km N of Daocheng, China發生規模 4.5 地震。"
       },
       "summary": {
@@ -832,7 +898,7 @@
       "type": "earthquake",
       "time_utc": "2026-09-27T16:43:10Z",
       "title": {
-        "en": "M5 earthquake 191 km NW of Oula Xiuma, China on 28 September 2026.",
+        "en": "M5 earthquake 191 km NW of Oula Xiuma, China on 27 September 2026.",
         "zh": "2026 年 9 月 27 日，191 km NW of Oula Xiuma, China發生規模 5 地震。"
       },
       "summary": {
