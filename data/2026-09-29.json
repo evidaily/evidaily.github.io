@@ -1,38 +1,71 @@
 {
   "date": "2026-09-29",
-  "updated": "2026-09-29T14:00:00+08:00",
+  "updated": "2026-09-29T15:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-29T04:00:00Z",
+      "time_utc": "2026-09-29T05:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (quiet) at 04:00 UTC on 29 September 2026.",
-        "zh": "2026 年 9 月 29 日 04:00 UTC，估計行星 Kp 為 0.00（平靜）。"
+        "en": "Estimated planetary Kp is 0.33 (quiet) at 05:00 UTC on 29 September 2026.",
+        "zh": "2026 年 9 月 29 日 05:00 UTC，估計行星 Kp 為 0.33（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 04:00 UTC on 29 September. The 04:00 hour is complete (60 samples through 04:59; hour-start 0.00/0Z, hour-end 0.33/0P). Last-180 maximum is 2.00 (first at 2026-09-29T02:57:00Z; label 2Z). Published-window maximum is 2.00 (first at 2026-09-29T02:05:00Z; label 2Z). Window start 2026-09-28T23:59:00Z (358 samples). estimated_kp remains below 5.0. The 05:00 UTC hour on 29 September is still incomplete (57 samples through 05:56).",
-        "zh": "最新可靠整點估計 Kp 為 0.00（0Z），取樣 2026-09-29 04:00 UTC。04:00 時段已收滿 60 筆（至 04:59，時段初 0.00／0Z、時段末 0.33／0P）。近 180 筆最大 2.00（最先見於 2026-09-29T02:57:00Z；標籤 2Z）；公開窗最大 2.00（最先見於 2026-09-29T02:05:00Z；標籤 2Z）。窗起點 2026-09-28T23:59:00Z（358 筆）。estimated_kp 仍低於 5.0。2026-09-29 05:00 UTC 時段尚未收滿（57 筆至 05:56）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.33 (0P) at 05:00 UTC on 29 September. The 05:00 hour is complete (60 samples through 05:59; hour-start 0.33/0P, hour-end 0.33/0P). Last-180 maximum is 0.33 (first at 2026-09-29T04:31:00Z; label 0P). Published-window maximum is 2.00 (first at 2026-09-29T02:05:00Z; label 2Z). Window start 2026-09-29T00:58:00Z (359 samples). estimated_kp remains below 5.0. The 06:00 UTC hour on 29 September is still incomplete (57 samples through 06:56).",
+        "zh": "最新可靠整點估計 Kp 為 0.33（0P），取樣 2026-09-29 05:00 UTC。05:00 時段已收滿 60 筆（至 05:59，時段初 0.33／0P、時段末 0.33／0P）。近 180 筆最大 0.33（最先見於 2026-09-29T04:31:00Z；標籤 0P）；公開窗最大 2.00（最先見於 2026-09-29T02:05:00Z；標籤 2Z）。窗起點 2026-09-29T00:58:00Z（359 筆）。estimated_kp 仍低於 5.0。2026-09-29 06:00 UTC 時段尚未收滿（57 筆至 06:56）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp_label": "0Z",
+        "estimated_kp": 0.33,
+        "kp_label": "0P",
         "window_max": 2.0,
-        "last180_max": 2.0,
-        "n_samples": 358,
-        "window_start": "2026-09-28T23:59:00Z"
+        "last180_max": 0.33,
+        "n_samples": 359,
+        "window_start": "2026-09-29T00:58:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of the most complete recent hour (04:00 UTC on 29 September). Report last-180 and full published-window maxima.",
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of the most complete recent hour (05:00 UTC on 29 September). Report last-180 and full published-window maxima.",
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The public feed is a rolling ~6-hour window, not a full-day archive."
       },
       "visual": {
         "type": "bar",
-        "value": 0.0,
+        "value": 0.33,
         "min": 0,
         "max": 9
+      }
+    },
+    {
+      "id": "usgs-us6000tyat",
+      "type": "earthquake",
+      "time_utc": "2026-09-29T06:38:49Z",
+      "title": {
+        "en": "M4.8 earthquake South Sandwich Islands region on 29 September 2026.",
+        "zh": "2026 年 9 月 29 日，South Sandwich Islands region發生規模 4.8 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.8, depth about 35 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 35 公里。"
+      },
+      "data": {
+        "magnitude": 4.8,
+        "magType": "mb",
+        "place": "South Sandwich Islands region",
+        "depth_km": 35,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyat"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyat"
+      },
+      "visual": {
+        "type": "bar",
+        "value": 4.8,
+        "min": 0,
+        "max": 10
       }
     },
     {
@@ -456,39 +489,6 @@
         "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
         "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
         "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty3w"
-      },
-      "visual": {
-        "type": "bar",
-        "value": 4.7,
-        "min": 0,
-        "max": 10
-      }
-    },
-    {
-      "id": "usgs-us6000ty3c",
-      "type": "earthquake",
-      "time_utc": "2026-09-28T06:37:56Z",
-      "title": {
-        "en": "M4.7 earthquake 149 km NE of Hicks Bay, New Zealand on 28 September 2026.",
-        "zh": "2026 年 9 月 28 日，149 km NE of Hicks Bay, New Zealand發生規模 4.7 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.7, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 10 公里。"
-      },
-      "data": {
-        "magnitude": 4.7,
-        "magType": "mb",
-        "place": "149 km NE of Hicks Bay, New Zealand",
-        "depth_km": 10,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty3c"
-      },
-      "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty3c"
       },
       "visual": {
         "type": "bar",
