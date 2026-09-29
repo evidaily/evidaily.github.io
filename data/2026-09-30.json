@@ -1,36 +1,36 @@
 {
   "date": "2026-09-30",
-  "updated": "2026-09-30T03:00:00+08:00",
+  "updated": "2026-09-30T04:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-29T17:00:00Z",
+      "time_utc": "2026-09-29T19:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.33 (quiet) at 17:00 UTC on 29 September 2026.",
-        "zh": "2026 年 9 月 29 日 17:00 UTC，估計行星 Kp 為 0.33（平靜）。"
+        "en": "Estimated planetary Kp is 0.00 (quiet) at 19:00 UTC on 29 September 2026.",
+        "zh": "2026 年 9 月 29 日 19:00 UTC，估計行星 Kp 為 0.00（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.33 (0P) at 17:00 UTC on 29 September. The 17:00 hour is complete (60 samples through 17:59; hour-start 0.33/0P, hour-end 0.67/1M). Last-180 maximum is 0.67 (first at 2026-09-29T16:48:00Z; label 1M). Published-window maximum is 0.67 (first at 2026-09-29T14:44:00Z; label 1M). Window start 2026-09-29T12:57:00Z (358 samples). estimated_kp remains below 5.0. The 18:00 UTC on 29 September hour is still incomplete (55 samples through 18:54).",
-        "zh": "最新可靠整點估計 Kp 為 0.33（0P），取樣 2026-09-29 17:00 UTC。17:00 時段已收滿 60 筆（至 17:59，時段初 0.33/0P、時段末 0.67/1M）。近 180 筆最大 0.67（最先見於 2026-09-29T16:48:00Z；標籤 1M）；公開窗最大 0.67（最先見於 2026-09-29T14:44:00Z；標籤 1M）。窗起點 2026-09-29T12:57:00Z（358 筆）。estimated_kp 仍低於 5.0。2026-09-29 18:00 UTC 時段尚未收滿（55 筆至 18:54）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 19:00 UTC on 29 September. The 19:00 hour is complete (60 samples through 19:59; hour-start 0.00/0Z, hour-end 0.33/0P). Last-180 maximum is 0.67 (first at 2026-09-29T17:29:00Z; label 1M). Published-window maximum is 0.67 (first at 2026-09-29T14:44:00Z; label 1M). Window start 2026-09-29T14:12:00Z (358 samples). estimated_kp remains below 5.0. The 20:00 UTC on 29 September hour is still incomplete (10 samples through 20:09).",
+        "zh": "最新可靠整點估計 Kp 為 0.00（0Z），取樣 2026-09-29 19:00 UTC。19:00 時段已收滿 60 筆（至 19:59，時段初 0.00/0Z、時段末 0.33/0P）。近 180 筆最大 0.67（最先見於 2026-09-29T17:29:00Z；標籤 1M）；公開窗最大 0.67（最先見於 2026-09-29T14:44:00Z；標籤 1M）。窗起點 2026-09-29T14:12:00Z（358 筆）。estimated_kp 仍低於 5.0。2026-09-29 20:00 UTC 時段尚未收滿（10 筆至 20:09）。"
       },
       "data": {
-        "estimated_kp": 0.33,
-        "kp_label": "0P",
+        "estimated_kp": 0.0,
+        "kp_label": "0Z",
         "window_max": 0.67,
         "last180_max": 0.67,
         "n_samples": 358,
-        "window_start": "2026-09-29T12:57:00Z"
+        "window_start": "2026-09-29T14:12:00Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of the most complete recent hour (17:00 UTC on 29 September). Report last-180 and full published-window maxima.",
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of the most complete recent hour (19:00 UTC on 29 September). Report last-180 and full published-window maxima.",
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The public feed is a rolling ~6-hour window, not a full-day archive."
       },
       "visual": {
         "type": "bar",
-        "value": 0.33,
+        "value": 0.0,
         "min": 0,
         "max": 9
       }
@@ -110,8 +110,8 @@
         "zh": "2026 年 9 月 29 日，South Sandwich Islands region發生規模 4.9 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.9, depth about 114.785 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 114.785 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.9, depth about 115 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 115 公里。"
       },
       "data": {
         "magnitude": 4.9,
@@ -143,8 +143,8 @@
         "zh": "2026 年 9 月 29 日，58 km NW of Pante Makasar, Timor Leste發生規模 5 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 5, depth about 157.801 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 5，深度約 157.801 公里。"
+        "en": "USGS M4.5+ day feed: mb 5, depth about 158 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5，深度約 158 公里。"
       },
       "data": {
         "magnitude": 5,
@@ -238,15 +238,15 @@
       "type": "earthquake",
       "time_utc": "2026-09-29T11:36:39Z",
       "title": {
-        "en": "M4.73 earthquake 97 km W of Petrolia, CA on 29 September 2026.",
-        "zh": "2026 年 9 月 29 日，97 km W of Petrolia, CA發生規模 4.73 地震。"
+        "en": "M4.77 earthquake 97 km W of Petrolia, CA on 29 September 2026.",
+        "zh": "2026 年 9 月 29 日，97 km W of Petrolia, CA發生規模 4.77 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mw 4.73, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mw 4.73，深度約 10 公里。"
+        "en": "USGS M4.5+ day feed: mw 4.77, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mw 4.77，深度約 10 公里。"
       },
       "data": {
-        "magnitude": 4.73,
+        "magnitude": 4.77,
         "magType": "mw",
         "place": "97 km W of Petrolia, CA",
         "depth_km": 10,
@@ -261,7 +261,7 @@
       },
       "visual": {
         "type": "bar",
-        "value": 4.73,
+        "value": 4.77,
         "min": 0,
         "max": 10
       }
@@ -341,8 +341,8 @@
         "zh": "2026 年 9 月 29 日，96 km ENE of Alianza Cristiana, Peru發生規模 4.5 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.5, depth about 134.763 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 134.763 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 135 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 135 公里。"
       },
       "data": {
         "magnitude": 4.5,
@@ -374,8 +374,8 @@
         "zh": "2026 年 9 月 29 日，95 km SSW of Ocós, Guatemala發生規模 4.5 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.5, depth about 41.479 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 41.479 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 41 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 41 公里。"
       },
       "data": {
         "magnitude": 4.5,
@@ -440,8 +440,8 @@
         "zh": "2026 年 9 月 29 日，South Sandwich Islands region發生規模 4.8 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.8, depth about 35.08 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 35.08 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.8, depth about 35 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 35 公里。"
       },
       "data": {
         "magnitude": 4.8,
@@ -526,39 +526,6 @@
       "visual": {
         "type": "bar",
         "value": 4.5,
-        "min": 0,
-        "max": 10
-      }
-    },
-    {
-      "id": "usgs-us6000ty7u",
-      "type": "earthquake",
-      "time_utc": "2026-09-28T19:45:07Z",
-      "title": {
-        "en": "M4.9 earthquake 2 km SW of Sakai, Japan on 28 September 2026.",
-        "zh": "2026 年 9 月 28 日，2 km SW of Sakai, Japan發生規模 4.9 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mww 4.9, depth about 70.972 km.",
-        "zh": "USGS M4.5+ 一日饋送：mww 4.9，深度約 70.972 公里。"
-      },
-      "data": {
-        "magnitude": 4.9,
-        "magType": "mww",
-        "place": "2 km SW of Sakai, Japan",
-        "depth_km": 70.972,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty7u"
-      },
-      "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty7u"
-      },
-      "visual": {
-        "type": "bar",
-        "value": 4.9,
         "min": 0,
         "max": 10
       }
