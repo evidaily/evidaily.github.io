@@ -1,1 +1,732 @@
-{"date":"2026-09-29","updated":"2026-09-29T10:00:00+08:00","entries":[{"id":"noaa-kp-1m","type":"space-weather","time_utc":"2026-09-29T00:00:00Z","title":{"en":"Estimated planetary Kp is 0.00 (quiet) at 00:00 UTC on 29 September 2026.","zh":"2026 年 9 月 29 日 00:00 UTC，估計行星 Kp 為 0.00（平靜）。"},"summary":{"en":"Latest reliable hour-start estimated Kp is 0.00 (0Z) at 00:00 UTC on 29 September. The 00:00 hour is complete (60 samples through 00:59; hour-start 0.00/0Z, hour-end 0.67/1M). Last-180 maximum is 1.67 (first at 2026-09-29T01:36:00Z; label 2M). Published-window maximum is 1.67 (first at 2026-09-29T01:36:00Z; label 2M). Window start 2026-09-28T19:59:00Z (358 samples). estimated_kp remains below 5.0. The 01:00 UTC hour on 29 September is still incomplete (57 samples through 01:56).","zh":"最新可靠整點估計 Kp 為 0.00（0Z），取樣 2026-09-29 00:00 UTC。00:00 時段已收滿 60 筆（至 00:59，時段初 0.00／0Z、時段末 0.67／1M）。近 180 筆最大 1.67（最先見於 2026-09-29T01:36:00Z；標籤 2M）；公開窗最大 1.67（最先見於 2026-09-29T01:36:00Z；標籤 2M）。窗起點 2026-09-28T19:59:00Z（358 筆）。estimated_kp 仍低於 5.0。2026-09-29 01:00 UTC 時段尚未收滿（57 筆至 01:56）。"},"data":{"estimated_kp":0.0,"kp_label":"0Z","window_max":1.67,"last180_max":1.67,"n_samples":358,"window_start":"2026-09-28T19:59:00Z"},"evidence":{"source_name":"NOAA SWPC","source_url":"https://services.swpc.noaa.gov/json/planetary_k_index_1m.json","method":"Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of the most complete recent hour (00:00 UTC on 29 September). Report last-180 and full published-window maxima.","limitations":"Values are estimated Kp at 1-minute cadence and can be revised. The public feed is a rolling ~6-hour window, not a full-day archive."},"visual":{"type":"bar","value":0.0,"min":0,"max":9}},{"id":"usgs-us6000ty9i","type":"earthquake","time_utc":"2026-09-29T00:05:23Z","title":{"en":"M4.5 earthquake 173 km SE of Atlasovo, Russia on 29 September 2026.","zh":"2026 年 9 月 29 日，173 km SE of Atlasovo, Russia發生規模 4.5 地震。"},"summary":{"en":"USGS M4.5+ day feed: mb 4.5, depth about 35 km.","zh":"USGS M4.5+ 一日饋送：mb 4.5，深度約 35 公里。"},"data":{"magnitude":4.5,"magType":"mb","place":"173 km SE of Atlasovo, Russia","depth_km":35,"event_url":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty9i"},"evidence":{"source_name":"USGS","source_url":"https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson","method":"Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.","limitations":"Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.","event_page":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty9i"},"visual":{"type":"bar","value":4.5,"min":0,"max":10}},{"id":"usgs-us6000ty7u","type":"earthquake","time_utc":"2026-09-28T19:45:07Z","title":{"en":"M4.9 earthquake 2 km SW of Sakai, Japan on 28 September 2026.","zh":"2026 年 9 月 28 日，2 km SW of Sakai, Japan發生規模 4.9 地震。"},"summary":{"en":"USGS M4.5+ day feed: mww 4.9, depth about 71 km.","zh":"USGS M4.5+ 一日饋送：mww 4.9，深度約 71 公里。"},"data":{"magnitude":4.9,"magType":"mww","place":"2 km SW of Sakai, Japan","depth_km":70.972,"event_url":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty7u"},"evidence":{"source_name":"USGS","source_url":"https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson","method":"Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.","limitations":"Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.","event_page":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty7u"},"visual":{"type":"bar","value":4.9,"min":0,"max":10}},{"id":"usgs-us6000ty73","type":"earthquake","time_utc":"2026-09-28T18:20:44Z","title":{"en":"M4.6 earthquake 36 km SE of Hualien City, Taiwan on 28 September 2026.","zh":"2026 年 9 月 28 日，36 km SE of Hualien City, Taiwan發生規模 4.6 地震。"},"summary":{"en":"USGS M4.5+ day feed: mwr 4.6, depth about 19 km.","zh":"USGS M4.5+ 一日饋送：mwr 4.6，深度約 19 公里。"},"data":{"magnitude":4.6,"magType":"mwr","place":"36 km SE of Hualien City, Taiwan","depth_km":19.011,"event_url":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty73"},"evidence":{"source_name":"USGS","source_url":"https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson","method":"Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.","limitations":"Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.","event_page":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty73"},"visual":{"type":"bar","value":4.6,"min":0,"max":10}},{"id":"usgs-us6000ty71","type":"earthquake","time_utc":"2026-09-28T17:37:55Z","title":{"en":"M4.8 earthquake 155 km NNW of Kilmia, Yemen on 28 September 2026.","zh":"2026 年 9 月 28 日，155 km NNW of Kilmia, Yemen發生規模 4.8 地震。"},"summary":{"en":"USGS M4.5+ day feed: mb 4.8, depth about 10 km.","zh":"USGS M4.5+ 一日饋送：mb 4.8，深度約 10 公里。"},"data":{"magnitude":4.8,"magType":"mb","place":"155 km NNW of Kilmia, Yemen","depth_km":10,"event_url":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty71"},"evidence":{"source_name":"USGS","source_url":"https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson","method":"Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.","limitations":"Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.","event_page":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty71"},"visual":{"type":"bar","value":4.8,"min":0,"max":10}},{"id":"usgs-us6000ty5m","type":"earthquake","time_utc":"2026-09-28T15:01:39Z","title":{"en":"M4.9 earthquake 124 km SE of Pondaguitan, Philippines on 28 September 2026.","zh":"2026 年 9 月 28 日，124 km SE of Pondaguitan, Philippines發生規模 4.9 地震。"},"summary":{"en":"USGS M4.5+ day feed: mb 4.9, depth about 78 km.","zh":"USGS M4.5+ 一日饋送：mb 4.9，深度約 78 公里。"},"data":{"magnitude":4.9,"magType":"mb","place":"124 km SE of Pondaguitan, Philippines","depth_km":78.202,"event_url":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty5m"},"evidence":{"source_name":"USGS","source_url":"https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson","method":"Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.","limitations":"Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.","event_page":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty5m"},"visual":{"type":"bar","value":4.9,"min":0,"max":10}},{"id":"usgs-us6000ty5h","type":"earthquake","time_utc":"2026-09-28T14:43:10Z","title":{"en":"M4.7 earthquake 115 km WSW of Banda Aceh, Indonesia on 28 September 2026.","zh":"2026 年 9 月 28 日，115 km WSW of Banda Aceh, Indonesia發生規模 4.7 地震。"},"summary":{"en":"USGS M4.5+ day feed: mb 4.7, depth about 46 km.","zh":"USGS M4.5+ 一日饋送：mb 4.7，深度約 46 公里。"},"data":{"magnitude":4.7,"magType":"mb","place":"115 km WSW of Banda Aceh, Indonesia","depth_km":45.734,"event_url":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty5h"},"evidence":{"source_name":"USGS","source_url":"https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson","method":"Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.","limitations":"Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.","event_page":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty5h"},"visual":{"type":"bar","value":4.7,"min":0,"max":10}},{"id":"usgs-us6000ty5b","type":"earthquake","time_utc":"2026-09-28T13:38:40Z","title":{"en":"M4.9 earthquake 22 km WNW of Malango, Solomon Islands on 28 September 2026.","zh":"2026 年 9 月 28 日，22 km WNW of Malango, Solomon Islands發生規模 4.9 地震。"},"summary":{"en":"USGS M4.5+ day feed: mb 4.9, depth about 10 km.","zh":"USGS M4.5+ 一日饋送：mb 4.9，深度約 10 公里。"},"data":{"magnitude":4.9,"magType":"mb","place":"22 km WNW of Malango, Solomon Islands","depth_km":10,"event_url":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty5b"},"evidence":{"source_name":"USGS","source_url":"https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson","method":"Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.","limitations":"Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.","event_page":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty5b"},"visual":{"type":"bar","value":4.9,"min":0,"max":10}},{"id":"usgs-us6000ty57","type":"earthquake","time_utc":"2026-09-28T13:22:39Z","title":{"en":"M5.4 earthquake north of Svalbard on 28 September 2026.","zh":"2026 年 9 月 28 日，north of Svalbard發生規模 5.4 地震。"},"summary":{"en":"USGS M4.5+ day feed: mww 5.4, depth about 10 km.","zh":"USGS M4.5+ 一日饋送：mww 5.4，深度約 10 公里。"},"data":{"magnitude":5.4,"magType":"mww","place":"north of Svalbard","depth_km":10,"event_url":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty57"},"evidence":{"source_name":"USGS","source_url":"https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson","method":"Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.","limitations":"Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.","event_page":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty57"},"visual":{"type":"bar","value":5.4,"min":0,"max":10}},{"id":"usgs-us6000ty4w","type":"earthquake","time_utc":"2026-09-28T12:14:24Z","title":{"en":"M4.7 earthquake Fiji region on 28 September 2026.","zh":"2026 年 9 月 28 日，Fiji region發生規模 4.7 地震。"},"summary":{"en":"USGS M4.5+ day feed: mb 4.7, depth about 573 km.","zh":"USGS M4.5+ 一日饋送：mb 4.7，深度約 573 公里。"},"data":{"magnitude":4.7,"magType":"mb","place":"Fiji region","depth_km":573.114,"event_url":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty4w"},"evidence":{"source_name":"USGS","source_url":"https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson","method":"Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.","limitations":"Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.","event_page":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty4w"},"visual":{"type":"bar","value":4.7,"min":0,"max":10}},{"id":"usgs-us6000ty43","type":"earthquake","time_utc":"2026-09-28T09:13:39Z","title":{"en":"M5.2 earthquake 190 km WSW of Port McNeill, Canada on 28 September 2026.","zh":"2026 年 9 月 28 日，190 km WSW of Port McNeill, Canada發生規模 5.2 地震。"},"summary":{"en":"USGS M4.5+ day feed: mww 5.2, depth about 10 km.","zh":"USGS M4.5+ 一日饋送：mww 5.2，深度約 10 公里。"},"data":{"magnitude":5.2,"magType":"mww","place":"190 km WSW of Port McNeill, Canada","depth_km":10,"event_url":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty43"},"evidence":{"source_name":"USGS","source_url":"https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson","method":"Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.","limitations":"Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.","event_page":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty43"},"visual":{"type":"bar","value":5.2,"min":0,"max":10}},{"id":"usgs-us6000ty3w","type":"earthquake","time_utc":"2026-09-28T08:16:13Z","title":{"en":"M4.7 earthquake 65 km E of Pilar, Philippines on 28 September 2026.","zh":"2026 年 9 月 28 日，65 km E of Pilar, Philippines發生規模 4.7 地震。"},"summary":{"en":"USGS M4.5+ day feed: mb 4.7, depth about 10 km.","zh":"USGS M4.5+ 一日饋送：mb 4.7，深度約 10 公里。"},"data":{"magnitude":4.7,"magType":"mb","place":"65 km E of Pilar, Philippines","depth_km":10,"event_url":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty3w"},"evidence":{"source_name":"USGS","source_url":"https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson","method":"Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.","limitations":"Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.","event_page":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty3w"},"visual":{"type":"bar","value":4.7,"min":0,"max":10}},{"id":"usgs-us6000ty3c","type":"earthquake","time_utc":"2026-09-28T06:37:56Z","title":{"en":"M4.7 earthquake 149 km NE of Hicks Bay, New Zealand on 28 September 2026.","zh":"2026 年 9 月 28 日，149 km NE of Hicks Bay, New Zealand發生規模 4.7 地震。"},"summary":{"en":"USGS M4.5+ day feed: mb 4.7, depth about 10 km.","zh":"USGS M4.5+ 一日饋送：mb 4.7，深度約 10 公里。"},"data":{"magnitude":4.7,"magType":"mb","place":"149 km NE of Hicks Bay, New Zealand","depth_km":10,"event_url":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty3c"},"evidence":{"source_name":"USGS","source_url":"https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson","method":"Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.","limitations":"Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.","event_page":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty3c"},"visual":{"type":"bar","value":4.7,"min":0,"max":10}},{"id":"usgs-us6000ty38","type":"earthquake","time_utc":"2026-09-28T05:45:29Z","title":{"en":"M5.2 earthquake 67 km ENE of Tadine, New Caledonia on 28 September 2026.","zh":"2026 年 9 月 28 日，67 km ENE of Tadine, New Caledonia發生規模 5.2 地震。"},"summary":{"en":"USGS M4.5+ day feed: mb 5.2, depth about 10 km.","zh":"USGS M4.5+ 一日饋送：mb 5.2，深度約 10 公里。"},"data":{"magnitude":5.2,"magType":"mb","place":"67 km ENE of Tadine, New Caledonia","depth_km":10,"event_url":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty38"},"evidence":{"source_name":"USGS","source_url":"https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson","method":"Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.","limitations":"Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.","event_page":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty38"},"visual":{"type":"bar","value":5.2,"min":0,"max":10}},{"id":"usgs-us6000ty36","type":"earthquake","time_utc":"2026-09-28T05:42:32Z","title":{"en":"M4.9 earthquake 39 km ENE of Tadine, New Caledonia on 28 September 2026.","zh":"2026 年 9 月 28 日，39 km ENE of Tadine, New Caledonia發生規模 4.9 地震。"},"summary":{"en":"USGS M4.5+ day feed: mb 4.9, depth about 10 km.","zh":"USGS M4.5+ 一日饋送：mb 4.9，深度約 10 公里。"},"data":{"magnitude":4.9,"magType":"mb","place":"39 km ENE of Tadine, New Caledonia","depth_km":10,"event_url":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty36"},"evidence":{"source_name":"USGS","source_url":"https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson","method":"Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.","limitations":"Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.","event_page":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty36"},"visual":{"type":"bar","value":4.9,"min":0,"max":10}},{"id":"usgs-us6000ty3a","type":"earthquake","time_utc":"2026-09-28T05:42:21Z","title":{"en":"M4.6 earthquake 63 km ENE of Tadine, New Caledonia on 28 September 2026.","zh":"2026 年 9 月 28 日，63 km ENE of Tadine, New Caledonia發生規模 4.6 地震。"},"summary":{"en":"USGS M4.5+ day feed: mb 4.6, depth about 10 km.","zh":"USGS M4.5+ 一日饋送：mb 4.6，深度約 10 公里。"},"data":{"magnitude":4.6,"magType":"mb","place":"63 km ENE of Tadine, New Caledonia","depth_km":10,"event_url":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty3a"},"evidence":{"source_name":"USGS","source_url":"https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson","method":"Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.","limitations":"Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.","event_page":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty3a"},"visual":{"type":"bar","value":4.6,"min":0,"max":10}},{"id":"usgs-us6000ty33","type":"earthquake","time_utc":"2026-09-28T05:28:08Z","title":{"en":"M5.1 earthquake 78 km ENE of Tadine, New Caledonia on 28 September 2026.","zh":"2026 年 9 月 28 日，78 km ENE of Tadine, New Caledonia發生規模 5.1 地震。"},"summary":{"en":"USGS M4.5+ day feed: mb 5.1, depth about 10 km.","zh":"USGS M4.5+ 一日饋送：mb 5.1，深度約 10 公里。"},"data":{"magnitude":5.1,"magType":"mb","place":"78 km ENE of Tadine, New Caledonia","depth_km":10,"event_url":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty33"},"evidence":{"source_name":"USGS","source_url":"https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson","method":"Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.","limitations":"Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.","event_page":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty33"},"visual":{"type":"bar","value":5.1,"min":0,"max":10}},{"id":"usgs-us6000ty2w","type":"earthquake","time_utc":"2026-09-28T04:42:56Z","title":{"en":"M4.6 earthquake northwest of the Kuril Islands on 28 September 2026.","zh":"2026 年 9 月 28 日，northwest of the Kuril Islands發生規模 4.6 地震。"},"summary":{"en":"USGS M4.5+ day feed: mb 4.6, depth about 259 km.","zh":"USGS M4.5+ 一日饋送：mb 4.6，深度約 259 公里。"},"data":{"magnitude":4.6,"magType":"mb","place":"northwest of the Kuril Islands","depth_km":258.706,"event_url":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty2w"},"evidence":{"source_name":"USGS","source_url":"https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson","method":"Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.","limitations":"Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.","event_page":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty2w"},"visual":{"type":"bar","value":4.6,"min":0,"max":10}},{"id":"usgs-us6000ty2y","type":"earthquake","time_utc":"2026-09-28T04:41:33Z","title":{"en":"M4.9 earthquake South Sandwich Islands region on 28 September 2026.","zh":"2026 年 9 月 28 日，South Sandwich Islands region發生規模 4.9 地震。"},"summary":{"en":"USGS M4.5+ day feed: mb 4.9, depth about 35 km.","zh":"USGS M4.5+ 一日饋送：mb 4.9，深度約 35 公里。"},"data":{"magnitude":4.9,"magType":"mb","place":"South Sandwich Islands region","depth_km":35,"event_url":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty2y"},"evidence":{"source_name":"USGS","source_url":"https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson","method":"Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.","limitations":"Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.","event_page":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty2y"},"visual":{"type":"bar","value":4.9,"min":0,"max":10}},{"id":"usgs-us6000ty2u","type":"earthquake","time_utc":"2026-09-28T04:41:21Z","title":{"en":"M5.4 earthquake 231 km WSW of Port McNeill, Canada on 28 September 2026.","zh":"2026 年 9 月 28 日，231 km WSW of Port McNeill, Canada發生規模 5.4 地震。"},"summary":{"en":"USGS M4.5+ day feed: mww 5.4, depth about 10 km.","zh":"USGS M4.5+ 一日饋送：mww 5.4，深度約 10 公里。"},"data":{"magnitude":5.4,"magType":"mww","place":"231 km WSW of Port McNeill, Canada","depth_km":10,"event_url":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty2u"},"evidence":{"source_name":"USGS","source_url":"https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson","method":"Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.","limitations":"Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.","event_page":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty2u"},"visual":{"type":"bar","value":5.4,"min":0,"max":10}},{"id":"usgs-us6000ty2e","type":"earthquake","time_utc":"2026-09-28T03:43:44Z","title":{"en":"M5.1 earthquake South Sandwich Islands region on 28 September 2026.","zh":"2026 年 9 月 28 日，South Sandwich Islands region發生規模 5.1 地震。"},"summary":{"en":"USGS M4.5+ day feed: mb 5.1, depth about 35 km.","zh":"USGS M4.5+ 一日饋送：mb 5.1，深度約 35 公里。"},"data":{"magnitude":5.1,"magType":"mb","place":"South Sandwich Islands region","depth_km":35,"event_url":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty2e"},"evidence":{"source_name":"USGS","source_url":"https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson","method":"Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.","limitations":"Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.","event_page":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty2e"},"visual":{"type":"bar","value":5.1,"min":0,"max":10}},{"id":"usgs-us6000ty2b","type":"earthquake","time_utc":"2026-09-28T03:25:06Z","title":{"en":"M5.3 earthquake 60 km NE of Tadine, New Caledonia on 28 September 2026.","zh":"2026 年 9 月 28 日，60 km NE of Tadine, New Caledonia發生規模 5.3 地震。"},"summary":{"en":"USGS M4.5+ day feed: mww 5.3, depth about 10 km.","zh":"USGS M4.5+ 一日饋送：mww 5.3，深度約 10 公里。"},"data":{"magnitude":5.3,"magType":"mww","place":"60 km NE of Tadine, New Caledonia","depth_km":10,"event_url":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty2b"},"evidence":{"source_name":"USGS","source_url":"https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson","method":"Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.","limitations":"Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.","event_page":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty2b"},"visual":{"type":"bar","value":5.3,"min":0,"max":10}},{"id":"usgs-us6000ty27","type":"earthquake","time_utc":"2026-09-28T02:53:43Z","title":{"en":"M4.9 earthquake 195 km WSW of Port McNeill, Canada on 28 September 2026.","zh":"2026 年 9 月 28 日，195 km WSW of Port McNeill, Canada發生規模 4.9 地震。"},"summary":{"en":"USGS M4.5+ day feed: mww 4.9, depth about 10 km.","zh":"USGS M4.5+ 一日饋送：mww 4.9，深度約 10 公里。"},"data":{"magnitude":4.9,"magType":"mww","place":"195 km WSW of Port McNeill, Canada","depth_km":10,"event_url":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty27"},"evidence":{"source_name":"USGS","source_url":"https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson","method":"Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.","limitations":"Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.","event_page":"https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty27"},"visual":{"type":"bar","value":4.9,"min":0,"max":10}}]}
+{
+    "date": "2026-09-29",
+    "updated": "2026-09-29T11:00:00+08:00",
+    "entries": [
+        {
+            "id": "noaa-kp-1m",
+            "type": "space-weather",
+            "time_utc": "2026-09-29T01:00:00Z",
+            "title": {
+                "en": "Estimated planetary Kp is 0.67 (quiet) at 01:00 UTC on 29 September 2026.",
+                "zh": "2026 年 9 月 29 日 01:00 UTC，估計行星 Kp 為 0.67（平靜）。"
+            },
+            "summary": {
+                "en": "Latest reliable hour-start estimated Kp is 0.67 (1M) at 01:00 UTC on 29 September. The 01:00 hour is complete (60 samples through 01:59; hour-start 0.67/1M, hour-end 1.67/2M). Last-180 maximum is 2.00 (first at 2026-09-29T02:05:00Z; label 2Z). Published-window maximum is 2.00 (first at 2026-09-29T02:05:00Z; label 2Z). Window start 2026-09-28T20:56:00Z (357 samples). estimated_kp remains below 5.0. The 02:00 UTC hour on 29 September is still incomplete (53 samples through 02:52).",
+                "zh": "最新可靠整點估計 Kp 為 0.67（1M），取樣 2026-09-29 01:00 UTC。01:00 時段已收滿 60 筆（至 01:59，時段初 0.67／1M、時段末 1.67／2M）。近 180 筆最大 2.00（最先見於 2026-09-29T02:05:00Z；標籤 2Z）；公開窗最大 2.00（最先見於 2026-09-29T02:05:00Z；標籤 2Z）。窗起點 2026-09-28T20:56:00Z（357 筆）。estimated_kp 仍低於 5.0。2026-09-29 02:00 UTC 時段尚未收滿（53 筆至 02:52）。"
+            },
+            "data": {
+                "estimated_kp": 0.67,
+                "kp_label": "1M",
+                "window_max": 2.0,
+                "last180_max": 2.0,
+                "n_samples": 357,
+                "window_start": "2026-09-28T20:56:00Z"
+            },
+            "evidence": {
+                "source_name": "NOAA SWPC",
+                "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
+                "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of the most complete recent hour (01:00 UTC on 29 September). Report last-180 and full published-window maxima.",
+                "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The public feed is a rolling ~6-hour window, not a full-day archive."
+            },
+            "visual": {
+                "type": "bar",
+                "value": 0.67,
+                "min": 0,
+                "max": 9
+            }
+        },
+        {
+            "id": "usgs-us6000ty9i",
+            "type": "earthquake",
+            "time_utc": "2026-09-29T00:05:23Z",
+            "title": {
+                "en": "M4.5 earthquake 173 km SE of Atlasovo, Russia on 29 September 2026.",
+                "zh": "2026 年 9 月 29 日，173 km SE of Atlasovo, Russia發生規模 4.5 地震。"
+            },
+            "summary": {
+                "en": "USGS M4.5+ day feed: mb 4.5, depth about 35 km.",
+                "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 35 公里。"
+            },
+            "data": {
+                "magnitude": 4.5,
+                "magType": "mb",
+                "place": "173 km SE of Atlasovo, Russia",
+                "depth_km": 35,
+                "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty9i"
+            },
+            "evidence": {
+                "source_name": "USGS",
+                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+                "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+                "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+                "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty9i"
+            },
+            "visual": {
+                "type": "bar",
+                "value": 4.5,
+                "min": 0,
+                "max": 10
+            }
+        },
+        {
+            "id": "usgs-us6000ty7u",
+            "type": "earthquake",
+            "time_utc": "2026-09-28T19:45:07Z",
+            "title": {
+                "en": "M4.9 earthquake 2 km SW of Sakai, Japan on 28 September 2026.",
+                "zh": "2026 年 9 月 28 日，2 km SW of Sakai, Japan發生規模 4.9 地震。"
+            },
+            "summary": {
+                "en": "USGS M4.5+ day feed: mww 4.9, depth about 71 km.",
+                "zh": "USGS M4.5+ 一日饋送：mww 4.9，深度約 71 公里。"
+            },
+            "data": {
+                "magnitude": 4.9,
+                "magType": "mww",
+                "place": "2 km SW of Sakai, Japan",
+                "depth_km": 70.972,
+                "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty7u"
+            },
+            "evidence": {
+                "source_name": "USGS",
+                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+                "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+                "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+                "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty7u"
+            },
+            "visual": {
+                "type": "bar",
+                "value": 4.9,
+                "min": 0,
+                "max": 10
+            }
+        },
+        {
+            "id": "usgs-us6000ty73",
+            "type": "earthquake",
+            "time_utc": "2026-09-28T18:20:44Z",
+            "title": {
+                "en": "M4.6 earthquake 36 km SE of Hualien City, Taiwan on 28 September 2026.",
+                "zh": "2026 年 9 月 28 日，36 km SE of Hualien City, Taiwan發生規模 4.6 地震。"
+            },
+            "summary": {
+                "en": "USGS M4.5+ day feed: mwr 4.6, depth about 19 km.",
+                "zh": "USGS M4.5+ 一日饋送：mwr 4.6，深度約 19 公里。"
+            },
+            "data": {
+                "magnitude": 4.6,
+                "magType": "mwr",
+                "place": "36 km SE of Hualien City, Taiwan",
+                "depth_km": 19.011,
+                "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty73"
+            },
+            "evidence": {
+                "source_name": "USGS",
+                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+                "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+                "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+                "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty73"
+            },
+            "visual": {
+                "type": "bar",
+                "value": 4.6,
+                "min": 0,
+                "max": 10
+            }
+        },
+        {
+            "id": "usgs-us6000ty71",
+            "type": "earthquake",
+            "time_utc": "2026-09-28T17:37:55Z",
+            "title": {
+                "en": "M4.8 earthquake 155 km NNW of Kilmia, Yemen on 28 September 2026.",
+                "zh": "2026 年 9 月 28 日，155 km NNW of Kilmia, Yemen發生規模 4.8 地震。"
+            },
+            "summary": {
+                "en": "USGS M4.5+ day feed: mb 4.8, depth about 10 km.",
+                "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 10 公里。"
+            },
+            "data": {
+                "magnitude": 4.8,
+                "magType": "mb",
+                "place": "155 km NNW of Kilmia, Yemen",
+                "depth_km": 10,
+                "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty71"
+            },
+            "evidence": {
+                "source_name": "USGS",
+                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+                "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+                "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+                "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty71"
+            },
+            "visual": {
+                "type": "bar",
+                "value": 4.8,
+                "min": 0,
+                "max": 10
+            }
+        },
+        {
+            "id": "usgs-us6000ty5m",
+            "type": "earthquake",
+            "time_utc": "2026-09-28T15:01:39Z",
+            "title": {
+                "en": "M4.9 earthquake 124 km SE of Pondaguitan, Philippines on 28 September 2026.",
+                "zh": "2026 年 9 月 28 日，124 km SE of Pondaguitan, Philippines發生規模 4.9 地震。"
+            },
+            "summary": {
+                "en": "USGS M4.5+ day feed: mb 4.9, depth about 78 km.",
+                "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 78 公里。"
+            },
+            "data": {
+                "magnitude": 4.9,
+                "magType": "mb",
+                "place": "124 km SE of Pondaguitan, Philippines",
+                "depth_km": 78.202,
+                "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty5m"
+            },
+            "evidence": {
+                "source_name": "USGS",
+                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+                "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+                "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+                "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty5m"
+            },
+            "visual": {
+                "type": "bar",
+                "value": 4.9,
+                "min": 0,
+                "max": 10
+            }
+        },
+        {
+            "id": "usgs-us6000ty5h",
+            "type": "earthquake",
+            "time_utc": "2026-09-28T14:43:10Z",
+            "title": {
+                "en": "M4.7 earthquake 115 km WSW of Banda Aceh, Indonesia on 28 September 2026.",
+                "zh": "2026 年 9 月 28 日，115 km WSW of Banda Aceh, Indonesia發生規模 4.7 地震。"
+            },
+            "summary": {
+                "en": "USGS M4.5+ day feed: mb 4.7, depth about 46 km.",
+                "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 46 公里。"
+            },
+            "data": {
+                "magnitude": 4.7,
+                "magType": "mb",
+                "place": "115 km WSW of Banda Aceh, Indonesia",
+                "depth_km": 45.734,
+                "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty5h"
+            },
+            "evidence": {
+                "source_name": "USGS",
+                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+                "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+                "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+                "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty5h"
+            },
+            "visual": {
+                "type": "bar",
+                "value": 4.7,
+                "min": 0,
+                "max": 10
+            }
+        },
+        {
+            "id": "usgs-us6000ty5b",
+            "type": "earthquake",
+            "time_utc": "2026-09-28T13:38:40Z",
+            "title": {
+                "en": "M4.9 earthquake 22 km WNW of Malango, Solomon Islands on 28 September 2026.",
+                "zh": "2026 年 9 月 28 日，22 km WNW of Malango, Solomon Islands發生規模 4.9 地震。"
+            },
+            "summary": {
+                "en": "USGS M4.5+ day feed: mb 4.9, depth about 10 km.",
+                "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 10 公里。"
+            },
+            "data": {
+                "magnitude": 4.9,
+                "magType": "mb",
+                "place": "22 km WNW of Malango, Solomon Islands",
+                "depth_km": 10,
+                "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty5b"
+            },
+            "evidence": {
+                "source_name": "USGS",
+                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+                "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+                "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+                "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty5b"
+            },
+            "visual": {
+                "type": "bar",
+                "value": 4.9,
+                "min": 0,
+                "max": 10
+            }
+        },
+        {
+            "id": "usgs-us6000ty57",
+            "type": "earthquake",
+            "time_utc": "2026-09-28T13:22:39Z",
+            "title": {
+                "en": "M5.4 earthquake north of Svalbard on 28 September 2026.",
+                "zh": "2026 年 9 月 28 日，north of Svalbard發生規模 5.4 地震。"
+            },
+            "summary": {
+                "en": "USGS M4.5+ day feed: mww 5.4, depth about 10 km.",
+                "zh": "USGS M4.5+ 一日饋送：mww 5.4，深度約 10 公里。"
+            },
+            "data": {
+                "magnitude": 5.4,
+                "magType": "mww",
+                "place": "north of Svalbard",
+                "depth_km": 10,
+                "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty57"
+            },
+            "evidence": {
+                "source_name": "USGS",
+                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+                "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+                "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+                "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty57"
+            },
+            "visual": {
+                "type": "bar",
+                "value": 5.4,
+                "min": 0,
+                "max": 10
+            }
+        },
+        {
+            "id": "usgs-us6000ty4w",
+            "type": "earthquake",
+            "time_utc": "2026-09-28T12:14:24Z",
+            "title": {
+                "en": "M4.7 earthquake Fiji region on 28 September 2026.",
+                "zh": "2026 年 9 月 28 日，Fiji region發生規模 4.7 地震。"
+            },
+            "summary": {
+                "en": "USGS M4.5+ day feed: mb 4.7, depth about 573 km.",
+                "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 573 公里。"
+            },
+            "data": {
+                "magnitude": 4.7,
+                "magType": "mb",
+                "place": "Fiji region",
+                "depth_km": 573.114,
+                "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty4w"
+            },
+            "evidence": {
+                "source_name": "USGS",
+                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+                "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+                "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+                "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty4w"
+            },
+            "visual": {
+                "type": "bar",
+                "value": 4.7,
+                "min": 0,
+                "max": 10
+            }
+        },
+        {
+            "id": "usgs-us6000ty43",
+            "type": "earthquake",
+            "time_utc": "2026-09-28T09:13:39Z",
+            "title": {
+                "en": "M5.2 earthquake 190 km WSW of Port McNeill, Canada on 28 September 2026.",
+                "zh": "2026 年 9 月 28 日，190 km WSW of Port McNeill, Canada發生規模 5.2 地震。"
+            },
+            "summary": {
+                "en": "USGS M4.5+ day feed: mww 5.2, depth about 10 km.",
+                "zh": "USGS M4.5+ 一日饋送：mww 5.2，深度約 10 公里。"
+            },
+            "data": {
+                "magnitude": 5.2,
+                "magType": "mww",
+                "place": "190 km WSW of Port McNeill, Canada",
+                "depth_km": 10,
+                "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty43"
+            },
+            "evidence": {
+                "source_name": "USGS",
+                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+                "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+                "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+                "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty43"
+            },
+            "visual": {
+                "type": "bar",
+                "value": 5.2,
+                "min": 0,
+                "max": 10
+            }
+        },
+        {
+            "id": "usgs-us6000ty3w",
+            "type": "earthquake",
+            "time_utc": "2026-09-28T08:16:13Z",
+            "title": {
+                "en": "M4.7 earthquake 65 km E of Pilar, Philippines on 28 September 2026.",
+                "zh": "2026 年 9 月 28 日，65 km E of Pilar, Philippines發生規模 4.7 地震。"
+            },
+            "summary": {
+                "en": "USGS M4.5+ day feed: mb 4.7, depth about 10 km.",
+                "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 10 公里。"
+            },
+            "data": {
+                "magnitude": 4.7,
+                "magType": "mb",
+                "place": "65 km E of Pilar, Philippines",
+                "depth_km": 10,
+                "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty3w"
+            },
+            "evidence": {
+                "source_name": "USGS",
+                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+                "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+                "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+                "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty3w"
+            },
+            "visual": {
+                "type": "bar",
+                "value": 4.7,
+                "min": 0,
+                "max": 10
+            }
+        },
+        {
+            "id": "usgs-us6000ty3c",
+            "type": "earthquake",
+            "time_utc": "2026-09-28T06:37:56Z",
+            "title": {
+                "en": "M4.7 earthquake 149 km NE of Hicks Bay, New Zealand on 28 September 2026.",
+                "zh": "2026 年 9 月 28 日，149 km NE of Hicks Bay, New Zealand發生規模 4.7 地震。"
+            },
+            "summary": {
+                "en": "USGS M4.5+ day feed: mb 4.7, depth about 10 km.",
+                "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 10 公里。"
+            },
+            "data": {
+                "magnitude": 4.7,
+                "magType": "mb",
+                "place": "149 km NE of Hicks Bay, New Zealand",
+                "depth_km": 10,
+                "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty3c"
+            },
+            "evidence": {
+                "source_name": "USGS",
+                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+                "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+                "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+                "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty3c"
+            },
+            "visual": {
+                "type": "bar",
+                "value": 4.7,
+                "min": 0,
+                "max": 10
+            }
+        },
+        {
+            "id": "usgs-us6000ty38",
+            "type": "earthquake",
+            "time_utc": "2026-09-28T05:45:29Z",
+            "title": {
+                "en": "M5.2 earthquake 67 km ENE of Tadine, New Caledonia on 28 September 2026.",
+                "zh": "2026 年 9 月 28 日，67 km ENE of Tadine, New Caledonia發生規模 5.2 地震。"
+            },
+            "summary": {
+                "en": "USGS M4.5+ day feed: mb 5.2, depth about 10 km.",
+                "zh": "USGS M4.5+ 一日饋送：mb 5.2，深度約 10 公里。"
+            },
+            "data": {
+                "magnitude": 5.2,
+                "magType": "mb",
+                "place": "67 km ENE of Tadine, New Caledonia",
+                "depth_km": 10,
+                "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty38"
+            },
+            "evidence": {
+                "source_name": "USGS",
+                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+                "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+                "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+                "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty38"
+            },
+            "visual": {
+                "type": "bar",
+                "value": 5.2,
+                "min": 0,
+                "max": 10
+            }
+        },
+        {
+            "id": "usgs-us6000ty36",
+            "type": "earthquake",
+            "time_utc": "2026-09-28T05:42:32Z",
+            "title": {
+                "en": "M4.9 earthquake 39 km ENE of Tadine, New Caledonia on 28 September 2026.",
+                "zh": "2026 年 9 月 28 日，39 km ENE of Tadine, New Caledonia發生規模 4.9 地震。"
+            },
+            "summary": {
+                "en": "USGS M4.5+ day feed: mb 4.9, depth about 10 km.",
+                "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 10 公里。"
+            },
+            "data": {
+                "magnitude": 4.9,
+                "magType": "mb",
+                "place": "39 km ENE of Tadine, New Caledonia",
+                "depth_km": 10,
+                "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty36"
+            },
+            "evidence": {
+                "source_name": "USGS",
+                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+                "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+                "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+                "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty36"
+            },
+            "visual": {
+                "type": "bar",
+                "value": 4.9,
+                "min": 0,
+                "max": 10
+            }
+        },
+        {
+            "id": "usgs-us6000ty3a",
+            "type": "earthquake",
+            "time_utc": "2026-09-28T05:42:21Z",
+            "title": {
+                "en": "M4.6 earthquake 63 km ENE of Tadine, New Caledonia on 28 September 2026.",
+                "zh": "2026 年 9 月 28 日，63 km ENE of Tadine, New Caledonia發生規模 4.6 地震。"
+            },
+            "summary": {
+                "en": "USGS M4.5+ day feed: mb 4.6, depth about 10 km.",
+                "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 10 公里。"
+            },
+            "data": {
+                "magnitude": 4.6,
+                "magType": "mb",
+                "place": "63 km ENE of Tadine, New Caledonia",
+                "depth_km": 10,
+                "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty3a"
+            },
+            "evidence": {
+                "source_name": "USGS",
+                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+                "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+                "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+                "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty3a"
+            },
+            "visual": {
+                "type": "bar",
+                "value": 4.6,
+                "min": 0,
+                "max": 10
+            }
+        },
+        {
+            "id": "usgs-us6000ty33",
+            "type": "earthquake",
+            "time_utc": "2026-09-28T05:28:08Z",
+            "title": {
+                "en": "M5.1 earthquake 78 km ENE of Tadine, New Caledonia on 28 September 2026.",
+                "zh": "2026 年 9 月 28 日，78 km ENE of Tadine, New Caledonia發生規模 5.1 地震。"
+            },
+            "summary": {
+                "en": "USGS M4.5+ day feed: mb 5.1, depth about 10 km.",
+                "zh": "USGS M4.5+ 一日饋送：mb 5.1，深度約 10 公里。"
+            },
+            "data": {
+                "magnitude": 5.1,
+                "magType": "mb",
+                "place": "78 km ENE of Tadine, New Caledonia",
+                "depth_km": 10,
+                "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty33"
+            },
+            "evidence": {
+                "source_name": "USGS",
+                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+                "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+                "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+                "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty33"
+            },
+            "visual": {
+                "type": "bar",
+                "value": 5.1,
+                "min": 0,
+                "max": 10
+            }
+        },
+        {
+            "id": "usgs-us6000ty2w",
+            "type": "earthquake",
+            "time_utc": "2026-09-28T04:42:56Z",
+            "title": {
+                "en": "M4.6 earthquake northwest of the Kuril Islands on 28 September 2026.",
+                "zh": "2026 年 9 月 28 日，northwest of the Kuril Islands發生規模 4.6 地震。"
+            },
+            "summary": {
+                "en": "USGS M4.5+ day feed: mb 4.6, depth about 259 km.",
+                "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 259 公里。"
+            },
+            "data": {
+                "magnitude": 4.6,
+                "magType": "mb",
+                "place": "northwest of the Kuril Islands",
+                "depth_km": 258.706,
+                "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty2w"
+            },
+            "evidence": {
+                "source_name": "USGS",
+                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+                "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+                "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+                "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty2w"
+            },
+            "visual": {
+                "type": "bar",
+                "value": 4.6,
+                "min": 0,
+                "max": 10
+            }
+        },
+        {
+            "id": "usgs-us6000ty2y",
+            "type": "earthquake",
+            "time_utc": "2026-09-28T04:41:33Z",
+            "title": {
+                "en": "M4.9 earthquake South Sandwich Islands region on 28 September 2026.",
+                "zh": "2026 年 9 月 28 日，South Sandwich Islands region發生規模 4.9 地震。"
+            },
+            "summary": {
+                "en": "USGS M4.5+ day feed: mb 4.9, depth about 35 km.",
+                "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 35 公里。"
+            },
+            "data": {
+                "magnitude": 4.9,
+                "magType": "mb",
+                "place": "South Sandwich Islands region",
+                "depth_km": 35,
+                "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty2y"
+            },
+            "evidence": {
+                "source_name": "USGS",
+                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+                "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+                "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+                "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty2y"
+            },
+            "visual": {
+                "type": "bar",
+                "value": 4.9,
+                "min": 0,
+                "max": 10
+            }
+        },
+        {
+            "id": "usgs-us6000ty2u",
+            "type": "earthquake",
+            "time_utc": "2026-09-28T04:41:21Z",
+            "title": {
+                "en": "M5.4 earthquake 231 km WSW of Port McNeill, Canada on 28 September 2026.",
+                "zh": "2026 年 9 月 28 日，231 km WSW of Port McNeill, Canada發生規模 5.4 地震。"
+            },
+            "summary": {
+                "en": "USGS M4.5+ day feed: mww 5.4, depth about 10 km.",
+                "zh": "USGS M4.5+ 一日饋送：mww 5.4，深度約 10 公里。"
+            },
+            "data": {
+                "magnitude": 5.4,
+                "magType": "mww",
+                "place": "231 km WSW of Port McNeill, Canada",
+                "depth_km": 10,
+                "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty2u"
+            },
+            "evidence": {
+                "source_name": "USGS",
+                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+                "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+                "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+                "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty2u"
+            },
+            "visual": {
+                "type": "bar",
+                "value": 5.4,
+                "min": 0,
+                "max": 10
+            }
+        },
+        {
+            "id": "usgs-us6000ty2e",
+            "type": "earthquake",
+            "time_utc": "2026-09-28T03:43:44Z",
+            "title": {
+                "en": "M5.1 earthquake South Sandwich Islands region on 28 September 2026.",
+                "zh": "2026 年 9 月 28 日，South Sandwich Islands region發生規模 5.1 地震。"
+            },
+            "summary": {
+                "en": "USGS M4.5+ day feed: mb 5.1, depth about 35 km.",
+                "zh": "USGS M4.5+ 一日饋送：mb 5.1，深度約 35 公里。"
+            },
+            "data": {
+                "magnitude": 5.1,
+                "magType": "mb",
+                "place": "South Sandwich Islands region",
+                "depth_km": 35,
+                "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty2e"
+            },
+            "evidence": {
+                "source_name": "USGS",
+                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+                "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+                "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+                "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty2e"
+            },
+            "visual": {
+                "type": "bar",
+                "value": 5.1,
+                "min": 0,
+                "max": 10
+            }
+        },
+        {
+            "id": "usgs-us6000ty2b",
+            "type": "earthquake",
+            "time_utc": "2026-09-28T03:25:06Z",
+            "title": {
+                "en": "M5.3 earthquake 60 km NE of Tadine, New Caledonia on 28 September 2026.",
+                "zh": "2026 年 9 月 28 日，60 km NE of Tadine, New Caledonia發生規模 5.3 地震。"
+            },
+            "summary": {
+                "en": "USGS M4.5+ day feed: mww 5.3, depth about 10 km.",
+                "zh": "USGS M4.5+ 一日饋送：mww 5.3，深度約 10 公里。"
+            },
+            "data": {
+                "magnitude": 5.3,
+                "magType": "mww",
+                "place": "60 km NE of Tadine, New Caledonia",
+                "depth_km": 10,
+                "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty2b"
+            },
+            "evidence": {
+                "source_name": "USGS",
+                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+                "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+                "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+                "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty2b"
+            },
+            "visual": {
+                "type": "bar",
+                "value": 5.3,
+                "min": 0,
+                "max": 10
+            }
+        }
+    ]
+}
