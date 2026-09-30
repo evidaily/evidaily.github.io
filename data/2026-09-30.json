@@ -1,30 +1,30 @@
 {
   "date": "2026-09-30",
-  "updated": "2026-09-30T22:00:00+08:00",
+  "updated": "2026-09-30T23:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-30T12:00:00Z",
+      "time_utc": "2026-09-30T13:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (quiet) at 12:00 UTC on 30 September 2026.",
-        "zh": "2026 年 9 月 30 日 12:00 UTC，估計行星 Kp 為 0.00（平靜）。"
+        "en": "Estimated planetary Kp is 0.67 (quiet) at 13:00 UTC on 30 September 2026.",
+        "zh": "2026 年 9 月 30 日 13:00 UTC，估計行星 Kp 為 0.67（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 12:00 UTC on 30 September 2026. The 12:00 hour is complete (60 samples through 12:59; hour-start 0.00/0Z, hour-end 0.67/1M). Last-180 maximum is 1.33 (first at 2026-09-30T11:36:00Z; label 1P). Published-window maximum is 1.33 (first at 2026-09-30T11:36:00Z; label 1P). Window start 2026-09-30T07:57:00Z (358 samples). estimated_kp remains below 5.0. The 13:00 UTC on 30 September 2026 hour is still incomplete (55 samples through 13:54).",
-        "zh": "最新可靠整點估計 Kp 為 0.00（0Z），取樣 2026-09-30 12:00 UTC。12:00 時段已收滿 60 筆（至 12:59，時段初 0.00/0Z、時段末 0.67/1M）。近 180 筆最大 1.33（最先見於 2026-09-30T11:36:00Z；標籤 1P）；公開窗最大 1.33（最先見於 2026-09-30T11:36:00Z；標籤 1P）。窗起點 2026-09-30T07:57:00Z（358 筆）。estimated_kp 仍低於 5.0。2026-09-30 13:00 UTC 時段尚未收滿（55 筆至 13:54）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.67 (1M) at 13:00 UTC on 30 September 2026. The 13:00 hour is complete (60 samples through 13:59; hour-start 0.67/1M, hour-end 0.67/1M). Last-180 maximum is 1.33 (first at 2026-09-30T11:55:00Z; label 1P). Published-window maximum is 1.33 (first at 2026-09-30T11:36:00Z; label 1P). Window start 2026-09-30T08:57:00Z (358 samples). estimated_kp remains below 5.0. The 14:00 UTC on 30 September 2026 hour is still incomplete (55 samples through 14:54).",
+        "zh": "最新可靠整點估計 Kp 為 0.67（1M），取樣 2026-09-30 13:00 UTC。13:00 時段已收滿 60 筆（至 13:59，時段初 0.67/1M、時段末 0.67/1M）。近 180 筆最大 1.33（最先見於 2026-09-30T11:55:00Z；標籤 1P）；公開窗最大 1.33（最先見於 2026-09-30T11:36:00Z；標籤 1P）。窗起點 2026-09-30T08:57:00Z（358 筆）。estimated_kp 仍低於 5.0。2026-09-30 14:00 UTC 時段尚未收滿（55 筆至 14:54）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp_label": "0Z",
+        "estimated_kp": 0.67,
+        "kp_label": "1M",
         "last180_max": 1.33,
         "n_samples": 358,
         "window_max": 1.33,
-        "window_start": "2026-09-30T07:57:00Z"
+        "window_start": "2026-09-30T08:57:00Z"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The public feed is a rolling ~6-hour window, not a full-day archive.",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of the most complete recent hour (12:00 UTC on 30 September 2026). Report last-180 and full published-window maxima.",
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of the most complete recent hour (13:00 UTC on 30 September 2026). Report last-180 and full published-window maxima.",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json"
       },
@@ -32,7 +32,7 @@
         "max": 9,
         "min": 0,
         "type": "bar",
-        "value": 0.0
+        "value": 0.67
       }
     },
     {
@@ -467,21 +467,21 @@
     {
       "id": "usgs-us6000tycv",
       "type": "earthquake",
-      "time_utc": "2026-09-29T16:12:56Z",
+      "time_utc": "2026-09-29T16:13:02Z",
       "title": {
-        "en": "M4.8 earthquake 44 km NNE of Fangale’ounga, Tonga on 29 September 2026.",
-        "zh": "2026 年 9 月 29 日，44 km NNE of Fangale’ounga, Tonga發生規模 4.8 地震。"
+        "en": "M4.7 earthquake 50 km N of Fangale’ounga, Tonga on 29 September 2026.",
+        "zh": "2026 年 9 月 29 日，50 km N of Fangale’ounga, Tonga發生規模 4.7 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.8, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 10 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.7, depth about 56.776 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 56.776 公里。"
       },
       "data": {
-        "depth_km": 10,
+        "depth_km": 56.776,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tycv",
         "magType": "mb",
-        "magnitude": 4.8,
-        "place": "44 km NNE of Fangale’ounga, Tonga"
+        "magnitude": 4.7,
+        "place": "50 km N of Fangale’ounga, Tonga"
       },
       "evidence": {
         "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tycv",
@@ -494,7 +494,7 @@
         "max": 10,
         "min": 0,
         "type": "bar",
-        "value": 4.8
+        "value": 4.7
       }
     },
     {
@@ -535,18 +535,18 @@
       "type": "earthquake",
       "time_utc": "2026-09-29T15:17:18Z",
       "title": {
-        "en": "M4.9 earthquake South Sandwich Islands region on 29 September 2026.",
-        "zh": "2026 年 9 月 29 日，South Sandwich Islands region發生規模 4.9 地震。"
+        "en": "M4.8 earthquake South Sandwich Islands region on 29 September 2026.",
+        "zh": "2026 年 9 月 29 日，South Sandwich Islands region發生規模 4.8 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.9, depth about 114.785 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 114.785 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.8, depth about 114.229 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 114.229 公里。"
       },
       "data": {
-        "depth_km": 114.785,
+        "depth_km": 114.229,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyck",
         "magType": "mb",
-        "magnitude": 4.9,
+        "magnitude": 4.8,
         "place": "South Sandwich Islands region"
       },
       "evidence": {
@@ -560,40 +560,7 @@
         "max": 10,
         "min": 0,
         "type": "bar",
-        "value": 4.9
-      }
-    },
-    {
-      "id": "usgs-us6000tyc9",
-      "type": "earthquake",
-      "time_utc": "2026-09-29T14:14:05Z",
-      "title": {
-        "en": "M4.9 earthquake 61 km NW of Pante Makasar, Timor Leste on 29 September 2026.",
-        "zh": "2026 年 9 月 29 日，61 km NW of Pante Makasar, Timor Leste發生規模 4.9 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.9, depth about 153.006 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 153.006 公里。"
-      },
-      "data": {
-        "depth_km": 153.006,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyc9",
-        "magType": "mb",
-        "magnitude": 4.9,
-        "place": "61 km NW of Pante Makasar, Timor Leste"
-      },
-      "evidence": {
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyc9",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
-      },
-      "visual": {
-        "max": 10,
-        "min": 0,
-        "type": "bar",
-        "value": 4.9
+        "value": 4.8
       }
     }
   ]
