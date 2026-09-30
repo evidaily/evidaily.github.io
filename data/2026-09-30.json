@@ -1,18 +1,18 @@
 {
   "date": "2026-09-30",
-  "updated": "2026-09-30T16:00:00+08:00",
+  "updated": "2026-09-30T17:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-30T06:00:00Z",
+      "time_utc": "2026-09-30T07:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (quiet) at 06:00 UTC on 30 September 2026.",
-        "zh": "2026 年 9 月 30 日 06:00 UTC，估計行星 Kp 為 0.00（平靜）。"
+        "en": "Estimated planetary Kp is 0.00 (quiet) at 07:00 UTC on 30 September 2026.",
+        "zh": "2026 年 9 月 30 日 07:00 UTC，估計行星 Kp 為 0.00（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 06:00 UTC on 30 September 2026. The 06:00 hour is complete (60 samples through 06:59; hour-start 0.00/0Z, hour-end 0.00/0Z). Last-180 maximum is 1.00 (first at 2026-09-30T04:57:00Z; label 1Z). Published-window maximum is 1.00 (first at 2026-09-30T01:58:00Z; label 1Z). Window start 2026-09-30T01:58:00Z (359 samples). estimated_kp remains below 5.0. The 07:00 UTC on 30 September 2026 hour is still incomplete (57 samples through 07:56).",
-        "zh": "最新可靠整點估計 Kp 為 0.00（0Z），取樣 2026-09-30 06:00 UTC。06:00 時段已收滿 60 筆（至 06:59，時段初 0.00/0Z、時段末 0.00/0Z）。近 180 筆最大 1.00（最先見於 2026-09-30T04:57:00Z；標籤 1Z）；公開窗最大 1.00（最先見於 2026-09-30T01:58:00Z；標籤 1Z）。窗起點 2026-09-30T01:58:00Z（359 筆）。estimated_kp 仍低於 5.0。2026-09-30 07:00 UTC 時段尚未收滿（57 筆至 07:56）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 07:00 UTC on 30 September 2026. The 07:00 hour is complete (60 samples through 07:59; hour-start 0.00/0Z, hour-end 0.00/0Z). Last-180 maximum is 1.00 (first at 2026-09-30T05:57:00Z; label 1Z). Published-window maximum is 1.00 (first at 2026-09-30T02:58:00Z; label 1Z). Window start 2026-09-30T02:58:00Z (359 samples). estimated_kp remains below 5.0. The 08:00 UTC on 30 September 2026 hour is still incomplete (57 samples through 08:56).",
+        "zh": "最新可靠整點估計 Kp 為 0.00（0Z），取樣 2026-09-30 07:00 UTC。07:00 時段已收滿 60 筆（至 07:59，時段初 0.00/0Z、時段末 0.00/0Z）。近 180 筆最大 1.00（最先見於 2026-09-30T05:57:00Z；標籤 1Z）；公開窗最大 1.00（最先見於 2026-09-30T02:58:00Z；標籤 1Z）。窗起點 2026-09-30T02:58:00Z（359 筆）。estimated_kp 仍低於 5.0。2026-09-30 08:00 UTC 時段尚未收滿（57 筆至 08:56）。"
       },
       "data": {
         "estimated_kp": 0.0,
@@ -20,11 +20,11 @@
         "last180_max": 1.0,
         "n_samples": 359,
         "window_max": 1.0,
-        "window_start": "2026-09-30T01:58:00Z"
+        "window_start": "2026-09-30T02:58:00Z"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The public feed is a rolling ~6-hour window, not a full-day archive.",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of the most complete recent hour (06:00 UTC on 30 September 2026). Report last-180 and full published-window maxima.",
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of the most complete recent hour (07:00 UTC on 30 September 2026). Report last-180 and full published-window maxima.",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json"
       },
@@ -33,6 +33,39 @@
         "min": 0,
         "type": "bar",
         "value": 0.0
+      }
+    },
+    {
+      "id": "usgs-us6000tyit",
+      "type": "earthquake",
+      "time_utc": "2026-09-30T08:15:17Z",
+      "title": {
+        "en": "M5.1 earthquake 121 km S of Kokopo, Papua New Guinea on 30 September 2026.",
+        "zh": "2026 年 9 月 30 日，121 km S of Kokopo, Papua New Guinea發生規模 5.1 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5.1, depth about 28.026 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.1，深度約 28.026 公里。"
+      },
+      "data": {
+        "depth_km": 28.026,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyit",
+        "magType": "mb",
+        "magnitude": 5.1,
+        "place": "121 km S of Kokopo, Papua New Guinea"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyit",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5.1
       }
     },
     {
@@ -110,8 +143,8 @@
         "zh": "2026 年 9 月 30 日，74 km S of Yonakuni, Japan發生規模 5.6 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mww 5.6, depth about 11 km.",
-        "zh": "USGS M4.5+ 一日饋送：mww 5.6，深度約 11 公里。"
+        "en": "USGS M4.5+ day feed: mww 5.6, depth about 10.792 km.",
+        "zh": "USGS M4.5+ 一日饋送：mww 5.6，深度約 10.792 公里。"
       },
       "data": {
         "depth_km": 10.792,
@@ -176,8 +209,8 @@
         "zh": "2026 年 9 月 30 日，112 km SSW of Banda Aceh, Indonesia發生規模 4.5 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.5, depth about 34 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 34 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 33.873 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 33.873 公里。"
       },
       "data": {
         "depth_km": 33.873,
@@ -209,8 +242,8 @@
         "zh": "2026 年 9 月 30 日，104 km SSE of Sarangani, Philippines發生規模 4.5 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.5, depth about 157 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 157 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 156.847 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 156.847 公里。"
       },
       "data": {
         "depth_km": 156.847,
@@ -440,8 +473,8 @@
         "zh": "2026 年 9 月 29 日，South Sandwich Islands region發生規模 4.9 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.9, depth about 115 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 115 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.9, depth about 114.785 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 114.785 公里。"
       },
       "data": {
         "depth_km": 114.785,
@@ -473,8 +506,8 @@
         "zh": "2026 年 9 月 29 日，58 km NW of Pante Makasar, Timor Leste發生規模 5 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 5, depth about 158 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 5，深度約 158 公里。"
+        "en": "USGS M4.5+ day feed: mb 5, depth about 157.801 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5，深度約 157.801 公里。"
       },
       "data": {
         "depth_km": 157.801,
@@ -671,8 +704,8 @@
         "zh": "2026 年 9 月 29 日，96 km ENE of Alianza Cristiana, Peru發生規模 4.5 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.5, depth about 135 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 135 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 134.763 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 134.763 公里。"
       },
       "data": {
         "depth_km": 134.763,
@@ -683,39 +716,6 @@
       },
       "evidence": {
         "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tybk",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
-      },
-      "visual": {
-        "max": 10,
-        "min": 0,
-        "type": "bar",
-        "value": 4.5
-      }
-    },
-    {
-      "id": "usgs-us6000tyb6",
-      "type": "earthquake",
-      "time_utc": "2026-09-29T08:21:56Z",
-      "title": {
-        "en": "M4.5 earthquake 95 km SSW of Ocós, Guatemala on 29 September 2026.",
-        "zh": "2026 年 9 月 29 日，95 km SSW of Ocós, Guatemala發生規模 4.5 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.5, depth about 41 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 41 公里。"
-      },
-      "data": {
-        "depth_km": 41.479,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyb6",
-        "magType": "mb",
-        "magnitude": 4.5,
-        "place": "95 km SSW of Ocós, Guatemala"
-      },
-      "evidence": {
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyb6",
         "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
         "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
         "source_name": "USGS",
