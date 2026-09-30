@@ -1,0 +1,534 @@
+{
+  "date": "2026-10-01",
+  "updated": "2026-10-01T03:00:00+08:00",
+  "entries": [
+    {
+      "id": "noaa-kp-1m",
+      "type": "space-weather",
+      "time_utc": "2026-09-30T17:00:00Z",
+      "title": {
+        "en": "Estimated planetary Kp is 0.67 (quiet) at 17:00 UTC on 30 September 2026.",
+        "zh": "2026 年 9 月 30 日 17:00 UTC，估計行星 Kp 為 0.67（平靜）。"
+      },
+      "summary": {
+        "en": "Latest reliable hour-start estimated Kp is 0.67 (1M) at 17:00 UTC on 30 September 2026. The 17:00 hour is complete (60 samples through 17:59; hour-start 0.67/1M, hour-end 0.67/1M). Last-180 maximum is 1.00 (first at 2026-09-30T17:48:00Z; label 1Z). Published-window maximum is 1.00 (first at 2026-09-30T14:46:00Z; label 1Z). Window start 2026-09-30T12:59:00Z (358 samples). estimated_kp remains below 5.0. The 18:00 UTC on 30 September 2026 hour is still incomplete (57 samples through 18:56).",
+        "zh": "最新可靠整點估計 Kp 為 0.67（1M），取樣 2026-09-30 17:00 UTC。17:00 時段已收滿 60 筆（至 17:59，時段初 0.67/1M、時段末 0.67/1M）。近 180 筆最大 1.00（最先見於 2026-09-30T17:48:00Z；標籤 1Z）；公開窗最大 1.00（最先見於 2026-09-30T14:46:00Z；標籤 1Z）。窗起點 2026-09-30T12:59:00Z（358 筆）。estimated_kp 仍低於 5.0。2026-09-30 18:00 UTC 時段尚未收滿（57 筆至 18:56）。"
+      },
+      "data": {
+        "estimated_kp": 0.67,
+        "kp_label": "1M",
+        "last180_max": 1.0,
+        "n_samples": 358,
+        "window_max": 1.0,
+        "window_start": "2026-09-30T12:59:00Z"
+      },
+      "evidence": {
+        "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The public feed is a rolling ~6-hour window, not a full-day archive.",
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of the most complete recent hour (17:00 UTC on 30 September 2026). Report last-180 and full published-window maxima.",
+        "source_name": "NOAA SWPC",
+        "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json"
+      },
+      "visual": {
+        "max": 9,
+        "min": 0,
+        "type": "bar",
+        "value": 0.67
+      }
+    },
+    {
+      "id": "usgs-us6000tykw",
+      "type": "earthquake",
+      "time_utc": "2026-09-30T18:36:22Z",
+      "title": {
+        "en": "M4.9 earthquake 136 km SE of Petropavlovsk-Kamchatsky, Russia on 30 September 2026.",
+        "zh": "2026 年 9 月 30 日，136 km SE of Petropavlovsk-Kamchatsky, Russia發生規模 4.9 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.9, depth about 31.929 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 31.929 公里。"
+      },
+      "data": {
+        "depth_km": 31.929,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tykw",
+        "magType": "mb",
+        "magnitude": 4.9,
+        "place": "136 km SE of Petropavlovsk-Kamchatsky, Russia"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tykw",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.9
+      }
+    },
+    {
+      "id": "usgs-us6000tyku",
+      "type": "earthquake",
+      "time_utc": "2026-09-30T18:21:19Z",
+      "title": {
+        "en": "M5 earthquake 142 km SE of Petropavlovsk-Kamchatsky, Russia on 30 September 2026.",
+        "zh": "2026 年 9 月 30 日，142 km SE of Petropavlovsk-Kamchatsky, Russia發生規模 5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5, depth about 35 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5，深度約 35 公里。"
+      },
+      "data": {
+        "depth_km": 35,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyku",
+        "magType": "mb",
+        "magnitude": 5,
+        "place": "142 km SE of Petropavlovsk-Kamchatsky, Russia"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyku",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5
+      }
+    },
+    {
+      "id": "usgs-us6000tyjb",
+      "type": "earthquake",
+      "time_utc": "2026-09-30T10:58:50Z",
+      "title": {
+        "en": "M5 earthquake 27 km N of Kupang, Indonesia on 30 September 2026.",
+        "zh": "2026 年 9 月 30 日，27 km N of Kupang, Indonesia發生規模 5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5, depth about 19.368 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5，深度約 19.368 公里。"
+      },
+      "data": {
+        "depth_km": 19.368,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyjb",
+        "magType": "mb",
+        "magnitude": 5,
+        "place": "27 km N of Kupang, Indonesia"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyjb",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5
+      }
+    },
+    {
+      "id": "usgs-us6000tyit",
+      "type": "earthquake",
+      "time_utc": "2026-09-30T08:15:17Z",
+      "title": {
+        "en": "M5.1 earthquake 121 km S of Kokopo, Papua New Guinea on 30 September 2026.",
+        "zh": "2026 年 9 月 30 日，121 km S of Kokopo, Papua New Guinea發生規模 5.1 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5.1, depth about 28.026 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.1，深度約 28.026 公里。"
+      },
+      "data": {
+        "depth_km": 28.026,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyit",
+        "magType": "mb",
+        "magnitude": 5.1,
+        "place": "121 km S of Kokopo, Papua New Guinea"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyit",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5.1
+      }
+    },
+    {
+      "id": "usgs-us6000tyik",
+      "type": "earthquake",
+      "time_utc": "2026-09-30T07:07:16Z",
+      "title": {
+        "en": "M5.2 earthquake Balleny Islands region on 30 September 2026.",
+        "zh": "2026 年 9 月 30 日，Balleny Islands region發生規模 5.2 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mww 5.2, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mww 5.2，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyik",
+        "magType": "mww",
+        "magnitude": 5.2,
+        "place": "Balleny Islands region"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyik",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5.2
+      }
+    },
+    {
+      "id": "usgs-us6000tyid",
+      "type": "earthquake",
+      "time_utc": "2026-09-30T06:50:03Z",
+      "title": {
+        "en": "M5 earthquake 83 km NE of Tadine, New Caledonia on 30 September 2026.",
+        "zh": "2026 年 9 月 30 日，83 km NE of Tadine, New Caledonia發生規模 5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyid",
+        "magType": "mb",
+        "magnitude": 5,
+        "place": "83 km NE of Tadine, New Caledonia"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyid",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5
+      }
+    },
+    {
+      "id": "usgs-us6000tyhn",
+      "type": "earthquake",
+      "time_utc": "2026-09-30T05:20:59Z",
+      "title": {
+        "en": "M4.6 earthquake 3 km W of Thívai, Greece on 30 September 2026.",
+        "zh": "2026 年 9 月 30 日，3 km W of Thívai, Greece發生規模 4.6 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 9.833 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 9.833 公里。"
+      },
+      "data": {
+        "depth_km": 9.833,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyhn",
+        "magType": "mb",
+        "magnitude": 4.6,
+        "place": "3 km W of Thívai, Greece"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyhn",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.6
+      }
+    },
+    {
+      "id": "usgs-us6000tyhk",
+      "type": "earthquake",
+      "time_utc": "2026-09-30T05:00:24Z",
+      "title": {
+        "en": "M5.6 earthquake 74 km S of Yonakuni, Japan on 30 September 2026.",
+        "zh": "2026 年 9 月 30 日，74 km S of Yonakuni, Japan發生規模 5.6 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mww 5.6, depth about 10.792 km.",
+        "zh": "USGS M4.5+ 一日饋送：mww 5.6，深度約 10.792 公里。"
+      },
+      "data": {
+        "depth_km": 10.792,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyhk",
+        "magType": "mww",
+        "magnitude": 5.6,
+        "place": "74 km S of Yonakuni, Japan"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyhk",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5.6
+      }
+    },
+    {
+      "id": "usgs-us6000tyhi",
+      "type": "earthquake",
+      "time_utc": "2026-09-30T04:48:06Z",
+      "title": {
+        "en": "M5.4 earthquake Balleny Islands region on 30 September 2026.",
+        "zh": "2026 年 9 月 30 日，Balleny Islands region發生規模 5.4 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mww 5.4, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mww 5.4，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyhi",
+        "magType": "mww",
+        "magnitude": 5.4,
+        "place": "Balleny Islands region"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyhi",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5.4
+      }
+    },
+    {
+      "id": "usgs-us6000tyh0",
+      "type": "earthquake",
+      "time_utc": "2026-09-30T02:35:50Z",
+      "title": {
+        "en": "M4.5 earthquake 112 km SSW of Banda Aceh, Indonesia on 30 September 2026.",
+        "zh": "2026 年 9 月 30 日，112 km SSW of Banda Aceh, Indonesia發生規模 4.5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 33.873 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 33.873 公里。"
+      },
+      "data": {
+        "depth_km": 33.873,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyh0",
+        "magType": "mb",
+        "magnitude": 4.5,
+        "place": "112 km SSW of Banda Aceh, Indonesia"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyh0",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.5
+      }
+    },
+    {
+      "id": "usgs-us6000tygz",
+      "type": "earthquake",
+      "time_utc": "2026-09-30T02:30:44Z",
+      "title": {
+        "en": "M4.5 earthquake 104 km SSE of Sarangani, Philippines on 30 September 2026.",
+        "zh": "2026 年 9 月 30 日，104 km SSE of Sarangani, Philippines發生規模 4.5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 156.847 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 156.847 公里。"
+      },
+      "data": {
+        "depth_km": 156.847,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tygz",
+        "magType": "mb",
+        "magnitude": 4.5,
+        "place": "104 km SSE of Sarangani, Philippines"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tygz",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.5
+      }
+    },
+    {
+      "id": "usgs-us6000tygs",
+      "type": "earthquake",
+      "time_utc": "2026-09-30T01:34:05Z",
+      "title": {
+        "en": "M4.8 earthquake 18 km SW of Tayaman, Philippines on 30 September 2026.",
+        "zh": "2026 年 9 月 30 日，18 km SW of Tayaman, Philippines發生規模 4.8 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.8, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tygs",
+        "magType": "mb",
+        "magnitude": 4.8,
+        "place": "18 km SW of Tayaman, Philippines"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tygs",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.8
+      }
+    },
+    {
+      "id": "usgs-us6000tygq",
+      "type": "earthquake",
+      "time_utc": "2026-09-30T01:17:47Z",
+      "title": {
+        "en": "M4.8 earthquake 75 km NE of Tadine, New Caledonia on 30 September 2026.",
+        "zh": "2026 年 9 月 30 日，75 km NE of Tadine, New Caledonia發生規模 4.8 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.8, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tygq",
+        "magType": "mb",
+        "magnitude": 4.8,
+        "place": "75 km NE of Tadine, New Caledonia"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tygq",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.8
+      }
+    },
+    {
+      "id": "usgs-us6000tyfk",
+      "type": "earthquake",
+      "time_utc": "2026-09-29T21:50:29Z",
+      "title": {
+        "en": "M4.5 earthquake 15 km SW of San Antonio, Colombia on 29 September 2026.",
+        "zh": "2026 年 9 月 29 日，15 km SW of San Antonio, Colombia發生規模 4.5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyfk",
+        "magType": "mb",
+        "magnitude": 4.5,
+        "place": "15 km SW of San Antonio, Colombia"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyfk",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.5
+      }
+    },
+    {
+      "id": "usgs-us6000tyf0",
+      "type": "earthquake",
+      "time_utc": "2026-09-29T20:45:50Z",
+      "title": {
+        "en": "M4.7 earthquake 49 km N of Dicabisagan, Philippines on 29 September 2026.",
+        "zh": "2026 年 9 月 29 日，49 km N of Dicabisagan, Philippines發生規模 4.7 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.7, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyf0",
+        "magType": "mb",
+        "magnitude": 4.7,
+        "place": "49 km N of Dicabisagan, Philippines"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyf0",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.7
+      }
+    }
+  ]
+}
