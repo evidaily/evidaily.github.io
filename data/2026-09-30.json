@@ -1,30 +1,30 @@
 {
   "date": "2026-09-30",
-  "updated": "2026-09-30T21:00:00+08:00",
+  "updated": "2026-09-30T22:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-09-30T11:00:00Z",
+      "time_utc": "2026-09-30T12:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.67 (quiet) at 11:00 UTC on 30 September 2026.",
-        "zh": "2026 年 9 月 30 日 11:00 UTC，估計行星 Kp 為 0.67（平靜）。"
+        "en": "Estimated planetary Kp is 0.00 (quiet) at 12:00 UTC on 30 September 2026.",
+        "zh": "2026 年 9 月 30 日 12:00 UTC，估計行星 Kp 為 0.00（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.67 (1M) at 11:00 UTC on 30 September 2026. The 11:00 hour is complete (60 samples through 11:59; hour-start 0.67/1M, hour-end 1.33/1P). Last-180 maximum is 1.33 (first at 2026-09-30T11:36:00Z; label 1P). Published-window maximum is 1.33 (first at 2026-09-30T11:36:00Z; label 1P). Window start 2026-09-30T06:58:00Z (358 samples). estimated_kp remains below 5.0. The 12:00 UTC on 30 September 2026 hour is still incomplete (56 samples through 12:55).",
-        "zh": "最新可靠整點估計 Kp 為 0.67（1M），取樣 2026-09-30 11:00 UTC。11:00 時段已收滿 60 筆（至 11:59，時段初 0.67/1M、時段末 1.33/1P）。近 180 筆最大 1.33（最先見於 2026-09-30T11:36:00Z；標籤 1P）；公開窗最大 1.33（最先見於 2026-09-30T11:36:00Z；標籤 1P）。窗起點 2026-09-30T06:58:00Z（358 筆）。estimated_kp 仍低於 5.0。2026-09-30 12:00 UTC 時段尚未收滿（56 筆至 12:55）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 12:00 UTC on 30 September 2026. The 12:00 hour is complete (60 samples through 12:59; hour-start 0.00/0Z, hour-end 0.67/1M). Last-180 maximum is 1.33 (first at 2026-09-30T11:36:00Z; label 1P). Published-window maximum is 1.33 (first at 2026-09-30T11:36:00Z; label 1P). Window start 2026-09-30T07:57:00Z (358 samples). estimated_kp remains below 5.0. The 13:00 UTC on 30 September 2026 hour is still incomplete (55 samples through 13:54).",
+        "zh": "最新可靠整點估計 Kp 為 0.00（0Z），取樣 2026-09-30 12:00 UTC。12:00 時段已收滿 60 筆（至 12:59，時段初 0.00/0Z、時段末 0.67/1M）。近 180 筆最大 1.33（最先見於 2026-09-30T11:36:00Z；標籤 1P）；公開窗最大 1.33（最先見於 2026-09-30T11:36:00Z；標籤 1P）。窗起點 2026-09-30T07:57:00Z（358 筆）。estimated_kp 仍低於 5.0。2026-09-30 13:00 UTC 時段尚未收滿（55 筆至 13:54）。"
       },
       "data": {
-        "estimated_kp": 0.67,
-        "kp_label": "1M",
+        "estimated_kp": 0.0,
+        "kp_label": "0Z",
         "last180_max": 1.33,
         "n_samples": 358,
         "window_max": 1.33,
-        "window_start": "2026-09-30T06:58:00Z"
+        "window_start": "2026-09-30T07:57:00Z"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The public feed is a rolling ~6-hour window, not a full-day archive.",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of the most complete recent hour (11:00 UTC on 30 September 2026). Report last-180 and full published-window maxima.",
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of the most complete recent hour (12:00 UTC on 30 September 2026). Report last-180 and full published-window maxima.",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json"
       },
@@ -32,7 +32,7 @@
         "max": 9,
         "min": 0,
         "type": "bar",
-        "value": 0.67
+        "value": 0.0
       }
     },
     {
@@ -566,21 +566,21 @@
     {
       "id": "usgs-us6000tyc9",
       "type": "earthquake",
-      "time_utc": "2026-09-29T14:14:06Z",
+      "time_utc": "2026-09-29T14:14:05Z",
       "title": {
-        "en": "M5 earthquake 58 km NW of Pante Makasar, Timor Leste on 29 September 2026.",
-        "zh": "2026 年 9 月 29 日，58 km NW of Pante Makasar, Timor Leste發生規模 5 地震。"
+        "en": "M4.9 earthquake 61 km NW of Pante Makasar, Timor Leste on 29 September 2026.",
+        "zh": "2026 年 9 月 29 日，61 km NW of Pante Makasar, Timor Leste發生規模 4.9 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 5, depth about 157.801 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 5，深度約 157.801 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.9, depth about 153.006 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 153.006 公里。"
       },
       "data": {
-        "depth_km": 157.801,
+        "depth_km": 153.006,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyc9",
         "magType": "mb",
-        "magnitude": 5,
-        "place": "58 km NW of Pante Makasar, Timor Leste"
+        "magnitude": 4.9,
+        "place": "61 km NW of Pante Makasar, Timor Leste"
       },
       "evidence": {
         "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyc9",
@@ -593,40 +593,7 @@
         "max": 10,
         "min": 0,
         "type": "bar",
-        "value": 5
-      }
-    },
-    {
-      "id": "usgs-us6000tyc3",
-      "type": "earthquake",
-      "time_utc": "2026-09-29T13:06:10Z",
-      "title": {
-        "en": "M5.6 earthquake southern Mid-Atlantic Ridge on 29 September 2026.",
-        "zh": "2026 年 9 月 29 日，southern Mid-Atlantic Ridge發生規模 5.6 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mww 5.6, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mww 5.6，深度約 10 公里。"
-      },
-      "data": {
-        "depth_km": 10,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyc3",
-        "magType": "mww",
-        "magnitude": 5.6,
-        "place": "southern Mid-Atlantic Ridge"
-      },
-      "evidence": {
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyc3",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
-      },
-      "visual": {
-        "max": 10,
-        "min": 0,
-        "type": "bar",
-        "value": 5.6
+        "value": 4.9
       }
     }
   ]
