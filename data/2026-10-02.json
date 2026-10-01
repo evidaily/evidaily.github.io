@@ -1,30 +1,30 @@
 {
   "date": "2026-10-02",
-  "updated": "2026-10-02T02:00:00+08:00",
+  "updated": "2026-10-02T03:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-01T16:00:00Z",
+      "time_utc": "2026-10-01T17:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.33 (quiet) at 16:00 UTC on 1 October 2026.",
-        "zh": "2026 年 10 月 1 日 16:00 UTC，估計行星 Kp 為 0.33（平靜）。"
+        "en": "Estimated planetary Kp is 0.67 (quiet) at 17:00 UTC on 1 October 2026.",
+        "zh": "2026 年 10 月 1 日 17:00 UTC，估計行星 Kp 為 0.67（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.33 (0P) at 16:00 UTC on 1 October 2026. The 16:00 hour is complete (60 samples through 16:59; hour-start 0.33/0P, hour-end 0.67/1M). Last-180 maximum is 1.67 (first at 2026-10-01T17:44:00Z; label 2M). Published-window maximum is 1.67 (first at 2026-10-01T17:44:00Z; label 2M). Window start 2026-10-01T11:57:00Z (358 samples). estimated_kp remains below 5.0. The 17:00 UTC on 1 October 2026 hour is still incomplete (55 samples through 17:54).",
-        "zh": "最新可靠整點估計 Kp 為 0.33（0P），取樣 2026-10-01 16:00 UTC。16:00 時段已收滿 60 筆（至 16:59，時段初 0.33/0P、時段末 0.67/1M）。近 180 筆最大 1.67（最先見於 2026-10-01T17:44:00Z；標籤 2M）；公開窗最大 1.67（最先見於 2026-10-01T17:44:00Z；標籤 2M）。窗起點 2026-10-01T11:57:00Z（358 筆）。estimated_kp 仍低於 5.0。2026-10-01 17:00 UTC 時段尚未收滿（55 筆至 17:54）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.67 (1M) at 17:00 UTC on 1 October 2026. The 17:00 hour is complete (60 samples through 17:59; hour-start 0.67/1M, hour-end 1.33/1P). Last-180 maximum is 1.67 (first at 2026-10-01T17:44:00Z; label 2M). Published-window maximum is 1.67 (first at 2026-10-01T17:44:00Z; label 2M). Window start 2026-10-01T12:57:00Z (357 samples). estimated_kp remains below 5.0. The 18:00 UTC on 1 October 2026 hour is still incomplete (54 samples through 18:53).",
+        "zh": "最新可靠整點估計 Kp 為 0.67（1M），取樣 2026-10-01 17:00 UTC。17:00 時段已收滿 60 筆（至 17:59，時段初 0.67/1M、時段末 1.33/1P）。近 180 筆最大 1.67（最先見於 2026-10-01T17:44:00Z；標籤 2M）；公開窗最大 1.67（最先見於 2026-10-01T17:44:00Z；標籤 2M）。窗起點 2026-10-01T12:57:00Z（357 筆）。estimated_kp 仍低於 5.0。2026-10-01 18:00 UTC 時段尚未收滿（54 筆至 18:53）。"
       },
       "data": {
-        "estimated_kp": 0.33,
-        "kp_label": "0P",
+        "estimated_kp": 0.67,
+        "kp_label": "1M",
         "last180_max": 1.67,
-        "n_samples": 358,
+        "n_samples": 357,
         "window_max": 1.67,
-        "window_start": "2026-10-01T11:57:00Z"
+        "window_start": "2026-10-01T12:57:00Z"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The public feed is a rolling ~6-hour window, not a full-day archive.",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of the most complete recent hour (16:00 UTC on 1 October 2026). Report last-180 and full published-window maxima.",
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of the most complete recent hour (17:00 UTC on 1 October 2026). Report last-180 and full published-window maxima.",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json"
       },
@@ -32,7 +32,40 @@
         "max": 9,
         "min": 0,
         "type": "bar",
-        "value": 0.33
+        "value": 0.67
+      }
+    },
+    {
+      "id": "usgs-us6000tyw9",
+      "type": "earthquake",
+      "time_utc": "2026-10-01T17:37:11Z",
+      "title": {
+        "en": "M4.6 earthquake 83 km NE of Ruteng, Indonesia on 1 October 2026.",
+        "zh": "2026 年 10 月 1 日，83 km NE of Ruteng, Indonesia發生規模 4.6 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyw9",
+        "magType": "mb",
+        "magnitude": 4.6,
+        "place": "83 km NE of Ruteng, Indonesia"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyw9",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.6
       }
     },
     {
@@ -143,11 +176,11 @@
         "zh": "2026 年 10 月 1 日，0 km NNE of Yōkaichiba, Japan發生規模 5.3 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mww 5.3, depth about 42 km.",
-        "zh": "USGS M4.5+ 一日饋送：mww 5.3，深度約 42 公里。"
+        "en": "USGS M4.5+ day feed: mww 5.3, depth about 41.6 km.",
+        "zh": "USGS M4.5+ 一日饋送：mww 5.3，深度約 41.6 公里。"
       },
       "data": {
-        "depth_km": 42,
+        "depth_km": 41.6,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tytg",
         "magType": "mww",
         "magnitude": 5.3,
@@ -341,11 +374,11 @@
         "zh": "2026 年 10 月 1 日，272 km WSW of Tual, Indonesia發生規模 4.5 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.5, depth about 95 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 95 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 94.8 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 94.8 公里。"
       },
       "data": {
-        "depth_km": 95,
+        "depth_km": 94.8,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000typ5",
         "magType": "mb",
         "magnitude": 4.5,
@@ -374,11 +407,11 @@
         "zh": "2026 年 10 月 1 日，45 km ENE of Luwuk, Indonesia發生規模 4.6 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.6, depth about 116 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 116 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 116.4 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 116.4 公里。"
       },
       "data": {
-        "depth_km": 116,
+        "depth_km": 116.4,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000typ0",
         "magType": "mb",
         "magnitude": 4.6,
@@ -407,11 +440,11 @@
         "zh": "2026 年 10 月 1 日，7 km ESE of Baghlān, Afghanistan發生規模 5.2 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 5.2, depth about 50 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 5.2，深度約 50 公里。"
+        "en": "USGS M4.5+ day feed: mb 5.2, depth about 49.6 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.2，深度約 49.6 公里。"
       },
       "data": {
-        "depth_km": 50,
+        "depth_km": 49.6,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyny",
         "magType": "mb",
         "magnitude": 5.2,
@@ -528,72 +561,6 @@
         "min": 0,
         "type": "bar",
         "value": 4.6
-      }
-    },
-    {
-      "id": "usgs-us6000tykw",
-      "type": "earthquake",
-      "time_utc": "2026-09-30T18:36:22Z",
-      "title": {
-        "en": "M4.9 earthquake 136 km SE of Petropavlovsk-Kamchatsky, Russia on 30 September 2026.",
-        "zh": "2026 年 9 月 30 日，136 km SE of Petropavlovsk-Kamchatsky, Russia發生規模 4.9 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.9, depth about 32 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 32 公里。"
-      },
-      "data": {
-        "depth_km": 32,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tykw",
-        "magType": "mb",
-        "magnitude": 4.9,
-        "place": "136 km SE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "evidence": {
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tykw",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
-      },
-      "visual": {
-        "max": 10,
-        "min": 0,
-        "type": "bar",
-        "value": 4.9
-      }
-    },
-    {
-      "id": "usgs-us6000tyku",
-      "type": "earthquake",
-      "time_utc": "2026-09-30T18:21:19Z",
-      "title": {
-        "en": "M5 earthquake 142 km SE of Petropavlovsk-Kamchatsky, Russia on 30 September 2026.",
-        "zh": "2026 年 9 月 30 日，142 km SE of Petropavlovsk-Kamchatsky, Russia發生規模 5 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mb 5, depth about 35 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 5，深度約 35 公里。"
-      },
-      "data": {
-        "depth_km": 35,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyku",
-        "magType": "mb",
-        "magnitude": 5,
-        "place": "142 km SE of Petropavlovsk-Kamchatsky, Russia"
-      },
-      "evidence": {
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyku",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
-      },
-      "visual": {
-        "max": 10,
-        "min": 0,
-        "type": "bar",
-        "value": 5
       }
     }
   ]
