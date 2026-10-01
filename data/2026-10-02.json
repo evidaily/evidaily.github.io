@@ -1,30 +1,30 @@
 {
   "date": "2026-10-02",
-  "updated": "2026-10-02T04:00:00+08:00",
+  "updated": "2026-10-02T05:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-01T18:00:00Z",
+      "time_utc": "2026-10-01T19:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (quiet) at 18:00 UTC on 1 October 2026.",
-        "zh": "2026 年 10 月 1 日 18:00 UTC，估計行星 Kp 為 0.00（平靜）。"
+        "en": "Estimated planetary Kp is 0.67 (quiet) at 19:00 UTC on 1 October 2026.",
+        "zh": "2026 年 10 月 1 日 19:00 UTC，估計行星 Kp 為 0.67（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 18:00 UTC on 1 October 2026. The 18:00 hour is complete (60 samples through 18:59; hour-start 0.00/0Z, hour-end 0.67/1M). Last-180 maximum is 1.67 (first at 2026-10-01T17:44:00Z; label 2M). Published-window maximum is 1.67 (first at 2026-10-01T17:44:00Z; label 2M). Window start 2026-10-01T13:56:00Z (358 samples). estimated_kp remains below 5.0. The 19:00 UTC on 1 October 2026 hour is still incomplete (54 samples through 19:53).",
-        "zh": "最新可靠整點估計 Kp 為 0.00（0Z），取樣 2026-10-01 18:00 UTC。18:00 時段已收滿 60 筆（至 18:59，時段初 0.00/0Z、時段末 0.67/1M）。近 180 筆最大 1.67（最先見於 2026-10-01T17:44:00Z；標籤 2M）；公開窗最大 1.67（最先見於 2026-10-01T17:44:00Z；標籤 2M）。窗起點 2026-10-01T13:56:00Z（358 筆）。estimated_kp 仍低於 5.0。2026-10-01 19:00 UTC 時段尚未收滿（54 筆至 19:53）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.67 (1M) at 19:00 UTC on 1 October 2026. The 19:00 hour is complete (60 samples through 19:59; hour-start 0.67/1M, hour-end 1.00/1Z). Last-180 maximum is 1.33 (first at 2026-10-01T17:58:00Z; label 1P). Published-window maximum is 1.67 (first at 2026-10-01T17:44:00Z; label 2M). Window start 2026-10-01T15:00:00Z (358 samples). estimated_kp remains below 5.0. The 20:00 UTC on 1 October 2026 hour is still incomplete (58 samples through 20:57).",
+        "zh": "最新可靠整點估計 Kp 為 0.67（1M），取樣 2026-10-01 19:00 UTC。19:00 時段已收滿 60 筆（至 19:59，時段初 0.67/1M、時段末 1.00/1Z）。近 180 筆最大 1.33（最先見於 2026-10-01T17:58:00Z；標籤 1P）；公開窗最大 1.67（最先見於 2026-10-01T17:44:00Z；標籤 2M）。窗起點 2026-10-01T15:00:00Z（358 筆）。estimated_kp 仍低於 5.0。2026-10-01 20:00 UTC 時段尚未收滿（58 筆至 20:57）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp_label": "0Z",
-        "last180_max": 1.67,
+        "estimated_kp": 0.67,
+        "kp_label": "1M",
+        "last180_max": 1.33,
         "n_samples": 358,
         "window_max": 1.67,
-        "window_start": "2026-10-01T13:56:00Z"
+        "window_start": "2026-10-01T15:00:00Z"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The public feed is a rolling ~6-hour window, not a full-day archive.",
-        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of the most complete recent hour (18:00 UTC on 1 October 2026). Report last-180 and full published-window maxima.",
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of the most complete recent hour (19:00 UTC on 1 October 2026). Report last-180 and full published-window maxima.",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json"
       },
@@ -32,7 +32,73 @@
         "max": 9,
         "min": 0,
         "type": "bar",
-        "value": 0.0
+        "value": 0.67
+      }
+    },
+    {
+      "id": "usgs-us6000tyx0",
+      "type": "earthquake",
+      "time_utc": "2026-10-01T20:00:34Z",
+      "title": {
+        "en": "M5.1 earthquake 176 km SE of Lata, Solomon Islands on 1 October 2026.",
+        "zh": "2026 年 10 月 1 日，176 km SE of Lata, Solomon Islands發生規模 5.1 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5.1, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.1，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyx0",
+        "magType": "mb",
+        "magnitude": 5.1,
+        "place": "176 km SE of Lata, Solomon Islands"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyx0",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5.1
+      }
+    },
+    {
+      "id": "usgs-us6000tywu",
+      "type": "earthquake",
+      "time_utc": "2026-10-01T19:38:01Z",
+      "title": {
+        "en": "M5.1 earthquake 171 km SE of Lata, Solomon Islands on 1 October 2026.",
+        "zh": "2026 年 10 月 1 日，171 km SE of Lata, Solomon Islands發生規模 5.1 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mww 5.1, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mww 5.1，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tywu",
+        "magType": "mww",
+        "magnitude": 5.1,
+        "place": "171 km SE of Lata, Solomon Islands"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tywu",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5.1
       }
     },
     {
@@ -176,11 +242,11 @@
         "zh": "2026 年 10 月 1 日，0 km NNE of Yōkaichiba, Japan發生規模 5.3 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mww 5.3, depth about 41.6 km.",
-        "zh": "USGS M4.5+ 一日饋送：mww 5.3，深度約 41.6 公里。"
+        "en": "USGS M4.5+ day feed: mww 5.3, depth about 42 km.",
+        "zh": "USGS M4.5+ 一日饋送：mww 5.3，深度約 42 公里。"
       },
       "data": {
-        "depth_km": 41.6,
+        "depth_km": 41.649,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tytg",
         "magType": "mww",
         "magnitude": 5.3,
@@ -374,11 +440,11 @@
         "zh": "2026 年 10 月 1 日，272 km WSW of Tual, Indonesia發生規模 4.5 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.5, depth about 94.8 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 94.8 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 95 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 95 公里。"
       },
       "data": {
-        "depth_km": 94.8,
+        "depth_km": 94.793,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000typ5",
         "magType": "mb",
         "magnitude": 4.5,
@@ -407,11 +473,11 @@
         "zh": "2026 年 10 月 1 日，45 km ENE of Luwuk, Indonesia發生規模 4.6 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.6, depth about 116.4 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 116.4 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 116 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 116 公里。"
       },
       "data": {
-        "depth_km": 116.4,
+        "depth_km": 116.392,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000typ0",
         "magType": "mb",
         "magnitude": 4.6,
@@ -440,11 +506,11 @@
         "zh": "2026 年 10 月 1 日，7 km ESE of Baghlān, Afghanistan發生規模 5.2 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 5.2, depth about 49.6 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 5.2，深度約 49.6 公里。"
+        "en": "USGS M4.5+ day feed: mb 5.2, depth about 50 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.2，深度約 50 公里。"
       },
       "data": {
-        "depth_km": 49.6,
+        "depth_km": 49.602,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyny",
         "magType": "mb",
         "magnitude": 5.2,
