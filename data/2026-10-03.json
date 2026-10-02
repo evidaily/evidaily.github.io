@@ -1,0 +1,501 @@
+{
+  "date": "2026-10-03",
+  "updated": "2026-10-03T00:00:00+08:00",
+  "entries": [
+    {
+      "id": "noaa-kp-1m",
+      "type": "space-weather",
+      "time_utc": "2026-10-02T14:00:00Z",
+      "title": {
+        "en": "Estimated planetary Kp is 0.00 (quiet) at 14:00 UTC on 2 October 2026.",
+        "zh": "2026 年 10 月 2 日 14:00 UTC，估計行星 Kp 為 0.00（平靜）。"
+      },
+      "summary": {
+        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 14:00 UTC on 2 October 2026. The 14:00 hour is complete (60 samples through 14:59; hour-start 0.00/0Z, hour-end 0.67/1M). Last-180 maximum is 0.67 (first at 2026-10-02T14:17:00Z; label 1M). Published-window maximum is 1.00 (first at 2026-10-02T11:51:00Z; label 1Z). Window start 2026-10-02T09:59:00Z (359 samples). estimated_kp remains below 5.0. The 15:00 UTC on 2 October 2026 hour is still incomplete (58 samples through 15:57).",
+        "zh": "最新可靠整點估計 Kp 為 0.00（0Z），取樣 2026-10-02 14:00 UTC。14:00 時段已收滿 60 筆（至 14:59，時段初 0.00/0Z、時段末 0.67/1M）。近 180 筆最大 0.67（最先見於 2026-10-02T14:17:00Z；標籤 1M）；公開窗最大 1.00（最先見於 2026-10-02T11:51:00Z；標籤 1Z）。窗起點 2026-10-02T09:59:00Z（359 筆）。estimated_kp 仍低於 5.0。2026-10-02 15:00 UTC 時段尚未收滿（58 筆至 15:57）。"
+      },
+      "data": {
+        "estimated_kp": 0.0,
+        "kp_label": "0Z",
+        "last180_max": 0.67,
+        "n_samples": 359,
+        "window_max": 1.0,
+        "window_start": "2026-10-02T09:59:00Z"
+      },
+      "evidence": {
+        "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The public feed is a rolling ~6-hour window, not a full-day archive.",
+        "method": "Read the public 1-minute estimated planetary K-index JSON. Use the latest published hour-start minute of the most complete recent hour (14:00 UTC on 2 October 2026). Report last-180 and full published-window maxima.",
+        "source_name": "NOAA SWPC",
+        "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json"
+      },
+      "visual": {
+        "max": 9,
+        "min": 0,
+        "type": "bar",
+        "value": 0.0
+      }
+    },
+    {
+      "id": "usgs-us6000tz1q",
+      "type": "earthquake",
+      "time_utc": "2026-10-02T15:10:19Z",
+      "title": {
+        "en": "M4.8 earthquake 78 km WSW of San Nicolas, Philippines on 2 October 2026.",
+        "zh": "2026 年 10 月 2 日，78 km WSW of San Nicolas, Philippines發生規模 4.8 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.8, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz1q",
+        "magType": "mb",
+        "magnitude": 4.8,
+        "place": "78 km WSW of San Nicolas, Philippines"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz1q",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.8
+      }
+    },
+    {
+      "id": "usgs-us6000tz1c",
+      "type": "earthquake",
+      "time_utc": "2026-10-02T13:57:15Z",
+      "title": {
+        "en": "M5.0 earthquake 6 km E of Inglewood, New Zealand on 2 October 2026.",
+        "zh": "2026 年 10 月 2 日，6 km E of Inglewood, New Zealand發生規模 5.0 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5.0, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.0，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz1c",
+        "magType": "mb",
+        "magnitude": 5,
+        "place": "6 km E of Inglewood, New Zealand"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz1c",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5
+      }
+    },
+    {
+      "id": "usgs-us6000tz0x",
+      "type": "earthquake",
+      "time_utc": "2026-10-02T11:14:14Z",
+      "title": {
+        "en": "M5.0 earthquake 63 km SW of Panguna, Papua New Guinea on 2 October 2026.",
+        "zh": "2026 年 10 月 2 日，63 km SW of Panguna, Papua New Guinea發生規模 5.0 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5.0, depth about 38 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.0，深度約 38 公里。"
+      },
+      "data": {
+        "depth_km": 38.25,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz0x",
+        "magType": "mb",
+        "magnitude": 5,
+        "place": "63 km SW of Panguna, Papua New Guinea"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz0x",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5
+      }
+    },
+    {
+      "id": "usgs-us6000tyzx",
+      "type": "earthquake",
+      "time_utc": "2026-10-02T06:53:35Z",
+      "title": {
+        "en": "M4.8 earthquake 35 km SSW of El Colomo, Mexico on 2 October 2026.",
+        "zh": "2026 年 10 月 2 日，35 km SSW of El Colomo, Mexico發生規模 4.8 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mww 4.8, depth about 24 km.",
+        "zh": "USGS M4.5+ 一日饋送：mww 4.8，深度約 24 公里。"
+      },
+      "data": {
+        "depth_km": 23.972,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyzx",
+        "magType": "mww",
+        "magnitude": 4.8,
+        "place": "35 km SSW of El Colomo, Mexico"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyzx",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.8
+      }
+    },
+    {
+      "id": "usgs-us6000tyzy",
+      "type": "earthquake",
+      "time_utc": "2026-10-02T06:48:06Z",
+      "title": {
+        "en": "M4.5 earthquake 101 km NE of Ruteng, Indonesia on 2 October 2026.",
+        "zh": "2026 年 10 月 2 日，101 km NE of Ruteng, Indonesia發生規模 4.5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyzy",
+        "magType": "mb",
+        "magnitude": 4.5,
+        "place": "101 km NE of Ruteng, Indonesia"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyzy",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.5
+      }
+    },
+    {
+      "id": "usgs-us6000tyzt",
+      "type": "earthquake",
+      "time_utc": "2026-10-02T05:38:55Z",
+      "title": {
+        "en": "M4.8 earthquake 192 km WNW of Tobelo, Indonesia on 2 October 2026.",
+        "zh": "2026 年 10 月 2 日，192 km WNW of Tobelo, Indonesia發生規模 4.8 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.8, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyzt",
+        "magType": "mb",
+        "magnitude": 4.8,
+        "place": "192 km WNW of Tobelo, Indonesia"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyzt",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.8
+      }
+    },
+    {
+      "id": "usgs-us6000tyzl",
+      "type": "earthquake",
+      "time_utc": "2026-10-02T04:44:53Z",
+      "title": {
+        "en": "M5.1 earthquake 159 km SE of Gizo, Solomon Islands on 2 October 2026.",
+        "zh": "2026 年 10 月 2 日，159 km SE of Gizo, Solomon Islands發生規模 5.1 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5.1, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.1，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyzl",
+        "magType": "mb",
+        "magnitude": 5.1,
+        "place": "159 km SE of Gizo, Solomon Islands"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyzl",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5.1
+      }
+    },
+    {
+      "id": "usgs-us6000tyzi",
+      "type": "earthquake",
+      "time_utc": "2026-10-02T04:27:05Z",
+      "title": {
+        "en": "M5.0 earthquake south of the Fiji Islands on 2 October 2026.",
+        "zh": "2026 年 10 月 2 日，south of the Fiji Islands發生規模 5.0 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5.0, depth about 557 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.0，深度約 557 公里。"
+      },
+      "data": {
+        "depth_km": 557.245,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyzi",
+        "magType": "mb",
+        "magnitude": 5,
+        "place": "south of the Fiji Islands"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyzi",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5
+      }
+    },
+    {
+      "id": "usgs-us6000tyzg",
+      "type": "earthquake",
+      "time_utc": "2026-10-02T04:10:58Z",
+      "title": {
+        "en": "M4.9 earthquake 97 km S of Panguna, Papua New Guinea on 2 October 2026.",
+        "zh": "2026 年 10 月 2 日，97 km S of Panguna, Papua New Guinea發生規模 4.9 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.9, depth about 35 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 35 公里。"
+      },
+      "data": {
+        "depth_km": 35,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyzg",
+        "magType": "mb",
+        "magnitude": 4.9,
+        "place": "97 km S of Panguna, Papua New Guinea"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyzg",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.9
+      }
+    },
+    {
+      "id": "usgs-us6000tyxk",
+      "type": "earthquake",
+      "time_utc": "2026-10-01T21:01:41Z",
+      "title": {
+        "en": "M4.5 earthquake 2 km NE of Satte, Japan on 1 October 2026.",
+        "zh": "2026 年 10 月 1 日，2 km NE of Satte, Japan發生規模 4.5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 65 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 65 公里。"
+      },
+      "data": {
+        "depth_km": 65.032,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyxk",
+        "magType": "mb",
+        "magnitude": 4.5,
+        "place": "2 km NE of Satte, Japan"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyxk",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.5
+      }
+    },
+    {
+      "id": "usgs-us6000tyx0",
+      "type": "earthquake",
+      "time_utc": "2026-10-01T20:00:34Z",
+      "title": {
+        "en": "M5.1 earthquake 176 km SE of Lata, Solomon Islands on 1 October 2026.",
+        "zh": "2026 年 10 月 1 日，176 km SE of Lata, Solomon Islands發生規模 5.1 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5.1, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.1，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyx0",
+        "magType": "mb",
+        "magnitude": 5.1,
+        "place": "176 km SE of Lata, Solomon Islands"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyx0",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5.1
+      }
+    },
+    {
+      "id": "usgs-us6000tywu",
+      "type": "earthquake",
+      "time_utc": "2026-10-01T19:38:01Z",
+      "title": {
+        "en": "M5.1 earthquake 171 km SE of Lata, Solomon Islands on 1 October 2026.",
+        "zh": "2026 年 10 月 1 日，171 km SE of Lata, Solomon Islands發生規模 5.1 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mww 5.1, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mww 5.1，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tywu",
+        "magType": "mww",
+        "magnitude": 5.1,
+        "place": "171 km SE of Lata, Solomon Islands"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tywu",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5.1
+      }
+    },
+    {
+      "id": "usgs-us6000tyw9",
+      "type": "earthquake",
+      "time_utc": "2026-10-01T17:37:11Z",
+      "title": {
+        "en": "M4.6 earthquake 83 km NE of Ruteng, Indonesia on 1 October 2026.",
+        "zh": "2026 年 10 月 1 日，83 km NE of Ruteng, Indonesia發生規模 4.6 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyw9",
+        "magType": "mb",
+        "magnitude": 4.6,
+        "place": "83 km NE of Ruteng, Indonesia"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyw9",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.6
+      }
+    },
+    {
+      "id": "usgs-us6000tyw6",
+      "type": "earthquake",
+      "time_utc": "2026-10-01T17:17:20Z",
+      "title": {
+        "en": "M5.1 earthquake 108 km ENE of Miyako, Japan on 1 October 2026.",
+        "zh": "2026 年 10 月 1 日，108 km ENE of Miyako, Japan發生規模 5.1 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mww 5.1, depth about 35 km.",
+        "zh": "USGS M4.5+ 一日饋送：mww 5.1，深度約 35 公里。"
+      },
+      "data": {
+        "depth_km": 35,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyw6",
+        "magType": "mww",
+        "magnitude": 5.1,
+        "place": "108 km ENE of Miyako, Japan"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyw6",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5.1
+      }
+    }
+  ]
+}
