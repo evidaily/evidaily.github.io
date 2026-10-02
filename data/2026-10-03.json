@@ -1,26 +1,26 @@
 {
   "date": "2026-10-03",
-  "updated": "2026-10-03T06:00:00+08:00",
+  "updated": "2026-10-03T07:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-02T20:00:00Z",
+      "time_utc": "2026-10-02T21:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.33 (quiet) at 20:00 UTC on 2 October 2026.",
-        "zh": "2026 年 10 月 2 日 20:00 UTC，估計行星 Kp 為 0.33（平靜）。"
+        "en": "Estimated planetary Kp is 0.00 (quiet) at 21:00 UTC on 2 October 2026.",
+        "zh": "2026 年 10 月 2 日 21:00 UTC，估計行星 Kp 為 0.00（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.33 (0P) at 20:00 UTC on 2 October 2026. The 20:00 hour is complete (60 samples through 20:59; hour-start 0.33/0P, hour-end 0.67/1M). Last-180 maximum is 0.67 (first at 2026-10-02T20:09:00Z; label 1M). Published-window maximum is 0.67 (first at 2026-10-02T20:09:00Z; label 1M). Window start 2026-10-02T15:58:00Z (358 samples). estimated_kp remains below 5.0. The 21:00 UTC on 2 October 2026 hour is still incomplete (56 samples through 21:55).",
-        "zh": "最新可靠整點估計 Kp 為 0.33（0P），取樣 2026-10-02 20:00 UTC。20:00 時段已收滿 60 筆（至 20:59，時段初 0.33/0P、時段末 0.67/1M）。近 180 筆最大 0.67（最先見於 2026-10-02T20:09:00Z；標籤 1M）；公開窗最大 0.67（最先見於 2026-10-02T20:09:00Z；標籤 1M）。窗起點 2026-10-02T15:58:00Z（358 筆）。estimated_kp 仍低於 5.0。2026-10-02 21:00 UTC 時段尚未收滿（56 筆至 21:55）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 21:00 UTC on 2 October 2026. The 21:00 hour is complete (60 samples through 21:59; hour-start 0.00/0Z, hour-end 0.33/0P). Last-180 maximum is 0.67 (first at 2026-10-02T20:09:00Z; label 1M). Published-window maximum is 0.67 (first at 2026-10-02T20:09:00Z; label 1M). Window start 2026-10-02T16:58:00Z (359 samples). estimated_kp remains below 5.0. The 22:00 UTC on 2 October 2026 hour is still incomplete (57 samples through 22:56).",
+        "zh": "最新可靠整點估計 Kp 為 0.00（0Z），取樣 2026-10-02 21:00 UTC。21:00 時段已收滿 60 筆（至 21:59，時段初 0.00/0Z、時段末 0.33/0P）。近 180 筆最大 0.67（最先見於 2026-10-02T20:09:00Z；標籤 1M）；公開窗最大 0.67（最先見於 2026-10-02T20:09:00Z；標籤 1M）。窗起點 2026-10-02T16:58:00Z（359 筆）。estimated_kp 仍低於 5.0。2026-10-02 22:00 UTC 時段尚未收滿（57 筆至 22:56）。"
       },
       "data": {
-        "estimated_kp": 0.33,
-        "kp_label": "0P",
+        "estimated_kp": 0.0,
+        "kp_label": "0Z",
         "last180_max": 0.67,
-        "n_samples": 358,
+        "n_samples": 359,
         "window_max": 0.67,
-        "window_start": "2026-10-02T15:58:00Z"
+        "window_start": "2026-10-02T16:58:00Z"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The card uses the latest hour that has a full 60 samples; the following hour may still be incomplete.",
@@ -32,7 +32,7 @@
         "max": 9,
         "min": 0,
         "type": "gauge",
-        "value": 0.33
+        "value": 0.0
       }
     },
     {
@@ -66,6 +66,39 @@
         "min": 0,
         "type": "bar",
         "value": 5
+      }
+    },
+    {
+      "id": "usgs-us6000tz8c",
+      "type": "earthquake",
+      "time_utc": "2026-10-02T20:27:27Z",
+      "title": {
+        "en": "M5.1 earthquake 199 km SSE of Vilyuchinsk, Russia on 2 October 2026.",
+        "zh": "2026 年 10 月 2 日，199 km SSE of Vilyuchinsk, Russia發生規模 5.1 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5.1, depth about 10.00 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.1，深度約 10.00 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz8c",
+        "magType": "mb",
+        "magnitude": 5.1,
+        "place": "199 km SSE of Vilyuchinsk, Russia"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz8c",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5.1
       }
     },
     {
@@ -139,12 +172,12 @@
       "type": "earthquake",
       "time_utc": "2026-10-02T18:25:20Z",
       "title": {
-        "en": "M5 earthquake 179 km SSE of Vilyuchinsk, Russia on 2 October 2026.",
-        "zh": "2026 年 10 月 2 日，179 km SSE of Vilyuchinsk, Russia發生規模 5 地震。"
+        "en": "M5.0 earthquake 179 km SSE of Vilyuchinsk, Russia on 2 October 2026.",
+        "zh": "2026 年 10 月 2 日，179 km SSE of Vilyuchinsk, Russia發生規模 5.0 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 5, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 5，深度約 10 公里。"
+        "en": "USGS M4.5+ day feed: mb 5.0, depth about 10.00 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.0，深度約 10.00 公里。"
       },
       "data": {
         "depth_km": 10,
@@ -176,8 +209,8 @@
         "zh": "2026 年 10 月 2 日，165 km SSE of Vilyuchinsk, Russia發生規模 5.8 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mww 5.8, depth about 29.5 km.",
-        "zh": "USGS M4.5+ 一日饋送：mww 5.8，深度約 29.5 公里。"
+        "en": "USGS M4.5+ day feed: mww 5.8, depth about 29.48 km.",
+        "zh": "USGS M4.5+ 一日饋送：mww 5.8，深度約 29.48 公里。"
       },
       "data": {
         "depth_km": 29.477,
@@ -205,12 +238,12 @@
       "type": "earthquake",
       "time_utc": "2026-10-02T16:31:25Z",
       "title": {
-        "en": "M5 earthquake 26 km SSW of Güiria, Venezuela on 2 October 2026.",
-        "zh": "2026 年 10 月 2 日，26 km SSW of Güiria, Venezuela發生規模 5 地震。"
+        "en": "M5.0 earthquake 26 km SSW of Güiria, Venezuela on 2 October 2026.",
+        "zh": "2026 年 10 月 2 日，26 km SSW of Güiria, Venezuela發生規模 5.0 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 5, depth about 9.76 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 5，深度約 9.76 公里。"
+        "en": "USGS M4.5+ day feed: mb 5.0, depth about 9.76 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.0，深度約 9.76 公里。"
       },
       "data": {
         "depth_km": 9.763,
@@ -242,8 +275,8 @@
         "zh": "2026 年 10 月 2 日，5 km NNE of Korumburra, Australia發生規模 4.7 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.7, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 10 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.7, depth about 10.00 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 10.00 公里。"
       },
       "data": {
         "depth_km": 10,
@@ -275,8 +308,8 @@
         "zh": "2026 年 10 月 2 日，78 km WSW of San Nicolas, Philippines發生規模 4.8 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.8, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 10 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.8, depth about 10.00 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 10.00 公里。"
       },
       "data": {
         "depth_km": 10,
@@ -304,12 +337,12 @@
       "type": "earthquake",
       "time_utc": "2026-10-02T13:57:15Z",
       "title": {
-        "en": "M5 earthquake 6 km E of Inglewood, New Zealand on 2 October 2026.",
-        "zh": "2026 年 10 月 2 日，6 km E of Inglewood, New Zealand發生規模 5 地震。"
+        "en": "M5.0 earthquake 6 km E of Inglewood, New Zealand on 2 October 2026.",
+        "zh": "2026 年 10 月 2 日，6 km E of Inglewood, New Zealand發生規模 5.0 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 5, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 5，深度約 10 公里。"
+        "en": "USGS M4.5+ day feed: mb 5.0, depth about 10.00 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.0，深度約 10.00 公里。"
       },
       "data": {
         "depth_km": 10,
@@ -337,12 +370,12 @@
       "type": "earthquake",
       "time_utc": "2026-10-02T11:14:14Z",
       "title": {
-        "en": "M5 earthquake 63 km SW of Panguna, Papua New Guinea on 2 October 2026.",
-        "zh": "2026 年 10 月 2 日，63 km SW of Panguna, Papua New Guinea發生規模 5 地震。"
+        "en": "M5.0 earthquake 63 km SW of Panguna, Papua New Guinea on 2 October 2026.",
+        "zh": "2026 年 10 月 2 日，63 km SW of Panguna, Papua New Guinea發生規模 5.0 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 5, depth about 38.2 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 5，深度約 38.2 公里。"
+        "en": "USGS M4.5+ day feed: mb 5.0, depth about 38.25 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.0，深度約 38.25 公里。"
       },
       "data": {
         "depth_km": 38.25,
@@ -374,8 +407,8 @@
         "zh": "2026 年 10 月 2 日，35 km SSW of El Colomo, Mexico發生規模 4.8 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mww 4.8, depth about 24 km.",
-        "zh": "USGS M4.5+ 一日饋送：mww 4.8，深度約 24 公里。"
+        "en": "USGS M4.5+ day feed: mww 4.8, depth about 23.97 km.",
+        "zh": "USGS M4.5+ 一日饋送：mww 4.8，深度約 23.97 公里。"
       },
       "data": {
         "depth_km": 23.972,
@@ -407,8 +440,8 @@
         "zh": "2026 年 10 月 2 日，101 km NE of Ruteng, Indonesia發生規模 4.5 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.5, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 10 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 10.00 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 10.00 公里。"
       },
       "data": {
         "depth_km": 10,
@@ -440,8 +473,8 @@
         "zh": "2026 年 10 月 2 日，192 km WNW of Tobelo, Indonesia發生規模 4.8 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.8, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 10 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.8, depth about 10.00 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 10.00 公里。"
       },
       "data": {
         "depth_km": 10,
@@ -473,8 +506,8 @@
         "zh": "2026 年 10 月 2 日，159 km SE of Gizo, Solomon Islands發生規模 5.1 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 5.1, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 5.1，深度約 10 公里。"
+        "en": "USGS M4.5+ day feed: mb 5.1, depth about 10.00 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.1，深度約 10.00 公里。"
       },
       "data": {
         "depth_km": 10,
@@ -502,12 +535,12 @@
       "type": "earthquake",
       "time_utc": "2026-10-02T04:27:05Z",
       "title": {
-        "en": "M5 earthquake south of the Fiji Islands on 2 October 2026.",
-        "zh": "2026 年 10 月 2 日，south of the Fiji Islands發生規模 5 地震。"
+        "en": "M5.0 earthquake south of the Fiji Islands on 2 October 2026.",
+        "zh": "2026 年 10 月 2 日，south of the Fiji Islands發生規模 5.0 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 5, depth about 557.2 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 5，深度約 557.2 公里。"
+        "en": "USGS M4.5+ day feed: mb 5.0, depth about 557.25 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.0，深度約 557.25 公里。"
       },
       "data": {
         "depth_km": 557.245,
@@ -539,8 +572,8 @@
         "zh": "2026 年 10 月 2 日，97 km S of Panguna, Papua New Guinea發生規模 4.9 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.9, depth about 35 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 35 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.9, depth about 35.00 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 35.00 公里。"
       },
       "data": {
         "depth_km": 35,
