@@ -1,26 +1,26 @@
 {
   "date": "2026-10-04",
-  "updated": "2026-10-04T01:00:00+08:00",
+  "updated": "2026-10-04T02:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-03T15:00:00Z",
+      "time_utc": "2026-10-03T16:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (quiet) at 15:00 UTC on 3 October 2026.",
-        "zh": "2026 年 10 月 3 日 15:00 UTC，估計行星 Kp 為 0.00（平靜）。"
+        "en": "Estimated planetary Kp is 0.67 (quiet) at 16:00 UTC on 3 October 2026.",
+        "zh": "2026 年 10 月 3 日 16:00 UTC，估計行星 Kp 為 0.67（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 15:00 UTC on 3 October 2026. The 15:00 hour is complete (60 samples through 15:59; hour-start 0.00/0Z, hour-end 0.67/1M). Last-180 maximum is 1.67 (first at 2026-10-03T14:26:00Z; label 2M). Published-window maximum is 2.00 (first at 2026-10-03T10:57:00Z; label 2Z). Window start 2026-10-03T10:57:00Z (358 samples). estimated_kp remains below 5.0. The 16 UTC on 2026-10-03 hour is still incomplete (55 samples through 16:54).",
-        "zh": "最新可靠整點估計 Kp 為 0.00（0Z），取樣 2026-10-03 15:00 UTC。15:00 時段已收滿 60 筆（至 15:59，時段初 0.00/0Z、時段末 0.67/1M）。近 180 筆最大 1.67（最先見於 2026-10-03T14:26:00Z；標籤 2M）；公開窗最大 2.00（最先見於 2026-10-03T10:57:00Z；標籤 2Z）。窗起點 2026-10-03T10:57:00Z（358 筆）。estimated_kp 仍低於 5.0。2026-10-03 16 UTC 時段尚未收滿（55 筆至 16:54）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.67 (1M) at 16:00 UTC on 3 October 2026. The 16:00 hour is complete (60 samples through 16:59; hour-start 0.67/1M, hour-end 0.67/1M). Last-180 maximum is 1.67 (first at 2026-10-03T14:55:00Z; label 2M). Published-window maximum is 2.00 (first at 2026-10-03T11:57:00Z; label 2Z). Window start 2026-10-03T11:57:00Z (358 samples). estimated_kp remains below 5.0. The 17 UTC on 2026-10-03 hour is still incomplete (55 samples through 17:54).",
+        "zh": "最新可靠整點估計 Kp 為 0.67（1M），取樣 2026-10-03 16:00 UTC。16:00 時段已收滿 60 筆（至 16:59，時段初 0.67/1M、時段末 0.67/1M）。近 180 筆最大 1.67（最先見於 2026-10-03T14:55:00Z；標籤 2M）；公開窗最大 2.00（最先見於 2026-10-03T11:57:00Z；標籤 2Z）。窗起點 2026-10-03T11:57:00Z（358 筆）。estimated_kp 仍低於 5.0。2026-10-03 17 UTC 時段尚未收滿（55 筆至 17:54）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp_label": "0Z",
+        "estimated_kp": 0.67,
+        "kp_label": "1M",
         "last180_max": 1.67,
         "n_samples": 358,
         "window_max": 2.0,
-        "window_start": "2026-10-03T10:57:00Z"
+        "window_start": "2026-10-03T11:57:00Z"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The card uses the latest hour that has a full 60 samples; the following hour may still be incomplete.",
@@ -32,7 +32,40 @@
         "max": 9,
         "min": 0,
         "type": "gauge",
-        "value": 0.0
+        "value": 0.67
+      }
+    },
+    {
+      "id": "usgs-us6000tzdj",
+      "type": "earthquake",
+      "time_utc": "2026-10-03T17:24:12Z",
+      "title": {
+        "en": "M4.6 earthquake 76 km NNE of Lae, Papua New Guinea on 3 October 2026.",
+        "zh": "2026 年 10 月 3 日，76 km NNE of Lae, Papua New Guinea發生規模 4.6 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 82 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 82 公里。"
+      },
+      "data": {
+        "depth_km": 81.86,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzdj",
+        "magType": "mb",
+        "magnitude": 4.6,
+        "place": "76 km NNE of Lae, Papua New Guinea"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzdj",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.6
       }
     },
     {
