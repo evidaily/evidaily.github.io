@@ -1,26 +1,26 @@
 {
   "date": "2026-10-03",
-  "updated": "2026-10-03T09:00:00+08:00",
+  "updated": "2026-10-03T10:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-02T23:00:00Z",
+      "time_utc": "2026-10-03T00:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 1.00 (quiet) at 23:00 UTC on 2 October 2026.",
-        "zh": "2026 年 10 月 2 日 23:00 UTC，估計行星 Kp 為 1.00（平靜）。"
+        "en": "Estimated planetary Kp is 0.00 (quiet) at 00:00 UTC on 3 October 2026.",
+        "zh": "2026 年 10 月 3 日 00:00 UTC，估計行星 Kp 為 0.00（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 1.00 (1Z) at 23:00 UTC on 2 October 2026. The 23:00 hour is complete (60 samples through 23:59; hour-start 1.00/1Z, hour-end 1.33/1P). Last-180 maximum is 1.67 (first at 2026-10-02T23:57:00Z; label 2M). Published-window maximum is 1.67 (first at 2026-10-02T23:57:00Z; label 2M). Window start 2026-10-02T18:58:00Z (358 samples). estimated_kp remains below 5.0. The 00:00 UTC on 3 October 2026 hour is still incomplete (56 samples through 00:55).",
-        "zh": "最新可靠整點估計 Kp 為 1.00（1Z），取樣 2026-10-02 23:00 UTC。23:00 時段已收滿 60 筆（至 23:59，時段初 1.00/1Z、時段末 1.33/1P）。近 180 筆最大 1.67（最先見於 2026-10-02T23:57:00Z；標籤 2M）；公開窗最大 1.67（最先見於 2026-10-02T23:57:00Z；標籤 2M）。窗起點 2026-10-02T18:58:00Z（358 筆）。estimated_kp 仍低於 5.0。2026-10-03 00:00 UTC 時段尚未收滿（56 筆至 00:55）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 00:00 UTC on 3 October 2026. The 00:00 hour is complete (60 samples through 00:59; hour-start 0.00/0Z, hour-end 0.00/0Z). Last-180 maximum is 1.67 (first at 2026-10-02T23:57:00Z; label 2M). Published-window maximum is 1.67 (first at 2026-10-02T23:57:00Z; label 2M). Window start 2026-10-02T19:56:00Z (358 samples). estimated_kp remains below 5.0. The 01:00 UTC on 3 October 2026 hour is still incomplete (54 samples through 01:53).",
+        "zh": "最新可靠整點估計 Kp 為 0.00（0Z），取樣 2026-10-03 00:00 UTC。00:00 時段已收滿 60 筆（至 00:59，時段初 0.00/0Z、時段末 0.00/0Z）。近 180 筆最大 1.67（最先見於 2026-10-02T23:57:00Z；標籤 2M）；公開窗最大 1.67（最先見於 2026-10-02T23:57:00Z；標籤 2M）。窗起點 2026-10-02T19:56:00Z（358 筆）。estimated_kp 仍低於 5.0。2026-10-03 01:00 UTC 時段尚未收滿（54 筆至 01:53）。"
       },
       "data": {
-        "estimated_kp": 1.0,
-        "kp_label": "1Z",
+        "estimated_kp": 0.0,
+        "kp_label": "0Z",
         "last180_max": 1.67,
         "n_samples": 358,
         "window_max": 1.67,
-        "window_start": "2026-10-02T18:58:00Z"
+        "window_start": "2026-10-02T19:56:00Z"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The card uses the latest hour that has a full 60 samples; the following hour may still be incomplete.",
@@ -32,7 +32,73 @@
         "max": 9,
         "min": 0,
         "type": "gauge",
-        "value": 1.0
+        "value": 0.0
+      }
+    },
+    {
+      "id": "usgs-us6000tz9v",
+      "type": "earthquake",
+      "time_utc": "2026-10-03T00:01:38Z",
+      "title": {
+        "en": "M4.8 earthquake 121 km SSE of Vilyuchinsk, Russia on 3 October 2026.",
+        "zh": "2026 年 10 月 3 日，121 km SSE of Vilyuchinsk, Russia發生規模 4.8 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.8, depth about 38.69 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 38.69 公里。"
+      },
+      "data": {
+        "depth_km": 38.69,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz9v",
+        "magType": "mb",
+        "magnitude": 4.8,
+        "place": "121 km SSE of Vilyuchinsk, Russia"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz9v",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.8
+      }
+    },
+    {
+      "id": "usgs-us6000tz9t",
+      "type": "earthquake",
+      "time_utc": "2026-10-02T23:59:26Z",
+      "title": {
+        "en": "M4.6 earthquake 174 km SSE of Vilyuchinsk, Russia on 2 October 2026.",
+        "zh": "2026 年 10 月 2 日，174 km SSE of Vilyuchinsk, Russia發生規模 4.6 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 10.00 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 10.00 公里。"
+      },
+      "data": {
+        "depth_km": 10.0,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz9t",
+        "magType": "mb",
+        "magnitude": 4.6,
+        "place": "174 km SSE of Vilyuchinsk, Russia"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz9t",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.6
       }
     },
     {
@@ -84,7 +150,7 @@
         "depth_km": 30.93,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz8l",
         "magType": "mb",
-        "magnitude": 5.0,
+        "magnitude": 5,
         "place": "171 km SE of Vilyuchinsk, Russia"
       },
       "evidence": {
@@ -98,7 +164,7 @@
         "max": 10,
         "min": 0,
         "type": "bar",
-        "value": 5.0
+        "value": 5
       }
     },
     {
@@ -147,7 +213,7 @@
         "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 86.74 公里。"
       },
       "data": {
-        "depth_km": 86.736,
+        "depth_km": 86.74,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz8b",
         "magType": "mb",
         "magnitude": 4.6,
@@ -180,7 +246,7 @@
         "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 38.83 公里。"
       },
       "data": {
-        "depth_km": 38.829,
+        "depth_km": 38.83,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz8a",
         "magType": "mb",
         "magnitude": 4.9,
@@ -216,7 +282,7 @@
         "depth_km": 10.0,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz7b",
         "magType": "mb",
-        "magnitude": 5.0,
+        "magnitude": 5,
         "place": "179 km SSE of Vilyuchinsk, Russia"
       },
       "evidence": {
@@ -230,7 +296,7 @@
         "max": 10,
         "min": 0,
         "type": "bar",
-        "value": 5.0
+        "value": 5
       }
     },
     {
@@ -246,7 +312,7 @@
         "zh": "USGS M4.5+ 一日饋送：mww 5.8，深度約 29.48 公里。"
       },
       "data": {
-        "depth_km": 29.477,
+        "depth_km": 29.48,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz62",
         "magType": "mww",
         "magnitude": 5.8,
@@ -279,10 +345,10 @@
         "zh": "USGS M4.5+ 一日饋送：mb 5.0，深度約 9.76 公里。"
       },
       "data": {
-        "depth_km": 9.763,
+        "depth_km": 9.76,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz5h",
         "magType": "mb",
-        "magnitude": 5.0,
+        "magnitude": 5,
         "place": "26 km SSW of Güiria, Venezuela"
       },
       "evidence": {
@@ -296,7 +362,7 @@
         "max": 10,
         "min": 0,
         "type": "bar",
-        "value": 5.0
+        "value": 5
       }
     },
     {
@@ -381,7 +447,7 @@
         "depth_km": 10.0,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz1c",
         "magType": "mb",
-        "magnitude": 5.0,
+        "magnitude": 5,
         "place": "6 km E of Inglewood, New Zealand"
       },
       "evidence": {
@@ -395,7 +461,7 @@
         "max": 10,
         "min": 0,
         "type": "bar",
-        "value": 5.0
+        "value": 5
       }
     },
     {
@@ -414,7 +480,7 @@
         "depth_km": 38.25,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz0x",
         "magType": "mb",
-        "magnitude": 5.0,
+        "magnitude": 5,
         "place": "63 km SW of Panguna, Papua New Guinea"
       },
       "evidence": {
@@ -428,7 +494,7 @@
         "max": 10,
         "min": 0,
         "type": "bar",
-        "value": 5.0
+        "value": 5
       }
     },
     {
@@ -444,7 +510,7 @@
         "zh": "USGS M4.5+ 一日饋送：mww 4.8，深度約 23.97 公里。"
       },
       "data": {
-        "depth_km": 23.972,
+        "depth_km": 23.97,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyzx",
         "magType": "mww",
         "magnitude": 4.8,
@@ -576,10 +642,10 @@
         "zh": "USGS M4.5+ 一日饋送：mb 5.0，深度約 557.25 公里。"
       },
       "data": {
-        "depth_km": 557.245,
+        "depth_km": 557.25,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyzi",
         "magType": "mb",
-        "magnitude": 5.0,
+        "magnitude": 5,
         "place": "south of the Fiji Islands"
       },
       "evidence": {
@@ -593,7 +659,7 @@
         "max": 10,
         "min": 0,
         "type": "bar",
-        "value": 5.0
+        "value": 5
       }
     },
     {
