@@ -1,26 +1,26 @@
 {
   "date": "2026-10-05",
-  "updated": "2026-10-05T00:00:00+08:00",
+  "updated": "2026-10-05T02:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-04T14:00:00Z",
+      "time_utc": "2026-10-04T16:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 4.67 (minor storm) at 14:00 UTC on 4 October 2026.",
-        "zh": "2026 年 10 月 4 日 14:00 UTC，估計行星 Kp 為 4.67（小磁暴）。"
+        "en": "Estimated planetary Kp is 4.00 (active) at 16:00 UTC on 4 October 2026.",
+        "zh": "2026 年 10 月 4 日 16:00 UTC，估計行星 Kp 為 4.00（活躍）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 4.67 (5M) at 14:00 UTC on 4 October 2026. The 14:00 hour is complete (60 samples through 14:59; hour-start 4.67/5M, hour-end 4.67/5M). Last-180 maximum is 4.67 (first at 2026-10-04T13:34:00Z; label 5M). Published-window maximum is 5.00 (first at 2026-10-04T11:18:00Z; label 5Z). Window start 2026-10-04T09:58:00Z (358 samples). estimated_kp reached 5.00 this window. The 15 UTC on 2026-10-04 hour is still incomplete (56 samples through 15:55).",
-        "zh": "最新可靠整點估計 Kp 為 4.67（5M），取樣 2026-10-04 14:00 UTC。14:00 時段已收滿 60 筆（至 14:59，時段初 4.67/5M、時段末 4.67/5M）。近 180 筆最大 4.67（最先見於 2026-10-04T13:34:00Z；標籤 5M）；公開窗最大 5.00（最先見於 2026-10-04T11:18:00Z；標籤 5Z）。窗起點 2026-10-04T09:58:00Z（358 筆）。本窗 estimated_kp 已達 5.00。2026-10-04 15 UTC 時段尚未收滿（56 筆至 15:55）。"
+        "en": "Latest reliable hour-start estimated Kp is 4.00 (4Z) at 16:00 UTC on 4 October 2026. The 16:00 hour is complete (60 samples through 16:59; hour-start 4.00/4Z, hour-end 4.33/4P). Last-180 maximum is 4.67 (first at 2026-10-04T14:55:00Z; label 5M). Published-window maximum is 5.00 (first at 2026-10-04T11:57:00Z; label 5Z). Window start 2026-10-04T11:57:00Z (358 samples). estimated_kp reached 5.00 this window. The 17 UTC on 2026-10-04 hour is still incomplete (55 samples through 17:54).",
+        "zh": "最新可靠整點估計 Kp 為 4.00（4Z），取樣 2026-10-04 16:00 UTC。16:00 時段已收滿 60 筆（至 16:59，時段初 4.00/4Z、時段末 4.33/4P）。近 180 筆最大 4.67（最先見於 2026-10-04T14:55:00Z；標籤 5M）；公開窗最大 5.00（最先見於 2026-10-04T11:57:00Z；標籤 5Z）。窗起點 2026-10-04T11:57:00Z（358 筆）。本窗 estimated_kp 已達 5.00。2026-10-04 17 UTC 時段尚未收滿（55 筆至 17:54）。"
       },
       "data": {
-        "estimated_kp": 4.67,
-        "kp_label": "5M",
+        "estimated_kp": 4.0,
+        "kp_label": "4Z",
         "last180_max": 4.67,
         "n_samples": 358,
         "window_max": 5.0,
-        "window_start": "2026-10-04T09:58:00Z"
+        "window_start": "2026-10-04T11:57:00Z"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The card uses the latest hour that has a full 60 samples; the following hour may still be incomplete.",
@@ -32,7 +32,7 @@
         "max": 9,
         "min": 0,
         "type": "gauge",
-        "value": 4.67
+        "value": 4.0
       }
     },
     {
@@ -627,39 +627,6 @@
         "min": 0,
         "type": "bar",
         "value": 4.9
-      }
-    },
-    {
-      "id": "usgs-us6000tzdj",
-      "type": "earthquake",
-      "time_utc": "2026-10-03T17:24:12Z",
-      "title": {
-        "en": "M4.6 earthquake 76 km NNE of Lae, Papua New Guinea on 3 October 2026.",
-        "zh": "2026 年 10 月 3 日，76 km NNE of Lae, Papua New Guinea發生規模 4.6 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.6, depth about 81.9 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 81.9 公里。"
-      },
-      "data": {
-        "depth_km": 81.86,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzdj",
-        "magType": "mb",
-        "magnitude": 4.6,
-        "place": "76 km NNE of Lae, Papua New Guinea"
-      },
-      "evidence": {
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzdj",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
-      },
-      "visual": {
-        "max": 10,
-        "min": 0,
-        "type": "bar",
-        "value": 4.6
       }
     }
   ]
