@@ -1,26 +1,26 @@
 {
   "date": "2026-10-04",
-  "updated": "2026-10-04T16:00:00+08:00",
+  "updated": "2026-10-04T17:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-04T06:00:00Z",
+      "time_utc": "2026-10-04T07:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (quiet) at 06:00 UTC on 4 October 2026.",
-        "zh": "2026 年 10 月 4 日 06:00 UTC，估計行星 Kp 為 0.00（平靜）。"
+        "en": "Estimated planetary Kp is 2.67 (unsettled) at 07:00 UTC on 4 October 2026.",
+        "zh": "2026 年 10 月 4 日 07:00 UTC，估計行星 Kp 為 2.67（不穩定）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 06:00 UTC on 4 October 2026. The 06:00 hour is complete (60 samples through 06:59; hour-start 0.00/0Z, hour-end 2.67/3M). Last-180 maximum is 3.33 (first at 2026-10-04T05:48:00Z; label 3P). Published-window maximum is 3.33 (first at 2026-10-04T05:48:00Z; label 3P). Window start 2026-10-04T01:58:00Z (358 samples). estimated_kp remains below 5.0. The 07 UTC on 2026-10-04 hour is still incomplete (56 samples through 07:55).",
-        "zh": "最新可靠整點估計 Kp 為 0.00（0Z），取樣 2026-10-04 06:00 UTC。06:00 時段已收滿 60 筆（至 06:59，時段初 0.00/0Z、時段末 2.67/3M）。近 180 筆最大 3.33（最先見於 2026-10-04T05:48:00Z；標籤 3P）；公開窗最大 3.33（最先見於 2026-10-04T05:48:00Z；標籤 3P）。窗起點 2026-10-04T01:58:00Z（358 筆）。estimated_kp 仍低於 5.0。2026-10-04 07 UTC 時段尚未收滿（56 筆至 07:55）。"
+        "en": "Latest reliable hour-start estimated Kp is 2.67 (3M) at 07:00 UTC on 4 October 2026. The 07:00 hour is complete (60 samples through 07:59; hour-start 2.67/3M, hour-end 4.00/4Z). Last-180 maximum is 4.33 (first at 2026-10-04T08:14:00Z; label 4P). Published-window maximum is 4.33 (first at 2026-10-04T08:14:00Z; label 4P). Window start 2026-10-04T02:58:00Z (358 samples). estimated_kp remains below 5.0. The 08 UTC on 2026-10-04 hour is still incomplete (56 samples through 08:55).",
+        "zh": "最新可靠整點估計 Kp 為 2.67（3M），取樣 2026-10-04 07:00 UTC。07:00 時段已收滿 60 筆（至 07:59，時段初 2.67/3M、時段末 4.00/4Z）。近 180 筆最大 4.33（最先見於 2026-10-04T08:14:00Z；標籤 4P）；公開窗最大 4.33（最先見於 2026-10-04T08:14:00Z；標籤 4P）。窗起點 2026-10-04T02:58:00Z（358 筆）。estimated_kp 仍低於 5.0。2026-10-04 08 UTC 時段尚未收滿（56 筆至 08:55）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp_label": "0Z",
-        "last180_max": 3.33,
+        "estimated_kp": 2.67,
+        "kp_label": "3M",
+        "last180_max": 4.33,
         "n_samples": 358,
-        "window_max": 3.33,
-        "window_start": "2026-10-04T01:58:00Z"
+        "window_max": 4.33,
+        "window_start": "2026-10-04T02:58:00Z"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The card uses the latest hour that has a full 60 samples; the following hour may still be incomplete.",
@@ -32,7 +32,7 @@
         "max": 9,
         "min": 0,
         "type": "gauge",
-        "value": 0.0
+        "value": 2.67
       }
     },
     {
@@ -81,7 +81,7 @@
         "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 10 公里。"
       },
       "data": {
-        "depth_km": 10,
+        "depth_km": 10.0,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzg0",
         "magType": "mb",
         "magnitude": 4.9,
@@ -114,7 +114,7 @@
         "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 94 公里。"
       },
       "data": {
-        "depth_km": 94,
+        "depth_km": 94.2,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzfv",
         "magType": "mb",
         "magnitude": 4.9,
@@ -147,7 +147,7 @@
         "zh": "USGS M4.5+ 一日饋送：mb 5.6，深度約 70 公里。"
       },
       "data": {
-        "depth_km": 70,
+        "depth_km": 69.7,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzfg",
         "magType": "mb",
         "magnitude": 5.6,
@@ -180,7 +180,7 @@
         "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 575 公里。"
       },
       "data": {
-        "depth_km": 575,
+        "depth_km": 575.0,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzf7",
         "magType": "mb",
         "magnitude": 4.5,
@@ -213,7 +213,7 @@
         "zh": "USGS M4.5+ 一日饋送：mww 5.9，深度約 46 公里。"
       },
       "data": {
-        "depth_km": 46,
+        "depth_km": 46.0,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzer",
         "magType": "mww",
         "magnitude": 5.9,
@@ -246,7 +246,7 @@
         "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 10 公里。"
       },
       "data": {
-        "depth_km": 10,
+        "depth_km": 10.0,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tze6",
         "magType": "mb",
         "magnitude": 4.5,
@@ -279,7 +279,7 @@
         "zh": "USGS M4.5+ 一日饋送：mb 5.1，深度約 10 公里。"
       },
       "data": {
-        "depth_km": 10,
+        "depth_km": 10.0,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tze2",
         "magType": "mb",
         "magnitude": 5.1,
@@ -312,7 +312,7 @@
         "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 35 公里。"
       },
       "data": {
-        "depth_km": 35,
+        "depth_km": 35.0,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzdp",
         "magType": "mb",
         "magnitude": 4.9,
@@ -345,7 +345,7 @@
         "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 82 公里。"
       },
       "data": {
-        "depth_km": 82,
+        "depth_km": 81.9,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzdj",
         "magType": "mb",
         "magnitude": 4.6,
@@ -374,11 +374,11 @@
         "zh": "2026 年 10 月 3 日，Kermadec Islands region發生規模 4.5 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.5, depth about 453 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 453 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 454 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 454 公里。"
       },
       "data": {
-        "depth_km": 453,
+        "depth_km": 453.5,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzcm",
         "magType": "mb",
         "magnitude": 4.5,
