@@ -1,26 +1,26 @@
 {
   "date": "2026-10-04",
-  "updated": "2026-10-04T07:00:00+08:00",
+  "updated": "2026-10-04T08:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-03T21:00:00Z",
+      "time_utc": "2026-10-03T22:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (quiet) at 21:00 UTC on 3 October 2026.",
-        "zh": "2026 年 10 月 3 日 21:00 UTC，估計行星 Kp 為 0.00（平靜）。"
+        "en": "Estimated planetary Kp is 0.67 (quiet) at 22:00 UTC on 3 October 2026.",
+        "zh": "2026 年 10 月 3 日 22:00 UTC，估計行星 Kp 為 0.67（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 21:00 UTC on 3 October 2026. The 21:00 hour is complete (60 samples through 21:59; hour-start 0.00/0Z, hour-end 0.67/1M). Last-180 maximum is 1.00 (first at 2026-10-03T22:53:00Z; label 1Z). Published-window maximum is 1.00 (first at 2026-10-03T22:53:00Z; label 1Z). Window start 2026-10-03T16:59:00Z (357 samples). estimated_kp remains below 5.0. The 22 UTC on 2026-10-03 hour is still incomplete (56 samples through 22:55).",
-        "zh": "最新可靠整點估計 Kp 為 0.00（0Z），取樣 2026-10-03 21:00 UTC。21:00 時段已收滿 60 筆（至 21:59，時段初 0.00/0Z、時段末 0.67/1M）。近 180 筆最大 1.00（最先見於 2026-10-03T22:53:00Z；標籤 1Z）；公開窗最大 1.00（最先見於 2026-10-03T22:53:00Z；標籤 1Z）。窗起點 2026-10-03T16:59:00Z（357 筆）。estimated_kp 仍低於 5.0。2026-10-03 22 UTC 時段尚未收滿（56 筆至 22:55）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.67 (1M) at 22:00 UTC on 3 October 2026. The 22:00 hour is complete (60 samples through 22:59; hour-start 0.67/1M, hour-end 0.67/1M). Last-180 maximum is 1.00 (first at 2026-10-03T23:26:00Z; label 1Z). Published-window maximum is 1.00 (first at 2026-10-03T23:26:00Z; label 1Z). Window start 2026-10-03T17:58:00Z (358 samples). estimated_kp remains below 5.0. The 23 UTC on 2026-10-03 hour is still incomplete (56 samples through 23:55).",
+        "zh": "最新可靠整點估計 Kp 為 0.67（1M），取樣 2026-10-03 22:00 UTC。22:00 時段已收滿 60 筆（至 22:59，時段初 0.67/1M、時段末 0.67/1M）。近 180 筆最大 1.00（最先見於 2026-10-03T23:26:00Z；標籤 1Z）；公開窗最大 1.00（最先見於 2026-10-03T23:26:00Z；標籤 1Z）。窗起點 2026-10-03T17:58:00Z（358 筆）。estimated_kp 仍低於 5.0。2026-10-03 23 UTC 時段尚未收滿（56 筆至 23:55）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp_label": "0Z",
+        "estimated_kp": 0.67,
+        "kp_label": "1M",
         "last180_max": 1.0,
-        "n_samples": 357,
+        "n_samples": 358,
         "window_max": 1.0,
-        "window_start": "2026-10-03T16:59:00Z"
+        "window_start": "2026-10-03T17:58:00Z"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The card uses the latest hour that has a full 60 samples; the following hour may still be incomplete.",
@@ -32,7 +32,106 @@
         "max": 9,
         "min": 0,
         "type": "gauge",
-        "value": 0.0
+        "value": 0.67
+      }
+    },
+    {
+      "id": "usgs-us6000tzfg",
+      "type": "earthquake",
+      "time_utc": "2026-10-03T23:37:35Z",
+      "title": {
+        "en": "M5.6 earthquake 80 km S of Banda Aceh, Indonesia on 3 October 2026.",
+        "zh": "2026 年 10 月 3 日，80 km S of Banda Aceh, Indonesia發生規模 5.6 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5.6, depth about 70 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.6，深度約 70 公里。"
+      },
+      "data": {
+        "depth_km": 69.7,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzfg",
+        "magType": "mb",
+        "magnitude": 5.6,
+        "place": "80 km S of Banda Aceh, Indonesia"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzfg",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5.6
+      }
+    },
+    {
+      "id": "usgs-us6000tzf7",
+      "type": "earthquake",
+      "time_utc": "2026-10-03T23:14:35Z",
+      "title": {
+        "en": "M4.5 earthquake 293 km SSE of Tabiauan, Philippines on 3 October 2026.",
+        "zh": "2026 年 10 月 3 日，293 km SSE of Tabiauan, Philippines發生規模 4.5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 575 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 575 公里。"
+      },
+      "data": {
+        "depth_km": 575,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzf7",
+        "magType": "mb",
+        "magnitude": 4.5,
+        "place": "293 km SSE of Tabiauan, Philippines"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzf7",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.5
+      }
+    },
+    {
+      "id": "usgs-us6000tzer",
+      "type": "earthquake",
+      "time_utc": "2026-10-03T22:55:55Z",
+      "title": {
+        "en": "M5.9 earthquake 39 km WSW of Tambolaka, Indonesia on 3 October 2026.",
+        "zh": "2026 年 10 月 3 日，39 km WSW of Tambolaka, Indonesia發生規模 5.9 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mww 5.9, depth about 46 km.",
+        "zh": "USGS M4.5+ 一日饋送：mww 5.9，深度約 46 公里。"
+      },
+      "data": {
+        "depth_km": 46,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzer",
+        "magType": "mww",
+        "magnitude": 5.9,
+        "place": "39 km WSW of Tambolaka, Indonesia"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzer",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5.9
       }
     },
     {
@@ -147,7 +246,7 @@
         "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 82 公里。"
       },
       "data": {
-        "depth_km": 81.86,
+        "depth_km": 81.9,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzdj",
         "magType": "mb",
         "magnitude": 4.6,
@@ -180,7 +279,7 @@
         "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 453 公里。"
       },
       "data": {
-        "depth_km": 453.487,
+        "depth_km": 453.5,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzcm",
         "magType": "mb",
         "magnitude": 4.5,
@@ -213,7 +312,7 @@
         "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 37 公里。"
       },
       "data": {
-        "depth_km": 37.466,
+        "depth_km": 37.5,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzb5",
         "magType": "mb",
         "magnitude": 4.8,
@@ -279,7 +378,7 @@
         "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 127 公里。"
       },
       "data": {
-        "depth_km": 126.853,
+        "depth_km": 126.9,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz9w",
         "magType": "mb",
         "magnitude": 4.5,
@@ -312,7 +411,7 @@
         "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 39 公里。"
       },
       "data": {
-        "depth_km": 38.69,
+        "depth_km": 38.7,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz9v",
         "magType": "mb",
         "magnitude": 4.8,
@@ -330,72 +429,6 @@
         "min": 0,
         "type": "bar",
         "value": 4.8
-      }
-    },
-    {
-      "id": "usgs-us6000tz9t",
-      "type": "earthquake",
-      "time_utc": "2026-10-02T23:59:26Z",
-      "title": {
-        "en": "M4.6 earthquake 174 km SSE of Vilyuchinsk, Russia on 2 October 2026.",
-        "zh": "2026 年 10 月 2 日，174 km SSE of Vilyuchinsk, Russia發生規模 4.6 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.6, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 10 公里。"
-      },
-      "data": {
-        "depth_km": 10,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz9t",
-        "magType": "mb",
-        "magnitude": 4.6,
-        "place": "174 km SSE of Vilyuchinsk, Russia"
-      },
-      "evidence": {
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz9t",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
-      },
-      "visual": {
-        "max": 10,
-        "min": 0,
-        "type": "bar",
-        "value": 4.6
-      }
-    },
-    {
-      "id": "usgs-us6000tz9s",
-      "type": "earthquake",
-      "time_utc": "2026-10-02T23:54:13Z",
-      "title": {
-        "en": "M4.7 earthquake 153 km SSE of Vilyuchinsk, Russia on 2 October 2026.",
-        "zh": "2026 年 10 月 2 日，153 km SSE of Vilyuchinsk, Russia發生規模 4.7 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.7, depth about 35 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 35 公里。"
-      },
-      "data": {
-        "depth_km": 35,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz9s",
-        "magType": "mb",
-        "magnitude": 4.7,
-        "place": "153 km SSE of Vilyuchinsk, Russia"
-      },
-      "evidence": {
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz9s",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
-      },
-      "visual": {
-        "max": 10,
-        "min": 0,
-        "type": "bar",
-        "value": 4.7
       }
     }
   ]
