@@ -1,26 +1,26 @@
 {
   "date": "2026-10-05",
-  "updated": "2026-10-05T05:00:00+08:00",
+  "updated": "2026-10-05T06:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-04T19:00:00Z",
+      "time_utc": "2026-10-04T20:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 5.33 (minor storm) at 19:00 UTC on 4 October 2026.",
-        "zh": "2026 年 10 月 4 日 19:00 UTC，估計行星 Kp 為 5.33（小磁暴）。"
+        "en": "Estimated planetary Kp is 5.67 (moderate storm) at 20:00 UTC on 4 October 2026.",
+        "zh": "2026 年 10 月 4 日 20:00 UTC，估計行星 Kp 為 5.67（中磁暴）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 5.33 (5P) at 19:00 UTC on 4 October 2026. The 19:00 hour is complete (60 samples through 19:59; hour-start 5.33/5P, hour-end 5.67/6M). Last-180 maximum is 5.67 (first at 2026-10-04T19:03:00Z; label 6M). Published-window maximum is 5.67 (first at 2026-10-04T19:03:00Z; label 6M). Window start 2026-10-04T15:00:00Z (358 samples). estimated_kp reached 5.67 this window. The 20 UTC on 2026-10-04 hour is still incomplete (58 samples through 20:57).",
-        "zh": "最新可靠整點估計 Kp 為 5.33（5P），取樣 2026-10-04 19:00 UTC。19:00 時段已收滿 60 筆（至 19:59，時段初 5.33/5P、時段末 5.67/6M）。近 180 筆最大 5.67（最先見於 2026-10-04T19:03:00Z；標籤 6M）；公開窗最大 5.67（最先見於 2026-10-04T19:03:00Z；標籤 6M）。窗起點 2026-10-04T15:00:00Z（358 筆）。本窗 estimated_kp 已達 5.67。2026-10-04 20 UTC 時段尚未收滿（58 筆至 20:57）。"
+        "en": "Latest reliable hour-start estimated Kp is 5.67 (6M) at 20:00 UTC on 4 October 2026. The 20:00 hour is complete (60 samples through 20:59; hour-start 5.67/6M, hour-end 5.67/6M). Last-180 maximum is 5.67 (first at 2026-10-04T19:03:00Z; label 6M). Published-window maximum is 5.67 (first at 2026-10-04T19:03:00Z; label 6M). Window start 2026-10-04T15:59:00Z (358 samples). estimated_kp reached 5.67 this window. The 21 UTC on 2026-10-04 hour is still incomplete (57 samples through 21:56).",
+        "zh": "最新可靠整點估計 Kp 為 5.67（6M），取樣 2026-10-04 20:00 UTC。20:00 時段已收滿 60 筆（至 20:59，時段初 5.67/6M、時段末 5.67/6M）。近 180 筆最大 5.67（最先見於 2026-10-04T19:03:00Z；標籤 6M）；公開窗最大 5.67（最先見於 2026-10-04T19:03:00Z；標籤 6M）。窗起點 2026-10-04T15:59:00Z（358 筆）。本窗 estimated_kp 已達 5.67。2026-10-04 21 UTC 時段尚未收滿（57 筆至 21:56）。"
       },
       "data": {
-        "estimated_kp": 5.33,
-        "kp_label": "5P",
+        "estimated_kp": 5.67,
+        "kp_label": "6M",
         "last180_max": 5.67,
         "n_samples": 358,
         "window_max": 5.67,
-        "window_start": "2026-10-04T15:00:00Z"
+        "window_start": "2026-10-04T15:59:00Z"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The card uses the latest hour that has a full 60 samples; the following hour may still be incomplete.",
@@ -32,7 +32,7 @@
         "max": 9,
         "min": 0,
         "type": "gauge",
-        "value": 5.33
+        "value": 5.67
       }
     },
     {
@@ -81,7 +81,7 @@
         "zh": "USGS M4.5+ 一日饋送：mww 5，深度約 10.0 公里。"
       },
       "data": {
-        "depth_km": 10,
+        "depth_km": 10.0,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzj8",
         "magType": "mww",
         "magnitude": 5,
@@ -147,7 +147,7 @@
         "zh": "USGS M4.5+ 一日饋送：mww 5，深度約 10.0 公里。"
       },
       "data": {
-        "depth_km": 10,
+        "depth_km": 10.0,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzip",
         "magType": "mww",
         "magnitude": 5,
@@ -180,7 +180,7 @@
         "zh": "USGS M4.5+ 一日饋送：mww 4.7，深度約 10.0 公里。"
       },
       "data": {
-        "depth_km": 10,
+        "depth_km": 10.0,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzil",
         "magType": "mww",
         "magnitude": 4.7,
@@ -213,7 +213,7 @@
         "zh": "USGS M4.5+ 一日饋送：mww 4.7，深度約 10.0 公里。"
       },
       "data": {
-        "depth_km": 10,
+        "depth_km": 10.0,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzif",
         "magType": "mww",
         "magnitude": 4.7,
@@ -246,7 +246,7 @@
         "zh": "USGS M4.5+ 一日饋送：mb 5.5，深度約 10.0 公里。"
       },
       "data": {
-        "depth_km": 10,
+        "depth_km": 10.0,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzid",
         "magType": "mb",
         "magnitude": 5.5,
@@ -312,7 +312,7 @@
         "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 10.0 公里。"
       },
       "data": {
-        "depth_km": 10,
+        "depth_km": 10.0,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzi8",
         "magType": "mb",
         "magnitude": 4.8,
@@ -345,7 +345,7 @@
         "zh": "USGS M4.5+ 一日饋送：mb 5，深度約 10.0 公里。"
       },
       "data": {
-        "depth_km": 10,
+        "depth_km": 10.0,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzi5",
         "magType": "mb",
         "magnitude": 5,
@@ -411,7 +411,7 @@
         "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 10.0 公里。"
       },
       "data": {
-        "depth_km": 10,
+        "depth_km": 10.0,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzg0",
         "magType": "mb",
         "magnitude": 4.9,
