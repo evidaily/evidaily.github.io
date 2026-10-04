@@ -1,26 +1,26 @@
 {
   "date": "2026-10-05",
-  "updated": "2026-10-05T03:00:00+08:00",
+  "updated": "2026-10-05T05:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-04T17:00:00Z",
+      "time_utc": "2026-10-04T19:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 4.33 (active) at 17:00 UTC on 4 October 2026.",
-        "zh": "2026 年 10 月 4 日 17:00 UTC，估計行星 Kp 為 4.33（活躍）。"
+        "en": "Estimated planetary Kp is 5.33 (minor storm) at 19:00 UTC on 4 October 2026.",
+        "zh": "2026 年 10 月 4 日 19:00 UTC，估計行星 Kp 為 5.33（小磁暴）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 4.33 (4P) at 17:00 UTC on 4 October 2026. The 17:00 hour is complete (60 samples through 17:59; hour-start 4.33/4P, hour-end 4.33/4P). Last-180 maximum is 5.33 (first at 2026-10-04T18:36:00Z; label 5P). Published-window maximum is 5.33 (first at 2026-10-04T18:36:00Z; label 5P). Window start 2026-10-04T12:57:00Z (358 samples). estimated_kp reached 5.33 this window. The 18 UTC on 2026-10-04 hour is still incomplete (55 samples through 18:54).",
-        "zh": "最新可靠整點估計 Kp 為 4.33（4P），取樣 2026-10-04 17:00 UTC。17:00 時段已收滿 60 筆（至 17:59，時段初 4.33/4P、時段末 4.33/4P）。近 180 筆最大 5.33（最先見於 2026-10-04T18:36:00Z；標籤 5P）；公開窗最大 5.33（最先見於 2026-10-04T18:36:00Z；標籤 5P）。窗起點 2026-10-04T12:57:00Z（358 筆）。本窗 estimated_kp 已達 5.33。2026-10-04 18 UTC 時段尚未收滿（55 筆至 18:54）。"
+        "en": "Latest reliable hour-start estimated Kp is 5.33 (5P) at 19:00 UTC on 4 October 2026. The 19:00 hour is complete (60 samples through 19:59; hour-start 5.33/5P, hour-end 5.67/6M). Last-180 maximum is 5.67 (first at 2026-10-04T19:03:00Z; label 6M). Published-window maximum is 5.67 (first at 2026-10-04T19:03:00Z; label 6M). Window start 2026-10-04T15:00:00Z (358 samples). estimated_kp reached 5.67 this window. The 20 UTC on 2026-10-04 hour is still incomplete (58 samples through 20:57).",
+        "zh": "最新可靠整點估計 Kp 為 5.33（5P），取樣 2026-10-04 19:00 UTC。19:00 時段已收滿 60 筆（至 19:59，時段初 5.33/5P、時段末 5.67/6M）。近 180 筆最大 5.67（最先見於 2026-10-04T19:03:00Z；標籤 6M）；公開窗最大 5.67（最先見於 2026-10-04T19:03:00Z；標籤 6M）。窗起點 2026-10-04T15:00:00Z（358 筆）。本窗 estimated_kp 已達 5.67。2026-10-04 20 UTC 時段尚未收滿（58 筆至 20:57）。"
       },
       "data": {
-        "estimated_kp": 4.33,
-        "kp_label": "4P",
-        "last180_max": 5.33,
+        "estimated_kp": 5.33,
+        "kp_label": "5P",
+        "last180_max": 5.67,
         "n_samples": 358,
-        "window_max": 5.33,
-        "window_start": "2026-10-04T12:57:00Z"
+        "window_max": 5.67,
+        "window_start": "2026-10-04T15:00:00Z"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The card uses the latest hour that has a full 60 samples; the following hour may still be incomplete.",
@@ -32,7 +32,40 @@
         "max": 9,
         "min": 0,
         "type": "gauge",
-        "value": 4.33
+        "value": 5.33
+      }
+    },
+    {
+      "id": "usgs-us6000tzkn",
+      "type": "earthquake",
+      "time_utc": "2026-10-04T20:27:25Z",
+      "title": {
+        "en": "M4.8 earthquake 32 km SSE of Jurm, Afghanistan on 4 October 2026.",
+        "zh": "2026 年 10 月 4 日，32 km SSE of Jurm, Afghanistan發生規模 4.8 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.8, depth about 248.9 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 248.9 公里。"
+      },
+      "data": {
+        "depth_km": 248.906,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzkn",
+        "magType": "mb",
+        "magnitude": 4.8,
+        "place": "32 km SSE of Jurm, Afghanistan"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzkn",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.8
       }
     },
     {
@@ -528,72 +561,6 @@
         "min": 0,
         "type": "bar",
         "value": 5.9
-      }
-    },
-    {
-      "id": "usgs-us6000tze6",
-      "type": "earthquake",
-      "time_utc": "2026-10-03T20:33:45Z",
-      "title": {
-        "en": "M4.5 earthquake 121 km SW of Puerto Madero, Mexico on 3 October 2026.",
-        "zh": "2026 年 10 月 3 日，121 km SW of Puerto Madero, Mexico發生規模 4.5 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.5, depth about 10.0 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 10.0 公里。"
-      },
-      "data": {
-        "depth_km": 10,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tze6",
-        "magType": "mb",
-        "magnitude": 4.5,
-        "place": "121 km SW of Puerto Madero, Mexico"
-      },
-      "evidence": {
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tze6",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
-      },
-      "visual": {
-        "max": 10,
-        "min": 0,
-        "type": "bar",
-        "value": 4.5
-      }
-    },
-    {
-      "id": "usgs-us6000tze2",
-      "type": "earthquake",
-      "time_utc": "2026-10-03T20:00:44Z",
-      "title": {
-        "en": "M5.1 earthquake 182 km SSE of Vilyuchinsk, Russia on 3 October 2026.",
-        "zh": "2026 年 10 月 3 日，182 km SSE of Vilyuchinsk, Russia發生規模 5.1 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mb 5.1, depth about 10.0 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 5.1，深度約 10.0 公里。"
-      },
-      "data": {
-        "depth_km": 10,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tze2",
-        "magType": "mb",
-        "magnitude": 5.1,
-        "place": "182 km SSE of Vilyuchinsk, Russia"
-      },
-      "evidence": {
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tze2",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
-      },
-      "visual": {
-        "max": 10,
-        "min": 0,
-        "type": "bar",
-        "value": 5.1
       }
     }
   ]
