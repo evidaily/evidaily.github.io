@@ -1,26 +1,26 @@
 {
   "date": "2026-10-05",
-  "updated": "2026-10-05T19:00:00+08:00",
+  "updated": "2026-10-05T20:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-05T09:00:00Z",
+      "time_utc": "2026-10-05T10:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (quiet) at 09:00 UTC on 5 October 2026.",
-        "zh": "2026 年 10 月 5 日 09:00 UTC，估計行星 Kp 為 0.00（平靜）。"
+        "en": "Estimated planetary Kp is 2.67 (unsettled) at 10:00 UTC on 5 October 2026.",
+        "zh": "2026 年 10 月 5 日 10:00 UTC，估計行星 Kp 為 2.67（不穩定）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 09:00 UTC on 5 October 2026. The 09:00 hour is complete (60 samples through 09:59; hour-start 0.00/0Z, hour-end 2.67/3M). Last-180 maximum is 3.33 (first at 2026-10-05T10:24:00Z; label 3P). Published-window maximum is 5.33 (first at 2026-10-05T04:58:00Z; label 5P). Window starts 2026-10-05T04:58:00Z (358 samples). Window estimated_kp reached 5.33. The 10:00 UTC hour is incomplete (56 samples through 10:55).",
-        "zh": "最新可靠整點初值：2026-10-05 09:00 UTC 估計 Kp 0.00（0Z）。09:00 時段已收滿（60 筆至 09:59；時段初 0.00／0Z，時段末 2.67／3M）。last-180 最大 3.33（最先見於 2026-10-05T10:24:00Z；標籤 3P）。公開窗最大 5.33（最先見於 2026-10-05T04:58:00Z；標籤 5P）。窗起點 2026-10-05T04:58:00Z（358 筆）。本窗 estimated_kp 已達 5.33。2026-10-05 10 UTC 時段尚未收滿（56 筆至 10:55）。"
+        "en": "Latest reliable hour-start estimated Kp is 2.67 (3M) at 10:00 UTC on 5 October 2026. The 10:00 hour is complete (60 samples through 10:59; hour-start 2.67/3M, hour-end 3.33/3P). Last-180 maximum is 3.33 (first at 2026-10-05T10:24:00Z; label 3P). Published-window maximum is 5.33 (first at 2026-10-05T05:57:00Z; label 5P). Window starts 2026-10-05T05:57:00Z (358 samples). Window estimated_kp reached 5.33. The 11:00 UTC hour is incomplete (55 samples through 11:54).",
+        "zh": "最新可靠整點初值：2026-10-05 10:00 UTC 估計 Kp 2.67（3M）。10:00 時段已收滿（60 筆至 10:59；時段初 2.67／3M，時段末 3.33／3P）。last-180 最大 3.33（最先見於 2026-10-05T10:24:00Z；標籤 3P）。公開窗最大 5.33（最先見於 2026-10-05T05:57:00Z；標籤 5P）。窗起點 2026-10-05T05:57:00Z（358 筆）。本窗 estimated_kp 已達 5.33。2026-10-05 11 UTC 時段尚未收滿（55 筆至 11:54）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp_label": "0Z",
+        "estimated_kp": 2.67,
+        "kp_label": "3M",
         "last180_max": 3.33,
         "n_samples": 358,
         "window_max": 5.33,
-        "window_start": "2026-10-05T04:58:00Z"
+        "window_start": "2026-10-05T05:57:00Z"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The card uses the latest hour that has a full 60 samples; the following hour may still be incomplete.",
@@ -32,7 +32,40 @@
         "max": 9,
         "min": 0,
         "type": "gauge",
-        "value": 0.0
+        "value": 2.67
+      }
+    },
+    {
+      "id": "usgs-us6000tzna",
+      "type": "earthquake",
+      "time_utc": "2026-10-05T10:52:09Z",
+      "title": {
+        "en": "M5 earthquake 187 km ENE of Saipan, Northern Mariana Islands on 5 October 2026.",
+        "zh": "2026 年 10 月 5 日，187 km ENE of Saipan, Northern Mariana Islands發生規模 5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzna",
+        "magType": "mb",
+        "magnitude": 5,
+        "place": "187 km ENE of Saipan, Northern Mariana Islands"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzna",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5
       }
     },
     {
@@ -77,11 +110,11 @@
         "zh": "2026 年 10 月 5 日，191 km ESE of Sarangani, Philippines發生規模 4.8 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.8, depth about 51.291 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 51.291 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.8, depth about 51.3 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 51.3 公里。"
       },
       "data": {
-        "depth_km": 51.291,
+        "depth_km": 51.3,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzmk",
         "magType": "mb",
         "magnitude": 4.8,
@@ -209,11 +242,11 @@
         "zh": "2026 年 10 月 4 日，32 km SSE of Jurm, Afghanistan發生規模 4.8 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.8, depth about 248.906 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 248.906 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.8, depth about 248.9 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 248.9 公里。"
       },
       "data": {
-        "depth_km": 248.906,
+        "depth_km": 248.9,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzkn",
         "magType": "mb",
         "magnitude": 4.8,
@@ -275,11 +308,11 @@
         "zh": "2026 年 10 月 4 日，110 km S of Dampit, Indonesia發生規模 4.6 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.6, depth about 52.773 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 52.773 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 52.8 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 52.8 公里。"
       },
       "data": {
-        "depth_km": 52.773,
+        "depth_km": 52.8,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tziz",
         "magType": "mb",
         "magnitude": 4.6,
@@ -287,171 +320,6 @@
       },
       "evidence": {
         "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tziz",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
-      },
-      "visual": {
-        "max": 10,
-        "min": 0,
-        "type": "bar",
-        "value": 4.6
-      }
-    },
-    {
-      "id": "usgs-us6000tzip",
-      "type": "earthquake",
-      "time_utc": "2026-10-04T11:43:23Z",
-      "title": {
-        "en": "M5 earthquake 21 km ESE of Feke, Turkey on 4 October 2026.",
-        "zh": "2026 年 10 月 4 日，21 km ESE of Feke, Turkey發生規模 5 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mww 5, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mww 5，深度約 10 公里。"
-      },
-      "data": {
-        "depth_km": 10,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzip",
-        "magType": "mww",
-        "magnitude": 5,
-        "place": "21 km ESE of Feke, Turkey"
-      },
-      "evidence": {
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzip",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
-      },
-      "visual": {
-        "max": 10,
-        "min": 0,
-        "type": "bar",
-        "value": 5
-      }
-    },
-    {
-      "id": "usgs-us6000tzil",
-      "type": "earthquake",
-      "time_utc": "2026-10-04T11:36:26Z",
-      "title": {
-        "en": "M4.7 earthquake 22 km E of Feke, Turkey on 4 October 2026.",
-        "zh": "2026 年 10 月 4 日，22 km E of Feke, Turkey發生規模 4.7 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mww 4.7, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mww 4.7，深度約 10 公里。"
-      },
-      "data": {
-        "depth_km": 10,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzil",
-        "magType": "mww",
-        "magnitude": 4.7,
-        "place": "22 km E of Feke, Turkey"
-      },
-      "evidence": {
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzil",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
-      },
-      "visual": {
-        "max": 10,
-        "min": 0,
-        "type": "bar",
-        "value": 4.7
-      }
-    },
-    {
-      "id": "usgs-us6000tzif",
-      "type": "earthquake",
-      "time_utc": "2026-10-04T11:19:26Z",
-      "title": {
-        "en": "M4.7 earthquake 21 km SSE of Saimbeyli, Turkey on 4 October 2026.",
-        "zh": "2026 年 10 月 4 日，21 km SSE of Saimbeyli, Turkey發生規模 4.7 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mww 4.7, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mww 4.7，深度約 10 公里。"
-      },
-      "data": {
-        "depth_km": 10,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzif",
-        "magType": "mww",
-        "magnitude": 4.7,
-        "place": "21 km SSE of Saimbeyli, Turkey"
-      },
-      "evidence": {
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzif",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
-      },
-      "visual": {
-        "max": 10,
-        "min": 0,
-        "type": "bar",
-        "value": 4.7
-      }
-    },
-    {
-      "id": "usgs-us6000tzid",
-      "type": "earthquake",
-      "time_utc": "2026-10-04T11:12:48Z",
-      "title": {
-        "en": "M5.5 earthquake Volcano Islands, Japan region on 4 October 2026.",
-        "zh": "2026 年 10 月 4 日，Volcano Islands, Japan region發生規模 5.5 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mb 5.5, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 5.5，深度約 10 公里。"
-      },
-      "data": {
-        "depth_km": 10,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzid",
-        "magType": "mb",
-        "magnitude": 5.5,
-        "place": "Volcano Islands, Japan region"
-      },
-      "evidence": {
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzid",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
-      },
-      "visual": {
-        "max": 10,
-        "min": 0,
-        "type": "bar",
-        "value": 5.5
-      }
-    },
-    {
-      "id": "usgs-us6000tzic",
-      "type": "earthquake",
-      "time_utc": "2026-10-04T11:09:47Z",
-      "title": {
-        "en": "M4.6 earthquake 121 km SW of Kokopo, Papua New Guinea on 4 October 2026.",
-        "zh": "2026 年 10 月 4 日，121 km SW of Kokopo, Papua New Guinea發生規模 4.6 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.6, depth about 162.143 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 162.143 公里。"
-      },
-      "data": {
-        "depth_km": 162.143,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzic",
-        "magType": "mb",
-        "magnitude": 4.6,
-        "place": "121 km SW of Kokopo, Papua New Guinea"
-      },
-      "evidence": {
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzic",
         "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
         "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
         "source_name": "USGS",
