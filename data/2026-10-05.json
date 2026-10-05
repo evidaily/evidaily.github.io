@@ -1,26 +1,26 @@
 {
   "date": "2026-10-05",
-  "updated": "2026-10-05T22:00:00+08:00",
+  "updated": "2026-10-05T23:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-05T12:00:00Z",
+      "time_utc": "2026-10-05T13:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (quiet) at 12:00 UTC on 5 October 2026.",
-        "zh": "2026 年 10 月 5 日 12:00 UTC，估計行星 Kp 為 0.00（安靜）。"
+        "en": "Estimated planetary Kp is 2.00 (unsettled) at 13:00 UTC on 5 October 2026.",
+        "zh": "2026 年 10 月 5 日 13:00 UTC，估計行星 Kp 為 2.00（不穩定）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 12:00 UTC on 5 October 2026. The 12:00 hour is complete (60 samples through 12:59; hour-start 0.00/0Z, hour-end 2.00/2Z). Last-180 maximum is 3.33 (first at 2026-10-05T10:54:00Z; label 3P). Published-window maximum is 3.33 (first at 2026-10-05T10:24:00Z; label 3P). Window starts 2026-10-05T07:56:00Z (358 samples). Window estimated_kp reached 3.33. The 13:00 UTC hour is incomplete (54 samples through 13:53).",
-        "zh": "最新可靠整點初值：2026-10-05 12:00 UTC 估計 Kp 0.00（0Z）。12:00 時段已收滿（60 筆至 12:59；時段初 0.00／0Z，時段末 2.00／2Z）。last-180 最大 3.33（最先見於 2026-10-05T10:54:00Z；標籤 3P）。公開窗最大 3.33（最先見於 2026-10-05T10:24:00Z；標籤 3P）。窗起點 2026-10-05T07:56:00Z（358 筆）。本窗 estimated_kp 已達 3.33。2026-10-05 13 UTC 時段尚未收滿（54 筆至 13:53）。"
+        "en": "Latest reliable hour-start estimated Kp is 2.00 (2Z) at 13:00 UTC on 5 October 2026. The 13:00 hour is complete (60 samples through 13:59; hour-start 2.00/2Z, hour-end 2.33/2P). Last-180 maximum is 3.33 (first at 2026-10-05T11:54:00Z; label 3P). Published-window maximum is 3.33 (first at 2026-10-05T10:24:00Z; label 3P). Window starts 2026-10-05T08:56:00Z (358 samples). Window estimated_kp reached 3.33. The 14:00 UTC hour is incomplete (54 samples through 14:53).",
+        "zh": "最新可靠整點初值：2026-10-05 13:00 UTC 估計 Kp 2.00（2Z）。13:00 時段已收滿（60 筆至 13:59；時段初 2.00／2Z，時段末 2.33／2P）。last-180 最大 3.33（最先見於 2026-10-05T11:54:00Z；標籤 3P）。公開窗最大 3.33（最先見於 2026-10-05T10:24:00Z；標籤 3P）。窗起點 2026-10-05T08:56:00Z（358 筆）。本窗 estimated_kp 已達 3.33。2026-10-05 14 UTC 時段尚未收滿（54 筆至 14:53）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp_label": "0Z",
+        "estimated_kp": 2.0,
+        "kp_label": "2Z",
         "last180_max": 3.33,
         "n_samples": 358,
         "window_max": 3.33,
-        "window_start": "2026-10-05T07:56:00Z"
+        "window_start": "2026-10-05T08:56:00Z"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The card uses the latest hour that has a full 60 samples; the following hour may still be incomplete.",
@@ -32,7 +32,40 @@
         "max": 9,
         "min": 0,
         "type": "gauge",
-        "value": 0.0
+        "value": 2.0
+      }
+    },
+    {
+      "id": "usgs-us6000tznu",
+      "type": "earthquake",
+      "time_utc": "2026-10-05T13:30:45Z",
+      "title": {
+        "en": "M4.7 earthquake 75 km NNE of Yonakuni, Japan on 5 October 2026.",
+        "zh": "2026 年 10 月 5 日，75 km NNE of Yonakuni, Japan發生規模 4.7 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.7, depth about 156 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 156 公里。"
+      },
+      "data": {
+        "depth_km": 156.2,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tznu",
+        "magType": "mb",
+        "magnitude": 4.7,
+        "place": "75 km NNE of Yonakuni, Japan"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tznu",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.7
       }
     },
     {
@@ -297,39 +330,6 @@
         "min": 0,
         "type": "bar",
         "value": 4.8
-      }
-    },
-    {
-      "id": "usgs-us6000tzj8",
-      "type": "earthquake",
-      "time_utc": "2026-10-04T14:06:10Z",
-      "title": {
-        "en": "M5 earthquake 295 km S of Burica, Panama on 4 October 2026.",
-        "zh": "2026 年 10 月 4 日，295 km S of Burica, Panama發生規模 5 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mww 5, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mww 5，深度約 10 公里。"
-      },
-      "data": {
-        "depth_km": 10,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzj8",
-        "magType": "mww",
-        "magnitude": 5,
-        "place": "295 km S of Burica, Panama"
-      },
-      "evidence": {
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzj8",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
-      },
-      "visual": {
-        "max": 10,
-        "min": 0,
-        "type": "bar",
-        "value": 5
       }
     }
   ]
