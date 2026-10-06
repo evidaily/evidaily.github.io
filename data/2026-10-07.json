@@ -1,26 +1,26 @@
 {
   "date": "2026-10-07",
-  "updated": "2026-10-07T01:00:00+08:00",
+  "updated": "2026-10-07T03:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-06T15:00:00Z",
+      "time_utc": "2026-10-06T17:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (quiet) at 15:00 UTC on 6 October 2026.",
-        "zh": "2026 年 10 月 6 日 15:00 UTC，估計行星 Kp 為 0.00（平靜）。"
+        "en": "Estimated planetary Kp is 1.33 (quiet) at 17:00 UTC on 6 October 2026.",
+        "zh": "2026 年 10 月 6 日 17:00 UTC，估計行星 Kp 為 1.33（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 15:00 UTC on 6 October 2026. The 15 hour is complete (60 samples through 15:59; hour-start 0.00/0Z, hour-end 1.00/1Z). Last-180 maximum is 2.67 (first at 2026-10-06T14:08:00Z; label 3M). Published-window maximum is 2.67 (first at 2026-10-06T11:11:00Z; label 3M). Window starts 2026-10-06T11:01:00Z (358 samples). Window estimated_kp reached 2.67. The 16 UTC hour is incomplete (59 samples through 16:58).",
-        "zh": "最新可靠整點初值：2026-10-06 15 UTC 估計 Kp 0.00（0Z）。15 時段已收滿（60 筆至 15:59；時段初 0.00／0Z，時段末 1.00／1Z）。last-180 最大 2.67（最先見於 2026-10-06T14:08:00Z；標籤 3M）。公開窗最大 2.67（最先見於 2026-10-06T11:11:00Z；標籤 3M）。窗起點 2026-10-06T11:01:00Z（358 筆）。本窗 estimated_kp 已達 2.67。2026-10-06 16 UTC 時段尚未收滿（59 筆至 16:58）。"
+        "en": "Latest reliable hour-start estimated Kp is 1.33 (1P) at 17:00 UTC on 6 October 2026. The 17 hour is complete (60 samples through 17:59; hour-start 1.33/1P, hour-end 1.67/2M). Last-180 maximum is 1.67 (first at 2026-10-06T17:58:00Z; label 2M). Published-window maximum is 2.67 (first at 2026-10-06T13:27:00Z; label 3M). Window starts 2026-10-06T13:01:00Z (358 samples). Window estimated_kp reached 2.67. The 18 UTC hour is incomplete (59 samples through 18:58).",
+        "zh": "最新可靠整點初值：2026-10-06 17 UTC 估計 Kp 1.33（1P）。17 時段已收滿（60 筆至 17:59；時段初 1.33／1P，時段末 1.67／2M）。last-180 最大 1.67（最先見於 2026-10-06T17:58:00Z；標籤 2M）。公開窗最大 2.67（最先見於 2026-10-06T13:27:00Z；標籤 3M）。窗起點 2026-10-06T13:01:00Z（358 筆）。本窗 estimated_kp 已達 2.67。2026-10-06 18 UTC 時段尚未收滿（59 筆至 18:58）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp_label": "0Z",
-        "last180_max": 2.67,
+        "estimated_kp": 1.33,
+        "kp_label": "1P",
+        "last180_max": 1.67,
         "n_samples": 358,
         "window_max": 2.67,
-        "window_start": "2026-10-06T11:01:00Z"
+        "window_start": "2026-10-06T13:01:00Z"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The card uses the latest hour that has a full 60 samples; the following hour may still be incomplete.",
@@ -32,7 +32,106 @@
         "max": 9,
         "min": 0,
         "type": "gauge",
-        "value": 0.0
+        "value": 1.33
+      }
+    },
+    {
+      "id": "usgs-aka2026tuxgky",
+      "type": "earthquake",
+      "time_utc": "2026-10-06T18:34:31Z",
+      "title": {
+        "en": "M5.5 earthquake 92 km NNW of Aleneva, Alaska on 6 October 2026.",
+        "zh": "2026 年 10 月 6 日，92 km NNW of Aleneva, Alaska發生規模 5.5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: ml 5.5, depth about 88 km.",
+        "zh": "USGS M4.5+ 一日饋送：ml 5.5，深度約 88 公里。"
+      },
+      "data": {
+        "depth_km": 87.6,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tuxgky",
+        "magType": "ml",
+        "magnitude": 5.5,
+        "place": "92 km NNW of Aleneva, Alaska"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tuxgky",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5.5
+      }
+    },
+    {
+      "id": "usgs-us6000u0hz",
+      "type": "earthquake",
+      "time_utc": "2026-10-06T16:53:11Z",
+      "title": {
+        "en": "M5.1 earthquake 34 km NNW of Bāgeshwar, India on 6 October 2026.",
+        "zh": "2026 年 10 月 6 日，34 km NNW of Bāgeshwar, India發生規模 5.1 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5.1, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.1，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0hz",
+        "magType": "mb",
+        "magnitude": 5.1,
+        "place": "34 km NNW of Bāgeshwar, India"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0hz",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5.1
+      }
+    },
+    {
+      "id": "usgs-us6000u0hy",
+      "type": "earthquake",
+      "time_utc": "2026-10-06T16:48:21Z",
+      "title": {
+        "en": "M5.9 earthquake 264 km SSW of Severo-Kuril’sk, Russia on 6 October 2026.",
+        "zh": "2026 年 10 月 6 日，264 km SSW of Severo-Kuril’sk, Russia發生規模 5.9 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mww 5.9, depth about 26 km.",
+        "zh": "USGS M4.5+ 一日饋送：mww 5.9，深度約 26 公里。"
+      },
+      "data": {
+        "depth_km": 26.047,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0hy",
+        "magType": "mww",
+        "magnitude": 5.9,
+        "place": "264 km SSW of Severo-Kuril’sk, Russia"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0hy",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5.9
       }
     },
     {
@@ -436,12 +535,12 @@
       "type": "earthquake",
       "time_utc": "2026-10-05T20:22:59Z",
       "title": {
-        "en": "M5.0 earthquake south of the Fiji Islands on 5 October 2026.",
-        "zh": "2026 年 10 月 5 日，south of the Fiji Islands發生規模 5.0 地震。"
+        "en": "M5 earthquake south of the Fiji Islands on 5 October 2026.",
+        "zh": "2026 年 10 月 5 日，south of the Fiji Islands發生規模 5 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 5.0, depth about 519 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 5.0，深度約 519 公里。"
+        "en": "USGS M4.5+ day feed: mb 5, depth about 519 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5，深度約 519 公里。"
       },
       "data": {
         "depth_km": 518.638,
@@ -495,39 +594,6 @@
         "min": 0,
         "type": "bar",
         "value": 4.6
-      }
-    },
-    {
-      "id": "usgs-us6000tzpq",
-      "type": "earthquake",
-      "time_utc": "2026-10-05T17:28:24Z",
-      "title": {
-        "en": "M4.7 earthquake 105 km WNW of Höfn, Iceland on 5 October 2026.",
-        "zh": "2026 年 10 月 5 日，105 km WNW of Höfn, Iceland發生規模 4.7 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mww 4.7, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mww 4.7，深度約 10 公里。"
-      },
-      "data": {
-        "depth_km": 10,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzpq",
-        "magType": "mww",
-        "magnitude": 4.7,
-        "place": "105 km WNW of Höfn, Iceland"
-      },
-      "evidence": {
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzpq",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
-      },
-      "visual": {
-        "max": 10,
-        "min": 0,
-        "type": "bar",
-        "value": 4.7
       }
     }
   ]
