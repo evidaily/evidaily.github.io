@@ -1,26 +1,26 @@
 {
   "date": "2026-10-06",
-  "updated": "2026-10-06T11:00:00+08:00",
+  "updated": "2026-10-06T12:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-06T01:00:00Z",
+      "time_utc": "2026-10-06T02:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 3.00 (unsettled) at 01:00 UTC on 6 October 2026.",
-        "zh": "2026 年 10 月 6 日 01:00 UTC，估計行星 Kp 為 3.00（不穩定）。"
+        "en": "Estimated planetary Kp is 3.00 (unsettled) at 02 UTC on 6 October 2026.",
+        "zh": "2026 年 10 月 6 日 02 UTC，估計行星 Kp 為 3.00（不穩定）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 3.00 (3Z) at 01:00 UTC on 6 October 2026. The 01:00 hour is complete (60 samples through 01:59; hour-start 3.00/3Z, hour-end 3.00/3Z). Last-180 maximum is 4.00 (first at 2026-10-05T23:58:00Z; label 4Z). Published-window maximum is 4.00 (first at 2026-10-05T23:12:00Z; label 4Z). Window starts 2026-10-05T21:00:00Z (358 samples). Window estimated_kp reached 4.00. The 02:00 UTC hour is incomplete (58 samples through 02:57).",
-        "zh": "最新可靠整點初值：2026-10-06 01:00 UTC 估計 Kp 3.00（3Z）。01:00 時段已收滿（60 筆至 01:59；時段初 3.00／3Z，時段末 3.00／3Z）。last-180 最大 4.00（最先見於 2026-10-05T23:58:00Z；標籤 4Z）。公開窗最大 4.00（最先見於 2026-10-05T23:12:00Z；標籤 4Z）。窗起點 2026-10-05T21:00:00Z（358 筆）。本窗 estimated_kp 已達 4.00。2026-10-06 02 UTC 時段尚未收滿（58 筆至 02:57）。"
+        "en": "Latest reliable hour-start estimated Kp is 3.00 (3Z) at 02 UTC on 6 October 2026. The 02 hour is complete (60 samples through 02:59; hour-start 3.00/3Z, hour-end 2.67/3M). Last-180 maximum is 3.33 (first at 2026-10-06T01:22:00Z; label 4P). Published-window maximum is 4.00 (first at 2026-10-05T23:12:00Z; label 4Z). Window starts 2026-10-05T22:00:00Z (358 samples). Window estimated_kp reached 4.00. The 03 UTC hour is incomplete (58 samples through 03:57).",
+        "zh": "最新可靠整點初值：2026-10-06 02 UTC 估計 Kp 3.00（3Z）。02 時段已收滿（60 筆至 02:59；時段初 3.00／3Z，時段末 2.67／3M）。last-180 最大 3.33（最先見於 2026-10-06T01:22:00Z；標籤 4P）。公開窗最大 4.00（最先見於 2026-10-05T23:12:00Z；標籤 4Z）。窗起點 2026-10-05T22:00:00Z（358 筆）。本窗 estimated_kp 已達 4.00。2026-10-06 03 UTC 時段尚未收滿（58 筆至 03:57）。"
       },
       "data": {
         "estimated_kp": 3.0,
         "kp_label": "3Z",
-        "last180_max": 4.0,
+        "last180_max": 3.33,
         "n_samples": 358,
         "window_max": 4.0,
-        "window_start": "2026-10-05T21:00:00Z"
+        "window_start": "2026-10-05T22:00:00Z"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The card uses the latest hour that has a full 60 samples; the following hour may still be incomplete.",
@@ -77,8 +77,8 @@
         "zh": "2026 年 10 月 5 日，146 km WNW of Panguna, Papua New Guinea發生規模 4.8 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.8, depth about 142 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 142 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.8, depth about 142.5 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 142.5 公里。"
       },
       "data": {
         "depth_km": 142.5,
@@ -139,12 +139,12 @@
       "type": "earthquake",
       "time_utc": "2026-10-05T20:22:59Z",
       "title": {
-        "en": "M5 earthquake south of the Fiji Islands on 5 October 2026.",
-        "zh": "2026 年 10 月 5 日，south of the Fiji Islands發生規模 5 地震。"
+        "en": "M5.0 earthquake south of the Fiji Islands on 5 October 2026.",
+        "zh": "2026 年 10 月 5 日，south of the Fiji Islands發生規模 5.0 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 5, depth about 519 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 5，深度約 519 公里。"
+        "en": "USGS M4.5+ day feed: mb 5.0, depth about 518.6 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.0，深度約 518.6 公里。"
       },
       "data": {
         "depth_km": 518.6,
@@ -242,8 +242,8 @@
         "zh": "2026 年 10 月 5 日，75 km NNE of Yonakuni, Japan發生規模 4.7 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.7, depth about 156 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 156 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.7, depth about 156.2 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 156.2 公里。"
       },
       "data": {
         "depth_km": 156.2,
@@ -304,12 +304,12 @@
       "type": "earthquake",
       "time_utc": "2026-10-05T10:52:09Z",
       "title": {
-        "en": "M5 earthquake 187 km ENE of Saipan, Northern Mariana Islands on 5 October 2026.",
-        "zh": "2026 年 10 月 5 日，187 km ENE of Saipan, Northern Mariana Islands發生規模 5 地震。"
+        "en": "M5.0 earthquake 187 km ENE of Saipan, Northern Mariana Islands on 5 October 2026.",
+        "zh": "2026 年 10 月 5 日，187 km ENE of Saipan, Northern Mariana Islands發生規模 5.0 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 5, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 5，深度約 10 公里。"
+        "en": "USGS M4.5+ day feed: mb 5.0, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.0，深度約 10 公里。"
       },
       "data": {
         "depth_km": 10.0,
@@ -374,8 +374,8 @@
         "zh": "2026 年 10 月 5 日，191 km ESE of Sarangani, Philippines發生規模 4.8 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.8, depth about 51 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 51 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.8, depth about 51.3 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 51.3 公里。"
       },
       "data": {
         "depth_km": 51.3,
@@ -403,12 +403,12 @@
       "type": "earthquake",
       "time_utc": "2026-10-05T05:26:44Z",
       "title": {
-        "en": "M5 earthquake 71 km E of ‘Ohonua, Tonga on 5 October 2026.",
-        "zh": "2026 年 10 月 5 日，71 km E of ‘Ohonua, Tonga發生規模 5 地震。"
+        "en": "M5.0 earthquake 71 km E of ‘Ohonua, Tonga on 5 October 2026.",
+        "zh": "2026 年 10 月 5 日，71 km E of ‘Ohonua, Tonga發生規模 5.0 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 5, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 5，深度約 10 公里。"
+        "en": "USGS M4.5+ day feed: mb 5.0, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.0，深度約 10 公里。"
       },
       "data": {
         "depth_km": 10.0,
