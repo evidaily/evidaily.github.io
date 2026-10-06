@@ -1,26 +1,26 @@
 {
   "date": "2026-10-06",
-  "updated": "2026-10-06T15:00:00+08:00",
+  "updated": "2026-10-06T16:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-06T05:00:00Z",
+      "time_utc": "2026-10-06T06:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 3.00 (unsettled) at 05 UTC on 6 October 2026.",
-        "zh": "2026 年 10 月 6 日 05 UTC，估計行星 Kp 為 3.00（不穩）。"
+        "en": "Estimated planetary Kp is 0.00 (quiet) at 06 UTC on 6 October 2026.",
+        "zh": "2026 年 10 月 6 日 06 UTC，估計行星 Kp 為 0.00（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 3.00 (3Z) at 05 UTC on 6 October 2026. The 05 hour is complete (60 samples through 05:59; hour-start 3.00/3Z, hour-end 3.00/3Z). Last-180 maximum is 3.33 (first at 2026-10-06T05:14:00Z; label 3P). Published-window maximum is 3.33 (first at 2026-10-06T01:22:00Z; label 3P). Window starts 2026-10-06T01:00:00Z (358 samples). Window estimated_kp reached 3.33. The 06 UTC hour is incomplete (58 samples through 06:57).",
-        "zh": "最新可靠整點初值：2026-10-06 05 UTC 估計 Kp 3.00（3Z）。05 時段已收滿（60 筆至 05:59；時段初 3.00／3Z，時段末 3.00／3Z）。last-180 最大 3.33（最先見於 2026-10-06T05:14:00Z；標籤 3P）。公開窗最大 3.33（最先見於 2026-10-06T01:22:00Z；標籤 3P）。窗起點 2026-10-06T01:00:00Z（358 筆）。本窗 estimated_kp 已達 3.33。2026-10-06 06 UTC 時段尚未收滿（58 筆至 06:57）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 06 UTC on 6 October 2026. The 06 hour is complete (60 samples through 06:59; hour-start 0.00/0Z, hour-end 1.67/2M). Last-180 maximum is 3.33 (first at 2026-10-06T05:14:00Z; label 3P). Published-window maximum is 3.33 (first at 2026-10-06T02:14:00Z; label 3P). Window starts 2026-10-06T02:00:00Z (358 samples). Window estimated_kp reached 3.33. The 07 UTC hour is incomplete (58 samples through 07:57).",
+        "zh": "最新可靠整點初值：2026-10-06 06 UTC 估計 Kp 0.00（0Z）。06 時段已收滿（60 筆至 06:59；時段初 0.00／0Z，時段末 1.67／2M）。last-180 最大 3.33（最先見於 2026-10-06T05:14:00Z；標籤 3P）。公開窗最大 3.33（最先見於 2026-10-06T02:14:00Z；標籤 3P）。窗起點 2026-10-06T02:00:00Z（358 筆）。本窗 estimated_kp 已達 3.33。2026-10-06 07 UTC 時段尚未收滿（58 筆至 07:57）。"
       },
       "data": {
-        "estimated_kp": 3.0,
-        "kp_label": "3Z",
+        "estimated_kp": 0.0,
+        "kp_label": "0Z",
         "last180_max": 3.33,
         "n_samples": 358,
         "window_max": 3.33,
-        "window_start": "2026-10-06T01:00:00Z"
+        "window_start": "2026-10-06T02:00:00Z"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The card uses the latest hour that has a full 60 samples; the following hour may still be incomplete.",
@@ -32,7 +32,40 @@
         "max": 9,
         "min": 0,
         "type": "gauge",
-        "value": 3.0
+        "value": 0.0
+      }
+    },
+    {
+      "id": "usgs-us6000tzva",
+      "type": "earthquake",
+      "time_utc": "2026-10-06T06:54:10Z",
+      "title": {
+        "en": "M4.5 earthquake 60 km WNW of Colchani, Bolivia on 6 October 2026.",
+        "zh": "2026 年 10 月 6 日，60 km WNW of Colchani, Bolivia發生規模 4.5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 192 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 192 公里。"
+      },
+      "data": {
+        "depth_km": 191.7,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzva",
+        "magType": "mb",
+        "magnitude": 4.5,
+        "place": "60 km WNW of Colchani, Bolivia"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzva",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.5
       }
     },
     {
@@ -48,7 +81,7 @@
         "zh": "USGS M4.5+ 一日饋送：mww 4.7，深度約 122 公里。"
       },
       "data": {
-        "depth_km": 122,
+        "depth_km": 122.0,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzv6",
         "magType": "mww",
         "magnitude": 4.7,
@@ -143,8 +176,8 @@
         "zh": "2026 年 10 月 6 日，86 km N of Ruteng, Indonesia發生規模 4.8 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.8, depth about 8.7 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 8.7 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.8, depth about 9 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 9 公里。"
       },
       "data": {
         "depth_km": 8.7,
@@ -209,8 +242,8 @@
         "zh": "2026 年 10 月 5 日，146 km WNW of Panguna, Papua New Guinea發生規模 4.8 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.8, depth about 142.5 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 142.5 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.8, depth about 142 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 142 公里。"
       },
       "data": {
         "depth_km": 142.5,
@@ -275,8 +308,8 @@
         "zh": "2026 年 10 月 5 日，south of the Fiji Islands發生規模 5 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 5, depth about 518.6 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 5，深度約 518.6 公里。"
+        "en": "USGS M4.5+ day feed: mb 5, depth about 519 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5，深度約 519 公里。"
       },
       "data": {
         "depth_km": 518.6,
@@ -374,8 +407,8 @@
         "zh": "2026 年 10 月 5 日，75 km NNE of Yonakuni, Japan發生規模 4.7 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.7, depth about 156.2 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 156.2 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.7, depth about 156 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 156 公里。"
       },
       "data": {
         "depth_km": 156.2,
@@ -462,39 +495,6 @@
         "min": 0,
         "type": "bar",
         "value": 5
-      }
-    },
-    {
-      "id": "usgs-us6000tzmt",
-      "type": "earthquake",
-      "time_utc": "2026-10-05T07:13:38Z",
-      "title": {
-        "en": "M4.9 earthquake Volcano Islands, Japan region on 5 October 2026.",
-        "zh": "2026 年 10 月 5 日，Volcano Islands, Japan region發生規模 4.9 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.9, depth about 35 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 35 公里。"
-      },
-      "data": {
-        "depth_km": 35,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzmt",
-        "magType": "mb",
-        "magnitude": 4.9,
-        "place": "Volcano Islands, Japan region"
-      },
-      "evidence": {
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzmt",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
-      },
-      "visual": {
-        "max": 10,
-        "min": 0,
-        "type": "bar",
-        "value": 4.9
       }
     }
   ]
