@@ -1,26 +1,26 @@
 {
   "date": "2026-10-06",
-  "updated": "2026-10-06T13:00:00+08:00",
+  "updated": "2026-10-06T14:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-06T03:00:00Z",
+      "time_utc": "2026-10-06T04:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (quiet) at 03 UTC on 6 October 2026.",
-        "zh": "2026 年 10 月 6 日 03 UTC，估計行星 Kp 為 0.00（平靜）。"
+        "en": "Estimated planetary Kp is 2.33 (unsettled) at 04 UTC on 6 October 2026.",
+        "zh": "2026 年 10 月 6 日 04 UTC，估計行星 Kp 為 2.33（不穩）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 03 UTC on 6 October 2026. The 03 hour is complete (60 samples through 03:59; hour-start 0.00/0Z, hour-end 2.33/2P). Last-180 maximum is 3.33 (first at 2026-10-06T04:58:00Z; label 3P). Published-window maximum is 4.00 (first at 2026-10-05T23:12:00Z; label 4Z). Window starts 2026-10-05T23:00:00Z (359 samples). Window estimated_kp reached 4.00. The 04 UTC hour is incomplete (59 samples through 04:58).",
-        "zh": "最新可靠整點初值：2026-10-06 03 UTC 估計 Kp 0.00（0Z）。03 時段已收滿（60 筆至 03:59；時段初 0.00／0Z，時段末 2.33／2P）。last-180 最大 3.33（最先見於 2026-10-06T04:58:00Z；標籤 3P）。公開窗最大 4.00（最先見於 2026-10-05T23:12:00Z；標籤 4Z）。窗起點 2026-10-05T23:00:00Z（359 筆）。本窗 estimated_kp 已達 4.00。2026-10-06 04 UTC 時段尚未收滿（59 筆至 04:58）。"
+        "en": "Latest reliable hour-start estimated Kp is 2.33 (2P) at 04 UTC on 6 October 2026. The 04 hour is complete (60 samples through 04:59; hour-start 2.33/2P, hour-end 3.00/3Z). Last-180 maximum is 3.33 (first at 2026-10-06T05:14:00Z; label 3P). Published-window maximum is 3.33 (first at 2026-10-06T01:22:00Z; label 3P). Window starts 2026-10-06T00:00:00Z (358 samples). Window estimated_kp reached 3.33. The 05 UTC hour is incomplete (58 samples through 05:57).",
+        "zh": "最新可靠整點初值：2026-10-06 04 UTC 估計 Kp 2.33（2P）。04 時段已收滿（60 筆至 04:59；時段初 2.33／2P，時段末 3.00／3Z）。last-180 最大 3.33（最先見於 2026-10-06T05:14:00Z；標籤 3P）。公開窗最大 3.33（最先見於 2026-10-06T01:22:00Z；標籤 3P）。窗起點 2026-10-06T00:00:00Z（358 筆）。本窗 estimated_kp 已達 3.33。2026-10-06 05 UTC 時段尚未收滿（58 筆至 05:57）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp_label": "0Z",
+        "estimated_kp": 2.33,
+        "kp_label": "2P",
         "last180_max": 3.33,
-        "n_samples": 359,
-        "window_max": 4.0,
-        "window_start": "2026-10-05T23:00:00Z"
+        "n_samples": 358,
+        "window_max": 3.33,
+        "window_start": "2026-10-06T00:00:00Z"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The card uses the latest hour that has a full 60 samples; the following hour may still be incomplete.",
@@ -32,7 +32,7 @@
         "max": 9,
         "min": 0,
         "type": "gauge",
-        "value": 0.0
+        "value": 2.33
       }
     },
     {
@@ -110,11 +110,11 @@
         "zh": "2026 年 10 月 6 日，86 km N of Ruteng, Indonesia發生規模 4.8 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.8, depth about 8.653 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 8.653 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.8, depth about 8.7 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 8.7 公里。"
       },
       "data": {
-        "depth_km": 8.653,
+        "depth_km": 8.7,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzuj",
         "magType": "mb",
         "magnitude": 4.8,
@@ -176,11 +176,11 @@
         "zh": "2026 年 10 月 5 日，146 km WNW of Panguna, Papua New Guinea發生規模 4.8 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.8, depth about 142.487 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 142.487 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.8, depth about 142.5 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 142.5 公里。"
       },
       "data": {
-        "depth_km": 142.487,
+        "depth_km": 142.5,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tztg",
         "magType": "mb",
         "magnitude": 4.8,
@@ -238,15 +238,15 @@
       "type": "earthquake",
       "time_utc": "2026-10-05T20:22:59Z",
       "title": {
-        "en": "M5.0 earthquake south of the Fiji Islands on 5 October 2026.",
-        "zh": "2026 年 10 月 5 日，south of the Fiji Islands發生規模 5.0 地震。"
+        "en": "M5 earthquake south of the Fiji Islands on 5 October 2026.",
+        "zh": "2026 年 10 月 5 日，south of the Fiji Islands發生規模 5 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 5.0, depth about 518.638 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 5.0，深度約 518.638 公里。"
+        "en": "USGS M4.5+ day feed: mb 5, depth about 518.6 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5，深度約 518.6 公里。"
       },
       "data": {
-        "depth_km": 518.638,
+        "depth_km": 518.6,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzsc",
         "magType": "mb",
         "magnitude": 5,
@@ -341,11 +341,11 @@
         "zh": "2026 年 10 月 5 日，75 km NNE of Yonakuni, Japan發生規模 4.7 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.7, depth about 156.219 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 156.219 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.7, depth about 156.2 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 156.2 公里。"
       },
       "data": {
-        "depth_km": 156.219,
+        "depth_km": 156.2,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tznu",
         "magType": "mb",
         "magnitude": 4.7,
@@ -403,12 +403,12 @@
       "type": "earthquake",
       "time_utc": "2026-10-05T10:52:09Z",
       "title": {
-        "en": "M5.0 earthquake 187 km ENE of Saipan, Northern Mariana Islands on 5 October 2026.",
-        "zh": "2026 年 10 月 5 日，187 km ENE of Saipan, Northern Mariana Islands發生規模 5.0 地震。"
+        "en": "M5 earthquake 187 km ENE of Saipan, Northern Mariana Islands on 5 October 2026.",
+        "zh": "2026 年 10 月 5 日，187 km ENE of Saipan, Northern Mariana Islands發生規模 5 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 5.0, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 5.0，深度約 10 公里。"
+        "en": "USGS M4.5+ day feed: mb 5, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5，深度約 10 公里。"
       },
       "data": {
         "depth_km": 10,
@@ -473,11 +473,11 @@
         "zh": "2026 年 10 月 5 日，191 km ESE of Sarangani, Philippines發生規模 4.8 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.8, depth about 51.291 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 51.291 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.8, depth about 51.3 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 51.3 公里。"
       },
       "data": {
-        "depth_km": 51.291,
+        "depth_km": 51.3,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzmk",
         "magType": "mb",
         "magnitude": 4.8,
@@ -495,39 +495,6 @@
         "min": 0,
         "type": "bar",
         "value": 4.8
-      }
-    },
-    {
-      "id": "usgs-us6000tzme",
-      "type": "earthquake",
-      "time_utc": "2026-10-05T05:26:44Z",
-      "title": {
-        "en": "M5.0 earthquake 71 km E of ‘Ohonua, Tonga on 5 October 2026.",
-        "zh": "2026 年 10 月 5 日，71 km E of ‘Ohonua, Tonga發生規模 5.0 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mb 5.0, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 5.0，深度約 10 公里。"
-      },
-      "data": {
-        "depth_km": 10,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzme",
-        "magType": "mb",
-        "magnitude": 5,
-        "place": "71 km E of ‘Ohonua, Tonga"
-      },
-      "evidence": {
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzme",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
-      },
-      "visual": {
-        "max": 10,
-        "min": 0,
-        "type": "bar",
-        "value": 5
       }
     }
   ]
