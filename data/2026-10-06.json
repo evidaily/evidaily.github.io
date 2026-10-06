@@ -7,12 +7,12 @@
       "type": "space-weather",
       "time_utc": "2026-10-06T02:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 3.00 (unsettled) at 02 UTC on 6 October 2026.",
-        "zh": "2026 年 10 月 6 日 02 UTC，估計行星 Kp 為 3.00（不穩定）。"
+        "en": "Estimated planetary Kp is 3.00 (unsettled) at 02:00 UTC on 6 October 2026.",
+        "zh": "2026 年 10 月 6 日 02:00 UTC，估計行星 Kp 為 3.00（不穩定）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 3.00 (3Z) at 02 UTC on 6 October 2026. The 02 hour is complete (60 samples through 02:59; hour-start 3.00/3Z, hour-end 2.67/3M). Last-180 maximum is 3.33 (first at 2026-10-06T01:22:00Z; label 4P). Published-window maximum is 4.00 (first at 2026-10-05T23:12:00Z; label 4Z). Window starts 2026-10-05T22:00:00Z (358 samples). Window estimated_kp reached 4.00. The 03 UTC hour is incomplete (58 samples through 03:57).",
-        "zh": "最新可靠整點初值：2026-10-06 02 UTC 估計 Kp 3.00（3Z）。02 時段已收滿（60 筆至 02:59；時段初 3.00／3Z，時段末 2.67／3M）。last-180 最大 3.33（最先見於 2026-10-06T01:22:00Z；標籤 4P）。公開窗最大 4.00（最先見於 2026-10-05T23:12:00Z；標籤 4Z）。窗起點 2026-10-05T22:00:00Z（358 筆）。本窗 estimated_kp 已達 4.00。2026-10-06 03 UTC 時段尚未收滿（58 筆至 03:57）。"
+        "en": "Latest reliable hour-start estimated Kp is 3.00 (3Z) at 02:00 UTC on 6 October 2026. The 02:00 hour is complete (60 samples through 02:59; hour-start 3.00/3Z, hour-end 2.67/3M). Last-180 maximum is 3.33 (first at 2026-10-06T01:22:00Z; label 3P). Published-window maximum is 4.00 (first at 2026-10-05T23:12:00Z; label 4Z). Window starts 2026-10-05T22:00:00Z (358 samples). Window estimated_kp reached 4.00. The 03:00 UTC hour is incomplete (58 samples through 03:57).",
+        "zh": "最新可靠整點初值：2026-10-06 02:00 UTC 估計 Kp 3.00（3Z）。02 時段已收滿（60 筆至 02:59；時段初 3.00／3Z，時段末 2.67／3M）。last-180 最大 3.33（最先見於 2026-10-06T01:22:00Z；標籤 3P）。公開窗最大 4.00（最先見於 2026-10-05T23:12:00Z；標籤 4Z）。窗起點 2026-10-05T22:00:00Z（358 筆）。本窗 estimated_kp 已達 4.00。2026-10-06 03:00 UTC 時段尚未收滿（58 筆至 03:57）。"
       },
       "data": {
         "estimated_kp": 3.0,
