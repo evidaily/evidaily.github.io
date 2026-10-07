@@ -1,26 +1,26 @@
 {
   "date": "2026-10-07",
-  "updated": "2026-10-07T12:00:00+08:00",
+  "updated": "2026-10-07T13:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-07T02:00:00Z",
+      "time_utc": "2026-10-07T03:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 1.00 (quiet) at 02:00 UTC on 7 October 2026.",
-        "zh": "2026 年 10 月 7 日 02:00 UTC，估計行星 Kp 為 1.00（平靜）。"
+        "en": "Estimated planetary Kp is 0.00 (quiet) at 03:00 UTC on 7 October 2026.",
+        "zh": "2026 年 10 月 7 日 03:00 UTC，估計行星 Kp 為 0.00（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 1.00 (1Z) at 02:00 UTC on 7 October 2026. The 02 hour is complete (60 samples through 02:59; hour-start 1.00/1Z, hour-end 1.33/1P). Last-180 maximum is 1.33 (first at 2026-10-07T02:58:00Z; label 1P). Published-window maximum is 2.67 (first at 2026-10-06T22:54:00Z; label 3M). Window starts 2026-10-06T21:59:00Z (358 samples). Window estimated_kp reached 2.67. The 03 UTC hour is incomplete (57 samples through 03:56).",
-        "zh": "最新可靠整點初值：2026-10-07 02 UTC 估計 Kp 1.00（1Z）。02 時段已收滿（60 筆至 02:59；時段初 1.00／1Z，時段末 1.33／1P）。last-180 最大 1.33（最先見於 2026-10-07T02:58:00Z；標籤 1P）。公開窗最大 2.67（最先見於 2026-10-06T22:54:00Z；標籤 3M）。窗起點 2026-10-06T21:59:00Z（358 筆）。本窗 estimated_kp 已達 2.67。2026-10-07 03 UTC 時段尚未收滿（57 筆至 03:56）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 03:00 UTC on 7 October 2026. The 03 hour is complete (60 samples through 03:59; hour-start 0.00/0Z, hour-end 0.33/0P). Last-180 maximum is 1.33 (first at 2026-10-07T02:58:00Z; label 1P). Published-window maximum is 2.67 (first at 2026-10-06T22:59:00Z; label 3M). Window starts 2026-10-06T22:59:00Z (358 samples). Window estimated_kp reached 2.67. The 04 UTC hour is incomplete (57 samples through 04:56).",
+        "zh": "最新可靠整點初值：2026-10-07 03 UTC 估計 Kp 0.00（0Z）。03 時段已收滿（60 筆至 03:59；時段初 0.00／0Z，時段末 0.33／0P）。last-180 最大 1.33（最先見於 2026-10-07T02:58:00Z；標籤 1P）。公開窗最大 2.67（最先見於 2026-10-06T22:59:00Z；標籤 3M）。窗起點 2026-10-06T22:59:00Z（358 筆）。本窗 estimated_kp 已達 2.67。2026-10-07 04 UTC 時段尚未收滿（57 筆至 04:56）。"
       },
       "data": {
-        "estimated_kp": 1.0,
-        "kp_label": "1Z",
+        "estimated_kp": 0.0,
+        "kp_label": "0Z",
         "last180_max": 1.33,
         "n_samples": 358,
         "window_max": 2.67,
-        "window_start": "2026-10-06T21:59:00Z"
+        "window_start": "2026-10-06T22:59:00Z"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The card uses the latest hour that has a full 60 samples; the following hour may still be incomplete.",
@@ -32,7 +32,7 @@
         "max": 9,
         "min": 0,
         "type": "gauge",
-        "value": 1.0
+        "value": 0.0
       }
     },
     {
@@ -99,6 +99,72 @@
         "min": 0,
         "type": "bar",
         "value": 4.6
+      }
+    },
+    {
+      "id": "usgs-us6000u0mu",
+      "type": "earthquake",
+      "time_utc": "2026-10-07T00:30:08Z",
+      "title": {
+        "en": "M4.8 earthquake 57 km E of Petropavlovsk-Kamchatsky, Russia on 7 October 2026.",
+        "zh": "2026 年 10 月 7 日，57 km E of Petropavlovsk-Kamchatsky, Russia發生規模 4.8 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.8, depth about 62 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 62 公里。"
+      },
+      "data": {
+        "depth_km": 61.934,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0mu",
+        "magType": "mb",
+        "magnitude": 4.8,
+        "place": "57 km E of Petropavlovsk-Kamchatsky, Russia"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0mu",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.8
+      }
+    },
+    {
+      "id": "usgs-us6000u0mr",
+      "type": "earthquake",
+      "time_utc": "2026-10-07T00:22:41Z",
+      "title": {
+        "en": "M4.5 earthquake 37 km ESE of Iwaki, Japan on 7 October 2026.",
+        "zh": "2026 年 10 月 7 日，37 km ESE of Iwaki, Japan發生規模 4.5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 53 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 53 公里。"
+      },
+      "data": {
+        "depth_km": 52.668,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0mr",
+        "magType": "mb",
+        "magnitude": 4.5,
+        "place": "37 km ESE of Iwaki, Japan"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0mr",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.5
       }
     },
     {
@@ -594,72 +660,6 @@
         "min": 0,
         "type": "bar",
         "value": 4.7
-      }
-    },
-    {
-      "id": "usgs-us6000tzus",
-      "type": "earthquake",
-      "time_utc": "2026-10-06T04:40:28Z",
-      "title": {
-        "en": "M4.9 earthquake State of Yap, Federated States of Micronesia on 6 October 2026.",
-        "zh": "2026 年 10 月 6 日，State of Yap, Federated States of Micronesia發生規模 4.9 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.9, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 10 公里。"
-      },
-      "data": {
-        "depth_km": 10,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzus",
-        "magType": "mb",
-        "magnitude": 4.9,
-        "place": "State of Yap, Federated States of Micronesia"
-      },
-      "evidence": {
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzus",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
-      },
-      "visual": {
-        "max": 10,
-        "min": 0,
-        "type": "bar",
-        "value": 4.9
-      }
-    },
-    {
-      "id": "usgs-us6000tzuq",
-      "type": "earthquake",
-      "time_utc": "2026-10-06T04:28:36Z",
-      "title": {
-        "en": "M4.6 earthquake Izu Islands, Japan region on 6 October 2026.",
-        "zh": "2026 年 10 月 6 日，Izu Islands, Japan region發生規模 4.6 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.6, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 10 公里。"
-      },
-      "data": {
-        "depth_km": 10,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzuq",
-        "magType": "mb",
-        "magnitude": 4.6,
-        "place": "Izu Islands, Japan region"
-      },
-      "evidence": {
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzuq",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
-      },
-      "visual": {
-        "max": 10,
-        "min": 0,
-        "type": "bar",
-        "value": 4.6
       }
     }
   ]
