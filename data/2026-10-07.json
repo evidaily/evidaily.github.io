@@ -1,26 +1,26 @@
 {
   "date": "2026-10-07",
-  "updated": "2026-10-07T20:00:00+08:00",
+  "updated": "2026-10-07T21:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-07T10:00:00Z",
+      "time_utc": "2026-10-07T11:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.33 (quiet) at 10:00 UTC on 7 October 2026.",
-        "zh": "2026 年 10 月 7 日 10:00 UTC，估計行星 Kp 為 0.33（平靜）。"
+        "en": "Estimated planetary Kp is 0.33 (quiet) at 11:00 UTC on 7 October 2026.",
+        "zh": "2026 年 10 月 7 日 11:00 UTC，估計行星 Kp 為 0.33（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.33 (0P) at 10:00 UTC on 7 October 2026. The 10 hour is complete (60 samples through 10:59; hour-start 0.33/0P, hour-end 0.33/0P). Last-180 maximum is 1.00 (first at 2026-10-07T08:58:00Z; label 1Z). Published-window maximum is 1.33 (first at 2026-10-07T05:59:00Z; label 1P). Window starts 2026-10-07T05:59:00Z (359 samples). Window estimated_kp reached 1.33. The 11 UTC hour is incomplete (58 samples through 11:57).",
-        "zh": "最新可靠整點初值：2026-10-07 10 UTC 估計 Kp 0.33（0P）。10 時段已收滿（60 筆至 10:59；時段初 0.33／0P，時段末 0.33／0P）。last-180 最大 1.00（最先見於 2026-10-07T08:58:00Z；標籤 1Z）。公開窗最大 1.33（最先見於 2026-10-07T05:59:00Z；標籤 1P）。窗起點 2026-10-07T05:59:00Z（359 筆）。本窗 estimated_kp 已達 1.33。2026-10-07 11 UTC 時段尚未收滿（58 筆至 11:57）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.33 (0P) at 11:00 UTC on 7 October 2026. The 11 hour is complete (60 samples through 11:59; hour-start 0.33/0P, hour-end 0.67/1M). Last-180 maximum is 0.67 (first at 2026-10-07T10:34:00Z; label 1M). Published-window maximum is 1.00 (first at 2026-10-07T07:34:00Z; label 1Z). Window starts 2026-10-07T07:00:00Z (358 samples). Window estimated_kp reached 1.00. The 12 UTC hour is incomplete (58 samples through 12:57).",
+        "zh": "最新可靠整點初值：2026-10-07 11 UTC 估計 Kp 0.33（0P）。11 時段已收滿（60 筆至 11:59；時段初 0.33／0P，時段末 0.67／1M）。last-180 最大 0.67（最先見於 2026-10-07T10:34:00Z；標籤 1M）。公開窗最大 1.00（最先見於 2026-10-07T07:34:00Z；標籤 1Z）。窗起點 2026-10-07T07:00:00Z（358 筆）。本窗 estimated_kp 已達 1.00。2026-10-07 12 UTC 時段尚未收滿（58 筆至 12:57）。"
       },
       "data": {
         "estimated_kp": 0.33,
         "kp_label": "0P",
-        "last180_max": 1.0,
-        "n_samples": 359,
-        "window_max": 1.33,
-        "window_start": "2026-10-07T05:59:00Z"
+        "last180_max": 0.67,
+        "n_samples": 358,
+        "window_max": 1.0,
+        "window_start": "2026-10-07T07:00:00Z"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The card uses the latest hour that has a full 60 samples; the following hour may still be incomplete.",
