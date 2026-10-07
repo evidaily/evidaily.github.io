@@ -1,26 +1,26 @@
 {
   "date": "2026-10-08",
-  "updated": "2026-10-08T02:00:00+08:00",
+  "updated": "2026-10-08T04:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-07T16:00:00Z",
+      "time_utc": "2026-10-07T18:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.33 (quiet) at 16:00 UTC on 7 October 2026.",
-        "zh": "2026 年 10 月 7 日 16:00 UTC，估計行星 Kp 為 0.33（平靜）。"
+        "en": "Estimated planetary Kp is 0.00 (quiet) at 18:00 UTC on 7 October 2026.",
+        "zh": "2026 年 10 月 7 日 18:00 UTC，估計行星 Kp 為 0.00（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.33 (0P) at 16:00 UTC on 7 October 2026. The 16 hour is complete (60 samples through 16:59; hour-start 0.33/0P, hour-end 0.33/0P). Last-180 maximum is 1.67 (first at 2026-10-07T17:54:00Z; label 2M). Published-window maximum is 1.67 (first at 2026-10-07T17:54:00Z; label 2M). Window starts 2026-10-07T12:00:00Z (357 samples). Window estimated_kp reached 1.67. The 17 UTC hour is incomplete (57 samples through 17:56).",
-        "zh": "最新可靠整點初值：2026-10-07 16 UTC 估計 Kp 0.33（0P）。16 時段已收滿（60 筆至 16:59；時段初 0.33／0P，時段末 0.33／0P）。last-180 最大 1.67（最先見於 2026-10-07T17:54:00Z；標籤 2M）。公開窗最大 1.67（最先見於 2026-10-07T17:54:00Z；標籤 2M）。窗起點 2026-10-07T12:00:00Z（357 筆）。本窗 estimated_kp 已達 1.67。2026-10-07 17 UTC 時段尚未收滿（57 筆至 17:56）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 18:00 UTC on 7 October 2026. The 18 hour is complete (60 samples through 18:59; hour-start 0.00/0Z, hour-end 2.33/2P). Last-180 maximum is 2.67 (first at 2026-10-07T17:57:00Z; label 3M). Published-window maximum is 2.67 (first at 2026-10-07T17:57:00Z; label 3M). Window starts 2026-10-07T14:00:00Z (358 samples). Window estimated_kp reached 2.67. The 19 UTC hour is incomplete (58 samples through 19:57).",
+        "zh": "最新可靠整點初值：2026-10-07 18 UTC 估計 Kp 0.00（0Z）。18 時段已收滿（60 筆至 18:59；時段初 0.00／0Z，時段末 2.33／2P）。last-180 最大 2.67（最先見於 2026-10-07T17:57:00Z；標籤 3M）。公開窗最大 2.67（最先見於 2026-10-07T17:57:00Z；標籤 3M）。窗起點 2026-10-07T14:00:00Z（358 筆）。本窗 estimated_kp 已達 2.67。2026-10-07 19 UTC 時段尚未收滿（58 筆至 19:57）。"
       },
       "data": {
-        "estimated_kp": 0.33,
-        "kp_label": "0P",
-        "last180_max": 1.67,
-        "n_samples": 357,
-        "window_max": 1.67,
-        "window_start": "2026-10-07T12:00:00Z"
+        "estimated_kp": 0.0,
+        "kp_label": "0Z",
+        "last180_max": 2.67,
+        "n_samples": 358,
+        "window_max": 2.67,
+        "window_start": "2026-10-07T14:00:00Z"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The card uses the latest hour that has a full 60 samples; the following hour may still be incomplete.",
@@ -32,7 +32,106 @@
         "max": 9,
         "min": 0,
         "type": "gauge",
-        "value": 0.33
+        "value": 0.0
+      }
+    },
+    {
+      "id": "usgs-us6000u0tm",
+      "type": "earthquake",
+      "time_utc": "2026-10-07T18:15:04Z",
+      "title": {
+        "en": "M4.8 earthquake 194 km S of Ust’-Kamchatsk Staryy, Russia on 7 October 2026.",
+        "zh": "2026 年 10 月 7 日，194 km S of Ust’-Kamchatsk Staryy, Russia發生規模 4.8 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mww 4.8, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mww 4.8，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0tm",
+        "magType": "mww",
+        "magnitude": 4.8,
+        "place": "194 km S of Ust’-Kamchatsk Staryy, Russia"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0tm",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.8
+      }
+    },
+    {
+      "id": "usgs-us6000u0tl",
+      "type": "earthquake",
+      "time_utc": "2026-10-07T18:13:13Z",
+      "title": {
+        "en": "M4.6 earthquake south of the Fiji Islands on 7 October 2026.",
+        "zh": "2026 年 10 月 7 日，south of the Fiji Islands發生規模 4.6 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 504 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 504 公里。"
+      },
+      "data": {
+        "depth_km": 504,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0tl",
+        "magType": "mb",
+        "magnitude": 4.6,
+        "place": "south of the Fiji Islands"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0tl",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.6
+      }
+    },
+    {
+      "id": "usgs-us6000u0te",
+      "type": "earthquake",
+      "time_utc": "2026-10-07T17:36:13Z",
+      "title": {
+        "en": "M4.6 earthquake 48 km SSW of Angoram, Papua New Guinea on 7 October 2026.",
+        "zh": "2026 年 10 月 7 日，48 km SSW of Angoram, Papua New Guinea發生規模 4.6 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 101 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 101 公里。"
+      },
+      "data": {
+        "depth_km": 101,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0te",
+        "magType": "mb",
+        "magnitude": 4.6,
+        "place": "48 km SSW of Angoram, Papua New Guinea"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0te",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.6
       }
     },
     {
@@ -495,105 +594,6 @@
         "min": 0,
         "type": "bar",
         "value": 4.6
-      }
-    },
-    {
-      "id": "usgs-us6000u0k2",
-      "type": "earthquake",
-      "time_utc": "2026-10-06T19:01:59Z",
-      "title": {
-        "en": "M4.5 earthquake 43 km WNW of Bengkulu, Indonesia on 6 October 2026.",
-        "zh": "2026 年 10 月 6 日，43 km WNW of Bengkulu, Indonesia發生規模 4.5 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.5, depth about 73 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 73 公里。"
-      },
-      "data": {
-        "depth_km": 73,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0k2",
-        "magType": "mb",
-        "magnitude": 4.5,
-        "place": "43 km WNW of Bengkulu, Indonesia"
-      },
-      "evidence": {
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0k2",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
-      },
-      "visual": {
-        "max": 10,
-        "min": 0,
-        "type": "bar",
-        "value": 4.5
-      }
-    },
-    {
-      "id": "usgs-aka2026tuxgky",
-      "type": "earthquake",
-      "time_utc": "2026-10-06T18:34:31Z",
-      "title": {
-        "en": "M5.5 earthquake 92 km NNW of Aleneva, Alaska on 6 October 2026.",
-        "zh": "2026 年 10 月 6 日，92 km NNW of Aleneva, Alaska發生規模 5.5 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: ml 5.5, depth about 88 km.",
-        "zh": "USGS M4.5+ 一日饋送：ml 5.5，深度約 88 公里。"
-      },
-      "data": {
-        "depth_km": 88,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tuxgky",
-        "magType": "ml",
-        "magnitude": 5.5,
-        "place": "92 km NNW of Aleneva, Alaska"
-      },
-      "evidence": {
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tuxgky",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
-      },
-      "visual": {
-        "max": 10,
-        "min": 0,
-        "type": "bar",
-        "value": 5.5
-      }
-    },
-    {
-      "id": "usgs-us6000u0jq",
-      "type": "earthquake",
-      "time_utc": "2026-10-06T18:15:34Z",
-      "title": {
-        "en": "M4.9 earthquake 114 km SW of Turpan, China on 6 October 2026.",
-        "zh": "2026 年 10 月 6 日，114 km SW of Turpan, China發生規模 4.9 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.9, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 10 公里。"
-      },
-      "data": {
-        "depth_km": 10,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0jq",
-        "magType": "mb",
-        "magnitude": 4.9,
-        "place": "114 km SW of Turpan, China"
-      },
-      "evidence": {
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0jq",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
-      },
-      "visual": {
-        "max": 10,
-        "min": 0,
-        "type": "bar",
-        "value": 4.9
       }
     }
   ]
