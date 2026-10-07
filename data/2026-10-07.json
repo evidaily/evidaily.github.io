@@ -1,26 +1,26 @@
 {
   "date": "2026-10-07",
-  "updated": "2026-10-07T10:00:00+08:00",
+  "updated": "2026-10-07T11:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-07T00:00:00Z",
+      "time_utc": "2026-10-07T01:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (quiet) at 00:00 UTC on 7 October 2026.",
-        "zh": "2026 年 10 月 7 日 00:00 UTC，估計行星 Kp 為 0.00（安靜）。"
+        "en": "Estimated planetary Kp is 0.33 (quiet) at 01:00 UTC on 7 October 2026.",
+        "zh": "2026 年 10 月 7 日 01:00 UTC，估計行星 Kp 為 0.33（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 00:00 UTC on 7 October 2026. The 00 hour is complete (60 samples through 00:59; hour-start 0.00/0Z, hour-end 0.33/0P). Last-180 maximum is 2.67 (first at 2026-10-06T22:58:00Z; label 3M). Published-window maximum is 2.67 (first at 2026-10-06T22:54:00Z; label 3M). Window starts 2026-10-06T20:00:00Z (358 samples). Window estimated_kp reached 2.67. The 01 UTC hour is incomplete (58 samples through 01:57).",
-        "zh": "最新可靠整點初值：2026-10-07 00 UTC 估計 Kp 0.00（0Z）。00 時段已收滿（60 筆至 00:59；時段初 0.00／0Z，時段末 0.33／0P）。last-180 最大 2.67（最先見於 2026-10-06T22:58:00Z；標籤 3M）。公開窗最大 2.67（最先見於 2026-10-06T22:54:00Z；標籤 3M）。窗起點 2026-10-06T20:00:00Z（358 筆）。本窗 estimated_kp 已達 2.67。2026-10-07 01 UTC 時段尚未收滿（58 筆至 01:57）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.33 (0P) at 01:00 UTC on 7 October 2026. The 01 hour is complete (60 samples through 01:59; hour-start 0.33/0P, hour-end 1.00/1Z). Last-180 maximum is 2.00 (first at 2026-10-06T23:56:00Z; label 2Z). Published-window maximum is 2.67 (first at 2026-10-06T22:54:00Z; label 3M). Window starts 2026-10-06T20:58:00Z (358 samples). Window estimated_kp reached 2.67. The 02 UTC hour is incomplete (56 samples through 02:55).",
+        "zh": "最新可靠整點初值：2026-10-07 01 UTC 估計 Kp 0.33（0P）。01 時段已收滿（60 筆至 01:59；時段初 0.33／0P，時段末 1.00／1Z）。last-180 最大 2.00（最先見於 2026-10-06T23:56:00Z；標籤 2Z）。公開窗最大 2.67（最先見於 2026-10-06T22:54:00Z；標籤 3M）。窗起點 2026-10-06T20:58:00Z（358 筆）。本窗 estimated_kp 已達 2.67。2026-10-07 02 UTC 時段尚未收滿（56 筆至 02:55）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp_label": "0Z",
-        "last180_max": 2.67,
+        "estimated_kp": 0.33,
+        "kp_label": "0P",
+        "last180_max": 2.0,
         "n_samples": 358,
         "window_max": 2.67,
-        "window_start": "2026-10-06T20:00:00Z"
+        "window_start": "2026-10-06T20:58:00Z"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The card uses the latest hour that has a full 60 samples; the following hour may still be incomplete.",
@@ -32,27 +32,60 @@
         "max": 9,
         "min": 0,
         "type": "gauge",
-        "value": 0.0
+        "value": 0.33
+      }
+    },
+    {
+      "id": "usgs-us6000u0nb",
+      "type": "earthquake",
+      "time_utc": "2026-10-07T01:39:05Z",
+      "title": {
+        "en": "M4.6 earthquake Kuril Islands on 7 October 2026.",
+        "zh": "2026 年 10 月 7 日，Kuril Islands發生規模 4.6 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 109 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 109 公里。"
+      },
+      "data": {
+        "depth_km": 108.743,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0nb",
+        "magType": "mb",
+        "magnitude": 4.6,
+        "place": "Kuril Islands"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0nb",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.6
       }
     },
     {
       "id": "usgs-us6000u0le",
       "type": "earthquake",
-      "time_utc": "2026-10-06T21:56:42Z",
+      "time_utc": "2026-10-06T21:56:43Z",
       "title": {
-        "en": "M4.8 earthquake 190 km SW of Abepura, Indonesia on 6 October 2026.",
-        "zh": "2026 年 10 月 6 日，190 km SW of Abepura, Indonesia發生規模 4.8 地震。"
+        "en": "M4.9 earthquake 189 km SW of Abepura, Indonesia on 6 October 2026.",
+        "zh": "2026 年 10 月 6 日，189 km SW of Abepura, Indonesia發生規模 4.9 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.8, depth about 62 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 62 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.9, depth about 80 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 80 公里。"
       },
       "data": {
-        "depth_km": 62.064,
+        "depth_km": 80.203,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0le",
         "magType": "mb",
-        "magnitude": 4.8,
-        "place": "190 km SW of Abepura, Indonesia"
+        "magnitude": 4.9,
+        "place": "189 km SW of Abepura, Indonesia"
       },
       "evidence": {
         "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0le",
@@ -65,7 +98,7 @@
         "max": 10,
         "min": 0,
         "type": "bar",
-        "value": 4.8
+        "value": 4.9
       }
     },
     {
