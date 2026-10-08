@@ -1,0 +1,600 @@
+{
+  "date": "2026-10-09",
+  "updated": "2026-10-09T01:00:00+08:00",
+  "entries": [
+    {
+      "id": "noaa-kp-1m",
+      "type": "space-weather",
+      "time_utc": "2026-10-08T15:00:00Z",
+      "title": {
+        "en": "Estimated planetary Kp is 0.00 (quiet) at 15:00 UTC on 8 October 2026.",
+        "zh": "2026 年 10 月 8 日 15:00 UTC，估計行星 Kp 為 0.00（平靜）。"
+      },
+      "summary": {
+        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 15:00 UTC on 8 October 2026. The 15 hour is complete (60 samples through 15:59; hour-start 0.00/0Z, hour-end 1.00/1Z). Last-180 maximum is 2.00 (first at 2026-10-08T14:51:00Z; label 2Z). Published-window maximum is 2.33 (first at 2026-10-08T11:41:00Z; label 2P). Window starts 2026-10-08T11:00:00Z (357 samples). Window estimated_kp reached 2.33. The 16 UTC hour on 8 October is incomplete (57 samples through 16:56).",
+        "zh": "最新可靠整點初值：2026-10-08 15 UTC 估計 Kp 0.00（0Z）。15 時段已收滿（60 筆至 15:59；時段初 0.00／0Z，時段末 1.00／1Z）。last-180 最大 2.00（最先見於 2026-10-08T14:51:00Z；標籤 2Z）。公開窗最大 2.33（最先見於 2026-10-08T11:41:00Z；標籤 2P）。窗起點 2026-10-08T11:00:00Z（357 筆）。本窗 estimated_kp 已達 2.33。2026-10-08 16 UTC 時段尚未收滿（57 筆至 16:56）。"
+      },
+      "data": {
+        "estimated_kp": 0.0,
+        "kp_label": "0Z",
+        "last180_max": 2.0,
+        "n_samples": 357,
+        "window_max": 2.33,
+        "window_start": "2026-10-08T11:00:00Z"
+      },
+      "evidence": {
+        "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The card uses the latest hour that has a full 60 samples; the following hour may still be incomplete.",
+        "method": "NOAA SWPC planetary_k_index_1m.json. Main card is the hour-start estimated_kp of the latest complete hour. last-180 and published-window maxima are the first occurrence of the maximum estimated_kp in each window.",
+        "source_name": "NOAA SWPC",
+        "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json"
+      },
+      "visual": {
+        "max": 9,
+        "min": 0,
+        "type": "gauge",
+        "value": 0.0
+      }
+    },
+    {
+      "id": "usgs-us6000u0yr",
+      "type": "earthquake",
+      "time_utc": "2026-10-08T14:11:49Z",
+      "title": {
+        "en": "M4.9 earthquake 113 km NW of Baa, Indonesia on 8 October 2026.",
+        "zh": "2026 年 10 月 8 日，113 km NW of Baa, Indonesia發生規模 4.9 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.9, depth about 10.0 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 10.0 公里。"
+      },
+      "data": {
+        "depth_km": 10.0,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0yr",
+        "magType": "mb",
+        "magnitude": 4.9,
+        "place": "113 km NW of Baa, Indonesia"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0yr",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.9
+      }
+    },
+    {
+      "id": "usgs-us6000u0xn",
+      "type": "earthquake",
+      "time_utc": "2026-10-08T10:07:28Z",
+      "title": {
+        "en": "M5.1 earthquake 236 km E of Levuka, Fiji on 8 October 2026.",
+        "zh": "2026 年 10 月 8 日，236 km E of Levuka, Fiji發生規模 5.1 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5.1, depth about 602.272 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.1，深度約 602.272 公里。"
+      },
+      "data": {
+        "depth_km": 602.272,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0xn",
+        "magType": "mb",
+        "magnitude": 5.1,
+        "place": "236 km E of Levuka, Fiji"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0xn",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5.1
+      }
+    },
+    {
+      "id": "usgs-us6000u0xi",
+      "type": "earthquake",
+      "time_utc": "2026-10-08T09:00:07Z",
+      "title": {
+        "en": "M6.3 earthquake 102 km NE of Norsup, Vanuatu on 8 October 2026.",
+        "zh": "2026 年 10 月 8 日，102 km NE of Norsup, Vanuatu發生規模 6.3 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mww 6.3, depth about 10.0 km.",
+        "zh": "USGS M4.5+ 一日饋送：mww 6.3，深度約 10.0 公里。"
+      },
+      "data": {
+        "depth_km": 10.0,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0xi",
+        "magType": "mww",
+        "magnitude": 6.3,
+        "place": "102 km NE of Norsup, Vanuatu"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0xi",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 6.3
+      }
+    },
+    {
+      "id": "usgs-us6000u0x4",
+      "type": "earthquake",
+      "time_utc": "2026-10-08T08:07:59Z",
+      "title": {
+        "en": "M5.5 earthquake 17 km SW of Burias, Philippines on 8 October 2026.",
+        "zh": "2026 年 10 月 8 日，17 km SW of Burias, Philippines發生規模 5.5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mww 5.5, depth about 52.054 km.",
+        "zh": "USGS M4.5+ 一日饋送：mww 5.5，深度約 52.054 公里。"
+      },
+      "data": {
+        "depth_km": 52.054,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0x4",
+        "magType": "mww",
+        "magnitude": 5.5,
+        "place": "17 km SW of Burias, Philippines"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0x4",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5.5
+      }
+    },
+    {
+      "id": "usgs-us6000u0x2",
+      "type": "earthquake",
+      "time_utc": "2026-10-08T07:45:12Z",
+      "title": {
+        "en": "M4.6 earthquake 61 km W of Banda Aceh, Indonesia on 8 October 2026.",
+        "zh": "2026 年 10 月 8 日，61 km W of Banda Aceh, Indonesia發生規模 4.6 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 97.534 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 97.534 公里。"
+      },
+      "data": {
+        "depth_km": 97.534,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0x2",
+        "magType": "mb",
+        "magnitude": 4.6,
+        "place": "61 km W of Banda Aceh, Indonesia"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0x2",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.6
+      }
+    },
+    {
+      "id": "usgs-us6000u0ws",
+      "type": "earthquake",
+      "time_utc": "2026-10-08T06:46:47Z",
+      "title": {
+        "en": "M5.5 earthquake west of Macquarie Island on 8 October 2026.",
+        "zh": "2026 年 10 月 8 日，west of Macquarie Island發生規模 5.5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mww 5.5, depth about 10.0 km.",
+        "zh": "USGS M4.5+ 一日饋送：mww 5.5，深度約 10.0 公里。"
+      },
+      "data": {
+        "depth_km": 10.0,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0ws",
+        "magType": "mww",
+        "magnitude": 5.5,
+        "place": "west of Macquarie Island"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0ws",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5.5
+      }
+    },
+    {
+      "id": "usgs-us6000u0wh",
+      "type": "earthquake",
+      "time_utc": "2026-10-08T05:35:56Z",
+      "title": {
+        "en": "M4.5 earthquake 39 km NE of Calama, Chile on 8 October 2026.",
+        "zh": "2026 年 10 月 8 日，39 km NE of Calama, Chile發生規模 4.5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 121.38 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 121.38 公里。"
+      },
+      "data": {
+        "depth_km": 121.38,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0wh",
+        "magType": "mb",
+        "magnitude": 4.5,
+        "place": "39 km NE of Calama, Chile"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0wh",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.5
+      }
+    },
+    {
+      "id": "usgs-us6000u0wb",
+      "type": "earthquake",
+      "time_utc": "2026-10-08T05:06:52Z",
+      "title": {
+        "en": "M4.7 earthquake 47 km W of Tambolaka, Indonesia on 8 October 2026.",
+        "zh": "2026 年 10 月 8 日，47 km W of Tambolaka, Indonesia發生規模 4.7 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.7, depth about 65.279 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 65.279 公里。"
+      },
+      "data": {
+        "depth_km": 65.279,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0wb",
+        "magType": "mb",
+        "magnitude": 4.7,
+        "place": "47 km W of Tambolaka, Indonesia"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0wb",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.7
+      }
+    },
+    {
+      "id": "usgs-us6000u0wa",
+      "type": "earthquake",
+      "time_utc": "2026-10-08T04:48:59Z",
+      "title": {
+        "en": "M5 earthquake 92 km N of Ruteng, Indonesia on 8 October 2026.",
+        "zh": "2026 年 10 月 8 日，92 km N of Ruteng, Indonesia發生規模 5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5, depth about 10.0 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5，深度約 10.0 公里。"
+      },
+      "data": {
+        "depth_km": 10.0,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0wa",
+        "magType": "mb",
+        "magnitude": 5,
+        "place": "92 km N of Ruteng, Indonesia"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0wa",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5
+      }
+    },
+    {
+      "id": "usgs-us6000u0w0",
+      "type": "earthquake",
+      "time_utc": "2026-10-08T03:42:52Z",
+      "title": {
+        "en": "M4.9 earthquake 81 km NNW of Malfa, Italy on 8 October 2026.",
+        "zh": "2026 年 10 月 8 日，81 km NNW of Malfa, Italy發生規模 4.9 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mww 4.9, depth about 367.078 km.",
+        "zh": "USGS M4.5+ 一日饋送：mww 4.9，深度約 367.078 公里。"
+      },
+      "data": {
+        "depth_km": 367.078,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0w0",
+        "magType": "mww",
+        "magnitude": 4.9,
+        "place": "81 km NNW of Malfa, Italy"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0w0",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.9
+      }
+    },
+    {
+      "id": "usgs-us6000u0vw",
+      "type": "earthquake",
+      "time_utc": "2026-10-08T03:00:01Z",
+      "title": {
+        "en": "M4.7 earthquake 101 km NE of Ruteng, Indonesia on 8 October 2026.",
+        "zh": "2026 年 10 月 8 日，101 km NE of Ruteng, Indonesia發生規模 4.7 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.7, depth about 10.0 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 10.0 公里。"
+      },
+      "data": {
+        "depth_km": 10.0,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0vw",
+        "magType": "mb",
+        "magnitude": 4.7,
+        "place": "101 km NE of Ruteng, Indonesia"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0vw",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.7
+      }
+    },
+    {
+      "id": "usgs-us6000u0uq",
+      "type": "earthquake",
+      "time_utc": "2026-10-07T20:56:51Z",
+      "title": {
+        "en": "M4.6 earthquake 18 km NNE of Posoltega, Nicaragua on 7 October 2026.",
+        "zh": "2026 年 10 月 7 日，18 km NNE of Posoltega, Nicaragua發生規模 4.6 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 206.277 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 206.277 公里。"
+      },
+      "data": {
+        "depth_km": 206.277,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0uq",
+        "magType": "mb",
+        "magnitude": 4.6,
+        "place": "18 km NNE of Posoltega, Nicaragua"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0uq",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.6
+      }
+    },
+    {
+      "id": "usgs-us6000u0uc",
+      "type": "earthquake",
+      "time_utc": "2026-10-07T19:36:46Z",
+      "title": {
+        "en": "M4.6 earthquake 9 km NNE of Midori, Japan on 7 October 2026.",
+        "zh": "2026 年 10 月 7 日，9 km NNE of Midori, Japan發生規模 4.6 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 95.624 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 95.624 公里。"
+      },
+      "data": {
+        "depth_km": 95.624,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0uc",
+        "magType": "mb",
+        "magnitude": 4.6,
+        "place": "9 km NNE of Midori, Japan"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0uc",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.6
+      }
+    },
+    {
+      "id": "usgs-us6000u0u7",
+      "type": "earthquake",
+      "time_utc": "2026-10-07T19:13:50Z",
+      "title": {
+        "en": "M4.9 earthquake 3 km WSW of Shibayama, Japan on 7 October 2026.",
+        "zh": "2026 年 10 月 7 日，3 km WSW of Shibayama, Japan發生規模 4.9 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mww 4.9, depth about 73.037 km.",
+        "zh": "USGS M4.5+ 一日饋送：mww 4.9，深度約 73.037 公里。"
+      },
+      "data": {
+        "depth_km": 73.037,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0u7",
+        "magType": "mww",
+        "magnitude": 4.9,
+        "place": "3 km WSW of Shibayama, Japan"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0u7",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.9
+      }
+    },
+    {
+      "id": "usgs-us6000u0tm",
+      "type": "earthquake",
+      "time_utc": "2026-10-07T18:15:04Z",
+      "title": {
+        "en": "M4.8 earthquake 194 km S of Ust’-Kamchatsk Staryy, Russia on 7 October 2026.",
+        "zh": "2026 年 10 月 7 日，194 km S of Ust’-Kamchatsk Staryy, Russia發生規模 4.8 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mww 4.8, depth about 10.0 km.",
+        "zh": "USGS M4.5+ 一日饋送：mww 4.8，深度約 10.0 公里。"
+      },
+      "data": {
+        "depth_km": 10.0,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0tm",
+        "magType": "mww",
+        "magnitude": 4.8,
+        "place": "194 km S of Ust’-Kamchatsk Staryy, Russia"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0tm",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.8
+      }
+    },
+    {
+      "id": "usgs-us6000u0tl",
+      "type": "earthquake",
+      "time_utc": "2026-10-07T18:13:13Z",
+      "title": {
+        "en": "M4.6 earthquake south of the Fiji Islands on 7 October 2026.",
+        "zh": "2026 年 10 月 7 日，south of the Fiji Islands發生規模 4.6 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 504.432 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 504.432 公里。"
+      },
+      "data": {
+        "depth_km": 504.432,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0tl",
+        "magType": "mb",
+        "magnitude": 4.6,
+        "place": "south of the Fiji Islands"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0tl",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.6
+      }
+    },
+    {
+      "id": "usgs-us6000u0te",
+      "type": "earthquake",
+      "time_utc": "2026-10-07T17:36:13Z",
+      "title": {
+        "en": "M4.6 earthquake 48 km SSW of Angoram, Papua New Guinea on 7 October 2026.",
+        "zh": "2026 年 10 月 7 日，48 km SSW of Angoram, Papua New Guinea發生規模 4.6 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 101.453 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 101.453 公里。"
+      },
+      "data": {
+        "depth_km": 101.453,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0te",
+        "magType": "mb",
+        "magnitude": 4.6,
+        "place": "48 km SSW of Angoram, Papua New Guinea"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0te",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.6
+      }
+    }
+  ]
+}
