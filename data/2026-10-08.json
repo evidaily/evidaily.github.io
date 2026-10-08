@@ -11,7 +11,7 @@
         "zh": "2026 年 10 月 7 日 23:00 UTC，估計行星 Kp 為 0.67（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.67 (1M) at 23:00 UTC on 7 October 2026. The 23 hour is complete (60 samples through 23:59; hour-start 0.67/1M, hour-end 1.0/1Z). Last-180 maximum is 1.0 (first at 2026-10-07T23:33:00Z; label 1Z). Published-window maximum is 2.33 (first at 2026-10-07T19:00:00Z; label 2P). Window starts 2026-10-07T19:00:00Z (358 samples). Window estimated_kp reached 2.33. The 00 UTC hour is incomplete (58 samples through 00:57).",
+        "en": "Latest reliable hour-start estimated Kp is 0.67 (1M) at 23:00 UTC on 7 October 2026. The 23 hour is complete (60 samples through 23:59; hour-start 0.67/1M, hour-end 1.0/1Z). Last-180 maximum is 1.0 (first at 2026-10-07T23:33:00Z; label 1Z). Published-window maximum is 2.33 (first at 2026-10-07T19:00:00Z; label 2P). Window starts 2026-10-07T19:00:00Z (358 samples). Window estimated_kp reached 2.33. The 00 UTC hour on 8 October is incomplete (58 samples through 00:57).",
         "zh": "最新可靠整點初值：2026-10-07 23 UTC 估計 Kp 0.67（1M）。23 時段已收滿（60 筆至 23:59；時段初 0.67／1M，時段末 1.0／1Z）。last-180 最大 1.0（最先見於 2026-10-07T23:33:00Z；標籤 1Z）。公開窗最大 2.33（最先見於 2026-10-07T19:00:00Z；標籤 2P）。窗起點 2026-10-07T19:00:00Z（358 筆）。本窗 estimated_kp 已達 2.33。2026-10-08 00 UTC 時段尚未收滿（58 筆至 00:57）。"
       },
       "data": {
