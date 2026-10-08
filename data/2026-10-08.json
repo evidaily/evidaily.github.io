@@ -1,26 +1,26 @@
 {
   "date": "2026-10-08",
-  "updated": "2026-10-08T21:00:00+08:00",
+  "updated": "2026-10-08T22:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-08T11:00:00Z",
+      "time_utc": "2026-10-08T12:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 2.00 (quiet) at 11:00 UTC on 8 October 2026.",
-        "zh": "2026 年 10 月 8 日 11:00 UTC，估計行星 Kp 為 2.00（平靜）。"
+        "en": "Estimated planetary Kp is 0.00 (quiet) at 12:00 UTC on 8 October 2026.",
+        "zh": "2026 年 10 月 8 日 12:00 UTC，估計行星 Kp 為 0.00（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 2.00 (2Z) at 11:00 UTC on 8 October 2026. The 11 hour is complete (60 samples through 11:59; hour-start 2.00/2Z, hour-end 2.00/2Z). Last-180 maximum is 2.33 (first at 2026-10-08T11:41:00Z; label 2P). Published-window maximum is 2.33 (first at 2026-10-08T11:41:00Z; label 2P). Window starts 2026-10-08T07:01:00Z (358 samples). Window estimated_kp reached 2.33. The 12 UTC hour on 8 October is incomplete (59 samples through 12:58).",
-        "zh": "最新可靠整點初值：2026-10-08 11 UTC 估計 Kp 2.00（2Z）。11 時段已收滿（60 筆至 11:59；時段初 2.00／2Z，時段末 2.00／2Z）。last-180 最大 2.33（最先見於 2026-10-08T11:41:00Z；標籤 2P）。公開窗最大 2.33（最先見於 2026-10-08T11:41:00Z；標籤 2P）。窗起點 2026-10-08T07:01:00Z（358 筆）。本窗 estimated_kp 已達 2.33。2026-10-08 12 UTC 時段尚未收滿（59 筆至 12:58）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 12:00 UTC on 8 October 2026. The 12 hour is complete (60 samples through 12:59; hour-start 0.00/0Z, hour-end 1.00/1Z). Last-180 maximum is 2.33 (first at 2026-10-08T11:41:00Z; label 2P). Published-window maximum is 2.33 (first at 2026-10-08T11:41:00Z; label 2P). Window starts 2026-10-08T08:01:00Z (358 samples). Window estimated_kp reached 2.33. The 13 UTC hour on 8 October is incomplete (59 samples through 13:58).",
+        "zh": "最新可靠整點初值：2026-10-08 12 UTC 估計 Kp 0.00（0Z）。12 時段已收滿（60 筆至 12:59；時段初 0.00／0Z，時段末 1.00／1Z）。last-180 最大 2.33（最先見於 2026-10-08T11:41:00Z；標籤 2P）。公開窗最大 2.33（最先見於 2026-10-08T11:41:00Z；標籤 2P）。窗起點 2026-10-08T08:01:00Z（358 筆）。本窗 estimated_kp 已達 2.33。2026-10-08 13 UTC 時段尚未收滿（59 筆至 13:58）。"
       },
       "data": {
-        "estimated_kp": 2.0,
-        "kp_label": "2Z",
+        "estimated_kp": 0.0,
+        "kp_label": "0Z",
         "last180_max": 2.33,
         "n_samples": 358,
         "window_max": 2.33,
-        "window_start": "2026-10-08T07:01:00Z"
+        "window_start": "2026-10-08T08:01:00Z"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The card uses the latest hour that has a full 60 samples; the following hour may still be incomplete.",
@@ -32,7 +32,7 @@
         "max": 9,
         "min": 0,
         "type": "gauge",
-        "value": 2.0
+        "value": 0.0
       }
     },
     {
@@ -44,11 +44,11 @@
         "zh": "2026 年 10 月 8 日，236 km E of Levuka, Fiji發生規模 5.1 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 5.1, depth about 602.3 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 5.1，深度約 602.3 公里。"
+        "en": "USGS M4.5+ day feed: mb 5.1, depth about 602.272 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.1，深度約 602.272 公里。"
       },
       "data": {
-        "depth_km": 602.3,
+        "depth_km": 602.272,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0xn",
         "magType": "mb",
         "magnitude": 5.1,
@@ -77,11 +77,11 @@
         "zh": "2026 年 10 月 8 日，102 km NE of Norsup, Vanuatu發生規模 6.3 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mww 6.3, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mww 6.3，深度約 10 公里。"
+        "en": "USGS M4.5+ day feed: mww 6.3, depth about 10.0 km.",
+        "zh": "USGS M4.5+ 一日饋送：mww 6.3，深度約 10.0 公里。"
       },
       "data": {
-        "depth_km": 10,
+        "depth_km": 10.0,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0xi",
         "magType": "mww",
         "magnitude": 6.3,
@@ -110,11 +110,11 @@
         "zh": "2026 年 10 月 8 日，17 km SW of Burias, Philippines發生規模 5.5 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mww 5.5, depth about 52.1 km.",
-        "zh": "USGS M4.5+ 一日饋送：mww 5.5，深度約 52.1 公里。"
+        "en": "USGS M4.5+ day feed: mww 5.5, depth about 52.054 km.",
+        "zh": "USGS M4.5+ 一日饋送：mww 5.5，深度約 52.054 公里。"
       },
       "data": {
-        "depth_km": 52.1,
+        "depth_km": 52.054,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0x4",
         "magType": "mww",
         "magnitude": 5.5,
@@ -143,11 +143,11 @@
         "zh": "2026 年 10 月 8 日，61 km W of Banda Aceh, Indonesia發生規模 4.6 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.6, depth about 97.5 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 97.5 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 97.534 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 97.534 公里。"
       },
       "data": {
-        "depth_km": 97.5,
+        "depth_km": 97.534,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0x2",
         "magType": "mb",
         "magnitude": 4.6,
@@ -176,11 +176,11 @@
         "zh": "2026 年 10 月 8 日，west of Macquarie Island發生規模 5.5 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mww 5.5, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mww 5.5，深度約 10 公里。"
+        "en": "USGS M4.5+ day feed: mww 5.5, depth about 10.0 km.",
+        "zh": "USGS M4.5+ 一日饋送：mww 5.5，深度約 10.0 公里。"
       },
       "data": {
-        "depth_km": 10,
+        "depth_km": 10.0,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0ws",
         "magType": "mww",
         "magnitude": 5.5,
@@ -209,11 +209,11 @@
         "zh": "2026 年 10 月 8 日，39 km NE of Calama, Chile發生規模 4.5 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.5, depth about 121.4 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 121.4 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 121.38 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 121.38 公里。"
       },
       "data": {
-        "depth_km": 121.4,
+        "depth_km": 121.38,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0wh",
         "magType": "mb",
         "magnitude": 4.5,
@@ -242,11 +242,11 @@
         "zh": "2026 年 10 月 8 日，47 km W of Tambolaka, Indonesia發生規模 4.7 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.7, depth about 65.3 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 65.3 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.7, depth about 65.279 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 65.279 公里。"
       },
       "data": {
-        "depth_km": 65.3,
+        "depth_km": 65.279,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0wb",
         "magType": "mb",
         "magnitude": 4.7,
@@ -275,11 +275,11 @@
         "zh": "2026 年 10 月 8 日，92 km N of Ruteng, Indonesia發生規模 5 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 5, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 5，深度約 10 公里。"
+        "en": "USGS M4.5+ day feed: mb 5, depth about 10.0 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5，深度約 10.0 公里。"
       },
       "data": {
-        "depth_km": 10,
+        "depth_km": 10.0,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0wa",
         "magType": "mb",
         "magnitude": 5,
@@ -308,11 +308,11 @@
         "zh": "2026 年 10 月 8 日，81 km NNW of Malfa, Italy發生規模 4.9 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mww 4.9, depth about 367.1 km.",
-        "zh": "USGS M4.5+ 一日饋送：mww 4.9，深度約 367.1 公里。"
+        "en": "USGS M4.5+ day feed: mww 4.9, depth about 367.078 km.",
+        "zh": "USGS M4.5+ 一日饋送：mww 4.9，深度約 367.078 公里。"
       },
       "data": {
-        "depth_km": 367.1,
+        "depth_km": 367.078,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0w0",
         "magType": "mww",
         "magnitude": 4.9,
@@ -341,11 +341,11 @@
         "zh": "2026 年 10 月 8 日，101 km NE of Ruteng, Indonesia發生規模 4.7 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.7, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 10 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.7, depth about 10.0 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 10.0 公里。"
       },
       "data": {
-        "depth_km": 10,
+        "depth_km": 10.0,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0vw",
         "magType": "mb",
         "magnitude": 4.7,
@@ -374,11 +374,11 @@
         "zh": "2026 年 10 月 7 日，13 km SE of Yokoshiba, Japan發生規模 4.9 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mww 4.9, depth about 50.6 km.",
-        "zh": "USGS M4.5+ 一日饋送：mww 4.9，深度約 50.6 公里。"
+        "en": "USGS M4.5+ day feed: mww 4.9, depth about 50.601 km.",
+        "zh": "USGS M4.5+ 一日饋送：mww 4.9，深度約 50.601 公里。"
       },
       "data": {
-        "depth_km": 50.6,
+        "depth_km": 50.601,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0u7",
         "magType": "mww",
         "magnitude": 4.9,
@@ -407,11 +407,11 @@
         "zh": "2026 年 10 月 7 日，194 km S of Ust’-Kamchatsk Staryy, Russia發生規模 4.8 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mww 4.8, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mww 4.8，深度約 10 公里。"
+        "en": "USGS M4.5+ day feed: mww 4.8, depth about 10.0 km.",
+        "zh": "USGS M4.5+ 一日饋送：mww 4.8，深度約 10.0 公里。"
       },
       "data": {
-        "depth_km": 10,
+        "depth_km": 10.0,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0tm",
         "magType": "mww",
         "magnitude": 4.8,
@@ -440,11 +440,11 @@
         "zh": "2026 年 10 月 7 日，south of the Fiji Islands發生規模 4.6 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.6, depth about 504.4 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 504.4 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 504.432 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 504.432 公里。"
       },
       "data": {
-        "depth_km": 504.4,
+        "depth_km": 504.432,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0tl",
         "magType": "mb",
         "magnitude": 4.6,
@@ -473,11 +473,11 @@
         "zh": "2026 年 10 月 7 日，48 km SSW of Angoram, Papua New Guinea發生規模 4.6 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.6, depth about 101.5 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 101.5 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 101.453 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 101.453 公里。"
       },
       "data": {
-        "depth_km": 101.5,
+        "depth_km": 101.453,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0te",
         "magType": "mb",
         "magnitude": 4.6,
@@ -506,11 +506,11 @@
         "zh": "2026 年 10 月 7 日，34 km E of Sarangani, Philippines發生規模 4.7 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.7, depth about 117.2 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 117.2 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.7, depth about 117.206 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 117.206 公里。"
       },
       "data": {
-        "depth_km": 117.2,
+        "depth_km": 117.206,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0t4",
         "magType": "mb",
         "magnitude": 4.7,
@@ -539,11 +539,11 @@
         "zh": "2026 年 10 月 7 日，45 km WNW of Ollagüe, Chile發生規模 4.7 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.7, depth about 105.9 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 105.9 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.7, depth about 105.86 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 105.86 公里。"
       },
       "data": {
-        "depth_km": 105.9,
+        "depth_km": 105.86,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0rx",
         "magType": "mb",
         "magnitude": 4.7,
@@ -572,11 +572,11 @@
         "zh": "2026 年 10 月 7 日，Chagos Archipelago region發生規模 5.2 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 5.2, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 5.2，深度約 10 公里。"
+        "en": "USGS M4.5+ day feed: mb 5.2, depth about 10.0 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.2，深度約 10.0 公里。"
       },
       "data": {
-        "depth_km": 10,
+        "depth_km": 10.0,
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0rr",
         "magType": "mb",
         "magnitude": 5.2,
