@@ -1,26 +1,26 @@
 {
   "date": "2026-10-09",
-  "updated": "2026-10-09T02:00:00+08:00",
+  "updated": "2026-10-09T03:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-08T16:00:00Z",
+      "time_utc": "2026-10-08T17:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 1.00 (quiet) at 16:00 UTC on 8 October 2026.",
-        "zh": "2026 年 10 月 8 日 16:00 UTC，估計行星 Kp 為 1.00（平靜）。"
+        "en": "Estimated planetary Kp is 1.00 (quiet) at 17:00 UTC on 8 October 2026.",
+        "zh": "2026 年 10 月 8 日 17:00 UTC，估計行星 Kp 為 1.00（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 1.00 (1Z) at 16:00 UTC on 8 October 2026. The 16 hour is complete (60 samples through 16:59; hour-start 1.00/1Z, hour-end 1.00/1Z). Last-180 maximum is 2.00 (first at 2026-10-08T14:58:00Z; label 2Z). Published-window maximum is 2.00 (first at 2026-10-08T14:51:00Z; label 2Z). Window starts 2026-10-08T12:00:00Z (358 samples). Window estimated_kp reached 2.00. The 17 UTC hour on 8 October is incomplete (58 samples through 17:57).",
-        "zh": "最新可靠整點初值：2026-10-08 16 UTC 估計 Kp 1.00（1Z）。16 時段已收滿（60 筆至 16:59；時段初 1.00／1Z，時段末 1.00／1Z）。last-180 最大 2.00（最先見於 2026-10-08T14:58:00Z；標籤 2Z）。公開窗最大 2.00（最先見於 2026-10-08T14:51:00Z；標籤 2Z）。窗起點 2026-10-08T12:00:00Z（358 筆）。本窗 estimated_kp 已達 2.00。2026-10-08 17 UTC 時段尚未收滿（58 筆至 17:57）。"
+        "en": "Latest reliable hour-start estimated Kp is 1.00 (1Z) at 17:00 UTC on 8 October 2026. The 17 hour is complete (60 samples through 17:59; hour-start 1.00/1Z, hour-end 1.67/2M). Last-180 maximum is 1.67 (first at 2026-10-08T17:57:00Z; label 2M). Published-window maximum is 2.00 (first at 2026-10-08T14:51:00Z; label 2Z). Window starts 2026-10-08T13:00:00Z (358 samples). Window estimated_kp reached 2.00. The 18 UTC hour on 8 October is incomplete (58 samples through 18:57).",
+        "zh": "最新可靠整點初值：2026-10-08 17 UTC 估計 Kp 1.00（1Z）。17 時段已收滿（60 筆至 17:59；時段初 1.00／1Z，時段末 1.67／2M）。last-180 最大 1.67（最先見於 2026-10-08T17:57:00Z；標籤 2M）。公開窗最大 2.00（最先見於 2026-10-08T14:51:00Z；標籤 2Z）。窗起點 2026-10-08T13:00:00Z（358 筆）。本窗 estimated_kp 已達 2.00。2026-10-08 18 UTC 時段尚未收滿（58 筆至 18:57）。"
       },
       "data": {
         "estimated_kp": 1.0,
         "kp_label": "1Z",
-        "last180_max": 2.0,
+        "last180_max": 1.67,
         "n_samples": 358,
         "window_max": 2.0,
-        "window_start": "2026-10-08T12:00:00Z"
+        "window_start": "2026-10-08T13:00:00Z"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The card uses the latest hour that has a full 60 samples; the following hour may still be incomplete.",
@@ -495,72 +495,6 @@
         "min": 0,
         "type": "bar",
         "value": 4.9
-      }
-    },
-    {
-      "id": "usgs-us6000u0tm",
-      "type": "earthquake",
-      "time_utc": "2026-10-07T18:15:04Z",
-      "title": {
-        "en": "M4.8 earthquake 194 km S of Ust’-Kamchatsk Staryy, Russia on 7 October 2026.",
-        "zh": "2026 年 10 月 7 日，194 km S of Ust’-Kamchatsk Staryy, Russia發生規模 4.8 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mww 4.8, depth about 10.0 km.",
-        "zh": "USGS M4.5+ 一日饋送：mww 4.8，深度約 10.0 公里。"
-      },
-      "data": {
-        "depth_km": 10.0,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0tm",
-        "magType": "mww",
-        "magnitude": 4.8,
-        "place": "194 km S of Ust’-Kamchatsk Staryy, Russia"
-      },
-      "evidence": {
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0tm",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
-      },
-      "visual": {
-        "max": 10,
-        "min": 0,
-        "type": "bar",
-        "value": 4.8
-      }
-    },
-    {
-      "id": "usgs-us6000u0tl",
-      "type": "earthquake",
-      "time_utc": "2026-10-07T18:13:13Z",
-      "title": {
-        "en": "M4.6 earthquake south of the Fiji Islands on 7 October 2026.",
-        "zh": "2026 年 10 月 7 日，south of the Fiji Islands發生規模 4.6 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.6, depth about 504.432 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 504.432 公里。"
-      },
-      "data": {
-        "depth_km": 504.432,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0tl",
-        "magType": "mb",
-        "magnitude": 4.6,
-        "place": "south of the Fiji Islands"
-      },
-      "evidence": {
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0tl",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
-      },
-      "visual": {
-        "max": 10,
-        "min": 0,
-        "type": "bar",
-        "value": 4.6
       }
     }
   ]
