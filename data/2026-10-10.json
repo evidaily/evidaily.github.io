@@ -1,0 +1,501 @@
+{
+  "date": "2026-10-10",
+  "updated": "2026-10-10T00:00:00+08:00",
+  "entries": [
+    {
+      "id": "noaa-kp-1m",
+      "type": "space-weather",
+      "time_utc": "2026-10-09T14:00:00Z",
+      "title": {
+        "en": "Estimated planetary Kp is 2.00 (quiet) at 14:00 UTC on 9 October 2026.",
+        "zh": "2026 年 10 月 9 日 14:00 UTC，估計行星 Kp 為 2.00（平靜）。"
+      },
+      "summary": {
+        "en": "Latest reliable hour-start estimated Kp is 2.00 (2Z) at 14:00 UTC on 9 October 2026. The 14 hour is complete (60 samples through 14:59; hour-start 2.00/2Z, hour-end 2.00/2Z). Last-180 maximum is 2.00 (first at 2026-10-09T12:58:00Z; label 2Z). Published-window maximum is 4.00 (first at 2026-10-09T10:00:00Z; label 4Z). Window starts 2026-10-09T10:00:00Z (358 samples). Window estimated_kp reached 4.00. The 15 UTC hour on 9 October is incomplete (58 samples through 15:57).",
+        "zh": "最新可靠整點初值：2026-10-09 14 UTC 估計 Kp 2.00（2Z）。14 時段已收滿（60 筆至 14:59；時段初 2.00／2Z，時段末 2.00／2Z）。last-180 最大 2.00（最先見於 2026-10-09T12:58:00Z；標籤 2Z）。公開窗最大 4.00（最先見於 2026-10-09T10:00:00Z；標籤 4Z）。窗起點 2026-10-09T10:00:00Z（358 筆）。本窗 estimated_kp 已達 4.00。2026-10-09 15 UTC 時段尚未收滿（58 筆至 15:57）。"
+      },
+      "data": {
+        "estimated_kp": 2.0,
+        "kp_label": "2Z",
+        "last180_max": 2.0,
+        "n_samples": 358,
+        "window_max": 4.0,
+        "window_start": "2026-10-09T10:00:00Z"
+      },
+      "evidence": {
+        "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The card uses the latest hour that has a full 60 samples; the following hour may still be incomplete.",
+        "method": "NOAA SWPC planetary_k_index_1m.json. Main card is the hour-start estimated_kp of the latest complete hour. last-180 and published-window maxima are the first occurrence of the maximum estimated_kp in each window.",
+        "source_name": "NOAA SWPC",
+        "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json"
+      },
+      "visual": {
+        "max": 9,
+        "min": 0,
+        "type": "gauge",
+        "value": 2.0
+      }
+    },
+    {
+      "id": "usgs-us6000u168",
+      "type": "earthquake",
+      "time_utc": "2026-10-09T15:18:55Z",
+      "title": {
+        "en": "M4.6 earthquake south of the Fiji Islands on 9 October 2026.",
+        "zh": "2026 年 10 月 9 日，south of the Fiji Islands發生規模 4.6 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 502 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 502 公里。"
+      },
+      "data": {
+        "depth_km": 502,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u168",
+        "magType": "mb",
+        "magnitude": 4.6,
+        "place": "south of the Fiji Islands"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u168",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.6
+      }
+    },
+    {
+      "id": "usgs-us6000u164",
+      "type": "earthquake",
+      "time_utc": "2026-10-09T14:49:41Z",
+      "title": {
+        "en": "M5.9 earthquake west of Macquarie Island on 9 October 2026.",
+        "zh": "2026 年 10 月 9 日，west of Macquarie Island發生規模 5.9 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mww 5.9, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mww 5.9，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u164",
+        "magType": "mww",
+        "magnitude": 5.9,
+        "place": "west of Macquarie Island"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u164",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5.9
+      }
+    },
+    {
+      "id": "usgs-us6000u15x",
+      "type": "earthquake",
+      "time_utc": "2026-10-09T13:51:42Z",
+      "title": {
+        "en": "M5.4 earthquake 99 km NE of Norsup, Vanuatu on 9 October 2026.",
+        "zh": "2026 年 10 月 9 日，99 km NE of Norsup, Vanuatu發生規模 5.4 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mww 5.4, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mww 5.4，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u15x",
+        "magType": "mww",
+        "magnitude": 5.4,
+        "place": "99 km NE of Norsup, Vanuatu"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u15x",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5.4
+      }
+    },
+    {
+      "id": "usgs-us6000u15l",
+      "type": "earthquake",
+      "time_utc": "2026-10-09T12:33:43Z",
+      "title": {
+        "en": "M4.8 earthquake 17 km S of Nandaime, Nicaragua on 9 October 2026.",
+        "zh": "2026 年 10 月 9 日，17 km S of Nandaime, Nicaragua發生規模 4.8 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.8, depth about 166 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 166 公里。"
+      },
+      "data": {
+        "depth_km": 166,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u15l",
+        "magType": "mb",
+        "magnitude": 4.8,
+        "place": "17 km S of Nandaime, Nicaragua"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u15l",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.8
+      }
+    },
+    {
+      "id": "usgs-us6000u153",
+      "type": "earthquake",
+      "time_utc": "2026-10-09T10:22:14Z",
+      "title": {
+        "en": "M5.1 earthquake 72 km SSW of Colchane, Chile on 9 October 2026.",
+        "zh": "2026 年 10 月 9 日，72 km SSW of Colchane, Chile發生規模 5.1 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5.1, depth about 124 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.1，深度約 124 公里。"
+      },
+      "data": {
+        "depth_km": 124,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u153",
+        "magType": "mb",
+        "magnitude": 5.1,
+        "place": "72 km SSW of Colchane, Chile"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u153",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5.1
+      }
+    },
+    {
+      "id": "usgs-us6000u14w",
+      "type": "earthquake",
+      "time_utc": "2026-10-09T09:47:47Z",
+      "title": {
+        "en": "M4.9 earthquake 77 km ENE of Tuapejat, Indonesia on 9 October 2026.",
+        "zh": "2026 年 10 月 9 日，77 km ENE of Tuapejat, Indonesia發生規模 4.9 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.9, depth about 41 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 41 公里。"
+      },
+      "data": {
+        "depth_km": 41,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u14w",
+        "magType": "mb",
+        "magnitude": 4.9,
+        "place": "77 km ENE of Tuapejat, Indonesia"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u14w",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.9
+      }
+    },
+    {
+      "id": "usgs-us6000u14u",
+      "type": "earthquake",
+      "time_utc": "2026-10-09T09:29:18Z",
+      "title": {
+        "en": "M4.8 earthquake northern Mid-Atlantic Ridge on 9 October 2026.",
+        "zh": "2026 年 10 月 9 日，northern Mid-Atlantic Ridge發生規模 4.8 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.8, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u14u",
+        "magType": "mb",
+        "magnitude": 4.8,
+        "place": "northern Mid-Atlantic Ridge"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u14u",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.8
+      }
+    },
+    {
+      "id": "usgs-us6000u14r",
+      "type": "earthquake",
+      "time_utc": "2026-10-09T09:17:18Z",
+      "title": {
+        "en": "M4.6 earthquake 17 km NNE of Santa Cruz, Philippines on 9 October 2026.",
+        "zh": "2026 年 10 月 9 日，17 km NNE of Santa Cruz, Philippines發生規模 4.6 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u14r",
+        "magType": "mb",
+        "magnitude": 4.6,
+        "place": "17 km NNE of Santa Cruz, Philippines"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u14r",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.6
+      }
+    },
+    {
+      "id": "usgs-us6000u14i",
+      "type": "earthquake",
+      "time_utc": "2026-10-09T08:27:10Z",
+      "title": {
+        "en": "M4.8 earthquake 97 km E of Levuka, Fiji on 9 October 2026.",
+        "zh": "2026 年 10 月 9 日，97 km E of Levuka, Fiji發生規模 4.8 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.8, depth about 640 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 640 公里。"
+      },
+      "data": {
+        "depth_km": 640,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u14i",
+        "magType": "mb",
+        "magnitude": 4.8,
+        "place": "97 km E of Levuka, Fiji"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u14i",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.8
+      }
+    },
+    {
+      "id": "usgs-us6000u14e",
+      "type": "earthquake",
+      "time_utc": "2026-10-09T08:11:47Z",
+      "title": {
+        "en": "M4.5 earthquake 249 km E of Levuka, Fiji on 9 October 2026.",
+        "zh": "2026 年 10 月 9 日，249 km E of Levuka, Fiji發生規模 4.5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.5, depth about 560 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 560 公里。"
+      },
+      "data": {
+        "depth_km": 560,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u14e",
+        "magType": "mb",
+        "magnitude": 4.5,
+        "place": "249 km E of Levuka, Fiji"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u14e",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.5
+      }
+    },
+    {
+      "id": "usgs-us6000u13y",
+      "type": "earthquake",
+      "time_utc": "2026-10-09T05:17:04Z",
+      "title": {
+        "en": "M4.9 earthquake south of the Fiji Islands on 9 October 2026.",
+        "zh": "2026 年 10 月 9 日，south of the Fiji Islands發生規模 4.9 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.9, depth about 130 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 130 公里。"
+      },
+      "data": {
+        "depth_km": 130,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u13y",
+        "magType": "mb",
+        "magnitude": 4.9,
+        "place": "south of the Fiji Islands"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u13y",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.9
+      }
+    },
+    {
+      "id": "usgs-us6000u13v",
+      "type": "earthquake",
+      "time_utc": "2026-10-09T05:11:04Z",
+      "title": {
+        "en": "M5.2 earthquake 117 km SE of Bitung, Indonesia on 9 October 2026.",
+        "zh": "2026 年 10 月 9 日，117 km SE of Bitung, Indonesia發生規模 5.2 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5.2, depth about 40 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.2，深度約 40 公里。"
+      },
+      "data": {
+        "depth_km": 40,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u13v",
+        "magType": "mb",
+        "magnitude": 5.2,
+        "place": "117 km SE of Bitung, Indonesia"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u13v",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5.2
+      }
+    },
+    {
+      "id": "usgs-us6000u10v",
+      "type": "earthquake",
+      "time_utc": "2026-10-08T18:32:03Z",
+      "title": {
+        "en": "M4.6 earthquake Izu Islands, Japan region on 8 October 2026.",
+        "zh": "2026 年 10 月 8 日，Izu Islands, Japan region發生規模 4.6 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 96 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 96 公里。"
+      },
+      "data": {
+        "depth_km": 96,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u10v",
+        "magType": "mb",
+        "magnitude": 4.6,
+        "place": "Izu Islands, Japan region"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u10v",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.6
+      }
+    },
+    {
+      "id": "usgs-us6000u10n",
+      "type": "earthquake",
+      "time_utc": "2026-10-08T18:06:00Z",
+      "title": {
+        "en": "M4.8 earthquake 46 km N of Waingapu, Indonesia on 8 October 2026.",
+        "zh": "2026 年 10 月 8 日，46 km N of Waingapu, Indonesia發生規模 4.8 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.8, depth about 91 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 91 公里。"
+      },
+      "data": {
+        "depth_km": 91,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u10n",
+        "magType": "mb",
+        "magnitude": 4.8,
+        "place": "46 km N of Waingapu, Indonesia"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u10n",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.8
+      }
+    }
+  ]
+}
