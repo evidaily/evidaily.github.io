@@ -1,6 +1,6 @@
 {
   "date": "2026-10-10",
-  "updated": "2026-10-10T03:00:00+08:00",
+  "updated": "2026-10-10T04:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
@@ -11,8 +11,8 @@
         "zh": "2026 年 10 月 9 日 18:00 UTC，估計行星 Kp 為 0.00（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 18:00 UTC on 9 October 2026. The 18 hour is complete (60 samples through 18:59; hour-start 0.00/0Z, hour-end 0.33/0P). Last-180 maximum is 1.00 (first at 2026-10-09T17:21:00Z; label 1Z). Published-window maximum is 2.00 (first at 2026-10-09T13:02:00Z; label 2Z). Window starts 2026-10-09T13:02:00Z (358 samples). Window estimated_kp reached 2.00. The 19 UTC hour on 9 October is incomplete (0 samples; feed ends 18:59).",
-        "zh": "最新可靠整點初值：2026-10-09 18 UTC 估計 Kp 0.00（0Z）。18 時段已收滿（60 筆至 18:59；時段初 0.00／0Z，時段末 0.33／0P）。last-180 最大 1.00（最先見於 2026-10-09T17:21:00Z；標籤 1Z）。公開窗最大 2.00（最先見於 2026-10-09T13:02:00Z；標籤 2Z）。窗起點 2026-10-09T13:02:00Z（358 筆）。本窗 estimated_kp 已達 2.00。2026-10-09 19 UTC 時段尚未收滿（0 筆；饋送止於 18:59）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 18:00 UTC on 9 October 2026. The 18 hour is complete (60 samples through 18:59; hour-start 0.00/0Z, hour-end 0.33/0P). Last-180 maximum is 1.00 (first at 2026-10-09T17:21:00Z; label 1Z). Published-window maximum is 2.00 (first at 2026-10-09T14:00:00Z; label 2Z). Window starts 2026-10-09T14:00:00Z (358 samples). Window estimated_kp reached 2.00. The 19 UTC hour on 9 October is incomplete (58 samples through 19:57; hour-start 0.33/0P, hour-end 0.33/0P). The 20 UTC hour is incomplete (0 samples; feed ends 19:57).",
+        "zh": "最新可靠整點初值：2026-10-09 18 UTC 估計 Kp 0.00（0Z）。18 時段已收滿（60 筆至 18:59；時段初 0.00／0Z，時段末 0.33／0P）。last-180 最大 1.00（最先見於 2026-10-09T17:21:00Z；標籤 1Z）。公開窗最大 2.00（最先見於 2026-10-09T14:00:00Z；標籤 2Z）。窗起點 2026-10-09T14:00:00Z（358 筆）。本窗 estimated_kp 已達 2.00。2026-10-09 19 UTC 時段尚未收滿（58 筆至 19:57；時段初 0.33／0P，時段末 0.33／0P）。20 UTC 時段尚未收滿（0 筆；饋送止於 19:57）。"
       },
       "data": {
         "estimated_kp": 0.0,
@@ -20,7 +20,7 @@
         "last180_max": 1.0,
         "n_samples": 358,
         "window_max": 2.0,
-        "window_start": "2026-10-09T13:02:00Z"
+        "window_start": "2026-10-09T14:00:00Z"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The card uses the latest hour that has a full 60 samples; the following hour may still be incomplete.",
@@ -33,6 +33,138 @@
         "min": 0,
         "type": "gauge",
         "value": 0.0
+      }
+    },
+    {
+      "id": "usgs-us6000u198",
+      "type": "earthquake",
+      "time_utc": "2026-10-09T19:17:22Z",
+      "title": {
+        "en": "M4.8 earthquake 14 km SSW of Tebario, Panama on 9 October 2026.",
+        "zh": "2026 年 10 月 9 日，14 km SSW of Tebario, Panama發生規模 4.8 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.8, depth about 26 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 26 公里。"
+      },
+      "data": {
+        "depth_km": 26,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u198",
+        "magType": "mb",
+        "magnitude": 4.8,
+        "place": "14 km SSW of Tebario, Panama"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u198",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.8
+      }
+    },
+    {
+      "id": "usgs-us6000u197",
+      "type": "earthquake",
+      "time_utc": "2026-10-09T19:04:49Z",
+      "title": {
+        "en": "M5.0 earthquake 14 km SE of Río Grande, Panama on 9 October 2026.",
+        "zh": "2026 年 10 月 9 日，14 km SE of Río Grande, Panama發生規模 5.0 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5.0, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.0，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u197",
+        "magType": "mb",
+        "magnitude": 5,
+        "place": "14 km SE of Río Grande, Panama"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u197",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5
+      }
+    },
+    {
+      "id": "usgs-us6000u194",
+      "type": "earthquake",
+      "time_utc": "2026-10-09T18:50:12Z",
+      "title": {
+        "en": "M5.0 earthquake 18 km S of Los Asientos, Panama on 9 October 2026.",
+        "zh": "2026 年 10 月 9 日，18 km S of Los Asientos, Panama發生規模 5.0 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5.0, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.0，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u194",
+        "magType": "mb",
+        "magnitude": 5,
+        "place": "18 km S of Los Asientos, Panama"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u194",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5
+      }
+    },
+    {
+      "id": "usgs-us6000u195",
+      "type": "earthquake",
+      "time_utc": "2026-10-09T18:47:04Z",
+      "title": {
+        "en": "M5.0 earthquake 19 km S of Leones Arriba, Panama on 9 October 2026.",
+        "zh": "2026 年 10 月 9 日，19 km S of Leones Arriba, Panama發生規模 5.0 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5.0, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.0，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u195",
+        "magType": "mb",
+        "magnitude": 5,
+        "place": "19 km S of Leones Arriba, Panama"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u195",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5
       }
     },
     {
