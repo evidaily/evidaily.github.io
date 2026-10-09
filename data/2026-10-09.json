@@ -1,26 +1,26 @@
 {
   "date": "2026-10-09",
-  "updated": "2026-10-09T17:00:00+08:00",
+  "updated": "2026-10-09T18:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-09T07:00:00Z",
+      "time_utc": "2026-10-09T08:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 1.00 (quiet) at 07:00 UTC on 9 October 2026.",
-        "zh": "2026 年 10 月 9 日 07:00 UTC，估計行星 Kp 為 1.00（平靜）。"
+        "en": "Estimated planetary Kp is 1.67 (quiet) at 08:00 UTC on 9 October 2026.",
+        "zh": "2026 年 10 月 9 日 08:00 UTC，估計行星 Kp 為 1.67（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 1.00 (1Z) at 07:00 UTC on 9 October 2026. The 07 hour is complete (60 samples through 07:59; hour-start 1.00/1Z, hour-end 1.67/2M). Last-180 maximum is 2.67 (first at 2026-10-09T05:59:00Z; label 3M). Published-window maximum is 3.00 (first at 2026-10-09T05:13:00Z; label 3Z). Window starts 2026-10-09T03:01:00Z (358 samples). Window estimated_kp reached 3.00. The 08 UTC hour on 9 October is incomplete (59 samples through 08:58).",
-        "zh": "最新可靠整點初值：2026-10-09 07 UTC 估計 Kp 1.00（1Z）。07 時段已收滿（60 筆至 07:59；時段初 1.00／1Z，時段末 1.67／2M）。last-180 最大 2.67（最先見於 2026-10-09T05:59:00Z；標籤 3M）。公開窗最大 3.00（最先見於 2026-10-09T05:13:00Z；標籤 3Z）。窗起點 2026-10-09T03:01:00Z（358 筆）。本窗 estimated_kp 已達 3.00。2026-10-09 08 UTC 時段尚未收滿（59 筆至 08:58）。"
+        "en": "Latest reliable hour-start estimated Kp is 1.67 (2M) at 08:00 UTC on 9 October 2026. The 08 hour is complete (60 samples through 08:59; hour-start 1.67/2M, hour-end 2.00/2Z). Last-180 maximum is 4.00 (first at 2026-10-09T09:57:00Z; label 4Z). Published-window maximum is 4.00 (first at 2026-10-09T09:57:00Z; label 4Z). Window starts 2026-10-09T04:01:00Z (358 samples). Window estimated_kp reached 4.00. The 09 UTC hour on 9 October is incomplete (59 samples through 09:58).",
+        "zh": "最新可靠整點初值：2026-10-09 08 UTC 估計 Kp 1.67（2M）。08 時段已收滿（60 筆至 08:59；時段初 1.67／2M，時段末 2.00／2Z）。last-180 最大 4.00（最先見於 2026-10-09T09:57:00Z；標籤 4Z）。公開窗最大 4.00（最先見於 2026-10-09T09:57:00Z；標籤 4Z）。窗起點 2026-10-09T04:01:00Z（358 筆）。本窗 estimated_kp 已達 4.00。2026-10-09 09 UTC 時段尚未收滿（59 筆至 09:58）。"
       },
       "data": {
-        "estimated_kp": 1.0,
-        "kp_label": "1Z",
-        "last180_max": 2.67,
+        "estimated_kp": 1.67,
+        "kp_label": "2M",
+        "last180_max": 4.0,
         "n_samples": 358,
-        "window_max": 3.0,
-        "window_start": "2026-10-09T03:01:00Z"
+        "window_max": 4.0,
+        "window_start": "2026-10-09T04:01:00Z"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The card uses the latest hour that has a full 60 samples; the following hour may still be incomplete.",
@@ -32,7 +32,40 @@
         "max": 9,
         "min": 0,
         "type": "gauge",
-        "value": 1.0
+        "value": 1.67
+      }
+    },
+    {
+      "id": "usgs-us6000u14u",
+      "type": "earthquake",
+      "time_utc": "2026-10-09T09:29:18Z",
+      "title": {
+        "en": "M4.8 earthquake northern Mid-Atlantic Ridge on 9 October 2026.",
+        "zh": "2026 年 10 月 9 日，northern Mid-Atlantic Ridge發生規模 4.8 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.8, depth about 10.000 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 10.000 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u14u",
+        "magType": "mb",
+        "magnitude": 4.8,
+        "place": "northern Mid-Atlantic Ridge"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u14u",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.8
       }
     },
     {
@@ -110,8 +143,8 @@
         "zh": "2026 年 10 月 9 日，south of the Fiji Islands發生規模 4.9 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.9, depth about 130.36 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 130.36 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.9, depth about 130.360 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 130.360 公里。"
       },
       "data": {
         "depth_km": 130.36,
@@ -275,8 +308,8 @@
         "zh": "2026 年 10 月 8 日，113 km NW of Baa, Indonesia發生規模 4.9 地震。"
       },
       "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.9, depth about 10 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 10 公里。"
+        "en": "USGS M4.5+ day feed: mb 4.9, depth about 10.000 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 10.000 公里。"
       },
       "data": {
         "depth_km": 10,
