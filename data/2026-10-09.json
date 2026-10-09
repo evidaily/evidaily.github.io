@@ -1,26 +1,26 @@
 {
   "date": "2026-10-09",
-  "updated": "2026-10-09T13:00:00+08:00",
+  "updated": "2026-10-09T14:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-09T03:00:00Z",
+      "time_utc": "2026-10-09T04:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (quiet) at 03:00 UTC on 9 October 2026.",
-        "zh": "2026 年 10 月 9 日 03:00 UTC，估計行星 Kp 為 0.00（安靜）。"
+        "en": "Estimated planetary Kp is 2.33 (quiet) at 04:00 UTC on 9 October 2026.",
+        "zh": "2026 年 10 月 9 日 04:00 UTC，估計行星 Kp 為 2.33（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 03:00 UTC on 9 October 2026. The 03 hour is complete (60 samples through 03:59; hour-start 0.00/0Z, hour-end 2.33/2P). Last-180 maximum is 3.33 (first at 2026-10-09T01:58:00Z; label 3P). Published-window maximum is 3.33 (first at 2026-10-09T01:30:00Z; label 3P). Window starts 2026-10-08T23:00:00Z (358 samples). Window estimated_kp reached 3.33. The 04 UTC hour on 9 October is incomplete (58 samples through 04:57).",
-        "zh": "最新可靠整點初值：2026-10-09 03 UTC 估計 Kp 0.00（0Z）。03 時段已收滿（60 筆至 03:59；時段初 0.00／0Z，時段末 2.33／2P）。last-180 最大 3.33（最先見於 2026-10-09T01:58:00Z；標籤 3P）。公開窗最大 3.33（最先見於 2026-10-09T01:30:00Z；標籤 3P）。窗起點 2026-10-08T23:00:00Z（358 筆）。本窗 estimated_kp 已達 3.33。2026-10-09 04 UTC 時段尚未收滿（58 筆至 04:57）。"
+        "en": "Latest reliable hour-start estimated Kp is 2.33 (2P) at 04:00 UTC on 9 October 2026. The 04 hour is complete (60 samples through 04:59; hour-start 2.33/2P, hour-end 2.67/3M). Last-180 maximum is 3.33 (first at 2026-10-09T02:58:00Z; label 3P). Published-window maximum is 3.33 (first at 2026-10-09T01:30:00Z; label 3P). Window starts 2026-10-09T00:00:00Z (358 samples). Window estimated_kp reached 3.33. The 05 UTC hour on 9 October is incomplete (58 samples through 05:57).",
+        "zh": "最新可靠整點初值：2026-10-09 04 UTC 估計 Kp 2.33（2P）。04 時段已收滿（60 筆至 04:59；時段初 2.33／2P，時段末 2.67／3M）。last-180 最大 3.33（最先見於 2026-10-09T02:58:00Z；標籤 3P）。公開窗最大 3.33（最先見於 2026-10-09T01:30:00Z；標籤 3P）。窗起點 2026-10-09T00:00:00Z（358 筆）。本窗 estimated_kp 已達 3.33。2026-10-09 05 UTC 時段尚未收滿（58 筆至 05:57）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp_label": "0Z",
+        "estimated_kp": 2.33,
+        "kp_label": "2P",
         "last180_max": 3.33,
         "n_samples": 358,
         "window_max": 3.33,
-        "window_start": "2026-10-08T23:00:00Z"
+        "window_start": "2026-10-09T00:00:00Z"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The card uses the latest hour that has a full 60 samples; the following hour may still be incomplete.",
@@ -32,7 +32,40 @@
         "max": 9,
         "min": 0,
         "type": "gauge",
-        "value": 0.0
+        "value": 2.33
+      }
+    },
+    {
+      "id": "usgs-us6000u13v",
+      "type": "earthquake",
+      "time_utc": "2026-10-09T05:11:04Z",
+      "title": {
+        "en": "M5.2 earthquake 117 km SE of Bitung, Indonesia on 9 October 2026.",
+        "zh": "2026 年 10 月 9 日，117 km SE of Bitung, Indonesia發生規模 5.2 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5.2, depth about 40.049 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.2，深度約 40.049 公里。"
+      },
+      "data": {
+        "depth_km": 40.049,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u13v",
+        "magType": "mb",
+        "magnitude": 5.2,
+        "place": "117 km SE of Bitung, Indonesia"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u13v",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5.2
       }
     },
     {
@@ -330,72 +363,6 @@
         "min": 0,
         "type": "bar",
         "value": 5.5
-      }
-    },
-    {
-      "id": "usgs-us6000u0wh",
-      "type": "earthquake",
-      "time_utc": "2026-10-08T05:35:56Z",
-      "title": {
-        "en": "M4.5 earthquake 39 km NE of Calama, Chile on 8 October 2026.",
-        "zh": "2026 年 10 月 8 日，39 km NE of Calama, Chile發生規模 4.5 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.5, depth about 121.38 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.5，深度約 121.38 公里。"
-      },
-      "data": {
-        "depth_km": 121.38,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0wh",
-        "magType": "mb",
-        "magnitude": 4.5,
-        "place": "39 km NE of Calama, Chile"
-      },
-      "evidence": {
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0wh",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
-      },
-      "visual": {
-        "max": 10,
-        "min": 0,
-        "type": "bar",
-        "value": 4.5
-      }
-    },
-    {
-      "id": "usgs-us6000u0wb",
-      "type": "earthquake",
-      "time_utc": "2026-10-08T05:06:52Z",
-      "title": {
-        "en": "M4.7 earthquake 47 km W of Tambolaka, Indonesia on 8 October 2026.",
-        "zh": "2026 年 10 月 8 日，47 km W of Tambolaka, Indonesia發生規模 4.7 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.7, depth about 65.279 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 65.279 公里。"
-      },
-      "data": {
-        "depth_km": 65.279,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0wb",
-        "magType": "mb",
-        "magnitude": 4.7,
-        "place": "47 km W of Tambolaka, Indonesia"
-      },
-      "evidence": {
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0wb",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
-      },
-      "visual": {
-        "max": 10,
-        "min": 0,
-        "type": "bar",
-        "value": 4.7
       }
     }
   ]
