@@ -1,26 +1,26 @@
 {
   "date": "2026-10-10",
-  "updated": "2026-10-10T02:00:00+08:00",
+  "updated": "2026-10-10T03:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-09T16:00:00Z",
+      "time_utc": "2026-10-09T18:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.33 (quiet) at 16:00 UTC on 9 October 2026.",
-        "zh": "2026 年 10 月 9 日 16:00 UTC，估計行星 Kp 為 0.33（平靜）。"
+        "en": "Estimated planetary Kp is 0.00 (quiet) at 18:00 UTC on 9 October 2026.",
+        "zh": "2026 年 10 月 9 日 18:00 UTC，估計行星 Kp 為 0.00（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.33 (0P) at 16:00 UTC on 9 October 2026. The 16 hour is complete (60 samples through 16:59; hour-start 0.33/0P, hour-end 0.67/1M). Last-180 maximum is 2.00 (first at 2026-10-09T14:58:00Z; label 2Z). Published-window maximum is 2.00 (first at 2026-10-09T12:36:00Z; label 2Z). Window starts 2026-10-09T12:00:00Z (358 samples). Window estimated_kp reached 2.00. The 17 UTC hour on 9 October is incomplete (58 samples through 17:57).",
-        "zh": "最新可靠整點初值：2026-10-09 16 UTC 估計 Kp 0.33（0P）。16 時段已收滿（60 筆至 16:59；時段初 0.33／0P，時段末 0.67／1M）。last-180 最大 2.00（最先見於 2026-10-09T14:58:00Z；標籤 2Z）。公開窗最大 2.00（最先見於 2026-10-09T12:36:00Z；標籤 2Z）。窗起點 2026-10-09T12:00:00Z（358 筆）。本窗 estimated_kp 已達 2.00。2026-10-09 17 UTC 時段尚未收滿（58 筆至 17:57）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 18:00 UTC on 9 October 2026. The 18 hour is complete (60 samples through 18:59; hour-start 0.00/0Z, hour-end 0.33/0P). Last-180 maximum is 1.00 (first at 2026-10-09T17:21:00Z; label 1Z). Published-window maximum is 2.00 (first at 2026-10-09T13:02:00Z; label 2Z). Window starts 2026-10-09T13:02:00Z (358 samples). Window estimated_kp reached 2.00. The 19 UTC hour on 9 October is incomplete (0 samples; feed ends 18:59).",
+        "zh": "最新可靠整點初值：2026-10-09 18 UTC 估計 Kp 0.00（0Z）。18 時段已收滿（60 筆至 18:59；時段初 0.00／0Z，時段末 0.33／0P）。last-180 最大 1.00（最先見於 2026-10-09T17:21:00Z；標籤 1Z）。公開窗最大 2.00（最先見於 2026-10-09T13:02:00Z；標籤 2Z）。窗起點 2026-10-09T13:02:00Z（358 筆）。本窗 estimated_kp 已達 2.00。2026-10-09 19 UTC 時段尚未收滿（0 筆；饋送止於 18:59）。"
       },
       "data": {
-        "estimated_kp": 0.33,
-        "kp_label": "0P",
-        "last180_max": 2.0,
+        "estimated_kp": 0.0,
+        "kp_label": "0Z",
+        "last180_max": 1.0,
         "n_samples": 358,
         "window_max": 2.0,
-        "window_start": "2026-10-09T12:00:00Z"
+        "window_start": "2026-10-09T13:02:00Z"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The card uses the latest hour that has a full 60 samples; the following hour may still be incomplete.",
@@ -32,7 +32,106 @@
         "max": 9,
         "min": 0,
         "type": "gauge",
-        "value": 0.33
+        "value": 0.0
+      }
+    },
+    {
+      "id": "usgs-us6000u18x",
+      "type": "earthquake",
+      "time_utc": "2026-10-09T18:37:46Z",
+      "title": {
+        "en": "M5.8 earthquake 1 km S of El Cacao, Panama on 9 October 2026.",
+        "zh": "2026 年 10 月 9 日，1 km S of El Cacao, Panama發生規模 5.8 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5.8, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.8，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18x",
+        "magType": "mb",
+        "magnitude": 5.8,
+        "place": "1 km S of El Cacao, Panama"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18x",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5.8
+      }
+    },
+    {
+      "id": "usgs-us6000u18t",
+      "type": "earthquake",
+      "time_utc": "2026-10-09T18:22:15Z",
+      "title": {
+        "en": "M5.5 earthquake 3 km SW of Bajo Corral, Panama on 9 October 2026.",
+        "zh": "2026 年 10 月 9 日，3 km SW of Bajo Corral, Panama發生規模 5.5 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 5.5, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 5.5，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18t",
+        "magType": "mb",
+        "magnitude": 5.5,
+        "place": "3 km SW of Bajo Corral, Panama"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18t",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 5.5
+      }
+    },
+    {
+      "id": "usgs-us6000u18k",
+      "type": "earthquake",
+      "time_utc": "2026-10-09T17:56:06Z",
+      "title": {
+        "en": "M7.7 earthquake 12 km WSW of Pitaloza Arriba, Panama on 9 October 2026.",
+        "zh": "2026 年 10 月 9 日，12 km WSW of Pitaloza Arriba, Panama發生規模 7.7 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mww 7.7, depth about 13 km.",
+        "zh": "USGS M4.5+ 一日饋送：mww 7.7，深度約 13 公里。"
+      },
+      "data": {
+        "depth_km": 13,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k",
+        "magType": "mww",
+        "magnitude": 7.7,
+        "place": "12 km WSW of Pitaloza Arriba, Panama"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 7.7
       }
     },
     {
@@ -495,72 +594,6 @@
         "min": 0,
         "type": "bar",
         "value": 5.2
-      }
-    },
-    {
-      "id": "usgs-us6000u10v",
-      "type": "earthquake",
-      "time_utc": "2026-10-08T18:32:03Z",
-      "title": {
-        "en": "M4.6 earthquake Izu Islands, Japan region on 8 October 2026.",
-        "zh": "2026 年 10 月 8 日，Izu Islands, Japan region發生規模 4.6 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.6, depth about 96 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 96 公里。"
-      },
-      "data": {
-        "depth_km": 96,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u10v",
-        "magType": "mb",
-        "magnitude": 4.6,
-        "place": "Izu Islands, Japan region"
-      },
-      "evidence": {
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u10v",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
-      },
-      "visual": {
-        "max": 10,
-        "min": 0,
-        "type": "bar",
-        "value": 4.6
-      }
-    },
-    {
-      "id": "usgs-us6000u10n",
-      "type": "earthquake",
-      "time_utc": "2026-10-08T18:06:00Z",
-      "title": {
-        "en": "M4.8 earthquake 46 km N of Waingapu, Indonesia on 8 October 2026.",
-        "zh": "2026 年 10 月 8 日，46 km N of Waingapu, Indonesia發生規模 4.8 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.8, depth about 91 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 91 公里。"
-      },
-      "data": {
-        "depth_km": 91,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u10n",
-        "magType": "mb",
-        "magnitude": 4.8,
-        "place": "46 km N of Waingapu, Indonesia"
-      },
-      "evidence": {
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u10n",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
-      },
-      "visual": {
-        "max": 10,
-        "min": 0,
-        "type": "bar",
-        "value": 4.8
       }
     }
   ]
