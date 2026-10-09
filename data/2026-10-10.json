@@ -1,26 +1,26 @@
 {
   "date": "2026-10-10",
-  "updated": "2026-10-10T01:00:00+08:00",
+  "updated": "2026-10-10T02:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-09T15:00:00Z",
+      "time_utc": "2026-10-09T16:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (quiet) at 15:00 UTC on 9 October 2026.",
-        "zh": "2026 年 10 月 9 日 15:00 UTC，估計行星 Kp 為 0.00（平靜）。"
+        "en": "Estimated planetary Kp is 0.33 (quiet) at 16:00 UTC on 9 October 2026.",
+        "zh": "2026 年 10 月 9 日 16:00 UTC，估計行星 Kp 為 0.33（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 15:00 UTC on 9 October 2026. The 15 hour is complete (60 samples through 15:59; hour-start 0.00/0Z, hour-end 0.33/0P). Last-180 maximum is 2.00 (first at 2026-10-09T13:58:00Z; label 2Z). Published-window maximum is 4.00 (first at 2026-10-09T11:00:00Z; label 4Z). Window starts 2026-10-09T11:00:00Z (358 samples). Window estimated_kp reached 4.00. The 16 UTC hour on 9 October is incomplete (58 samples through 16:57).",
-        "zh": "最新可靠整點初值：2026-10-09 15 UTC 估計 Kp 0.00（0Z）。15 時段已收滿（60 筆至 15:59；時段初 0.00／0Z，時段末 0.33／0P）。last-180 最大 2.00（最先見於 2026-10-09T13:58:00Z；標籤 2Z）。公開窗最大 4.00（最先見於 2026-10-09T11:00:00Z；標籤 4Z）。窗起點 2026-10-09T11:00:00Z（358 筆）。本窗 estimated_kp 已達 4.00。2026-10-09 16 UTC 時段尚未收滿（58 筆至 16:57）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.33 (0P) at 16:00 UTC on 9 October 2026. The 16 hour is complete (60 samples through 16:59; hour-start 0.33/0P, hour-end 0.67/1M). Last-180 maximum is 2.00 (first at 2026-10-09T14:58:00Z; label 2Z). Published-window maximum is 2.00 (first at 2026-10-09T12:36:00Z; label 2Z). Window starts 2026-10-09T12:00:00Z (358 samples). Window estimated_kp reached 2.00. The 17 UTC hour on 9 October is incomplete (58 samples through 17:57).",
+        "zh": "最新可靠整點初值：2026-10-09 16 UTC 估計 Kp 0.33（0P）。16 時段已收滿（60 筆至 16:59；時段初 0.33／0P，時段末 0.67／1M）。last-180 最大 2.00（最先見於 2026-10-09T14:58:00Z；標籤 2Z）。公開窗最大 2.00（最先見於 2026-10-09T12:36:00Z；標籤 2Z）。窗起點 2026-10-09T12:00:00Z（358 筆）。本窗 estimated_kp 已達 2.00。2026-10-09 17 UTC 時段尚未收滿（58 筆至 17:57）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp_label": "0Z",
+        "estimated_kp": 0.33,
+        "kp_label": "0P",
         "last180_max": 2.0,
         "n_samples": 358,
-        "window_max": 4.0,
-        "window_start": "2026-10-09T11:00:00Z"
+        "window_max": 2.0,
+        "window_start": "2026-10-09T12:00:00Z"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The card uses the latest hour that has a full 60 samples; the following hour may still be incomplete.",
@@ -32,7 +32,73 @@
         "max": 9,
         "min": 0,
         "type": "gauge",
-        "value": 0.0
+        "value": 0.33
+      }
+    },
+    {
+      "id": "usgs-us6000u18e",
+      "type": "earthquake",
+      "time_utc": "2026-10-09T17:09:04Z",
+      "title": {
+        "en": "M4.8 earthquake 191 km SE of Petropavlovsk-Kamchatsky, Russia on 9 October 2026.",
+        "zh": "2026 年 10 月 9 日，191 km SE of Petropavlovsk-Kamchatsky, Russia發生規模 4.8 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.8, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18e",
+        "magType": "mb",
+        "magnitude": 4.8,
+        "place": "191 km SE of Petropavlovsk-Kamchatsky, Russia"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18e",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.8
+      }
+    },
+    {
+      "id": "usgs-us6000u18d",
+      "type": "earthquake",
+      "time_utc": "2026-10-09T16:59:35Z",
+      "title": {
+        "en": "M4.7 earthquake 138 km SE of Petropavlovsk-Kamchatsky, Russia on 9 October 2026.",
+        "zh": "2026 年 10 月 9 日，138 km SE of Petropavlovsk-Kamchatsky, Russia發生規模 4.7 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.7, depth about 34 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 34 公里。"
+      },
+      "data": {
+        "depth_km": 34,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18d",
+        "magType": "mb",
+        "magnitude": 4.7,
+        "place": "138 km SE of Petropavlovsk-Kamchatsky, Russia"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18d",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.7
       }
     },
     {
