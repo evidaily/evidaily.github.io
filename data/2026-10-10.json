@@ -1,26 +1,26 @@
 {
   "date": "2026-10-10",
-  "updated": "2026-10-10T20:00:00+08:00",
+  "updated": "2026-10-10T21:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-10T10:00:00Z",
+      "time_utc": "2026-10-10T12:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 2.33 (unsettled) at 10:00 UTC on 10 October 2026.",
-        "zh": "2026 年 10 月 10 日 10:00 UTC，估算行星 Kp 為 2.33（不穩定）。"
+        "en": "Estimated planetary Kp is 0.0 (quiet) at 12:00 UTC on 10 October 2026.",
+        "zh": "2026 年 10 月 10 日 12:00 UTC，估算行星 Kp 為 0.0（安靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 2.33 (2P) at 10:00 UTC on 10 October 2026. The 10 hour is complete (60 samples through 10:59; hour-start 2.33/2P, hour-end 2.33/2P). Last-180 maximum is 3.00 (first at 2026-10-10T08:58:00; label 3Z). Published-window maximum is 3.00 (first at 2026-10-10T08:22:00; label 3Z). Window starts 2026-10-10T06:01:00 (358 samples). Window estimated_kp reached 3.00. The 11 UTC hour on 10 October is incomplete (59 samples through 11:58; hour-start 2.33/2P, hour-end 2.33/2P).",
-        "zh": "最新可靠整點初值：2026-10-10 10:00 UTC 估算 Kp 2.33（2P）。10 時段已收滿（60 筆至 10:59；時段初 2.33／2P，時段末 2.33／2P）。last-180 最大 3.00（最先見於 2026-10-10T08:58:00；標籤 3Z）。公開窗最大 3.00（最先見於 2026-10-10T08:22:00；標籤 3Z）。窗起點 2026-10-10T06:01:00（358 筆）。本窗 estimated_kp 已達 3.00。2026-10-10 11 UTC 時段尚未收滿（59 筆至 11:58；時段初 2.33／2P，時段末 2.33／2P）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 12:00 UTC on 10 October 2026. The 12 hour is complete (60 samples through 12:59; hour-start 0.0/0Z, hour-end 0.33/0P). Last-180 maximum is 2.33 (first at 2026-10-10T09:59:00; label 2P). Published-window maximum is 3.0 (first at 2026-10-10T08:22:00; label 3Z). Window starts 2026-10-10T07:02:00 (358 samples). Window estimated_kp reached 3.0. The 13 UTC hour on 10 October is incomplete (0 samples).",
+        "zh": "最新可靠整點初值：2026-10-10 12:00 UTC 估算 Kp 0.0（0Z）。12 時段已收滿（60 筆至 12:59；時段初 0.0／0Z，時段末 0.33／0P）。last-180 最大 2.33（最先見於 2026-10-10T09:59:00；標籤 2P）。公開窗最大 3.0（最先見於 2026-10-10T08:22:00；標籤 3Z）。窗起點 2026-10-10T07:02:00（358 筆）。本窗 estimated_kp 已達 3.0。2026-10-10 13 UTC 時段尚未收滿（0 筆）。"
       },
       "data": {
-        "estimated_kp": 2.33,
-        "kp_label": "2P",
-        "last180_max": 3.0,
+        "estimated_kp": 0.0,
+        "kp_label": "0Z",
+        "last180_max": 2.33,
         "n_samples": 358,
         "window_max": 3.0,
-        "window_start": "2026-10-10T06:01:00"
+        "window_start": "2026-10-10T07:02:00"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The card uses the latest hour that has a full 60 samples; the following hour may still be incomplete.",
@@ -32,7 +32,37 @@
         "max": 9,
         "min": 0,
         "type": "gauge",
-        "value": 2.33
+        "value": 0.0
+      }
+    },
+    {
+      "id": "usgs-us6000u1ej",
+      "type": "earthquake",
+      "time_utc": "2026-10-10T12:21:02Z",
+      "title": {
+        "en": "M4.6 earthquake 268 km WNW of Houma, Tonga on 2026 10 10.",
+        "zh": "2026 年 10 月 10 日，268 km WNW of Houma, Tonga 發生規模 4.6 地震。"
+      },
+      "summary": {
+        "en": "M4.6 earthquake 268 km WNW of Houma, Tonga on 10 October 2026 at 12:21 UTC.",
+        "zh": "2026 年 10 月 10 日 12:21 UTC，268 km WNW of Houma, Tonga 發生 M4.6 地震。"
+      },
+      "data": {
+        "mag": 4.6,
+        "place": "268 km WNW of Houma, Tonga",
+        "depth_km": 560.2,
+        "latitude": -19.9451,
+        "longitude": -177.5258
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ej",
+        "method": "USGS M4.5+ day feed."
+      },
+      "visual": {
+        "type": "map",
+        "lat": -19.9451,
+        "lon": -177.5258
       }
     },
     {
@@ -63,6 +93,36 @@
         "type": "map",
         "lat": 7.7463,
         "lon": -81.3092
+      }
+    },
+    {
+      "id": "usgs-us6000u1dy",
+      "type": "earthquake",
+      "time_utc": "2026-10-10T09:42:58Z",
+      "title": {
+        "en": "M4.6 earthquake 31 km SE of Vanimo, Papua New Guinea on 2026 10 10.",
+        "zh": "2026 年 10 月 10 日，31 km SE of Vanimo, Papua New Guinea 發生規模 4.6 地震。"
+      },
+      "summary": {
+        "en": "M4.6 earthquake 31 km SE of Vanimo, Papua New Guinea on 10 October 2026 at 09:42 UTC.",
+        "zh": "2026 年 10 月 10 日 09:42 UTC，31 km SE of Vanimo, Papua New Guinea 發生 M4.6 地震。"
+      },
+      "data": {
+        "mag": 4.6,
+        "place": "31 km SE of Vanimo, Papua New Guinea",
+        "depth_km": 30.387,
+        "latitude": -2.8851,
+        "longitude": 141.496
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1dy",
+        "method": "USGS M4.5+ day feed."
+      },
+      "visual": {
+        "type": "map",
+        "lat": -2.8851,
+        "lon": 141.496
       }
     },
     {
@@ -1623,36 +1683,6 @@
         "type": "map",
         "lat": -15.5361,
         "lon": 168.1451
-      }
-    },
-    {
-      "id": "usgs-us6000u15l",
-      "type": "earthquake",
-      "time_utc": "2026-10-09T12:33:43Z",
-      "title": {
-        "en": "M4.8 earthquake 17 km S of Nandaime, Nicaragua on 2026 10 09.",
-        "zh": "2026 年 10 月 9 日，17 km S of Nandaime, Nicaragua 發生規模 4.8 地震。"
-      },
-      "summary": {
-        "en": "M4.8 earthquake 17 km S of Nandaime, Nicaragua on 09 October 2026 at 12:33 UTC.",
-        "zh": "2026 年 10 月 9 日 12:33 UTC，17 km S of Nandaime, Nicaragua 發生 M4.8 地震。"
-      },
-      "data": {
-        "mag": 4.8,
-        "place": "17 km S of Nandaime, Nicaragua",
-        "depth_km": 165.662,
-        "latitude": 11.5951,
-        "longitude": -86.0613
-      },
-      "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u15l",
-        "method": "USGS M4.5+ day feed."
-      },
-      "visual": {
-        "type": "map",
-        "lat": 11.5951,
-        "lon": -86.0613
       }
     }
   ]
