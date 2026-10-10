@@ -1,26 +1,26 @@
 {
   "date": "2026-10-10",
-  "updated": "2026-10-10T19:00:00+08:00",
+  "updated": "2026-10-10T20:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-10T09:00:00Z",
+      "time_utc": "2026-10-10T10:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.0 (quiet) at 09:00 UTC on 10 October 2026.",
-        "zh": "2026 年 10 月 10 日 09:00 UTC，估算行星 Kp 為 0.0（平靜）。"
+        "en": "Estimated planetary Kp is 2.33 (unsettled) at 10:00 UTC on 10 October 2026.",
+        "zh": "2026 年 10 月 10 日 10:00 UTC，估算行星 Kp 為 2.33（不穩定）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 09:00 UTC on 10 October 2026. The 09 hour is complete (60 samples through 09:59; hour-start 0.00/0Z, hour-end 2.33/2P). Last-180 maximum is 3.00 (first at 2026-10-10T08:22:00; label 3Z). Published-window maximum is 3.00 (first at 2026-10-10T05:14:00; label 3Z). Window starts 2026-10-10T05:01:00 (358 samples). Window estimated_kp reached 3.00. The 10 UTC hour on 10 October is incomplete (59 samples through 10:58; hour-start 2.33/2P, hour-end 2.33/2P).",
-        "zh": "最新可靠整點初值：2026-10-10 09:00 UTC 估算 Kp 0.0（0Z）。09 時段已收滿（60 筆至 09:59；時段初 0.00／0Z，時段末 2.33／2P）。last-180 最大 3.00（最先見於 2026-10-10T08:22:00；標籤 3Z）。公開窗最大 3.00（最先見於 2026-10-10T05:14:00；標籤 3Z）。窗起點 2026-10-10T05:01:00（358 筆）。本窗 estimated_kp 已達 3.00。2026-10-10 10 UTC 時段尚未收滿（59 筆至 10:58；時段初 2.33／2P，時段末 2.33／2P）。"
+        "en": "Latest reliable hour-start estimated Kp is 2.33 (2P) at 10:00 UTC on 10 October 2026. The 10 hour is complete (60 samples through 10:59; hour-start 2.33/2P, hour-end 2.33/2P). Last-180 maximum is 3.00 (first at 2026-10-10T08:58:00; label 3Z). Published-window maximum is 3.00 (first at 2026-10-10T08:22:00; label 3Z). Window starts 2026-10-10T06:01:00 (358 samples). Window estimated_kp reached 3.00. The 11 UTC hour on 10 October is incomplete (59 samples through 11:58; hour-start 2.33/2P, hour-end 2.33/2P).",
+        "zh": "最新可靠整點初值：2026-10-10 10:00 UTC 估算 Kp 2.33（2P）。10 時段已收滿（60 筆至 10:59；時段初 2.33／2P，時段末 2.33／2P）。last-180 最大 3.00（最先見於 2026-10-10T08:58:00；標籤 3Z）。公開窗最大 3.00（最先見於 2026-10-10T08:22:00；標籤 3Z）。窗起點 2026-10-10T06:01:00（358 筆）。本窗 estimated_kp 已達 3.00。2026-10-10 11 UTC 時段尚未收滿（59 筆至 11:58；時段初 2.33／2P，時段末 2.33／2P）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp_label": "0Z",
+        "estimated_kp": 2.33,
+        "kp_label": "2P",
         "last180_max": 3.0,
         "n_samples": 358,
         "window_max": 3.0,
-        "window_start": "2026-10-10T05:01:00"
+        "window_start": "2026-10-10T06:01:00"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The card uses the latest hour that has a full 60 samples; the following hour may still be incomplete.",
@@ -32,7 +32,7 @@
         "max": 9,
         "min": 0,
         "type": "gauge",
-        "value": 0.0
+        "value": 2.33
       }
     },
     {
