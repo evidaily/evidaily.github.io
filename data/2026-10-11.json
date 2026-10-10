@@ -1,26 +1,26 @@
 {
   "date": "2026-10-11",
-  "updated": "2026-10-11T02:00:00+08:00",
+  "updated": "2026-10-11T03:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-10T16:00Z",
+      "time_utc": "2026-10-10T17:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 5.33 (active) at 16:00 UTC on 10 October 2026.",
-        "zh": "2026 年 10 月 10 日 16:00 UTC，估算行星 Kp 為 5.33（活躍）。"
+        "en": "Estimated planetary Kp is 5.33 (active) at 17:00 UTC on 10 October 2026.",
+        "zh": "2026 年 10 月 10 日 17:00 UTC，估算行星 Kp 為 5.33（活躍）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 5.33 (5P) at 16:00 UTC on 10 October 2026. The 16 hour is complete (60 samples through 16:59; hour-start 5.33/5P, hour-end 5.33/5P). Last-180 maximum is 7.0 (first at 2026-10-10T17:52:00; label 7Z). Published-window maximum is 7.0 (first at 2026-10-10T17:52:00; label 7Z). Window starts 2026-10-10T12:01:00 (358 samples). Window estimated_kp reached 7.0. The 17 UTC hour on 10 October is incomplete (59 samples through 17:58).",
-        "zh": "最新可靠整點初值：2026-10-10 16:00 UTC 估算 Kp 5.33（5P）。16 時段已收滿（60 筆至 16:59；時段初 5.33／5P，時段末 5.33／5P）。last-180 最大 7.0（最先見於 2026-10-10T17:52:00；標籤 7Z）。公開窗最大 7.0（最先見於 2026-10-10T17:52:00；標籤 7Z）。窗起點 2026-10-10T12:01:00（358 筆）。本窗 estimated_kp 已達 7.0。2026-10-10 17 UTC 時段尚未收滿（59 筆至 17:58）。"
+        "en": "Latest reliable hour-start estimated Kp is 5.33 (5P) at 17:00 UTC on 10 October 2026. The 17 hour is complete (60 samples through 17:59; hour-start 5.33/5P, hour-end 7.33/7P). Last-180 maximum is 7.33 (first at 2026-10-10T17:58:00; label 7P). Published-window maximum is 7.33 (first at 2026-10-10T17:58:00; label 7P). Window starts 2026-10-10T12:59:00 (359 samples). Window estimated_kp reached 7.33. The 18 UTC hour on 10 October is incomplete (58 samples through 18:57).",
+        "zh": "最新可靠整點初值：2026-10-10 17:00 UTC 估算 Kp 5.33（5P）。17 時段已收滿（60 筆至 17:59；時段初 5.33／5P，時段末 7.33／7P）。last-180 最大 7.33（最先見於 2026-10-10T17:58:00；標籤 7P）。公開窗最大 7.33（最先見於 2026-10-10T17:58:00；標籤 7P）。窗起點 2026-10-10T12:59:00（359 筆）。本窗 estimated_kp 已達 7.33。2026-10-10 18 UTC 時段尚未收滿（58 筆至 18:57）。"
       },
       "data": {
         "estimated_kp": 5.33,
         "kp_label": "5P",
-        "last180_max": 7.0,
-        "n_samples": 358,
-        "window_max": 7.0,
-        "window_start": "2026-10-10T12:01:00"
+        "last180_max": 7.33,
+        "n_samples": 359,
+        "window_max": 7.33,
+        "window_start": "2026-10-10T12:59:00"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The card uses the latest hour that has a full 60 samples; the following hour may still be incomplete.",
@@ -51,8 +51,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1fk",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -77,8 +76,32 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1fj",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
+      }
+    },
+    {
+      "id": "usgs-us6000u1f6",
+      "type": "earthquake",
+      "time_utc": "2026-10-10T14:59:23Z",
+      "title": {
+        "en": "M4.5 earthquake 5 km WNW of Guarumal, Panama on 2026 10 10.",
+        "zh": "2026 年 10 月 10 日，5 km WNW of Guarumal, Panama 發生規模 4.5 地震。"
+      },
+      "summary": {
+        "en": "M4.5 earthquake 5 km WNW of Guarumal, Panama on 2026 10 10 at 14:59 UTC.",
+        "zh": "2026 年 10 月 10 日 14:59 UTC，5 km WNW of Guarumal, Panama 發生 M4.5 地震。"
+      },
+      "data": {
+        "mag": 4.5,
+        "place": "5 km WNW of Guarumal, Panama",
+        "depth_km": 10,
+        "latitude": 7.8256,
+        "longitude": -81.3036
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1f6",
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -103,8 +126,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1f3",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -129,8 +151,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ex",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -155,8 +176,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ew",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -181,8 +201,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ev",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -207,8 +226,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ej",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -233,8 +251,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1e5",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -259,8 +276,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1dy",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -285,8 +301,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1dm",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -311,8 +326,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1dc",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -337,8 +351,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1db",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -363,8 +376,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1d7",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -389,8 +401,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1d5",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -415,8 +426,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1d2",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -441,8 +451,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1d1",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -467,8 +476,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cx",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -493,8 +501,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cv",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -519,8 +526,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ck",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -545,8 +551,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cf",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -571,8 +576,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cd",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -597,8 +601,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cb",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -623,8 +626,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1bw",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -649,8 +651,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1bu",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -675,8 +676,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1bs",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -701,8 +701,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1bp",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -727,8 +726,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1bl",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -753,8 +751,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1bj",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -779,8 +776,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1bh",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -805,8 +801,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1b5",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -831,8 +826,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1b4",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -857,8 +851,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1b3",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -883,8 +876,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1az",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -909,8 +901,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ay",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -935,8 +926,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ax",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -961,8 +951,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ai",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -987,8 +976,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ah",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -1013,8 +1001,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1a9",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -1039,8 +1026,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1a6",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -1065,8 +1051,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1aa",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -1091,8 +1076,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1a5",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -1117,8 +1101,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u19w",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -1143,8 +1126,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u19t",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -1169,8 +1151,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u19s",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -1195,8 +1176,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u19v",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -1221,8 +1201,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u19h",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -1247,8 +1226,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u19i",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -1273,8 +1251,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u19e",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -1299,8 +1276,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u19c",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -1325,8 +1301,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u198",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     },
     {
@@ -1351,112 +1326,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u197",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
-      }
-    },
-    {
-      "id": "usgs-us6000u194",
-      "type": "earthquake",
-      "time_utc": "2026-10-09T18:50:12Z",
-      "title": {
-        "en": "M5 earthquake 18 km S of Los Asientos, Panama on 2026 10 09.",
-        "zh": "2026 年 10 月 09 日，18 km S of Los Asientos, Panama 發生規模 5 地震。"
-      },
-      "summary": {
-        "en": "M5 earthquake 18 km S of Los Asientos, Panama on 2026 10 09 at 18:50 UTC.",
-        "zh": "2026 年 10 月 09 日 18:50 UTC，18 km S of Los Asientos, Panama 發生 M5 地震。"
-      },
-      "data": {
-        "mag": 5,
-        "place": "18 km S of Los Asientos, Panama",
-        "depth_km": 10,
-        "latitude": 7.3504,
-        "longitude": -80.1178
-      },
-      "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u194",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
-      }
-    },
-    {
-      "id": "usgs-us6000u195",
-      "type": "earthquake",
-      "time_utc": "2026-10-09T18:47:04Z",
-      "title": {
-        "en": "M5 earthquake 19 km S of Leones Arriba, Panama on 2026 10 09.",
-        "zh": "2026 年 10 月 09 日，19 km S of Leones Arriba, Panama 發生規模 5 地震。"
-      },
-      "summary": {
-        "en": "M5 earthquake 19 km S of Leones Arriba, Panama on 2026 10 09 at 18:47 UTC.",
-        "zh": "2026 年 10 月 09 日 18:47 UTC，19 km S of Leones Arriba, Panama 發生 M5 地震。"
-      },
-      "data": {
-        "mag": 5,
-        "place": "19 km S of Leones Arriba, Panama",
-        "depth_km": 10,
-        "latitude": 7.5783,
-        "longitude": -81.0943
-      },
-      "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u195",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
-      }
-    },
-    {
-      "id": "usgs-us6000u18x",
-      "type": "earthquake",
-      "time_utc": "2026-10-09T18:37:46Z",
-      "title": {
-        "en": "M5.8 earthquake 1 km S of El Cacao, Panama on 2026 10 09.",
-        "zh": "2026 年 10 月 09 日，1 km S of El Cacao, Panama 發生規模 5.8 地震。"
-      },
-      "summary": {
-        "en": "M5.8 earthquake 1 km S of El Cacao, Panama on 2026 10 09 at 18:37 UTC.",
-        "zh": "2026 年 10 月 09 日 18:37 UTC，1 km S of El Cacao, Panama 發生 M5.8 地震。"
-      },
-      "data": {
-        "mag": 5.8,
-        "place": "1 km S of El Cacao, Panama",
-        "depth_km": 10,
-        "latitude": 7.4362,
-        "longitude": -80.4012
-      },
-      "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18x",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
-      }
-    },
-    {
-      "id": "usgs-us6000u18t",
-      "type": "earthquake",
-      "time_utc": "2026-10-09T18:22:15Z",
-      "title": {
-        "en": "M5.5 earthquake 3 km SW of Bajo Corral, Panama on 2026 10 09.",
-        "zh": "2026 年 10 月 09 日，3 km SW of Bajo Corral, Panama 發生規模 5.5 地震。"
-      },
-      "summary": {
-        "en": "M5.5 earthquake 3 km SW of Bajo Corral, Panama on 2026 10 09 at 18:22 UTC.",
-        "zh": "2026 年 10 月 09 日 18:22 UTC，3 km SW of Bajo Corral, Panama 發生 M5.5 地震。"
-      },
-      "data": {
-        "mag": 5.5,
-        "place": "3 km SW of Bajo Corral, Panama",
-        "depth_km": 10,
-        "latitude": 7.586,
-        "longitude": -80.2885
-      },
-      "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18t",
-        "retrieved_at": "2026-10-11T02:00:00+08:00",
-        "limitations": "Preliminary magnitude and location; may be revised."
+        "retrieved_at": "2026-10-11T03:00:00+08:00"
       }
     }
   ]
