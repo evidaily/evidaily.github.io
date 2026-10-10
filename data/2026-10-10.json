@@ -1,26 +1,26 @@
 {
   "date": "2026-10-10",
-  "updated": "2026-10-10T13:00:00+08:00",
+  "updated": "2026-10-10T14:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-10T03:00:00Z",
+      "time_utc": "2026-10-10T04:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (quiet) at 03:00 UTC on 10 October 2026.",
-        "zh": "2026 年 10 月 10 日 03:00 UTC，估算行星 Kp 為 0.00（平靜）。"
+        "en": "Estimated planetary Kp is 3.00 (unsettled) at 04:00 UTC on 10 October 2026.",
+        "zh": "2026 年 10 月 10 日 04:00 UTC，估算行星 Kp 為 3.00（不穩定）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 03:00 UTC on 10 October 2026. The 03 hour is complete (60 samples through 03:59; hour-start 0.00/0Z, hour-end 3.00/3Z). Last-180 maximum is 3.00 (first at 2026-10-10T03:43:00; label 3Z). Published-window maximum is 3.00 (first at 2026-10-10T03:43:00; label 3Z). Window starts 2026-10-09T23:00:00 (358 samples). Window estimated_kp reached 3.00. The 04 UTC hour on 10 October is incomplete (58 samples through 04:57; hour-start 3.00/3Z, hour-end 2.00/2Z).",
-        "zh": "最新可靠整點初值：2026-10-10 03:00 UTC 估算 Kp 0.00（0Z）。03 時段已收滿（60 筆至 03:59；時段初 0.00／0Z，時段末 3.00／3Z）。last-180 最大 3.00（最先見於 2026-10-10T03:43:00；標籤 3Z）。公開窗最大 3.00（最先見於 2026-10-10T03:43:00；標籤 3Z）。窗起點 2026-10-09T23:00:00（358 筆）。本窗 estimated_kp 已達 3.00。2026-10-10 04 UTC 時段尚未收滿（58 筆至 04:57；時段初 3.00／3Z，時段末 2.00／2Z）。"
+        "en": "Latest reliable hour-start estimated Kp is 3.00 (3Z) at 04:00 UTC on 10 October 2026. The 04 hour is complete (60 samples through 04:59; hour-start 3.00/3Z, hour-end 2.67/3M). Last-180 maximum is 3.00 (first at 2026-10-10T03:43:00; label 3Z). Published-window maximum is 3.00 (first at 2026-10-10T03:43:00; label 3Z). Window starts 2026-10-10T00:01:00 (358 samples). Window estimated_kp reached 3.00. The 05 UTC hour on 10 October is incomplete (59 samples through 05:58; hour-start 2.67/3M, hour-end 2.33/2P).",
+        "zh": "最新可靠整點初值：2026-10-10 04:00 UTC 估算 Kp 3.00（3Z）。04 時段已收滿（60 筆至 04:59；時段初 3.00／3Z，時段末 2.67／3M）。last-180 最大 3.00（最先見於 2026-10-10T03:43:00；標籤 3Z）。公開窗最大 3.00（最先見於 2026-10-10T03:43:00；標籤 3Z）。窗起點 2026-10-10T00:01:00（358 筆）。本窗 estimated_kp 已達 3.00。2026-10-10 05 UTC 時段尚未收滿（59 筆至 05:58；時段初 2.67／3M，時段末 2.33／2P）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp_label": "0Z",
+        "estimated_kp": 3.0,
+        "kp_label": "3Z",
         "last180_max": 3.0,
         "n_samples": 358,
         "window_max": 3.0,
-        "window_start": "2026-10-09T23:00:00"
+        "window_start": "2026-10-10T00:01:00"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The card uses the latest hour that has a full 60 samples; the following hour may still be incomplete.",
@@ -32,7 +32,37 @@
         "max": 9,
         "min": 0,
         "type": "gauge",
-        "value": 2.0
+        "value": 3.0
+      }
+    },
+    {
+      "id": "usgs-us6000u1cv",
+      "type": "earthquake",
+      "time_utc": "2026-10-10T05:32:01Z",
+      "title": {
+        "en": "M5.0 earthquake 141 km E of Bitung, Indonesia on 2026 10 10.",
+        "zh": "2026 年 10 月 10 日，141 km E of Bitung, Indonesia 發生規模 5.0 地震。"
+      },
+      "summary": {
+        "en": "M5.0 earthquake 141 km E of Bitung, Indonesia on 10 October 2026 at 05:32 UTC.",
+        "zh": "2026 年 10 月 10 日 05:32 UTC，141 km E of Bitung, Indonesia 發生 M5.0 地震。"
+      },
+      "data": {
+        "mag": 5.0,
+        "place": "141 km E of Bitung, Indonesia",
+        "depth_km": 10,
+        "latitude": 1.6248,
+        "longitude": 126.3886
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cv",
+        "method": "USGS M4.5+ day feed."
+      },
+      "visual": {
+        "type": "map",
+        "lat": 1.6248,
+        "lon": 126.3886
       }
     },
     {
@@ -1671,72 +1701,6 @@
         "min": 0,
         "type": "bar",
         "value": 4.5
-      }
-    },
-    {
-      "id": "usgs-us6000u13y",
-      "type": "earthquake",
-      "time_utc": "2026-10-09T05:17:04Z",
-      "title": {
-        "en": "M4.9 earthquake south of the Fiji Islands on 2026 10 10.",
-        "zh": "2026 年 10 月 10 日，south of the Fiji Islands發生規模 4.9 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mb 4.9, depth about 130 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 4.9，深度約 130 公里。"
-      },
-      "data": {
-        "depth_km": 130.36,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u13y",
-        "magType": "mb",
-        "magnitude": 4.9,
-        "place": "south of the Fiji Islands"
-      },
-      "evidence": {
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u13y",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
-      },
-      "visual": {
-        "max": 10,
-        "min": 0,
-        "type": "bar",
-        "value": 4.9
-      }
-    },
-    {
-      "id": "usgs-us6000u13v",
-      "type": "earthquake",
-      "time_utc": "2026-10-09T05:11:04Z",
-      "title": {
-        "en": "M5.2 earthquake 117 km SE of Bitung, Indonesia on 2026 10 10.",
-        "zh": "2026 年 10 月 10 日，117 km SE of Bitung, Indonesia發生規模 5.2 地震。"
-      },
-      "summary": {
-        "en": "USGS M4.5+ day feed: mb 5.2, depth about 40 km.",
-        "zh": "USGS M4.5+ 一日饋送：mb 5.2，深度約 40 公里。"
-      },
-      "data": {
-        "depth_km": 40.049,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u13v",
-        "magType": "mb",
-        "magnitude": 5.2,
-        "place": "117 km SE of Bitung, Indonesia"
-      },
-      "evidence": {
-        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u13v",
-        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
-        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
-      },
-      "visual": {
-        "max": 10,
-        "min": 0,
-        "type": "bar",
-        "value": 5.2
       }
     }
   ]
