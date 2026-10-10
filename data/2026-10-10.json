@@ -1,26 +1,26 @@
 {
   "date": "2026-10-10",
-  "updated": "2026-10-10T09:00:00+08:00",
+  "updated": "2026-10-10T10:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-09T23:00:00Z",
+      "time_utc": "2026-10-10T00:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 2.33 (quiet) at 23:00 UTC on 9 October 2026.",
-        "zh": "2026 年 10 月 9 日 23:00 UTC，估算行星 Kp 為 2.33（平靜）。"
+        "en": "Estimated planetary Kp is 0.00 (quiet) at 00:00 UTC on 10 October 2026.",
+        "zh": "2026 年 10 月 10 日 00:00 UTC，估算行星 Kp 為 0.00（平靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 2.33 (2P) at 23:00 UTC on 9 October 2026. The 23 hour is complete (60 samples through 23:59; hour-start 2.33/2P, hour-end 1.67/2M). Last-180 maximum is 2.33 (first at 2026-10-09T22:18:00Z; label 2P). Published-window maximum is 2.33 (first at 2026-10-09T22:18:00Z; label 2P). Window starts 2026-10-09T19:01:00Z (325 samples). Window estimated_kp reached 2.33. The 00 UTC hour on 10 October is incomplete (26 samples through 00:25; hour-start 0.00/0Z, hour-end 0.00/0Z).",
-        "zh": "最新可靠整點初值：2026-10-09 23 UTC 估算 Kp 2.33（2P）。23 時段已收滿（60 筆至 23:59；時段初 2.33／2P，時段末 1.67／2M）。last-180 最大 2.33（最先見於 2026-10-09T22:18:00Z；標籤 2P）。公開窗最大 2.33（最先見於 2026-10-09T22:18:00Z；標籤 2P）。窗起點 2026-10-09T19:01:00Z（325 筆）。本窗 estimated_kp 已達 2.33。2026-10-10 00 UTC 時段尚未收滿（26 筆至 00:25；時段初 0.00／0Z，時段末 0.00／0Z）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 00:00 UTC on 10 October 2026. The 00 hour is complete (60 samples through 00:59; hour-start 0.00/0Z, hour-end 1.00/1Z). Last-180 maximum is 2.33 (first at 2026-10-09T23:44:00Z; label 2P). Published-window maximum is 2.33 (first at 2026-10-09T23:44:00Z; label 2P). Window starts 2026-10-09T20:00:00Z (358 samples). Window estimated_kp reached 2.33. The 01 UTC hour on 10 October is incomplete (58 samples through 01:57; hour-start 1.00/1Z, hour-end 1.67/2M).",
+        "zh": "最新可靠整點初值：2026-10-10 00 UTC 估算 Kp 0.00（0Z）。00 時段已收滿（60 筆至 00:59；時段初 0.00／0Z，時段末 1.00／1Z）。last-180 最大 2.33（最先見於 2026-10-09T23:44:00Z；標籤 2P）。公開窗最大 2.33（最先見於 2026-10-09T23:44:00Z；標籤 2P）。窗起點 2026-10-09T20:00:00Z（358 筆）。本窗 estimated_kp 已達 2.33。2026-10-10 01 UTC 時段尚未收滿（58 筆至 01:57；時段初 1.00／1Z，時段末 1.67／2M）。"
       },
       "data": {
-        "estimated_kp": 2.33,
-        "kp_label": "2P",
+        "estimated_kp": 0.0,
+        "kp_label": "0Z",
         "last180_max": 2.33,
-        "n_samples": 325,
+        "n_samples": 358,
         "window_max": 2.33,
-        "window_start": "2026-10-09T19:01:00Z"
+        "window_start": "2026-10-09T20:00:00Z"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The card uses the latest hour that has a full 60 samples; the following hour may still be incomplete.",
@@ -32,7 +32,139 @@
         "max": 9,
         "min": 0,
         "type": "gauge",
-        "value": 2.33
+        "value": 0.0
+      }
+    },
+    {
+      "id": "usgs-us6000u1bp",
+      "type": "earthquake",
+      "time_utc": "2026-10-10T01:35:47Z",
+      "title": {
+        "en": "M4.6 earthquake 10 km S of Río Grande, Panama on 2026 10 10.",
+        "zh": "2026 年 10 月 10 日，10 km S of Río Grande, Panama發生規模 4.6 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.6, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.6，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1bp",
+        "magType": "mb",
+        "magnitude": 4.6,
+        "place": "10 km S of Río Grande, Panama"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1bp",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.6
+      }
+    },
+    {
+      "id": "usgs-us6000u1bl",
+      "type": "earthquake",
+      "time_utc": "2026-10-10T01:11:47Z",
+      "title": {
+        "en": "M4.7 earthquake 10 km N of La Tronosa, Panama on 2026 10 10.",
+        "zh": "2026 年 10 月 10 日，10 km N of La Tronosa, Panama發生規模 4.7 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.7, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1bl",
+        "magType": "mb",
+        "magnitude": 4.7,
+        "place": "10 km N of La Tronosa, Panama"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1bl",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.7
+      }
+    },
+    {
+      "id": "usgs-us6000u1b5",
+      "type": "earthquake",
+      "time_utc": "2026-10-10T00:03:04Z",
+      "title": {
+        "en": "M4.8 earthquake 5 km SW of Cañas, Panama on 2026 10 10.",
+        "zh": "2026 年 10 月 10 日，5 km SW of Cañas, Panama發生規模 4.8 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.8, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.8，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1b5",
+        "magType": "mb",
+        "magnitude": 4.8,
+        "place": "5 km SW of Cañas, Panama"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1b5",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.8
+      }
+    },
+    {
+      "id": "usgs-us6000u1b4",
+      "type": "earthquake",
+      "time_utc": "2026-10-09T23:57:38Z",
+      "title": {
+        "en": "M4.7 earthquake 14 km W of Río Grande, Panama on 2026 10 09.",
+        "zh": "2026 年 10 月 9 日，14 km W of Río Grande, Panama發生規模 4.7 地震。"
+      },
+      "summary": {
+        "en": "USGS M4.5+ day feed: mb 4.7, depth about 10 km.",
+        "zh": "USGS M4.5+ 一日饋送：mb 4.7，深度約 10 公里。"
+      },
+      "data": {
+        "depth_km": 10,
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1b4",
+        "magType": "mb",
+        "magnitude": 4.7,
+        "place": "14 km W of Río Grande, Panama"
+      },
+      "evidence": {
+        "event_page": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1b4",
+        "limitations": "Magnitudes and locations can be revised by USGS. The day feed only retains recent M4.5+ events.",
+        "method": "Taken from the public USGS all-day M4.5+ GeoJSON feed while the event remains in the rolling 24-hour window.",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+      },
+      "visual": {
+        "max": 10,
+        "min": 0,
+        "type": "bar",
+        "value": 4.7
       }
     },
     {
