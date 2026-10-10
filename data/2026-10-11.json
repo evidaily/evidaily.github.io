@@ -1,44 +1,94 @@
 {
   "date": "2026-10-11",
-  "updated": "2026-10-11T05:00:00+08:00",
+  "updated": "2026-10-11T06:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-10T19:00Z",
+      "time_utc": "2026-10-10T20:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 6.00 (unsettled) at 19:00 UTC on 10 October 2026.",
-        "zh": "2026 年 10 月 10 日 19:00 UTC，估算行星 Kp 為 6.00（不安定）。"
+        "en": "Estimated planetary Kp is 6.67 (active) at 20:00 UTC on 10 October 2026.",
+        "zh": "2026 年 10 月 10 日 20:00 UTC，估算行星 Kp 為 6.67（活躍）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 6.00 (6Z) at 19:00 UTC on 10 October 2026. The 19 hour is complete (60 samples through 19:59; hour-start 6.00/6Z, hour-end 6.67/7M). Last-180 maximum is 7.33 (first at 2026-10-10T17:58:00; label 7P). Published-window maximum is 7.33 (first at 2026-10-10T17:58:00; label 7P). Window starts 2026-10-10T15:01:00 (358 samples). Window estimated_kp reached 7.33. The 20 UTC hour on 10 October is incomplete (59 samples through 20:58).",
-        "zh": "最新可靠整點初值：2026-10-10 19:00 UTC 估算 Kp 6.00（6Z）。19 時段已收滿（60 筆至 19:59；時段初 6.00／6Z、時段末 6.67／7M）。last-180 最大 7.33（最先見於 17:58 UTC；標籤 7P）。公開窗最大 7.33（最先見於 17:58 UTC；標籤 7P）。窗起點 2026-10-10T15:01:00（358 筆）。窗內 estimated_kp 達 7.33。20 時段未滿（59 筆至 20:58）。"
+        "en": "Latest reliable hour-start estimated Kp is 6.67 (7M) at 20:00 UTC on 10 October 2026. The 20 hour is complete (60 samples through 20:59; hour-start 6.67/7M, hour-end 6.67/7M). Last-180 maximum is 6.67 (first at 2026-10-10T19:07:00; label 7M). Published-window maximum is 7.33 (first at 2026-10-10T17:58:00; label 7P). Window starts 2026-10-10T16:00:00 (358 samples). Window estimated_kp reached 7.33. The 21 UTC hour on 10 October is incomplete (58 samples through 21:57).",
+        "zh": "最新可靠整點初值：2026-10-10 20:00 UTC 估算 Kp 6.67（7M）。20 時段已收滿（60 筆至 20:59；時段初 6.67／7M、時段末 6.67／7M）。last-180 最大 6.67（最先見於 19:07 UTC；標籤 7M）。公開窗最大 7.33（最先見於 17:58 UTC；標籤 7P）。窗起點 2026-10-10T16:00:00（358 筆）。窗內 estimated_kp 達 7.33。21 時段未滿（58 筆至 21:57）。"
       },
       "data": {
-        "estimated_kp": 6.0,
-        "kp_label": "6Z",
+        "estimated_kp": 6.67,
+        "kp_label": "7M",
         "hour_complete": true,
-        "hour_start": "2026-10-10T19:00:00",
-        "hour_end_sample": "2026-10-10T19:59:00",
+        "hour_start": "2026-10-10T20:00:00",
+        "hour_end_sample": "2026-10-10T20:59:00",
         "hour_end_kp": 6.67,
         "hour_end_label": "7M",
-        "window_start": "2026-10-10T15:01:00",
+        "window_start": "2026-10-10T16:00:00",
         "window_samples": 358,
         "window_max_kp": 7.33,
         "window_max_first": "2026-10-10T17:58:00",
         "window_max_label": "7P",
-        "last180_max_kp": 7.33,
-        "last180_max_first": "2026-10-10T17:58:00",
-        "last180_max_label": "7P",
+        "last180_max_kp": 6.67,
+        "last180_max_first": "2026-10-10T19:07:00",
+        "last180_max_label": "7M",
         "next_hour_incomplete": true,
-        "next_hour": "2026-10-10T20:00:00",
-        "next_hour_samples": 59,
-        "next_hour_last": "2026-10-10T20:58:00"
+        "next_hour": "2026-10-10T21:00:00",
+        "next_hour_samples": 58,
+        "next_hour_last": "2026-10-10T21:57:00"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "retrieved_utc": "2026-10-10T21:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u1gs",
+      "type": "earthquake",
+      "time_utc": "2026-10-10T21:34:02Z",
+      "title": {
+        "en": "M5.3 earthquake southeast of Easter Island on 2026 10 10.",
+        "zh": "2026 年 10 月 10 日，southeast of Easter Island 發生規模 5.3 地震。"
+      },
+      "summary": {
+        "en": "M5.3 earthquake southeast of Easter Island on 2026 10 10 at 21:34 UTC.",
+        "zh": "2026 年 10 月 10 日 21:34 UTC，southeast of Easter Island 發生 M5.3 地震。"
+      },
+      "data": {
+        "mag": 5.3,
+        "place": "southeast of Easter Island",
+        "depth_km": 10,
+        "latitude": -37.1165,
+        "longitude": -95.2667
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1gs",
+        "retrieved_utc": "2026-10-10T22:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u1gm",
+      "type": "earthquake",
+      "time_utc": "2026-10-10T20:35:48Z",
+      "title": {
+        "en": "M4.9 earthquake Kermadec Islands region on 2026 10 10.",
+        "zh": "2026 年 10 月 10 日，Kermadec Islands region 發生規模 4.9 地震。"
+      },
+      "summary": {
+        "en": "M4.9 earthquake Kermadec Islands region on 2026 10 10 at 20:35 UTC.",
+        "zh": "2026 年 10 月 10 日 20:35 UTC，Kermadec Islands region 發生 M4.9 地震。"
+      },
+      "data": {
+        "mag": 4.9,
+        "place": "Kermadec Islands region",
+        "depth_km": 117.707,
+        "latitude": -31.2348,
+        "longitude": -178.9752
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1gm",
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -56,14 +106,14 @@
       "data": {
         "mag": 4.7,
         "place": "2 km WNW of El Cacao, Panama",
-        "depth_km": null,
+        "depth_km": 13.518,
         "latitude": 7.4596,
         "longitude": -80.4282
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1fk",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -81,14 +131,14 @@
       "data": {
         "mag": 4.8,
         "place": "11 km SSW of Tebario, Panama",
-        "depth_km": null,
+        "depth_km": 10,
         "latitude": 7.6231,
         "longitude": -81.0112
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1fj",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -106,14 +156,14 @@
       "data": {
         "mag": 4.6,
         "place": "51 km NNW of Rabaul, Papua New Guinea",
-        "depth_km": null,
+        "depth_km": 10,
         "latitude": -3.7668,
         "longitude": 151.9827
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1fa",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -131,14 +181,14 @@
       "data": {
         "mag": 4.5,
         "place": "5 km WNW of Guarumal, Panama",
-        "depth_km": null,
+        "depth_km": 10,
         "latitude": 7.8256,
         "longitude": -81.3036
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1f6",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -156,14 +206,14 @@
       "data": {
         "mag": 4.5,
         "place": "10 km NNW of El Cortezo, Panama",
-        "depth_km": null,
+        "depth_km": 10,
         "latitude": 7.5178,
         "longitude": -80.6744
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1f3",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -181,14 +231,14 @@
       "data": {
         "mag": 4.8,
         "place": "12 km NE of La Tronosa, Panama",
-        "depth_km": null,
+        "depth_km": 10,
         "latitude": 7.5187,
         "longitude": -80.5165
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ex",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -206,14 +256,14 @@
       "data": {
         "mag": 4.6,
         "place": "south of the Fiji Islands",
-        "depth_km": null,
+        "depth_km": 587.386,
         "latitude": -22.071,
         "longitude": -179.5886
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ew",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -231,14 +281,14 @@
       "data": {
         "mag": 4.5,
         "place": "4 km NW of Los Asientos, Panama",
-        "depth_km": null,
+        "depth_km": 10,
         "latitude": 7.5481,
         "longitude": -80.166
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ev",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -256,14 +306,14 @@
       "data": {
         "mag": 4.6,
         "place": "268 km WNW of Houma, Tonga",
-        "depth_km": null,
+        "depth_km": 560.2,
         "latitude": -19.9451,
         "longitude": -177.5258
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ej",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -281,14 +331,14 @@
       "data": {
         "mag": 4.8,
         "place": "4 km NE of Río Grande, Panama",
-        "depth_km": null,
+        "depth_km": 10,
         "latitude": 7.7463,
         "longitude": -81.3092
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1e5",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -306,14 +356,14 @@
       "data": {
         "mag": 4.6,
         "place": "31 km SE of Vanimo, Papua New Guinea",
-        "depth_km": null,
+        "depth_km": 30.387,
         "latitude": -2.8851,
         "longitude": 141.496
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1dy",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -331,14 +381,14 @@
       "data": {
         "mag": 4.5,
         "place": "61 km N of Hihifo, Tonga",
-        "depth_km": null,
+        "depth_km": 79.424,
         "latitude": -15.397,
         "longitude": -173.7816
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1dm",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -356,14 +406,14 @@
       "data": {
         "mag": 4.6,
         "place": "6 km SSE of Llano de Piedra, Panama",
-        "depth_km": null,
+        "depth_km": 10,
         "latitude": 7.6182,
         "longitude": -80.5348
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1dc",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -381,14 +431,14 @@
       "data": {
         "mag": 4.5,
         "place": "10 km SE of Pedasí, Panama",
-        "depth_km": null,
+        "depth_km": 10,
         "latitude": 7.4558,
         "longitude": -79.9613
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1db",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -406,14 +456,14 @@
       "data": {
         "mag": 4.9,
         "place": "26 km SSE of Pedasí, Panama",
-        "depth_km": null,
+        "depth_km": 10,
         "latitude": 7.2997,
         "longitude": -79.9687
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1d7",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -431,14 +481,14 @@
       "data": {
         "mag": 4.7,
         "place": "26 km S of Pedasí, Panama",
-        "depth_km": null,
+        "depth_km": 10,
         "latitude": 7.2969,
         "longitude": -79.9827
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1d5",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -456,14 +506,14 @@
       "data": {
         "mag": 4.9,
         "place": "10 km SSW of Cañas, Panama",
-        "depth_km": null,
+        "depth_km": 10,
         "latitude": 7.3663,
         "longitude": -80.3171
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1d2",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -481,14 +531,14 @@
       "data": {
         "mag": 4.5,
         "place": "25 km SSE of Pedasí, Panama",
-        "depth_km": null,
+        "depth_km": 10,
         "latitude": 7.3167,
         "longitude": -79.9478
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1d1",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -506,14 +556,14 @@
       "data": {
         "mag": 4.5,
         "place": "6 km WSW of Filadelfia, Colombia",
-        "depth_km": null,
+        "depth_km": 115.143,
         "latitude": 5.267,
         "longitude": -75.6127
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cx",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -531,14 +581,14 @@
       "data": {
         "mag": 5,
         "place": "141 km E of Bitung, Indonesia",
-        "depth_km": null,
+        "depth_km": 10,
         "latitude": 1.6248,
         "longitude": 126.3886
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cv",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -556,14 +606,14 @@
       "data": {
         "mag": 4.5,
         "place": "9 km WNW of Flores, Panama",
-        "depth_km": null,
+        "depth_km": 10,
         "latitude": 7.5239,
         "longitude": -80.4791
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ck",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -581,14 +631,14 @@
       "data": {
         "mag": 6,
         "place": "7 km N of La Tronosa, Panama",
-        "depth_km": null,
+        "depth_km": 10,
         "latitude": 7.5068,
         "longitude": -80.5985
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cf",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -606,14 +656,14 @@
       "data": {
         "mag": 5.3,
         "place": "41 km NNE of Yigo Village, Guam",
-        "depth_km": null,
+        "depth_km": 111.584,
         "latitude": 13.8594,
         "longitude": 145.0892
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cd",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -631,14 +681,14 @@
       "data": {
         "mag": 4.7,
         "place": "8 km N of La Tronosa, Panama",
-        "depth_km": null,
+        "depth_km": 10,
         "latitude": 7.5141,
         "longitude": -80.5849
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cb",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -656,14 +706,14 @@
       "data": {
         "mag": 4.5,
         "place": "18 km SSE of Río Grande, Panama",
-        "depth_km": null,
+        "depth_km": 10,
         "latitude": 7.5746,
         "longitude": -81.2493
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1bw",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -681,14 +731,14 @@
       "data": {
         "mag": 5.1,
         "place": "1 km NNE of Tonosí, Panama",
-        "depth_km": null,
+        "depth_km": 10,
         "latitude": 7.4178,
         "longitude": -80.4348
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1bu",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -706,14 +756,14 @@
       "data": {
         "mag": 5.1,
         "place": "133 km WNW of Ternate, Indonesia",
-        "depth_km": null,
+        "depth_km": 10,
         "latitude": 1.416,
         "longitude": 126.3601
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1bs",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -731,14 +781,14 @@
       "data": {
         "mag": 4.6,
         "place": "10 km S of Río Grande, Panama",
-        "depth_km": null,
+        "depth_km": 10,
         "latitude": 7.6272,
         "longitude": -81.3237
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1bp",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -756,14 +806,14 @@
       "data": {
         "mag": 4.7,
         "place": "10 km N of La Tronosa, Panama",
-        "depth_km": null,
+        "depth_km": 10,
         "latitude": 7.5302,
         "longitude": -80.5858
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1bl",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -781,14 +831,39 @@
       "data": {
         "mag": 4.6,
         "place": "9 km NNE of La Tronosa, Panama",
-        "depth_km": null,
+        "depth_km": 10,
         "latitude": 7.5164,
         "longitude": -80.5568
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1bj",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u1bi",
+      "type": "earthquake",
+      "time_utc": "2026-10-10T00:47:02Z",
+      "title": {
+        "en": "M4.7 earthquake 7 km S of Trudarmeyskiy, Russia on 2026 10 10.",
+        "zh": "2026 年 10 月 10 日，7 km S of Trudarmeyskiy, Russia 發生規模 4.7 地震。"
+      },
+      "summary": {
+        "en": "M4.7 earthquake 7 km S of Trudarmeyskiy, Russia on 2026 10 10 at 00:47 UTC.",
+        "zh": "2026 年 10 月 10 日 00:47 UTC，7 km S of Trudarmeyskiy, Russia 發生 M4.7 地震。"
+      },
+      "data": {
+        "mag": 4.7,
+        "place": "7 km S of Trudarmeyskiy, Russia",
+        "depth_km": 10,
+        "latitude": 54.0661,
+        "longitude": 86.4114
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1bi",
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -806,14 +881,14 @@
       "data": {
         "mag": 4.7,
         "place": "85 km ENE of Tadine, New Caledonia",
-        "depth_km": null,
+        "depth_km": 10,
         "latitude": -21.2633,
         "longitude": 168.6507
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1bh",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -831,14 +906,14 @@
       "data": {
         "mag": 4.8,
         "place": "5 km SW of Cañas, Panama",
-        "depth_km": null,
+        "depth_km": 10,
         "latitude": 7.4053,
         "longitude": -80.2957
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1b5",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -847,23 +922,23 @@
       "time_utc": "2026-10-09T23:57:38Z",
       "title": {
         "en": "M4.7 earthquake 14 km W of Río Grande, Panama on 2026 10 09.",
-        "zh": "2026 年 10 月 09 日，14 km W of Río Grande, Panama 發生規模 4.7 地震。"
+        "zh": "2026 年 10 月 9 日，14 km W of Río Grande, Panama 發生規模 4.7 地震。"
       },
       "summary": {
         "en": "M4.7 earthquake 14 km W of Río Grande, Panama on 2026 10 09 at 23:57 UTC.",
-        "zh": "2026 年 10 月 09 日 23:57 UTC，14 km W of Río Grande, Panama 發生 M4.7 地震。"
+        "zh": "2026 年 10 月 9 日 23:57 UTC，14 km W of Río Grande, Panama 發生 M4.7 地震。"
       },
       "data": {
         "mag": 4.7,
         "place": "14 km W of Río Grande, Panama",
-        "depth_km": null,
+        "depth_km": 10,
         "latitude": 7.7378,
         "longitude": -81.4599
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1b4",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -872,23 +947,23 @@
       "time_utc": "2026-10-09T23:54:22Z",
       "title": {
         "en": "M4.5 earthquake 45 km SSE of Pedasí, Panama on 2026 10 09.",
-        "zh": "2026 年 10 月 09 日，45 km SSE of Pedasí, Panama 發生規模 4.5 地震。"
+        "zh": "2026 年 10 月 9 日，45 km SSE of Pedasí, Panama 發生規模 4.5 地震。"
       },
       "summary": {
         "en": "M4.5 earthquake 45 km SSE of Pedasí, Panama on 2026 10 09 at 23:54 UTC.",
-        "zh": "2026 年 10 月 09 日 23:54 UTC，45 km SSE of Pedasí, Panama 發生 M4.5 地震。"
+        "zh": "2026 年 10 月 9 日 23:54 UTC，45 km SSE of Pedasí, Panama 發生 M4.5 地震。"
       },
       "data": {
         "mag": 4.5,
         "place": "45 km SSE of Pedasí, Panama",
-        "depth_km": null,
+        "depth_km": 10,
         "latitude": 7.1444,
         "longitude": -79.8903
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1b3",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -897,23 +972,23 @@
       "time_utc": "2026-10-09T23:23:13Z",
       "title": {
         "en": "M4.9 earthquake 9 km SW of Río Grande, Panama on 2026 10 09.",
-        "zh": "2026 年 10 月 09 日，9 km SW of Río Grande, Panama 發生規模 4.9 地震。"
+        "zh": "2026 年 10 月 9 日，9 km SW of Río Grande, Panama 發生規模 4.9 地震。"
       },
       "summary": {
         "en": "M4.9 earthquake 9 km SW of Río Grande, Panama on 2026 10 09 at 23:23 UTC.",
-        "zh": "2026 年 10 月 09 日 23:23 UTC，9 km SW of Río Grande, Panama 發生 M4.9 地震。"
+        "zh": "2026 年 10 月 9 日 23:23 UTC，9 km SW of Río Grande, Panama 發生 M4.9 地震。"
       },
       "data": {
         "mag": 4.9,
         "place": "9 km SW of Río Grande, Panama",
-        "depth_km": null,
+        "depth_km": 10,
         "latitude": 7.6651,
         "longitude": -81.4005
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1az",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -922,23 +997,23 @@
       "time_utc": "2026-10-09T23:12:37Z",
       "title": {
         "en": "M5.4 earthquake 9 km SSE of Los Asientos, Panama on 2026 10 09.",
-        "zh": "2026 年 10 月 09 日，9 km SSE of Los Asientos, Panama 發生規模 5.4 地震。"
+        "zh": "2026 年 10 月 9 日，9 km SSE of Los Asientos, Panama 發生規模 5.4 地震。"
       },
       "summary": {
         "en": "M5.4 earthquake 9 km SSE of Los Asientos, Panama on 2026 10 09 at 23:12 UTC.",
-        "zh": "2026 年 10 月 09 日 23:12 UTC，9 km SSE of Los Asientos, Panama 發生 M5.4 地震。"
+        "zh": "2026 年 10 月 9 日 23:12 UTC，9 km SSE of Los Asientos, Panama 發生 M5.4 地震。"
       },
       "data": {
         "mag": 5.4,
         "place": "9 km SSE of Los Asientos, Panama",
-        "depth_km": null,
+        "depth_km": 10,
         "latitude": 7.4366,
         "longitude": -80.0968
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ay",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     },
     {
@@ -947,98 +1022,23 @@
       "time_utc": "2026-10-09T23:10:02Z",
       "title": {
         "en": "M5 earthquake 8 km ESE of La Tronosa, Panama on 2026 10 09.",
-        "zh": "2026 年 10 月 09 日，8 km ESE of La Tronosa, Panama 發生規模 5 地震。"
+        "zh": "2026 年 10 月 9 日，8 km ESE of La Tronosa, Panama 發生規模 5 地震。"
       },
       "summary": {
         "en": "M5 earthquake 8 km ESE of La Tronosa, Panama on 2026 10 09 at 23:10 UTC.",
-        "zh": "2026 年 10 月 09 日 23:10 UTC，8 km ESE of La Tronosa, Panama 發生 M5 地震。"
+        "zh": "2026 年 10 月 9 日 23:10 UTC，8 km ESE of La Tronosa, Panama 發生 M5 地震。"
       },
       "data": {
         "mag": 5,
         "place": "8 km ESE of La Tronosa, Panama",
-        "depth_km": null,
+        "depth_km": 10,
         "latitude": 7.3962,
         "longitude": -80.5284
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ax",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u1ai",
-      "type": "earthquake",
-      "time_utc": "2026-10-09T21:47:49Z",
-      "title": {
-        "en": "M4.6 earthquake 4 km NNE of Río Grande, Panama on 2026 10 09.",
-        "zh": "2026 年 10 月 09 日，4 km NNE of Río Grande, Panama 發生規模 4.6 地震。"
-      },
-      "summary": {
-        "en": "M4.6 earthquake 4 km NNE of Río Grande, Panama on 2026 10 09 at 21:47 UTC.",
-        "zh": "2026 年 10 月 09 日 21:47 UTC，4 km NNE of Río Grande, Panama 發生 M4.6 地震。"
-      },
-      "data": {
-        "mag": 4.6,
-        "place": "4 km NNE of Río Grande, Panama",
-        "depth_km": null,
-        "latitude": 7.7551,
-        "longitude": -81.319
-      },
-      "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ai",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u1ah",
-      "type": "earthquake",
-      "time_utc": "2026-10-09T21:19:16Z",
-      "title": {
-        "en": "M4.6 earthquake 96 km NE of Ozernovskiy, Russia on 2026 10 09.",
-        "zh": "2026 年 10 月 09 日，96 km NE of Ozernovskiy, Russia 發生規模 4.6 地震。"
-      },
-      "summary": {
-        "en": "M4.6 earthquake 96 km NE of Ozernovskiy, Russia on 2026 10 09 at 21:19 UTC.",
-        "zh": "2026 年 10 月 09 日 21:19 UTC，96 km NE of Ozernovskiy, Russia 發生 M4.6 地震。"
-      },
-      "data": {
-        "mag": 4.6,
-        "place": "96 km NE of Ozernovskiy, Russia",
-        "depth_km": null,
-        "latitude": 52.0441,
-        "longitude": 157.5832
-      },
-      "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ah",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u1a9",
-      "type": "earthquake",
-      "time_utc": "2026-10-09T21:05:25Z",
-      "title": {
-        "en": "M4.9 earthquake 13 km W of Río Grande, Panama on 2026 10 09.",
-        "zh": "2026 年 10 月 09 日，13 km W of Río Grande, Panama 發生規模 4.9 地震。"
-      },
-      "summary": {
-        "en": "M4.9 earthquake 13 km W of Río Grande, Panama on 2026 10 09 at 21:05 UTC.",
-        "zh": "2026 年 10 月 09 日 21:05 UTC，13 km W of Río Grande, Panama 發生 M4.9 地震。"
-      },
-      "data": {
-        "mag": 4.9,
-        "place": "13 km W of Río Grande, Panama",
-        "depth_km": null,
-        "latitude": 7.7299,
-        "longitude": -81.452
-      },
-      "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1a9",
-        "retrieved_utc": "2026-10-10T20:00:00Z"
+        "retrieved_utc": "2026-10-10T22:00:00Z"
       }
     }
   ]
