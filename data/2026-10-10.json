@@ -1,6 +1,6 @@
 {
   "date": "2026-10-10",
-  "updated": "2026-10-10T21:00:00+08:00",
+  "updated": "2026-10-10T22:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
@@ -11,16 +11,16 @@
         "zh": "2026 年 10 月 10 日 12:00 UTC，估算行星 Kp 為 0.0（安靜）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 12:00 UTC on 10 October 2026. The 12 hour is complete (60 samples through 12:59; hour-start 0.0/0Z, hour-end 0.33/0P). Last-180 maximum is 2.33 (first at 2026-10-10T09:59:00; label 2P). Published-window maximum is 3.0 (first at 2026-10-10T08:22:00; label 3Z). Window starts 2026-10-10T07:02:00 (358 samples). Window estimated_kp reached 3.0. The 13 UTC hour on 10 October is incomplete (0 samples).",
-        "zh": "最新可靠整點初值：2026-10-10 12:00 UTC 估算 Kp 0.0（0Z）。12 時段已收滿（60 筆至 12:59；時段初 0.0／0Z，時段末 0.33／0P）。last-180 最大 2.33（最先見於 2026-10-10T09:59:00；標籤 2P）。公開窗最大 3.0（最先見於 2026-10-10T08:22:00；標籤 3Z）。窗起點 2026-10-10T07:02:00（358 筆）。本窗 estimated_kp 已達 3.0。2026-10-10 13 UTC 時段尚未收滿（0 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 12:00 UTC on 10 October 2026. The 12 hour is complete (60 samples through 12:59; hour-start 0.0/0Z, hour-end 1.33/1P). Last-180 maximum is 2.33 (first at 2026-10-10T10:58:00; label 2P). Published-window maximum is 3.0 (first at 2026-10-10T08:22:00; label 3Z). Window starts 2026-10-10T08:00:00 (359 samples). Window estimated_kp reached 3.0. The 13 UTC hour on 10 October is incomplete (59 samples through 13:58).",
+        "zh": "最新可靠整點初值：2026-10-10 12:00 UTC 估算 Kp 0.0（0Z）。12 時段已收滿（60 筆至 12:59；時段初 0.0／0Z，時段末 1.33／1P）。last-180 最大 2.33（最先見於 2026-10-10T10:58:00；標籤 2P）。公開窗最大 3.0（最先見於 2026-10-10T08:22:00；標籤 3Z）。窗起點 2026-10-10T08:00:00（359 筆）。本窗 estimated_kp 已達 3.0。2026-10-10 13 UTC 時段尚未收滿（59 筆至 13:58）。"
       },
       "data": {
         "estimated_kp": 0.0,
         "kp_label": "0Z",
         "last180_max": 2.33,
-        "n_samples": 358,
+        "n_samples": 359,
         "window_max": 3.0,
-        "window_start": "2026-10-10T07:02:00"
+        "window_start": "2026-10-10T08:00:00"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The card uses the latest hour that has a full 60 samples; the following hour may still be incomplete.",
@@ -1653,36 +1653,6 @@
         "type": "map",
         "lat": -60.9758,
         "lon": 154.4619
-      }
-    },
-    {
-      "id": "usgs-us6000u15x",
-      "type": "earthquake",
-      "time_utc": "2026-10-09T13:51:42Z",
-      "title": {
-        "en": "M5.4 earthquake 99 km NE of Norsup, Vanuatu on 2026 10 09.",
-        "zh": "2026 年 10 月 9 日，99 km NE of Norsup, Vanuatu 發生規模 5.4 地震。"
-      },
-      "summary": {
-        "en": "M5.4 earthquake 99 km NE of Norsup, Vanuatu on 09 October 2026 at 13:51 UTC.",
-        "zh": "2026 年 10 月 9 日 13:51 UTC，99 km NE of Norsup, Vanuatu 發生 M5.4 地震。"
-      },
-      "data": {
-        "mag": 5.4,
-        "place": "99 km NE of Norsup, Vanuatu",
-        "depth_km": 10,
-        "latitude": -15.5361,
-        "longitude": 168.1451
-      },
-      "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u15x",
-        "method": "USGS M4.5+ day feed."
-      },
-      "visual": {
-        "type": "map",
-        "lat": -15.5361,
-        "lon": 168.1451
       }
     }
   ]
