@@ -1,26 +1,26 @@
 {
   "date": "2026-10-10",
-  "updated": "2026-10-10T14:00:00+08:00",
+  "updated": "2026-10-10T15:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-10T04:00:00Z",
+      "time_utc": "2026-10-10T05:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 3.00 (unsettled) at 04:00 UTC on 10 October 2026.",
-        "zh": "2026 年 10 月 10 日 04:00 UTC，估算行星 Kp 為 3.00（不穩定）。"
+        "en": "Estimated planetary Kp is 2.67 (unsettled) at 05:00 UTC on 10 October 2026.",
+        "zh": "2026 年 10 月 10 日 05:00 UTC，估算行星 Kp 為 2.67（不穩定）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 3.00 (3Z) at 04:00 UTC on 10 October 2026. The 04 hour is complete (60 samples through 04:59; hour-start 3.00/3Z, hour-end 2.67/3M). Last-180 maximum is 3.00 (first at 2026-10-10T03:43:00; label 3Z). Published-window maximum is 3.00 (first at 2026-10-10T03:43:00; label 3Z). Window starts 2026-10-10T00:01:00 (358 samples). Window estimated_kp reached 3.00. The 05 UTC hour on 10 October is incomplete (59 samples through 05:58; hour-start 2.67/3M, hour-end 2.33/2P).",
-        "zh": "最新可靠整點初值：2026-10-10 04:00 UTC 估算 Kp 3.00（3Z）。04 時段已收滿（60 筆至 04:59；時段初 3.00／3Z，時段末 2.67／3M）。last-180 最大 3.00（最先見於 2026-10-10T03:43:00；標籤 3Z）。公開窗最大 3.00（最先見於 2026-10-10T03:43:00；標籤 3Z）。窗起點 2026-10-10T00:01:00（358 筆）。本窗 estimated_kp 已達 3.00。2026-10-10 05 UTC 時段尚未收滿（59 筆至 05:58；時段初 2.67／3M，時段末 2.33／2P）。"
+        "en": "Latest reliable hour-start estimated Kp is 2.67 (3M) at 05:00 UTC on 10 October 2026. The 05 hour is complete (60 samples through 05:59; hour-start 2.67/3M, hour-end 3.00/3Z). Last-180 maximum is 3.00 (first at 2026-10-10T03:59:00; label 3Z). Published-window maximum is 3.00 (first at 2026-10-10T03:43:00; label 3Z). Window starts 2026-10-10T01:01:00 (358 samples). Window estimated_kp reached 3.00. The 06 UTC hour on 10 October is incomplete (59 samples through 06:58; hour-start 0.00/0Z, hour-end 1.33/1P).",
+        "zh": "最新可靠整點初值：2026-10-10 05:00 UTC 估算 Kp 2.67（3M）。05 時段已收滿（60 筆至 05:59；時段初 2.67／3M，時段末 3.00／3Z）。last-180 最大 3.00（最先見於 2026-10-10T03:59:00；標籤 3Z）。公開窗最大 3.00（最先見於 2026-10-10T03:43:00；標籤 3Z）。窗起點 2026-10-10T01:01:00（358 筆）。本窗 estimated_kp 已達 3.00。2026-10-10 06 UTC 時段尚未收滿（59 筆至 06:58；時段初 0.00／0Z，時段末 1.33／1P）。"
       },
       "data": {
-        "estimated_kp": 3.0,
-        "kp_label": "3Z",
+        "estimated_kp": 2.67,
+        "kp_label": "3M",
         "last180_max": 3.0,
         "n_samples": 358,
         "window_max": 3.0,
-        "window_start": "2026-10-10T00:01:00"
+        "window_start": "2026-10-10T01:01:00"
       },
       "evidence": {
         "limitations": "Values are estimated Kp at 1-minute cadence and can be revised. The card uses the latest hour that has a full 60 samples; the following hour may still be incomplete.",
@@ -32,7 +32,97 @@
         "max": 9,
         "min": 0,
         "type": "gauge",
-        "value": 3.0
+        "value": 2.67
+      }
+    },
+    {
+      "id": "usgs-us6000u1d7",
+      "type": "earthquake",
+      "time_utc": "2026-10-10T06:30:03Z",
+      "title": {
+        "en": "M4.9 earthquake 26 km SSE of Pedasí, Panama on 2026 10 10.",
+        "zh": "2026 年 10 月 10 日，26 km SSE of Pedasí, Panama 發生規模 4.9 地震。"
+      },
+      "summary": {
+        "en": "M4.9 earthquake 26 km SSE of Pedasí, Panama on 10 October 2026 at 06:30 UTC.",
+        "zh": "2026 年 10 月 10 日 06:30 UTC，26 km SSE of Pedasí, Panama 發生 M4.9 地震。"
+      },
+      "data": {
+        "mag": 4.9,
+        "place": "26 km SSE of Pedasí, Panama",
+        "depth_km": 10,
+        "latitude": 7.2997,
+        "longitude": -79.9687
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1d7",
+        "method": "USGS M4.5+ day feed."
+      },
+      "visual": {
+        "type": "map",
+        "lat": 7.2997,
+        "lon": -79.9687
+      }
+    },
+    {
+      "id": "usgs-us6000u1d5",
+      "type": "earthquake",
+      "time_utc": "2026-10-10T06:27:09Z",
+      "title": {
+        "en": "M4.7 earthquake 26 km S of Pedasí, Panama on 2026 10 10.",
+        "zh": "2026 年 10 月 10 日，26 km S of Pedasí, Panama 發生規模 4.7 地震。"
+      },
+      "summary": {
+        "en": "M4.7 earthquake 26 km S of Pedasí, Panama on 10 October 2026 at 06:27 UTC.",
+        "zh": "2026 年 10 月 10 日 06:27 UTC，26 km S of Pedasí, Panama 發生 M4.7 地震。"
+      },
+      "data": {
+        "mag": 4.7,
+        "place": "26 km S of Pedasí, Panama",
+        "depth_km": 10,
+        "latitude": 7.2969,
+        "longitude": -79.9827
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1d5",
+        "method": "USGS M4.5+ day feed."
+      },
+      "visual": {
+        "type": "map",
+        "lat": 7.2969,
+        "lon": -79.9827
+      }
+    },
+    {
+      "id": "usgs-us6000u1d2",
+      "type": "earthquake",
+      "time_utc": "2026-10-10T06:18:55Z",
+      "title": {
+        "en": "M4.9 earthquake 10 km SSW of Cañas, Panama on 2026 10 10.",
+        "zh": "2026 年 10 月 10 日，10 km SSW of Cañas, Panama 發生規模 4.9 地震。"
+      },
+      "summary": {
+        "en": "M4.9 earthquake 10 km SSW of Cañas, Panama on 10 October 2026 at 06:18 UTC.",
+        "zh": "2026 年 10 月 10 日 06:18 UTC，10 km SSW of Cañas, Panama 發生 M4.9 地震。"
+      },
+      "data": {
+        "mag": 4.9,
+        "place": "10 km SSW of Cañas, Panama",
+        "depth_km": 10,
+        "latitude": 7.3663,
+        "longitude": -80.3171
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1d2",
+        "method": "USGS M4.5+ day feed."
+      },
+      "visual": {
+        "type": "map",
+        "lat": 7.3663,
+        "lon": -80.3171
       }
     },
     {
