@@ -1,44 +1,94 @@
 {
   "date": "2026-10-11",
-  "updated": "2026-10-11T10:00:00+08:00",
+  "updated": "2026-10-11T11:00:00+08:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-11T00:00Z",
+      "time_utc": "2026-10-11T01:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (quiet) at 00:00 UTC on 11 October 2026.",
-        "zh": "2026 年 10 月 11 日 00:00 UTC，估算行星 Kp 為 0.00（平靜）。"
+        "en": "Estimated planetary Kp is 3.33 (unsettled) at 01:00 UTC on 11 October 2026.",
+        "zh": "2026 年 10 月 11 日 01:00 UTC，估算行星 Kp 為 3.33（不穩定）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 00:00 UTC on 11 October 2026. The 00 hour is complete (60 samples through 00:59; hour-start 0.00/0Z, hour-end 3.33/3P). Last-180 maximum is 6.0 (first at 2026-10-10T23:59:00; label 6Z). Published-window maximum is 6.67 (first at 2026-10-10T20:00:00; label 7M). Window starts 2026-10-10T20:00:00 (358 samples). Window estimated_kp reached 6.67. The 01 UTC hour on 11 October is incomplete (58 samples through 01:57).",
-        "zh": "最新可靠整點初值：2026-10-11 00:00 UTC 估算 Kp 0.00（0Z）。00 時段已收滿（60 筆至 00:59；時段初 0.00／0Z、時段末 3.33／3P）。last-180 最大 6.0（最先見於 23:59 UTC；標籤 6Z）。公開窗最大 6.67（最先見於 20:00 UTC；標籤 7M）。窗起點 2026-10-10T20:00:00（358 筆）。窗內 estimated_kp 達 6.67。01 時段未滿（58 筆至 01:57）。"
+        "en": "Latest reliable hour-start estimated Kp is 3.33 (3P) at 01:00 UTC on 11 October 2026. The 01 hour is complete (60 samples through 01:59; hour-start 3.33/3P, hour-end 3.67/4M). Last-180 maximum is 6.0 (first at 2026-10-10T23:59:00; label 6Z). Published-window maximum is 6.0 (first at 2026-10-10T23:59:00; label 6Z). Window starts 2026-10-10T21:00:00 (358 samples). Window estimated_kp reached 6.0. The 02 UTC hour on 11 October is incomplete (58 samples through 02:57).",
+        "zh": "最新可靠整點初值：2026-10-11 01:00 UTC 估算 Kp 3.33（3P）。01 時段已收滿（60 筆至 01:59；時段初 3.33／3P、時段末 3.67／4M）。last-180 最大 6.0（最先見於 23:59 UTC；標籤 6Z）。公開窗最大 6.0（最先見於 23:59 UTC；標籤 6Z）。窗起點 2026-10-10T21:00:00（358 筆）。窗內 estimated_kp 達 6.0。02 時段未滿（58 筆至 02:57）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp_label": "0Z",
+        "estimated_kp": 3.33,
+        "kp_label": "3P",
         "hour_complete": true,
-        "hour_start": "2026-10-11T00:00:00",
-        "hour_end_sample": "2026-10-11T00:59:00",
-        "hour_end_kp": 3.33,
-        "hour_end_label": "3P",
-        "window_start": "2026-10-10T20:00:00",
+        "hour_start": "2026-10-11T01:00:00",
+        "hour_end_sample": "2026-10-11T01:59:00",
+        "hour_end_kp": 3.67,
+        "hour_end_label": "4M",
+        "window_start": "2026-10-10T21:00:00",
         "window_samples": 358,
-        "window_max_kp": 6.67,
-        "window_max_first": "2026-10-10T20:00:00",
-        "window_max_label": "7M",
+        "window_max_kp": 6.0,
+        "window_max_first": "2026-10-10T23:59:00",
+        "window_max_label": "6Z",
         "last180_max_kp": 6.0,
         "last180_max_first": "2026-10-10T23:59:00",
         "last180_max_label": "6Z",
         "next_hour_incomplete": true,
-        "next_hour": "2026-10-11T01:00:00",
+        "next_hour": "2026-10-11T02:00:00",
         "next_hour_samples": 58,
-        "next_hour_last": "2026-10-11T01:57:00"
+        "next_hour_last_sample": "2026-10-11T02:57:00"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "retrieved_utc": "2026-10-11T02:00:00Z"
+        "retrieved_utc": "2026-10-11T03:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u1i0",
+      "type": "earthquake",
+      "time_utc": "2026-10-11T02:35:35Z",
+      "title": {
+        "en": "M4.6 earthquake 109 km SSE of Pondaguitan, Philippines on 2026 10 11.",
+        "zh": "2026 10 11，109 km SSE of Pondaguitan, Philippines 發生規模 4.6 地震。"
+      },
+      "summary": {
+        "en": "M4.6 earthquake 109 km SSE of Pondaguitan, Philippines on 2026 10 11 at 02:35 UTC.",
+        "zh": "2026 10 11 02:35 UTC，109 km SSE of Pondaguitan, Philippines 發生 M4.6 地震。"
+      },
+      "data": {
+        "mag": 4.6,
+        "place": "109 km SSE of Pondaguitan, Philippines",
+        "depth_km": 0,
+        "latitude": 5.4706,
+        "longitude": 126.6164
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1i0",
+        "retrieved_utc": "2026-10-11T03:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u1hw",
+      "type": "earthquake",
+      "time_utc": "2026-10-11T01:50:52Z",
+      "title": {
+        "en": "M5 earthquake 3 km NW of Flores, Panama on 2026 10 11.",
+        "zh": "2026 10 11，3 km NW of Flores, Panama 發生規模 5 地震。"
+      },
+      "summary": {
+        "en": "M5 earthquake 3 km NW of Flores, Panama on 2026 10 11 at 01:50 UTC.",
+        "zh": "2026 10 11 01:50 UTC，3 km NW of Flores, Panama 發生 M5 地震。"
+      },
+      "data": {
+        "mag": 5,
+        "place": "3 km NW of Flores, Panama",
+        "depth_km": 0,
+        "latitude": 7.5139,
+        "longitude": -80.4283
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1hw",
+        "retrieved_utc": "2026-10-11T03:00:00Z"
       }
     },
     {
@@ -47,23 +97,23 @@
       "time_utc": "2026-10-11T00:06:09Z",
       "title": {
         "en": "M4.6 earthquake 18 km WNW of Río Grande, Panama on 2026 10 11.",
-        "zh": "2026 年 10 月 11 日，18 km WNW of Río Grande, Panama 發生規模 4.6 地震。"
+        "zh": "2026 10 11，18 km WNW of Río Grande, Panama 發生規模 4.6 地震。"
       },
       "summary": {
         "en": "M4.6 earthquake 18 km WNW of Río Grande, Panama on 2026 10 11 at 00:06 UTC.",
-        "zh": "2026 年 10 月 11 日 00:06 UTC，18 km WNW of Río Grande, Panama 發生 M4.6 地震。"
+        "zh": "2026 10 11 00:06 UTC，18 km WNW of Río Grande, Panama 發生 M4.6 地震。"
       },
       "data": {
         "mag": 4.6,
         "place": "18 km WNW of Río Grande, Panama",
-        "depth_km": 10,
+        "depth_km": 0,
         "latitude": 7.8093,
         "longitude": -81.472
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1hj",
-        "retrieved_utc": "2026-10-11T02:00:00Z"
+        "retrieved_utc": "2026-10-11T03:00:00Z"
       }
     },
     {
@@ -72,23 +122,23 @@
       "time_utc": "2026-10-10T21:38:09Z",
       "title": {
         "en": "M4.5 earthquake 171 km SSW of Pagar Alam, Indonesia on 2026 10 10.",
-        "zh": "2026 年 10 月 10 日，171 km SSW of Pagar Alam, Indonesia 發生規模 4.5 地震。"
+        "zh": "2026 10 10，171 km SSW of Pagar Alam, Indonesia 發生規模 4.5 地震。"
       },
       "summary": {
         "en": "M4.5 earthquake 171 km SSW of Pagar Alam, Indonesia on 2026 10 10 at 21:38 UTC.",
-        "zh": "2026 年 10 月 10 日 21:38 UTC，171 km SSW of Pagar Alam, Indonesia 發生 M4.5 地震。"
+        "zh": "2026 10 10 21:38 UTC，171 km SSW of Pagar Alam, Indonesia 發生 M4.5 地震。"
       },
       "data": {
         "mag": 4.5,
         "place": "171 km SSW of Pagar Alam, Indonesia",
-        "depth_km": 29.581,
+        "depth_km": 0,
         "latitude": -5.403,
         "longitude": 102.5418
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1gu",
-        "retrieved_utc": "2026-10-11T02:00:00Z"
+        "retrieved_utc": "2026-10-11T03:00:00Z"
       }
     },
     {
@@ -97,23 +147,23 @@
       "time_utc": "2026-10-10T21:34:02Z",
       "title": {
         "en": "M5.3 earthquake southeast of Easter Island on 2026 10 10.",
-        "zh": "2026 年 10 月 10 日，southeast of Easter Island 發生規模 5.3 地震。"
+        "zh": "2026 10 10，southeast of Easter Island 發生規模 5.3 地震。"
       },
       "summary": {
         "en": "M5.3 earthquake southeast of Easter Island on 2026 10 10 at 21:34 UTC.",
-        "zh": "2026 年 10 月 10 日 21:34 UTC，southeast of Easter Island 發生 M5.3 地震。"
+        "zh": "2026 10 10 21:34 UTC，southeast of Easter Island 發生 M5.3 地震。"
       },
       "data": {
         "mag": 5.3,
         "place": "southeast of Easter Island",
-        "depth_km": 10,
+        "depth_km": 0,
         "latitude": -37.1165,
         "longitude": -95.2667
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1gs",
-        "retrieved_utc": "2026-10-11T02:00:00Z"
+        "retrieved_utc": "2026-10-11T03:00:00Z"
       }
     },
     {
@@ -122,23 +172,23 @@
       "time_utc": "2026-10-10T20:35:48Z",
       "title": {
         "en": "M4.9 earthquake Kermadec Islands region on 2026 10 10.",
-        "zh": "2026 年 10 月 10 日，Kermadec Islands region 發生規模 4.9 地震。"
+        "zh": "2026 10 10，Kermadec Islands region 發生規模 4.9 地震。"
       },
       "summary": {
         "en": "M4.9 earthquake Kermadec Islands region on 2026 10 10 at 20:35 UTC.",
-        "zh": "2026 年 10 月 10 日 20:35 UTC，Kermadec Islands region 發生 M4.9 地震。"
+        "zh": "2026 10 10 20:35 UTC，Kermadec Islands region 發生 M4.9 地震。"
       },
       "data": {
         "mag": 4.9,
         "place": "Kermadec Islands region",
-        "depth_km": 117.707,
+        "depth_km": 0,
         "latitude": -31.2348,
         "longitude": -178.9752
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1gm",
-        "retrieved_utc": "2026-10-11T02:00:00Z"
+        "retrieved_utc": "2026-10-11T03:00:00Z"
       }
     },
     {
@@ -147,23 +197,23 @@
       "time_utc": "2026-10-10T16:05:42Z",
       "title": {
         "en": "M4.7 earthquake 2 km WNW of El Cacao, Panama on 2026 10 10.",
-        "zh": "2026 年 10 月 10 日，2 km WNW of El Cacao, Panama 發生規模 4.7 地震。"
+        "zh": "2026 10 10，2 km WNW of El Cacao, Panama 發生規模 4.7 地震。"
       },
       "summary": {
         "en": "M4.7 earthquake 2 km WNW of El Cacao, Panama on 2026 10 10 at 16:05 UTC.",
-        "zh": "2026 年 10 月 10 日 16:05 UTC，2 km WNW of El Cacao, Panama 發生 M4.7 地震。"
+        "zh": "2026 10 10 16:05 UTC，2 km WNW of El Cacao, Panama 發生 M4.7 地震。"
       },
       "data": {
         "mag": 4.7,
         "place": "2 km WNW of El Cacao, Panama",
-        "depth_km": 13.518,
+        "depth_km": 0,
         "latitude": 7.4596,
         "longitude": -80.4282
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1fk",
-        "retrieved_utc": "2026-10-11T02:00:00Z"
+        "retrieved_utc": "2026-10-11T03:00:00Z"
       }
     },
     {
@@ -172,23 +222,23 @@
       "time_utc": "2026-10-10T15:58:19Z",
       "title": {
         "en": "M4.8 earthquake 11 km SSW of Tebario, Panama on 2026 10 10.",
-        "zh": "2026 年 10 月 10 日，11 km SSW of Tebario, Panama 發生規模 4.8 地震。"
+        "zh": "2026 10 10，11 km SSW of Tebario, Panama 發生規模 4.8 地震。"
       },
       "summary": {
         "en": "M4.8 earthquake 11 km SSW of Tebario, Panama on 2026 10 10 at 15:58 UTC.",
-        "zh": "2026 年 10 月 10 日 15:58 UTC，11 km SSW of Tebario, Panama 發生 M4.8 地震。"
+        "zh": "2026 10 10 15:58 UTC，11 km SSW of Tebario, Panama 發生 M4.8 地震。"
       },
       "data": {
         "mag": 4.8,
         "place": "11 km SSW of Tebario, Panama",
-        "depth_km": 10,
+        "depth_km": 0,
         "latitude": 7.6231,
         "longitude": -81.0112
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1fj",
-        "retrieved_utc": "2026-10-11T02:00:00Z"
+        "retrieved_utc": "2026-10-11T03:00:00Z"
       }
     },
     {
@@ -197,23 +247,23 @@
       "time_utc": "2026-10-10T15:10:20Z",
       "title": {
         "en": "M4.6 earthquake 51 km NNW of Rabaul, Papua New Guinea on 2026 10 10.",
-        "zh": "2026 年 10 月 10 日，51 km NNW of Rabaul, Papua New Guinea 發生規模 4.6 地震。"
+        "zh": "2026 10 10，51 km NNW of Rabaul, Papua New Guinea 發生規模 4.6 地震。"
       },
       "summary": {
         "en": "M4.6 earthquake 51 km NNW of Rabaul, Papua New Guinea on 2026 10 10 at 15:10 UTC.",
-        "zh": "2026 年 10 月 10 日 15:10 UTC，51 km NNW of Rabaul, Papua New Guinea 發生 M4.6 地震。"
+        "zh": "2026 10 10 15:10 UTC，51 km NNW of Rabaul, Papua New Guinea 發生 M4.6 地震。"
       },
       "data": {
         "mag": 4.6,
         "place": "51 km NNW of Rabaul, Papua New Guinea",
-        "depth_km": 10,
+        "depth_km": 0,
         "latitude": -3.7668,
         "longitude": 151.9827
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1fa",
-        "retrieved_utc": "2026-10-11T02:00:00Z"
+        "retrieved_utc": "2026-10-11T03:00:00Z"
       }
     },
     {
@@ -222,23 +272,23 @@
       "time_utc": "2026-10-10T14:59:23Z",
       "title": {
         "en": "M4.5 earthquake 5 km WNW of Guarumal, Panama on 2026 10 10.",
-        "zh": "2026 年 10 月 10 日，5 km WNW of Guarumal, Panama 發生規模 4.5 地震。"
+        "zh": "2026 10 10，5 km WNW of Guarumal, Panama 發生規模 4.5 地震。"
       },
       "summary": {
         "en": "M4.5 earthquake 5 km WNW of Guarumal, Panama on 2026 10 10 at 14:59 UTC.",
-        "zh": "2026 年 10 月 10 日 14:59 UTC，5 km WNW of Guarumal, Panama 發生 M4.5 地震。"
+        "zh": "2026 10 10 14:59 UTC，5 km WNW of Guarumal, Panama 發生 M4.5 地震。"
       },
       "data": {
         "mag": 4.5,
         "place": "5 km WNW of Guarumal, Panama",
-        "depth_km": 10,
+        "depth_km": 0,
         "latitude": 7.8256,
         "longitude": -81.3036
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1f6",
-        "retrieved_utc": "2026-10-11T02:00:00Z"
+        "retrieved_utc": "2026-10-11T03:00:00Z"
       }
     },
     {
@@ -247,23 +297,23 @@
       "time_utc": "2026-10-10T14:51:45Z",
       "title": {
         "en": "M4.5 earthquake 10 km NNW of El Cortezo, Panama on 2026 10 10.",
-        "zh": "2026 年 10 月 10 日，10 km NNW of El Cortezo, Panama 發生規模 4.5 地震。"
+        "zh": "2026 10 10，10 km NNW of El Cortezo, Panama 發生規模 4.5 地震。"
       },
       "summary": {
         "en": "M4.5 earthquake 10 km NNW of El Cortezo, Panama on 2026 10 10 at 14:51 UTC.",
-        "zh": "2026 年 10 月 10 日 14:51 UTC，10 km NNW of El Cortezo, Panama 發生 M4.5 地震。"
+        "zh": "2026 10 10 14:51 UTC，10 km NNW of El Cortezo, Panama 發生 M4.5 地震。"
       },
       "data": {
         "mag": 4.5,
         "place": "10 km NNW of El Cortezo, Panama",
-        "depth_km": 10,
+        "depth_km": 0,
         "latitude": 7.5178,
         "longitude": -80.6744
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1f3",
-        "retrieved_utc": "2026-10-11T02:00:00Z"
+        "retrieved_utc": "2026-10-11T03:00:00Z"
       }
     },
     {
@@ -272,23 +322,23 @@
       "time_utc": "2026-10-10T13:46:56Z",
       "title": {
         "en": "M4.8 earthquake 12 km NE of La Tronosa, Panama on 2026 10 10.",
-        "zh": "2026 年 10 月 10 日，12 km NE of La Tronosa, Panama 發生規模 4.8 地震。"
+        "zh": "2026 10 10，12 km NE of La Tronosa, Panama 發生規模 4.8 地震。"
       },
       "summary": {
         "en": "M4.8 earthquake 12 km NE of La Tronosa, Panama on 2026 10 10 at 13:46 UTC.",
-        "zh": "2026 年 10 月 10 日 13:46 UTC，12 km NE of La Tronosa, Panama 發生 M4.8 地震。"
+        "zh": "2026 10 10 13:46 UTC，12 km NE of La Tronosa, Panama 發生 M4.8 地震。"
       },
       "data": {
         "mag": 4.8,
         "place": "12 km NE of La Tronosa, Panama",
-        "depth_km": 10,
+        "depth_km": 0,
         "latitude": 7.5187,
         "longitude": -80.5165
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ex",
-        "retrieved_utc": "2026-10-11T02:00:00Z"
+        "retrieved_utc": "2026-10-11T03:00:00Z"
       }
     },
     {
@@ -297,23 +347,23 @@
       "time_utc": "2026-10-10T13:40:44Z",
       "title": {
         "en": "M4.6 earthquake south of the Fiji Islands on 2026 10 10.",
-        "zh": "2026 年 10 月 10 日，south of the Fiji Islands 發生規模 4.6 地震。"
+        "zh": "2026 10 10，south of the Fiji Islands 發生規模 4.6 地震。"
       },
       "summary": {
         "en": "M4.6 earthquake south of the Fiji Islands on 2026 10 10 at 13:40 UTC.",
-        "zh": "2026 年 10 月 10 日 13:40 UTC，south of the Fiji Islands 發生 M4.6 地震。"
+        "zh": "2026 10 10 13:40 UTC，south of the Fiji Islands 發生 M4.6 地震。"
       },
       "data": {
         "mag": 4.6,
         "place": "south of the Fiji Islands",
-        "depth_km": 587.386,
+        "depth_km": 0,
         "latitude": -22.071,
         "longitude": -179.5886
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ew",
-        "retrieved_utc": "2026-10-11T02:00:00Z"
+        "retrieved_utc": "2026-10-11T03:00:00Z"
       }
     },
     {
@@ -322,23 +372,23 @@
       "time_utc": "2026-10-10T13:22:13Z",
       "title": {
         "en": "M4.5 earthquake 4 km NW of Los Asientos, Panama on 2026 10 10.",
-        "zh": "2026 年 10 月 10 日，4 km NW of Los Asientos, Panama 發生規模 4.5 地震。"
+        "zh": "2026 10 10，4 km NW of Los Asientos, Panama 發生規模 4.5 地震。"
       },
       "summary": {
         "en": "M4.5 earthquake 4 km NW of Los Asientos, Panama on 2026 10 10 at 13:22 UTC.",
-        "zh": "2026 年 10 月 10 日 13:22 UTC，4 km NW of Los Asientos, Panama 發生 M4.5 地震。"
+        "zh": "2026 10 10 13:22 UTC，4 km NW of Los Asientos, Panama 發生 M4.5 地震。"
       },
       "data": {
         "mag": 4.5,
         "place": "4 km NW of Los Asientos, Panama",
-        "depth_km": 10,
+        "depth_km": 0,
         "latitude": 7.5481,
         "longitude": -80.166
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ev",
-        "retrieved_utc": "2026-10-11T02:00:00Z"
+        "retrieved_utc": "2026-10-11T03:00:00Z"
       }
     },
     {
@@ -347,23 +397,23 @@
       "time_utc": "2026-10-10T12:21:02Z",
       "title": {
         "en": "M4.6 earthquake 268 km WNW of Houma, Tonga on 2026 10 10.",
-        "zh": "2026 年 10 月 10 日，268 km WNW of Houma, Tonga 發生規模 4.6 地震。"
+        "zh": "2026 10 10，268 km WNW of Houma, Tonga 發生規模 4.6 地震。"
       },
       "summary": {
         "en": "M4.6 earthquake 268 km WNW of Houma, Tonga on 2026 10 10 at 12:21 UTC.",
-        "zh": "2026 年 10 月 10 日 12:21 UTC，268 km WNW of Houma, Tonga 發生 M4.6 地震。"
+        "zh": "2026 10 10 12:21 UTC，268 km WNW of Houma, Tonga 發生 M4.6 地震。"
       },
       "data": {
         "mag": 4.6,
         "place": "268 km WNW of Houma, Tonga",
-        "depth_km": 560.2,
+        "depth_km": 0,
         "latitude": -19.9451,
         "longitude": -177.5258
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ej",
-        "retrieved_utc": "2026-10-11T02:00:00Z"
+        "retrieved_utc": "2026-10-11T03:00:00Z"
       }
     },
     {
@@ -372,23 +422,23 @@
       "time_utc": "2026-10-10T10:35:11Z",
       "title": {
         "en": "M4.8 earthquake 4 km NE of Río Grande, Panama on 2026 10 10.",
-        "zh": "2026 年 10 月 10 日，4 km NE of Río Grande, Panama 發生規模 4.8 地震。"
+        "zh": "2026 10 10，4 km NE of Río Grande, Panama 發生規模 4.8 地震。"
       },
       "summary": {
         "en": "M4.8 earthquake 4 km NE of Río Grande, Panama on 2026 10 10 at 10:35 UTC.",
-        "zh": "2026 年 10 月 10 日 10:35 UTC，4 km NE of Río Grande, Panama 發生 M4.8 地震。"
+        "zh": "2026 10 10 10:35 UTC，4 km NE of Río Grande, Panama 發生 M4.8 地震。"
       },
       "data": {
         "mag": 4.8,
         "place": "4 km NE of Río Grande, Panama",
-        "depth_km": 10,
+        "depth_km": 0,
         "latitude": 7.7463,
         "longitude": -81.3092
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1e5",
-        "retrieved_utc": "2026-10-11T02:00:00Z"
+        "retrieved_utc": "2026-10-11T03:00:00Z"
       }
     },
     {
@@ -397,23 +447,23 @@
       "time_utc": "2026-10-10T09:42:58Z",
       "title": {
         "en": "M4.6 earthquake 31 km SE of Vanimo, Papua New Guinea on 2026 10 10.",
-        "zh": "2026 年 10 月 10 日，31 km SE of Vanimo, Papua New Guinea 發生規模 4.6 地震。"
+        "zh": "2026 10 10，31 km SE of Vanimo, Papua New Guinea 發生規模 4.6 地震。"
       },
       "summary": {
         "en": "M4.6 earthquake 31 km SE of Vanimo, Papua New Guinea on 2026 10 10 at 09:42 UTC.",
-        "zh": "2026 年 10 月 10 日 09:42 UTC，31 km SE of Vanimo, Papua New Guinea 發生 M4.6 地震。"
+        "zh": "2026 10 10 09:42 UTC，31 km SE of Vanimo, Papua New Guinea 發生 M4.6 地震。"
       },
       "data": {
         "mag": 4.6,
         "place": "31 km SE of Vanimo, Papua New Guinea",
-        "depth_km": 30.387,
+        "depth_km": 0,
         "latitude": -2.8851,
         "longitude": 141.496
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1dy",
-        "retrieved_utc": "2026-10-11T02:00:00Z"
+        "retrieved_utc": "2026-10-11T03:00:00Z"
       }
     },
     {
@@ -422,23 +472,23 @@
       "time_utc": "2026-10-10T08:38:50Z",
       "title": {
         "en": "M4.5 earthquake 61 km N of Hihifo, Tonga on 2026 10 10.",
-        "zh": "2026 年 10 月 10 日，61 km N of Hihifo, Tonga 發生規模 4.5 地震。"
+        "zh": "2026 10 10，61 km N of Hihifo, Tonga 發生規模 4.5 地震。"
       },
       "summary": {
         "en": "M4.5 earthquake 61 km N of Hihifo, Tonga on 2026 10 10 at 08:38 UTC.",
-        "zh": "2026 年 10 月 10 日 08:38 UTC，61 km N of Hihifo, Tonga 發生 M4.5 地震。"
+        "zh": "2026 10 10 08:38 UTC，61 km N of Hihifo, Tonga 發生 M4.5 地震。"
       },
       "data": {
         "mag": 4.5,
         "place": "61 km N of Hihifo, Tonga",
-        "depth_km": 79.424,
+        "depth_km": 0,
         "latitude": -15.397,
         "longitude": -173.7816
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1dm",
-        "retrieved_utc": "2026-10-11T02:00:00Z"
+        "retrieved_utc": "2026-10-11T03:00:00Z"
       }
     },
     {
@@ -447,23 +497,23 @@
       "time_utc": "2026-10-10T07:13:30Z",
       "title": {
         "en": "M4.6 earthquake 6 km SSE of Llano de Piedra, Panama on 2026 10 10.",
-        "zh": "2026 年 10 月 10 日，6 km SSE of Llano de Piedra, Panama 發生規模 4.6 地震。"
+        "zh": "2026 10 10，6 km SSE of Llano de Piedra, Panama 發生規模 4.6 地震。"
       },
       "summary": {
         "en": "M4.6 earthquake 6 km SSE of Llano de Piedra, Panama on 2026 10 10 at 07:13 UTC.",
-        "zh": "2026 年 10 月 10 日 07:13 UTC，6 km SSE of Llano de Piedra, Panama 發生 M4.6 地震。"
+        "zh": "2026 10 10 07:13 UTC，6 km SSE of Llano de Piedra, Panama 發生 M4.6 地震。"
       },
       "data": {
         "mag": 4.6,
         "place": "6 km SSE of Llano de Piedra, Panama",
-        "depth_km": 10,
+        "depth_km": 0,
         "latitude": 7.6182,
         "longitude": -80.5348
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1dc",
-        "retrieved_utc": "2026-10-11T02:00:00Z"
+        "retrieved_utc": "2026-10-11T03:00:00Z"
       }
     },
     {
@@ -472,23 +522,23 @@
       "time_utc": "2026-10-10T06:47:49Z",
       "title": {
         "en": "M4.5 earthquake 10 km SE of Pedasí, Panama on 2026 10 10.",
-        "zh": "2026 年 10 月 10 日，10 km SE of Pedasí, Panama 發生規模 4.5 地震。"
+        "zh": "2026 10 10，10 km SE of Pedasí, Panama 發生規模 4.5 地震。"
       },
       "summary": {
         "en": "M4.5 earthquake 10 km SE of Pedasí, Panama on 2026 10 10 at 06:47 UTC.",
-        "zh": "2026 年 10 月 10 日 06:47 UTC，10 km SE of Pedasí, Panama 發生 M4.5 地震。"
+        "zh": "2026 10 10 06:47 UTC，10 km SE of Pedasí, Panama 發生 M4.5 地震。"
       },
       "data": {
         "mag": 4.5,
         "place": "10 km SE of Pedasí, Panama",
-        "depth_km": 10,
+        "depth_km": 0,
         "latitude": 7.4558,
         "longitude": -79.9613
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1db",
-        "retrieved_utc": "2026-10-11T02:00:00Z"
+        "retrieved_utc": "2026-10-11T03:00:00Z"
       }
     },
     {
@@ -497,23 +547,23 @@
       "time_utc": "2026-10-10T06:30:03Z",
       "title": {
         "en": "M4.9 earthquake 26 km SSE of Pedasí, Panama on 2026 10 10.",
-        "zh": "2026 年 10 月 10 日，26 km SSE of Pedasí, Panama 發生規模 4.9 地震。"
+        "zh": "2026 10 10，26 km SSE of Pedasí, Panama 發生規模 4.9 地震。"
       },
       "summary": {
         "en": "M4.9 earthquake 26 km SSE of Pedasí, Panama on 2026 10 10 at 06:30 UTC.",
-        "zh": "2026 年 10 月 10 日 06:30 UTC，26 km SSE of Pedasí, Panama 發生 M4.9 地震。"
+        "zh": "2026 10 10 06:30 UTC，26 km SSE of Pedasí, Panama 發生 M4.9 地震。"
       },
       "data": {
         "mag": 4.9,
         "place": "26 km SSE of Pedasí, Panama",
-        "depth_km": 10,
+        "depth_km": 0,
         "latitude": 7.2997,
         "longitude": -79.9687
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1d7",
-        "retrieved_utc": "2026-10-11T02:00:00Z"
+        "retrieved_utc": "2026-10-11T03:00:00Z"
       }
     },
     {
@@ -522,23 +572,23 @@
       "time_utc": "2026-10-10T06:27:09Z",
       "title": {
         "en": "M4.7 earthquake 26 km S of Pedasí, Panama on 2026 10 10.",
-        "zh": "2026 年 10 月 10 日，26 km S of Pedasí, Panama 發生規模 4.7 地震。"
+        "zh": "2026 10 10，26 km S of Pedasí, Panama 發生規模 4.7 地震。"
       },
       "summary": {
         "en": "M4.7 earthquake 26 km S of Pedasí, Panama on 2026 10 10 at 06:27 UTC.",
-        "zh": "2026 年 10 月 10 日 06:27 UTC，26 km S of Pedasí, Panama 發生 M4.7 地震。"
+        "zh": "2026 10 10 06:27 UTC，26 km S of Pedasí, Panama 發生 M4.7 地震。"
       },
       "data": {
         "mag": 4.7,
         "place": "26 km S of Pedasí, Panama",
-        "depth_km": 10,
+        "depth_km": 0,
         "latitude": 7.2969,
         "longitude": -79.9827
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1d5",
-        "retrieved_utc": "2026-10-11T02:00:00Z"
+        "retrieved_utc": "2026-10-11T03:00:00Z"
       }
     },
     {
@@ -547,23 +597,23 @@
       "time_utc": "2026-10-10T06:18:55Z",
       "title": {
         "en": "M4.9 earthquake 10 km SSW of Cañas, Panama on 2026 10 10.",
-        "zh": "2026 年 10 月 10 日，10 km SSW of Cañas, Panama 發生規模 4.9 地震。"
+        "zh": "2026 10 10，10 km SSW of Cañas, Panama 發生規模 4.9 地震。"
       },
       "summary": {
         "en": "M4.9 earthquake 10 km SSW of Cañas, Panama on 2026 10 10 at 06:18 UTC.",
-        "zh": "2026 年 10 月 10 日 06:18 UTC，10 km SSW of Cañas, Panama 發生 M4.9 地震。"
+        "zh": "2026 10 10 06:18 UTC，10 km SSW of Cañas, Panama 發生 M4.9 地震。"
       },
       "data": {
         "mag": 4.9,
         "place": "10 km SSW of Cañas, Panama",
-        "depth_km": 10,
+        "depth_km": 0,
         "latitude": 7.3663,
         "longitude": -80.3171
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1d2",
-        "retrieved_utc": "2026-10-11T02:00:00Z"
+        "retrieved_utc": "2026-10-11T03:00:00Z"
       }
     },
     {
@@ -572,23 +622,23 @@
       "time_utc": "2026-10-10T06:16:32Z",
       "title": {
         "en": "M4.5 earthquake 25 km SSE of Pedasí, Panama on 2026 10 10.",
-        "zh": "2026 年 10 月 10 日，25 km SSE of Pedasí, Panama 發生規模 4.5 地震。"
+        "zh": "2026 10 10，25 km SSE of Pedasí, Panama 發生規模 4.5 地震。"
       },
       "summary": {
         "en": "M4.5 earthquake 25 km SSE of Pedasí, Panama on 2026 10 10 at 06:16 UTC.",
-        "zh": "2026 年 10 月 10 日 06:16 UTC，25 km SSE of Pedasí, Panama 發生 M4.5 地震。"
+        "zh": "2026 10 10 06:16 UTC，25 km SSE of Pedasí, Panama 發生 M4.5 地震。"
       },
       "data": {
         "mag": 4.5,
         "place": "25 km SSE of Pedasí, Panama",
-        "depth_km": 10,
+        "depth_km": 0,
         "latitude": 7.3167,
         "longitude": -79.9478
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1d1",
-        "retrieved_utc": "2026-10-11T02:00:00Z"
+        "retrieved_utc": "2026-10-11T03:00:00Z"
       }
     },
     {
@@ -597,23 +647,23 @@
       "time_utc": "2026-10-10T05:45:59Z",
       "title": {
         "en": "M4.5 earthquake 6 km WSW of Filadelfia, Colombia on 2026 10 10.",
-        "zh": "2026 年 10 月 10 日，6 km WSW of Filadelfia, Colombia 發生規模 4.5 地震。"
+        "zh": "2026 10 10，6 km WSW of Filadelfia, Colombia 發生規模 4.5 地震。"
       },
       "summary": {
         "en": "M4.5 earthquake 6 km WSW of Filadelfia, Colombia on 2026 10 10 at 05:45 UTC.",
-        "zh": "2026 年 10 月 10 日 05:45 UTC，6 km WSW of Filadelfia, Colombia 發生 M4.5 地震。"
+        "zh": "2026 10 10 05:45 UTC，6 km WSW of Filadelfia, Colombia 發生 M4.5 地震。"
       },
       "data": {
         "mag": 4.5,
         "place": "6 km WSW of Filadelfia, Colombia",
-        "depth_km": 115.143,
+        "depth_km": 0,
         "latitude": 5.267,
         "longitude": -75.6127
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cx",
-        "retrieved_utc": "2026-10-11T02:00:00Z"
+        "retrieved_utc": "2026-10-11T03:00:00Z"
       }
     },
     {
@@ -622,23 +672,23 @@
       "time_utc": "2026-10-10T05:32:01Z",
       "title": {
         "en": "M5 earthquake 141 km E of Bitung, Indonesia on 2026 10 10.",
-        "zh": "2026 年 10 月 10 日，141 km E of Bitung, Indonesia 發生規模 5 地震。"
+        "zh": "2026 10 10，141 km E of Bitung, Indonesia 發生規模 5 地震。"
       },
       "summary": {
         "en": "M5 earthquake 141 km E of Bitung, Indonesia on 2026 10 10 at 05:32 UTC.",
-        "zh": "2026 年 10 月 10 日 05:32 UTC，141 km E of Bitung, Indonesia 發生 M5 地震。"
+        "zh": "2026 10 10 05:32 UTC，141 km E of Bitung, Indonesia 發生 M5 地震。"
       },
       "data": {
         "mag": 5,
         "place": "141 km E of Bitung, Indonesia",
-        "depth_km": 10,
+        "depth_km": 0,
         "latitude": 1.6248,
         "longitude": 126.3886
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cv",
-        "retrieved_utc": "2026-10-11T02:00:00Z"
+        "retrieved_utc": "2026-10-11T03:00:00Z"
       }
     },
     {
@@ -647,23 +697,23 @@
       "time_utc": "2026-10-10T04:33:03Z",
       "title": {
         "en": "M4.5 earthquake 9 km WNW of Flores, Panama on 2026 10 10.",
-        "zh": "2026 年 10 月 10 日，9 km WNW of Flores, Panama 發生規模 4.5 地震。"
+        "zh": "2026 10 10，9 km WNW of Flores, Panama 發生規模 4.5 地震。"
       },
       "summary": {
         "en": "M4.5 earthquake 9 km WNW of Flores, Panama on 2026 10 10 at 04:33 UTC.",
-        "zh": "2026 年 10 月 10 日 04:33 UTC，9 km WNW of Flores, Panama 發生 M4.5 地震。"
+        "zh": "2026 10 10 04:33 UTC，9 km WNW of Flores, Panama 發生 M4.5 地震。"
       },
       "data": {
         "mag": 4.5,
         "place": "9 km WNW of Flores, Panama",
-        "depth_km": 10,
+        "depth_km": 0,
         "latitude": 7.5239,
         "longitude": -80.4791
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ck",
-        "retrieved_utc": "2026-10-11T02:00:00Z"
+        "retrieved_utc": "2026-10-11T03:00:00Z"
       }
     },
     {
@@ -672,23 +722,23 @@
       "time_utc": "2026-10-10T04:14:01Z",
       "title": {
         "en": "M6 earthquake 7 km N of La Tronosa, Panama on 2026 10 10.",
-        "zh": "2026 年 10 月 10 日，7 km N of La Tronosa, Panama 發生規模 6 地震。"
+        "zh": "2026 10 10，7 km N of La Tronosa, Panama 發生規模 6 地震。"
       },
       "summary": {
         "en": "M6 earthquake 7 km N of La Tronosa, Panama on 2026 10 10 at 04:14 UTC.",
-        "zh": "2026 年 10 月 10 日 04:14 UTC，7 km N of La Tronosa, Panama 發生 M6 地震。"
+        "zh": "2026 10 10 04:14 UTC，7 km N of La Tronosa, Panama 發生 M6 地震。"
       },
       "data": {
         "mag": 6,
         "place": "7 km N of La Tronosa, Panama",
-        "depth_km": 10,
+        "depth_km": 0,
         "latitude": 7.5068,
         "longitude": -80.5985
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cf",
-        "retrieved_utc": "2026-10-11T02:00:00Z"
+        "retrieved_utc": "2026-10-11T03:00:00Z"
       }
     },
     {
@@ -697,23 +747,23 @@
       "time_utc": "2026-10-10T03:58:18Z",
       "title": {
         "en": "M5.3 earthquake 41 km NNE of Yigo Village, Guam on 2026 10 10.",
-        "zh": "2026 年 10 月 10 日，41 km NNE of Yigo Village, Guam 發生規模 5.3 地震。"
+        "zh": "2026 10 10，41 km NNE of Yigo Village, Guam 發生規模 5.3 地震。"
       },
       "summary": {
         "en": "M5.3 earthquake 41 km NNE of Yigo Village, Guam on 2026 10 10 at 03:58 UTC.",
-        "zh": "2026 年 10 月 10 日 03:58 UTC，41 km NNE of Yigo Village, Guam 發生 M5.3 地震。"
+        "zh": "2026 10 10 03:58 UTC，41 km NNE of Yigo Village, Guam 發生 M5.3 地震。"
       },
       "data": {
         "mag": 5.3,
         "place": "41 km NNE of Yigo Village, Guam",
-        "depth_km": 111.584,
+        "depth_km": 0,
         "latitude": 13.8594,
         "longitude": 145.0892
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cd",
-        "retrieved_utc": "2026-10-11T02:00:00Z"
+        "retrieved_utc": "2026-10-11T03:00:00Z"
       }
     },
     {
@@ -722,73 +772,23 @@
       "time_utc": "2026-10-10T03:56:17Z",
       "title": {
         "en": "M4.7 earthquake 8 km N of La Tronosa, Panama on 2026 10 10.",
-        "zh": "2026 年 10 月 10 日，8 km N of La Tronosa, Panama 發生規模 4.7 地震。"
+        "zh": "2026 10 10，8 km N of La Tronosa, Panama 發生規模 4.7 地震。"
       },
       "summary": {
         "en": "M4.7 earthquake 8 km N of La Tronosa, Panama on 2026 10 10 at 03:56 UTC.",
-        "zh": "2026 年 10 月 10 日 03:56 UTC，8 km N of La Tronosa, Panama 發生 M4.7 地震。"
+        "zh": "2026 10 10 03:56 UTC，8 km N of La Tronosa, Panama 發生 M4.7 地震。"
       },
       "data": {
         "mag": 4.7,
         "place": "8 km N of La Tronosa, Panama",
-        "depth_km": 10,
+        "depth_km": 0,
         "latitude": 7.5141,
         "longitude": -80.5849
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cb",
-        "retrieved_utc": "2026-10-11T02:00:00Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u1bw",
-      "type": "earthquake",
-      "time_utc": "2026-10-10T02:43:38Z",
-      "title": {
-        "en": "M4.5 earthquake 18 km SSE of Río Grande, Panama on 2026 10 10.",
-        "zh": "2026 年 10 月 10 日，18 km SSE of Río Grande, Panama 發生規模 4.5 地震。"
-      },
-      "summary": {
-        "en": "M4.5 earthquake 18 km SSE of Río Grande, Panama on 2026 10 10 at 02:43 UTC.",
-        "zh": "2026 年 10 月 10 日 02:43 UTC，18 km SSE of Río Grande, Panama 發生 M4.5 地震。"
-      },
-      "data": {
-        "mag": 4.5,
-        "place": "18 km SSE of Río Grande, Panama",
-        "depth_km": 10,
-        "latitude": 7.5746,
-        "longitude": -81.2493
-      },
-      "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1bw",
-        "retrieved_utc": "2026-10-11T02:00:00Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u1bu",
-      "type": "earthquake",
-      "time_utc": "2026-10-10T02:26:32Z",
-      "title": {
-        "en": "M5.1 earthquake 1 km NNE of Tonosí, Panama on 2026 10 10.",
-        "zh": "2026 年 10 月 10 日，1 km NNE of Tonosí, Panama 發生規模 5.1 地震。"
-      },
-      "summary": {
-        "en": "M5.1 earthquake 1 km NNE of Tonosí, Panama on 2026 10 10 at 02:26 UTC.",
-        "zh": "2026 年 10 月 10 日 02:26 UTC，1 km NNE of Tonosí, Panama 發生 M5.1 地震。"
-      },
-      "data": {
-        "mag": 5.1,
-        "place": "1 km NNE of Tonosí, Panama",
-        "depth_km": 10,
-        "latitude": 7.4178,
-        "longitude": -80.4348
-      },
-      "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1bu",
-        "retrieved_utc": "2026-10-11T02:00:00Z"
+        "retrieved_utc": "2026-10-11T03:00:00Z"
       }
     }
   ]
