@@ -1,32 +1,32 @@
 {
   "date": "2026-10-11",
-  "updated": "2026-10-11T15:00:00Z",
+  "updated": "2026-10-11T16:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-11T13:00Z",
+      "time_utc": "2026-10-11T15:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 2.33 (2P) at 13:00 UTC on 11 October 2026.",
-        "zh": "2026 年 10 月 11 日 13:00 UTC，估算行星 Kp 為 2.33（2P）。"
+        "en": "Estimated planetary Kp is 0.00 (0Z) at 15:00 UTC on 11 October 2026.",
+        "zh": "2026 年 10 月 11 日 15:00 UTC，估算行星 Kp 為 0.00（0Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 2.33 (2P) at 2026-10-11T13:00:00 UTC on 11 October 2026. The 13 hour is complete (60 samples through 13:59; hour-start 2.33/2P, hour-end 2.67/3M). Last-180 maximum is 3 (first at 2026-10-11T11:57:00; label 3Z). Published-window maximum is 3 (first at 2026-10-11T11:47:00; label 3Z). Window starts 2026-10-11T09:00:00 (358 samples). The 14 UTC hour on 11 October is incomplete (58 samples through 14:57).",
-        "zh": "最新可靠整點初值：2026-10-11T13:00:00 估算 Kp 2.33（2P）。13 時段已收滿（60 筆至 13:59；時段初 2.33／2P、時段末 2.67／3M）。last-180 最大 3（最先見於 11:57 UTC；標籤 3Z）。公開窗最大 3（最先見於 11:47 UTC；標籤 3Z）。窗起點 2026-10-11T09:00:00（358 筆）。14 時段未滿（58 筆至 14:57）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 2026-10-11T15:00:00 UTC on 11 October 2026. The 15 hour is complete (60 samples through 15:59; hour-start 0.00/0Z, hour-end 2.00/2Z). Last-180 maximum is 2.67 (first at 2026-10-11T13:27:00; label 3M). Published-window maximum is 3.00 (first at 2026-10-11T11:47:00; label 3Z). Window starts 2026-10-11T10:02:00 (358 samples). No incomplete next hour in current feed.",
+        "zh": "最新可靠整點初值：2026-10-11T15:00:00 估算 Kp 0.00（0Z）。15 時段已收滿（60 筆至 15:59；時段初 0.00／0Z、時段末 2.00／2Z）。last-180 最大 2.67（最先見於 13:27 UTC；標籤 3M）。公開窗最大 3.00（最先見於 11:47 UTC；標籤 3Z）。窗起點 2026-10-11T10:02:00（358 筆）。當前饋送無下一未滿時段。"
       },
       "data": {
-        "estimated_kp": 2.33,
-        "kp_label": "2P",
-        "hour_start": "2026-10-11T13:00:00Z",
+        "estimated_kp": 0.0,
+        "kp_label": "0Z",
+        "hour_start": "2026-10-11T15:00:00Z",
         "hour_complete": true,
         "samples": 60,
-        "hour_end_kp": 2.67,
-        "hour_end_label": "3M"
+        "hour_end_kp": 2.0,
+        "hour_end_label": "2Z"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "retrieved_utc": "2026-10-11T15:00:00Z"
+        "retrieved_utc": "2026-10-11T16:00:00Z"
       }
     },
     {
@@ -51,7 +51,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1kv",
-        "retrieved_utc": "2026-10-11T15:00:00Z"
+        "retrieved_utc": "2026-10-11T16:00:00Z"
       }
     },
     {
@@ -76,7 +76,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1kt",
-        "retrieved_utc": "2026-10-11T15:00:00Z"
+        "retrieved_utc": "2026-10-11T16:00:00Z"
       }
     },
     {
@@ -101,7 +101,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ka",
-        "retrieved_utc": "2026-10-11T15:00:00Z"
+        "retrieved_utc": "2026-10-11T16:00:00Z"
       }
     },
     {
@@ -126,7 +126,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1k3",
-        "retrieved_utc": "2026-10-11T15:00:00Z"
+        "retrieved_utc": "2026-10-11T16:00:00Z"
       }
     },
     {
@@ -151,7 +151,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1jv",
-        "retrieved_utc": "2026-10-11T15:00:00Z"
+        "retrieved_utc": "2026-10-11T16:00:00Z"
       }
     },
     {
@@ -176,7 +176,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1j3",
-        "retrieved_utc": "2026-10-11T15:00:00Z"
+        "retrieved_utc": "2026-10-11T16:00:00Z"
       }
     },
     {
@@ -201,7 +201,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1il",
-        "retrieved_utc": "2026-10-11T15:00:00Z"
+        "retrieved_utc": "2026-10-11T16:00:00Z"
       }
     },
     {
@@ -226,7 +226,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1i6",
-        "retrieved_utc": "2026-10-11T15:00:00Z"
+        "retrieved_utc": "2026-10-11T16:00:00Z"
       }
     },
     {
@@ -251,7 +251,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1i0",
-        "retrieved_utc": "2026-10-11T15:00:00Z"
+        "retrieved_utc": "2026-10-11T16:00:00Z"
       }
     },
     {
@@ -276,7 +276,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1hw",
-        "retrieved_utc": "2026-10-11T15:00:00Z"
+        "retrieved_utc": "2026-10-11T16:00:00Z"
       }
     },
     {
@@ -301,7 +301,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1hj",
-        "retrieved_utc": "2026-10-11T15:00:00Z"
+        "retrieved_utc": "2026-10-11T16:00:00Z"
       }
     },
     {
@@ -309,12 +309,12 @@
       "type": "earthquake",
       "time_utc": "2026-10-10T21:38:09Z",
       "title": {
-        "en": "M4.5 earthquake 171 km SSW of Pagar Alam, Indonesia on 2026 10 11.",
-        "zh": "2026 10 11，171 km SSW of Pagar Alam, Indonesia 發生規模 4.5 地震。"
+        "en": "M4.5 earthquake 171 km SSW of Pagar Alam, Indonesia on 2026 10 10.",
+        "zh": "2026 10 10，171 km SSW of Pagar Alam, Indonesia 發生規模 4.5 地震。"
       },
       "summary": {
-        "en": "M4.5 earthquake 171 km SSW of Pagar Alam, Indonesia on 2026 10 11 at 21:38 UTC.",
-        "zh": "2026 10 11 21:38 UTC，171 km SSW of Pagar Alam, Indonesia 發生 M4.5 地震。"
+        "en": "M4.5 earthquake 171 km SSW of Pagar Alam, Indonesia on 2026 10 10 at 21:38 UTC.",
+        "zh": "2026 10 10 21:38 UTC，171 km SSW of Pagar Alam, Indonesia 發生 M4.5 地震。"
       },
       "data": {
         "mag": 4.5,
@@ -326,7 +326,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1gu",
-        "retrieved_utc": "2026-10-11T15:00:00Z"
+        "retrieved_utc": "2026-10-11T16:00:00Z"
       }
     },
     {
@@ -334,12 +334,12 @@
       "type": "earthquake",
       "time_utc": "2026-10-10T21:34:02Z",
       "title": {
-        "en": "M5.3 earthquake southeast of Easter Island on 2026 10 11.",
-        "zh": "2026 10 11，southeast of Easter Island 發生規模 5.3 地震。"
+        "en": "M5.3 earthquake southeast of Easter Island on 2026 10 10.",
+        "zh": "2026 10 10，southeast of Easter Island 發生規模 5.3 地震。"
       },
       "summary": {
-        "en": "M5.3 earthquake southeast of Easter Island on 2026 10 11 at 21:34 UTC.",
-        "zh": "2026 10 11 21:34 UTC，southeast of Easter Island 發生 M5.3 地震。"
+        "en": "M5.3 earthquake southeast of Easter Island on 2026 10 10 at 21:34 UTC.",
+        "zh": "2026 10 10 21:34 UTC，southeast of Easter Island 發生 M5.3 地震。"
       },
       "data": {
         "mag": 5.3,
@@ -351,7 +351,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1gs",
-        "retrieved_utc": "2026-10-11T15:00:00Z"
+        "retrieved_utc": "2026-10-11T16:00:00Z"
       }
     },
     {
@@ -359,12 +359,12 @@
       "type": "earthquake",
       "time_utc": "2026-10-10T20:35:48Z",
       "title": {
-        "en": "M4.9 earthquake Kermadec Islands region on 2026 10 11.",
-        "zh": "2026 10 11，Kermadec Islands region 發生規模 4.9 地震。"
+        "en": "M4.9 earthquake Kermadec Islands region on 2026 10 10.",
+        "zh": "2026 10 10，Kermadec Islands region 發生規模 4.9 地震。"
       },
       "summary": {
-        "en": "M4.9 earthquake Kermadec Islands region on 2026 10 11 at 20:35 UTC.",
-        "zh": "2026 10 11 20:35 UTC，Kermadec Islands region 發生 M4.9 地震。"
+        "en": "M4.9 earthquake Kermadec Islands region on 2026 10 10 at 20:35 UTC.",
+        "zh": "2026 10 10 20:35 UTC，Kermadec Islands region 發生 M4.9 地震。"
       },
       "data": {
         "mag": 4.9,
@@ -376,7 +376,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1gm",
-        "retrieved_utc": "2026-10-11T15:00:00Z"
+        "retrieved_utc": "2026-10-11T16:00:00Z"
       }
     },
     {
@@ -384,12 +384,12 @@
       "type": "earthquake",
       "time_utc": "2026-10-10T19:15:54Z",
       "title": {
-        "en": "M4.6 earthquake southern Mid-Atlantic Ridge on 2026 10 11.",
-        "zh": "2026 10 11，southern Mid-Atlantic Ridge 發生規模 4.6 地震。"
+        "en": "M4.6 earthquake southern Mid-Atlantic Ridge on 2026 10 10.",
+        "zh": "2026 10 10，southern Mid-Atlantic Ridge 發生規模 4.6 地震。"
       },
       "summary": {
-        "en": "M4.6 earthquake southern Mid-Atlantic Ridge on 2026 10 11 at 19:15 UTC.",
-        "zh": "2026 10 11 19:15 UTC，southern Mid-Atlantic Ridge 發生 M4.6 地震。"
+        "en": "M4.6 earthquake southern Mid-Atlantic Ridge on 2026 10 10 at 19:15 UTC.",
+        "zh": "2026 10 10 19:15 UTC，southern Mid-Atlantic Ridge 發生 M4.6 地震。"
       },
       "data": {
         "mag": 4.6,
@@ -401,7 +401,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1jt",
-        "retrieved_utc": "2026-10-11T15:00:00Z"
+        "retrieved_utc": "2026-10-11T16:00:00Z"
       }
     },
     {
@@ -409,12 +409,12 @@
       "type": "earthquake",
       "time_utc": "2026-10-10T16:05:42Z",
       "title": {
-        "en": "M4.7 earthquake 2 km WNW of El Cacao, Panama on 2026 10 11.",
-        "zh": "2026 10 11，2 km WNW of El Cacao, Panama 發生規模 4.7 地震。"
+        "en": "M4.7 earthquake 2 km WNW of El Cacao, Panama on 2026 10 10.",
+        "zh": "2026 10 10，2 km WNW of El Cacao, Panama 發生規模 4.7 地震。"
       },
       "summary": {
-        "en": "M4.7 earthquake 2 km WNW of El Cacao, Panama on 2026 10 11 at 16:05 UTC.",
-        "zh": "2026 10 11 16:05 UTC，2 km WNW of El Cacao, Panama 發生 M4.7 地震。"
+        "en": "M4.7 earthquake 2 km WNW of El Cacao, Panama on 2026 10 10 at 16:05 UTC.",
+        "zh": "2026 10 10 16:05 UTC，2 km WNW of El Cacao, Panama 發生 M4.7 地震。"
       },
       "data": {
         "mag": 4.7,
@@ -426,57 +426,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1fk",
-        "retrieved_utc": "2026-10-11T15:00:00Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u1fj",
-      "type": "earthquake",
-      "time_utc": "2026-10-10T15:58:19Z",
-      "title": {
-        "en": "M4.8 earthquake 11 km SSW of Tebario, Panama on 2026 10 11.",
-        "zh": "2026 10 11，11 km SSW of Tebario, Panama 發生規模 4.8 地震。"
-      },
-      "summary": {
-        "en": "M4.8 earthquake 11 km SSW of Tebario, Panama on 2026 10 11 at 15:58 UTC.",
-        "zh": "2026 10 11 15:58 UTC，11 km SSW of Tebario, Panama 發生 M4.8 地震。"
-      },
-      "data": {
-        "mag": 4.8,
-        "place": "11 km SSW of Tebario, Panama",
-        "depth_km": 10,
-        "latitude": 7.6231,
-        "longitude": -81.0112
-      },
-      "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1fj",
-        "retrieved_utc": "2026-10-11T15:00:00Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u1fa",
-      "type": "earthquake",
-      "time_utc": "2026-10-10T15:10:20Z",
-      "title": {
-        "en": "M4.6 earthquake 51 km NNW of Rabaul, Papua New Guinea on 2026 10 11.",
-        "zh": "2026 10 11，51 km NNW of Rabaul, Papua New Guinea 發生規模 4.6 地震。"
-      },
-      "summary": {
-        "en": "M4.6 earthquake 51 km NNW of Rabaul, Papua New Guinea on 2026 10 11 at 15:10 UTC.",
-        "zh": "2026 10 11 15:10 UTC，51 km NNW of Rabaul, Papua New Guinea 發生 M4.6 地震。"
-      },
-      "data": {
-        "mag": 4.6,
-        "place": "51 km NNW of Rabaul, Papua New Guinea",
-        "depth_km": 10,
-        "latitude": -3.7668,
-        "longitude": 151.9827
-      },
-      "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1fa",
-        "retrieved_utc": "2026-10-11T15:00:00Z"
+        "retrieved_utc": "2026-10-11T16:00:00Z"
       }
     }
   ]
