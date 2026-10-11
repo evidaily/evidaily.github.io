@@ -1,23 +1,23 @@
 {
   "date": "2026-10-11",
-  "updated": "2026-10-11T22:00:00Z",
+  "updated": "2026-10-11T23:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-11T20:00Z",
+      "time_utc": "2026-10-11T21:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 1.67 (2M) at 20:00 UTC on 11 October 2026.",
-        "zh": "2026 年 10 月 11 日 20:00 UTC，估算行星 Kp 為 1.67（2M）。"
+        "en": "Estimated planetary Kp is 0.00 (0Z) at 21:00 UTC on 11 October 2026.",
+        "zh": "2026 年 10 月 11 日 21:00 UTC，估算行星 Kp 為 0.00（0Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 1.67 (2M) at 2026-10-11T20:00:00 UTC on 11 October 2026. The 20 hour is complete (60 samples through 20:59; hour-start 1.67/2M, hour-end 1.33/1P). Last-180 maximum is 2.00 (first at 2026-10-11T19:03:00Z; label 2Z). Published-window maximum is 2.33 (first at 2026-10-11T16:02:00Z; label 2P). Window starts 2026-10-11T16:02:00 (357 samples). Next hour 21:00 incomplete (59 samples through 21:58).",
-        "zh": "最新可靠整點初值：2026-10-11T20:00:00 估算 Kp 1.67（2M）。20 時段已收滿（60 筆至 20:59；時段初 1.67／2M、時段末 1.33／1P）。last-180 最大 2.00（最先見於 19:03 UTC；標籤 2Z）。公開窗最大 2.33（最先見於 16:02 UTC；標籤 2P）。窗起點 2026-10-11T16:02:00（357 筆）。下一時段 21:00 未滿（59 筆至 21:58）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 2026-10-11T21:00:00 UTC on 11 October 2026. The 21 hour is complete (60 samples through 21:59; hour-start 0.00/0Z, hour-end 1.33/1P). Last-180 maximum is 2.00 (first at 2026-10-11T20:12:00Z; label 2Z). Published-window maximum is 2.33 (first at 2026-10-11T17:01:00Z; label 2P). Window starts 2026-10-11T17:01:00 (358 samples). Next hour 22:00 incomplete (59 samples through 22:58).",
+        "zh": "最新可靠整點初值：2026-10-11T21:00:00 估算 Kp 0.00（0Z）。21 時段已收滿（60 筆至 21:59；時段初 0.00／0Z、時段末 1.33／1P）。last-180 最大 2.00（最先見於 20:12 UTC；標籤 2Z）。公開窗最大 2.33（最先見於 17:01 UTC；標籤 2P）。窗起點 2026-10-11T17:01:00（358 筆）。下一時段 22:00 未滿（59 筆至 22:58）。"
       },
       "data": {
-        "estimated_kp": 1.67,
-        "kp_label": "2M",
-        "hour_start": "2026-10-11T20:00:00Z",
+        "estimated_kp": 0.0,
+        "kp_label": "0Z",
+        "hour_start": "2026-10-11T21:00:00Z",
         "hour_complete": true,
         "samples": 60,
         "hour_end_kp": 1.33,
@@ -26,7 +26,7 @@
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "retrieved_utc": "2026-10-11T22:00:00Z"
+        "retrieved_utc": "2026-10-11T23:00:00Z"
       }
     },
     {
@@ -34,22 +34,45 @@
       "type": "earthquake",
       "time_utc": "2026-10-11T21:34:53Z",
       "title": {
-        "en": "M5.3 earthquake 151 km W of Gorontalo, Indonesia on 2026 10 11.",
-        "zh": "2026 10 11，151 km W of Gorontalo, Indonesia 發生規模 5.3 地震。"
+        "en": "M5.3 earthquake 150 km W of Gorontalo, Indonesia on 2026 10 11.",
+        "zh": "2026 10 11，150 km W of Gorontalo, Indonesia 發生規模 5.3 地震。"
       },
       "summary": {
-        "en": "Magnitude 5.3 earthquake at 151 km W of Gorontalo, Indonesia.",
-        "zh": "151 km W of Gorontalo, Indonesia 發生規模 5.3 地震。"
+        "en": "Magnitude 5.3 earthquake at 150 km W of Gorontalo, Indonesia.",
+        "zh": "150 km W of Gorontalo, Indonesia 發生規模 5.3 地震。"
       },
       "data": {
         "magnitude": 5.3,
-        "place": "151 km W of Gorontalo, Indonesia",
+        "place": "150 km W of Gorontalo, Indonesia",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1mj"
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-11T22:00:00Z"
+        "retrieved_utc": "2026-10-11T23:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u1me",
+      "type": "earthquake",
+      "time_utc": "2026-10-11T21:19:20Z",
+      "title": {
+        "en": "M4.5 earthquake 27 km W of Río Grande, Panama on 2026 10 11.",
+        "zh": "2026 10 11，27 km W of Río Grande, Panama 發生規模 4.5 地震。"
+      },
+      "summary": {
+        "en": "Magnitude 4.5 earthquake at 27 km W of Río Grande, Panama.",
+        "zh": "27 km W of Río Grande, Panama 發生規模 4.5 地震。"
+      },
+      "data": {
+        "magnitude": 4.5,
+        "place": "27 km W of Río Grande, Panama",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1me"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "retrieved_utc": "2026-10-11T23:00:00Z"
       }
     },
     {
@@ -72,7 +95,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-11T22:00:00Z"
+        "retrieved_utc": "2026-10-11T23:00:00Z"
       }
     },
     {
@@ -95,7 +118,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-11T22:00:00Z"
+        "retrieved_utc": "2026-10-11T23:00:00Z"
       }
     },
     {
@@ -118,7 +141,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-11T22:00:00Z"
+        "retrieved_utc": "2026-10-11T23:00:00Z"
       }
     },
     {
@@ -141,7 +164,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-11T22:00:00Z"
+        "retrieved_utc": "2026-10-11T23:00:00Z"
       }
     },
     {
@@ -164,7 +187,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-11T22:00:00Z"
+        "retrieved_utc": "2026-10-11T23:00:00Z"
       }
     },
     {
@@ -187,7 +210,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-11T22:00:00Z"
+        "retrieved_utc": "2026-10-11T23:00:00Z"
       }
     },
     {
@@ -210,7 +233,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-11T22:00:00Z"
+        "retrieved_utc": "2026-10-11T23:00:00Z"
       }
     },
     {
@@ -233,7 +256,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-11T22:00:00Z"
+        "retrieved_utc": "2026-10-11T23:00:00Z"
       }
     },
     {
@@ -256,7 +279,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-11T22:00:00Z"
+        "retrieved_utc": "2026-10-11T23:00:00Z"
       }
     },
     {
@@ -279,7 +302,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-11T22:00:00Z"
+        "retrieved_utc": "2026-10-11T23:00:00Z"
       }
     },
     {
@@ -302,7 +325,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-11T22:00:00Z"
+        "retrieved_utc": "2026-10-11T23:00:00Z"
       }
     },
     {
@@ -325,7 +348,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-11T22:00:00Z"
+        "retrieved_utc": "2026-10-11T23:00:00Z"
       }
     },
     {
@@ -348,7 +371,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-11T22:00:00Z"
+        "retrieved_utc": "2026-10-11T23:00:00Z"
       }
     },
     {
@@ -371,7 +394,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-11T22:00:00Z"
+        "retrieved_utc": "2026-10-11T23:00:00Z"
       }
     },
     {
@@ -394,7 +417,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-11T22:00:00Z"
+        "retrieved_utc": "2026-10-11T23:00:00Z"
       }
     }
   ]
