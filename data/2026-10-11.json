@@ -1,23 +1,23 @@
 {
   "date": "2026-10-11",
-  "updated": "2026-10-11T17:00:00Z",
+  "updated": "2026-10-11T19:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-11T15:00Z",
+      "time_utc": "2026-10-11T17:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (0Z) at 15:00 UTC on 11 October 2026.",
-        "zh": "2026 年 10 月 11 日 15:00 UTC，估算行星 Kp 為 0.00（0Z）。"
+        "en": "Estimated planetary Kp is 2.33 (2P) at 17:00 UTC on 11 October 2026.",
+        "zh": "2026 年 10 月 11 日 17:00 UTC，估算行星 Kp 為 2.33（2P）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 2026-10-11T15:00:00 UTC on 11 October 2026. The 15 hour is complete (60 samples through 15:59; hour-start 0.00/0Z, hour-end 2.33/2P). Last-180 maximum is 2.67 (first at 2026-10-11T13:58:00; label 3M). Published-window maximum is 3.00 (first at 2026-10-11T11:47:00; label 3Z). Window starts 2026-10-11T11:00:00 (358 samples). Next hour 16:00 incomplete (58 samples through 16:57).",
-        "zh": "最新可靠整點初值：2026-10-11T15:00:00 估算 Kp 0.00（0Z）。15 時段已收滿（60 筆至 15:59；時段初 0.00／0Z、時段末 2.33／2P）。last-180 最大 2.67（最先見於 13:58 UTC；標籤 3M）。公開窗最大 3.00（最先見於 11:47 UTC；標籤 3Z）。窗起點 2026-10-11T11:00:00（358 筆）。下一時段 16:00 未滿（58 筆至 16:57）。"
+        "en": "Latest reliable hour-start estimated Kp is 2.33 (2P) at 2026-10-11T17:00:00 UTC on 11 October 2026. The 17 hour is complete (60 samples through 17:59; hour-start 2.33/2P, hour-end 2.33/2P). Last-180 maximum is 2.33 (first at 2026-10-11T17:59:00; label 2P). Published-window maximum is 2.67 (first at 2026-10-11T14:09:00; label 3M). Window starts 2026-10-11T13:01:00 (357 samples). Next hour 18:00 incomplete (58 samples through 18:57).",
+        "zh": "最新可靠整點初值：2026-10-11T17:00:00 估算 Kp 2.33（2P）。17 時段已收滿（60 筆至 17:59；時段初 2.33／2P、時段末 2.33／2P）。last-180 最大 2.33（最先見於 17:59 UTC；標籤 2P）。公開窗最大 2.67（最先見於 14:09 UTC；標籤 3M）。窗起點 2026-10-11T13:01:00（357 筆）。下一時段 18:00 未滿（58 筆至 18:57）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp_label": "0Z",
-        "hour_start": "2026-10-11T15:00:00Z",
+        "estimated_kp": 2.33,
+        "kp_label": "2P",
+        "hour_start": "2026-10-11T17:00:00Z",
         "hour_complete": true,
         "samples": 60,
         "hour_end_kp": 2.33,
@@ -26,7 +26,76 @@
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "retrieved_utc": "2026-10-11T17:00:00Z"
+        "retrieved_utc": "2026-10-11T19:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u1lf",
+      "type": "earthquake",
+      "time_utc": "2026-10-11T17:11:29Z",
+      "title": {
+        "en": "M4.8 earthquake 31 km W of Río Grande, Panama on 2026 10 11.",
+        "zh": "2026 10 11，31 km W of Río Grande, Panama 發生規模 4.8 地震。"
+      },
+      "summary": {
+        "en": "Magnitude 4.8 earthquake at 31 km W of Río Grande, Panama.",
+        "zh": "31 km W of Río Grande, Panama 發生規模 4.8 地震。"
+      },
+      "data": {
+        "magnitude": 4.8,
+        "place": "31 km W of Río Grande, Panama",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1lf"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "retrieved_utc": "2026-10-11T19:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u1ld",
+      "type": "earthquake",
+      "time_utc": "2026-10-11T17:00:29Z",
+      "title": {
+        "en": "M5.2 earthquake 101 km SSW of Severo-Kuril’sk, Russia on 2026 10 11.",
+        "zh": "2026 10 11，101 km SSW of Severo-Kuril’sk, Russia 發生規模 5.2 地震。"
+      },
+      "summary": {
+        "en": "Magnitude 5.2 earthquake at 101 km SSW of Severo-Kuril’sk, Russia.",
+        "zh": "101 km SSW of Severo-Kuril’sk, Russia 發生規模 5.2 地震。"
+      },
+      "data": {
+        "magnitude": 5.2,
+        "place": "101 km SSW of Severo-Kuril’sk, Russia",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ld"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "retrieved_utc": "2026-10-11T19:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u1l7",
+      "type": "earthquake",
+      "time_utc": "2026-10-11T16:24:25Z",
+      "title": {
+        "en": "M4.7 earthquake 6 km ESE of Tōgane, Japan on 2026 10 11.",
+        "zh": "2026 10 11，6 km ESE of Tōgane, Japan 發生規模 4.7 地震。"
+      },
+      "summary": {
+        "en": "Magnitude 4.7 earthquake at 6 km ESE of Tōgane, Japan.",
+        "zh": "6 km ESE of Tōgane, Japan 發生規模 4.7 地震。"
+      },
+      "data": {
+        "magnitude": 4.7,
+        "place": "6 km ESE of Tōgane, Japan",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1l7"
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "retrieved_utc": "2026-10-11T19:00:00Z"
       }
     },
     {
@@ -38,20 +107,18 @@
         "zh": "2026 10 11，79 km SSE of Panguna, Papua New Guinea 發生規模 6.2 地震。"
       },
       "summary": {
-        "en": "M6.2 earthquake 79 km SSE of Panguna, Papua New Guinea on 2026 10 11 at 14:07 UTC.",
-        "zh": "2026 10 11 14:07 UTC，79 km SSE of Panguna, Papua New Guinea 發生 M6.2 地震。"
+        "en": "Magnitude 6.2 earthquake at 79 km SSE of Panguna, Papua New Guinea.",
+        "zh": "79 km SSE of Panguna, Papua New Guinea 發生規模 6.2 地震。"
       },
       "data": {
-        "mag": 6.2,
+        "magnitude": 6.2,
         "place": "79 km SSE of Panguna, Papua New Guinea",
-        "depth_km": 53.473,
-        "latitude": -7.0062,
-        "longitude": 155.7021
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1kv"
       },
       "evidence": {
         "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1kv",
-        "retrieved_utc": "2026-10-11T17:00:00Z"
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "retrieved_utc": "2026-10-11T19:00:00Z"
       }
     },
     {
@@ -63,20 +130,18 @@
         "zh": "2026 10 11，18 km SSE of Camaná, Peru 發生規模 5.2 地震。"
       },
       "summary": {
-        "en": "M5.2 earthquake 18 km SSE of Camaná, Peru on 2026 10 11 at 13:42 UTC.",
-        "zh": "2026 10 11 13:42 UTC，18 km SSE of Camaná, Peru 發生 M5.2 地震。"
+        "en": "Magnitude 5.2 earthquake at 18 km SSE of Camaná, Peru.",
+        "zh": "18 km SSE of Camaná, Peru 發生規模 5.2 地震。"
       },
       "data": {
-        "mag": 5.2,
+        "magnitude": 5.2,
         "place": "18 km SSE of Camaná, Peru",
-        "depth_km": 44.92,
-        "latitude": -16.7849,
-        "longitude": -72.6601
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1kt"
       },
       "evidence": {
         "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1kt",
-        "retrieved_utc": "2026-10-11T17:00:00Z"
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "retrieved_utc": "2026-10-11T19:00:00Z"
       }
     },
     {
@@ -88,20 +153,18 @@
         "zh": "2026 10 11，165 km SSE of Miyakojima, Japan 發生規模 4.8 地震。"
       },
       "summary": {
-        "en": "M4.8 earthquake 165 km SSE of Miyakojima, Japan on 2026 10 11 at 12:13 UTC.",
-        "zh": "2026 10 11 12:13 UTC，165 km SSE of Miyakojima, Japan 發生 M4.8 地震。"
+        "en": "Magnitude 4.8 earthquake at 165 km SSE of Miyakojima, Japan.",
+        "zh": "165 km SSE of Miyakojima, Japan 發生規模 4.8 地震。"
       },
       "data": {
-        "mag": 4.8,
+        "magnitude": 4.8,
         "place": "165 km SSE of Miyakojima, Japan",
-        "depth_km": 10,
-        "latitude": 23.5015,
-        "longitude": 126.1264
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ka"
       },
       "evidence": {
         "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ka",
-        "retrieved_utc": "2026-10-11T17:00:00Z"
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "retrieved_utc": "2026-10-11T19:00:00Z"
       }
     },
     {
@@ -113,20 +176,18 @@
         "zh": "2026 10 11，82 km E of Petropavlovsk-Kamchatsky, Russia 發生規模 4.6 地震。"
       },
       "summary": {
-        "en": "M4.6 earthquake 82 km E of Petropavlovsk-Kamchatsky, Russia on 2026 10 11 at 11:18 UTC.",
-        "zh": "2026 10 11 11:18 UTC，82 km E of Petropavlovsk-Kamchatsky, Russia 發生 M4.6 地震。"
+        "en": "Magnitude 4.6 earthquake at 82 km E of Petropavlovsk-Kamchatsky, Russia.",
+        "zh": "82 km E of Petropavlovsk-Kamchatsky, Russia 發生規模 4.6 地震。"
       },
       "data": {
-        "mag": 4.6,
+        "magnitude": 4.6,
         "place": "82 km E of Petropavlovsk-Kamchatsky, Russia",
-        "depth_km": 68.683,
-        "latitude": 53.0788,
-        "longitude": 159.8624
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1k3"
       },
       "evidence": {
         "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1k3",
-        "retrieved_utc": "2026-10-11T17:00:00Z"
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "retrieved_utc": "2026-10-11T19:00:00Z"
       }
     },
     {
@@ -138,20 +199,18 @@
         "zh": "2026 10 11，260 km WNW of Houma, Tonga 發生規模 4.6 地震。"
       },
       "summary": {
-        "en": "M4.6 earthquake 260 km WNW of Houma, Tonga on 2026 10 11 at 10:05 UTC.",
-        "zh": "2026 10 11 10:05 UTC，260 km WNW of Houma, Tonga 發生 M4.6 地震。"
+        "en": "Magnitude 4.6 earthquake at 260 km WNW of Houma, Tonga.",
+        "zh": "260 km WNW of Houma, Tonga 發生規模 4.6 地震。"
       },
       "data": {
-        "mag": 4.6,
+        "magnitude": 4.6,
         "place": "260 km WNW of Houma, Tonga",
-        "depth_km": 512.919,
-        "latitude": -20.3859,
-        "longitude": -177.6638
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1jv"
       },
       "evidence": {
         "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1jv",
-        "retrieved_utc": "2026-10-11T17:00:00Z"
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "retrieved_utc": "2026-10-11T19:00:00Z"
       }
     },
     {
@@ -163,20 +222,18 @@
         "zh": "2026 10 11，south of the Fiji Islands 發生規模 4.5 地震。"
       },
       "summary": {
-        "en": "M4.5 earthquake south of the Fiji Islands on 2026 10 11 at 07:28 UTC.",
-        "zh": "2026 10 11 07:28 UTC，south of the Fiji Islands 發生 M4.5 地震。"
+        "en": "Magnitude 4.5 earthquake at south of the Fiji Islands.",
+        "zh": "south of the Fiji Islands 發生規模 4.5 地震。"
       },
       "data": {
-        "mag": 4.5,
+        "magnitude": 4.5,
         "place": "south of the Fiji Islands",
-        "depth_km": 546.339,
-        "latitude": -23.6919,
-        "longitude": 179.9648
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1j3"
       },
       "evidence": {
         "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1j3",
-        "retrieved_utc": "2026-10-11T17:00:00Z"
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "retrieved_utc": "2026-10-11T19:00:00Z"
       }
     },
     {
@@ -188,20 +245,18 @@
         "zh": "2026 10 11，110 km SSE of Sola, Vanuatu 發生規模 4.7 地震。"
       },
       "summary": {
-        "en": "M4.7 earthquake 110 km SSE of Sola, Vanuatu on 2026 10 11 at 05:07 UTC.",
-        "zh": "2026 10 11 05:07 UTC，110 km SSE of Sola, Vanuatu 發生 M4.7 地震。"
+        "en": "Magnitude 4.7 earthquake at 110 km SSE of Sola, Vanuatu.",
+        "zh": "110 km SSE of Sola, Vanuatu 發生規模 4.7 地震。"
       },
       "data": {
-        "mag": 4.7,
+        "magnitude": 4.7,
         "place": "110 km SSE of Sola, Vanuatu",
-        "depth_km": 10.602,
-        "latitude": -14.7335,
-        "longitude": 168.0696
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1il"
       },
       "evidence": {
         "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1il",
-        "retrieved_utc": "2026-10-11T17:00:00Z"
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "retrieved_utc": "2026-10-11T19:00:00Z"
       }
     },
     {
@@ -213,20 +268,18 @@
         "zh": "2026 10 11，180 km S of Pelabuhanratu, Indonesia 發生規模 5.2 地震。"
       },
       "summary": {
-        "en": "M5.2 earthquake 180 km S of Pelabuhanratu, Indonesia on 2026 10 11 at 03:30 UTC.",
-        "zh": "2026 10 11 03:30 UTC，180 km S of Pelabuhanratu, Indonesia 發生 M5.2 地震。"
+        "en": "Magnitude 5.2 earthquake at 180 km S of Pelabuhanratu, Indonesia.",
+        "zh": "180 km S of Pelabuhanratu, Indonesia 發生規模 5.2 地震。"
       },
       "data": {
-        "mag": 5.2,
+        "magnitude": 5.2,
         "place": "180 km S of Pelabuhanratu, Indonesia",
-        "depth_km": 10,
-        "latitude": -8.6161,
-        "longitude": 106.526
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1i6"
       },
       "evidence": {
         "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1i6",
-        "retrieved_utc": "2026-10-11T17:00:00Z"
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "retrieved_utc": "2026-10-11T19:00:00Z"
       }
     },
     {
@@ -238,20 +291,18 @@
         "zh": "2026 10 11，109 km SSE of Pondaguitan, Philippines 發生規模 4.6 地震。"
       },
       "summary": {
-        "en": "M4.6 earthquake 109 km SSE of Pondaguitan, Philippines on 2026 10 11 at 02:35 UTC.",
-        "zh": "2026 10 11 02:35 UTC，109 km SSE of Pondaguitan, Philippines 發生 M4.6 地震。"
+        "en": "Magnitude 4.6 earthquake at 109 km SSE of Pondaguitan, Philippines.",
+        "zh": "109 km SSE of Pondaguitan, Philippines 發生規模 4.6 地震。"
       },
       "data": {
-        "mag": 4.6,
+        "magnitude": 4.6,
         "place": "109 km SSE of Pondaguitan, Philippines",
-        "depth_km": 121.25,
-        "latitude": 5.4706,
-        "longitude": 126.6164
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1i0"
       },
       "evidence": {
         "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1i0",
-        "retrieved_utc": "2026-10-11T17:00:00Z"
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "retrieved_utc": "2026-10-11T19:00:00Z"
       }
     },
     {
@@ -263,20 +314,18 @@
         "zh": "2026 10 11，3 km NW of Flores, Panama 發生規模 5 地震。"
       },
       "summary": {
-        "en": "M5 earthquake 3 km NW of Flores, Panama on 2026 10 11 at 01:50 UTC.",
-        "zh": "2026 10 11 01:50 UTC，3 km NW of Flores, Panama 發生 M5 地震。"
+        "en": "Magnitude 5 earthquake at 3 km NW of Flores, Panama.",
+        "zh": "3 km NW of Flores, Panama 發生規模 5 地震。"
       },
       "data": {
-        "mag": 5,
+        "magnitude": 5,
         "place": "3 km NW of Flores, Panama",
-        "depth_km": 10,
-        "latitude": 7.5139,
-        "longitude": -80.4283
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1hw"
       },
       "evidence": {
         "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1hw",
-        "retrieved_utc": "2026-10-11T17:00:00Z"
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "retrieved_utc": "2026-10-11T19:00:00Z"
       }
     },
     {
@@ -288,20 +337,18 @@
         "zh": "2026 10 11，18 km WNW of Río Grande, Panama 發生規模 4.6 地震。"
       },
       "summary": {
-        "en": "M4.6 earthquake 18 km WNW of Río Grande, Panama on 2026 10 11 at 00:06 UTC.",
-        "zh": "2026 10 11 00:06 UTC，18 km WNW of Río Grande, Panama 發生 M4.6 地震。"
+        "en": "Magnitude 4.6 earthquake at 18 km WNW of Río Grande, Panama.",
+        "zh": "18 km WNW of Río Grande, Panama 發生規模 4.6 地震。"
       },
       "data": {
-        "mag": 4.6,
+        "magnitude": 4.6,
         "place": "18 km WNW of Río Grande, Panama",
-        "depth_km": 10,
-        "latitude": 7.8093,
-        "longitude": -81.472
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1hj"
       },
       "evidence": {
         "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1hj",
-        "retrieved_utc": "2026-10-11T17:00:00Z"
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "retrieved_utc": "2026-10-11T19:00:00Z"
       }
     },
     {
@@ -313,20 +360,18 @@
         "zh": "2026 10 10，171 km SSW of Pagar Alam, Indonesia 發生規模 4.5 地震。"
       },
       "summary": {
-        "en": "M4.5 earthquake 171 km SSW of Pagar Alam, Indonesia on 2026 10 10 at 21:38 UTC.",
-        "zh": "2026 10 10 21:38 UTC，171 km SSW of Pagar Alam, Indonesia 發生 M4.5 地震。"
+        "en": "Magnitude 4.5 earthquake at 171 km SSW of Pagar Alam, Indonesia.",
+        "zh": "171 km SSW of Pagar Alam, Indonesia 發生規模 4.5 地震。"
       },
       "data": {
-        "mag": 4.5,
+        "magnitude": 4.5,
         "place": "171 km SSW of Pagar Alam, Indonesia",
-        "depth_km": 29.581,
-        "latitude": -5.403,
-        "longitude": 102.5418
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1gu"
       },
       "evidence": {
         "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1gu",
-        "retrieved_utc": "2026-10-11T17:00:00Z"
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "retrieved_utc": "2026-10-11T19:00:00Z"
       }
     },
     {
@@ -338,20 +383,18 @@
         "zh": "2026 10 10，southeast of Easter Island 發生規模 5.3 地震。"
       },
       "summary": {
-        "en": "M5.3 earthquake southeast of Easter Island on 2026 10 10 at 21:34 UTC.",
-        "zh": "2026 10 10 21:34 UTC，southeast of Easter Island 發生 M5.3 地震。"
+        "en": "Magnitude 5.3 earthquake at southeast of Easter Island.",
+        "zh": "southeast of Easter Island 發生規模 5.3 地震。"
       },
       "data": {
-        "mag": 5.3,
+        "magnitude": 5.3,
         "place": "southeast of Easter Island",
-        "depth_km": 10,
-        "latitude": -37.1165,
-        "longitude": -95.2667
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1gs"
       },
       "evidence": {
         "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1gs",
-        "retrieved_utc": "2026-10-11T17:00:00Z"
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "retrieved_utc": "2026-10-11T19:00:00Z"
       }
     },
     {
@@ -363,20 +406,18 @@
         "zh": "2026 10 10，Kermadec Islands region 發生規模 4.9 地震。"
       },
       "summary": {
-        "en": "M4.9 earthquake Kermadec Islands region on 2026 10 10 at 20:35 UTC.",
-        "zh": "2026 10 10 20:35 UTC，Kermadec Islands region 發生 M4.9 地震。"
+        "en": "Magnitude 4.9 earthquake at Kermadec Islands region.",
+        "zh": "Kermadec Islands region 發生規模 4.9 地震。"
       },
       "data": {
-        "mag": 4.9,
+        "magnitude": 4.9,
         "place": "Kermadec Islands region",
-        "depth_km": 117.707,
-        "latitude": -31.2348,
-        "longitude": -178.9752
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1gm"
       },
       "evidence": {
         "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1gm",
-        "retrieved_utc": "2026-10-11T17:00:00Z"
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "retrieved_utc": "2026-10-11T19:00:00Z"
       }
     },
     {
@@ -388,20 +429,18 @@
         "zh": "2026 10 10，southern Mid-Atlantic Ridge 發生規模 4.6 地震。"
       },
       "summary": {
-        "en": "M4.6 earthquake southern Mid-Atlantic Ridge on 2026 10 10 at 19:15 UTC.",
-        "zh": "2026 10 10 19:15 UTC，southern Mid-Atlantic Ridge 發生 M4.6 地震。"
+        "en": "Magnitude 4.6 earthquake at southern Mid-Atlantic Ridge.",
+        "zh": "southern Mid-Atlantic Ridge 發生規模 4.6 地震。"
       },
       "data": {
-        "mag": 4.6,
+        "magnitude": 4.6,
         "place": "southern Mid-Atlantic Ridge",
-        "depth_km": 10,
-        "latitude": -35.2765,
-        "longitude": -17.1143
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1jt"
       },
       "evidence": {
         "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1jt",
-        "retrieved_utc": "2026-10-11T17:00:00Z"
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "retrieved_utc": "2026-10-11T19:00:00Z"
       }
     }
   ]
