@@ -1,43 +1,68 @@
 {
   "date": "2026-10-11",
-  "updated": "2026-10-11T13:00:00+08:00",
+  "updated": "2026-10-11T06:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-11T03:00Z",
+      "time_utc": "2026-10-11T04:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.0 (unsettled) at 03:00 UTC on 11 October 2026.",
-        "zh": "2026 年 10 月 11 日 03:00 UTC，估算行星 Kp 為 0.0（不穩定）。"
+        "en": "Estimated planetary Kp is 3.33 (active) at 04:00 UTC on 11 October 2026.",
+        "zh": "2026 年 10 月 11 日 04:00 UTC，估算行星 Kp 為 3.33（活躍）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 03:00 UTC on 11 October 2026. The 03 hour is complete (60 samples through 03:59; hour-start 0.0/0Z, hour-end 3.33/3P). Last-180 maximum is 4.0 (first at 2026-10-11T02:16:00; label 4Z). Published-window maximum is 6.0 (first at 2026-10-10T23:59:00; label 6Z). Window starts 2026-10-10T23:00:00 (359 samples). Window estimated_kp reached 6.0. The 04 UTC hour on 11 October is incomplete (59 samples through 04:58).",
-        "zh": "最新可靠整點初值：2026-10-11 03:00 UTC 估算 Kp 0.0（0Z）。03 時段已收滿（60 筆至 03:59；時段初 0.0／0Z、時段末 3.33／3P）。last-180 最大 4.0（最先見於 02:16 UTC；標籤 4Z）。公開窗最大 6.0（最先見於 23:59 UTC；標籤 6Z）。窗起點 2026-10-10T23:00:00（359 筆）。窗內 estimated_kp 達 6.0。04 時段未滿（59 筆至 04:58）。"
+        "en": "Latest reliable hour-start estimated Kp is 3.33 (3P) at 04:00 UTC on 11 October 2026. The 04 hour is complete (60 samples through 04:59; hour-start 3.33/3P, hour-end 3.67/4M). Last-180 maximum is 4.0 (first at 2026-10-11T02:16:00; label 4Z). Published-window maximum is 4.0 (first at 2026-10-11T02:16:00; label 4Z). Window starts 2026-10-11T00:01:00 (358 samples). Window estimated_kp reached 4.0. The 05 UTC hour on 11 October is incomplete (59 samples through 05:58).",
+        "zh": "最新可靠整點初值：2026-10-11 04:00 UTC 估算 Kp 3.33（3P）。04 時段已收滿（60 筆至 04:59；時段初 3.33／3P、時段末 3.67／4M）。last-180 最大 4.0（最先見於 02:16 UTC；標籤 4Z）。公開窗最大 4.0（最先見於 02:16 UTC；標籤 4Z）。窗起點 2026-10-11T00:01:00（358 筆）。窗內 estimated_kp 達 4.0。05 時段未滿（59 筆至 05:58）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp_label": "0Z",
+        "estimated_kp": 3.33,
+        "kp_label": "3P",
         "hour_complete": true,
-        "hour_start": "2026-10-11T03:00:00",
-        "hour_end_sample": "2026-10-11T03:59:00",
-        "hour_end_kp": 3.33,
-        "hour_end_label": "3P",
-        "window_start": "2026-10-10T23:00:00",
-        "window_samples": 359,
-        "window_max_kp": 6.0,
-        "window_max_label": "6Z",
-        "window_max_time": "2026-10-10T23:59:00",
+        "hour_start": "2026-10-11T04:00:00",
+        "hour_end_sample": "2026-10-11T04:59:00",
+        "hour_end_kp": 3.67,
+        "hour_end_label": "4M",
+        "window_start": "2026-10-11T00:01:00",
+        "window_samples": 358,
+        "window_max_kp": 4.0,
+        "window_max_label": "4Z",
+        "window_max_time": "2026-10-11T02:16:00",
         "last180_max_kp": 4.0,
         "last180_max_label": "4Z",
         "last180_max_time": "2026-10-11T02:16:00",
         "next_hour_incomplete": true,
         "next_hour_samples": 59,
-        "next_hour_through": "2026-10-11T04:58:00"
+        "next_hour_through": "2026-10-11T05:58:00"
       },
       "evidence": {
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "retrieved_utc": "2026-10-11T05:00:00Z"
+        "retrieved_utc": "2026-10-11T06:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u1il",
+      "type": "earthquake",
+      "time_utc": "2026-10-11T05:07:57Z",
+      "title": {
+        "en": "M4.7 earthquake 110 km SSE of Sola, Vanuatu on 2026 10 11.",
+        "zh": "2026 10 11，110 km SSE of Sola, Vanuatu 發生規模 4.7 地震。"
+      },
+      "summary": {
+        "en": "M4.7 earthquake 110 km SSE of Sola, Vanuatu on 2026 10 11 at 05:07 UTC.",
+        "zh": "2026 10 11 05:07 UTC，110 km SSE of Sola, Vanuatu 發生 M4.7 地震。"
+      },
+      "data": {
+        "mag": 4.7,
+        "place": "110 km SSE of Sola, Vanuatu",
+        "depth_km": 10.6,
+        "latitude": -14.7335,
+        "longitude": 168.0696
+      },
+      "evidence": {
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1il",
+        "retrieved_utc": "2026-10-11T06:00:00Z"
       }
     },
     {
@@ -62,7 +87,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1i6",
-        "retrieved_utc": "2026-10-11T05:00:00Z"
+        "retrieved_utc": "2026-10-11T06:00:00Z"
       }
     },
     {
@@ -80,14 +105,14 @@
       "data": {
         "mag": 4.6,
         "place": "109 km SSE of Pondaguitan, Philippines",
-        "depth_km": 121.25,
+        "depth_km": 121.2,
         "latitude": 5.4706,
         "longitude": 126.6164
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1i0",
-        "retrieved_utc": "2026-10-11T05:00:00Z"
+        "retrieved_utc": "2026-10-11T06:00:00Z"
       }
     },
     {
@@ -112,7 +137,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1hw",
-        "retrieved_utc": "2026-10-11T05:00:00Z"
+        "retrieved_utc": "2026-10-11T06:00:00Z"
       }
     },
     {
@@ -137,7 +162,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1hj",
-        "retrieved_utc": "2026-10-11T05:00:00Z"
+        "retrieved_utc": "2026-10-11T06:00:00Z"
       }
     },
     {
@@ -155,14 +180,14 @@
       "data": {
         "mag": 4.5,
         "place": "171 km SSW of Pagar Alam, Indonesia",
-        "depth_km": 29.581,
+        "depth_km": 29.6,
         "latitude": -5.403,
         "longitude": 102.5418
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1gu",
-        "retrieved_utc": "2026-10-11T05:00:00Z"
+        "retrieved_utc": "2026-10-11T06:00:00Z"
       }
     },
     {
@@ -187,7 +212,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1gs",
-        "retrieved_utc": "2026-10-11T05:00:00Z"
+        "retrieved_utc": "2026-10-11T06:00:00Z"
       }
     },
     {
@@ -205,14 +230,14 @@
       "data": {
         "mag": 4.9,
         "place": "Kermadec Islands region",
-        "depth_km": 117.707,
+        "depth_km": 117.7,
         "latitude": -31.2348,
         "longitude": -178.9752
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1gm",
-        "retrieved_utc": "2026-10-11T05:00:00Z"
+        "retrieved_utc": "2026-10-11T06:00:00Z"
       }
     },
     {
@@ -230,14 +255,14 @@
       "data": {
         "mag": 4.7,
         "place": "2 km WNW of El Cacao, Panama",
-        "depth_km": 13.518,
+        "depth_km": 13.5,
         "latitude": 7.4596,
         "longitude": -80.4282
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1fk",
-        "retrieved_utc": "2026-10-11T05:00:00Z"
+        "retrieved_utc": "2026-10-11T06:00:00Z"
       }
     },
     {
@@ -262,7 +287,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1fj",
-        "retrieved_utc": "2026-10-11T05:00:00Z"
+        "retrieved_utc": "2026-10-11T06:00:00Z"
       }
     },
     {
@@ -287,7 +312,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1fa",
-        "retrieved_utc": "2026-10-11T05:00:00Z"
+        "retrieved_utc": "2026-10-11T06:00:00Z"
       }
     },
     {
@@ -312,7 +337,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1f6",
-        "retrieved_utc": "2026-10-11T05:00:00Z"
+        "retrieved_utc": "2026-10-11T06:00:00Z"
       }
     },
     {
@@ -337,7 +362,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1f3",
-        "retrieved_utc": "2026-10-11T05:00:00Z"
+        "retrieved_utc": "2026-10-11T06:00:00Z"
       }
     },
     {
@@ -362,7 +387,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ex",
-        "retrieved_utc": "2026-10-11T05:00:00Z"
+        "retrieved_utc": "2026-10-11T06:00:00Z"
       }
     },
     {
@@ -380,14 +405,14 @@
       "data": {
         "mag": 4.6,
         "place": "south of the Fiji Islands",
-        "depth_km": 587.386,
+        "depth_km": 587.4,
         "latitude": -22.071,
         "longitude": -179.5886
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ew",
-        "retrieved_utc": "2026-10-11T05:00:00Z"
+        "retrieved_utc": "2026-10-11T06:00:00Z"
       }
     },
     {
@@ -412,7 +437,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ev",
-        "retrieved_utc": "2026-10-11T05:00:00Z"
+        "retrieved_utc": "2026-10-11T06:00:00Z"
       }
     },
     {
@@ -437,7 +462,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ej",
-        "retrieved_utc": "2026-10-11T05:00:00Z"
+        "retrieved_utc": "2026-10-11T06:00:00Z"
       }
     },
     {
@@ -462,7 +487,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1e5",
-        "retrieved_utc": "2026-10-11T05:00:00Z"
+        "retrieved_utc": "2026-10-11T06:00:00Z"
       }
     },
     {
@@ -480,14 +505,14 @@
       "data": {
         "mag": 4.6,
         "place": "31 km SE of Vanimo, Papua New Guinea",
-        "depth_km": 30.387,
+        "depth_km": 30.4,
         "latitude": -2.8851,
         "longitude": 141.496
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1dy",
-        "retrieved_utc": "2026-10-11T05:00:00Z"
+        "retrieved_utc": "2026-10-11T06:00:00Z"
       }
     },
     {
@@ -505,14 +530,14 @@
       "data": {
         "mag": 4.5,
         "place": "61 km N of Hihifo, Tonga",
-        "depth_km": 79.424,
+        "depth_km": 79.4,
         "latitude": -15.397,
         "longitude": -173.7816
       },
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1dm",
-        "retrieved_utc": "2026-10-11T05:00:00Z"
+        "retrieved_utc": "2026-10-11T06:00:00Z"
       }
     },
     {
@@ -537,7 +562,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1dc",
-        "retrieved_utc": "2026-10-11T05:00:00Z"
+        "retrieved_utc": "2026-10-11T06:00:00Z"
       }
     },
     {
@@ -562,7 +587,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1db",
-        "retrieved_utc": "2026-10-11T05:00:00Z"
+        "retrieved_utc": "2026-10-11T06:00:00Z"
       }
     },
     {
@@ -587,7 +612,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1d7",
-        "retrieved_utc": "2026-10-11T05:00:00Z"
+        "retrieved_utc": "2026-10-11T06:00:00Z"
       }
     },
     {
@@ -612,7 +637,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1d5",
-        "retrieved_utc": "2026-10-11T05:00:00Z"
+        "retrieved_utc": "2026-10-11T06:00:00Z"
       }
     },
     {
@@ -637,7 +662,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1d2",
-        "retrieved_utc": "2026-10-11T05:00:00Z"
+        "retrieved_utc": "2026-10-11T06:00:00Z"
       }
     },
     {
@@ -662,57 +687,7 @@
       "evidence": {
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1d1",
-        "retrieved_utc": "2026-10-11T05:00:00Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u1cx",
-      "type": "earthquake",
-      "time_utc": "2026-10-10T05:45:59Z",
-      "title": {
-        "en": "M4.5 earthquake 6 km WSW of Filadelfia, Colombia on 2026 10 10.",
-        "zh": "2026 10 10，6 km WSW of Filadelfia, Colombia 發生規模 4.5 地震。"
-      },
-      "summary": {
-        "en": "M4.5 earthquake 6 km WSW of Filadelfia, Colombia on 2026 10 10 at 05:45 UTC.",
-        "zh": "2026 10 10 05:45 UTC，6 km WSW of Filadelfia, Colombia 發生 M4.5 地震。"
-      },
-      "data": {
-        "mag": 4.5,
-        "place": "6 km WSW of Filadelfia, Colombia",
-        "depth_km": 115.143,
-        "latitude": 5.267,
-        "longitude": -75.6127
-      },
-      "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cx",
-        "retrieved_utc": "2026-10-11T05:00:00Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u1cv",
-      "type": "earthquake",
-      "time_utc": "2026-10-10T05:32:01Z",
-      "title": {
-        "en": "M5 earthquake 141 km E of Bitung, Indonesia on 2026 10 10.",
-        "zh": "2026 10 10，141 km E of Bitung, Indonesia 發生規模 5 地震。"
-      },
-      "summary": {
-        "en": "M5 earthquake 141 km E of Bitung, Indonesia on 2026 10 10 at 05:32 UTC.",
-        "zh": "2026 10 10 05:32 UTC，141 km E of Bitung, Indonesia 發生 M5 地震。"
-      },
-      "data": {
-        "mag": 5,
-        "place": "141 km E of Bitung, Indonesia",
-        "depth_km": 10,
-        "latitude": 1.6248,
-        "longitude": 126.3886
-      },
-      "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cv",
-        "retrieved_utc": "2026-10-11T05:00:00Z"
+        "retrieved_utc": "2026-10-11T06:00:00Z"
       }
     }
   ]
