@@ -1,35 +1,35 @@
 {
   "date": "2026-10-12",
-  "updated": "2026-10-12T17:03:12Z",
+  "updated": "2026-10-12T18:03:30.020844+00:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-12T15:00Z",
+      "time_utc": "2026-10-12T16:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (0Z) at 15 UTC on 12 October 2026.",
-        "zh": "2026 年 10 月 12 日 15 UTC，估算行星 Kp 為 0.00（0Z）。"
+        "en": "Estimated planetary Kp is 0.33 (0P) at 16 UTC on 12 October 2026.",
+        "zh": "2026 年 10 月 12 日 16 UTC，估算行星 Kp 為 0.33（0P）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 2026-10-12T15:00:00Z on 12 October 2026. The 15 hour is complete (60 samples through 15:59; hour-start 0.00/0Z, hour-end 0.33/0P). Last-180 maximum is 0.67. Published-window maximum is 1.33. Window starts 2026-10-12T10:59:00 (358 samples). Next hour 16:00 incomplete (57 samples).",
-        "zh": "最新可靠整點初值：2026-10-12T15:00:00Z 估算 Kp 0.00（0Z）。15 時段已收滿（60 筆至 15:59；時段初 0.00／0Z、時段末 0.33／0P）。last-180 最大 0.67。公開窗最大 1.33。窗起點 2026-10-12T10:59:00（358 筆）。下一整點 16:00 未滿（57 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.33 (0P) at 2026-10-12T16:00:00 on 12 October 2026. The 16 hour is complete (60 samples through 16:59; hour-start 0.33/0P, hour-end 0.67/1M). Last-180 maximum is 1.67. Published-window maximum is 1.67. Window starts 2026-10-12T12:01:00 (358 samples). Next hour 17:00 incomplete (59 samples).",
+        "zh": "最新可靠整點初值：2026-10-12T16:00:00 估算 Kp 0.33（0P）。16 時段已收滿（60 筆至 16:59；時段初 0.33／0P、時段末 0.67／1M）。last-180 最大 1.67。公開窗最大 1.67。窗起點 2026-10-12T12:01:00（358 筆）。下一整點 17:00 未滿（59 筆）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp": "0Z",
+        "estimated_kp": 0.33,
+        "kp": "0P",
         "hour_complete": true,
-        "hour_start_kp": 0.0,
-        "hour_end_kp": 0.33,
-        "last180_max": 0.67,
-        "window_max": 1.33,
-        "window_start": "2026-10-12T10:59:00",
+        "hour_start_kp": 0.33,
+        "hour_end_kp": 0.67,
+        "last180_max": 1.67,
+        "window_max": 1.67,
+        "window_start": "2026-10-12T12:01:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
-        "next_hour_count": 57
+        "next_hour_count": 59
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-12T17:03:12.075535+00:00"
+        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
       }
     },
     {
@@ -53,7 +53,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T17:03:12.075742+00:00"
+        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
       }
     },
     {
@@ -77,7 +77,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T17:03:12.075753+00:00"
+        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
       }
     },
     {
@@ -101,7 +101,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T17:03:12.075760+00:00"
+        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
       }
     },
     {
@@ -125,7 +125,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T17:03:12.075767+00:00"
+        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
       }
     },
     {
@@ -149,7 +149,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T17:03:12.075774+00:00"
+        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
       }
     },
     {
@@ -173,7 +173,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T17:03:12.075781+00:00"
+        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
       }
     },
     {
@@ -197,7 +197,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T17:03:12.075786+00:00"
+        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
       }
     },
     {
@@ -221,7 +221,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T17:03:12.075791+00:00"
+        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
       }
     },
     {
@@ -245,7 +245,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T17:03:12.075796+00:00"
+        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
       }
     },
     {
@@ -269,7 +269,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T17:03:12.075800+00:00"
+        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
       }
     },
     {
@@ -293,7 +293,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T17:03:12.075807+00:00"
+        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
       }
     },
     {
@@ -317,7 +317,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T17:03:12.075811+00:00"
+        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
       }
     },
     {
@@ -341,7 +341,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T17:03:12.075817+00:00"
+        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
       }
     },
     {
@@ -365,7 +365,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T17:03:12.075824+00:00"
+        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
       }
     },
     {
@@ -389,7 +389,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T17:03:12.075829+00:00"
+        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
       }
     },
     {
@@ -413,7 +413,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T17:03:12.075836+00:00"
+        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
       }
     },
     {
@@ -437,7 +437,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T17:03:12.075841+00:00"
+        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
       }
     },
     {
@@ -461,7 +461,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T17:03:12.075846+00:00"
+        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
       }
     },
     {
@@ -485,7 +485,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T17:03:12.075851+00:00"
+        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
       }
     },
     {
@@ -509,7 +509,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T17:03:12.075860+00:00"
+        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
       }
     },
     {
@@ -533,7 +533,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T17:03:12.075865+00:00"
+        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
       }
     },
     {
@@ -557,7 +557,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T17:03:12.075892+00:00"
+        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
       }
     },
     {
@@ -581,7 +581,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T17:03:12.075897+00:00"
+        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
       }
     },
     {
@@ -605,55 +605,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T17:03:12.075902+00:00"
-      }
-    },
-    {
-      "id": "usgs-us6000u1lf",
-      "type": "earthquake",
-      "time_utc": "2026-10-11T17:11:29Z",
-      "title": {
-        "en": "M4.8 31 km W of Río Grande, Panama",
-        "zh": "M4.8 31 km W of Río Grande, Panama"
-      },
-      "summary": {
-        "en": "Magnitude 4.8 earthquake at 31 km W of Río Grande, Panama.",
-        "zh": "震級 4.8，位於 31 km W of Río Grande, Panama。"
-      },
-      "data": {
-        "mag": 4.8,
-        "place": "31 km W of Río Grande, Panama",
-        "id": "us6000u1lf",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1lf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1lf.geojson"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T17:03:12.075909+00:00"
-      }
-    },
-    {
-      "id": "usgs-us6000u1ld",
-      "type": "earthquake",
-      "time_utc": "2026-10-11T17:00:29Z",
-      "title": {
-        "en": "M5.2 101 km SSW of Severo-Kuril’sk, Russia",
-        "zh": "M5.2 101 km SSW of Severo-Kuril’sk, Russia"
-      },
-      "summary": {
-        "en": "Magnitude 5.2 earthquake at 101 km SSW of Severo-Kuril’sk, Russia.",
-        "zh": "震級 5.2，位於 101 km SSW of Severo-Kuril’sk, Russia。"
-      },
-      "data": {
-        "mag": 5.2,
-        "place": "101 km SSW of Severo-Kuril’sk, Russia",
-        "id": "us6000u1ld",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ld",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1ld.geojson"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T17:03:12.075914+00:00"
+        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
       }
     }
   ]
