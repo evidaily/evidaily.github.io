@@ -1,35 +1,53 @@
 {
   "date": "2026-10-12",
-  "updated": "2026-10-12T21:02:28Z",
+  "updated": "2026-10-12T22:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-12T19:00Z",
+      "time_utc": "2026-10-12T20:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.33 (0P) at 19 UTC on 12 October 2026.",
-        "zh": "2026 年 10 月 12 日 19 UTC，估算行星 Kp 為 0.33（0P）。"
+        "en": "Estimated planetary Kp is 1.67 (2M) at 20 UTC on 12 October 2026.",
+        "zh": "2026 年 10 月 12 日 20 UTC，估算行星 Kp 為 1.67（2M）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.33 (0P) at 2026-10-12T19:00:00 on 12 October 2026. The 19 hour is complete (60 samples through 19:59; hour-start 0.33/0P, hour-end 1.67/2M). Last-180 maximum is 2.0. Published-window maximum is 2.0. Window starts 2026-10-12T15:01:00 (358 samples). Next hour 20:00 incomplete (59 samples).",
-        "zh": "最新可靠整點初值：2026-10-12T19:00:00 估算 Kp 0.33（0P）。19 時段已收滿（60 筆至 19:59；時段初 0.33／0P、時段末 1.67／2M）。last-180 最大 2.0。公開窗最大 2.0。窗起點 2026-10-12T15:01:00（358 筆）。下一整點 20:00 未滿（59 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 1.67 (2M) at 2026-10-12T20:00:00 on 12 October 2026. The 20 hour is complete (60 samples through 20:59; hour-start 1.67/2M, hour-end 2.0/2Z). Last-180 maximum is 2.0. Published-window maximum is 2.0. Window starts 2026-10-12T16:01:00 (358 samples). Next hour 21:00 incomplete (59 samples).",
+        "zh": "最新可靠整點初值：2026-10-12T20:00:00 估算 Kp 1.67（2M）。20 時段已收滿（60 筆至 20:59；時段初 1.67／2M、時段末 2.0／2Z）。last-180 最大 2.0。公開窗最大 2.0。窗起點 2026-10-12T16:01:00（358 筆）。下一整點 21:00 未滿（59 筆）。"
       },
       "data": {
-        "estimated_kp": 0.33,
-        "kp": "0P",
+        "estimated_kp": 1.67,
+        "kp": "2M",
         "hour_complete": true,
-        "hour_start_kp": 0.33,
-        "hour_end_kp": 1.67,
+        "hour_start_kp": 1.67,
+        "hour_end_kp": 2.0,
         "last180_max": 2.0,
         "window_max": 2.0,
-        "window_start": "2026-10-12T15:01:00",
+        "window_start": "2026-10-12T16:01:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
         "next_hour_count": 59
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-12T21:02:28Z"
+        "fetched_at": "2026-10-12T22:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u1w6",
+      "type": "earthquake",
+      "time_utc": "2026-10-12T21:43:30Z",
+      "title": {
+        "en": "M 4.5 - 19 km SSW of Zapotillo, Panama",
+        "zh": "M 4.5 - 19 km SSW of Zapotillo, Panama"
+      },
+      "summary": {
+        "en": "Magnitude 4.5 earthquake at 19 km SSW of Zapotillo, Panama.",
+        "zh": "震級 4.5，位於 19 km SSW of Zapotillo, Panama。"
+      },
+      "data": {
+        "mag": 4.5,
+        "place": "19 km SSW of Zapotillo, Panama",
+        "id": "us6000u1w6"
       }
     },
     {
@@ -47,13 +65,7 @@
       "data": {
         "mag": 4.8,
         "place": "25 km W of Río Grande, Panama",
-        "id": "us6000u1vf",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1vf",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1vf.geojson"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T21:02:28Z"
+        "id": "us6000u1vf"
       }
     },
     {
@@ -71,13 +83,7 @@
       "data": {
         "mag": 4.6,
         "place": "Mid-Indian Ridge",
-        "id": "us6000u1uv",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1uv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1uv.geojson"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T21:02:28Z"
+        "id": "us6000u1uv"
       }
     },
     {
@@ -95,13 +101,7 @@
       "data": {
         "mag": 4.7,
         "place": "Mid-Indian Ridge",
-        "id": "us6000u1ut",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ut",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1ut.geojson"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T21:02:28Z"
+        "id": "us6000u1ut"
       }
     },
     {
@@ -119,13 +119,7 @@
       "data": {
         "mag": 4.8,
         "place": "23 km SW of San Antonio, Chile",
-        "id": "us6000u1uq",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1uq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1uq.geojson"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T21:02:28Z"
+        "id": "us6000u1uq"
       }
     },
     {
@@ -143,13 +137,7 @@
       "data": {
         "mag": 4.9,
         "place": "283 km SSW of Severo-Kuril’sk, Russia",
-        "id": "us6000u1sn",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1sn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1sn.geojson"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T21:02:28Z"
+        "id": "us6000u1sn"
       }
     },
     {
@@ -167,13 +155,7 @@
       "data": {
         "mag": 4.6,
         "place": "194 km SE of Attu Station, Alaska",
-        "id": "us6000u1s8",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1s8",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1s8.geojson"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T21:02:28Z"
+        "id": "us6000u1s8"
       }
     },
     {
@@ -191,13 +173,7 @@
       "data": {
         "mag": 4.8,
         "place": "Mid-Indian Ridge",
-        "id": "us6000u1s2",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1s2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1s2.geojson"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T21:02:28Z"
+        "id": "us6000u1s2"
       }
     },
     {
@@ -215,13 +191,7 @@
       "data": {
         "mag": 4.5,
         "place": "6 km W of Tonosí, Panama",
-        "id": "us6000u1rx",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1rx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1rx.geojson"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T21:02:28Z"
+        "id": "us6000u1rx"
       }
     },
     {
@@ -239,13 +209,7 @@
       "data": {
         "mag": 4.6,
         "place": "100 km SSW of Kencong, Indonesia",
-        "id": "us6000u1rm",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1rm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1rm.geojson"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T21:02:28Z"
+        "id": "us6000u1rm"
       }
     },
     {
@@ -263,13 +227,7 @@
       "data": {
         "mag": 5.4,
         "place": "Mid-Indian Ridge",
-        "id": "us6000u1rh",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1rh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1rh.geojson"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T21:02:28Z"
+        "id": "us6000u1rh"
       }
     },
     {
@@ -287,13 +245,7 @@
       "data": {
         "mag": 4.6,
         "place": "122 km SE of Bitung, Indonesia",
-        "id": "us6000u1r3",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1r3",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1r3.geojson"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T21:02:28Z"
+        "id": "us6000u1r3"
       }
     },
     {
@@ -311,13 +263,7 @@
       "data": {
         "mag": 4.7,
         "place": "219 km E of Lospalos, Timor Leste",
-        "id": "us6000u1qy",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1qy",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1qy.geojson"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T21:02:28Z"
+        "id": "us6000u1qy"
       }
     },
     {
@@ -335,13 +281,7 @@
       "data": {
         "mag": 4.5,
         "place": "7 km ESE of Tebario, Panama",
-        "id": "us6000u1qd",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1qd",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1qd.geojson"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T21:02:28Z"
+        "id": "us6000u1qd"
       }
     },
     {
@@ -359,13 +299,7 @@
       "data": {
         "mag": 4.6,
         "place": "25 km SSE of Blitar, Indonesia",
-        "id": "us6000u1q2",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1q2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1q2.geojson"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T21:02:28Z"
+        "id": "us6000u1q2"
       }
     },
     {
@@ -383,13 +317,7 @@
       "data": {
         "mag": 4.5,
         "place": "south of the Fiji Islands",
-        "id": "us6000u1pz",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1pz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1pz.geojson"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T21:02:28Z"
+        "id": "us6000u1pz"
       }
     },
     {
@@ -407,13 +335,7 @@
       "data": {
         "mag": 5.5,
         "place": "122 km W of Neiafu, Tonga",
-        "id": "us6000u1pl",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1pl",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1pl.geojson"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T21:02:28Z"
+        "id": "us6000u1pl"
       }
     },
     {
@@ -431,13 +353,7 @@
       "data": {
         "mag": 4.5,
         "place": "53 km S of Kushiro, Japan",
-        "id": "us6000u1pa",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1pa",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1pa.geojson"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T21:02:28Z"
+        "id": "us6000u1pa"
       }
     },
     {
@@ -455,13 +371,7 @@
       "data": {
         "mag": 4.5,
         "place": "7 km ENE of Lajamina, Panama",
-        "id": "us6000u1ny",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ny",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1ny.geojson"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T21:02:28Z"
+        "id": "us6000u1ny"
       }
     },
     {
@@ -479,13 +389,7 @@
       "data": {
         "mag": 4.8,
         "place": "southern East Pacific Rise",
-        "id": "us6000u1nx",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1nx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1nx.geojson"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T21:02:28Z"
+        "id": "us6000u1nx"
       }
     },
     {
@@ -503,13 +407,7 @@
       "data": {
         "mag": 4.8,
         "place": "56 km E of Yairipok, India",
-        "id": "us6000u1nr",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1nr",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1nr.geojson"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T21:02:28Z"
+        "id": "us6000u1nr"
       }
     },
     {
@@ -527,13 +425,7 @@
       "data": {
         "mag": 4.6,
         "place": "Volcano Islands, Japan region",
-        "id": "us6000u1nn",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1nn",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1nn.geojson"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T21:02:28Z"
+        "id": "us6000u1nn"
       }
     },
     {
@@ -551,13 +443,7 @@
       "data": {
         "mag": 4.5,
         "place": "103 km SSW of La Libertad, El Salvador",
-        "id": "us6000u1n6",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1n6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1n6.geojson"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T21:02:28Z"
+        "id": "us6000u1n6"
       }
     },
     {
@@ -575,13 +461,7 @@
       "data": {
         "mag": 4.6,
         "place": "0 km NE of Leones Arriba, Panama",
-        "id": "us6000u1mz",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1mz",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1mz.geojson"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T21:02:28Z"
+        "id": "us6000u1mz"
       }
     },
     {
@@ -599,61 +479,7 @@
       "data": {
         "mag": 4.5,
         "place": "116 km SE of Nabire, Indonesia",
-        "id": "us6000u1mv",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1mv",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1mv.geojson"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T21:02:28Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u1mj",
-      "type": "earthquake",
-      "time_utc": "2026-10-11T21:34:53Z",
-      "title": {
-        "en": "M 5.2 - 152 km W of Gorontalo, Indonesia",
-        "zh": "M 5.2 - 152 km W of Gorontalo, Indonesia"
-      },
-      "summary": {
-        "en": "Magnitude 5.2 earthquake at 152 km W of Gorontalo, Indonesia.",
-        "zh": "震級 5.2，位於 152 km W of Gorontalo, Indonesia。"
-      },
-      "data": {
-        "mag": 5.2,
-        "place": "152 km W of Gorontalo, Indonesia",
-        "id": "us6000u1mj",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1mj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1mj.geojson"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T21:02:28Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u1me",
-      "type": "earthquake",
-      "time_utc": "2026-10-11T21:19:20Z",
-      "title": {
-        "en": "M 4.5 - 27 km W of Río Grande, Panama",
-        "zh": "M 4.5 - 27 km W of Río Grande, Panama"
-      },
-      "summary": {
-        "en": "Magnitude 4.5 earthquake at 27 km W of Río Grande, Panama.",
-        "zh": "震級 4.5，位於 27 km W of Río Grande, Panama。"
-      },
-      "data": {
-        "mag": 4.5,
-        "place": "27 km W of Río Grande, Panama",
-        "id": "us6000u1me",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1me",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1me.geojson"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T21:02:28Z"
+        "id": "us6000u1mv"
       }
     }
   ]
