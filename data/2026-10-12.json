@@ -1,32 +1,131 @@
 {
   "date": "2026-10-12",
-  "updated": "2026-10-12T14:02:24Z",
+  "updated": "2026-10-12T17:03:12Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-12T12:00Z",
+      "time_utc": "2026-10-12T15:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (0Z) at 12:00 UTC on 12 October 2026.",
-        "zh": "2026 年 10 月 12 日 12:00 UTC，估算行星 Kp 為 0.00（0Z）。"
+        "en": "Estimated planetary Kp is 0.00 (0Z) at 15 UTC on 12 October 2026.",
+        "zh": "2026 年 10 月 12 日 15 UTC，估算行星 Kp 為 0.00（0Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 2026-10-12T12:00:00Z on 12 October 2026. The 12 hour is complete (60 samples through 12:59; hour-start 0.00/0Z, hour-end 0.33/0P). Last-180 maximum is 1.33 (first at ~10:58 UTC; label 1P). Published-window maximum is 3.33 (first at ~08:04 UTC; label 3P). Window starts 2026-10-12T08:00:00 (358 samples). Next hour 13:00 incomplete (58 samples).",
-        "zh": "最新可靠整點初值：2026-10-12T12:00:00Z 估算 Kp 0.00（0Z）。12 時段已收滿（60 筆至 12:59；時段初 0.00／0Z、時段末 0.33／0P）。last-180 最大 1.33（最先見於約 10:58 UTC；標籤 1P）。公開窗最大 3.33（最先見於約 08:04 UTC；標籤 3P）。窗起點 2026-10-12T08:00:00（358 筆）。下一時段 13:00 未滿（58 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 2026-10-12T15:00:00Z on 12 October 2026. The 15 hour is complete (60 samples through 15:59; hour-start 0.00/0Z, hour-end 0.33/0P). Last-180 maximum is 0.67. Published-window maximum is 1.33. Window starts 2026-10-12T10:59:00 (358 samples). Next hour 16:00 incomplete (57 samples).",
+        "zh": "最新可靠整點初值：2026-10-12T15:00:00Z 估算 Kp 0.00（0Z）。15 時段已收滿（60 筆至 15:59；時段初 0.00／0Z、時段末 0.33／0P）。last-180 最大 0.67。公開窗最大 1.33。窗起點 2026-10-12T10:59:00（358 筆）。下一整點 16:00 未滿（57 筆）。"
       },
       "data": {
         "estimated_kp": 0.0,
-        "kp_label": "0Z",
-        "hour_start": "2026-10-12T12:00:00Z",
+        "kp": "0Z",
         "hour_complete": true,
-        "samples": 60,
+        "hour_start_kp": 0.0,
         "hour_end_kp": 0.33,
-        "hour_end_label": "0P"
+        "last180_max": 0.67,
+        "window_max": 1.33,
+        "window_start": "2026-10-12T10:59:00",
+        "sample_count": 358,
+        "next_hour_incomplete": true,
+        "next_hour_count": 57
       },
       "evidence": {
-        "source_name": "NOAA SWPC",
-        "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "retrieved_utc": "2026-10-12T14:02:24Z"
+        "source": "NOAA SWPC planetary_k_index_1m.json",
+        "fetched_at": "2026-10-12T17:03:12.075535+00:00"
+      }
+    },
+    {
+      "id": "usgs-us6000u1sn",
+      "type": "earthquake",
+      "time_utc": "2026-10-12T15:44:33Z",
+      "title": {
+        "en": "M4.9 283 km SSW of Severo-Kuril’sk, Russia",
+        "zh": "M4.9 283 km SSW of Severo-Kuril’sk, Russia"
+      },
+      "summary": {
+        "en": "Magnitude 4.9 earthquake at 283 km SSW of Severo-Kuril’sk, Russia.",
+        "zh": "震級 4.9，位於 283 km SSW of Severo-Kuril’sk, Russia。"
+      },
+      "data": {
+        "mag": 4.9,
+        "place": "283 km SSW of Severo-Kuril’sk, Russia",
+        "id": "us6000u1sn",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1sn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1sn.geojson"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-12T17:03:12.075742+00:00"
+      }
+    },
+    {
+      "id": "usgs-us6000u1s8",
+      "type": "earthquake",
+      "time_utc": "2026-10-12T14:29:53Z",
+      "title": {
+        "en": "M4.6 194 km SE of Attu Station, Alaska",
+        "zh": "M4.6 194 km SE of Attu Station, Alaska"
+      },
+      "summary": {
+        "en": "Magnitude 4.6 earthquake at 194 km SE of Attu Station, Alaska.",
+        "zh": "震級 4.6，位於 194 km SE of Attu Station, Alaska。"
+      },
+      "data": {
+        "mag": 4.6,
+        "place": "194 km SE of Attu Station, Alaska",
+        "id": "us6000u1s8",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1s8",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1s8.geojson"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-12T17:03:12.075753+00:00"
+      }
+    },
+    {
+      "id": "usgs-us6000u1s2",
+      "type": "earthquake",
+      "time_utc": "2026-10-12T13:44:41Z",
+      "title": {
+        "en": "M4.8 Mid-Indian Ridge",
+        "zh": "M4.8 Mid-Indian Ridge"
+      },
+      "summary": {
+        "en": "Magnitude 4.8 earthquake at Mid-Indian Ridge.",
+        "zh": "震級 4.8，位於 Mid-Indian Ridge。"
+      },
+      "data": {
+        "mag": 4.8,
+        "place": "Mid-Indian Ridge",
+        "id": "us6000u1s2",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1s2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1s2.geojson"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-12T17:03:12.075760+00:00"
+      }
+    },
+    {
+      "id": "usgs-us6000u1rx",
+      "type": "earthquake",
+      "time_utc": "2026-10-12T13:17:18Z",
+      "title": {
+        "en": "M4.5 6 km W of Tonosí, Panama",
+        "zh": "M4.5 6 km W of Tonosí, Panama"
+      },
+      "summary": {
+        "en": "Magnitude 4.5 earthquake at 6 km W of Tonosí, Panama.",
+        "zh": "震級 4.5，位於 6 km W of Tonosí, Panama。"
+      },
+      "data": {
+        "mag": 4.5,
+        "place": "6 km W of Tonosí, Panama",
+        "id": "us6000u1rx",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1rx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1rx.geojson"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-12T17:03:12.075767+00:00"
       }
     },
     {
@@ -34,22 +133,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T11:58:08Z",
       "title": {
-        "en": "M4.6 earthquake 100 km SSW of Kencong, Indonesia on 2026 10 12.",
-        "zh": "2026 10 12，100 km SSW of Kencong, Indonesia 發生規模 4.6 地震。"
+        "en": "M4.6 100 km SSW of Kencong, Indonesia",
+        "zh": "M4.6 100 km SSW of Kencong, Indonesia"
       },
       "summary": {
-        "en": "Magnitude 4.6 earthquake occurred 100 km SSW of Kencong, Indonesia at 2026-10-12T11:58:08Z.",
-        "zh": "2026-10-12T11:58:08Z 在 100 km SSW of Kencong, Indonesia 發生規模 4.6 地震。"
+        "en": "Magnitude 4.6 earthquake at 100 km SSW of Kencong, Indonesia.",
+        "zh": "震級 4.6，位於 100 km SSW of Kencong, Indonesia。"
       },
       "data": {
         "mag": 4.6,
         "place": "100 km SSW of Kencong, Indonesia",
-        "depth_km": 55.223
+        "id": "us6000u1rm",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1rm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1rm.geojson"
       },
       "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-12T14:02:24Z"
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-12T17:03:12.075774+00:00"
       }
     },
     {
@@ -57,22 +157,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T11:28:43Z",
       "title": {
-        "en": "M5.4 earthquake Mid-Indian Ridge on 2026 10 12.",
-        "zh": "2026 10 12，Mid-Indian Ridge 發生規模 5.4 地震。"
+        "en": "M5.4 Mid-Indian Ridge",
+        "zh": "M5.4 Mid-Indian Ridge"
       },
       "summary": {
-        "en": "Magnitude 5.4 earthquake occurred Mid-Indian Ridge at 2026-10-12T11:28:43Z.",
-        "zh": "2026-10-12T11:28:43Z 在 Mid-Indian Ridge 發生規模 5.4 地震。"
+        "en": "Magnitude 5.4 earthquake at Mid-Indian Ridge.",
+        "zh": "震級 5.4，位於 Mid-Indian Ridge。"
       },
       "data": {
         "mag": 5.4,
         "place": "Mid-Indian Ridge",
-        "depth_km": 10.0
+        "id": "us6000u1rh",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1rh",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1rh.geojson"
       },
       "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-12T14:02:24Z"
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-12T17:03:12.075781+00:00"
       }
     },
     {
@@ -80,22 +181,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T08:59:14Z",
       "title": {
-        "en": "M4.6 earthquake 122 km SE of Bitung, Indonesia on 2026 10 12.",
-        "zh": "2026 10 12，122 km SE of Bitung, Indonesia 發生規模 4.6 地震。"
+        "en": "M4.6 122 km SE of Bitung, Indonesia",
+        "zh": "M4.6 122 km SE of Bitung, Indonesia"
       },
       "summary": {
-        "en": "Magnitude 4.6 earthquake occurred 122 km SE of Bitung, Indonesia at 2026-10-12T08:59:14Z.",
-        "zh": "2026-10-12T08:59:14Z 在 122 km SE of Bitung, Indonesia 發生規模 4.6 地震。"
+        "en": "Magnitude 4.6 earthquake at 122 km SE of Bitung, Indonesia.",
+        "zh": "震級 4.6，位於 122 km SE of Bitung, Indonesia。"
       },
       "data": {
         "mag": 4.6,
         "place": "122 km SE of Bitung, Indonesia",
-        "depth_km": 49.217
+        "id": "us6000u1r3",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1r3",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1r3.geojson"
       },
       "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-12T14:02:24Z"
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-12T17:03:12.075786+00:00"
       }
     },
     {
@@ -103,22 +205,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T08:30:08Z",
       "title": {
-        "en": "M4.7 earthquake 219 km E of Lospalos, Timor Leste on 2026 10 12.",
-        "zh": "2026 10 12，219 km E of Lospalos, Timor Leste 發生規模 4.7 地震。"
+        "en": "M4.7 219 km E of Lospalos, Timor Leste",
+        "zh": "M4.7 219 km E of Lospalos, Timor Leste"
       },
       "summary": {
-        "en": "Magnitude 4.7 earthquake occurred 219 km E of Lospalos, Timor Leste at 2026-10-12T08:30:08Z.",
-        "zh": "2026-10-12T08:30:08Z 在 219 km E of Lospalos, Timor Leste 發生規模 4.7 地震。"
+        "en": "Magnitude 4.7 earthquake at 219 km E of Lospalos, Timor Leste.",
+        "zh": "震級 4.7，位於 219 km E of Lospalos, Timor Leste。"
       },
       "data": {
         "mag": 4.7,
         "place": "219 km E of Lospalos, Timor Leste",
-        "depth_km": 22.434
+        "id": "us6000u1qy",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1qy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1qy.geojson"
       },
       "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-12T14:02:24Z"
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-12T17:03:12.075791+00:00"
       }
     },
     {
@@ -126,22 +229,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T07:16:06Z",
       "title": {
-        "en": "M4.5 earthquake 7 km ESE of Tebario, Panama on 2026 10 12.",
-        "zh": "2026 10 12，7 km ESE of Tebario, Panama 發生規模 4.5 地震。"
+        "en": "M4.5 7 km ESE of Tebario, Panama",
+        "zh": "M4.5 7 km ESE of Tebario, Panama"
       },
       "summary": {
-        "en": "Magnitude 4.5 earthquake occurred 7 km ESE of Tebario, Panama at 2026-10-12T07:16:06Z.",
-        "zh": "2026-10-12T07:16:06Z 在 7 km ESE of Tebario, Panama 發生規模 4.5 地震。"
+        "en": "Magnitude 4.5 earthquake at 7 km ESE of Tebario, Panama.",
+        "zh": "震級 4.5，位於 7 km ESE of Tebario, Panama。"
       },
       "data": {
         "mag": 4.5,
         "place": "7 km ESE of Tebario, Panama",
-        "depth_km": 10.0
+        "id": "us6000u1qd",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1qd",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1qd.geojson"
       },
       "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-12T14:02:24Z"
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-12T17:03:12.075796+00:00"
       }
     },
     {
@@ -149,22 +253,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T05:28:09Z",
       "title": {
-        "en": "M4.6 earthquake 25 km SSE of Blitar, Indonesia on 2026 10 12.",
-        "zh": "2026 10 12，25 km SSE of Blitar, Indonesia 發生規模 4.6 地震。"
+        "en": "M4.6 25 km SSE of Blitar, Indonesia",
+        "zh": "M4.6 25 km SSE of Blitar, Indonesia"
       },
       "summary": {
-        "en": "Magnitude 4.6 earthquake occurred 25 km SSE of Blitar, Indonesia at 2026-10-12T05:28:09Z.",
-        "zh": "2026-10-12T05:28:09Z 在 25 km SSE of Blitar, Indonesia 發生規模 4.6 地震。"
+        "en": "Magnitude 4.6 earthquake at 25 km SSE of Blitar, Indonesia.",
+        "zh": "震級 4.6，位於 25 km SSE of Blitar, Indonesia。"
       },
       "data": {
         "mag": 4.6,
         "place": "25 km SSE of Blitar, Indonesia",
-        "depth_km": 121.104
+        "id": "us6000u1q2",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1q2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1q2.geojson"
       },
       "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-12T14:02:24Z"
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-12T17:03:12.075800+00:00"
       }
     },
     {
@@ -172,22 +277,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T05:15:50Z",
       "title": {
-        "en": "M4.5 earthquake south of the Fiji Islands on 2026 10 12.",
-        "zh": "2026 10 12，south of the Fiji Islands 發生規模 4.5 地震。"
+        "en": "M4.5 south of the Fiji Islands",
+        "zh": "M4.5 south of the Fiji Islands"
       },
       "summary": {
-        "en": "Magnitude 4.5 earthquake occurred south of the Fiji Islands at 2026-10-12T05:15:50Z.",
-        "zh": "2026-10-12T05:15:50Z 在 south of the Fiji Islands 發生規模 4.5 地震。"
+        "en": "Magnitude 4.5 earthquake at south of the Fiji Islands.",
+        "zh": "震級 4.5，位於 south of the Fiji Islands。"
       },
       "data": {
         "mag": 4.5,
         "place": "south of the Fiji Islands",
-        "depth_km": 470.833
+        "id": "us6000u1pz",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1pz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1pz.geojson"
       },
       "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-12T14:02:24Z"
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-12T17:03:12.075807+00:00"
       }
     },
     {
@@ -195,22 +301,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T04:38:12Z",
       "title": {
-        "en": "M5.5 earthquake 122 km W of Neiafu, Tonga on 2026 10 12.",
-        "zh": "2026 10 12，122 km W of Neiafu, Tonga 發生規模 5.5 地震。"
+        "en": "M5.5 122 km W of Neiafu, Tonga",
+        "zh": "M5.5 122 km W of Neiafu, Tonga"
       },
       "summary": {
-        "en": "Magnitude 5.5 earthquake occurred 122 km W of Neiafu, Tonga at 2026-10-12T04:38:12Z.",
-        "zh": "2026-10-12T04:38:12Z 在 122 km W of Neiafu, Tonga 發生規模 5.5 地震。"
+        "en": "Magnitude 5.5 earthquake at 122 km W of Neiafu, Tonga.",
+        "zh": "震級 5.5，位於 122 km W of Neiafu, Tonga。"
       },
       "data": {
         "mag": 5.5,
         "place": "122 km W of Neiafu, Tonga",
-        "depth_km": 195.212
+        "id": "us6000u1pl",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1pl",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1pl.geojson"
       },
       "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-12T14:02:24Z"
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-12T17:03:12.075811+00:00"
       }
     },
     {
@@ -218,22 +325,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T03:44:57Z",
       "title": {
-        "en": "M4.5 earthquake 53 km S of Kushiro, Japan on 2026 10 12.",
-        "zh": "2026 10 12，53 km S of Kushiro, Japan 發生規模 4.5 地震。"
+        "en": "M4.5 53 km S of Kushiro, Japan",
+        "zh": "M4.5 53 km S of Kushiro, Japan"
       },
       "summary": {
-        "en": "Magnitude 4.5 earthquake occurred 53 km S of Kushiro, Japan at 2026-10-12T03:44:57Z.",
-        "zh": "2026-10-12T03:44:57Z 在 53 km S of Kushiro, Japan 發生規模 4.5 地震。"
+        "en": "Magnitude 4.5 earthquake at 53 km S of Kushiro, Japan.",
+        "zh": "震級 4.5，位於 53 km S of Kushiro, Japan。"
       },
       "data": {
         "mag": 4.5,
         "place": "53 km S of Kushiro, Japan",
-        "depth_km": 65.892
+        "id": "us6000u1pa",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1pa",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1pa.geojson"
       },
       "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-12T14:02:24Z"
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-12T17:03:12.075817+00:00"
       }
     },
     {
@@ -241,22 +349,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T02:22:29Z",
       "title": {
-        "en": "M4.5 earthquake 7 km ENE of Lajamina, Panama on 2026 10 12.",
-        "zh": "2026 10 12，7 km ENE of Lajamina, Panama 發生規模 4.5 地震。"
+        "en": "M4.5 7 km ENE of Lajamina, Panama",
+        "zh": "M4.5 7 km ENE of Lajamina, Panama"
       },
       "summary": {
-        "en": "Magnitude 4.5 earthquake occurred 7 km ENE of Lajamina, Panama at 2026-10-12T02:22:29Z.",
-        "zh": "2026-10-12T02:22:29Z 在 7 km ENE of Lajamina, Panama 發生規模 4.5 地震。"
+        "en": "Magnitude 4.5 earthquake at 7 km ENE of Lajamina, Panama.",
+        "zh": "震級 4.5，位於 7 km ENE of Lajamina, Panama。"
       },
       "data": {
         "mag": 4.5,
         "place": "7 km ENE of Lajamina, Panama",
-        "depth_km": 10.0
+        "id": "us6000u1ny",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ny",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1ny.geojson"
       },
       "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-12T14:02:24Z"
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-12T17:03:12.075824+00:00"
       }
     },
     {
@@ -264,22 +373,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T01:59:24Z",
       "title": {
-        "en": "M4.8 earthquake southern East Pacific Rise on 2026 10 12.",
-        "zh": "2026 10 12，southern East Pacific Rise 發生規模 4.8 地震。"
+        "en": "M4.8 southern East Pacific Rise",
+        "zh": "M4.8 southern East Pacific Rise"
       },
       "summary": {
-        "en": "Magnitude 4.8 earthquake occurred southern East Pacific Rise at 2026-10-12T01:59:24Z.",
-        "zh": "2026-10-12T01:59:24Z 在 southern East Pacific Rise 發生規模 4.8 地震。"
+        "en": "Magnitude 4.8 earthquake at southern East Pacific Rise.",
+        "zh": "震級 4.8，位於 southern East Pacific Rise。"
       },
       "data": {
         "mag": 4.8,
         "place": "southern East Pacific Rise",
-        "depth_km": 10.0
+        "id": "us6000u1nx",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1nx",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1nx.geojson"
       },
       "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-12T14:02:24Z"
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-12T17:03:12.075829+00:00"
       }
     },
     {
@@ -287,22 +397,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T01:28:20Z",
       "title": {
-        "en": "M4.8 earthquake 56 km E of Yairipok, India on 2026 10 12.",
-        "zh": "2026 10 12，56 km E of Yairipok, India 發生規模 4.8 地震。"
+        "en": "M4.8 56 km E of Yairipok, India",
+        "zh": "M4.8 56 km E of Yairipok, India"
       },
       "summary": {
-        "en": "Magnitude 4.8 earthquake occurred 56 km E of Yairipok, India at 2026-10-12T01:28:20Z.",
-        "zh": "2026-10-12T01:28:20Z 在 56 km E of Yairipok, India 發生規模 4.8 地震。"
+        "en": "Magnitude 4.8 earthquake at 56 km E of Yairipok, India.",
+        "zh": "震級 4.8，位於 56 km E of Yairipok, India。"
       },
       "data": {
         "mag": 4.8,
         "place": "56 km E of Yairipok, India",
-        "depth_km": 78.183
+        "id": "us6000u1nr",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1nr",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1nr.geojson"
       },
       "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-12T14:02:24Z"
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-12T17:03:12.075836+00:00"
       }
     },
     {
@@ -310,22 +421,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T00:53:12Z",
       "title": {
-        "en": "M4.6 earthquake Volcano Islands, Japan region on 2026 10 12.",
-        "zh": "2026 10 12，Volcano Islands, Japan region 發生規模 4.6 地震。"
+        "en": "M4.6 Volcano Islands, Japan region",
+        "zh": "M4.6 Volcano Islands, Japan region"
       },
       "summary": {
-        "en": "Magnitude 4.6 earthquake occurred Volcano Islands, Japan region at 2026-10-12T00:53:12Z.",
-        "zh": "2026-10-12T00:53:12Z 在 Volcano Islands, Japan region 發生規模 4.6 地震。"
+        "en": "Magnitude 4.6 earthquake at Volcano Islands, Japan region.",
+        "zh": "震級 4.6，位於 Volcano Islands, Japan region。"
       },
       "data": {
         "mag": 4.6,
         "place": "Volcano Islands, Japan region",
-        "depth_km": 199.761
+        "id": "us6000u1nn",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1nn",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1nn.geojson"
       },
       "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-12T14:02:24Z"
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-12T17:03:12.075841+00:00"
       }
     },
     {
@@ -333,22 +445,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-11T23:20:35Z",
       "title": {
-        "en": "M4.5 earthquake 103 km SSW of La Libertad, El Salvador on 2026 10 11.",
-        "zh": "2026 10 11，103 km SSW of La Libertad, El Salvador 發生規模 4.5 地震。"
+        "en": "M4.5 103 km SSW of La Libertad, El Salvador",
+        "zh": "M4.5 103 km SSW of La Libertad, El Salvador"
       },
       "summary": {
-        "en": "Magnitude 4.5 earthquake occurred 103 km SSW of La Libertad, El Salvador at 2026-10-11T23:20:35Z.",
-        "zh": "2026-10-11T23:20:35Z 在 103 km SSW of La Libertad, El Salvador 發生規模 4.5 地震。"
+        "en": "Magnitude 4.5 earthquake at 103 km SSW of La Libertad, El Salvador.",
+        "zh": "震級 4.5，位於 103 km SSW of La Libertad, El Salvador。"
       },
       "data": {
         "mag": 4.5,
         "place": "103 km SSW of La Libertad, El Salvador",
-        "depth_km": 35.0
+        "id": "us6000u1n6",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1n6",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1n6.geojson"
       },
       "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-12T14:02:24Z"
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-12T17:03:12.075846+00:00"
       }
     },
     {
@@ -356,22 +469,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-11T22:40:24Z",
       "title": {
-        "en": "M4.6 earthquake 0 km NE of Leones Arriba, Panama on 2026 10 11.",
-        "zh": "2026 10 11，0 km NE of Leones Arriba, Panama 發生規模 4.6 地震。"
+        "en": "M4.6 0 km NE of Leones Arriba, Panama",
+        "zh": "M4.6 0 km NE of Leones Arriba, Panama"
       },
       "summary": {
-        "en": "Magnitude 4.6 earthquake occurred 0 km NE of Leones Arriba, Panama at 2026-10-11T22:40:24Z.",
-        "zh": "2026-10-11T22:40:24Z 在 0 km NE of Leones Arriba, Panama 發生規模 4.6 地震。"
+        "en": "Magnitude 4.6 earthquake at 0 km NE of Leones Arriba, Panama.",
+        "zh": "震級 4.6，位於 0 km NE of Leones Arriba, Panama。"
       },
       "data": {
         "mag": 4.6,
         "place": "0 km NE of Leones Arriba, Panama",
-        "depth_km": 10.0
+        "id": "us6000u1mz",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1mz",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1mz.geojson"
       },
       "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-12T14:02:24Z"
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-12T17:03:12.075851+00:00"
       }
     },
     {
@@ -379,22 +493,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-11T22:07:25Z",
       "title": {
-        "en": "M4.5 earthquake 116 km SE of Nabire, Indonesia on 2026 10 11.",
-        "zh": "2026 10 11，116 km SE of Nabire, Indonesia 發生規模 4.5 地震。"
+        "en": "M4.5 116 km SE of Nabire, Indonesia",
+        "zh": "M4.5 116 km SE of Nabire, Indonesia"
       },
       "summary": {
-        "en": "Magnitude 4.5 earthquake occurred 116 km SE of Nabire, Indonesia at 2026-10-11T22:07:25Z.",
-        "zh": "2026-10-11T22:07:25Z 在 116 km SE of Nabire, Indonesia 發生規模 4.5 地震。"
+        "en": "Magnitude 4.5 earthquake at 116 km SE of Nabire, Indonesia.",
+        "zh": "震級 4.5，位於 116 km SE of Nabire, Indonesia。"
       },
       "data": {
         "mag": 4.5,
         "place": "116 km SE of Nabire, Indonesia",
-        "depth_km": 10.0
+        "id": "us6000u1mv",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1mv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1mv.geojson"
       },
       "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-12T14:02:24Z"
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-12T17:03:12.075860+00:00"
       }
     },
     {
@@ -402,22 +517,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-11T21:34:53Z",
       "title": {
-        "en": "M5.3 earthquake 150 km W of Gorontalo, Indonesia on 2026 10 11.",
-        "zh": "2026 10 11，150 km W of Gorontalo, Indonesia 發生規模 5.3 地震。"
+        "en": "M5.2 152 km W of Gorontalo, Indonesia",
+        "zh": "M5.2 152 km W of Gorontalo, Indonesia"
       },
       "summary": {
-        "en": "Magnitude 5.3 earthquake occurred 150 km W of Gorontalo, Indonesia at 2026-10-11T21:34:53Z.",
-        "zh": "2026-10-11T21:34:53Z 在 150 km W of Gorontalo, Indonesia 發生規模 5.3 地震。"
+        "en": "Magnitude 5.2 earthquake at 152 km W of Gorontalo, Indonesia.",
+        "zh": "震級 5.2，位於 152 km W of Gorontalo, Indonesia。"
       },
       "data": {
-        "mag": 5.3,
-        "place": "150 km W of Gorontalo, Indonesia",
-        "depth_km": 110.467
+        "mag": 5.2,
+        "place": "152 km W of Gorontalo, Indonesia",
+        "id": "us6000u1mj",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1mj",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1mj.geojson"
       },
       "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-12T14:02:24Z"
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-12T17:03:12.075865+00:00"
       }
     },
     {
@@ -425,22 +541,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-11T21:19:20Z",
       "title": {
-        "en": "M4.5 earthquake 27 km W of Río Grande, Panama on 2026 10 11.",
-        "zh": "2026 10 11，27 km W of Río Grande, Panama 發生規模 4.5 地震。"
+        "en": "M4.5 27 km W of Río Grande, Panama",
+        "zh": "M4.5 27 km W of Río Grande, Panama"
       },
       "summary": {
-        "en": "Magnitude 4.5 earthquake occurred 27 km W of Río Grande, Panama at 2026-10-11T21:19:20Z.",
-        "zh": "2026-10-11T21:19:20Z 在 27 km W of Río Grande, Panama 發生規模 4.5 地震。"
+        "en": "Magnitude 4.5 earthquake at 27 km W of Río Grande, Panama.",
+        "zh": "震級 4.5，位於 27 km W of Río Grande, Panama。"
       },
       "data": {
         "mag": 4.5,
         "place": "27 km W of Río Grande, Panama",
-        "depth_km": 10.0
+        "id": "us6000u1me",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1me",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1me.geojson"
       },
       "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-12T14:02:24Z"
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-12T17:03:12.075892+00:00"
       }
     },
     {
@@ -448,22 +565,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-11T18:47:57Z",
       "title": {
-        "en": "M4.6 earthquake 184 km W of Fakfak, Indonesia on 2026 10 11.",
-        "zh": "2026 10 11，184 km W of Fakfak, Indonesia 發生規模 4.6 地震。"
+        "en": "M4.6 184 km W of Fakfak, Indonesia",
+        "zh": "M4.6 184 km W of Fakfak, Indonesia"
       },
       "summary": {
-        "en": "Magnitude 4.6 earthquake occurred 184 km W of Fakfak, Indonesia at 2026-10-11T18:47:57Z.",
-        "zh": "2026-10-11T18:47:57Z 在 184 km W of Fakfak, Indonesia 發生規模 4.6 地震。"
+        "en": "Magnitude 4.6 earthquake at 184 km W of Fakfak, Indonesia.",
+        "zh": "震級 4.6，位於 184 km W of Fakfak, Indonesia。"
       },
       "data": {
         "mag": 4.6,
         "place": "184 km W of Fakfak, Indonesia",
-        "depth_km": 10.0
+        "id": "us6000u1ls",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ls",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1ls.geojson"
       },
       "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-12T14:02:24Z"
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-12T17:03:12.075897+00:00"
       }
     },
     {
@@ -471,22 +589,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-11T18:06:35Z",
       "title": {
-        "en": "M4.7 earthquake 156 km ESE of Neiafu, Tonga on 2026 10 11.",
-        "zh": "2026 10 11，156 km ESE of Neiafu, Tonga 發生規模 4.7 地震。"
+        "en": "M4.7 156 km ESE of Neiafu, Tonga",
+        "zh": "M4.7 156 km ESE of Neiafu, Tonga"
       },
       "summary": {
-        "en": "Magnitude 4.7 earthquake occurred 156 km ESE of Neiafu, Tonga at 2026-10-11T18:06:35Z.",
-        "zh": "2026-10-11T18:06:35Z 在 156 km ESE of Neiafu, Tonga 發生規模 4.7 地震。"
+        "en": "Magnitude 4.7 earthquake at 156 km ESE of Neiafu, Tonga.",
+        "zh": "震級 4.7，位於 156 km ESE of Neiafu, Tonga。"
       },
       "data": {
         "mag": 4.7,
         "place": "156 km ESE of Neiafu, Tonga",
-        "depth_km": 10.0
+        "id": "us6000u1lk",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1lk",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1lk.geojson"
       },
       "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-12T14:02:24Z"
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-12T17:03:12.075902+00:00"
       }
     },
     {
@@ -494,22 +613,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-11T17:11:29Z",
       "title": {
-        "en": "M4.8 earthquake 31 km W of Río Grande, Panama on 2026 10 11.",
-        "zh": "2026 10 11，31 km W of Río Grande, Panama 發生規模 4.8 地震。"
+        "en": "M4.8 31 km W of Río Grande, Panama",
+        "zh": "M4.8 31 km W of Río Grande, Panama"
       },
       "summary": {
-        "en": "Magnitude 4.8 earthquake occurred 31 km W of Río Grande, Panama at 2026-10-11T17:11:29Z.",
-        "zh": "2026-10-11T17:11:29Z 在 31 km W of Río Grande, Panama 發生規模 4.8 地震。"
+        "en": "Magnitude 4.8 earthquake at 31 km W of Río Grande, Panama.",
+        "zh": "震級 4.8，位於 31 km W of Río Grande, Panama。"
       },
       "data": {
         "mag": 4.8,
         "place": "31 km W of Río Grande, Panama",
-        "depth_km": 10.0
+        "id": "us6000u1lf",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1lf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1lf.geojson"
       },
       "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-12T14:02:24Z"
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-12T17:03:12.075909+00:00"
       }
     },
     {
@@ -517,68 +637,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-11T17:00:29Z",
       "title": {
-        "en": "M5.2 earthquake 101 km SSW of Severo-Kuril’sk, Russia on 2026 10 11.",
-        "zh": "2026 10 11，101 km SSW of Severo-Kuril’sk, Russia 發生規模 5.2 地震。"
+        "en": "M5.2 101 km SSW of Severo-Kuril’sk, Russia",
+        "zh": "M5.2 101 km SSW of Severo-Kuril’sk, Russia"
       },
       "summary": {
-        "en": "Magnitude 5.2 earthquake occurred 101 km SSW of Severo-Kuril’sk, Russia at 2026-10-11T17:00:29Z.",
-        "zh": "2026-10-11T17:00:29Z 在 101 km SSW of Severo-Kuril’sk, Russia 發生規模 5.2 地震。"
+        "en": "Magnitude 5.2 earthquake at 101 km SSW of Severo-Kuril’sk, Russia.",
+        "zh": "震級 5.2，位於 101 km SSW of Severo-Kuril’sk, Russia。"
       },
       "data": {
         "mag": 5.2,
         "place": "101 km SSW of Severo-Kuril’sk, Russia",
-        "depth_km": 83.386
+        "id": "us6000u1ld",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ld",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1ld.geojson"
       },
       "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-12T14:02:24Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u1l7",
-      "type": "earthquake",
-      "time_utc": "2026-10-11T16:24:25Z",
-      "title": {
-        "en": "M4.7 earthquake 6 km ESE of Tōgane, Japan on 2026 10 11.",
-        "zh": "2026 10 11，6 km ESE of Tōgane, Japan 發生規模 4.7 地震。"
-      },
-      "summary": {
-        "en": "Magnitude 4.7 earthquake occurred 6 km ESE of Tōgane, Japan at 2026-10-11T16:24:25Z.",
-        "zh": "2026-10-11T16:24:25Z 在 6 km ESE of Tōgane, Japan 發生規模 4.7 地震。"
-      },
-      "data": {
-        "mag": 4.7,
-        "place": "6 km ESE of Tōgane, Japan",
-        "depth_km": 55.788
-      },
-      "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-12T14:02:24Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u1kv",
-      "type": "earthquake",
-      "time_utc": "2026-10-11T14:07:23Z",
-      "title": {
-        "en": "M6.2 earthquake 79 km SSE of Panguna, Papua New Guinea on 2026 10 11.",
-        "zh": "2026 10 11，79 km SSE of Panguna, Papua New Guinea 發生規模 6.2 地震。"
-      },
-      "summary": {
-        "en": "Magnitude 6.2 earthquake occurred 79 km SSE of Panguna, Papua New Guinea at 2026-10-11T14:07:23Z.",
-        "zh": "2026-10-11T14:07:23Z 在 79 km SSE of Panguna, Papua New Guinea 發生規模 6.2 地震。"
-      },
-      "data": {
-        "mag": 6.2,
-        "place": "79 km SSE of Panguna, Papua New Guinea",
-        "depth_km": 53.473
-      },
-      "evidence": {
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "retrieved_utc": "2026-10-12T14:02:24Z"
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-12T17:03:12.075914+00:00"
       }
     }
   ]
