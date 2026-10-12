@@ -1,35 +1,59 @@
 {
   "date": "2026-10-12",
-  "updated": "2026-10-12T20:02:49Z",
+  "updated": "2026-10-12T21:02:28Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-12T18:00Z",
+      "time_utc": "2026-10-12T19:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.0 (0Z) at 18 UTC on 12 October 2026.",
-        "zh": "2026 年 10 月 12 日 18 UTC，估算行星 Kp 為 0.0（0Z）。"
+        "en": "Estimated planetary Kp is 0.33 (0P) at 19 UTC on 12 October 2026.",
+        "zh": "2026 年 10 月 12 日 19 UTC，估算行星 Kp 為 0.33（0P）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-12T18:00:00 on 12 October 2026. The 18 hour is complete (60 samples through 18:59; hour-start 0.0/0Z, hour-end 0.33/0P). Last-180 maximum is 1.67. Published-window maximum is 1.67. Window starts 2026-10-12T14:02:00 (358 samples). Next hour 19:00 incomplete (60 samples).",
-        "zh": "最新可靠整點初值：2026-10-12T18:00:00 估算 Kp 0.0（0Z）。18 時段已收滿（60 筆至 18:59；時段初 0.0／0Z、時段末 0.33／0P）。last-180 最大 1.67。公開窗最大 1.67。窗起點 2026-10-12T14:02:00（358 筆）。下一整點 19:00 未滿（60 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.33 (0P) at 2026-10-12T19:00:00 on 12 October 2026. The 19 hour is complete (60 samples through 19:59; hour-start 0.33/0P, hour-end 1.67/2M). Last-180 maximum is 2.0. Published-window maximum is 2.0. Window starts 2026-10-12T15:01:00 (358 samples). Next hour 20:00 incomplete (59 samples).",
+        "zh": "最新可靠整點初值：2026-10-12T19:00:00 估算 Kp 0.33（0P）。19 時段已收滿（60 筆至 19:59；時段初 0.33／0P、時段末 1.67／2M）。last-180 最大 2.0。公開窗最大 2.0。窗起點 2026-10-12T15:01:00（358 筆）。下一整點 20:00 未滿（59 筆）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp": "0Z",
+        "estimated_kp": 0.33,
+        "kp": "0P",
         "hour_complete": true,
-        "hour_start_kp": 0.0,
-        "hour_end_kp": 0.33,
-        "last180_max": 1.67,
-        "window_max": 1.67,
-        "window_start": "2026-10-12T14:02:00",
+        "hour_start_kp": 0.33,
+        "hour_end_kp": 1.67,
+        "last180_max": 2.0,
+        "window_max": 2.0,
+        "window_start": "2026-10-12T15:01:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
-        "next_hour_count": 60
+        "next_hour_count": 59
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-12T20:02:49Z"
+        "fetched_at": "2026-10-12T21:02:28Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u1vf",
+      "type": "earthquake",
+      "time_utc": "2026-10-12T20:05:25Z",
+      "title": {
+        "en": "M 4.8 - 25 km W of Río Grande, Panama",
+        "zh": "M 4.8 - 25 km W of Río Grande, Panama"
+      },
+      "summary": {
+        "en": "Magnitude 4.8 earthquake at 25 km W of Río Grande, Panama.",
+        "zh": "震級 4.8，位於 25 km W of Río Grande, Panama。"
+      },
+      "data": {
+        "mag": 4.8,
+        "place": "25 km W of Río Grande, Panama",
+        "id": "us6000u1vf",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1vf",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1vf.geojson"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-12T21:02:28Z"
       }
     },
     {
@@ -37,8 +61,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T18:30:19Z",
       "title": {
-        "en": "M4.6 Mid-Indian Ridge",
-        "zh": "M4.6 Mid-Indian Ridge"
+        "en": "M 4.6 - Mid-Indian Ridge",
+        "zh": "M 4.6 - Mid-Indian Ridge"
       },
       "summary": {
         "en": "Magnitude 4.6 earthquake at Mid-Indian Ridge.",
@@ -53,7 +77,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T20:02:49Z"
+        "fetched_at": "2026-10-12T21:02:28Z"
       }
     },
     {
@@ -61,8 +85,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T18:27:41Z",
       "title": {
-        "en": "M4.7 Mid-Indian Ridge",
-        "zh": "M4.7 Mid-Indian Ridge"
+        "en": "M 4.7 - Mid-Indian Ridge",
+        "zh": "M 4.7 - Mid-Indian Ridge"
       },
       "summary": {
         "en": "Magnitude 4.7 earthquake at Mid-Indian Ridge.",
@@ -77,7 +101,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T20:02:49Z"
+        "fetched_at": "2026-10-12T21:02:28Z"
       }
     },
     {
@@ -85,8 +109,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T18:17:18Z",
       "title": {
-        "en": "M4.8 23 km SW of San Antonio, Chile",
-        "zh": "M4.8 23 km SW of San Antonio, Chile"
+        "en": "M 4.8 - 23 km SW of San Antonio, Chile",
+        "zh": "M 4.8 - 23 km SW of San Antonio, Chile"
       },
       "summary": {
         "en": "Magnitude 4.8 earthquake at 23 km SW of San Antonio, Chile.",
@@ -101,7 +125,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T20:02:49Z"
+        "fetched_at": "2026-10-12T21:02:28Z"
       }
     },
     {
@@ -109,8 +133,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T15:44:33Z",
       "title": {
-        "en": "M4.9 283 km SSW of Severo-Kuril’sk, Russia",
-        "zh": "M4.9 283 km SSW of Severo-Kuril’sk, Russia"
+        "en": "M 4.9 - 283 km SSW of Severo-Kuril’sk, Russia",
+        "zh": "M 4.9 - 283 km SSW of Severo-Kuril’sk, Russia"
       },
       "summary": {
         "en": "Magnitude 4.9 earthquake at 283 km SSW of Severo-Kuril’sk, Russia.",
@@ -125,7 +149,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T20:02:49Z"
+        "fetched_at": "2026-10-12T21:02:28Z"
       }
     },
     {
@@ -133,8 +157,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T14:29:53Z",
       "title": {
-        "en": "M4.6 194 km SE of Attu Station, Alaska",
-        "zh": "M4.6 194 km SE of Attu Station, Alaska"
+        "en": "M 4.6 - 194 km SE of Attu Station, Alaska",
+        "zh": "M 4.6 - 194 km SE of Attu Station, Alaska"
       },
       "summary": {
         "en": "Magnitude 4.6 earthquake at 194 km SE of Attu Station, Alaska.",
@@ -149,7 +173,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T20:02:49Z"
+        "fetched_at": "2026-10-12T21:02:28Z"
       }
     },
     {
@@ -157,8 +181,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T13:44:41Z",
       "title": {
-        "en": "M4.8 Mid-Indian Ridge",
-        "zh": "M4.8 Mid-Indian Ridge"
+        "en": "M 4.8 - Mid-Indian Ridge",
+        "zh": "M 4.8 - Mid-Indian Ridge"
       },
       "summary": {
         "en": "Magnitude 4.8 earthquake at Mid-Indian Ridge.",
@@ -173,7 +197,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T20:02:49Z"
+        "fetched_at": "2026-10-12T21:02:28Z"
       }
     },
     {
@@ -181,8 +205,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T13:17:18Z",
       "title": {
-        "en": "M4.5 6 km W of Tonosí, Panama",
-        "zh": "M4.5 6 km W of Tonosí, Panama"
+        "en": "M 4.5 - 6 km W of Tonosí, Panama",
+        "zh": "M 4.5 - 6 km W of Tonosí, Panama"
       },
       "summary": {
         "en": "Magnitude 4.5 earthquake at 6 km W of Tonosí, Panama.",
@@ -197,7 +221,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T20:02:49Z"
+        "fetched_at": "2026-10-12T21:02:28Z"
       }
     },
     {
@@ -205,8 +229,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T11:58:08Z",
       "title": {
-        "en": "M4.6 100 km SSW of Kencong, Indonesia",
-        "zh": "M4.6 100 km SSW of Kencong, Indonesia"
+        "en": "M 4.6 - 100 km SSW of Kencong, Indonesia",
+        "zh": "M 4.6 - 100 km SSW of Kencong, Indonesia"
       },
       "summary": {
         "en": "Magnitude 4.6 earthquake at 100 km SSW of Kencong, Indonesia.",
@@ -221,7 +245,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T20:02:49Z"
+        "fetched_at": "2026-10-12T21:02:28Z"
       }
     },
     {
@@ -229,8 +253,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T11:28:43Z",
       "title": {
-        "en": "M5.4 Mid-Indian Ridge",
-        "zh": "M5.4 Mid-Indian Ridge"
+        "en": "M 5.4 - Mid-Indian Ridge",
+        "zh": "M 5.4 - Mid-Indian Ridge"
       },
       "summary": {
         "en": "Magnitude 5.4 earthquake at Mid-Indian Ridge.",
@@ -245,7 +269,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T20:02:49Z"
+        "fetched_at": "2026-10-12T21:02:28Z"
       }
     },
     {
@@ -253,8 +277,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T08:59:14Z",
       "title": {
-        "en": "M4.6 122 km SE of Bitung, Indonesia",
-        "zh": "M4.6 122 km SE of Bitung, Indonesia"
+        "en": "M 4.6 - 122 km SE of Bitung, Indonesia",
+        "zh": "M 4.6 - 122 km SE of Bitung, Indonesia"
       },
       "summary": {
         "en": "Magnitude 4.6 earthquake at 122 km SE of Bitung, Indonesia.",
@@ -269,7 +293,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T20:02:49Z"
+        "fetched_at": "2026-10-12T21:02:28Z"
       }
     },
     {
@@ -277,8 +301,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T08:30:08Z",
       "title": {
-        "en": "M4.7 219 km E of Lospalos, Timor Leste",
-        "zh": "M4.7 219 km E of Lospalos, Timor Leste"
+        "en": "M 4.7 - 219 km E of Lospalos, Timor Leste",
+        "zh": "M 4.7 - 219 km E of Lospalos, Timor Leste"
       },
       "summary": {
         "en": "Magnitude 4.7 earthquake at 219 km E of Lospalos, Timor Leste.",
@@ -293,7 +317,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T20:02:49Z"
+        "fetched_at": "2026-10-12T21:02:28Z"
       }
     },
     {
@@ -301,8 +325,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T07:16:06Z",
       "title": {
-        "en": "M4.5 7 km ESE of Tebario, Panama",
-        "zh": "M4.5 7 km ESE of Tebario, Panama"
+        "en": "M 4.5 - 7 km ESE of Tebario, Panama",
+        "zh": "M 4.5 - 7 km ESE of Tebario, Panama"
       },
       "summary": {
         "en": "Magnitude 4.5 earthquake at 7 km ESE of Tebario, Panama.",
@@ -317,7 +341,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T20:02:49Z"
+        "fetched_at": "2026-10-12T21:02:28Z"
       }
     },
     {
@@ -325,8 +349,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T05:28:09Z",
       "title": {
-        "en": "M4.6 25 km SSE of Blitar, Indonesia",
-        "zh": "M4.6 25 km SSE of Blitar, Indonesia"
+        "en": "M 4.6 - 25 km SSE of Blitar, Indonesia",
+        "zh": "M 4.6 - 25 km SSE of Blitar, Indonesia"
       },
       "summary": {
         "en": "Magnitude 4.6 earthquake at 25 km SSE of Blitar, Indonesia.",
@@ -341,7 +365,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T20:02:49Z"
+        "fetched_at": "2026-10-12T21:02:28Z"
       }
     },
     {
@@ -349,8 +373,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T05:15:50Z",
       "title": {
-        "en": "M4.5 south of the Fiji Islands",
-        "zh": "M4.5 south of the Fiji Islands"
+        "en": "M 4.5 - south of the Fiji Islands",
+        "zh": "M 4.5 - south of the Fiji Islands"
       },
       "summary": {
         "en": "Magnitude 4.5 earthquake at south of the Fiji Islands.",
@@ -365,7 +389,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T20:02:49Z"
+        "fetched_at": "2026-10-12T21:02:28Z"
       }
     },
     {
@@ -373,8 +397,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T04:38:12Z",
       "title": {
-        "en": "M5.5 122 km W of Neiafu, Tonga",
-        "zh": "M5.5 122 km W of Neiafu, Tonga"
+        "en": "M 5.5 - 122 km W of Neiafu, Tonga",
+        "zh": "M 5.5 - 122 km W of Neiafu, Tonga"
       },
       "summary": {
         "en": "Magnitude 5.5 earthquake at 122 km W of Neiafu, Tonga.",
@@ -389,7 +413,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T20:02:49Z"
+        "fetched_at": "2026-10-12T21:02:28Z"
       }
     },
     {
@@ -397,8 +421,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T03:44:57Z",
       "title": {
-        "en": "M4.5 53 km S of Kushiro, Japan",
-        "zh": "M4.5 53 km S of Kushiro, Japan"
+        "en": "M 4.5 - 53 km S of Kushiro, Japan",
+        "zh": "M 4.5 - 53 km S of Kushiro, Japan"
       },
       "summary": {
         "en": "Magnitude 4.5 earthquake at 53 km S of Kushiro, Japan.",
@@ -413,7 +437,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T20:02:49Z"
+        "fetched_at": "2026-10-12T21:02:28Z"
       }
     },
     {
@@ -421,8 +445,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T02:22:29Z",
       "title": {
-        "en": "M4.5 7 km ENE of Lajamina, Panama",
-        "zh": "M4.5 7 km ENE of Lajamina, Panama"
+        "en": "M 4.5 - 7 km ENE of Lajamina, Panama",
+        "zh": "M 4.5 - 7 km ENE of Lajamina, Panama"
       },
       "summary": {
         "en": "Magnitude 4.5 earthquake at 7 km ENE of Lajamina, Panama.",
@@ -437,7 +461,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T20:02:49Z"
+        "fetched_at": "2026-10-12T21:02:28Z"
       }
     },
     {
@@ -445,8 +469,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T01:59:24Z",
       "title": {
-        "en": "M4.8 southern East Pacific Rise",
-        "zh": "M4.8 southern East Pacific Rise"
+        "en": "M 4.8 - southern East Pacific Rise",
+        "zh": "M 4.8 - southern East Pacific Rise"
       },
       "summary": {
         "en": "Magnitude 4.8 earthquake at southern East Pacific Rise.",
@@ -461,7 +485,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T20:02:49Z"
+        "fetched_at": "2026-10-12T21:02:28Z"
       }
     },
     {
@@ -469,8 +493,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T01:28:20Z",
       "title": {
-        "en": "M4.8 56 km E of Yairipok, India",
-        "zh": "M4.8 56 km E of Yairipok, India"
+        "en": "M 4.8 - 56 km E of Yairipok, India",
+        "zh": "M 4.8 - 56 km E of Yairipok, India"
       },
       "summary": {
         "en": "Magnitude 4.8 earthquake at 56 km E of Yairipok, India.",
@@ -485,7 +509,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T20:02:49Z"
+        "fetched_at": "2026-10-12T21:02:28Z"
       }
     },
     {
@@ -493,8 +517,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T00:53:12Z",
       "title": {
-        "en": "M4.6 Volcano Islands, Japan region",
-        "zh": "M4.6 Volcano Islands, Japan region"
+        "en": "M 4.6 - Volcano Islands, Japan region",
+        "zh": "M 4.6 - Volcano Islands, Japan region"
       },
       "summary": {
         "en": "Magnitude 4.6 earthquake at Volcano Islands, Japan region.",
@@ -509,7 +533,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T20:02:49Z"
+        "fetched_at": "2026-10-12T21:02:28Z"
       }
     },
     {
@@ -517,8 +541,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-11T23:20:35Z",
       "title": {
-        "en": "M4.5 103 km SSW of La Libertad, El Salvador",
-        "zh": "M4.5 103 km SSW of La Libertad, El Salvador"
+        "en": "M 4.5 - 103 km SSW of La Libertad, El Salvador",
+        "zh": "M 4.5 - 103 km SSW of La Libertad, El Salvador"
       },
       "summary": {
         "en": "Magnitude 4.5 earthquake at 103 km SSW of La Libertad, El Salvador.",
@@ -533,7 +557,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T20:02:49Z"
+        "fetched_at": "2026-10-12T21:02:28Z"
       }
     },
     {
@@ -541,8 +565,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-11T22:40:24Z",
       "title": {
-        "en": "M4.6 0 km NE of Leones Arriba, Panama",
-        "zh": "M4.6 0 km NE of Leones Arriba, Panama"
+        "en": "M 4.6 - 0 km NE of Leones Arriba, Panama",
+        "zh": "M 4.6 - 0 km NE of Leones Arriba, Panama"
       },
       "summary": {
         "en": "Magnitude 4.6 earthquake at 0 km NE of Leones Arriba, Panama.",
@@ -557,7 +581,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T20:02:49Z"
+        "fetched_at": "2026-10-12T21:02:28Z"
       }
     },
     {
@@ -565,8 +589,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-11T22:07:25Z",
       "title": {
-        "en": "M4.5 116 km SE of Nabire, Indonesia",
-        "zh": "M4.5 116 km SE of Nabire, Indonesia"
+        "en": "M 4.5 - 116 km SE of Nabire, Indonesia",
+        "zh": "M 4.5 - 116 km SE of Nabire, Indonesia"
       },
       "summary": {
         "en": "Magnitude 4.5 earthquake at 116 km SE of Nabire, Indonesia.",
@@ -581,7 +605,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T20:02:49Z"
+        "fetched_at": "2026-10-12T21:02:28Z"
       }
     },
     {
@@ -589,8 +613,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-11T21:34:53Z",
       "title": {
-        "en": "M5.2 152 km W of Gorontalo, Indonesia",
-        "zh": "M5.2 152 km W of Gorontalo, Indonesia"
+        "en": "M 5.2 - 152 km W of Gorontalo, Indonesia",
+        "zh": "M 5.2 - 152 km W of Gorontalo, Indonesia"
       },
       "summary": {
         "en": "Magnitude 5.2 earthquake at 152 km W of Gorontalo, Indonesia.",
@@ -605,7 +629,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T20:02:49Z"
+        "fetched_at": "2026-10-12T21:02:28Z"
       }
     },
     {
@@ -613,8 +637,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-11T21:19:20Z",
       "title": {
-        "en": "M4.5 27 km W of Río Grande, Panama",
-        "zh": "M4.5 27 km W of Río Grande, Panama"
+        "en": "M 4.5 - 27 km W of Río Grande, Panama",
+        "zh": "M 4.5 - 27 km W of Río Grande, Panama"
       },
       "summary": {
         "en": "Magnitude 4.5 earthquake at 27 km W of Río Grande, Panama.",
@@ -629,7 +653,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T20:02:49Z"
+        "fetched_at": "2026-10-12T21:02:28Z"
       }
     }
   ]
