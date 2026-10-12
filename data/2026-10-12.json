@@ -1,35 +1,107 @@
 {
   "date": "2026-10-12",
-  "updated": "2026-10-12T18:03:30.020844+00:00",
+  "updated": "2026-10-12T19:05:00.000000+00:00",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-12T16:00Z",
+      "time_utc": "2026-10-12T17:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.33 (0P) at 16 UTC on 12 October 2026.",
-        "zh": "2026 年 10 月 12 日 16 UTC，估算行星 Kp 為 0.33（0P）。"
+        "en": "Estimated planetary Kp is 0.67 (1M) at 17 UTC on 12 October 2026.",
+        "zh": "2026 年 10 月 12 日 17 UTC，估算行星 Kp 為 0.67（1M）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.33 (0P) at 2026-10-12T16:00:00 on 12 October 2026. The 16 hour is complete (60 samples through 16:59; hour-start 0.33/0P, hour-end 0.67/1M). Last-180 maximum is 1.67. Published-window maximum is 1.67. Window starts 2026-10-12T12:01:00 (358 samples). Next hour 17:00 incomplete (59 samples).",
-        "zh": "最新可靠整點初值：2026-10-12T16:00:00 估算 Kp 0.33（0P）。16 時段已收滿（60 筆至 16:59；時段初 0.33／0P、時段末 0.67／1M）。last-180 最大 1.67。公開窗最大 1.67。窗起點 2026-10-12T12:01:00（358 筆）。下一整點 17:00 未滿（59 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.67 (1M) at 2026-10-12T17:00:00 on 12 October 2026. The 17 hour is complete (60 samples through 17:59; hour-start 0.67/1M, hour-end 1.67/2M). Last-180 maximum is 1.67. Published-window maximum is 1.67. Window starts 2026-10-12T13:01:00 (358 samples). Next hour 18:00 incomplete (59 samples).",
+        "zh": "最新可靠整點初值：2026-10-12T17:00:00 估算 Kp 0.67（1M）。17 時段已收滿（60 筆至 17:59；時段初 0.67／1M、時段末 1.67／2M）。last-180 最大 1.67。公開窗最大 1.67。窗起點 2026-10-12T13:01:00（358 筆）。下一整點 18:00 未滿（59 筆）。"
       },
       "data": {
-        "estimated_kp": 0.33,
-        "kp": "0P",
+        "estimated_kp": 0.67,
+        "kp": "1M",
         "hour_complete": true,
-        "hour_start_kp": 0.33,
-        "hour_end_kp": 0.67,
+        "hour_start_kp": 0.67,
+        "hour_end_kp": 1.67,
         "last180_max": 1.67,
         "window_max": 1.67,
-        "window_start": "2026-10-12T12:01:00",
+        "window_start": "2026-10-12T13:01:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
         "next_hour_count": 59
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
+        "fetched_at": "2026-10-12T19:05:00.000000+00:00"
+      }
+    },
+    {
+      "id": "usgs-us6000u1uv",
+      "type": "earthquake",
+      "time_utc": "2026-10-12T18:30:19Z",
+      "title": {
+        "en": "M4.6 Mid-Indian Ridge",
+        "zh": "M4.6 Mid-Indian Ridge"
+      },
+      "summary": {
+        "en": "Magnitude 4.6 earthquake at Mid-Indian Ridge.",
+        "zh": "震級 4.6，位於 Mid-Indian Ridge。"
+      },
+      "data": {
+        "mag": 4.6,
+        "place": "Mid-Indian Ridge",
+        "id": "us6000u1uv",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1uv",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1uv.geojson"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-12T19:05:00.000000+00:00"
+      }
+    },
+    {
+      "id": "usgs-us6000u1ut",
+      "type": "earthquake",
+      "time_utc": "2026-10-12T18:27:41Z",
+      "title": {
+        "en": "M4.7 Mid-Indian Ridge",
+        "zh": "M4.7 Mid-Indian Ridge"
+      },
+      "summary": {
+        "en": "Magnitude 4.7 earthquake at Mid-Indian Ridge.",
+        "zh": "震級 4.7，位於 Mid-Indian Ridge。"
+      },
+      "data": {
+        "mag": 4.7,
+        "place": "Mid-Indian Ridge",
+        "id": "us6000u1ut",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ut",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1ut.geojson"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-12T19:05:00.000000+00:00"
+      }
+    },
+    {
+      "id": "usgs-us6000u1uq",
+      "type": "earthquake",
+      "time_utc": "2026-10-12T18:17:18Z",
+      "title": {
+        "en": "M4.8 23 km SW of San Antonio, Chile",
+        "zh": "M4.8 23 km SW of San Antonio, Chile"
+      },
+      "summary": {
+        "en": "Magnitude 4.8 earthquake at 23 km SW of San Antonio, Chile.",
+        "zh": "震級 4.8，位於 23 km SW of San Antonio, Chile。"
+      },
+      "data": {
+        "mag": 4.8,
+        "place": "23 km SW of San Antonio, Chile",
+        "id": "us6000u1uq",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1uq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1uq.geojson"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-12T19:05:00.000000+00:00"
       }
     },
     {
@@ -53,7 +125,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
+        "fetched_at": "2026-10-12T19:05:00.000000+00:00"
       }
     },
     {
@@ -77,7 +149,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
+        "fetched_at": "2026-10-12T19:05:00.000000+00:00"
       }
     },
     {
@@ -101,7 +173,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
+        "fetched_at": "2026-10-12T19:05:00.000000+00:00"
       }
     },
     {
@@ -125,7 +197,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
+        "fetched_at": "2026-10-12T19:05:00.000000+00:00"
       }
     },
     {
@@ -149,7 +221,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
+        "fetched_at": "2026-10-12T19:05:00.000000+00:00"
       }
     },
     {
@@ -173,7 +245,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
+        "fetched_at": "2026-10-12T19:05:00.000000+00:00"
       }
     },
     {
@@ -197,7 +269,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
+        "fetched_at": "2026-10-12T19:05:00.000000+00:00"
       }
     },
     {
@@ -221,7 +293,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
+        "fetched_at": "2026-10-12T19:05:00.000000+00:00"
       }
     },
     {
@@ -245,7 +317,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
+        "fetched_at": "2026-10-12T19:05:00.000000+00:00"
       }
     },
     {
@@ -269,7 +341,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
+        "fetched_at": "2026-10-12T19:05:00.000000+00:00"
       }
     },
     {
@@ -293,7 +365,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
+        "fetched_at": "2026-10-12T19:05:00.000000+00:00"
       }
     },
     {
@@ -317,7 +389,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
+        "fetched_at": "2026-10-12T19:05:00.000000+00:00"
       }
     },
     {
@@ -341,7 +413,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
+        "fetched_at": "2026-10-12T19:05:00.000000+00:00"
       }
     },
     {
@@ -365,7 +437,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
+        "fetched_at": "2026-10-12T19:05:00.000000+00:00"
       }
     },
     {
@@ -389,7 +461,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
+        "fetched_at": "2026-10-12T19:05:00.000000+00:00"
       }
     },
     {
@@ -413,7 +485,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
+        "fetched_at": "2026-10-12T19:05:00.000000+00:00"
       }
     },
     {
@@ -437,7 +509,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
+        "fetched_at": "2026-10-12T19:05:00.000000+00:00"
       }
     },
     {
@@ -461,7 +533,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
+        "fetched_at": "2026-10-12T19:05:00.000000+00:00"
       }
     },
     {
@@ -485,7 +557,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
+        "fetched_at": "2026-10-12T19:05:00.000000+00:00"
       }
     },
     {
@@ -509,7 +581,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
+        "fetched_at": "2026-10-12T19:05:00.000000+00:00"
       }
     },
     {
@@ -533,7 +605,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
+        "fetched_at": "2026-10-12T19:05:00.000000+00:00"
       }
     },
     {
@@ -557,55 +629,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
-      }
-    },
-    {
-      "id": "usgs-us6000u1ls",
-      "type": "earthquake",
-      "time_utc": "2026-10-11T18:47:57Z",
-      "title": {
-        "en": "M4.6 184 km W of Fakfak, Indonesia",
-        "zh": "M4.6 184 km W of Fakfak, Indonesia"
-      },
-      "summary": {
-        "en": "Magnitude 4.6 earthquake at 184 km W of Fakfak, Indonesia.",
-        "zh": "震級 4.6，位於 184 km W of Fakfak, Indonesia。"
-      },
-      "data": {
-        "mag": 4.6,
-        "place": "184 km W of Fakfak, Indonesia",
-        "id": "us6000u1ls",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ls",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1ls.geojson"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
-      }
-    },
-    {
-      "id": "usgs-us6000u1lk",
-      "type": "earthquake",
-      "time_utc": "2026-10-11T18:06:35Z",
-      "title": {
-        "en": "M4.7 156 km ESE of Neiafu, Tonga",
-        "zh": "M4.7 156 km ESE of Neiafu, Tonga"
-      },
-      "summary": {
-        "en": "Magnitude 4.7 earthquake at 156 km ESE of Neiafu, Tonga.",
-        "zh": "震級 4.7，位於 156 km ESE of Neiafu, Tonga。"
-      },
-      "data": {
-        "mag": 4.7,
-        "place": "156 km ESE of Neiafu, Tonga",
-        "id": "us6000u1lk",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1lk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u1lk.geojson"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-12T18:03:30.020844+00:00"
+        "fetched_at": "2026-10-12T19:05:00.000000+00:00"
       }
     }
   ]
