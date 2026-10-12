@@ -1,35 +1,53 @@
 {
   "date": "2026-10-12",
-  "updated": "2026-10-12T22:00:00Z",
+  "updated": "2026-10-12T23:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-12T20:00Z",
+      "time_utc": "2026-10-12T21:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 1.67 (2M) at 20 UTC on 12 October 2026.",
-        "zh": "2026 年 10 月 12 日 20 UTC，估算行星 Kp 為 1.67（2M）。"
+        "en": "Estimated planetary Kp is 0.0 (0Z) at 21 UTC on 12 October 2026.",
+        "zh": "2026 年 10 月 12 日 21 UTC，估算行星 Kp 為 0.0（0Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 1.67 (2M) at 2026-10-12T20:00:00 on 12 October 2026. The 20 hour is complete (60 samples through 20:59; hour-start 1.67/2M, hour-end 2.0/2Z). Last-180 maximum is 2.0. Published-window maximum is 2.0. Window starts 2026-10-12T16:01:00 (358 samples). Next hour 21:00 incomplete (59 samples).",
-        "zh": "最新可靠整點初值：2026-10-12T20:00:00 估算 Kp 1.67（2M）。20 時段已收滿（60 筆至 20:59；時段初 1.67／2M、時段末 2.0／2Z）。last-180 最大 2.0。公開窗最大 2.0。窗起點 2026-10-12T16:01:00（358 筆）。下一整點 21:00 未滿（59 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-12T21:00:00 on 12 October 2026. The 21 hour is complete (60 samples through 21:59; hour-start 0.0/0Z, hour-end 1.0/1Z). Last-180 maximum is 2.0. Published-window maximum is 2.0. Window starts 2026-10-12T17:01:00 (358 samples). Next hour 22:00 incomplete (59 samples).",
+        "zh": "最新可靠整點初值：2026-10-12T21:00:00 估算 Kp 0.0（0Z）。21 時段已收滿（60 筆至 21:59；時段初 0.0／0Z、時段末 1.0／1Z）。last-180 最大 2.0。公開窗最大 2.0。窗起點 2026-10-12T17:01:00（358 筆）。下一整點 22:00 未滿（59 筆）。"
       },
       "data": {
-        "estimated_kp": 1.67,
-        "kp": "2M",
+        "estimated_kp": 0.0,
+        "kp": "0Z",
         "hour_complete": true,
-        "hour_start_kp": 1.67,
-        "hour_end_kp": 2.0,
+        "hour_start_kp": 0.0,
+        "hour_end_kp": 1.0,
         "last180_max": 2.0,
         "window_max": 2.0,
-        "window_start": "2026-10-12T16:01:00",
+        "window_start": "2026-10-12T17:01:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
         "next_hour_count": 59
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-12T22:00:00Z"
+        "fetched_at": "2026-10-12T23:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u1w7",
+      "type": "earthquake",
+      "time_utc": "2026-10-12T21:48:54Z",
+      "title": {
+        "en": "M 4.5 - 7 km WSW of Calidonia, Panama",
+        "zh": "M 4.5 - 7 km WSW of Calidonia, Panama"
+      },
+      "summary": {
+        "en": "Magnitude 4.5 earthquake at 7 km WSW of Calidonia, Panama.",
+        "zh": "震級 4.5，位於 7 km WSW of Calidonia, Panama。"
+      },
+      "data": {
+        "mag": 4.5,
+        "place": "7 km WSW of Calidonia, Panama",
+        "id": "us6000u1w7"
       }
     },
     {
@@ -37,16 +55,16 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T21:43:30Z",
       "title": {
-        "en": "M 4.5 - 19 km SSW of Zapotillo, Panama",
-        "zh": "M 4.5 - 19 km SSW of Zapotillo, Panama"
+        "en": "M 4.5 - 19 km SW of Calidonia, Panama",
+        "zh": "M 4.5 - 19 km SW of Calidonia, Panama"
       },
       "summary": {
-        "en": "Magnitude 4.5 earthquake at 19 km SSW of Zapotillo, Panama.",
-        "zh": "震級 4.5，位於 19 km SSW of Zapotillo, Panama。"
+        "en": "Magnitude 4.5 earthquake at 19 km SW of Calidonia, Panama.",
+        "zh": "震級 4.5，位於 19 km SW of Calidonia, Panama。"
       },
       "data": {
         "mag": 4.5,
-        "place": "19 km SSW of Zapotillo, Panama",
+        "place": "19 km SW of Calidonia, Panama",
         "id": "us6000u1w6"
       }
     },
@@ -444,42 +462,6 @@
         "mag": 4.5,
         "place": "103 km SSW of La Libertad, El Salvador",
         "id": "us6000u1n6"
-      }
-    },
-    {
-      "id": "usgs-us6000u1mz",
-      "type": "earthquake",
-      "time_utc": "2026-10-11T22:40:24Z",
-      "title": {
-        "en": "M 4.6 - 0 km NE of Leones Arriba, Panama",
-        "zh": "M 4.6 - 0 km NE of Leones Arriba, Panama"
-      },
-      "summary": {
-        "en": "Magnitude 4.6 earthquake at 0 km NE of Leones Arriba, Panama.",
-        "zh": "震級 4.6，位於 0 km NE of Leones Arriba, Panama。"
-      },
-      "data": {
-        "mag": 4.6,
-        "place": "0 km NE of Leones Arriba, Panama",
-        "id": "us6000u1mz"
-      }
-    },
-    {
-      "id": "usgs-us6000u1mv",
-      "type": "earthquake",
-      "time_utc": "2026-10-11T22:07:25Z",
-      "title": {
-        "en": "M 4.5 - 116 km SE of Nabire, Indonesia",
-        "zh": "M 4.5 - 116 km SE of Nabire, Indonesia"
-      },
-      "summary": {
-        "en": "Magnitude 4.5 earthquake at 116 km SE of Nabire, Indonesia.",
-        "zh": "震級 4.5，位於 116 km SE of Nabire, Indonesia。"
-      },
-      "data": {
-        "mag": 4.5,
-        "place": "116 km SE of Nabire, Indonesia",
-        "id": "us6000u1mv"
       }
     }
   ]
