@@ -1,35 +1,35 @@
 {
   "date": "2026-10-13",
-  "updated": "2026-10-13T05:00:00Z",
+  "updated": "2026-10-13T06:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-13T03:00:00Z",
+      "time_utc": "2026-10-13T04:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.0 (0Z) at 03:00 UTC on 13 October 2026.",
-        "zh": "2026 年 10 月 13 日 03:00 UTC，估算行星 Kp 為 0.0（0Z）。"
+        "en": "Estimated planetary Kp is 2.67 (3M) at 04:00 UTC on 13 October 2026.",
+        "zh": "2026 年 10 月 13 日 04:00 UTC，估算行星 Kp 為 2.67（3M）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-13T03:00:00 on 13 October 2026. The 03 hour is complete (60 samples through 03:59; hour-start 0.0/0Z, hour-end 2.67/3M). Last-180 maximum is 3.33. Published-window maximum is 3.33. Window starts 2026-10-12T23:01:00 (358 samples). Next hour 04:00 incomplete (59 samples).",
-        "zh": "最新可靠整點初值：2026-10-13T03:00:00 估算 Kp 0.0（0Z）。03 時段已收滿（60 筆至 03:59；時段初 0.0／0Z、時段末 2.67／3M）。last-180 最大 3.33。公開窗最大 3.33。窗起點 2026-10-12T23:01:00（358 筆）。下一整點 04:00 未滿（59 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 2.67 (3M) at 2026-10-13T04:00:00 on 13 October 2026. The 04 hour is complete (60 samples through 04:59; hour-start 2.67/3M, hour-end 3.33/3P). Last-180 maximum is 3.33. Published-window maximum is 3.33. Window starts 2026-10-13T00:00:00 (358 samples). Next hour 05:00 incomplete (58 samples).",
+        "zh": "最新可靠整點初值：2026-10-13T04:00:00 估算 Kp 2.67（3M）。04 時段已收滿（60 筆至 04:59；時段初 2.67／3M、時段末 3.33／3P）。last-180 最大 3.33。公開窗最大 3.33。窗起點 2026-10-13T00:00:00（358 筆）。下一整點 05:00 未滿（58 筆）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp": "0Z",
+        "estimated_kp": 2.67,
+        "kp": "3M",
         "hour_complete": true,
-        "hour_start_kp": 0.0,
-        "hour_end_kp": 2.67,
+        "hour_start_kp": 2.67,
+        "hour_end_kp": 3.33,
         "last180_max": 3.33,
         "window_max": 3.33,
-        "window_start": "2026-10-12T23:01:00",
+        "window_start": "2026-10-13T00:00:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
-        "next_hour_count": 59
+        "next_hour_count": 58
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-13T05:00:00Z"
+        "fetched_at": "2026-10-13T06:00:00Z"
       }
     },
     {
@@ -408,42 +408,6 @@
         "mag": 4.5,
         "place": "7 km ESE of Tebario, Panama",
         "id": "us6000u1qd"
-      }
-    },
-    {
-      "id": "usgs-us6000u1q2",
-      "type": "earthquake",
-      "time_utc": "2026-10-12T05:28:09Z",
-      "title": {
-        "en": "M 4.6 - 25 km SSE of Blitar, Indonesia",
-        "zh": "M 4.6 - 25 km SSE of Blitar, Indonesia"
-      },
-      "summary": {
-        "en": "Magnitude 4.6 earthquake at 25 km SSE of Blitar, Indonesia.",
-        "zh": "震級 4.6，位於 25 km SSE of Blitar, Indonesia。"
-      },
-      "data": {
-        "mag": 4.6,
-        "place": "25 km SSE of Blitar, Indonesia",
-        "id": "us6000u1q2"
-      }
-    },
-    {
-      "id": "usgs-us6000u1pz",
-      "type": "earthquake",
-      "time_utc": "2026-10-12T05:15:50Z",
-      "title": {
-        "en": "M 4.5 - south of the Fiji Islands",
-        "zh": "M 4.5 - south of the Fiji Islands"
-      },
-      "summary": {
-        "en": "Magnitude 4.5 earthquake at south of the Fiji Islands.",
-        "zh": "震級 4.5，位於 south of the Fiji Islands。"
-      },
-      "data": {
-        "mag": 4.5,
-        "place": "south of the Fiji Islands",
-        "id": "us6000u1pz"
       }
     }
   ]
