@@ -1,35 +1,35 @@
 {
   "date": "2026-10-13",
-  "updated": "2026-10-13T01:00:00Z",
+  "updated": "2026-10-13T02:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-12T23:00Z",
+      "time_utc": "2026-10-13T00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 1.33 (1P) at 23 UTC on 12 October 2026.",
-        "zh": "2026 年 10 月 12 日 23 UTC，估算行星 Kp 為 1.33（1P）。"
+        "en": "Estimated planetary Kp is 0.0 (0Z) at 00 UTC on 13 October 2026.",
+        "zh": "2026 年 10 月 13 日 00 UTC，估算行星 Kp 為 0.0（0Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 1.33 (1P) at 2026-10-12T23:00:00 on 12 October 2026. The 23 hour is complete (60 samples through 23:59; hour-start 1.33/1P, hour-end 1.33/1P). Last-180 maximum is 1.67. Published-window maximum is 2.0. Window starts 2026-10-12T19:01:00 (358 samples). Next hour 00:00 incomplete (59 samples).",
-        "zh": "最新可靠整點初值：2026-10-12T23:00:00 估算 Kp 1.33（1P）。23 時段已收滿（60 筆至 23:59；時段初 1.33／1P、時段末 1.33／1P）。last-180 最大 1.67。公開窗最大 2.0。窗起點 2026-10-12T19:01:00（358 筆）。下一整點 00:00 未滿（59 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-13T00:00:00 on 13 October 2026. The 00 hour is complete (60 samples through 00:59; hour-start 0.0/0Z, hour-end 1.33/1P). Last-180 maximum is 3.33. Published-window maximum is 3.33. Window starts 2026-10-12T20:00:00 (358 samples). Next hour 01:00 incomplete (58 samples).",
+        "zh": "最新可靠整點初值：2026-10-13T00:00:00 估算 Kp 0.0（0Z）。00 時段已收滿（60 筆至 00:59；時段初 0.0／0Z、時段末 1.33／1P）。last-180 最大 3.33。公開窗最大 3.33。窗起點 2026-10-12T20:00:00（358 筆）。下一整點 01:00 未滿（58 筆）。"
       },
       "data": {
-        "estimated_kp": 1.33,
-        "kp": "1P",
+        "estimated_kp": 0.0,
+        "kp": "0Z",
         "hour_complete": true,
-        "hour_start_kp": 1.33,
+        "hour_start_kp": 0.0,
         "hour_end_kp": 1.33,
-        "last180_max": 1.67,
-        "window_max": 2.0,
-        "window_start": "2026-10-12T19:01:00",
+        "last180_max": 3.33,
+        "window_max": 3.33,
+        "window_start": "2026-10-12T20:00:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
-        "next_hour_count": 59
+        "next_hour_count": 58
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-13T01:00:00Z"
+        "fetched_at": "2026-10-13T02:00:00Z"
       }
     },
     {
@@ -37,16 +37,16 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T23:36:46Z",
       "title": {
-        "en": "M 4.8 - 21 km W of Río Grande, Panama",
-        "zh": "M 4.8 - 21 km W of Río Grande, Panama"
+        "en": "M 4.9 - 17 km W of Río Grande, Panama",
+        "zh": "M 4.9 - 17 km W of Río Grande, Panama"
       },
       "summary": {
-        "en": "Magnitude 4.8 earthquake at 21 km W of Río Grande, Panama.",
-        "zh": "震級 4.8，位於 21 km W of Río Grande, Panama。"
+        "en": "Magnitude 4.9 earthquake at 17 km W of Río Grande, Panama.",
+        "zh": "震級 4.9，位於 17 km W of Río Grande, Panama。"
       },
       "data": {
-        "mag": 4.8,
-        "place": "21 km W of Río Grande, Panama",
+        "mag": 4.9,
+        "place": "17 km W of Río Grande, Panama",
         "id": "us6000u1ww"
       }
     },
@@ -55,16 +55,16 @@
       "type": "earthquake",
       "time_utc": "2026-10-12T23:20:36Z",
       "title": {
-        "en": "M 6.1 - 18 km W of Río Grande, Panama",
-        "zh": "M 6.1 - 18 km W of Río Grande, Panama"
+        "en": "M 6.1 - 17 km W of Río Grande, Panama",
+        "zh": "M 6.1 - 17 km W of Río Grande, Panama"
       },
       "summary": {
-        "en": "Magnitude 6.1 earthquake at 18 km W of Río Grande, Panama.",
-        "zh": "震級 6.1，位於 18 km W of Río Grande, Panama。"
+        "en": "Magnitude 6.1 earthquake at 17 km W of Río Grande, Panama.",
+        "zh": "震級 6.1，位於 17 km W of Río Grande, Panama。"
       },
       "data": {
         "mag": 6.1,
-        "place": "18 km W of Río Grande, Panama",
+        "place": "17 km W of Río Grande, Panama",
         "id": "us6000u1wn"
       }
     },
@@ -300,6 +300,132 @@
         "mag": 4.6,
         "place": "122 km SE of Bitung, Indonesia",
         "id": "us6000u1r3"
+      }
+    },
+    {
+      "id": "usgs-us6000u1qy",
+      "type": "earthquake",
+      "time_utc": "2026-10-12T08:30:08Z",
+      "title": {
+        "en": "M 4.7 - 219 km E of Lospalos, Timor Leste",
+        "zh": "M 4.7 - 219 km E of Lospalos, Timor Leste"
+      },
+      "summary": {
+        "en": "Magnitude 4.7 earthquake at 219 km E of Lospalos, Timor Leste.",
+        "zh": "震級 4.7，位於 219 km E of Lospalos, Timor Leste。"
+      },
+      "data": {
+        "mag": 4.7,
+        "place": "219 km E of Lospalos, Timor Leste",
+        "id": "us6000u1qy"
+      }
+    },
+    {
+      "id": "usgs-us6000u1qd",
+      "type": "earthquake",
+      "time_utc": "2026-10-12T07:16:06Z",
+      "title": {
+        "en": "M 4.5 - 7 km ESE of Tebario, Panama",
+        "zh": "M 4.5 - 7 km ESE of Tebario, Panama"
+      },
+      "summary": {
+        "en": "Magnitude 4.5 earthquake at 7 km ESE of Tebario, Panama.",
+        "zh": "震級 4.5，位於 7 km ESE of Tebario, Panama。"
+      },
+      "data": {
+        "mag": 4.5,
+        "place": "7 km ESE of Tebario, Panama",
+        "id": "us6000u1qd"
+      }
+    },
+    {
+      "id": "usgs-us6000u1q2",
+      "type": "earthquake",
+      "time_utc": "2026-10-12T05:28:09Z",
+      "title": {
+        "en": "M 4.6 - 25 km SSE of Blitar, Indonesia",
+        "zh": "M 4.6 - 25 km SSE of Blitar, Indonesia"
+      },
+      "summary": {
+        "en": "Magnitude 4.6 earthquake at 25 km SSE of Blitar, Indonesia.",
+        "zh": "震級 4.6，位於 25 km SSE of Blitar, Indonesia。"
+      },
+      "data": {
+        "mag": 4.6,
+        "place": "25 km SSE of Blitar, Indonesia",
+        "id": "us6000u1q2"
+      }
+    },
+    {
+      "id": "usgs-us6000u1pz",
+      "type": "earthquake",
+      "time_utc": "2026-10-12T05:15:50Z",
+      "title": {
+        "en": "M 4.5 - south of the Fiji Islands",
+        "zh": "M 4.5 - south of the Fiji Islands"
+      },
+      "summary": {
+        "en": "Magnitude 4.5 earthquake at south of the Fiji Islands.",
+        "zh": "震級 4.5，位於 south of the Fiji Islands。"
+      },
+      "data": {
+        "mag": 4.5,
+        "place": "south of the Fiji Islands",
+        "id": "us6000u1pz"
+      }
+    },
+    {
+      "id": "usgs-us6000u1pl",
+      "type": "earthquake",
+      "time_utc": "2026-10-12T04:38:12Z",
+      "title": {
+        "en": "M 5.5 - 122 km W of Neiafu, Tonga",
+        "zh": "M 5.5 - 122 km W of Neiafu, Tonga"
+      },
+      "summary": {
+        "en": "Magnitude 5.5 earthquake at 122 km W of Neiafu, Tonga.",
+        "zh": "震級 5.5，位於 122 km W of Neiafu, Tonga。"
+      },
+      "data": {
+        "mag": 5.5,
+        "place": "122 km W of Neiafu, Tonga",
+        "id": "us6000u1pl"
+      }
+    },
+    {
+      "id": "usgs-us6000u1pa",
+      "type": "earthquake",
+      "time_utc": "2026-10-12T03:44:57Z",
+      "title": {
+        "en": "M 4.5 - 53 km S of Kushiro, Japan",
+        "zh": "M 4.5 - 53 km S of Kushiro, Japan"
+      },
+      "summary": {
+        "en": "Magnitude 4.5 earthquake at 53 km S of Kushiro, Japan.",
+        "zh": "震級 4.5，位於 53 km S of Kushiro, Japan。"
+      },
+      "data": {
+        "mag": 4.5,
+        "place": "53 km S of Kushiro, Japan",
+        "id": "us6000u1pa"
+      }
+    },
+    {
+      "id": "usgs-us6000u1ny",
+      "type": "earthquake",
+      "time_utc": "2026-10-12T02:22:29Z",
+      "title": {
+        "en": "M 4.5 - 7 km ENE of Lajamina, Panama",
+        "zh": "M 4.5 - 7 km ENE of Lajamina, Panama"
+      },
+      "summary": {
+        "en": "Magnitude 4.5 earthquake at 7 km ENE of Lajamina, Panama.",
+        "zh": "震級 4.5，位於 7 km ENE of Lajamina, Panama。"
+      },
+      "data": {
+        "mag": 4.5,
+        "place": "7 km ENE of Lajamina, Panama",
+        "id": "us6000u1ny"
       }
     }
   ]
