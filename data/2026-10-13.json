@@ -1,35 +1,53 @@
 {
   "date": "2026-10-13",
-  "updated": "2026-10-13T06:00:00Z",
+  "updated": "2026-10-13T07:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-13T04:00:00Z",
+      "time_utc": "2026-10-13T05:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 2.67 (3M) at 04:00 UTC on 13 October 2026.",
-        "zh": "2026 年 10 月 13 日 04:00 UTC，估算行星 Kp 為 2.67（3M）。"
+        "en": "Estimated planetary Kp is 3.33 (3P) at 05 UTC on 13 October 2026.",
+        "zh": "2026 年 10 月 13 日 05 UTC，估算行星 Kp 為 3.33（3P）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 2.67 (3M) at 2026-10-13T04:00:00 on 13 October 2026. The 04 hour is complete (60 samples through 04:59; hour-start 2.67/3M, hour-end 3.33/3P). Last-180 maximum is 3.33. Published-window maximum is 3.33. Window starts 2026-10-13T00:00:00 (358 samples). Next hour 05:00 incomplete (58 samples).",
-        "zh": "最新可靠整點初值：2026-10-13T04:00:00 估算 Kp 2.67（3M）。04 時段已收滿（60 筆至 04:59；時段初 2.67／3M、時段末 3.33／3P）。last-180 最大 3.33。公開窗最大 3.33。窗起點 2026-10-13T00:00:00（358 筆）。下一整點 05:00 未滿（58 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 3.33 (3P) at 2026-10-13T05:00:00 on 13 October 2026. The 05 hour is complete (60 samples through 05:59; hour-start 3.33/3P, hour-end 3.33/3P). Last-180 maximum is 3.33. Published-window maximum is 3.33. Window starts 2026-10-13T01:00:00 (358 samples). Next hour 06:00 incomplete (58 samples).",
+        "zh": "最新可靠整點初值：2026-10-13T05:00:00 估算 Kp 3.33（3P）。05 時段已收滿（60 筆至 05:59；時段初 3.33／3P、時段末 3.33／3P）。last-180 最大 3.33。公開窗最大 3.33。窗起點 2026-10-13T01:00:00（358 筆）。下一整點 06:00 未滿（58 筆）。"
       },
       "data": {
-        "estimated_kp": 2.67,
-        "kp": "3M",
+        "estimated_kp": 3.33,
+        "kp": "3P",
         "hour_complete": true,
-        "hour_start_kp": 2.67,
+        "hour_start_kp": 3.33,
         "hour_end_kp": 3.33,
         "last180_max": 3.33,
         "window_max": 3.33,
-        "window_start": "2026-10-13T00:00:00",
+        "window_start": "2026-10-13T01:00:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
         "next_hour_count": 58
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-13T06:00:00Z"
+        "fetched_at": "2026-10-13T07:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u1z5",
+      "type": "earthquake",
+      "time_utc": "2026-10-13T05:44:46Z",
+      "title": {
+        "en": "M 6.7 - central Mid-Atlantic Ridge",
+        "zh": "M 6.7 - central Mid-Atlantic Ridge"
+      },
+      "summary": {
+        "en": "Magnitude 6.7 earthquake at central Mid-Atlantic Ridge.",
+        "zh": "震級 6.7，位於 central Mid-Atlantic Ridge。"
+      },
+      "data": {
+        "mag": 6.7,
+        "place": "central Mid-Atlantic Ridge",
+        "id": "us6000u1z5"
       }
     },
     {
