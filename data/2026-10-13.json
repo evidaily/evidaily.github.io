@@ -1,35 +1,89 @@
 {
   "date": "2026-10-13",
-  "updated": "2026-10-13T03:00:00Z",
+  "updated": "2026-10-13T04:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-13T01:00Z",
+      "time_utc": "2026-10-13T02:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 1.33 (1P) at 01 UTC on 13 October 2026.",
-        "zh": "2026 年 10 月 13 日 01 UTC，估算行星 Kp 為 1.33（1P）。"
+        "en": "Estimated planetary Kp is 3.33 (3P) at 02 UTC on 13 October 2026.",
+        "zh": "2026 年 10 月 13 日 02 UTC，估算行星 Kp 為 3.33（3P）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 1.33 (1P) at 2026-10-13T01:00:00 on 13 October 2026. The 01 hour is complete (60 samples through 01:59; hour-start 1.33/1P, hour-end 3.33/3P). Last-180 maximum is 3.33. Published-window maximum is 3.33. Window starts 2026-10-12T21:00:00 (357 samples). Next hour 02:00 incomplete (57 samples).",
-        "zh": "最新可靠整點初值：2026-10-13T01:00:00 估算 Kp 1.33（1P）。01 時段已收滿（60 筆至 01:59；時段初 1.33／1P、時段末 3.33／3P）。last-180 最大 3.33。公開窗最大 3.33。窗起點 2026-10-12T21:00:00（357 筆）。下一整點 02:00 未滿（57 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 3.33 (3P) at 2026-10-13T02:00:00 on 13 October 2026. The 02 hour is complete (60 samples through 02:59; hour-start 3.33/3P, hour-end 3.33/3P). Last-180 maximum is 3.33. Published-window maximum is 3.33. Window starts 2026-10-12T22:00:00 (358 samples). Next hour 03:00 incomplete (58 samples).",
+        "zh": "最新可靠整點初值：2026-10-13T02:00:00 估算 Kp 3.33（3P）。02 時段已收滿（60 筆至 02:59；時段初 3.33／3P、時段末 3.33／3P）。last-180 最大 3.33。公開窗最大 3.33。窗起點 2026-10-12T22:00:00（358 筆）。下一整點 03:00 未滿（58 筆）。"
       },
       "data": {
-        "estimated_kp": 1.33,
-        "kp": "1P",
+        "estimated_kp": 3.33,
+        "kp": "3P",
         "hour_complete": true,
-        "hour_start_kp": 1.33,
+        "hour_start_kp": 3.33,
         "hour_end_kp": 3.33,
         "last180_max": 3.33,
         "window_max": 3.33,
-        "window_start": "2026-10-12T21:00:00",
-        "sample_count": 357,
+        "window_start": "2026-10-12T22:00:00",
+        "sample_count": 358,
         "next_hour_incomplete": true,
-        "next_hour_count": 57
+        "next_hour_count": 58
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-13T03:00:00Z"
+        "fetched_at": "2026-10-13T04:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u1y4",
+      "type": "earthquake",
+      "time_utc": "2026-10-13T02:48:02Z",
+      "title": {
+        "en": "M 4.7 - 9 km SSE of La Mesa, Panama",
+        "zh": "M 4.7 - 9 km SSE of La Mesa, Panama"
+      },
+      "summary": {
+        "en": "Magnitude 4.7 earthquake at 9 km SSE of La Mesa, Panama.",
+        "zh": "震級 4.7，位於 9 km SSE of La Mesa, Panama。"
+      },
+      "data": {
+        "mag": 4.7,
+        "place": "9 km SSE of La Mesa, Panama",
+        "id": "us6000u1y4"
+      }
+    },
+    {
+      "id": "usgs-us6000u1x2",
+      "type": "earthquake",
+      "time_utc": "2026-10-13T00:02:01Z",
+      "title": {
+        "en": "M 4.6 - 23 km WNW of Río Grande, Panama",
+        "zh": "M 4.6 - 23 km WNW of Río Grande, Panama"
+      },
+      "summary": {
+        "en": "Magnitude 4.6 earthquake at 23 km WNW of Río Grande, Panama.",
+        "zh": "震級 4.6，位於 23 km WNW of Río Grande, Panama。"
+      },
+      "data": {
+        "mag": 4.6,
+        "place": "23 km WNW of Río Grande, Panama",
+        "id": "us6000u1x2"
+      }
+    },
+    {
+      "id": "usgs-us6000u1wz",
+      "type": "earthquake",
+      "time_utc": "2026-10-12T23:45:13Z",
+      "title": {
+        "en": "M 4.5 - 24 km SW of Zapotillo, Panama",
+        "zh": "M 4.5 - 24 km SW of Zapotillo, Panama"
+      },
+      "summary": {
+        "en": "Magnitude 4.5 earthquake at 24 km SW of Zapotillo, Panama.",
+        "zh": "震級 4.5，位於 24 km SW of Zapotillo, Panama。"
+      },
+      "data": {
+        "mag": 4.5,
+        "place": "24 km SW of Zapotillo, Panama",
+        "id": "us6000u1wz"
       }
     },
     {
@@ -390,24 +444,6 @@
         "mag": 5.5,
         "place": "122 km W of Neiafu, Tonga",
         "id": "us6000u1pl"
-      }
-    },
-    {
-      "id": "usgs-us6000u1pa",
-      "type": "earthquake",
-      "time_utc": "2026-10-12T03:44:57Z",
-      "title": {
-        "en": "M 4.5 - 53 km S of Kushiro, Japan",
-        "zh": "M 4.5 - 53 km S of Kushiro, Japan"
-      },
-      "summary": {
-        "en": "Magnitude 4.5 earthquake at 53 km S of Kushiro, Japan.",
-        "zh": "震級 4.5，位於 53 km S of Kushiro, Japan。"
-      },
-      "data": {
-        "mag": 4.5,
-        "place": "53 km S of Kushiro, Japan",
-        "id": "us6000u1pa"
       }
     }
   ]
