@@ -1,6 +1,6 @@
 {
   "date": "2026-10-13",
-  "updated": "2026-10-13T15:00:00Z",
+  "updated": "2026-10-13T14:02:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
@@ -11,25 +11,25 @@
         "zh": "2026 年 10 月 13 日 12 UTC，估算行星 Kp 為 0.0（0Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-13T12:00:00 on 13 October 2026. The 12 hour is complete (60 samples through 12:59; hour-start 0.0/0Z, hour-end 2.67/3M). Last-180 maximum is 3.0. Published-window maximum is 3.0. Window starts 2026-10-13T07:01:00 (359 samples). Next hour 13:00 incomplete (0 samples).",
-        "zh": "最新可靠整點初值：2026-10-13T12:00:00 估算 Kp 0.0（0Z）。12 時段已收滿（60 筆至 12:59；時段初 0.0／0Z、時段末 2.67／3M）。last-180 最大 3.0。公開窗最大 3.0。窗起點 2026-10-13T07:01:00（359 筆）。下一整點 13:00 未滿（0 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-13T12:00:00 on 13 October 2026. The 12 hour is complete (60 samples through 12:59; hour-start 0.0/0Z, hour-end 3.0/3Z). Last-180 maximum is 3.0. Published-window maximum is 3.0. Window starts 2026-10-13T08:01:00 (358 samples). Next hour 13:00 incomplete (59 samples).",
+        "zh": "最新可靠整點初值：2026-10-13T12:00:00 估算 Kp 0.0（0Z）。12 時段已收滿（60 筆至 12:59；時段初 0.0／0Z、時段末 3.0／3Z）。last-180 最大 3.0。公開窗最大 3.0。窗起點 2026-10-13T08:01:00（358 筆）。下一整點 13:00 未滿（59 筆）。"
       },
       "data": {
         "estimated_kp": 0.0,
         "kp": "0Z",
         "hour_complete": true,
         "hour_start_kp": 0.0,
-        "hour_end_kp": 2.67,
+        "hour_end_kp": 3.0,
         "last180_max": 3.0,
         "window_max": 3.0,
-        "window_start": "2026-10-13T07:01:00",
-        "sample_count": 359,
+        "window_start": "2026-10-13T08:01:00",
+        "sample_count": 358,
         "next_hour_incomplete": true,
-        "next_hour_count": 0
+        "next_hour_count": 59
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-13T15:00:00Z"
+        "fetched_at": "2026-10-13T14:02:00Z"
       }
     },
     {
@@ -51,7 +51,29 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T15:00:00Z"
+        "fetched_at": "2026-10-13T14:02:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u20z",
+      "type": "earthquake",
+      "time_utc": "2026-10-13T12:05:41.519000Z",
+      "title": {
+        "en": "M 4.9 - 180 km SE of Vilyuchinsk, Russia",
+        "zh": "M 4.9 - 180 km SE of Vilyuchinsk, Russia"
+      },
+      "summary": {
+        "en": "M 4.9 earthquake 180 km SE of Vilyuchinsk, Russia at 2026-10-13T12:05 UTC.",
+        "zh": "M 4.9 地震，180 km SE of Vilyuchinsk, Russia，時間 2026-10-13T12:05 UTC。"
+      },
+      "data": {
+        "mag": 4.9,
+        "place": "180 km SE of Vilyuchinsk, Russia",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u20z"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-13T14:02:00Z"
       }
     },
     {
@@ -73,7 +95,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T15:00:00Z"
+        "fetched_at": "2026-10-13T14:02:00Z"
       }
     },
     {
@@ -95,7 +117,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T15:00:00Z"
+        "fetched_at": "2026-10-13T14:02:00Z"
       }
     },
     {
@@ -117,7 +139,29 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T15:00:00Z"
+        "fetched_at": "2026-10-13T14:02:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u200",
+      "type": "earthquake",
+      "time_utc": "2026-10-13T08:15:04.080000Z",
+      "title": {
+        "en": "M 4.6 - 63 km W of Bayan Hot, China",
+        "zh": "M 4.6 - 63 km W of Bayan Hot, China"
+      },
+      "summary": {
+        "en": "M 4.6 earthquake 63 km W of Bayan Hot, China at 2026-10-13T08:15 UTC.",
+        "zh": "M 4.6 地震，63 km W of Bayan Hot, China，時間 2026-10-13T08:15 UTC。"
+      },
+      "data": {
+        "mag": 4.6,
+        "place": "63 km W of Bayan Hot, China",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u200"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-13T14:02:00Z"
       }
     },
     {
@@ -139,7 +183,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T15:00:00Z"
+        "fetched_at": "2026-10-13T14:02:00Z"
       }
     },
     {
@@ -161,7 +205,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T15:00:00Z"
+        "fetched_at": "2026-10-13T14:02:00Z"
       }
     },
     {
@@ -183,7 +227,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T15:00:00Z"
+        "fetched_at": "2026-10-13T14:02:00Z"
       }
     },
     {
@@ -205,7 +249,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T15:00:00Z"
+        "fetched_at": "2026-10-13T14:02:00Z"
       }
     },
     {
@@ -227,7 +271,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T15:00:00Z"
+        "fetched_at": "2026-10-13T14:02:00Z"
       }
     },
     {
@@ -249,7 +293,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T15:00:00Z"
+        "fetched_at": "2026-10-13T14:02:00Z"
       }
     },
     {
@@ -271,7 +315,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T15:00:00Z"
+        "fetched_at": "2026-10-13T14:02:00Z"
       }
     },
     {
@@ -293,7 +337,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T15:00:00Z"
+        "fetched_at": "2026-10-13T14:02:00Z"
       }
     },
     {
@@ -315,7 +359,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T15:00:00Z"
+        "fetched_at": "2026-10-13T14:02:00Z"
       }
     },
     {
@@ -337,7 +381,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T15:00:00Z"
+        "fetched_at": "2026-10-13T14:02:00Z"
       }
     },
     {
@@ -359,7 +403,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T15:00:00Z"
+        "fetched_at": "2026-10-13T14:02:00Z"
       }
     },
     {
@@ -381,7 +425,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T15:00:00Z"
+        "fetched_at": "2026-10-13T14:02:00Z"
       }
     },
     {
@@ -403,7 +447,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T15:00:00Z"
+        "fetched_at": "2026-10-13T14:02:00Z"
       }
     },
     {
@@ -425,7 +469,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T15:00:00Z"
+        "fetched_at": "2026-10-13T14:02:00Z"
       }
     },
     {
@@ -447,7 +491,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T15:00:00Z"
+        "fetched_at": "2026-10-13T14:02:00Z"
       }
     },
     {
@@ -469,7 +513,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T15:00:00Z"
+        "fetched_at": "2026-10-13T14:02:00Z"
       }
     },
     {
@@ -491,51 +535,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T15:00:00Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u1s2",
-      "type": "earthquake",
-      "time_utc": "2026-10-12T13:44:41.942000Z",
-      "title": {
-        "en": "M 4.8 - Mid-Indian Ridge",
-        "zh": "M 4.8 - Mid-Indian Ridge"
-      },
-      "summary": {
-        "en": "M 4.8 earthquake Mid-Indian Ridge at 2026-10-12T13:44 UTC.",
-        "zh": "M 4.8 地震，Mid-Indian Ridge，時間 2026-10-12T13:44 UTC。"
-      },
-      "data": {
-        "mag": 4.8,
-        "place": "Mid-Indian Ridge",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1s2"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T15:00:00Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u1rx",
-      "type": "earthquake",
-      "time_utc": "2026-10-12T13:17:18.746000Z",
-      "title": {
-        "en": "M 4.5 - 6 km W of Tonosí, Panama",
-        "zh": "M 4.5 - 6 km W of Tonosí, Panama"
-      },
-      "summary": {
-        "en": "M 4.5 earthquake 6 km W of Tonosí, Panama at 2026-10-12T13:17 UTC.",
-        "zh": "M 4.5 地震，6 km W of Tonosí, Panama，時間 2026-10-12T13:17 UTC。"
-      },
-      "data": {
-        "mag": 4.5,
-        "place": "6 km W of Tonosí, Panama",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1rx"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T15:00:00Z"
+        "fetched_at": "2026-10-13T14:02:00Z"
       }
     }
   ]
