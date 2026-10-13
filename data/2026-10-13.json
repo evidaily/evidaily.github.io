@@ -1,35 +1,57 @@
 {
   "date": "2026-10-13",
-  "updated": "2026-10-13T08:00:00Z",
+  "updated": "2026-10-13T09:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-13T06:00Z",
+      "time_utc": "2026-10-13T08:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.0 (0Z) at 06 UTC on 13 October 2026.",
-        "zh": "2026 年 10 月 13 日 06 UTC，估算行星 Kp 為 0.0（0Z）。"
+        "en": "Estimated planetary Kp is 1.67 (2M) at 08 UTC on 13 October 2026.",
+        "zh": "2026 年 10 月 13 日 08 UTC，估算行星 Kp 為 1.67（2M）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-13T06:00:00 on 13 October 2026. The 06 hour is complete (60 samples through 06:59; hour-start 0.0/0Z, hour-end 1.0/1Z). Last-180 maximum is 3.33. Published-window maximum is 3.33. Window starts 2026-10-13T01:59:00 (358 samples). Next hour 07:00 incomplete (57 samples).",
-        "zh": "最新可靠整點初值：2026-10-13T06:00:00 估算 Kp 0.0（0Z）。06 時段已收滿（60 筆至 06:59；時段初 0.0／0Z、時段末 1.0／1Z）。last-180 最大 3.33。公開窗最大 3.33。窗起點 2026-10-13T01:59:00（358 筆）。下一整點 07:00 未滿（57 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 1.67 (2M) at 2026-10-13T08:00:00 on 13 October 2026. The 08 hour is complete (60 samples through 08:59; hour-start 1.67/2M, hour-end 1.33/1P). Last-180 maximum is 2.0. Published-window maximum is 3.33. Window starts 2026-10-13T03:03:00 (358 samples). Next hour 09:00 incomplete (1 samples).",
+        "zh": "最新可靠整點初值：2026-10-13T08:00:00 估算 Kp 1.67（2M）。08 時段已收滿（60 筆至 08:59；時段初 1.67／2M、時段末 1.33／1P）。last-180 最大 2.0。公開窗最大 3.33。窗起點 2026-10-13T03:03:00（358 筆）。下一整點 09:00 未滿（1 筆）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp": "0Z",
+        "estimated_kp": 1.67,
+        "kp": "2M",
         "hour_complete": true,
-        "hour_start_kp": 0.0,
-        "hour_end_kp": 1.0,
-        "last180_max": 3.33,
+        "hour_start_kp": 1.67,
+        "hour_end_kp": 1.33,
+        "last180_max": 2.0,
         "window_max": 3.33,
-        "window_start": "2026-10-13T01:59:00",
+        "window_start": "2026-10-13T03:03:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
-        "next_hour_count": 57
+        "next_hour_count": 1
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-13T08:00:00Z"
+        "fetched_at": "2026-10-13T09:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u207",
+      "type": "earthquake",
+      "time_utc": "2026-10-13T08:38:28.325000Z",
+      "title": {
+        "en": "M 5.3 - southern Mid-Atlantic Ridge",
+        "zh": "M 5.3 - southern Mid-Atlantic Ridge"
+      },
+      "summary": {
+        "en": "M 5.3 earthquake southern Mid-Atlantic Ridge at 2026-10-13T08:38 UTC.",
+        "zh": "M 5.3 地震，southern Mid-Atlantic Ridge，時間 2026-10-13T08:38 UTC。"
+      },
+      "data": {
+        "mag": 5.3,
+        "place": "southern Mid-Atlantic Ridge",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u207"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-13T09:00:00Z"
       }
     },
     {
@@ -51,7 +73,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T08:00:00Z"
+        "fetched_at": "2026-10-13T09:00:00Z"
       }
     },
     {
@@ -73,385 +95,425 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T08:00:00Z"
+        "fetched_at": "2026-10-13T09:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1z5",
       "type": "earthquake",
-      "time_utc": "2026-10-13T05:44:46Z",
+      "time_utc": "2026-10-13T05:44:46.919000Z",
       "title": {
         "en": "M 6.7 - central Mid-Atlantic Ridge",
         "zh": "M 6.7 - central Mid-Atlantic Ridge"
       },
       "summary": {
-        "en": "Magnitude 6.7 earthquake at central Mid-Atlantic Ridge.",
-        "zh": "震級 6.7，位於 central Mid-Atlantic Ridge。"
+        "en": "M 6.7 earthquake central Mid-Atlantic Ridge at 2026-10-13T05:44 UTC.",
+        "zh": "M 6.7 地震，central Mid-Atlantic Ridge，時間 2026-10-13T05:44 UTC。"
       },
       "data": {
         "mag": 6.7,
         "place": "central Mid-Atlantic Ridge",
-        "id": "us6000u1z5"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1z5"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-13T09:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1ye",
       "type": "earthquake",
-      "time_utc": "2026-10-13T04:00:15Z",
+      "time_utc": "2026-10-13T04:00:15.768000Z",
       "title": {
         "en": "M 5.1 - 119 km SSW of Gambiran Satu, Indonesia",
         "zh": "M 5.1 - 119 km SSW of Gambiran Satu, Indonesia"
       },
       "summary": {
-        "en": "Magnitude 5.1 earthquake at 119 km SSW of Gambiran Satu, Indonesia.",
-        "zh": "震級 5.1，位於 119 km SSW of Gambiran Satu, Indonesia。"
+        "en": "M 5.1 earthquake 119 km SSW of Gambiran Satu, Indonesia at 2026-10-13T04:00 UTC.",
+        "zh": "M 5.1 地震，119 km SSW of Gambiran Satu, Indonesia，時間 2026-10-13T04:00 UTC。"
       },
       "data": {
         "mag": 5.1,
         "place": "119 km SSW of Gambiran Satu, Indonesia",
-        "id": "us6000u1ye"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ye"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-13T09:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1y4",
       "type": "earthquake",
-      "time_utc": "2026-10-13T02:48:02Z",
+      "time_utc": "2026-10-13T02:48:02.033000Z",
       "title": {
         "en": "M 4.7 - 9 km SSE of La Mesa, Panama",
         "zh": "M 4.7 - 9 km SSE of La Mesa, Panama"
       },
       "summary": {
-        "en": "Magnitude 4.7 earthquake at 9 km SSE of La Mesa, Panama.",
-        "zh": "震級 4.7，位於 9 km SSE of La Mesa, Panama。"
+        "en": "M 4.7 earthquake 9 km SSE of La Mesa, Panama at 2026-10-13T02:48 UTC.",
+        "zh": "M 4.7 地震，9 km SSE of La Mesa, Panama，時間 2026-10-13T02:48 UTC。"
       },
       "data": {
         "mag": 4.7,
         "place": "9 km SSE of La Mesa, Panama",
-        "id": "us6000u1y4"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1y4"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-13T09:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1x2",
       "type": "earthquake",
-      "time_utc": "2026-10-13T00:02:01Z",
+      "time_utc": "2026-10-13T00:02:01.476000Z",
       "title": {
         "en": "M 4.6 - 23 km WNW of Río Grande, Panama",
         "zh": "M 4.6 - 23 km WNW of Río Grande, Panama"
       },
       "summary": {
-        "en": "Magnitude 4.6 earthquake at 23 km WNW of Río Grande, Panama.",
-        "zh": "震級 4.6，位於 23 km WNW of Río Grande, Panama。"
+        "en": "M 4.6 earthquake 23 km WNW of Río Grande, Panama at 2026-10-13T00:02 UTC.",
+        "zh": "M 4.6 地震，23 km WNW of Río Grande, Panama，時間 2026-10-13T00:02 UTC。"
       },
       "data": {
         "mag": 4.6,
         "place": "23 km WNW of Río Grande, Panama",
-        "id": "us6000u1x2"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1x2"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-13T09:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1wz",
       "type": "earthquake",
-      "time_utc": "2026-10-12T23:45:13Z",
+      "time_utc": "2026-10-12T23:45:13.532000Z",
       "title": {
         "en": "M 4.5 - 24 km SW of Zapotillo, Panama",
         "zh": "M 4.5 - 24 km SW of Zapotillo, Panama"
       },
       "summary": {
-        "en": "Magnitude 4.5 earthquake at 24 km SW of Zapotillo, Panama.",
-        "zh": "震級 4.5，位於 24 km SW of Zapotillo, Panama。"
+        "en": "M 4.5 earthquake 24 km SW of Zapotillo, Panama at 2026-10-12T23:45 UTC.",
+        "zh": "M 4.5 地震，24 km SW of Zapotillo, Panama，時間 2026-10-12T23:45 UTC。"
       },
       "data": {
         "mag": 4.5,
         "place": "24 km SW of Zapotillo, Panama",
-        "id": "us6000u1wz"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1wz"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-13T09:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1ww",
       "type": "earthquake",
-      "time_utc": "2026-10-12T23:36:46Z",
+      "time_utc": "2026-10-12T23:36:46.150000Z",
       "title": {
         "en": "M 4.9 - 17 km W of Río Grande, Panama",
         "zh": "M 4.9 - 17 km W of Río Grande, Panama"
       },
       "summary": {
-        "en": "Magnitude 4.9 earthquake at 17 km W of Río Grande, Panama.",
-        "zh": "震級 4.9，位於 17 km W of Río Grande, Panama。"
+        "en": "M 4.9 earthquake 17 km W of Río Grande, Panama at 2026-10-12T23:36 UTC.",
+        "zh": "M 4.9 地震，17 km W of Río Grande, Panama，時間 2026-10-12T23:36 UTC。"
       },
       "data": {
         "mag": 4.9,
         "place": "17 km W of Río Grande, Panama",
-        "id": "us6000u1ww"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ww"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-13T09:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1wn",
       "type": "earthquake",
-      "time_utc": "2026-10-12T23:20:36Z",
+      "time_utc": "2026-10-12T23:20:36.003000Z",
       "title": {
         "en": "M 6.1 - 17 km W of Río Grande, Panama",
         "zh": "M 6.1 - 17 km W of Río Grande, Panama"
       },
       "summary": {
-        "en": "Magnitude 6.1 earthquake at 17 km W of Río Grande, Panama.",
-        "zh": "震級 6.1，位於 17 km W of Río Grande, Panama。"
+        "en": "M 6.1 earthquake 17 km W of Río Grande, Panama at 2026-10-12T23:20 UTC.",
+        "zh": "M 6.1 地震，17 km W of Río Grande, Panama，時間 2026-10-12T23:20 UTC。"
       },
       "data": {
         "mag": 6.1,
         "place": "17 km W of Río Grande, Panama",
-        "id": "us6000u1wn"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1wn"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-13T09:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1w7",
       "type": "earthquake",
-      "time_utc": "2026-10-12T21:48:54Z",
+      "time_utc": "2026-10-12T21:48:54.521000Z",
       "title": {
         "en": "M 4.5 - 5 km WSW of Calidonia, Panama",
         "zh": "M 4.5 - 5 km WSW of Calidonia, Panama"
       },
       "summary": {
-        "en": "Magnitude 4.5 earthquake at 5 km WSW of Calidonia, Panama.",
-        "zh": "震級 4.5，位於 5 km WSW of Calidonia, Panama。"
+        "en": "M 4.5 earthquake 5 km WSW of Calidonia, Panama at 2026-10-12T21:48 UTC.",
+        "zh": "M 4.5 地震，5 km WSW of Calidonia, Panama，時間 2026-10-12T21:48 UTC。"
       },
       "data": {
         "mag": 4.5,
         "place": "5 km WSW of Calidonia, Panama",
-        "id": "us6000u1w7"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1w7"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-13T09:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1w6",
       "type": "earthquake",
-      "time_utc": "2026-10-12T21:43:30Z",
+      "time_utc": "2026-10-12T21:43:30.326000Z",
       "title": {
         "en": "M 4.5 - 21 km WNW of Río Grande, Panama",
         "zh": "M 4.5 - 21 km WNW of Río Grande, Panama"
       },
       "summary": {
-        "en": "Magnitude 4.5 earthquake at 21 km WNW of Río Grande, Panama.",
-        "zh": "震級 4.5，位於 21 km WNW of Río Grande, Panama。"
+        "en": "M 4.5 earthquake 21 km WNW of Río Grande, Panama at 2026-10-12T21:43 UTC.",
+        "zh": "M 4.5 地震，21 km WNW of Río Grande, Panama，時間 2026-10-12T21:43 UTC。"
       },
       "data": {
         "mag": 4.5,
         "place": "21 km WNW of Río Grande, Panama",
-        "id": "us6000u1w6"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1w6"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-13T09:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1vf",
       "type": "earthquake",
-      "time_utc": "2026-10-12T20:05:25Z",
+      "time_utc": "2026-10-12T20:05:25.236000Z",
       "title": {
         "en": "M 4.8 - 25 km W of Río Grande, Panama",
         "zh": "M 4.8 - 25 km W of Río Grande, Panama"
       },
       "summary": {
-        "en": "Magnitude 4.8 earthquake at 25 km W of Río Grande, Panama.",
-        "zh": "震級 4.8，位於 25 km W of Río Grande, Panama。"
+        "en": "M 4.8 earthquake 25 km W of Río Grande, Panama at 2026-10-12T20:05 UTC.",
+        "zh": "M 4.8 地震，25 km W of Río Grande, Panama，時間 2026-10-12T20:05 UTC。"
       },
       "data": {
         "mag": 4.8,
         "place": "25 km W of Río Grande, Panama",
-        "id": "us6000u1vf"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1vf"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-13T09:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1uv",
       "type": "earthquake",
-      "time_utc": "2026-10-12T18:30:19Z",
+      "time_utc": "2026-10-12T18:30:19.138000Z",
       "title": {
         "en": "M 4.6 - Mid-Indian Ridge",
         "zh": "M 4.6 - Mid-Indian Ridge"
       },
       "summary": {
-        "en": "Magnitude 4.6 earthquake at Mid-Indian Ridge.",
-        "zh": "震級 4.6，位於 Mid-Indian Ridge。"
+        "en": "M 4.6 earthquake Mid-Indian Ridge at 2026-10-12T18:30 UTC.",
+        "zh": "M 4.6 地震，Mid-Indian Ridge，時間 2026-10-12T18:30 UTC。"
       },
       "data": {
         "mag": 4.6,
         "place": "Mid-Indian Ridge",
-        "id": "us6000u1uv"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1uv"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-13T09:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1ut",
       "type": "earthquake",
-      "time_utc": "2026-10-12T18:27:41Z",
+      "time_utc": "2026-10-12T18:27:41.875000Z",
       "title": {
         "en": "M 4.7 - Mid-Indian Ridge",
         "zh": "M 4.7 - Mid-Indian Ridge"
       },
       "summary": {
-        "en": "Magnitude 4.7 earthquake at Mid-Indian Ridge.",
-        "zh": "震級 4.7，位於 Mid-Indian Ridge。"
+        "en": "M 4.7 earthquake Mid-Indian Ridge at 2026-10-12T18:27 UTC.",
+        "zh": "M 4.7 地震，Mid-Indian Ridge，時間 2026-10-12T18:27 UTC。"
       },
       "data": {
         "mag": 4.7,
         "place": "Mid-Indian Ridge",
-        "id": "us6000u1ut"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ut"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-13T09:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1uq",
       "type": "earthquake",
-      "time_utc": "2026-10-12T18:17:18Z",
+      "time_utc": "2026-10-12T18:17:18.852000Z",
       "title": {
         "en": "M 4.8 - 23 km SW of San Antonio, Chile",
         "zh": "M 4.8 - 23 km SW of San Antonio, Chile"
       },
       "summary": {
-        "en": "Magnitude 4.8 earthquake at 23 km SW of San Antonio, Chile.",
-        "zh": "震級 4.8，位於 23 km SW of San Antonio, Chile。"
+        "en": "M 4.8 earthquake 23 km SW of San Antonio, Chile at 2026-10-12T18:17 UTC.",
+        "zh": "M 4.8 地震，23 km SW of San Antonio, Chile，時間 2026-10-12T18:17 UTC。"
       },
       "data": {
         "mag": 4.8,
         "place": "23 km SW of San Antonio, Chile",
-        "id": "us6000u1uq"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1uq"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-13T09:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1sn",
       "type": "earthquake",
-      "time_utc": "2026-10-12T15:44:33Z",
+      "time_utc": "2026-10-12T15:44:33.749000Z",
       "title": {
         "en": "M 4.9 - 283 km SSW of Severo-Kuril’sk, Russia",
         "zh": "M 4.9 - 283 km SSW of Severo-Kuril’sk, Russia"
       },
       "summary": {
-        "en": "Magnitude 4.9 earthquake at 283 km SSW of Severo-Kuril’sk, Russia.",
-        "zh": "震級 4.9，位於 283 km SSW of Severo-Kuril’sk, Russia。"
+        "en": "M 4.9 earthquake 283 km SSW of Severo-Kuril’sk, Russia at 2026-10-12T15:44 UTC.",
+        "zh": "M 4.9 地震，283 km SSW of Severo-Kuril’sk, Russia，時間 2026-10-12T15:44 UTC。"
       },
       "data": {
         "mag": 4.9,
         "place": "283 km SSW of Severo-Kuril’sk, Russia",
-        "id": "us6000u1sn"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1sn"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-13T09:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1s8",
       "type": "earthquake",
-      "time_utc": "2026-10-12T14:29:53Z",
+      "time_utc": "2026-10-12T14:29:53.312000Z",
       "title": {
         "en": "M 4.6 - 194 km SE of Attu Station, Alaska",
         "zh": "M 4.6 - 194 km SE of Attu Station, Alaska"
       },
       "summary": {
-        "en": "Magnitude 4.6 earthquake at 194 km SE of Attu Station, Alaska.",
-        "zh": "震級 4.6，位於 194 km SE of Attu Station, Alaska。"
+        "en": "M 4.6 earthquake 194 km SE of Attu Station, Alaska at 2026-10-12T14:29 UTC.",
+        "zh": "M 4.6 地震，194 km SE of Attu Station, Alaska，時間 2026-10-12T14:29 UTC。"
       },
       "data": {
         "mag": 4.6,
         "place": "194 km SE of Attu Station, Alaska",
-        "id": "us6000u1s8"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1s8"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-13T09:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1s2",
       "type": "earthquake",
-      "time_utc": "2026-10-12T13:44:41Z",
+      "time_utc": "2026-10-12T13:44:41.942000Z",
       "title": {
         "en": "M 4.8 - Mid-Indian Ridge",
         "zh": "M 4.8 - Mid-Indian Ridge"
       },
       "summary": {
-        "en": "Magnitude 4.8 earthquake at Mid-Indian Ridge.",
-        "zh": "震級 4.8，位於 Mid-Indian Ridge。"
+        "en": "M 4.8 earthquake Mid-Indian Ridge at 2026-10-12T13:44 UTC.",
+        "zh": "M 4.8 地震，Mid-Indian Ridge，時間 2026-10-12T13:44 UTC。"
       },
       "data": {
         "mag": 4.8,
         "place": "Mid-Indian Ridge",
-        "id": "us6000u1s2"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1s2"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-13T09:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1rx",
       "type": "earthquake",
-      "time_utc": "2026-10-12T13:17:18Z",
+      "time_utc": "2026-10-12T13:17:18.746000Z",
       "title": {
         "en": "M 4.5 - 6 km W of Tonosí, Panama",
         "zh": "M 4.5 - 6 km W of Tonosí, Panama"
       },
       "summary": {
-        "en": "Magnitude 4.5 earthquake at 6 km W of Tonosí, Panama.",
-        "zh": "震級 4.5，位於 6 km W of Tonosí, Panama。"
+        "en": "M 4.5 earthquake 6 km W of Tonosí, Panama at 2026-10-12T13:17 UTC.",
+        "zh": "M 4.5 地震，6 km W of Tonosí, Panama，時間 2026-10-12T13:17 UTC。"
       },
       "data": {
         "mag": 4.5,
         "place": "6 km W of Tonosí, Panama",
-        "id": "us6000u1rx"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1rx"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-13T09:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1rm",
       "type": "earthquake",
-      "time_utc": "2026-10-12T11:58:08Z",
+      "time_utc": "2026-10-12T11:58:08.604000Z",
       "title": {
         "en": "M 4.6 - 100 km SSW of Kencong, Indonesia",
         "zh": "M 4.6 - 100 km SSW of Kencong, Indonesia"
       },
       "summary": {
-        "en": "Magnitude 4.6 earthquake at 100 km SSW of Kencong, Indonesia.",
-        "zh": "震級 4.6，位於 100 km SSW of Kencong, Indonesia。"
+        "en": "M 4.6 earthquake 100 km SSW of Kencong, Indonesia at 2026-10-12T11:58 UTC.",
+        "zh": "M 4.6 地震，100 km SSW of Kencong, Indonesia，時間 2026-10-12T11:58 UTC。"
       },
       "data": {
         "mag": 4.6,
         "place": "100 km SSW of Kencong, Indonesia",
-        "id": "us6000u1rm"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1rm"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-13T09:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1rh",
       "type": "earthquake",
-      "time_utc": "2026-10-12T11:28:43Z",
+      "time_utc": "2026-10-12T11:28:43.398000Z",
       "title": {
         "en": "M 5.4 - Mid-Indian Ridge",
         "zh": "M 5.4 - Mid-Indian Ridge"
       },
       "summary": {
-        "en": "Magnitude 5.4 earthquake at Mid-Indian Ridge.",
-        "zh": "震級 5.4，位於 Mid-Indian Ridge。"
+        "en": "M 5.4 earthquake Mid-Indian Ridge at 2026-10-12T11:28 UTC.",
+        "zh": "M 5.4 地震，Mid-Indian Ridge，時間 2026-10-12T11:28 UTC。"
       },
       "data": {
         "mag": 5.4,
         "place": "Mid-Indian Ridge",
-        "id": "us6000u1rh"
-      }
-    },
-    {
-      "id": "usgs-us6000u1r3",
-      "type": "earthquake",
-      "time_utc": "2026-10-12T08:59:14Z",
-      "title": {
-        "en": "M 4.6 - 122 km SE of Bitung, Indonesia",
-        "zh": "M 4.6 - 122 km SE of Bitung, Indonesia"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1rh"
       },
-      "summary": {
-        "en": "Magnitude 4.6 earthquake at 122 km SE of Bitung, Indonesia.",
-        "zh": "震級 4.6，位於 122 km SE of Bitung, Indonesia。"
-      },
-      "data": {
-        "mag": 4.6,
-        "place": "122 km SE of Bitung, Indonesia",
-        "id": "us6000u1r3"
-      }
-    },
-    {
-      "id": "usgs-us6000u1qy",
-      "type": "earthquake",
-      "time_utc": "2026-10-12T08:30:08Z",
-      "title": {
-        "en": "M 4.7 - 219 km E of Lospalos, Timor Leste",
-        "zh": "M 4.7 - 219 km E of Lospalos, Timor Leste"
-      },
-      "summary": {
-        "en": "Magnitude 4.7 earthquake at 219 km E of Lospalos, Timor Leste.",
-        "zh": "震級 4.7，位於 219 km E of Lospalos, Timor Leste。"
-      },
-      "data": {
-        "mag": 4.7,
-        "place": "219 km E of Lospalos, Timor Leste",
-        "id": "us6000u1qy"
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-13T09:00:00Z"
       }
     }
   ]
