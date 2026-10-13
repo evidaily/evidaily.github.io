@@ -1,35 +1,53 @@
 {
   "date": "2026-10-13",
-  "updated": "2026-10-13T04:00:00Z",
+  "updated": "2026-10-13T05:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-13T02:00Z",
+      "time_utc": "2026-10-13T03:00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 3.33 (3P) at 02 UTC on 13 October 2026.",
-        "zh": "2026 年 10 月 13 日 02 UTC，估算行星 Kp 為 3.33（3P）。"
+        "en": "Estimated planetary Kp is 0.0 (0Z) at 03:00 UTC on 13 October 2026.",
+        "zh": "2026 年 10 月 13 日 03:00 UTC，估算行星 Kp 為 0.0（0Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 3.33 (3P) at 2026-10-13T02:00:00 on 13 October 2026. The 02 hour is complete (60 samples through 02:59; hour-start 3.33/3P, hour-end 3.33/3P). Last-180 maximum is 3.33. Published-window maximum is 3.33. Window starts 2026-10-12T22:00:00 (358 samples). Next hour 03:00 incomplete (58 samples).",
-        "zh": "最新可靠整點初值：2026-10-13T02:00:00 估算 Kp 3.33（3P）。02 時段已收滿（60 筆至 02:59；時段初 3.33／3P、時段末 3.33／3P）。last-180 最大 3.33。公開窗最大 3.33。窗起點 2026-10-12T22:00:00（358 筆）。下一整點 03:00 未滿（58 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-13T03:00:00 on 13 October 2026. The 03 hour is complete (60 samples through 03:59; hour-start 0.0/0Z, hour-end 2.67/3M). Last-180 maximum is 3.33. Published-window maximum is 3.33. Window starts 2026-10-12T23:01:00 (358 samples). Next hour 04:00 incomplete (59 samples).",
+        "zh": "最新可靠整點初值：2026-10-13T03:00:00 估算 Kp 0.0（0Z）。03 時段已收滿（60 筆至 03:59；時段初 0.0／0Z、時段末 2.67／3M）。last-180 最大 3.33。公開窗最大 3.33。窗起點 2026-10-12T23:01:00（358 筆）。下一整點 04:00 未滿（59 筆）。"
       },
       "data": {
-        "estimated_kp": 3.33,
-        "kp": "3P",
+        "estimated_kp": 0.0,
+        "kp": "0Z",
         "hour_complete": true,
-        "hour_start_kp": 3.33,
-        "hour_end_kp": 3.33,
+        "hour_start_kp": 0.0,
+        "hour_end_kp": 2.67,
         "last180_max": 3.33,
         "window_max": 3.33,
-        "window_start": "2026-10-12T22:00:00",
+        "window_start": "2026-10-12T23:01:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
-        "next_hour_count": 58
+        "next_hour_count": 59
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-13T04:00:00Z"
+        "fetched_at": "2026-10-13T05:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u1ye",
+      "type": "earthquake",
+      "time_utc": "2026-10-13T04:00:15Z",
+      "title": {
+        "en": "M 5.1 - 119 km SSW of Gambiran Satu, Indonesia",
+        "zh": "M 5.1 - 119 km SSW of Gambiran Satu, Indonesia"
+      },
+      "summary": {
+        "en": "Magnitude 5.1 earthquake at 119 km SSW of Gambiran Satu, Indonesia.",
+        "zh": "震級 5.1，位於 119 km SSW of Gambiran Satu, Indonesia。"
+      },
+      "data": {
+        "mag": 5.1,
+        "place": "119 km SSW of Gambiran Satu, Indonesia",
+        "id": "us6000u1ye"
       }
     },
     {
@@ -426,24 +444,6 @@
         "mag": 4.5,
         "place": "south of the Fiji Islands",
         "id": "us6000u1pz"
-      }
-    },
-    {
-      "id": "usgs-us6000u1pl",
-      "type": "earthquake",
-      "time_utc": "2026-10-12T04:38:12Z",
-      "title": {
-        "en": "M 5.5 - 122 km W of Neiafu, Tonga",
-        "zh": "M 5.5 - 122 km W of Neiafu, Tonga"
-      },
-      "summary": {
-        "en": "Magnitude 5.5 earthquake at 122 km W of Neiafu, Tonga.",
-        "zh": "震級 5.5，位於 122 km W of Neiafu, Tonga。"
-      },
-      "data": {
-        "mag": 5.5,
-        "place": "122 km W of Neiafu, Tonga",
-        "id": "us6000u1pl"
       }
     }
   ]
