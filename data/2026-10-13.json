@@ -1,41 +1,63 @@
 {
   "date": "2026-10-13",
-  "updated": "2026-10-13T12:00:00Z",
+  "updated": "2026-10-13T15:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-13T10:00Z",
+      "time_utc": "2026-10-13T12:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 1.33 (1P) at 10 UTC on 13 October 2026.",
-        "zh": "2026 年 10 月 13 日 10 UTC，估算行星 Kp 為 1.33（1P）。"
+        "en": "Estimated planetary Kp is 0.0 (0Z) at 12 UTC on 13 October 2026.",
+        "zh": "2026 年 10 月 13 日 12 UTC，估算行星 Kp 為 0.0（0Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 1.33 (1P) at 2026-10-13T10:00:00 on 13 October 2026. The 10 hour is complete (60 samples through 10:59; hour-start 1.33/1P, hour-end 2.67/3M). Last-180 maximum is 3.0. Published-window maximum is 3.0. Window starts 2026-10-13T06:00:00 (358 samples). Next hour 11:00 incomplete (58 samples).",
-        "zh": "最新可靠整點初值：2026-10-13T10:00:00 估算 Kp 1.33（1P）。10 時段已收滿（60 筆至 10:59；時段初 1.33／1P、時段末 2.67／3M）。last-180 最大 3.0。公開窗最大 3.0。窗起點 2026-10-13T06:00:00（358 筆）。下一整點 11:00 未滿（58 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-13T12:00:00 on 13 October 2026. The 12 hour is complete (60 samples through 12:59; hour-start 0.0/0Z, hour-end 2.67/3M). Last-180 maximum is 3.0. Published-window maximum is 3.0. Window starts 2026-10-13T07:01:00 (359 samples). Next hour 13:00 incomplete (0 samples).",
+        "zh": "最新可靠整點初值：2026-10-13T12:00:00 估算 Kp 0.0（0Z）。12 時段已收滿（60 筆至 12:59；時段初 0.0／0Z、時段末 2.67／3M）。last-180 最大 3.0。公開窗最大 3.0。窗起點 2026-10-13T07:01:00（359 筆）。下一整點 13:00 未滿（0 筆）。"
       },
       "data": {
-        "estimated_kp": 1.33,
-        "kp": "1P",
+        "estimated_kp": 0.0,
+        "kp": "0Z",
         "hour_complete": true,
-        "hour_start_kp": 1.33,
+        "hour_start_kp": 0.0,
         "hour_end_kp": 2.67,
         "last180_max": 3.0,
         "window_max": 3.0,
-        "window_start": "2026-10-13T06:00:00",
-        "sample_count": 358,
+        "window_start": "2026-10-13T07:01:00",
+        "sample_count": 359,
         "next_hour_incomplete": true,
-        "next_hour_count": 58
+        "next_hour_count": 0
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-13T12:00:00Z"
+        "fetched_at": "2026-10-13T15:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u214",
+      "type": "earthquake",
+      "time_utc": "2026-10-13T12:23:07.383000Z",
+      "title": {
+        "en": "M 6.9 - central Mid-Atlantic Ridge",
+        "zh": "M 6.9 - central Mid-Atlantic Ridge"
+      },
+      "summary": {
+        "en": "M 6.9 earthquake central Mid-Atlantic Ridge at 2026-10-13T12:23 UTC.",
+        "zh": "M 6.9 地震，central Mid-Atlantic Ridge，時間 2026-10-13T12:23 UTC。"
+      },
+      "data": {
+        "mag": 6.9,
+        "place": "central Mid-Atlantic Ridge",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u214"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-13T15:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u20i",
       "type": "earthquake",
-      "time_utc": "2026-10-13T09:48:28.205Z",
+      "time_utc": "2026-10-13T09:48:28.205000Z",
       "title": {
         "en": "M 4.5 - 71 km SW of Tambolaka, Indonesia",
         "zh": "M 4.5 - 71 km SW of Tambolaka, Indonesia"
@@ -51,13 +73,13 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T12:00:00Z"
+        "fetched_at": "2026-10-13T15:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u20g",
       "type": "earthquake",
-      "time_utc": "2026-10-13T09:41:12.899Z",
+      "time_utc": "2026-10-13T09:41:12.899000Z",
       "title": {
         "en": "M 4.7 - 9 km NE of Boshkengash, Tajikistan",
         "zh": "M 4.7 - 9 km NE of Boshkengash, Tajikistan"
@@ -73,13 +95,13 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T12:00:00Z"
+        "fetched_at": "2026-10-13T15:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u207",
       "type": "earthquake",
-      "time_utc": "2026-10-13T08:38:28.325Z",
+      "time_utc": "2026-10-13T08:38:28.325000Z",
       "title": {
         "en": "M 5.3 - southern Mid-Atlantic Ridge",
         "zh": "M 5.3 - southern Mid-Atlantic Ridge"
@@ -95,13 +117,13 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T12:00:00Z"
+        "fetched_at": "2026-10-13T15:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1zh",
       "type": "earthquake",
-      "time_utc": "2026-10-13T06:39:04.944Z",
+      "time_utc": "2026-10-13T06:39:04.944000Z",
       "title": {
         "en": "M 4.7 - 14 km WNW of Río Grande, Panama",
         "zh": "M 4.7 - 14 km WNW of Río Grande, Panama"
@@ -117,13 +139,13 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T12:00:00Z"
+        "fetched_at": "2026-10-13T15:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1zc",
       "type": "earthquake",
-      "time_utc": "2026-10-13T06:01:24.155Z",
+      "time_utc": "2026-10-13T06:01:24.155000Z",
       "title": {
         "en": "M 4.7 - 124 km N of Pagudpud, Philippines",
         "zh": "M 4.7 - 124 km N of Pagudpud, Philippines"
@@ -139,13 +161,13 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T12:00:00Z"
+        "fetched_at": "2026-10-13T15:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1z5",
       "type": "earthquake",
-      "time_utc": "2026-10-13T05:44:46.919Z",
+      "time_utc": "2026-10-13T05:44:46.919000Z",
       "title": {
         "en": "M 6.7 - central Mid-Atlantic Ridge",
         "zh": "M 6.7 - central Mid-Atlantic Ridge"
@@ -161,13 +183,13 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T12:00:00Z"
+        "fetched_at": "2026-10-13T15:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1ye",
       "type": "earthquake",
-      "time_utc": "2026-10-13T04:00:15.768Z",
+      "time_utc": "2026-10-13T04:00:15.768000Z",
       "title": {
         "en": "M 5.1 - 119 km SSW of Gambiran Satu, Indonesia",
         "zh": "M 5.1 - 119 km SSW of Gambiran Satu, Indonesia"
@@ -183,13 +205,13 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T12:00:00Z"
+        "fetched_at": "2026-10-13T15:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1y4",
       "type": "earthquake",
-      "time_utc": "2026-10-13T02:48:02.033Z",
+      "time_utc": "2026-10-13T02:48:02.033000Z",
       "title": {
         "en": "M 4.7 - 9 km SSE of La Mesa, Panama",
         "zh": "M 4.7 - 9 km SSE of La Mesa, Panama"
@@ -205,13 +227,13 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T12:00:00Z"
+        "fetched_at": "2026-10-13T15:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1x2",
       "type": "earthquake",
-      "time_utc": "2026-10-13T00:02:01.476Z",
+      "time_utc": "2026-10-13T00:02:01.476000Z",
       "title": {
         "en": "M 4.6 - 23 km WNW of Río Grande, Panama",
         "zh": "M 4.6 - 23 km WNW of Río Grande, Panama"
@@ -227,13 +249,13 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T12:00:00Z"
+        "fetched_at": "2026-10-13T15:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1wz",
       "type": "earthquake",
-      "time_utc": "2026-10-12T23:45:13.532Z",
+      "time_utc": "2026-10-12T23:45:13.532000Z",
       "title": {
         "en": "M 4.5 - 24 km SW of Zapotillo, Panama",
         "zh": "M 4.5 - 24 km SW of Zapotillo, Panama"
@@ -249,13 +271,13 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T12:00:00Z"
+        "fetched_at": "2026-10-13T15:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1ww",
       "type": "earthquake",
-      "time_utc": "2026-10-12T23:36:46.150Z",
+      "time_utc": "2026-10-12T23:36:46.150000Z",
       "title": {
         "en": "M 4.9 - 17 km W of Río Grande, Panama",
         "zh": "M 4.9 - 17 km W of Río Grande, Panama"
@@ -271,13 +293,13 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T12:00:00Z"
+        "fetched_at": "2026-10-13T15:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1wn",
       "type": "earthquake",
-      "time_utc": "2026-10-12T23:20:36.003Z",
+      "time_utc": "2026-10-12T23:20:36.003000Z",
       "title": {
         "en": "M 6.1 - 17 km W of Río Grande, Panama",
         "zh": "M 6.1 - 17 km W of Río Grande, Panama"
@@ -293,13 +315,13 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T12:00:00Z"
+        "fetched_at": "2026-10-13T15:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1w7",
       "type": "earthquake",
-      "time_utc": "2026-10-12T21:48:54.521Z",
+      "time_utc": "2026-10-12T21:48:54.521000Z",
       "title": {
         "en": "M 4.5 - 5 km WSW of Calidonia, Panama",
         "zh": "M 4.5 - 5 km WSW of Calidonia, Panama"
@@ -315,13 +337,13 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T12:00:00Z"
+        "fetched_at": "2026-10-13T15:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1w6",
       "type": "earthquake",
-      "time_utc": "2026-10-12T21:43:30.326Z",
+      "time_utc": "2026-10-12T21:43:30.326000Z",
       "title": {
         "en": "M 4.5 - 21 km WNW of Río Grande, Panama",
         "zh": "M 4.5 - 21 km WNW of Río Grande, Panama"
@@ -337,13 +359,13 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T12:00:00Z"
+        "fetched_at": "2026-10-13T15:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1vf",
       "type": "earthquake",
-      "time_utc": "2026-10-12T20:05:25.236Z",
+      "time_utc": "2026-10-12T20:05:25.236000Z",
       "title": {
         "en": "M 4.8 - 25 km W of Río Grande, Panama",
         "zh": "M 4.8 - 25 km W of Río Grande, Panama"
@@ -359,13 +381,13 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T12:00:00Z"
+        "fetched_at": "2026-10-13T15:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1uv",
       "type": "earthquake",
-      "time_utc": "2026-10-12T18:30:19.138Z",
+      "time_utc": "2026-10-12T18:30:19.138000Z",
       "title": {
         "en": "M 4.6 - Mid-Indian Ridge",
         "zh": "M 4.6 - Mid-Indian Ridge"
@@ -381,13 +403,13 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T12:00:00Z"
+        "fetched_at": "2026-10-13T15:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1ut",
       "type": "earthquake",
-      "time_utc": "2026-10-12T18:27:41.875Z",
+      "time_utc": "2026-10-12T18:27:41.875000Z",
       "title": {
         "en": "M 4.7 - Mid-Indian Ridge",
         "zh": "M 4.7 - Mid-Indian Ridge"
@@ -403,13 +425,13 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T12:00:00Z"
+        "fetched_at": "2026-10-13T15:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1uq",
       "type": "earthquake",
-      "time_utc": "2026-10-12T18:17:18.852Z",
+      "time_utc": "2026-10-12T18:17:18.852000Z",
       "title": {
         "en": "M 4.8 - 23 km SW of San Antonio, Chile",
         "zh": "M 4.8 - 23 km SW of San Antonio, Chile"
@@ -425,13 +447,13 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T12:00:00Z"
+        "fetched_at": "2026-10-13T15:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1sn",
       "type": "earthquake",
-      "time_utc": "2026-10-12T15:44:33.749Z",
+      "time_utc": "2026-10-12T15:44:33.749000Z",
       "title": {
         "en": "M 4.9 - 283 km SSW of Severo-Kuril’sk, Russia",
         "zh": "M 4.9 - 283 km SSW of Severo-Kuril’sk, Russia"
@@ -447,13 +469,13 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T12:00:00Z"
+        "fetched_at": "2026-10-13T15:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1s8",
       "type": "earthquake",
-      "time_utc": "2026-10-12T14:29:53.312Z",
+      "time_utc": "2026-10-12T14:29:53.312000Z",
       "title": {
         "en": "M 4.6 - 194 km SE of Attu Station, Alaska",
         "zh": "M 4.6 - 194 km SE of Attu Station, Alaska"
@@ -469,13 +491,13 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T12:00:00Z"
+        "fetched_at": "2026-10-13T15:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1s2",
       "type": "earthquake",
-      "time_utc": "2026-10-12T13:44:41.942Z",
+      "time_utc": "2026-10-12T13:44:41.942000Z",
       "title": {
         "en": "M 4.8 - Mid-Indian Ridge",
         "zh": "M 4.8 - Mid-Indian Ridge"
@@ -491,13 +513,13 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T12:00:00Z"
+        "fetched_at": "2026-10-13T15:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u1rx",
       "type": "earthquake",
-      "time_utc": "2026-10-12T13:17:18.746Z",
+      "time_utc": "2026-10-12T13:17:18.746000Z",
       "title": {
         "en": "M 4.5 - 6 km W of Tonosí, Panama",
         "zh": "M 4.5 - 6 km W of Tonosí, Panama"
@@ -513,7 +535,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T12:00:00Z"
+        "fetched_at": "2026-10-13T15:00:00Z"
       }
     }
   ]
