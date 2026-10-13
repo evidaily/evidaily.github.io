@@ -1,35 +1,35 @@
 {
   "date": "2026-10-13",
-  "updated": "2026-10-13T17:00:00Z",
+  "updated": "2026-10-13T18:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-13T15:00Z",
+      "time_utc": "2026-10-13T16:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.0 (0Z) at 15 UTC on 13 October 2026.",
-        "zh": "2026 年 10 月 13 日 15 UTC，估算行星 Kp 為 0.0（0Z）。"
+        "en": "Estimated planetary Kp is 0.33 (0P) at 16 UTC on 13 October 2026.",
+        "zh": "2026 年 10 月 13 日 16 UTC，估算行星 Kp 為 0.33（0P）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-13T15:00:00 on 13 October 2026. The 15 hour is complete (60 samples through 15:59; hour-start 0.0/0Z, hour-end 0.33/0P). Last-180 maximum is 3.0. Published-window maximum is 3.0. Window starts 2026-10-13T11:00:00 (358 samples). Next hour 16:00 incomplete (58 samples).",
-        "zh": "最新可靠整點初值：2026-10-13T15:00:00 估算 Kp 0.0（0Z）。15 時段已收滿（60 筆至 15:59；時段初 0.0／0Z、時段末 0.33／0P）。last-180 最大 3.0。公開窗最大 3.0。窗起點 2026-10-13T11:00:00（358 筆）。下一整點 16:00 未滿（58 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.33 (0P) at 2026-10-13T16:00:00 on 13 October 2026. The 16 hour is complete (60 samples through 16:59; hour-start 0.33/0P, hour-end 1.33/1P). Last-180 maximum is 3.0. Published-window maximum is 3.0. Window starts 2026-10-13T12:00:00 (357 samples). Next hour 17:00 incomplete (57 samples).",
+        "zh": "最新可靠整點初值：2026-10-13T16:00:00 估算 Kp 0.33（0P）。16 時段已收滿（60 筆至 16:59；時段初 0.33／0P、時段末 1.33／1P）。last-180 最大 3.0。公開窗最大 3.0。窗起點 2026-10-13T12:00:00（357 筆）。下一整點 17:00 未滿（57 筆）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp": "0Z",
+        "estimated_kp": 0.33,
+        "kp": "0P",
         "hour_complete": true,
-        "hour_start_kp": 0.0,
-        "hour_end_kp": 0.33,
+        "hour_start_kp": 0.33,
+        "hour_end_kp": 1.33,
         "last180_max": 3.0,
         "window_max": 3.0,
-        "window_start": "2026-10-13T11:00:00",
-        "sample_count": 358,
+        "window_start": "2026-10-13T12:00:00",
+        "sample_count": 357,
         "next_hour_incomplete": true,
-        "next_hour_count": 58
+        "next_hour_count": 57
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-13T17:00:00Z"
+        "fetched_at": "2026-10-13T18:00:00Z"
       }
     },
     {
@@ -55,6 +55,31 @@
         "source": "USGS 4.5_day.geojson",
         "fetched_at": "2026-10-13T17:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u23d"
+      }
+    },
+    {
+      "id": "usgs-us6000u21y",
+      "type": "earthquake",
+      "time_utc": "2026-10-13T15:21:44.242000Z",
+      "title": {
+        "en": "M 4.8 - 8 km SE of Sarangani, Philippines",
+        "zh": "M 4.8 - 8 km SE of Sarangani, Philippines"
+      },
+      "summary": {
+        "en": "M 4.8 earthquake 8 km SE of Sarangani, Philippines at 2026-10-13T15:21 UTC.",
+        "zh": "M 4.8 地震，8 km SE of Sarangani, Philippines，時間 2026-10-13T15:21 UTC。"
+      },
+      "data": {
+        "mag": 4.8,
+        "place": "8 km SE of Sarangani, Philippines",
+        "depth_km": 65.699,
+        "lat": 5.3478,
+        "lon": 125.5183
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-13T18:00:00Z",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u21y"
       }
     },
     {
