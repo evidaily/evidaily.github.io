@@ -1,0 +1,180 @@
+{
+  "date": "2026-10-13",
+  "updated": "2026-10-13T00:00:00Z",
+  "entries": [
+    {
+      "id": "noaa-kp-1m",
+      "type": "space-weather",
+      "time_utc": "2026-10-12T22:00Z",
+      "title": {
+        "en": "Estimated planetary Kp is 1.0 (1Z) at 22 UTC on 12 October 2026.",
+        "zh": "2026 年 10 月 12 日 22 UTC，估算行星 Kp 為 1.0（1Z）。"
+      },
+      "summary": {
+        "en": "Latest reliable hour-start estimated Kp is 1.0 (1Z) at 2026-10-12T22:00:00 on 12 October 2026. The 22 hour is complete (60 samples through 22:59; hour-start 1.0/1Z, hour-end 1.0/1Z). Last-180 maximum is 2.0. Published-window maximum is 2.0. Window starts 2026-10-12T18:01:00 (358 samples). Next hour 23:00 incomplete (59 samples).",
+        "zh": "最新可靠整點初值：2026-10-12T22:00:00 估算 Kp 1.0（1Z）。22 時段已收滿（60 筆至 22:59；時段初 1.0／1Z、時段末 1.0／1Z）。last-180 最大 2.0。公開窗最大 2.0。窗起點 2026-10-12T18:01:00（358 筆）。下一整點 23:00 未滿（59 筆）。"
+      },
+      "data": {
+        "estimated_kp": 1.0,
+        "kp": "1Z",
+        "hour_complete": true,
+        "hour_start_kp": 1.0,
+        "hour_end_kp": 1.0,
+        "last180_max": 2.0,
+        "window_max": 2.0,
+        "window_start": "2026-10-12T18:01:00",
+        "sample_count": 358,
+        "next_hour_incomplete": true,
+        "next_hour_count": 59
+      },
+      "evidence": {
+        "source": "NOAA SWPC planetary_k_index_1m.json",
+        "fetched_at": "2026-10-13T00:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u1ww",
+      "type": "earthquake",
+      "time_utc": "2026-10-12T23:36:46Z",
+      "title": {
+        "en": "M 4.8 - 21 km W of Río Grande, Panama",
+        "zh": "M 4.8 - 21 km W of Río Grande, Panama"
+      },
+      "summary": {
+        "en": "Magnitude 4.8 earthquake at 21 km W of Río Grande, Panama.",
+        "zh": "震級 4.8，位於 21 km W of Río Grande, Panama。"
+      },
+      "data": {
+        "mag": 4.8,
+        "place": "21 km W of Río Grande, Panama",
+        "id": "us6000u1ww"
+      }
+    },
+    {
+      "id": "usgs-us6000u1wn",
+      "type": "earthquake",
+      "time_utc": "2026-10-12T23:20:36Z",
+      "title": {
+        "en": "M 6.1 - 18 km W of Río Grande, Panama",
+        "zh": "M 6.1 - 18 km W of Río Grande, Panama"
+      },
+      "summary": {
+        "en": "Magnitude 6.1 earthquake at 18 km W of Río Grande, Panama.",
+        "zh": "震級 6.1，位於 18 km W of Río Grande, Panama。"
+      },
+      "data": {
+        "mag": 6.1,
+        "place": "18 km W of Río Grande, Panama",
+        "id": "us6000u1wn"
+      }
+    },
+    {
+      "id": "usgs-us6000u1w7",
+      "type": "earthquake",
+      "time_utc": "2026-10-12T21:48:54Z",
+      "title": {
+        "en": "M 4.5 - 7 km WSW of Calidonia, Panama",
+        "zh": "M 4.5 - 7 km WSW of Calidonia, Panama"
+      },
+      "summary": {
+        "en": "Magnitude 4.5 earthquake at 7 km WSW of Calidonia, Panama.",
+        "zh": "震級 4.5，位於 7 km WSW of Calidonia, Panama。"
+      },
+      "data": {
+        "mag": 4.5,
+        "place": "7 km WSW of Calidonia, Panama",
+        "id": "us6000u1w7"
+      }
+    },
+    {
+      "id": "usgs-us6000u1w6",
+      "type": "earthquake",
+      "time_utc": "2026-10-12T21:43:30Z",
+      "title": {
+        "en": "M 4.5 - 19 km SW of Calidonia, Panama",
+        "zh": "M 4.5 - 19 km SW of Calidonia, Panama"
+      },
+      "summary": {
+        "en": "Magnitude 4.5 earthquake at 19 km SW of Calidonia, Panama.",
+        "zh": "震級 4.5，位於 19 km SW of Calidonia, Panama。"
+      },
+      "data": {
+        "mag": 4.5,
+        "place": "19 km SW of Calidonia, Panama",
+        "id": "us6000u1w6"
+      }
+    },
+    {
+      "id": "usgs-us6000u1vf",
+      "type": "earthquake",
+      "time_utc": "2026-10-12T20:05:25Z",
+      "title": {
+        "en": "M 4.8 - 25 km W of Río Grande, Panama",
+        "zh": "M 4.8 - 25 km W of Río Grande, Panama"
+      },
+      "summary": {
+        "en": "Magnitude 4.8 earthquake at 25 km W of Río Grande, Panama.",
+        "zh": "震級 4.8，位於 25 km W of Río Grande, Panama。"
+      },
+      "data": {
+        "mag": 4.8,
+        "place": "25 km W of Río Grande, Panama",
+        "id": "us6000u1vf"
+      }
+    },
+    {
+      "id": "usgs-us6000u1uv",
+      "type": "earthquake",
+      "time_utc": "2026-10-12T18:30:19Z",
+      "title": {
+        "en": "M 4.6 - Mid-Indian Ridge",
+        "zh": "M 4.6 - Mid-Indian Ridge"
+      },
+      "summary": {
+        "en": "Magnitude 4.6 earthquake at Mid-Indian Ridge.",
+        "zh": "震級 4.6，位於 Mid-Indian Ridge。"
+      },
+      "data": {
+        "mag": 4.6,
+        "place": "Mid-Indian Ridge",
+        "id": "us6000u1uv"
+      }
+    },
+    {
+      "id": "usgs-us6000u1ut",
+      "type": "earthquake",
+      "time_utc": "2026-10-12T18:27:41Z",
+      "title": {
+        "en": "M 4.7 - Mid-Indian Ridge",
+        "zh": "M 4.7 - Mid-Indian Ridge"
+      },
+      "summary": {
+        "en": "Magnitude 4.7 earthquake at Mid-Indian Ridge.",
+        "zh": "震級 4.7，位於 Mid-Indian Ridge。"
+      },
+      "data": {
+        "mag": 4.7,
+        "place": "Mid-Indian Ridge",
+        "id": "us6000u1ut"
+      }
+    },
+    {
+      "id": "usgs-us6000u1uq",
+      "type": "earthquake",
+      "time_utc": "2026-10-12T18:17:18Z",
+      "title": {
+        "en": "M 4.8 - 23 km SW of San Antonio, Chile",
+        "zh": "M 4.8 - 23 km SW of San Antonio, Chile"
+      },
+      "summary": {
+        "en": "Magnitude 4.8 earthquake at 23 km SW of San Antonio, Chile.",
+        "zh": "震級 4.8，位於 23 km SW of San Antonio, Chile。"
+      },
+      "data": {
+        "mag": 4.8,
+        "place": "23 km SW of San Antonio, Chile",
+        "id": "us6000u1uq"
+      }
+    }
+  ]
+}
