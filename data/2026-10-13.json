@@ -1,35 +1,79 @@
 {
   "date": "2026-10-13",
-  "updated": "2026-10-13T07:00:00Z",
+  "updated": "2026-10-13T08:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-13T05:00Z",
+      "time_utc": "2026-10-13T06:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 3.33 (3P) at 05 UTC on 13 October 2026.",
-        "zh": "2026 年 10 月 13 日 05 UTC，估算行星 Kp 為 3.33（3P）。"
+        "en": "Estimated planetary Kp is 0.0 (0Z) at 06 UTC on 13 October 2026.",
+        "zh": "2026 年 10 月 13 日 06 UTC，估算行星 Kp 為 0.0（0Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 3.33 (3P) at 2026-10-13T05:00:00 on 13 October 2026. The 05 hour is complete (60 samples through 05:59; hour-start 3.33/3P, hour-end 3.33/3P). Last-180 maximum is 3.33. Published-window maximum is 3.33. Window starts 2026-10-13T01:00:00 (358 samples). Next hour 06:00 incomplete (58 samples).",
-        "zh": "最新可靠整點初值：2026-10-13T05:00:00 估算 Kp 3.33（3P）。05 時段已收滿（60 筆至 05:59；時段初 3.33／3P、時段末 3.33／3P）。last-180 最大 3.33。公開窗最大 3.33。窗起點 2026-10-13T01:00:00（358 筆）。下一整點 06:00 未滿（58 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-13T06:00:00 on 13 October 2026. The 06 hour is complete (60 samples through 06:59; hour-start 0.0/0Z, hour-end 1.0/1Z). Last-180 maximum is 3.33. Published-window maximum is 3.33. Window starts 2026-10-13T01:59:00 (358 samples). Next hour 07:00 incomplete (57 samples).",
+        "zh": "最新可靠整點初值：2026-10-13T06:00:00 估算 Kp 0.0（0Z）。06 時段已收滿（60 筆至 06:59；時段初 0.0／0Z、時段末 1.0／1Z）。last-180 最大 3.33。公開窗最大 3.33。窗起點 2026-10-13T01:59:00（358 筆）。下一整點 07:00 未滿（57 筆）。"
       },
       "data": {
-        "estimated_kp": 3.33,
-        "kp": "3P",
+        "estimated_kp": 0.0,
+        "kp": "0Z",
         "hour_complete": true,
-        "hour_start_kp": 3.33,
-        "hour_end_kp": 3.33,
+        "hour_start_kp": 0.0,
+        "hour_end_kp": 1.0,
         "last180_max": 3.33,
         "window_max": 3.33,
-        "window_start": "2026-10-13T01:00:00",
+        "window_start": "2026-10-13T01:59:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
-        "next_hour_count": 58
+        "next_hour_count": 57
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-13T07:00:00Z"
+        "fetched_at": "2026-10-13T08:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u1zh",
+      "type": "earthquake",
+      "time_utc": "2026-10-13T06:39:04.944000Z",
+      "title": {
+        "en": "M 4.7 - 14 km WNW of Río Grande, Panama",
+        "zh": "M 4.7 - 14 km WNW of Río Grande, Panama"
+      },
+      "summary": {
+        "en": "M 4.7 earthquake 14 km WNW of Río Grande, Panama at 2026-10-13T06:39 UTC.",
+        "zh": "M 4.7 地震，14 km WNW of Río Grande, Panama，時間 2026-10-13T06:39 UTC。"
+      },
+      "data": {
+        "mag": 4.7,
+        "place": "14 km WNW of Río Grande, Panama",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1zh"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-13T08:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u1zc",
+      "type": "earthquake",
+      "time_utc": "2026-10-13T06:01:24.155000Z",
+      "title": {
+        "en": "M 4.7 - 124 km N of Pagudpud, Philippines",
+        "zh": "M 4.7 - 124 km N of Pagudpud, Philippines"
+      },
+      "summary": {
+        "en": "M 4.7 earthquake 124 km N of Pagudpud, Philippines at 2026-10-13T06:01 UTC.",
+        "zh": "M 4.7 地震，124 km N of Pagudpud, Philippines，時間 2026-10-13T06:01 UTC。"
+      },
+      "data": {
+        "mag": 4.7,
+        "place": "124 km N of Pagudpud, Philippines",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1zc"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-13T08:00:00Z"
       }
     },
     {
@@ -408,24 +452,6 @@
         "mag": 4.7,
         "place": "219 km E of Lospalos, Timor Leste",
         "id": "us6000u1qy"
-      }
-    },
-    {
-      "id": "usgs-us6000u1qd",
-      "type": "earthquake",
-      "time_utc": "2026-10-12T07:16:06Z",
-      "title": {
-        "en": "M 4.5 - 7 km ESE of Tebario, Panama",
-        "zh": "M 4.5 - 7 km ESE of Tebario, Panama"
-      },
-      "summary": {
-        "en": "Magnitude 4.5 earthquake at 7 km ESE of Tebario, Panama.",
-        "zh": "震級 4.5，位於 7 km ESE of Tebario, Panama。"
-      },
-      "data": {
-        "mag": 4.5,
-        "place": "7 km ESE of Tebario, Panama",
-        "id": "us6000u1qd"
       }
     }
   ]
