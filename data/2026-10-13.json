@@ -1,35 +1,60 @@
 {
   "date": "2026-10-13",
-  "updated": "2026-10-13T21:00:00Z",
+  "updated": "2026-10-13T22:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-13T19:00Z",
+      "time_utc": "2026-10-13T20:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 2.67 (3M) at 19 UTC on 13 October 2026.",
-        "zh": "2026 年 10 月 13 日 19 UTC，估算行星 Kp 為 2.67（3M）。"
+        "en": "Estimated planetary Kp is 2.67 (3M) at 20 UTC on 13 October 2026.",
+        "zh": "2026 年 10 月 13 日 20 UTC，估算行星 Kp 為 2.67（3M）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 2.67 (3M) at 2026-10-13T19:00:00 on 13 October 2026. The 19 hour is complete (60 samples through 19:59; hour-start 2.67/3M, hour-end 2.67/3M). Last-180 maximum is 3.0. Published-window maximum is 3.0. Window starts 2026-10-13T15:00:00 (358 samples). Next hour 20:00 incomplete (58 samples).",
-        "zh": "最新可靠整點初值：2026-10-13T19:00:00 估算 Kp 2.67（3M）。19 時段已收滿（60 筆至 19:59；時段初 2.67／3M、時段末 2.67／3M）。last-180 最大 3.0。公開窗最大 3.0。窗起點 2026-10-13T15:00:00（358 筆）。下一整點 20:00 未滿（58 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 2.67 (3M) at 2026-10-13T20:00:00 on 13 October 2026. The 20 hour is complete (60 samples through 20:59; hour-start 2.67/3M, hour-end 3.0/3Z). Last-180 maximum is 3.0. Published-window maximum is 3.0. Window starts 2026-10-13T16:00:00 (358 samples). Next hour 21:00 incomplete (58 samples).",
+        "zh": "最新可靠整點初值：2026-10-13T20:00:00 估算 Kp 2.67（3M）。20 時段已收滿（60 筆至 20:59；時段初 2.67／3M、時段末 3.0／3Z）。last-180 最大 3.0。公開窗最大 3.0。窗起點 2026-10-13T16:00:00（358 筆）。下一整點 21:00 未滿（58 筆）。"
       },
       "data": {
         "estimated_kp": 2.67,
         "kp": "3M",
         "hour_complete": true,
         "hour_start_kp": 2.67,
-        "hour_end_kp": 2.67,
+        "hour_end_kp": 3.0,
         "last180_max": 3.0,
         "window_max": 3.0,
-        "window_start": "2026-10-13T15:00:00",
+        "window_start": "2026-10-13T16:00:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
         "next_hour_count": 58
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-13T21:00:00Z"
+        "fetched_at": "2026-10-13T22:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u25i",
+      "type": "earthquake",
+      "time_utc": "2026-10-13T21:24:20.893000Z",
+      "title": {
+        "en": "M 4.8 - 0 km SW of Aratoca, Colombia",
+        "zh": "M 4.8 - 0 km SW of Aratoca, Colombia"
+      },
+      "summary": {
+        "en": "M 4.8 earthquake 0 km SW of Aratoca, Colombia at 2026-10-13T21:24 UTC.",
+        "zh": "M 4.8 地震，0 km SW of Aratoca, Colombia，時間 2026-10-13T21:24 UTC。"
+      },
+      "data": {
+        "mag": 4.8,
+        "place": "0 km SW of Aratoca, Colombia",
+        "depth_km": 162.708,
+        "lat": 6.691,
+        "lon": -73.0229
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-13T22:00:00Z",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u25i"
       }
     },
     {
@@ -37,8 +62,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-13T18:45:03.231000Z",
       "title": {
-        "en": "M 6 - 126 km S of Kokopo, Papua New Guinea",
-        "zh": "M 6 - 126 km S of Kokopo, Papua New Guinea"
+        "en": "M 6.0 - 126 km S of Kokopo, Papua New Guinea",
+        "zh": "M 6.0 - 126 km S of Kokopo, Papua New Guinea"
       },
       "summary": {
         "en": "M 6 earthquake 126 km S of Kokopo, Papua New Guinea at 2026-10-13T18:45 UTC.",
@@ -53,7 +78,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T21:00:00Z",
+        "fetched_at": "2026-10-13T22:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u24c"
       }
     },
@@ -78,7 +103,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T21:00:00Z",
+        "fetched_at": "2026-10-13T22:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u23d"
       }
     },
@@ -103,7 +128,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T21:00:00Z",
+        "fetched_at": "2026-10-13T22:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u21y"
       }
     },
@@ -128,7 +153,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T21:00:00Z",
+        "fetched_at": "2026-10-13T22:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u21s"
       }
     },
@@ -153,7 +178,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T21:00:00Z",
+        "fetched_at": "2026-10-13T22:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u21d"
       }
     },
@@ -178,7 +203,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T21:00:00Z",
+        "fetched_at": "2026-10-13T22:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u214"
       }
     },
@@ -203,7 +228,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T21:00:00Z",
+        "fetched_at": "2026-10-13T22:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u20z"
       }
     },
@@ -228,7 +253,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T21:00:00Z",
+        "fetched_at": "2026-10-13T22:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u20i"
       }
     },
@@ -253,7 +278,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T21:00:00Z",
+        "fetched_at": "2026-10-13T22:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u20g"
       }
     },
@@ -278,7 +303,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T21:00:00Z",
+        "fetched_at": "2026-10-13T22:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u207"
       }
     },
@@ -303,7 +328,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T21:00:00Z",
+        "fetched_at": "2026-10-13T22:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u200"
       }
     },
@@ -328,7 +353,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T21:00:00Z",
+        "fetched_at": "2026-10-13T22:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1zh"
       }
     },
@@ -353,7 +378,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T21:00:00Z",
+        "fetched_at": "2026-10-13T22:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1zc"
       }
     },
@@ -378,7 +403,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T21:00:00Z",
+        "fetched_at": "2026-10-13T22:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1z5"
       }
     },
@@ -403,7 +428,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T21:00:00Z",
+        "fetched_at": "2026-10-13T22:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ye"
       }
     },
@@ -428,8 +453,33 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T21:00:00Z",
+        "fetched_at": "2026-10-13T22:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1y4"
+      }
+    },
+    {
+      "id": "usgs-us6000u1xy",
+      "type": "earthquake",
+      "time_utc": "2026-10-13T02:16:57.992000Z",
+      "title": {
+        "en": "M 4.5 - South Sandwich Islands region",
+        "zh": "M 4.5 - South Sandwich Islands region"
+      },
+      "summary": {
+        "en": "M 4.5 earthquake South Sandwich Islands region at 2026-10-13T02:16 UTC.",
+        "zh": "M 4.5 地震，South Sandwich Islands region，時間 2026-10-13T02:16 UTC。"
+      },
+      "data": {
+        "mag": 4.5,
+        "place": "South Sandwich Islands region",
+        "depth_km": 139.58,
+        "lat": -58.1423,
+        "lon": -26.2058
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-13T22:00:00Z",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1xy"
       }
     },
     {
@@ -453,7 +503,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T21:00:00Z",
+        "fetched_at": "2026-10-13T22:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1x2"
       }
     },
@@ -478,7 +528,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T21:00:00Z",
+        "fetched_at": "2026-10-13T22:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1wz"
       }
     },
@@ -503,7 +553,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T21:00:00Z",
+        "fetched_at": "2026-10-13T22:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ww"
       }
     },
@@ -528,58 +578,8 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T21:00:00Z",
+        "fetched_at": "2026-10-13T22:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1wn"
-      }
-    },
-    {
-      "id": "usgs-us6000u1w7",
-      "type": "earthquake",
-      "time_utc": "2026-10-12T21:48:54.521000Z",
-      "title": {
-        "en": "M 4.5 - 5 km WSW of Calidonia, Panama",
-        "zh": "M 4.5 - 5 km WSW of Calidonia, Panama"
-      },
-      "summary": {
-        "en": "M 4.5 earthquake 5 km WSW of Calidonia, Panama at 2026-10-12T21:48 UTC.",
-        "zh": "M 4.5 地震，5 km WSW of Calidonia, Panama，時間 2026-10-12T21:48 UTC。"
-      },
-      "data": {
-        "mag": 4.5,
-        "place": "5 km WSW of Calidonia, Panama",
-        "depth_km": 10,
-        "lat": 7.9416,
-        "lon": -81.4309
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T21:00:00Z",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1w7"
-      }
-    },
-    {
-      "id": "usgs-us6000u1w6",
-      "type": "earthquake",
-      "time_utc": "2026-10-12T21:43:30.326000Z",
-      "title": {
-        "en": "M 4.5 - 21 km WNW of Río Grande, Panama",
-        "zh": "M 4.5 - 21 km WNW of Río Grande, Panama"
-      },
-      "summary": {
-        "en": "M 4.5 earthquake 21 km WNW of Río Grande, Panama at 2026-10-12T21:43 UTC.",
-        "zh": "M 4.5 地震，21 km WNW of Río Grande, Panama，時間 2026-10-12T21:43 UTC。"
-      },
-      "data": {
-        "mag": 4.5,
-        "place": "21 km WNW of Río Grande, Panama",
-        "depth_km": 10,
-        "lat": 7.8015,
-        "lon": -81.5113
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-13T21:00:00Z",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1w6"
       }
     }
   ]
