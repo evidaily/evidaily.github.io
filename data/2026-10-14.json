@@ -1,41 +1,66 @@
 {
   "date": "2026-10-14",
-  "updated": "2026-10-14T10:00:00Z",
+  "updated": "2026-10-14T12:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-14T08:00Z",
+      "time_utc": "2026-10-14T11:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 1.33 (1P) at 08 UTC on 14 October 2026.",
-        "zh": "2026 年 10 月 14 日 08 UTC，估算行星 Kp 為 1.33（1P）。"
+        "en": "Estimated planetary Kp is 1.33 (1P) at 11 UTC on 14 October 2026.",
+        "zh": "2026 年 10 月 14 日 11 UTC，估算行星 Kp 為 1.33（1P）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 1.33 (1P) at 2026-10-14T08:00:00 on 14 October 2026. The 08 hour is complete (60 samples through 08:59; hour-start 1.33/1P, hour-end 1.67/2M). Last-180 maximum is 1.67. Published-window maximum is 3.33. Window starts 2026-10-14T04:01:00 (358 samples). Next hour 09:00 incomplete (59 samples).",
-        "zh": "最新可靠整點初值：2026-10-14T08:00:00 估算 Kp 1.33（1P）。08 時段已收滿（60 筆至 08:59；時段初 1.33／1P、時段末 1.67／2M）。last-180 最大 1.67。公開窗最大 3.33。窗起點 2026-10-14T04:01:00（358 筆）。下一整點 09:00 未滿（59 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 1.33 (1P) at 2026-10-14T11:00:00 on 14 October 2026. The 11 hour is complete (60 samples through 11:59; hour-start 1.33/1P, hour-end 2.0/2Z). Last-180 maximum is 2.33. Published-window maximum is 2.33. Window starts 2026-10-14T06:03:00 (358 samples). Next hour 12:00 incomplete (1 sample).",
+        "zh": "最新可靠整點初值：2026-10-14T11:00:00 估算 Kp 1.33（1P）。11 時段已收滿（60 筆至 11:59；時段初 1.33／1P、時段末 2.0／2Z）。last-180 最大 2.33。公開窗最大 2.33。窗起點 2026-10-14T06:03:00（358 筆）。下一整點 12:00 未滿（1 筆）。"
       },
       "data": {
         "estimated_kp": 1.33,
         "kp": "1P",
         "hour_complete": true,
         "hour_start_kp": 1.33,
-        "hour_end_kp": 1.67,
-        "last180_max": 1.67,
-        "window_max": 3.33,
-        "window_start": "2026-10-14T04:01:00",
+        "hour_end_kp": 2.0,
+        "last180_max": 2.33,
+        "window_max": 2.33,
+        "window_start": "2026-10-14T06:03:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
-        "next_hour_count": 59
+        "next_hour_count": 1
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-14T10:00:00Z"
+        "fetched_at": "2026-10-14T12:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u28y",
+      "type": "earthquake",
+      "time_utc": "2026-10-14T10:49:47.588Z",
+      "title": {
+        "en": "M 5.9 - Fiji region",
+        "zh": "M 5.9 - Fiji region"
+      },
+      "summary": {
+        "en": "M 5.9 at Fiji region.",
+        "zh": "M 5.9 位於 Fiji region。"
+      },
+      "data": {
+        "mag": 5.9,
+        "place": "Fiji region",
+        "depth": 585.07,
+        "lat": -20.9899,
+        "lon": -178.7711
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-14T12:00:00Z",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u28y"
       }
     },
     {
       "id": "usgs-us6000u27u",
       "type": "earthquake",
-      "time_utc": "2026-10-14T06:27:06.453000Z",
+      "time_utc": "2026-10-14T06:27:06.453Z",
       "title": {
         "en": "M 4.9 - 121 km S of Kokopo, Papua New Guinea",
         "zh": "M 4.9 - 121 km S of Kokopo, Papua New Guinea"
@@ -53,14 +78,14 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T10:00:00Z",
+        "fetched_at": "2026-10-14T12:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u27u"
       }
     },
     {
       "id": "usgs-us6000u27j",
       "type": "earthquake",
-      "time_utc": "2026-10-14T05:09:35.397000Z",
+      "time_utc": "2026-10-14T05:09:35.397Z",
       "title": {
         "en": "M 4.7 - 10 km S of La Mesa, Panama",
         "zh": "M 4.7 - 10 km S of La Mesa, Panama"
@@ -78,14 +103,14 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T10:00:00Z",
+        "fetched_at": "2026-10-14T12:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u27j"
       }
     },
     {
       "id": "usgs-us6000u272",
       "type": "earthquake",
-      "time_utc": "2026-10-14T03:11:09.258000Z",
+      "time_utc": "2026-10-14T03:11:09.258Z",
       "title": {
         "en": "M 4.9 - 16 km WSW of La Tirana, Chile",
         "zh": "M 4.9 - 16 km WSW of La Tirana, Chile"
@@ -97,20 +122,20 @@
       "data": {
         "mag": 4.9,
         "place": "16 km WSW of La Tirana, Chile",
-        "depth": 44.914,
+        "depth": 44.91,
         "lat": -20.3552,
         "lon": -70.2699
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T10:00:00Z",
+        "fetched_at": "2026-10-14T12:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u272"
       }
     },
     {
       "id": "usgs-us6000u273",
       "type": "earthquake",
-      "time_utc": "2026-10-14T03:02:14.593000Z",
+      "time_utc": "2026-10-14T03:02:14.593Z",
       "title": {
         "en": "M 4.8 - North Atlantic Ocean",
         "zh": "M 4.8 - North Atlantic Ocean"
@@ -128,14 +153,14 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T10:00:00Z",
+        "fetched_at": "2026-10-14T12:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u273"
       }
     },
     {
       "id": "usgs-us6000u271",
       "type": "earthquake",
-      "time_utc": "2026-10-14T02:59:27.574000Z",
+      "time_utc": "2026-10-14T02:59:27.574Z",
       "title": {
         "en": "M 4.7 - 128 km S of Kokopo, Papua New Guinea",
         "zh": "M 4.7 - 128 km S of Kokopo, Papua New Guinea"
@@ -153,14 +178,14 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T10:00:00Z",
+        "fetched_at": "2026-10-14T12:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u271"
       }
     },
     {
       "id": "usgs-us6000u26u",
       "type": "earthquake",
-      "time_utc": "2026-10-14T02:12:14.885000Z",
+      "time_utc": "2026-10-14T02:12:14.885Z",
       "title": {
         "en": "M 4.6 - 75 km E of Kokopo, Papua New Guinea",
         "zh": "M 4.6 - 75 km E of Kokopo, Papua New Guinea"
@@ -178,14 +203,14 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T10:00:00Z",
+        "fetched_at": "2026-10-14T12:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u26u"
       }
     },
     {
       "id": "usgs-us6000u26f",
       "type": "earthquake",
-      "time_utc": "2026-10-14T00:36:45.416000Z",
+      "time_utc": "2026-10-14T00:36:45.416Z",
       "title": {
         "en": "M 5 - 98 km NW of Coquimbo, Chile",
         "zh": "M 5 - 98 km NW of Coquimbo, Chile"
@@ -203,14 +228,14 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T10:00:00Z",
+        "fetched_at": "2026-10-14T12:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u26f"
       }
     },
     {
       "id": "usgs-us6000u26c",
       "type": "earthquake",
-      "time_utc": "2026-10-14T00:30:47.706000Z",
+      "time_utc": "2026-10-14T00:30:47.706Z",
       "title": {
         "en": "M 5.1 - 93 km NNW of Coquimbo, Chile",
         "zh": "M 5.1 - 93 km NNW of Coquimbo, Chile"
@@ -222,20 +247,20 @@
       "data": {
         "mag": 5.1,
         "place": "93 km NNW of Coquimbo, Chile",
-        "depth": 21.947,
+        "depth": 21.95,
         "lat": -29.2155,
         "lon": -71.8024
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T10:00:00Z",
+        "fetched_at": "2026-10-14T12:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u26c"
       }
     },
     {
       "id": "usgs-us6000u25i",
       "type": "earthquake",
-      "time_utc": "2026-10-13T21:24:21.135000Z",
+      "time_utc": "2026-10-13T21:24:21.135Z",
       "title": {
         "en": "M 4.8 - 5 km NW of Cepitá, Colombia",
         "zh": "M 4.8 - 5 km NW of Cepitá, Colombia"
@@ -247,20 +272,20 @@
       "data": {
         "mag": 4.8,
         "place": "5 km NW of Cepitá, Colombia",
-        "depth": 162.209,
+        "depth": 162.21,
         "lat": 6.7888,
         "lon": -73.0065
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T10:00:00Z",
+        "fetched_at": "2026-10-14T12:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u25i"
       }
     },
     {
       "id": "usgs-us6000u24c",
       "type": "earthquake",
-      "time_utc": "2026-10-13T18:45:03.231000Z",
+      "time_utc": "2026-10-13T18:45:03.231Z",
       "title": {
         "en": "M 6 - 126 km S of Kokopo, Papua New Guinea",
         "zh": "M 6 - 126 km S of Kokopo, Papua New Guinea"
@@ -272,20 +297,20 @@
       "data": {
         "mag": 6,
         "place": "126 km S of Kokopo, Papua New Guinea",
-        "depth": 20.842,
+        "depth": 20.84,
         "lat": -5.4832,
         "lon": 152.1364
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T10:00:00Z",
+        "fetched_at": "2026-10-14T12:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u24c"
       }
     },
     {
       "id": "usgs-us6000u23d",
       "type": "earthquake",
-      "time_utc": "2026-10-13T16:28:14.303000Z",
+      "time_utc": "2026-10-13T16:28:14.303Z",
       "title": {
         "en": "M 5.1 - 119 km S of Kokopo, Papua New Guinea",
         "zh": "M 5.1 - 119 km S of Kokopo, Papua New Guinea"
@@ -303,14 +328,14 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T10:00:00Z",
+        "fetched_at": "2026-10-14T12:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u23d"
       }
     },
     {
       "id": "usgs-us6000u21y",
       "type": "earthquake",
-      "time_utc": "2026-10-13T15:21:44.242000Z",
+      "time_utc": "2026-10-13T15:21:44.242Z",
       "title": {
         "en": "M 4.8 - 8 km SE of Sarangani, Philippines",
         "zh": "M 4.8 - 8 km SE of Sarangani, Philippines"
@@ -322,20 +347,20 @@
       "data": {
         "mag": 4.8,
         "place": "8 km SE of Sarangani, Philippines",
-        "depth": 65.699,
+        "depth": 65.7,
         "lat": 5.3478,
         "lon": 125.5183
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T10:00:00Z",
+        "fetched_at": "2026-10-14T12:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u21y"
       }
     },
     {
       "id": "usgs-us6000u21s",
       "type": "earthquake",
-      "time_utc": "2026-10-13T14:36:10.660000Z",
+      "time_utc": "2026-10-13T14:36:10.660Z",
       "title": {
         "en": "M 5.3 - 122 km S of Kokopo, Papua New Guinea",
         "zh": "M 5.3 - 122 km S of Kokopo, Papua New Guinea"
@@ -347,20 +372,20 @@
       "data": {
         "mag": 5.3,
         "place": "122 km S of Kokopo, Papua New Guinea",
-        "depth": 18.521,
+        "depth": 18.52,
         "lat": -5.4448,
         "lon": 152.1255
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T10:00:00Z",
+        "fetched_at": "2026-10-14T12:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u21s"
       }
     },
     {
       "id": "usgs-us6000u21d",
       "type": "earthquake",
-      "time_utc": "2026-10-13T12:51:32.169000Z",
+      "time_utc": "2026-10-13T12:51:32.169Z",
       "title": {
         "en": "M 4.5 - 26 km SSW of Zapotillo, Panama",
         "zh": "M 4.5 - 26 km SSW of Zapotillo, Panama"
@@ -378,14 +403,14 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T10:00:00Z",
+        "fetched_at": "2026-10-14T12:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u21d"
       }
     },
     {
       "id": "usgs-us6000u214",
       "type": "earthquake",
-      "time_utc": "2026-10-13T12:23:07.248000Z",
+      "time_utc": "2026-10-13T12:23:07.248Z",
       "title": {
         "en": "M 6.8 - central Mid-Atlantic Ridge",
         "zh": "M 6.8 - central Mid-Atlantic Ridge"
@@ -403,14 +428,14 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T10:00:00Z",
+        "fetched_at": "2026-10-14T12:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u214"
       }
     },
     {
       "id": "usgs-us6000u20z",
       "type": "earthquake",
-      "time_utc": "2026-10-13T12:05:41.519000Z",
+      "time_utc": "2026-10-13T12:05:41.519Z",
       "title": {
         "en": "M 4.9 - 180 km SE of Vilyuchinsk, Russia",
         "zh": "M 4.9 - 180 km SE of Vilyuchinsk, Russia"
@@ -428,7 +453,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T10:00:00Z",
+        "fetched_at": "2026-10-14T12:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u20z"
       }
     }
