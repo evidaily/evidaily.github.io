@@ -1,35 +1,35 @@
 {
   "date": "2026-10-14",
-  "updated": "2026-10-14T18:00:00Z",
+  "updated": "2026-10-15T10:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-14T16:00Z",
+      "time_utc": "2026-10-14T18:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 1.0 (1Z) at 16 UTC on 14 October 2026.",
-        "zh": "2026 年 10 月 14 日 16 UTC，估算行星 Kp 為 1.0（1Z）。"
+        "en": "Estimated planetary Kp is 0.0 (0Z) at 18 UTC on 14 October 2026.",
+        "zh": "2026 年 10 月 14 日 18 UTC，估算行星 Kp 為 0.0（0Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 1.0 (1Z) at 2026-10-14T16:00:00 on 14 October 2026. The 16 hour is complete (60 samples through 16:59; hour-start 1.0/1Z, hour-end 2.0/2Z). Last-180 maximum is 2.0. Published-window maximum is 2.0. Window starts 2026-10-14T12:00:00 (358 samples). Next hour 17:00 incomplete (58 samples).",
-        "zh": "最新可靠整點初值：2026-10-14T16:00:00 估算 Kp 1.0（1Z）。16 時段已收滿（60 筆至 16:59；時段初 1.0／1Z、時段末 2.0／2Z）。last-180 最大 2.0。公開窗最大 2.0。窗起點 2026-10-14T12:00:00（358 筆）。下一整點 17:00 未滿（58 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-14T18:00:00 on 14 October 2026. The 18 hour is complete (60 samples through 18:59; hour-start 0.0/0Z, hour-end 2.67/3M). Last-180 maximum is 2.67. Published-window maximum is 2.67. Window starts 2026-10-14T14:00:00 (358 samples). Next hour 19:00 incomplete (58 samples).",
+        "zh": "最新可靠整點初值：2026-10-14T18:00:00 估算 Kp 0.0（0Z）。18 時段已收滿（60 筆至 18:59；時段初 0.0／0Z、時段末 2.67／3M）。last-180 最大 2.67。公開窗最大 2.67。窗起點 2026-10-14T14:00:00（358 筆）。下一整點 19:00 未滿（58 筆）。"
       },
       "data": {
-        "estimated_kp": 1.0,
-        "kp": "1Z",
+        "estimated_kp": 0.0,
+        "kp": "0Z",
         "hour_complete": true,
-        "hour_start_kp": 1.0,
-        "hour_end_kp": 2.0,
-        "last180_max": 2.0,
-        "window_max": 2.0,
-        "window_start": "2026-10-14T12:00:00",
+        "hour_start_kp": 0.0,
+        "hour_end_kp": 2.67,
+        "last180_max": 2.67,
+        "window_max": 2.67,
+        "window_start": "2026-10-14T14:00:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
         "next_hour_count": 58
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-14T18:00:00Z"
+        "fetched_at": "2026-10-15T10:00:00Z"
       }
     },
     {
@@ -41,19 +41,18 @@
         "zh": "M 5.9 - Fiji region"
       },
       "summary": {
-        "en": "M 5.9 at Fiji region.",
-        "zh": "M 5.9 位於 Fiji region。"
+        "en": "Magnitude 5.9 earthquake Fiji region.",
+        "zh": "規模 5.9 地震，位置：Fiji region。"
       },
       "data": {
         "mag": 5.9,
         "place": "Fiji region",
-        "depth": 585.07,
-        "lat": -20.9899,
-        "lon": -178.7711
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u28y",
+        "depth": 585.07
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T18:00:00Z"
+        "fetched_at": "2026-10-15T10:00:00Z"
       }
     },
     {
@@ -65,19 +64,18 @@
         "zh": "M 4.6 - 42 km NNE of Kilimatinde, Tanzania"
       },
       "summary": {
-        "en": "M 4.6 at 42 km NNE of Kilimatinde, Tanzania.",
-        "zh": "M 4.6 位於 42 km NNE of Kilimatinde, Tanzania。"
+        "en": "Magnitude 4.6 earthquake 42 km NNE of Kilimatinde, Tanzania.",
+        "zh": "規模 4.6 地震，位置：42 km NNE of Kilimatinde, Tanzania。"
       },
       "data": {
         "mag": 4.6,
         "place": "42 km NNE of Kilimatinde, Tanzania",
-        "depth": 10,
-        "lat": -5.4767,
-        "lon": 35.0428
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u28e",
+        "depth": 10
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T18:00:00Z"
+        "fetched_at": "2026-10-15T10:00:00Z"
       }
     },
     {
@@ -89,19 +87,18 @@
         "zh": "M 4.9 - 121 km S of Kokopo, Papua New Guinea"
       },
       "summary": {
-        "en": "M 4.9 at 121 km S of Kokopo, Papua New Guinea.",
-        "zh": "M 4.9 位於 121 km S of Kokopo, Papua New Guinea。"
+        "en": "Magnitude 4.9 earthquake 121 km S of Kokopo, Papua New Guinea.",
+        "zh": "規模 4.9 地震，位置：121 km S of Kokopo, Papua New Guinea。"
       },
       "data": {
         "mag": 4.9,
         "place": "121 km S of Kokopo, Papua New Guinea",
-        "depth": 35,
-        "lat": -5.443,
-        "lon": 152.2617
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u27u",
+        "depth": 35
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T18:00:00Z"
+        "fetched_at": "2026-10-15T10:00:00Z"
       }
     },
     {
@@ -113,19 +110,18 @@
         "zh": "M 4.7 - 10 km S of La Mesa, Panama"
       },
       "summary": {
-        "en": "M 4.7 at 10 km S of La Mesa, Panama.",
-        "zh": "M 4.7 位於 10 km S of La Mesa, Panama。"
+        "en": "Magnitude 4.7 earthquake 10 km S of La Mesa, Panama.",
+        "zh": "規模 4.7 地震，位置：10 km S of La Mesa, Panama。"
       },
       "data": {
         "mag": 4.7,
         "place": "10 km S of La Mesa, Panama",
-        "depth": 10,
-        "lat": 7.5657,
-        "lon": -80.6021
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u27j",
+        "depth": 10
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T18:00:00Z"
+        "fetched_at": "2026-10-15T10:00:00Z"
       }
     },
     {
@@ -137,19 +133,18 @@
         "zh": "M 4.9 - 16 km WSW of La Tirana, Chile"
       },
       "summary": {
-        "en": "M 4.9 at 16 km WSW of La Tirana, Chile.",
-        "zh": "M 4.9 位於 16 km WSW of La Tirana, Chile。"
+        "en": "Magnitude 4.9 earthquake 16 km WSW of La Tirana, Chile.",
+        "zh": "規模 4.9 地震，位置：16 km WSW of La Tirana, Chile。"
       },
       "data": {
         "mag": 4.9,
         "place": "16 km WSW of La Tirana, Chile",
-        "depth": 44.914,
-        "lat": -20.3552,
-        "lon": -70.2699
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u272",
+        "depth": 44.914
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T18:00:00Z"
+        "fetched_at": "2026-10-15T10:00:00Z"
       }
     },
     {
@@ -161,19 +156,18 @@
         "zh": "M 4.8 - North Atlantic Ocean"
       },
       "summary": {
-        "en": "M 4.8 at North Atlantic Ocean.",
-        "zh": "M 4.8 位於 North Atlantic Ocean。"
+        "en": "Magnitude 4.8 earthquake North Atlantic Ocean.",
+        "zh": "規模 4.8 地震，位置：North Atlantic Ocean。"
       },
       "data": {
         "mag": 4.8,
         "place": "North Atlantic Ocean",
-        "depth": 10,
-        "lat": 5.0056,
-        "lon": -27.5843
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u273",
+        "depth": 10
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T18:00:00Z"
+        "fetched_at": "2026-10-15T10:00:00Z"
       }
     },
     {
@@ -185,19 +179,18 @@
         "zh": "M 4.7 - 128 km S of Kokopo, Papua New Guinea"
       },
       "summary": {
-        "en": "M 4.7 at 128 km S of Kokopo, Papua New Guinea.",
-        "zh": "M 4.7 位於 128 km S of Kokopo, Papua New Guinea。"
+        "en": "Magnitude 4.7 earthquake 128 km S of Kokopo, Papua New Guinea.",
+        "zh": "規模 4.7 地震，位置：128 km S of Kokopo, Papua New Guinea。"
       },
       "data": {
         "mag": 4.7,
         "place": "128 km S of Kokopo, Papua New Guinea",
-        "depth": 10,
-        "lat": -5.4957,
-        "lon": 152.3942
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u271",
+        "depth": 10
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T18:00:00Z"
+        "fetched_at": "2026-10-15T10:00:00Z"
       }
     },
     {
@@ -209,19 +202,18 @@
         "zh": "M 4.6 - 75 km E of Kokopo, Papua New Guinea"
       },
       "summary": {
-        "en": "M 4.6 at 75 km E of Kokopo, Papua New Guinea.",
-        "zh": "M 4.6 位於 75 km E of Kokopo, Papua New Guinea。"
+        "en": "Magnitude 4.6 earthquake 75 km E of Kokopo, Papua New Guinea.",
+        "zh": "規模 4.6 地震，位置：75 km E of Kokopo, Papua New Guinea。"
       },
       "data": {
         "mag": 4.6,
         "place": "75 km E of Kokopo, Papua New Guinea",
-        "depth": 10,
-        "lat": -4.4488,
-        "lon": 152.9436
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u26u",
+        "depth": 10
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T18:00:00Z"
+        "fetched_at": "2026-10-15T10:00:00Z"
       }
     },
     {
@@ -229,23 +221,22 @@
       "type": "earthquake",
       "time_utc": "2026-10-14T00:36:45.416Z",
       "title": {
-        "en": "M 5 - 98 km NW of Coquimbo, Chile",
-        "zh": "M 5 - 98 km NW of Coquimbo, Chile"
+        "en": "M 5.0 - 98 km NW of Coquimbo, Chile",
+        "zh": "M 5.0 - 98 km NW of Coquimbo, Chile"
       },
       "summary": {
-        "en": "M 5 at 98 km NW of Coquimbo, Chile.",
-        "zh": "M 5 位於 98 km NW of Coquimbo, Chile。"
+        "en": "Magnitude 5 earthquake 98 km NW of Coquimbo, Chile.",
+        "zh": "規模 5 地震，位置：98 km NW of Coquimbo, Chile。"
       },
       "data": {
         "mag": 5,
         "place": "98 km NW of Coquimbo, Chile",
-        "depth": 10,
-        "lat": -29.219,
-        "lon": -71.9168
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u26f",
+        "depth": 10
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T18:00:00Z"
+        "fetched_at": "2026-10-15T10:00:00Z"
       }
     },
     {
@@ -257,19 +248,18 @@
         "zh": "M 5.1 - 93 km NNW of Coquimbo, Chile"
       },
       "summary": {
-        "en": "M 5.1 at 93 km NNW of Coquimbo, Chile.",
-        "zh": "M 5.1 位於 93 km NNW of Coquimbo, Chile。"
+        "en": "Magnitude 5.1 earthquake 93 km NNW of Coquimbo, Chile.",
+        "zh": "規模 5.1 地震，位置：93 km NNW of Coquimbo, Chile。"
       },
       "data": {
         "mag": 5.1,
         "place": "93 km NNW of Coquimbo, Chile",
-        "depth": 21.947,
-        "lat": -29.2155,
-        "lon": -71.8024
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u26c",
+        "depth": 21.947
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T18:00:00Z"
+        "fetched_at": "2026-10-15T10:00:00Z"
       }
     },
     {
@@ -281,43 +271,18 @@
         "zh": "M 4.8 - 5 km NW of Cepitá, Colombia"
       },
       "summary": {
-        "en": "M 4.8 at 5 km NW of Cepitá, Colombia.",
-        "zh": "M 4.8 位於 5 km NW of Cepitá, Colombia。"
+        "en": "Magnitude 4.8 earthquake 5 km NW of Cepitá, Colombia.",
+        "zh": "規模 4.8 地震，位置：5 km NW of Cepitá, Colombia。"
       },
       "data": {
         "mag": 4.8,
         "place": "5 km NW of Cepitá, Colombia",
-        "depth": 162.209,
-        "lat": 6.7888,
-        "lon": -73.0065
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u25i",
+        "depth": 162.209
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T18:00:00Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u24c",
-      "type": "earthquake",
-      "time_utc": "2026-10-13T18:45:03.231Z",
-      "title": {
-        "en": "M 6 - 126 km S of Kokopo, Papua New Guinea",
-        "zh": "M 6 - 126 km S of Kokopo, Papua New Guinea"
-      },
-      "summary": {
-        "en": "M 6 at 126 km S of Kokopo, Papua New Guinea.",
-        "zh": "M 6 位於 126 km S of Kokopo, Papua New Guinea。"
-      },
-      "data": {
-        "mag": 6,
-        "place": "126 km S of Kokopo, Papua New Guinea",
-        "depth": 20.842,
-        "lat": -5.4832,
-        "lon": 152.1364
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T18:00:00Z"
+        "fetched_at": "2026-10-15T10:00:00Z"
       }
     }
   ]
