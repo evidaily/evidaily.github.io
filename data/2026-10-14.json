@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "updated": "2026-10-14T12:00:00Z",
+  "updated": "2026-10-14T13:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
@@ -11,25 +11,25 @@
         "zh": "2026 年 10 月 14 日 11 UTC，估算行星 Kp 為 1.33（1P）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 1.33 (1P) at 2026-10-14T11:00:00 on 14 October 2026. The 11 hour is complete (60 samples through 11:59; hour-start 1.33/1P, hour-end 2.0/2Z). Last-180 maximum is 2.33. Published-window maximum is 2.33. Window starts 2026-10-14T06:03:00 (358 samples). Next hour 12:00 incomplete (1 sample).",
-        "zh": "最新可靠整點初值：2026-10-14T11:00:00 估算 Kp 1.33（1P）。11 時段已收滿（60 筆至 11:59；時段初 1.33／1P、時段末 2.0／2Z）。last-180 最大 2.33。公開窗最大 2.33。窗起點 2026-10-14T06:03:00（358 筆）。下一整點 12:00 未滿（1 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 1.33 (1P) at 2026-10-14T11:00:00 on 14 October 2026. The 11 hour is complete (60 samples through 11:59; hour-start 1.33/1P, hour-end 2.33/2P). Last-180 maximum is 2.33. Published-window maximum is 2.33. Window starts 2026-10-14T07:00:00 (358 samples). Next hour 12:00 incomplete (58 samples).",
+        "zh": "最新可靠整點初值：2026-10-14T11:00:00 估算 Kp 1.33（1P）。11 時段已收滿（60 筆至 11:59；時段初 1.33／1P、時段末 2.33／2P）。last-180 最大 2.33。公開窗最大 2.33。窗起點 2026-10-14T07:00:00（358 筆）。下一整點 12:00 未滿（58 筆）。"
       },
       "data": {
         "estimated_kp": 1.33,
         "kp": "1P",
         "hour_complete": true,
         "hour_start_kp": 1.33,
-        "hour_end_kp": 2.0,
+        "hour_end_kp": 2.33,
         "last180_max": 2.33,
         "window_max": 2.33,
-        "window_start": "2026-10-14T06:03:00",
+        "window_start": "2026-10-14T07:00:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
-        "next_hour_count": 1
+        "next_hour_count": 58
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-14T12:00:00Z"
+        "fetched_at": "2026-10-14T13:00:00Z"
       }
     },
     {
@@ -53,8 +53,33 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T12:00:00Z",
+        "fetched_at": "2026-10-14T13:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u28y"
+      }
+    },
+    {
+      "id": "usgs-us6000u28e",
+      "type": "earthquake",
+      "time_utc": "2026-10-14T09:16:18.828Z",
+      "title": {
+        "en": "M 4.6 - 42 km NNE of Kilimatinde, Tanzania",
+        "zh": "M 4.6 - 42 km NNE of Kilimatinde, Tanzania"
+      },
+      "summary": {
+        "en": "M 4.6 at 42 km NNE of Kilimatinde, Tanzania.",
+        "zh": "M 4.6 位於 42 km NNE of Kilimatinde, Tanzania。"
+      },
+      "data": {
+        "mag": 4.6,
+        "place": "42 km NNE of Kilimatinde, Tanzania",
+        "depth": 10,
+        "lat": -5.4767,
+        "lon": 35.0428
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-14T13:00:00Z",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u28e"
       }
     },
     {
@@ -78,7 +103,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T12:00:00Z",
+        "fetched_at": "2026-10-14T13:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u27u"
       }
     },
@@ -103,7 +128,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T12:00:00Z",
+        "fetched_at": "2026-10-14T13:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u27j"
       }
     },
@@ -122,13 +147,13 @@
       "data": {
         "mag": 4.9,
         "place": "16 km WSW of La Tirana, Chile",
-        "depth": 44.91,
+        "depth": 44.914,
         "lat": -20.3552,
         "lon": -70.2699
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T12:00:00Z",
+        "fetched_at": "2026-10-14T13:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u272"
       }
     },
@@ -153,7 +178,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T12:00:00Z",
+        "fetched_at": "2026-10-14T13:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u273"
       }
     },
@@ -178,7 +203,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T12:00:00Z",
+        "fetched_at": "2026-10-14T13:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u271"
       }
     },
@@ -203,7 +228,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T12:00:00Z",
+        "fetched_at": "2026-10-14T13:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u26u"
       }
     },
@@ -228,7 +253,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T12:00:00Z",
+        "fetched_at": "2026-10-14T13:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u26f"
       }
     },
@@ -247,13 +272,13 @@
       "data": {
         "mag": 5.1,
         "place": "93 km NNW of Coquimbo, Chile",
-        "depth": 21.95,
+        "depth": 21.947,
         "lat": -29.2155,
         "lon": -71.8024
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T12:00:00Z",
+        "fetched_at": "2026-10-14T13:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u26c"
       }
     },
@@ -272,13 +297,13 @@
       "data": {
         "mag": 4.8,
         "place": "5 km NW of Cepitá, Colombia",
-        "depth": 162.21,
+        "depth": 162.209,
         "lat": 6.7888,
         "lon": -73.0065
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T12:00:00Z",
+        "fetched_at": "2026-10-14T13:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u25i"
       }
     },
@@ -297,13 +322,13 @@
       "data": {
         "mag": 6,
         "place": "126 km S of Kokopo, Papua New Guinea",
-        "depth": 20.84,
+        "depth": 20.842,
         "lat": -5.4832,
         "lon": 152.1364
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T12:00:00Z",
+        "fetched_at": "2026-10-14T13:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u24c"
       }
     },
@@ -328,7 +353,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T12:00:00Z",
+        "fetched_at": "2026-10-14T13:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u23d"
       }
     },
@@ -347,13 +372,13 @@
       "data": {
         "mag": 4.8,
         "place": "8 km SE of Sarangani, Philippines",
-        "depth": 65.7,
+        "depth": 65.699,
         "lat": 5.3478,
         "lon": 125.5183
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T12:00:00Z",
+        "fetched_at": "2026-10-14T13:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u21y"
       }
     },
@@ -372,89 +397,14 @@
       "data": {
         "mag": 5.3,
         "place": "122 km S of Kokopo, Papua New Guinea",
-        "depth": 18.52,
+        "depth": 18.521,
         "lat": -5.4448,
         "lon": 152.1255
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T12:00:00Z",
+        "fetched_at": "2026-10-14T13:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u21s"
-      }
-    },
-    {
-      "id": "usgs-us6000u21d",
-      "type": "earthquake",
-      "time_utc": "2026-10-13T12:51:32.169Z",
-      "title": {
-        "en": "M 4.5 - 26 km SSW of Zapotillo, Panama",
-        "zh": "M 4.5 - 26 km SSW of Zapotillo, Panama"
-      },
-      "summary": {
-        "en": "M 4.5 at 26 km SSW of Zapotillo, Panama.",
-        "zh": "M 4.5 位於 26 km SSW of Zapotillo, Panama。"
-      },
-      "data": {
-        "mag": 4.5,
-        "place": "26 km SSW of Zapotillo, Panama",
-        "depth": 10,
-        "lat": 7.7902,
-        "lon": -81.6085
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T12:00:00Z",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u21d"
-      }
-    },
-    {
-      "id": "usgs-us6000u214",
-      "type": "earthquake",
-      "time_utc": "2026-10-13T12:23:07.248Z",
-      "title": {
-        "en": "M 6.8 - central Mid-Atlantic Ridge",
-        "zh": "M 6.8 - central Mid-Atlantic Ridge"
-      },
-      "summary": {
-        "en": "M 6.8 at central Mid-Atlantic Ridge.",
-        "zh": "M 6.8 位於 central Mid-Atlantic Ridge。"
-      },
-      "data": {
-        "mag": 6.8,
-        "place": "central Mid-Atlantic Ridge",
-        "depth": 10,
-        "lat": -0.4085,
-        "lon": -19.4308
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T12:00:00Z",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u214"
-      }
-    },
-    {
-      "id": "usgs-us6000u20z",
-      "type": "earthquake",
-      "time_utc": "2026-10-13T12:05:41.519Z",
-      "title": {
-        "en": "M 4.9 - 180 km SE of Vilyuchinsk, Russia",
-        "zh": "M 4.9 - 180 km SE of Vilyuchinsk, Russia"
-      },
-      "summary": {
-        "en": "M 4.9 at 180 km SE of Vilyuchinsk, Russia.",
-        "zh": "M 4.9 位於 180 km SE of Vilyuchinsk, Russia。"
-      },
-      "data": {
-        "mag": 4.9,
-        "place": "180 km SE of Vilyuchinsk, Russia",
-        "depth": 10,
-        "lat": 51.6162,
-        "lon": 159.9496
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T12:00:00Z",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u20z"
       }
     }
   ]
