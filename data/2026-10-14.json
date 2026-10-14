@@ -1,35 +1,35 @@
 {
   "date": "2026-10-14",
-  "updated": "2026-10-14T05:00:00Z",
+  "updated": "2026-10-14T06:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-14T03:00Z",
+      "time_utc": "2026-10-14T04:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.0 (0Z) at 03 UTC on 14 October 2026.",
-        "zh": "2026 年 10 月 14 日 03 UTC，估算行星 Kp 為 0.0（0Z）。"
+        "en": "Estimated planetary Kp is 3.0 (3Z) at 04 UTC on 14 October 2026.",
+        "zh": "2026 年 10 月 14 日 04 UTC，估算行星 Kp 為 3.0（3Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-14T03:00:00 on 14 October 2026. The 03 hour is complete (60 samples through 03:59; hour-start 0.0/0Z, hour-end 3.0/3Z). Last-180 maximum is 3.33. Published-window maximum is 3.33. Window starts 2026-10-13T23:01:00 (358 samples). Next hour 04:00 incomplete (59 samples).",
-        "zh": "最新可靠整點初值：2026-10-14T03:00:00 估算 Kp 0.0（0Z）。03 時段已收滿（60 筆至 03:59；時段初 0.0／0Z、時段末 3.0／3Z）。last-180 最大 3.33。公開窗最大 3.33。窗起點 2026-10-13T23:01:00（358 筆）。下一整點 04:00 未滿（59 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 3.0 (3Z) at 2026-10-14T04:00:00 on 14 October 2026. The 04 hour is complete (60 samples through 04:59; hour-start 3.0/3Z, hour-end 3.33/3P). Last-180 maximum is 3.33. Published-window maximum is 3.33. Window starts 2026-10-14T00:01:00 (358 samples). Next hour 05:00 incomplete (59 samples).",
+        "zh": "最新可靠整點初值：2026-10-14T04:00:00 估算 Kp 3.0（3Z）。04 時段已收滿（60 筆至 04:59；時段初 3.0／3Z、時段末 3.33／3P）。last-180 最大 3.33。公開窗最大 3.33。窗起點 2026-10-14T00:01:00（358 筆）。下一整點 05:00 未滿（59 筆）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp": "0Z",
+        "estimated_kp": 3.0,
+        "kp": "3Z",
         "hour_complete": true,
-        "hour_start_kp": 0.0,
-        "hour_end_kp": 3.0,
+        "hour_start_kp": 3.0,
+        "hour_end_kp": 3.33,
         "last180_max": 3.33,
         "window_max": 3.33,
-        "window_start": "2026-10-13T23:01:00",
+        "window_start": "2026-10-14T00:01:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
         "next_hour_count": 59
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-14T05:00:00Z"
+        "fetched_at": "2026-10-14T06:00:00Z"
       }
     },
     {
@@ -53,7 +53,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T05:00:00Z",
+        "fetched_at": "2026-10-14T06:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u272"
       }
     },
@@ -78,7 +78,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T05:00:00Z",
+        "fetched_at": "2026-10-14T06:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u273"
       }
     },
@@ -103,7 +103,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T05:00:00Z",
+        "fetched_at": "2026-10-14T06:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u271"
       }
     },
@@ -128,7 +128,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T05:00:00Z",
+        "fetched_at": "2026-10-14T06:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u26u"
       }
     },
@@ -153,7 +153,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T05:00:00Z",
+        "fetched_at": "2026-10-14T06:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u26f"
       }
     },
@@ -178,7 +178,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T05:00:00Z",
+        "fetched_at": "2026-10-14T06:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u26c"
       }
     },
@@ -203,7 +203,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T05:00:00Z",
+        "fetched_at": "2026-10-14T06:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u25i"
       }
     },
@@ -228,7 +228,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T05:00:00Z",
+        "fetched_at": "2026-10-14T06:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u24c"
       }
     },
@@ -253,7 +253,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T05:00:00Z",
+        "fetched_at": "2026-10-14T06:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u23d"
       }
     },
@@ -278,7 +278,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T05:00:00Z",
+        "fetched_at": "2026-10-14T06:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u21y"
       }
     },
@@ -303,7 +303,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T05:00:00Z",
+        "fetched_at": "2026-10-14T06:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u21s"
       }
     },
@@ -328,7 +328,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T05:00:00Z",
+        "fetched_at": "2026-10-14T06:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u21d"
       }
     },
@@ -353,7 +353,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T05:00:00Z",
+        "fetched_at": "2026-10-14T06:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u214"
       }
     },
@@ -378,7 +378,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T05:00:00Z",
+        "fetched_at": "2026-10-14T06:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u20z"
       }
     },
@@ -403,7 +403,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T05:00:00Z",
+        "fetched_at": "2026-10-14T06:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u20i"
       }
     },
@@ -428,7 +428,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T05:00:00Z",
+        "fetched_at": "2026-10-14T06:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u20g"
       }
     },
@@ -453,7 +453,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T05:00:00Z",
+        "fetched_at": "2026-10-14T06:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u207"
       }
     },
@@ -478,7 +478,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T05:00:00Z",
+        "fetched_at": "2026-10-14T06:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u200"
       }
     },
@@ -503,7 +503,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T05:00:00Z",
+        "fetched_at": "2026-10-14T06:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1zh"
       }
     },
@@ -528,7 +528,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T05:00:00Z",
+        "fetched_at": "2026-10-14T06:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1zc"
       }
     },
@@ -553,7 +553,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T05:00:00Z",
+        "fetched_at": "2026-10-14T06:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1z5"
       }
     }
