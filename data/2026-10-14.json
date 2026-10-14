@@ -1,35 +1,35 @@
 {
   "date": "2026-10-14",
-  "updated": "2026-10-14T01:00:00Z",
+  "updated": "2026-10-14T02:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-13T23:00Z",
+      "time_utc": "2026-10-14T00:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 1.0 (1Z) at 23 UTC on 13 October 2026.",
-        "zh": "2026 年 10 月 13 日 23 UTC，估算行星 Kp 為 1.0（1Z）。"
+        "en": "Estimated planetary Kp is 0.0 (0Z) at 00 UTC on 14 October 2026.",
+        "zh": "2026 年 10 月 14 日 00 UTC，估算行星 Kp 為 0.0（0Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 1.0 (1Z) at 2026-10-13T23:00:00 on 13 October 2026. The 23 hour is complete (60 samples through 23:59; hour-start 1.0/1Z, hour-end 1.33/1P). Last-180 maximum is 1.33. Published-window maximum is 3.0. Window starts 2026-10-13T19:00:00 (358 samples). Next hour 00:00 incomplete (58 samples).",
-        "zh": "最新可靠整點初值：2026-10-13T23:00:00 估算 Kp 1.0（1Z）。23 時段已收滿（60 筆至 23:59；時段初 1.0／1Z、時段末 1.33／1P）。last-180 最大 1.33。公開窗最大 3.0。窗起點 2026-10-13T19:00:00（358 筆）。下一整點 00:00 未滿（58 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-14T00:00:00 on 14 October 2026. The 00 hour is complete (60 samples through 00:59; hour-start 0.0/0Z, hour-end 1.67/2M). Last-180 maximum is 2.0. Published-window maximum is 3.0. Window starts 2026-10-13T20:00:00 (358 samples). Next hour 01:00 incomplete (58 samples).",
+        "zh": "最新可靠整點初值：2026-10-14T00:00:00 估算 Kp 0.0（0Z）。00 時段已收滿（60 筆至 00:59；時段初 0.0／0Z、時段末 1.67／2M）。last-180 最大 2.0。公開窗最大 3.0。窗起點 2026-10-13T20:00:00（358 筆）。下一整點 01:00 未滿（58 筆）。"
       },
       "data": {
-        "estimated_kp": 1.0,
-        "kp": "1Z",
+        "estimated_kp": 0.0,
+        "kp": "0Z",
         "hour_complete": true,
-        "hour_start_kp": 1.0,
-        "hour_end_kp": 1.33,
-        "last180_max": 1.33,
+        "hour_start_kp": 0.0,
+        "hour_end_kp": 1.67,
+        "last180_max": 2.0,
         "window_max": 3.0,
-        "window_start": "2026-10-13T19:00:00",
+        "window_start": "2026-10-13T20:00:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
         "next_hour_count": 58
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-14T01:00:00Z"
+        "fetched_at": "2026-10-14T02:00:00Z"
       }
     },
     {
@@ -41,8 +41,8 @@
         "zh": "M 5 - 95 km NNW of Coquimbo, Chile"
       },
       "summary": {
-        "en": "M 5 earthquake 95 km NNW of Coquimbo, Chile at 2026-10-14T00:36 UTC.",
-        "zh": "M 5 地震，95 km NNW of Coquimbo, Chile，時間 2026-10-14T00:36 UTC。"
+        "en": "M 5 earthquake 95 km NNW of Coquimbo, Chile at 2026-10-14 00:36 UTC.",
+        "zh": "M 5 地震，95 km NNW of Coquimbo, Chile，於 2026-10-14 00:36 UTC。"
       },
       "data": {
         "magnitude": 5,
@@ -51,7 +51,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T01:00:00Z"
+        "fetched_at": "2026-10-14T02:00:00Z"
       }
     },
     {
@@ -63,8 +63,8 @@
         "zh": "M 5.1 - 92 km NW of La Serena, Chile"
       },
       "summary": {
-        "en": "M 5.1 earthquake 92 km NW of La Serena, Chile at 2026-10-14T00:30 UTC.",
-        "zh": "M 5.1 地震，92 km NW of La Serena, Chile，時間 2026-10-14T00:30 UTC。"
+        "en": "M 5.1 earthquake 92 km NW of La Serena, Chile at 2026-10-14 00:30 UTC.",
+        "zh": "M 5.1 地震，92 km NW of La Serena, Chile，於 2026-10-14 00:30 UTC。"
       },
       "data": {
         "magnitude": 5.1,
@@ -73,7 +73,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T01:00:00Z"
+        "fetched_at": "2026-10-14T02:00:00Z"
       }
     },
     {
@@ -85,8 +85,8 @@
         "zh": "M 4.8 - 5 km NW of Cepitá, Colombia"
       },
       "summary": {
-        "en": "M 4.8 earthquake 5 km NW of Cepitá, Colombia at 2026-10-13T21:24 UTC.",
-        "zh": "M 4.8 地震，5 km NW of Cepitá, Colombia，時間 2026-10-13T21:24 UTC。"
+        "en": "M 4.8 earthquake 5 km NW of Cepitá, Colombia at 2026-10-13 21:24 UTC.",
+        "zh": "M 4.8 地震，5 km NW of Cepitá, Colombia，於 2026-10-13 21:24 UTC。"
       },
       "data": {
         "magnitude": 4.8,
@@ -95,7 +95,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T01:00:00Z"
+        "fetched_at": "2026-10-14T02:00:00Z"
       }
     },
     {
@@ -107,8 +107,8 @@
         "zh": "M 6 - 126 km S of Kokopo, Papua New Guinea"
       },
       "summary": {
-        "en": "M 6 earthquake 126 km S of Kokopo, Papua New Guinea at 2026-10-13T18:45 UTC.",
-        "zh": "M 6 地震，126 km S of Kokopo, Papua New Guinea，時間 2026-10-13T18:45 UTC。"
+        "en": "M 6 earthquake 126 km S of Kokopo, Papua New Guinea at 2026-10-13 18:45 UTC.",
+        "zh": "M 6 地震，126 km S of Kokopo, Papua New Guinea，於 2026-10-13 18:45 UTC。"
       },
       "data": {
         "magnitude": 6,
@@ -117,7 +117,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T01:00:00Z"
+        "fetched_at": "2026-10-14T02:00:00Z"
       }
     },
     {
@@ -129,8 +129,8 @@
         "zh": "M 5.1 - 119 km S of Kokopo, Papua New Guinea"
       },
       "summary": {
-        "en": "M 5.1 earthquake 119 km S of Kokopo, Papua New Guinea at 2026-10-13T16:28 UTC.",
-        "zh": "M 5.1 地震，119 km S of Kokopo, Papua New Guinea，時間 2026-10-13T16:28 UTC。"
+        "en": "M 5.1 earthquake 119 km S of Kokopo, Papua New Guinea at 2026-10-13 16:28 UTC.",
+        "zh": "M 5.1 地震，119 km S of Kokopo, Papua New Guinea，於 2026-10-13 16:28 UTC。"
       },
       "data": {
         "magnitude": 5.1,
@@ -139,7 +139,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T01:00:00Z"
+        "fetched_at": "2026-10-14T02:00:00Z"
       }
     },
     {
@@ -151,8 +151,8 @@
         "zh": "M 4.8 - 8 km SE of Sarangani, Philippines"
       },
       "summary": {
-        "en": "M 4.8 earthquake 8 km SE of Sarangani, Philippines at 2026-10-13T15:21 UTC.",
-        "zh": "M 4.8 地震，8 km SE of Sarangani, Philippines，時間 2026-10-13T15:21 UTC。"
+        "en": "M 4.8 earthquake 8 km SE of Sarangani, Philippines at 2026-10-13 15:21 UTC.",
+        "zh": "M 4.8 地震，8 km SE of Sarangani, Philippines，於 2026-10-13 15:21 UTC。"
       },
       "data": {
         "magnitude": 4.8,
@@ -161,7 +161,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T01:00:00Z"
+        "fetched_at": "2026-10-14T02:00:00Z"
       }
     },
     {
@@ -173,8 +173,8 @@
         "zh": "M 5.3 - 122 km S of Kokopo, Papua New Guinea"
       },
       "summary": {
-        "en": "M 5.3 earthquake 122 km S of Kokopo, Papua New Guinea at 2026-10-13T14:36 UTC.",
-        "zh": "M 5.3 地震，122 km S of Kokopo, Papua New Guinea，時間 2026-10-13T14:36 UTC。"
+        "en": "M 5.3 earthquake 122 km S of Kokopo, Papua New Guinea at 2026-10-13 14:36 UTC.",
+        "zh": "M 5.3 地震，122 km S of Kokopo, Papua New Guinea，於 2026-10-13 14:36 UTC。"
       },
       "data": {
         "magnitude": 5.3,
@@ -183,7 +183,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T01:00:00Z"
+        "fetched_at": "2026-10-14T02:00:00Z"
       }
     },
     {
@@ -195,8 +195,8 @@
         "zh": "M 4.5 - 26 km SSW of Zapotillo, Panama"
       },
       "summary": {
-        "en": "M 4.5 earthquake 26 km SSW of Zapotillo, Panama at 2026-10-13T12:51 UTC.",
-        "zh": "M 4.5 地震，26 km SSW of Zapotillo, Panama，時間 2026-10-13T12:51 UTC。"
+        "en": "M 4.5 earthquake 26 km SSW of Zapotillo, Panama at 2026-10-13 12:51 UTC.",
+        "zh": "M 4.5 地震，26 km SSW of Zapotillo, Panama，於 2026-10-13 12:51 UTC。"
       },
       "data": {
         "magnitude": 4.5,
@@ -205,7 +205,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T01:00:00Z"
+        "fetched_at": "2026-10-14T02:00:00Z"
       }
     },
     {
@@ -217,8 +217,8 @@
         "zh": "M 6.8 - central Mid-Atlantic Ridge"
       },
       "summary": {
-        "en": "M 6.8 earthquake central Mid-Atlantic Ridge at 2026-10-13T12:23 UTC.",
-        "zh": "M 6.8 地震，central Mid-Atlantic Ridge，時間 2026-10-13T12:23 UTC。"
+        "en": "M 6.8 earthquake central Mid-Atlantic Ridge at 2026-10-13 12:23 UTC.",
+        "zh": "M 6.8 地震，central Mid-Atlantic Ridge，於 2026-10-13 12:23 UTC。"
       },
       "data": {
         "magnitude": 6.8,
@@ -227,7 +227,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T01:00:00Z"
+        "fetched_at": "2026-10-14T02:00:00Z"
       }
     },
     {
@@ -239,8 +239,8 @@
         "zh": "M 4.9 - 180 km SE of Vilyuchinsk, Russia"
       },
       "summary": {
-        "en": "M 4.9 earthquake 180 km SE of Vilyuchinsk, Russia at 2026-10-13T12:05 UTC.",
-        "zh": "M 4.9 地震，180 km SE of Vilyuchinsk, Russia，時間 2026-10-13T12:05 UTC。"
+        "en": "M 4.9 earthquake 180 km SE of Vilyuchinsk, Russia at 2026-10-13 12:05 UTC.",
+        "zh": "M 4.9 地震，180 km SE of Vilyuchinsk, Russia，於 2026-10-13 12:05 UTC。"
       },
       "data": {
         "magnitude": 4.9,
@@ -249,7 +249,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T01:00:00Z"
+        "fetched_at": "2026-10-14T02:00:00Z"
       }
     },
     {
@@ -261,8 +261,8 @@
         "zh": "M 4.5 - 71 km SW of Tambolaka, Indonesia"
       },
       "summary": {
-        "en": "M 4.5 earthquake 71 km SW of Tambolaka, Indonesia at 2026-10-13T09:48 UTC.",
-        "zh": "M 4.5 地震，71 km SW of Tambolaka, Indonesia，時間 2026-10-13T09:48 UTC。"
+        "en": "M 4.5 earthquake 71 km SW of Tambolaka, Indonesia at 2026-10-13 09:48 UTC.",
+        "zh": "M 4.5 地震，71 km SW of Tambolaka, Indonesia，於 2026-10-13 09:48 UTC。"
       },
       "data": {
         "magnitude": 4.5,
@@ -271,7 +271,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T01:00:00Z"
+        "fetched_at": "2026-10-14T02:00:00Z"
       }
     },
     {
@@ -283,8 +283,8 @@
         "zh": "M 4.7 - 9 km NE of Boshkengash, Tajikistan"
       },
       "summary": {
-        "en": "M 4.7 earthquake 9 km NE of Boshkengash, Tajikistan at 2026-10-13T09:41 UTC.",
-        "zh": "M 4.7 地震，9 km NE of Boshkengash, Tajikistan，時間 2026-10-13T09:41 UTC。"
+        "en": "M 4.7 earthquake 9 km NE of Boshkengash, Tajikistan at 2026-10-13 09:41 UTC.",
+        "zh": "M 4.7 地震，9 km NE of Boshkengash, Tajikistan，於 2026-10-13 09:41 UTC。"
       },
       "data": {
         "magnitude": 4.7,
@@ -293,7 +293,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T01:00:00Z"
+        "fetched_at": "2026-10-14T02:00:00Z"
       }
     },
     {
@@ -305,8 +305,8 @@
         "zh": "M 5.3 - southern Mid-Atlantic Ridge"
       },
       "summary": {
-        "en": "M 5.3 earthquake southern Mid-Atlantic Ridge at 2026-10-13T08:38 UTC.",
-        "zh": "M 5.3 地震，southern Mid-Atlantic Ridge，時間 2026-10-13T08:38 UTC。"
+        "en": "M 5.3 earthquake southern Mid-Atlantic Ridge at 2026-10-13 08:38 UTC.",
+        "zh": "M 5.3 地震，southern Mid-Atlantic Ridge，於 2026-10-13 08:38 UTC。"
       },
       "data": {
         "magnitude": 5.3,
@@ -315,7 +315,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T01:00:00Z"
+        "fetched_at": "2026-10-14T02:00:00Z"
       }
     },
     {
@@ -327,8 +327,8 @@
         "zh": "M 4.6 - 63 km W of Bayan Hot, China"
       },
       "summary": {
-        "en": "M 4.6 earthquake 63 km W of Bayan Hot, China at 2026-10-13T08:15 UTC.",
-        "zh": "M 4.6 地震，63 km W of Bayan Hot, China，時間 2026-10-13T08:15 UTC。"
+        "en": "M 4.6 earthquake 63 km W of Bayan Hot, China at 2026-10-13 08:15 UTC.",
+        "zh": "M 4.6 地震，63 km W of Bayan Hot, China，於 2026-10-13 08:15 UTC。"
       },
       "data": {
         "magnitude": 4.6,
@@ -337,7 +337,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T01:00:00Z"
+        "fetched_at": "2026-10-14T02:00:00Z"
       }
     },
     {
@@ -349,8 +349,8 @@
         "zh": "M 4.7 - 14 km WNW of Río Grande, Panama"
       },
       "summary": {
-        "en": "M 4.7 earthquake 14 km WNW of Río Grande, Panama at 2026-10-13T06:39 UTC.",
-        "zh": "M 4.7 地震，14 km WNW of Río Grande, Panama，時間 2026-10-13T06:39 UTC。"
+        "en": "M 4.7 earthquake 14 km WNW of Río Grande, Panama at 2026-10-13 06:39 UTC.",
+        "zh": "M 4.7 地震，14 km WNW of Río Grande, Panama，於 2026-10-13 06:39 UTC。"
       },
       "data": {
         "magnitude": 4.7,
@@ -359,7 +359,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T01:00:00Z"
+        "fetched_at": "2026-10-14T02:00:00Z"
       }
     },
     {
@@ -371,8 +371,8 @@
         "zh": "M 4.7 - 124 km N of Pagudpud, Philippines"
       },
       "summary": {
-        "en": "M 4.7 earthquake 124 km N of Pagudpud, Philippines at 2026-10-13T06:01 UTC.",
-        "zh": "M 4.7 地震，124 km N of Pagudpud, Philippines，時間 2026-10-13T06:01 UTC。"
+        "en": "M 4.7 earthquake 124 km N of Pagudpud, Philippines at 2026-10-13 06:01 UTC.",
+        "zh": "M 4.7 地震，124 km N of Pagudpud, Philippines，於 2026-10-13 06:01 UTC。"
       },
       "data": {
         "magnitude": 4.7,
@@ -381,7 +381,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T01:00:00Z"
+        "fetched_at": "2026-10-14T02:00:00Z"
       }
     },
     {
@@ -393,8 +393,8 @@
         "zh": "M 6.7 - central Mid-Atlantic Ridge"
       },
       "summary": {
-        "en": "M 6.7 earthquake central Mid-Atlantic Ridge at 2026-10-13T05:44 UTC.",
-        "zh": "M 6.7 地震，central Mid-Atlantic Ridge，時間 2026-10-13T05:44 UTC。"
+        "en": "M 6.7 earthquake central Mid-Atlantic Ridge at 2026-10-13 05:44 UTC.",
+        "zh": "M 6.7 地震，central Mid-Atlantic Ridge，於 2026-10-13 05:44 UTC。"
       },
       "data": {
         "magnitude": 6.7,
@@ -403,7 +403,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T01:00:00Z"
+        "fetched_at": "2026-10-14T02:00:00Z"
       }
     },
     {
@@ -415,8 +415,8 @@
         "zh": "M 5.1 - 119 km SSW of Gambiran Satu, Indonesia"
       },
       "summary": {
-        "en": "M 5.1 earthquake 119 km SSW of Gambiran Satu, Indonesia at 2026-10-13T04:00 UTC.",
-        "zh": "M 5.1 地震，119 km SSW of Gambiran Satu, Indonesia，時間 2026-10-13T04:00 UTC。"
+        "en": "M 5.1 earthquake 119 km SSW of Gambiran Satu, Indonesia at 2026-10-13 04:00 UTC.",
+        "zh": "M 5.1 地震，119 km SSW of Gambiran Satu, Indonesia，於 2026-10-13 04:00 UTC。"
       },
       "data": {
         "magnitude": 5.1,
@@ -425,7 +425,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T01:00:00Z"
+        "fetched_at": "2026-10-14T02:00:00Z"
       }
     },
     {
@@ -437,8 +437,8 @@
         "zh": "M 4.7 - 9 km SSE of La Mesa, Panama"
       },
       "summary": {
-        "en": "M 4.7 earthquake 9 km SSE of La Mesa, Panama at 2026-10-13T02:48 UTC.",
-        "zh": "M 4.7 地震，9 km SSE of La Mesa, Panama，時間 2026-10-13T02:48 UTC。"
+        "en": "M 4.7 earthquake 9 km SSE of La Mesa, Panama at 2026-10-13 02:48 UTC.",
+        "zh": "M 4.7 地震，9 km SSE of La Mesa, Panama，於 2026-10-13 02:48 UTC。"
       },
       "data": {
         "magnitude": 4.7,
@@ -447,7 +447,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T01:00:00Z"
+        "fetched_at": "2026-10-14T02:00:00Z"
       }
     },
     {
@@ -459,8 +459,8 @@
         "zh": "M 4.5 - South Sandwich Islands region"
       },
       "summary": {
-        "en": "M 4.5 earthquake South Sandwich Islands region at 2026-10-13T02:16 UTC.",
-        "zh": "M 4.5 地震，South Sandwich Islands region，時間 2026-10-13T02:16 UTC。"
+        "en": "M 4.5 earthquake South Sandwich Islands region at 2026-10-13 02:16 UTC.",
+        "zh": "M 4.5 地震，South Sandwich Islands region，於 2026-10-13 02:16 UTC。"
       },
       "data": {
         "magnitude": 4.5,
@@ -469,7 +469,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T01:00:00Z"
+        "fetched_at": "2026-10-14T02:00:00Z"
       }
     }
   ]
