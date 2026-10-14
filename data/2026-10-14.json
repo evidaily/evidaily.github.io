@@ -1,35 +1,35 @@
 {
   "date": "2026-10-14",
-  "updated": "2026-10-14T08:00:00Z",
+  "updated": "2026-10-14T09:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-14T06:00Z",
+      "time_utc": "2026-10-14T07:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (0Z) at 06 UTC on 14 October 2026.",
-        "zh": "2026 年 10 月 14 日 06 UTC，估算行星 Kp 為 0.00（0Z）。"
+        "en": "Estimated planetary Kp is 1.00 (1Z) at 07 UTC on 14 October 2026.",
+        "zh": "2026 年 10 月 14 日 07 UTC，估算行星 Kp 為 1.00（1Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 2026-10-14T06:00:00 on 14 October 2026. The 06 hour is complete (60 samples through 06:59; hour-start 0.00/0Z, hour-end 1.00/1Z). Last-180 maximum is 3.33. Published-window maximum is 3.33. Window starts 2026-10-14T02:01:00 (358 samples). Next hour 07:00 incomplete (59 samples).",
-        "zh": "最新可靠整點初值：2026-10-14T06:00:00 估算 Kp 0.00（0Z）。06 時段已收滿（60 筆至 06:59；時段初 0.00／0Z、時段末 1.00／1Z）。last-180 最大 3.33。公開窗最大 3.33。窗起點 2026-10-14T02:01:00（358 筆）。下一整點 07:00 未滿（59 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 1.00 (1Z) at 2026-10-14T07:00:00 on 14 October 2026. The 07 hour is complete (60 samples through 07:59; hour-start 1.00/1Z, hour-end 1.33/1P). Last-180 maximum is 3.33. Published-window maximum is 3.33. Window starts 2026-10-14T03:01:00 (358 samples). Next hour 08:00 incomplete (59 samples).",
+        "zh": "最新可靠整點初值：2026-10-14T07:00:00 估算 Kp 1.00（1Z）。07 時段已收滿（60 筆至 07:59；時段初 1.00／1Z、時段末 1.33／1P）。last-180 最大 3.33。公開窗最大 3.33。窗起點 2026-10-14T03:01:00（358 筆）。下一整點 08:00 未滿（59 筆）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp": "0Z",
+        "estimated_kp": 1.0,
+        "kp": "1Z",
         "hour_complete": true,
-        "hour_start_kp": 0.0,
-        "hour_end_kp": 1.0,
+        "hour_start_kp": 1.0,
+        "hour_end_kp": 1.33,
         "last180_max": 3.33,
         "window_max": 3.33,
-        "window_start": "2026-10-14T02:01:00",
+        "window_start": "2026-10-14T03:01:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
         "next_hour_count": 59
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-14T08:00:00Z"
+        "fetched_at": "2026-10-14T09:00:00Z"
       }
     },
     {
@@ -53,7 +53,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T08:00:00Z",
+        "fetched_at": "2026-10-14T09:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u27u"
       }
     },
@@ -78,7 +78,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T08:00:00Z",
+        "fetched_at": "2026-10-14T09:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u27j"
       }
     },
@@ -103,7 +103,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T08:00:00Z",
+        "fetched_at": "2026-10-14T09:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u272"
       }
     },
@@ -128,7 +128,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T08:00:00Z",
+        "fetched_at": "2026-10-14T09:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u273"
       }
     },
@@ -153,7 +153,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T08:00:00Z",
+        "fetched_at": "2026-10-14T09:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u271"
       }
     },
@@ -178,7 +178,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T08:00:00Z",
+        "fetched_at": "2026-10-14T09:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u26u"
       }
     },
@@ -203,7 +203,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T08:00:00Z",
+        "fetched_at": "2026-10-14T09:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u26f"
       }
     },
@@ -228,7 +228,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T08:00:00Z",
+        "fetched_at": "2026-10-14T09:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u26c"
       }
     },
@@ -253,7 +253,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T08:00:00Z",
+        "fetched_at": "2026-10-14T09:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u25i"
       }
     },
@@ -278,7 +278,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T08:00:00Z",
+        "fetched_at": "2026-10-14T09:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u24c"
       }
     },
@@ -303,7 +303,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T08:00:00Z",
+        "fetched_at": "2026-10-14T09:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u23d"
       }
     },
@@ -328,7 +328,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T08:00:00Z",
+        "fetched_at": "2026-10-14T09:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u21y"
       }
     },
@@ -353,7 +353,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T08:00:00Z",
+        "fetched_at": "2026-10-14T09:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u21s"
       }
     },
@@ -378,7 +378,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T08:00:00Z",
+        "fetched_at": "2026-10-14T09:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u21d"
       }
     },
@@ -403,7 +403,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T08:00:00Z",
+        "fetched_at": "2026-10-14T09:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u214"
       }
     },
@@ -428,7 +428,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T08:00:00Z",
+        "fetched_at": "2026-10-14T09:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u20z"
       }
     },
@@ -453,7 +453,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T08:00:00Z",
+        "fetched_at": "2026-10-14T09:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u20i"
       }
     },
@@ -478,58 +478,8 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T08:00:00Z",
+        "fetched_at": "2026-10-14T09:00:00Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u20g"
-      }
-    },
-    {
-      "id": "usgs-us6000u207",
-      "type": "earthquake",
-      "time_utc": "2026-10-13T08:38:28.325Z",
-      "title": {
-        "en": "M 5.3 - southern Mid-Atlantic Ridge",
-        "zh": "M 5.3 - southern Mid-Atlantic Ridge"
-      },
-      "summary": {
-        "en": "M 5.3 at southern Mid-Atlantic Ridge.",
-        "zh": "M 5.3 位於 southern Mid-Atlantic Ridge。"
-      },
-      "data": {
-        "mag": 5.3,
-        "place": "southern Mid-Atlantic Ridge",
-        "depth": 10,
-        "lat": -28.556,
-        "lon": -12.5205
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T08:00:00Z",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u207"
-      }
-    },
-    {
-      "id": "usgs-us6000u200",
-      "type": "earthquake",
-      "time_utc": "2026-10-13T08:15:04.080Z",
-      "title": {
-        "en": "M 4.6 - 63 km W of Bayan Hot, China",
-        "zh": "M 4.6 - 63 km W of Bayan Hot, China"
-      },
-      "summary": {
-        "en": "M 4.6 at 63 km W of Bayan Hot, China.",
-        "zh": "M 4.6 位於 63 km W of Bayan Hot, China。"
-      },
-      "data": {
-        "mag": 4.6,
-        "place": "63 km W of Bayan Hot, China",
-        "depth": 10,
-        "lat": 38.8294,
-        "lon": 104.9421
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-14T08:00:00Z",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u200"
       }
     }
   ]
