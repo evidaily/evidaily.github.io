@@ -1,35 +1,57 @@
 {
   "date": "2026-10-15",
-  "updated": "2026-10-15T05:00:00Z",
+  "updated": "2026-10-15T06:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-15T03:00Z",
+      "time_utc": "2026-10-15T04:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.0 (0Z) at 03 UTC on 15 October 2026.",
-        "zh": "2026 年 10 月 15 日 03 UTC，估算行星 Kp 為 0.0（0Z）。"
+        "en": "Estimated planetary Kp is 0.0 (0Z) at 04 UTC on 15 October 2026.",
+        "zh": "2026 年 10 月 15 日 04 UTC，估算行星 Kp 為 0.0（0Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-15T03:00:00 on 15 October 2026. The 03 hour is complete (60 samples through 03:59; hour-start 0.0/0Z, hour-end 0.0/0Z). Last-180 maximum is 2.33. Published-window maximum is 2.67. Window starts 2026-10-14T23:00:00 (358 samples). Next hour 04:00 incomplete (58 samples).",
-        "zh": "最新可靠整點初值：2026-10-15T03:00:00 估算 Kp 0.0（0Z）。03 時段已收滿（60 筆至 03:59；時段初 0.0／0Z、時段末 0.0／0Z）。last-180 最大 2.33。公開窗最大 2.67。窗起點 2026-10-14T23:00:00（358 筆）。下一整點 04:00 未滿（58 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-15T04:00 on 15 October 2026. The 04 hour is complete (60 samples through 04:59; hour-start 0.0/0Z, hour-end 1.0/1Z). Last-180 maximum is 2.33. Published-window maximum is 2.33. Window starts 2026-10-15T00:00:00 (358 samples). Next hour 05:00 incomplete (58 samples).",
+        "zh": "最新可靠整點初值：2026-10-15T04:00 估算 Kp 0.0（0Z）。04 時段已收滿（60 筆至 04:59；時段初 0.0／0Z、時段末 1.0／1Z）。last-180 最大 2.33。公開窗最大 2.33。窗起點 2026-10-15T00:00:00（358 筆）。下一整點 05:00 未滿（58 筆）。"
       },
       "data": {
         "estimated_kp": 0.0,
         "kp": "0Z",
         "hour_complete": true,
         "hour_start_kp": 0.0,
-        "hour_end_kp": 0.0,
+        "hour_end_kp": 1.0,
         "last180_max": 2.33,
-        "window_max": 2.67,
-        "window_start": "2026-10-14T23:00:00",
+        "window_max": 2.33,
+        "window_start": "2026-10-15T00:00:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
         "next_hour_count": 58
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-15T05:00:00Z"
+        "fetched_at": "2026-10-15T06:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u2ev",
+      "type": "earthquake",
+      "time_utc": "2026-10-15T05:25:31.942000Z",
+      "title": {
+        "en": "M 5.3 - 43 km SSE of Otorohanga, New Zealand",
+        "zh": "M 5.3 - 43 km SSE of Otorohanga, New Zealand"
+      },
+      "summary": {
+        "en": "Magnitude 5.3 earthquake at 43 km SSE of Otorohanga, New Zealand on 2026-10-15T05:25:31.942000Z.",
+        "zh": "震級 5.3 地震，位置 43 km SSE of Otorohanga, New Zealand，時間 2026-10-15T05:25:31.942000Z。"
+      },
+      "data": {
+        "mag": 5.3,
+        "place": "43 km SSE of Otorohanga, New Zealand",
+        "id": "us6000u2ev"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-15T06:00:00Z"
       }
     },
     {
@@ -51,7 +73,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T05:00:00Z"
+        "fetched_at": "2026-10-15T06:00:00Z"
       }
     },
     {
@@ -73,7 +95,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T05:00:00Z"
+        "fetched_at": "2026-10-15T06:00:00Z"
       }
     },
     {
@@ -95,7 +117,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T05:00:00Z"
+        "fetched_at": "2026-10-15T06:00:00Z"
       }
     },
     {
@@ -117,7 +139,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T05:00:00Z"
+        "fetched_at": "2026-10-15T06:00:00Z"
       }
     },
     {
@@ -139,7 +161,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T05:00:00Z"
+        "fetched_at": "2026-10-15T06:00:00Z"
       }
     },
     {
@@ -161,29 +183,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T05:00:00Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u27j",
-      "type": "earthquake",
-      "time_utc": "2026-10-14T05:09:35.397000Z",
-      "title": {
-        "en": "M 4.7 - 10 km S of La Mesa, Panama",
-        "zh": "M 4.7 - 10 km S of La Mesa, Panama"
-      },
-      "summary": {
-        "en": "Magnitude 4.7 earthquake at 10 km S of La Mesa, Panama on 2026-10-14T05:09:35.397000Z.",
-        "zh": "震級 4.7 地震，位置 10 km S of La Mesa, Panama，時間 2026-10-14T05:09:35.397000Z。"
-      },
-      "data": {
-        "mag": 4.7,
-        "place": "10 km S of La Mesa, Panama",
-        "id": "us6000u27j"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T05:00:00Z"
+        "fetched_at": "2026-10-15T06:00:00Z"
       }
     }
   ]
