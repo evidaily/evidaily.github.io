@@ -1,35 +1,35 @@
 {
   "date": "2026-10-15",
-  "updated": "2026-10-15T12:02:20Z",
+  "updated": "2026-10-15T13:01:48Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-15T10:00Z",
+      "time_utc": "2026-10-15T11:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 1.0 (1Z) at 10 UTC on 15 October 2026.",
-        "zh": "2026 年 10 月 15 日 10 UTC，估計行星 Kp 為 1.0（1Z）。"
+        "en": "Estimated planetary Kp is 2.0 (2Z) at 11 UTC on 15 October 2026.",
+        "zh": "2026 年 10 月 15 日 11 UTC，估計行星 Kp 為 2.0（2Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 1.0 (1Z) at 2026-10-15T10:00 on 15 October 2026. The 10 hour is complete (60 samples through 10:59; hour-start 1.0/1Z, hour-end 2.0/2Z). Last-180 maximum is 3.0. Published-window maximum is 3.0. Window starts 2026-10-15T06:01:00 (358 samples). Next hour 11:00 incomplete (59 samples).",
-        "zh": "最新可靠整點初值：2026-10-15T10:00 估計 Kp 1.0（1Z）。10 時段已收滿（60 筆至 10:59；時段初 1.0／1Z、時段末 2.0／2Z）。last-180 最大 3.0。公開窗最大 3.0。窗起點 2026-10-15T06:01:00（358 筆）。下一整點 11:00 未滿（59 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 2.0 (2Z) at 2026-10-15T11:00 on 15 October 2026. The 11 hour is complete (60 samples through 11:59; hour-start 2.0/2Z, hour-end 3.0/3Z). Last-180 maximum is 3.0. Published-window maximum is 3.0. Window starts 2026-10-15T07:01:00 (358 samples). Next hour 12:00 incomplete (59 samples).",
+        "zh": "最新可靠整點初值：2026-10-15T11:00 估計 Kp 2.0（2Z）。11 時段已收滿（60 筆至 11:59；時段初 2.0／2Z、時段末 3.0／3Z）。last-180 最大 3.0。公開窗最大 3.0。窗起點 2026-10-15T07:01:00（358 筆）。下一整點 12:00 未滿（59 筆）。"
       },
       "data": {
-        "estimated_kp": 1.0,
-        "kp": "1Z",
+        "estimated_kp": 2.0,
+        "kp": "2Z",
         "hour_complete": true,
-        "hour_start_kp": 1.0,
-        "hour_end_kp": 2.0,
+        "hour_start_kp": 2.0,
+        "hour_end_kp": 3.0,
         "last180_max": 3.0,
         "window_max": 3.0,
-        "window_start": "2026-10-15T06:01:00",
+        "window_start": "2026-10-15T07:01:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
         "next_hour_count": 59
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-15T12:02:20Z"
+        "fetched_at": "2026-10-15T13:01:48Z"
       }
     },
     {
@@ -51,7 +51,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T12:02:20Z"
+        "fetched_at": "2026-10-15T13:01:48Z"
       }
     },
     {
@@ -73,7 +73,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T12:02:20Z"
+        "fetched_at": "2026-10-15T13:01:48Z"
       }
     },
     {
@@ -95,7 +95,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T12:02:20Z"
+        "fetched_at": "2026-10-15T13:01:48Z"
       }
     },
     {
@@ -117,7 +117,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T12:02:20Z"
+        "fetched_at": "2026-10-15T13:01:48Z"
       }
     },
     {
@@ -139,7 +139,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T12:02:20Z"
+        "fetched_at": "2026-10-15T13:01:48Z"
       }
     },
     {
@@ -161,7 +161,29 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T12:02:20Z"
+        "fetched_at": "2026-10-15T13:01:48Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u2gk",
+      "type": "earthquake",
+      "time_utc": "2026-10-14T14:17:21.408000Z",
+      "title": {
+        "en": "M 4.7 - central Mid-Atlantic Ridge",
+        "zh": "M 4.7 - central Mid-Atlantic Ridge"
+      },
+      "summary": {
+        "en": "Magnitude 4.7 earthquake at central Mid-Atlantic Ridge on 2026-10-14T14:17:21.408000Z.",
+        "zh": "震級 4.7 地震，位置 central Mid-Atlantic Ridge，時間 2026-10-14T14:17:21.408000Z。"
+      },
+      "data": {
+        "mag": 4.7,
+        "place": "central Mid-Atlantic Ridge",
+        "id": "us6000u2gk"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-15T13:01:48Z"
       }
     }
   ]
