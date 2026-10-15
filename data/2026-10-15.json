@@ -1,35 +1,35 @@
 {
   "date": "2026-10-15",
-  "updated": "2026-10-15T18:00:00Z",
+  "updated": "2026-10-15T19:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-15T16:00Z",
+      "time_utc": "2026-10-15T17:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 1.0 (1Z) at 16 UTC on 15 October 2026.",
-        "zh": "2026 年 10 月 15 日 16 UTC，估算行星 Kp 為 1.0（1Z）。"
+        "en": "Estimated planetary Kp is 2.33 (2P) at 17 UTC on 15 October 2026.",
+        "zh": "2026 年 10 月 15 日 17 UTC，估算行星 Kp 為 2.33（2P）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 1.0 (1Z) at 2026-10-15T16:00 on 15 October 2026. The 16 hour is complete (60 samples through 16:59; hour-start 1.0/1Z, hour-end 2.33/2P). Last-180 maximum is 3.0. Published-window maximum is 3.0. Window starts 2026-10-15T12:01:00 (357 samples). Next hour 17:00 incomplete (58 samples).",
-        "zh": "最新可靠整點初值：2026-10-15T16:00 估算 Kp 1.0（1Z）。16 時段已收滿（60 筆至 16:59；時段初 1.0／1Z、時段末 2.33／2P）。last-180 最大 3.0。公開窗最大 3.0。窗起點 2026-10-15T12:01:00（357 筆）。下一整點 17:00 未滿（58 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 2.33 (2P) at 2026-10-15T17:00 on 15 October 2026. The 17 hour is complete (60 samples through 17:59; hour-start 2.33/2P, hour-end 3.0/3Z). Last-180 maximum is 3.0. Published-window maximum is 3.0. Window starts 2026-10-15T13:01:00 (357 samples). Next hour 18:00 incomplete (58 samples).",
+        "zh": "最新可靠整點初值：2026-10-15T17:00 估算 Kp 2.33（2P）。17 時段已收滿（60 筆至 17:59；時段初 2.33／2P、時段末 3.0／3Z）。last-180 最大 3.0。公開窗最大 3.0。窗起點 2026-10-15T13:01:00（357 筆）。下一整點 18:00 未滿（58 筆）。"
       },
       "data": {
-        "estimated_kp": 1.0,
-        "kp": "1Z",
+        "estimated_kp": 2.33,
+        "kp": "2P",
         "hour_complete": true,
-        "hour_start_kp": 1.0,
-        "hour_end_kp": 2.33,
+        "hour_start_kp": 2.33,
+        "hour_end_kp": 3.0,
         "last180_max": 3.0,
         "window_max": 3.0,
-        "window_start": "2026-10-15T12:01:00",
+        "window_start": "2026-10-15T13:01:00",
         "sample_count": 357,
         "next_hour_incomplete": true,
         "next_hour_count": 58
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-15T18:00:00Z"
+        "fetched_at": "2026-10-15T19:00:00Z"
       }
     },
     {
@@ -52,7 +52,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T18:00:00Z"
+        "fetched_at": "2026-10-15T19:00:00Z"
       }
     },
     {
@@ -75,7 +75,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T18:00:00Z"
+        "fetched_at": "2026-10-15T19:00:00Z"
       }
     },
     {
@@ -98,7 +98,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T18:00:00Z"
+        "fetched_at": "2026-10-15T19:00:00Z"
       }
     },
     {
@@ -121,7 +121,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T18:00:00Z"
+        "fetched_at": "2026-10-15T19:00:00Z"
       }
     },
     {
@@ -144,7 +144,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T18:00:00Z"
+        "fetched_at": "2026-10-15T19:00:00Z"
       }
     },
     {
@@ -167,7 +167,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T18:00:00Z"
+        "fetched_at": "2026-10-15T19:00:00Z"
       }
     },
     {
@@ -190,7 +190,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T18:00:00Z"
+        "fetched_at": "2026-10-15T19:00:00Z"
       }
     },
     {
@@ -213,7 +213,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T18:00:00Z"
+        "fetched_at": "2026-10-15T19:00:00Z"
       }
     },
     {
@@ -236,7 +236,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T18:00:00Z"
+        "fetched_at": "2026-10-15T19:00:00Z"
       }
     },
     {
@@ -259,7 +259,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T18:00:00Z"
+        "fetched_at": "2026-10-15T19:00:00Z"
       }
     },
     {
@@ -282,7 +282,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T18:00:00Z"
+        "fetched_at": "2026-10-15T19:00:00Z"
       }
     },
     {
@@ -305,7 +305,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T18:00:00Z"
+        "fetched_at": "2026-10-15T19:00:00Z"
       }
     }
   ]
