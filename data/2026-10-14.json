@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "updated": "2026-10-15T00:21:00Z",
+  "updated": "2026-10-15T01:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
@@ -11,8 +11,8 @@
         "zh": "2026 年 10 月 14 日 23 UTC，估算行星 Kp 為 2.33（2P）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 2.33 (2P) at 2026-10-14T23:00:00 on 14 October 2026. The 23 hour is complete (60 samples through 23:59; hour-start 2.33/2P, hour-end 2.67/3M). Last-180 maximum is 2.67. Published-window maximum is 2.67. Window starts 2026-10-14T18:21:00 (358 samples). Next hour 00:00 incomplete (19 samples).",
-        "zh": "最新可靠整點初值：2026-10-14T23:00:00 估算 Kp 2.33（2P）。23 時段已收滿（60 筆至 23:59；時段初 2.33／2P、時段末 2.67／3M）。last-180 最大 2.67。公開窗最大 2.67。窗起點 2026-10-14T18:21:00（358 筆）。下一整點 00:00 未滿（19 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 2.33 (2P) at 2026-10-14T23:00:00 on 14 October 2026. The 23 hour is complete (60 samples through 23:59; hour-start 2.33/2P, hour-end 2.67/3M). Last-180 maximum is 2.67. Published-window maximum is 2.67. Window starts 2026-10-14T18:59:00 (358 samples). Next hour 00:00 incomplete (57 samples).",
+        "zh": "最新可靠整點初值：2026-10-14T23:00:00 估算 Kp 2.33（2P）。23 時段已收滿（60 筆至 23:59；時段初 2.33／2P、時段末 2.67／3M）。last-180 最大 2.67。公開窗最大 2.67。窗起點 2026-10-14T18:59:00（358 筆）。下一整點 00:00 未滿（57 筆）。"
       },
       "data": {
         "estimated_kp": 2.33,
@@ -241,54 +241,6 @@
         "place": "75 km E of Kokopo, Papua New Guinea",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u26u",
         "felt": null,
-        "tsunami": 0
-      },
-      "evidence": {
-        "source": "USGS M4.5+ day feed",
-        "fetched_at": "2026-10-15T00:21:00Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u26f",
-      "type": "earthquake",
-      "time_utc": "2026-10-14T00:36:45.416000Z",
-      "title": {
-        "en": "M 5 - 98 km NW of Coquimbo, Chile",
-        "zh": "M 5 - 98 km NW of Coquimbo, Chile"
-      },
-      "summary": {
-        "en": "Magnitude 5 earthquake at 98 km NW of Coquimbo, Chile on 2026-10-14T00:36:45.416000Z.",
-        "zh": "震級 5 地震，位置 98 km NW of Coquimbo, Chile，時間 2026-10-14T00:36:45.416000Z。"
-      },
-      "data": {
-        "magnitude": 5,
-        "place": "98 km NW of Coquimbo, Chile",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u26f",
-        "felt": 1,
-        "tsunami": 0
-      },
-      "evidence": {
-        "source": "USGS M4.5+ day feed",
-        "fetched_at": "2026-10-15T00:21:00Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u26c",
-      "type": "earthquake",
-      "time_utc": "2026-10-14T00:30:47.706000Z",
-      "title": {
-        "en": "M 5.1 - 93 km NNW of Coquimbo, Chile",
-        "zh": "M 5.1 - 93 km NNW of Coquimbo, Chile"
-      },
-      "summary": {
-        "en": "Magnitude 5.1 earthquake at 93 km NNW of Coquimbo, Chile on 2026-10-14T00:30:47.706000Z.",
-        "zh": "震級 5.1 地震，位置 93 km NNW of Coquimbo, Chile，時間 2026-10-14T00:30:47.706000Z。"
-      },
-      "data": {
-        "magnitude": 5.1,
-        "place": "93 km NNW of Coquimbo, Chile",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u26c",
-        "felt": 2,
         "tsunami": 0
       },
       "evidence": {
