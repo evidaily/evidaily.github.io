@@ -1,18 +1,18 @@
 {
   "date": "2026-10-15",
-  "updated": "2026-10-15T08:00:00Z",
+  "updated": "2026-10-15T09:01:33Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-15T06:00Z",
+      "time_utc": "2026-10-15T07:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.0 (0Z) at 06 UTC on 15 October 2026.",
-        "zh": "2026 年 10 月 15 日 06 UTC，估算行星 Kp 為 0.0（0Z）。"
+        "en": "Estimated planetary Kp is 0.0 (0Z) at 07 UTC on 15 October 2026.",
+        "zh": "2026 年 10 月 15 日 07 UTC，估算行星 Kp 為 0.0（0Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-15T06:00 on 15 October 2026. The 06 hour is complete (60 samples through 06:59; hour-start 0.0/0Z, hour-end 0.0/0Z). Last-180 maximum is 1.0. Published-window maximum is 2.33. Window starts 2026-10-15T02:01:00 (358 samples). Next hour 07:00 incomplete (59 samples).",
-        "zh": "最新可靠整點初值：2026-10-15T06:00 估算 Kp 0.0（0Z）。06 時段已收滿（60 筆至 06:59；時段初 0.0／0Z、時段末 0.0／0Z）。last-180 最大 1.0。公開窗最大 2.33。窗起點 2026-10-15T02:01:00（358 筆）。下一整點 07:00 未滿（59 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-15T07:00 on 15 October 2026. The 07 hour is complete (60 samples through 07:59; hour-start 0.0/0Z, hour-end 0.0/0Z). Last-180 maximum is 1.0. Published-window maximum is 1.0. Window starts 2026-10-15T03:00:00 (358 samples). Next hour 08:00 incomplete (58 samples).",
+        "zh": "最新可靠整點初值：2026-10-15T07:00 估算 Kp 0.0（0Z）。07 時段已收滿（60 筆至 07:59；時段初 0.0／0Z、時段末 0.0／0Z）。last-180 最大 1.0。公開窗最大 1.0。窗起點 2026-10-15T03:00:00（358 筆）。下一整點 08:00 未滿（58 筆）。"
       },
       "data": {
         "estimated_kp": 0.0,
@@ -21,15 +21,15 @@
         "hour_start_kp": 0.0,
         "hour_end_kp": 0.0,
         "last180_max": 1.0,
-        "window_max": 2.33,
-        "window_start": "2026-10-15T02:01:00",
+        "window_max": 1.0,
+        "window_start": "2026-10-15T03:00:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
-        "next_hour_count": 59
+        "next_hour_count": 58
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-15T08:00:00Z"
+        "fetched_at": "2026-10-15T09:01:33Z"
       }
     },
     {
