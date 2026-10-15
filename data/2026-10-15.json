@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "updated": "2026-10-15T11:04:47Z",
+  "updated": "2026-10-15T12:02:20Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
@@ -11,25 +11,69 @@
         "zh": "2026 年 10 月 15 日 10 UTC，估計行星 Kp 為 1.0（1Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 1.0 (1Z) at 2026-10-15T10:00 on 15 October 2026. The 10 hour is complete (60 samples through 10:59; hour-start 1.0/1Z, hour-end 1.67/2M). Last-180 maximum is 2.0. Published-window maximum is 2.0. Window starts 2026-10-15T05:02:00 (358 samples). Next hour 11:00 incomplete (0 samples).",
-        "zh": "最新可靠整點初值：2026-10-15T10:00 估計 Kp 1.0（1Z）。10 時段已收滿（60 筆至 10:59；時段初 1.0／1Z、時段末 1.67／2M）。last-180 最大 2.0。公開窗最大 2.0。窗起點 2026-10-15T05:02:00（358 筆）。下一整點 11:00 未滿（0 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 1.0 (1Z) at 2026-10-15T10:00 on 15 October 2026. The 10 hour is complete (60 samples through 10:59; hour-start 1.0/1Z, hour-end 2.0/2Z). Last-180 maximum is 3.0. Published-window maximum is 3.0. Window starts 2026-10-15T06:01:00 (358 samples). Next hour 11:00 incomplete (59 samples).",
+        "zh": "最新可靠整點初值：2026-10-15T10:00 估計 Kp 1.0（1Z）。10 時段已收滿（60 筆至 10:59；時段初 1.0／1Z、時段末 2.0／2Z）。last-180 最大 3.0。公開窗最大 3.0。窗起點 2026-10-15T06:01:00（358 筆）。下一整點 11:00 未滿（59 筆）。"
       },
       "data": {
         "estimated_kp": 1.0,
         "kp": "1Z",
         "hour_complete": true,
         "hour_start_kp": 1.0,
-        "hour_end_kp": 1.67,
-        "last180_max": 2.0,
-        "window_max": 2.0,
-        "window_start": "2026-10-15T05:02:00",
+        "hour_end_kp": 2.0,
+        "last180_max": 3.0,
+        "window_max": 3.0,
+        "window_start": "2026-10-15T06:01:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
-        "next_hour_count": 0
+        "next_hour_count": 59
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-15T11:04:47Z"
+        "fetched_at": "2026-10-15T12:02:20Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u2gd",
+      "type": "earthquake",
+      "time_utc": "2026-10-15T11:16:43.490000Z",
+      "title": {
+        "en": "M 4.8 - off the coast of Ecuador",
+        "zh": "M 4.8 - off the coast of Ecuador"
+      },
+      "summary": {
+        "en": "Magnitude 4.8 earthquake at off the coast of Ecuador on 2026-10-15T11:16:43.490000Z.",
+        "zh": "震級 4.8 地震，位置 off the coast of Ecuador，時間 2026-10-15T11:16:43.490000Z。"
+      },
+      "data": {
+        "mag": 4.8,
+        "place": "off the coast of Ecuador",
+        "id": "us6000u2gd"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-15T12:02:20Z"
+      }
+    },
+    {
+      "id": "usgs-aka2026ukynnb",
+      "type": "earthquake",
+      "time_utc": "2026-10-15T11:07:01.800000Z",
+      "title": {
+        "en": "M 5.6 - 43 km NNW of Lake Minchumina, Alaska",
+        "zh": "M 5.6 - 43 km NNW of Lake Minchumina, Alaska"
+      },
+      "summary": {
+        "en": "Magnitude 5.6 earthquake at 43 km NNW of Lake Minchumina, Alaska on 2026-10-15T11:07:01.800000Z.",
+        "zh": "震級 5.6 地震，位置 43 km NNW of Lake Minchumina, Alaska，時間 2026-10-15T11:07:01.800000Z。"
+      },
+      "data": {
+        "mag": 5.6,
+        "place": "43 km NNW of Lake Minchumina, Alaska",
+        "id": "aka2026ukynnb"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-15T12:02:20Z"
       }
     },
     {
@@ -51,7 +95,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T11:04:47Z"
+        "fetched_at": "2026-10-15T12:02:20Z"
       }
     },
     {
@@ -73,7 +117,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T11:04:47Z"
+        "fetched_at": "2026-10-15T12:02:20Z"
       }
     },
     {
@@ -95,7 +139,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T11:04:47Z"
+        "fetched_at": "2026-10-15T12:02:20Z"
       }
     },
     {
@@ -117,7 +161,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T11:04:47Z"
+        "fetched_at": "2026-10-15T12:02:20Z"
       }
     }
   ]
