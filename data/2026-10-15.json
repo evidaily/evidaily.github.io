@@ -1,35 +1,35 @@
 {
   "date": "2026-10-15",
-  "updated": "2026-10-15T09:01:33Z",
+  "updated": "2026-10-15T10:01:58Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-15T07:00Z",
+      "time_utc": "2026-10-15T08:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.0 (0Z) at 07 UTC on 15 October 2026.",
-        "zh": "2026 年 10 月 15 日 07 UTC，估算行星 Kp 為 0.0（0Z）。"
+        "en": "Estimated planetary Kp is 0.0 (0Z) at 08 UTC on 15 October 2026.",
+        "zh": "2026 年 10 月 15 日 08 UTC，估算行星 Kp 為 0.0（0Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-15T07:00 on 15 October 2026. The 07 hour is complete (60 samples through 07:59; hour-start 0.0/0Z, hour-end 0.0/0Z). Last-180 maximum is 1.0. Published-window maximum is 1.0. Window starts 2026-10-15T03:00:00 (358 samples). Next hour 08:00 incomplete (58 samples).",
-        "zh": "最新可靠整點初值：2026-10-15T07:00 估算 Kp 0.0（0Z）。07 時段已收滿（60 筆至 07:59；時段初 0.0／0Z、時段末 0.0／0Z）。last-180 最大 1.0。公開窗最大 1.0。窗起點 2026-10-15T03:00:00（358 筆）。下一整點 08:00 未滿（58 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-15T08:00 on 15 October 2026. The 08 hour is complete (60 samples through 08:59; hour-start 0.0/0Z, hour-end 1.33/1P). Last-180 maximum is 1.33. Published-window maximum is 1.33. Window starts 2026-10-15T04:01:00 (358 samples). Next hour 09:00 incomplete (59 samples).",
+        "zh": "最新可靠整點初值：2026-10-15T08:00 估算 Kp 0.0（0Z）。08 時段已收滿（60 筆至 08:59；時段初 0.0／0Z、時段末 1.33／1P）。last-180 最大 1.33。公開窗最大 1.33。窗起點 2026-10-15T04:01:00（358 筆）。下一整點 09:00 未滿（59 筆）。"
       },
       "data": {
         "estimated_kp": 0.0,
         "kp": "0Z",
         "hour_complete": true,
         "hour_start_kp": 0.0,
-        "hour_end_kp": 0.0,
-        "last180_max": 1.0,
-        "window_max": 1.0,
-        "window_start": "2026-10-15T03:00:00",
+        "hour_end_kp": 1.33,
+        "last180_max": 1.33,
+        "window_max": 1.33,
+        "window_start": "2026-10-15T04:01:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
-        "next_hour_count": 58
+        "next_hour_count": 59
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-15T09:01:33Z"
+        "fetched_at": "2026-10-15T10:01:58Z"
       }
     },
     {
@@ -51,7 +51,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T08:00:00Z"
+        "fetched_at": "2026-10-15T10:01:58Z"
       }
     },
     {
@@ -73,7 +73,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T08:00:00Z"
+        "fetched_at": "2026-10-15T10:01:58Z"
       }
     },
     {
@@ -95,7 +95,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T08:00:00Z"
+        "fetched_at": "2026-10-15T10:01:58Z"
       }
     },
     {
@@ -117,7 +117,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T08:00:00Z"
+        "fetched_at": "2026-10-15T10:01:58Z"
       }
     },
     {
@@ -139,29 +139,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T08:00:00Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u28e",
-      "type": "earthquake",
-      "time_utc": "2026-10-14T09:16:18.828000Z",
-      "title": {
-        "en": "M 4.6 - 42 km NNE of Kilimatinde, Tanzania",
-        "zh": "M 4.6 - 42 km NNE of Kilimatinde, Tanzania"
-      },
-      "summary": {
-        "en": "Magnitude 4.6 earthquake at 42 km NNE of Kilimatinde, Tanzania on 2026-10-14T09:16:18.828000Z.",
-        "zh": "震級 4.6 地震，位置 42 km NNE of Kilimatinde, Tanzania，時間 2026-10-14T09:16:18.828000Z。"
-      },
-      "data": {
-        "mag": 4.6,
-        "place": "42 km NNE of Kilimatinde, Tanzania",
-        "id": "us6000u28e"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T08:00:00Z"
+        "fetched_at": "2026-10-15T10:01:58Z"
       }
     }
   ]
