@@ -1,35 +1,35 @@
 {
   "date": "2026-10-15",
-  "updated": "2026-10-15T23:00:00Z",
+  "updated": "2026-10-16T00:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-15T21:00Z",
+      "time_utc": "2026-10-15T22:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (0Z) at 21 UTC on 15 October 2026.",
-        "zh": "2026 年 10 月 15 日 21 UTC，估算行星 Kp 為 0.00（0Z）。"
+        "en": "Estimated planetary Kp is 1.33 (1P) at 22 UTC on 15 October 2026.",
+        "zh": "2026 年 10 月 15 日 22 UTC，估算行星 Kp 為 1.33（1P）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 2026-10-15T21:00 on 15 October 2026. The 21 hour is complete (60 samples through 21:59; hour-start 0.00/0Z, hour-end 1.67/2M). Last-180 maximum is 2.33. Published-window maximum is 3.0. Window starts 2026-10-15T16:59:00 (358 samples). Next hour 22:00 incomplete (57 samples).",
-        "zh": "最新可靠整點初值：2026-10-15T21:00 估算 Kp 0.00（0Z）。21 時段已收滿（60 筆至 21:59；時段初 0.00／0Z、時段末 1.67／2M）。last-180 最大 2.33。公開窗最大 3.0。窗起點 2026-10-15T16:59:00（358 筆）。下一整點 22:00 未滿（57 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 1.33 (1P) at 2026-10-15T22:00 on 15 October 2026. The 22 hour is complete (60 samples through 22:59; hour-start 1.33/1P, hour-end 2.33/2P). Last-180 maximum is 2.67. Published-window maximum is 3.0. Window starts 2026-10-15T17:59:00 (359 samples). Next hour 23:00 incomplete (58 samples).",
+        "zh": "最新可靠整點初值：2026-10-15T22:00 估算 Kp 1.33（1P）。22 時段已收滿（60 筆至 22:59；時段初 1.33／1P、時段末 2.33／2P）。last-180 最大 2.67。公開窗最大 3.0。窗起點 2026-10-15T17:59:00（359 筆）。下一整點 23:00 未滿（58 筆）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp": "0Z",
+        "estimated_kp": 1.33,
+        "kp": "1P",
         "hour_complete": true,
-        "hour_start_kp": 0.0,
-        "hour_end_kp": 1.67,
-        "last180_max": 2.33,
+        "hour_start_kp": 1.33,
+        "hour_end_kp": 2.33,
+        "last180_max": 2.67,
         "window_max": 3.0,
-        "window_start": "2026-10-15T16:59:00",
-        "sample_count": 358,
+        "window_start": "2026-10-15T17:59:00",
+        "sample_count": 359,
         "next_hour_incomplete": true,
-        "next_hour_count": 57
+        "next_hour_count": 58
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-15T23:00:00Z"
+        "fetched_at": "2026-10-16T00:00:00Z"
       }
     },
     {
@@ -279,29 +279,6 @@
         "place": "30 km E of Safotu, Samoa",
         "time": 1792035368430,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2eh"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-15T23:00:00Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u2d6",
-      "type": "earthquake",
-      "time_utc": "2026-10-14T23:20:59.714000Z",
-      "title": {
-        "en": "M 4.5 - 82 km SSW of Mil’kovo, Russia",
-        "zh": "M 4.5 - 82 km SSW of Mil’kovo, Russia"
-      },
-      "summary": {
-        "en": "M 4.5 - 82 km SSW of Mil’kovo, Russia",
-        "zh": "M 4.5 - 82 km SSW of Mil’kovo, Russia"
-      },
-      "data": {
-        "mag": 4.5,
-        "place": "82 km SSW of Mil’kovo, Russia",
-        "time": 1792020059714,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2d6"
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
