@@ -1,35 +1,35 @@
 {
   "date": "2026-10-16",
-  "updated": "2026-10-16T20:05:00Z",
+  "updated": "2026-10-16T21:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-16T18:00Z",
+      "time_utc": "2026-10-16T20:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.0 (0Z) at 18 UTC on 16 October 2026.",
-        "zh": "2026 年 10 月 16 日 18 UTC，估算行星 Kp 為 0.0（0Z）。"
+        "en": "Estimated planetary Kp is 3.67 (4M) at 20 UTC on 16 October 2026.",
+        "zh": "2026 年 10 月 16 日 20 UTC，估算行星 Kp 為 3.67（4M）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-16T18:00 on 16 October 2026. The 18 hour is complete (60 samples through 18:59; hour-start 0.0/0Z, hour-end 2.67/3M). Last-180 maximum is 3.67. Published-window maximum is 3.67. Window starts 2026-10-16T14:01:00 (358 samples). Next hour 19:00 incomplete (59 samples).",
-        "zh": "最新可靠整點初值：2026-10-16T18:00 估算 Kp 0.0（0Z）。18 時段已收滿（60 筆至 18:59；時段初 0.0／0Z、時段末 2.67／3M）。last-180 最大 3.67。公開窗最大 3.67。窗起點 2026-10-16T14:01:00（358 筆）。下一整點 19:00 未滿（59 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 3.67 (4M) at 2026-10-16T20:00 on 16 October 2026. The 20 hour is complete (60 samples through 20:59; hour-start 3.67/4M, hour-end 2.67/3M). Last-180 maximum is 3.67. Published-window maximum is 3.67. Window starts 2026-10-16T15:01:00 (359 samples). Next hour 21:00 incomplete (0 samples).",
+        "zh": "最新可靠整點初值：2026-10-16T20:00 估算 Kp 3.67（4M）。20 時段已收滿（60 筆至 20:59；時段初 3.67／4M、時段末 2.67／3M）。last-180 最大 3.67。公開窗最大 3.67。窗起點 2026-10-16T15:01:00（359 筆）。下一整點 21:00 未滿（0 筆）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp": "0Z",
+        "estimated_kp": 3.67,
+        "kp": "4M",
         "hour_complete": true,
-        "hour_start_kp": 0.0,
+        "hour_start_kp": 3.67,
         "hour_end_kp": 2.67,
         "last180_max": 3.67,
         "window_max": 3.67,
-        "window_start": "2026-10-16T14:01:00",
-        "sample_count": 358,
+        "window_start": "2026-10-16T15:01:00",
+        "sample_count": 359,
         "next_hour_incomplete": true,
-        "next_hour_count": 59
+        "next_hour_count": 0
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-16T20:05:00Z"
+        "fetched_at": "2026-10-16T21:00:00Z"
       }
     },
     {
@@ -52,7 +52,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T20:05:00Z"
+        "fetched_at": "2026-10-16T21:00:00Z"
       }
     },
     {
@@ -75,7 +75,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T20:05:00Z"
+        "fetched_at": "2026-10-16T21:00:00Z"
       }
     },
     {
@@ -98,7 +98,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T20:05:00Z"
+        "fetched_at": "2026-10-16T21:00:00Z"
       }
     },
     {
@@ -121,7 +121,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T20:05:00Z"
+        "fetched_at": "2026-10-16T21:00:00Z"
       }
     },
     {
@@ -129,8 +129,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-16T14:09:54.288Z",
       "title": {
-        "en": "M 5.0 - Auckland Islands, New Zealand region",
-        "zh": "M 5.0 - Auckland Islands, New Zealand region"
+        "en": "M 5 - Auckland Islands, New Zealand region",
+        "zh": "M 5 - Auckland Islands, New Zealand region"
       },
       "summary": {
         "en": "M 5 earthquake - Auckland Islands, New Zealand region",
@@ -144,7 +144,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T20:05:00Z"
+        "fetched_at": "2026-10-16T21:00:00Z"
       }
     },
     {
@@ -167,7 +167,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T20:05:00Z"
+        "fetched_at": "2026-10-16T21:00:00Z"
       }
     },
     {
@@ -190,7 +190,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T20:05:00Z"
+        "fetched_at": "2026-10-16T21:00:00Z"
       }
     },
     {
@@ -213,7 +213,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T20:05:00Z"
+        "fetched_at": "2026-10-16T21:00:00Z"
       }
     },
     {
@@ -236,7 +236,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T20:05:00Z"
+        "fetched_at": "2026-10-16T21:00:00Z"
       }
     },
     {
@@ -259,7 +259,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T20:05:00Z"
+        "fetched_at": "2026-10-16T21:00:00Z"
       }
     },
     {
@@ -282,7 +282,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T20:05:00Z"
+        "fetched_at": "2026-10-16T21:00:00Z"
       }
     },
     {
@@ -305,7 +305,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T20:05:00Z"
+        "fetched_at": "2026-10-16T21:00:00Z"
       }
     },
     {
@@ -328,30 +328,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T20:05:00Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u2kz",
-      "type": "earthquake",
-      "time_utc": "2026-10-15T20:39:25.755Z",
-      "title": {
-        "en": "M 4.5 - 44 km SSE of Champerico, Guatemala",
-        "zh": "M 4.5 - 44 km SSE of Champerico, Guatemala"
-      },
-      "summary": {
-        "en": "M 4.5 earthquake - 44 km SSE of Champerico, Guatemala",
-        "zh": "M 4.5 地震 - 44 km SSE of Champerico, Guatemala"
-      },
-      "data": {
-        "magnitude": 4.5,
-        "place": "44 km SSE of Champerico, Guatemala",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2kz",
-        "depth": 59.487
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T20:05:00Z"
+        "fetched_at": "2026-10-16T21:00:00Z"
       }
     }
   ]
