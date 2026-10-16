@@ -1,35 +1,57 @@
 {
   "date": "2026-10-16",
-  "updated": "2026-10-16T09:00:00Z",
+  "updated": "2026-10-16T10:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-16T07:00Z",
+      "time_utc": "2026-10-16T08:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 1.0 (1Z) at 07 UTC on 16 October 2026.",
-        "zh": "2026 年 10 月 16 日 07 UTC，估算行星 Kp 為 1.0（1Z）。"
+        "en": "Estimated planetary Kp is 1.0 (1Z) at 08 UTC on 16 October 2026.",
+        "zh": "2026 年 10 月 16 日 08 UTC，估算行星 Kp 為 1.0（1Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 1.0 (1Z) at 2026-10-16T07:00 on 16 October 2026. The 07 hour is complete (60 samples through 07:59; hour-start 1.0/1Z, hour-end 1.0/1Z). Last-180 maximum is 2.0. Published-window maximum is 3.33. Window starts 2026-10-16T02:59:00 (358 samples). Next hour 08:00 incomplete (57 samples).",
-        "zh": "最新可靠整點初值：2026-10-16T07:00 估算 Kp 1.0（1Z）。07 時段已收滿（60 筆至 07:59；時段初 1.0／1Z、時段末 1.0／1Z）。last-180 最大 2.0。公開窗最大 3.33。窗起點 2026-10-16T02:59:00（358 筆）。下一整點 08:00 未滿（57 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 1.0 (1Z) at 2026-10-16T08:00 on 16 October 2026. The 08 hour is complete (60 samples through 08:59; hour-start 1.0/1Z, hour-end 1.67/2M). Last-180 maximum is 1.67. Published-window maximum is 2.0. Window starts 2026-10-16T03:58:00 (358 samples). Next hour 09:00 incomplete (56 samples).",
+        "zh": "最新可靠整點初值：2026-10-16T08:00 估算 Kp 1.0（1Z）。08 時段已收滿（60 筆至 08:59；時段初 1.0／1Z、時段末 1.67／2M）。last-180 最大 1.67。公開窗最大 2.0。窗起點 2026-10-16T03:58:00（358 筆）。下一整點 09:00 未滿（56 筆）。"
       },
       "data": {
         "estimated_kp": 1.0,
         "kp": "1Z",
         "hour_complete": true,
         "hour_start_kp": 1.0,
-        "hour_end_kp": 1.0,
-        "last180_max": 2.0,
-        "window_max": 3.33,
-        "window_start": "2026-10-16T02:59:00",
+        "hour_end_kp": 1.67,
+        "last180_max": 1.67,
+        "window_max": 2.0,
+        "window_start": "2026-10-16T03:58:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
-        "next_hour_count": 57
+        "next_hour_count": 56
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-16T09:00:00Z"
+        "fetched_at": "2026-10-16T10:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u2p2",
+      "type": "earthquake",
+      "time_utc": "2026-10-16T09:13:44.909000Z",
+      "title": {
+        "en": "M 4.9 - 31 km ENE of Kinablangan, Philippines",
+        "zh": "M 4.9 - 31 km ENE of Kinablangan, Philippines"
+      },
+      "summary": {
+        "en": "M 4.9 earthquake 31 km ENE of Kinablangan, Philippines.",
+        "zh": "M 4.9 地震，31 km ENE of Kinablangan, Philippines。"
+      },
+      "data": {
+        "magnitude": 4.9,
+        "place": "31 km ENE of Kinablangan, Philippines",
+        "id": "us6000u2p2"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-16T10:00:00Z"
       }
     },
     {
@@ -51,7 +73,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T09:00:00Z"
+        "fetched_at": "2026-10-16T10:00:00Z"
       }
     },
     {
@@ -73,7 +95,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T09:00:00Z"
+        "fetched_at": "2026-10-16T10:00:00Z"
       }
     },
     {
@@ -95,7 +117,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T09:00:00Z"
+        "fetched_at": "2026-10-16T10:00:00Z"
       }
     },
     {
@@ -117,7 +139,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T09:00:00Z"
+        "fetched_at": "2026-10-16T10:00:00Z"
       }
     },
     {
@@ -139,7 +161,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T09:00:00Z"
+        "fetched_at": "2026-10-16T10:00:00Z"
       }
     },
     {
@@ -161,7 +183,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T09:00:00Z"
+        "fetched_at": "2026-10-16T10:00:00Z"
       }
     },
     {
@@ -183,7 +205,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T09:00:00Z"
+        "fetched_at": "2026-10-16T10:00:00Z"
       }
     },
     {
@@ -205,7 +227,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T09:00:00Z"
+        "fetched_at": "2026-10-16T10:00:00Z"
       }
     },
     {
@@ -227,7 +249,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T09:00:00Z"
+        "fetched_at": "2026-10-16T10:00:00Z"
       }
     },
     {
@@ -249,7 +271,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T09:00:00Z"
+        "fetched_at": "2026-10-16T10:00:00Z"
       }
     },
     {
@@ -271,7 +293,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T09:00:00Z"
+        "fetched_at": "2026-10-16T10:00:00Z"
       }
     }
   ]
