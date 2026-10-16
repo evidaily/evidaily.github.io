@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "updated": "2026-10-16T16:00:00Z",
+  "updated": "2026-10-16T17:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
@@ -11,25 +11,47 @@
         "zh": "2026 年 10 月 16 日 15 UTC，估算行星 Kp 為 0.00（0Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 2026-10-16T15:00 on 16 October 2026. The 15 hour is complete (60 samples through 15:59; hour-start 0.00/0Z, hour-end 2.33/2P). Last-180 maximum is 2.67. Published-window maximum is 2.67. Window starts 2026-10-16T10:03:00 (358 samples). Next hour 16:00 incomplete (0 samples).",
-        "zh": "最新可靠整點初值：2026-10-16T15:00 估算 Kp 0.00（0Z）。15 時段已收滿（60 筆至 15:59；時段初 0.00／0Z、時段末 2.33／2P）。last-180 最大 2.67。公開窗最大 2.67。窗起點 2026-10-16T10:03:00（358 筆）。下一整點 16:00 未滿（0 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 2026-10-16T15:00 on 16 October 2026. The 15 hour is complete (60 samples through 15:59; hour-start 0.00/0Z, hour-end 2.67/3M). Last-180 maximum is 3.0. Published-window maximum is 3.0. Window starts 2026-10-16T11:01:00 (358 samples). Next hour 16:00 incomplete (59 samples).",
+        "zh": "最新可靠整點初值：2026-10-16T15:00 估算 Kp 0.00（0Z）。15 時段已收滿（60 筆至 15:59；時段初 0.00／0Z、時段末 2.67／3M）。last-180 最大 3.0。公開窗最大 3.0。窗起點 2026-10-16T11:01:00（358 筆）。下一整點 16:00 未滿（59 筆）。"
       },
       "data": {
         "estimated_kp": 0.0,
         "kp": "0Z",
         "hour_complete": true,
         "hour_start_kp": 0.0,
-        "hour_end_kp": 2.33,
-        "last180_max": 2.67,
-        "window_max": 2.67,
-        "window_start": "2026-10-16T10:03:00",
+        "hour_end_kp": 2.67,
+        "last180_max": 3.0,
+        "window_max": 3.0,
+        "window_start": "2026-10-16T11:01:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
-        "next_hour_count": 0
+        "next_hour_count": 59
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-16T16:00:00Z"
+        "fetched_at": "2026-10-16T17:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-6000u2qn",
+      "type": "earthquake",
+      "time_utc": "2026-10-16T16:17:25.793Z",
+      "title": {
+        "en": "M 4.6 - 41 km NNE of Kilimatinde, Tanzania",
+        "zh": "M 4.6 - 41 km NNE of Kilimatinde, Tanzania"
+      },
+      "summary": {
+        "en": "M 4.6 earthquake, 41 km NNE of Kilimatinde, Tanzania.",
+        "zh": "M 4.6 地震，坦尚尼亞 Kilimatinde 北北東 41 公里。"
+      },
+      "data": {
+        "mag": 4.6,
+        "place": "41 km NNE of Kilimatinde, Tanzania",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2qn"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "fetched_at": "2026-10-16T17:00:00Z"
       }
     },
     {
