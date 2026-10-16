@@ -1,41 +1,41 @@
 {
   "date": "2026-10-16",
-  "updated": "2026-10-16T05:00:00Z",
+  "updated": "2026-10-16T06:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-16T03:00Z",
+      "time_utc": "2026-10-16T04:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.0 (0Z) at 03 UTC on 16 October 2026.",
-        "zh": "2026 年 10 月 16 日 03 UTC，估算行星 Kp 為 0.0（0Z）。"
+        "en": "Estimated planetary Kp is 1.0 (1Z) at 04 UTC on 16 October 2026.",
+        "zh": "2026 年 10 月 16 日 04 UTC，估算行星 Kp 為 1.0（1Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-16T03:00 on 16 October 2026. The 03 hour is complete (60 samples through 03:59; hour-start 0.0/0Z, hour-end 1.0/1Z). Last-180 maximum is 3.33. Published-window maximum is 3.33. Window starts 2026-10-15T22:58:00 (358 samples). Next hour 04:00 incomplete (56 samples).",
-        "zh": "最新可靠整點初值：2026-10-16T03:00 估算 Kp 0.0（0Z）。03 時段已收滿（60 筆至 03:59；時段初 0.0／0Z、時段末 1.0／1Z）。last-180 最大 3.33。公開窗最大 3.33。窗起點 2026-10-15T22:58:00（358 筆）。下一整點 04:00 未滿（56 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 1.0 (1Z) at 2026-10-16T04:00 on 16 October 2026. The 04 hour is complete (60 samples through 04:59; hour-start 1.0/1Z, hour-end 1.33/1P). Last-180 maximum is 3.33. Published-window maximum is 3.33. Window starts 2026-10-15T23:59:00 (358 samples). Next hour 05:00 incomplete (57 samples).",
+        "zh": "最新可靠整點初值：2026-10-16T04:00 估算 Kp 1.0（1Z）。04 時段已收滿（60 筆至 04:59；時段初 1.0／1Z、時段末 1.33／1P）。last-180 最大 3.33。公開窗最大 3.33。窗起點 2026-10-15T23:59:00（358 筆）。下一整點 05:00 未滿（57 筆）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp": "0Z",
+        "estimated_kp": 1.0,
+        "kp": "1Z",
         "hour_complete": true,
-        "hour_start_kp": 0.0,
-        "hour_end_kp": 1.0,
+        "hour_start_kp": 1.0,
+        "hour_end_kp": 1.33,
         "last180_max": 3.33,
         "window_max": 3.33,
-        "window_start": "2026-10-15T22:58:00",
+        "window_start": "2026-10-15T23:59:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
-        "next_hour_count": 56
+        "next_hour_count": 57
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-16T05:00:00Z"
+        "fetched_at": "2026-10-16T06:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u2n4",
       "type": "earthquake",
-      "time_utc": "2026-10-16T04:42:40.890Z",
+      "time_utc": "2026-10-16T04:42:40.890000Z",
       "title": {
         "en": "M 4.7 - 95 km SW of Brisas Barra de Suchiate, Mexico",
         "zh": "M 4.7 - 95 km SW of Brisas Barra de Suchiate, Mexico"
@@ -51,13 +51,13 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T05:00:00Z"
+        "fetched_at": "2026-10-16T06:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u2mq",
       "type": "earthquake",
-      "time_utc": "2026-10-16T03:35:31.925Z",
+      "time_utc": "2026-10-16T03:35:31.925000Z",
       "title": {
         "en": "M 6.9 - 76 km NE of Ozernovskiy, Russia",
         "zh": "M 6.9 - 76 km NE of Ozernovskiy, Russia"
@@ -73,13 +73,13 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T05:00:00Z"
+        "fetched_at": "2026-10-16T06:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u2kz",
       "type": "earthquake",
-      "time_utc": "2026-10-15T20:39:25.755Z",
+      "time_utc": "2026-10-15T20:39:25.755000Z",
       "title": {
         "en": "M 4.5 - 44 km SSE of Champerico, Guatemala",
         "zh": "M 4.5 - 44 km SSE of Champerico, Guatemala"
@@ -95,13 +95,13 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T05:00:00Z"
+        "fetched_at": "2026-10-16T06:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u2i9",
       "type": "earthquake",
-      "time_utc": "2026-10-15T15:40:38.840Z",
+      "time_utc": "2026-10-15T15:40:38.840000Z",
       "title": {
         "en": "M 4.5 - 22 km W of Tamarindo, Costa Rica",
         "zh": "M 4.5 - 22 km W of Tamarindo, Costa Rica"
@@ -117,13 +117,13 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T05:00:00Z"
+        "fetched_at": "2026-10-16T06:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u2i2",
       "type": "earthquake",
-      "time_utc": "2026-10-15T14:59:52.905Z",
+      "time_utc": "2026-10-15T14:59:52.905000Z",
       "title": {
         "en": "M 4.9 - 198 km SSE of Vilyuchinsk, Russia",
         "zh": "M 4.9 - 198 km SSE of Vilyuchinsk, Russia"
@@ -139,13 +139,13 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T05:00:00Z"
+        "fetched_at": "2026-10-16T06:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u2ht",
       "type": "earthquake",
-      "time_utc": "2026-10-15T13:31:37.166Z",
+      "time_utc": "2026-10-15T13:31:37.166000Z",
       "title": {
         "en": "M 4.5 - 9 km SSE of Los Asientos, Panama",
         "zh": "M 4.5 - 9 km SSE of Los Asientos, Panama"
@@ -161,13 +161,13 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T05:00:00Z"
+        "fetched_at": "2026-10-16T06:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u2hv",
       "type": "earthquake",
-      "time_utc": "2026-10-15T13:29:31.862Z",
+      "time_utc": "2026-10-15T13:29:31.862000Z",
       "title": {
         "en": "M 5.2 - 107 km NNE of Hihifo, Tonga",
         "zh": "M 5.2 - 107 km NNE of Hihifo, Tonga"
@@ -183,13 +183,13 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T05:00:00Z"
+        "fetched_at": "2026-10-16T06:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u2hr",
       "type": "earthquake",
-      "time_utc": "2026-10-15T13:16:26.373Z",
+      "time_utc": "2026-10-15T13:16:26.373000Z",
       "title": {
         "en": "M 4.7 - 114 km SSW of Nikolski, Alaska",
         "zh": "M 4.7 - 114 km SSW of Nikolski, Alaska"
@@ -205,13 +205,13 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T05:00:00Z"
+        "fetched_at": "2026-10-16T06:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u2hp",
       "type": "earthquake",
-      "time_utc": "2026-10-15T13:06:51.678Z",
+      "time_utc": "2026-10-15T13:06:51.678000Z",
       "title": {
         "en": "M 5.2 - 157 km W of Sola, Vanuatu",
         "zh": "M 5.2 - 157 km W of Sola, Vanuatu"
@@ -227,13 +227,13 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T05:00:00Z"
+        "fetched_at": "2026-10-16T06:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u2gd",
       "type": "earthquake",
-      "time_utc": "2026-10-15T11:16:43.490Z",
+      "time_utc": "2026-10-15T11:16:43.490000Z",
       "title": {
         "en": "M 4.8 - off the coast of Ecuador",
         "zh": "M 4.8 - off the coast of Ecuador"
@@ -249,13 +249,13 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T05:00:00Z"
+        "fetched_at": "2026-10-16T06:00:00Z"
       }
     },
     {
       "id": "usgs-aka2026ukynnb",
       "type": "earthquake",
-      "time_utc": "2026-10-15T11:07:01.800Z",
+      "time_utc": "2026-10-15T11:07:01.800000Z",
       "title": {
         "en": "M 5.6 - 43 km NNW of Lake Minchumina, Alaska",
         "zh": "M 5.6 - 43 km NNW of Lake Minchumina, Alaska"
@@ -271,29 +271,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T05:00:00Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u2ev",
-      "type": "earthquake",
-      "time_utc": "2026-10-15T05:25:31.942Z",
-      "title": {
-        "en": "M 5.3 - 43 km SSE of Otorohanga, New Zealand",
-        "zh": "M 5.3 - 43 km SSE of Otorohanga, New Zealand"
-      },
-      "summary": {
-        "en": "M 5.3 earthquake 43 km SSE of Otorohanga, New Zealand.",
-        "zh": "M 5.3 地震，43 km SSE of Otorohanga, New Zealand。"
-      },
-      "data": {
-        "magnitude": 5.3,
-        "place": "43 km SSE of Otorohanga, New Zealand",
-        "id": "us6000u2ev"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T05:00:00Z"
+        "fetched_at": "2026-10-16T06:00:00Z"
       }
     }
   ]
