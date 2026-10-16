@@ -1,35 +1,57 @@
 {
   "date": "2026-10-16",
-  "updated": "2026-10-16T03:00:00Z",
+  "updated": "2026-10-16T04:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-16T01:00Z",
+      "time_utc": "2026-10-16T02:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 1.00 (1Z) at 01 UTC on 16 October 2026.",
-        "zh": "2026 年 10 月 16 日 01 UTC，估算行星 Kp 為 1.00（1Z）。"
+        "en": "Estimated planetary Kp is 2.33 (2P) at 02 UTC on 16 October 2026.",
+        "zh": "2026 年 10 月 16 日 02 UTC，估算行星 Kp 為 2.33（2P）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 1.00 (1Z) at 2026-10-16T01:00 on 16 October 2026. The 01 hour is complete (60 samples through 01:59; hour-start 1.00/1Z, hour-end 2.33/2P). Last-180 maximum is 3.33. Published-window maximum is 3.33. Window starts 2026-10-15T20:59:00 (357 samples). Next hour 02:00 incomplete (56 samples).",
-        "zh": "最新可靠整點初值：2026-10-16T01:00 估算 Kp 1.00（1Z）。01 時段已收滿（60 筆至 01:59；時段初 1.00／1Z、時段末 2.33／2P）。last-180 最大 3.33。公開窗最大 3.33。窗起點 2026-10-15T20:59:00（357 筆）。下一整點 02:00 未滿（56 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 2.33 (2P) at 2026-10-16T02:00 on 16 October 2026. The 02 hour is complete (60 samples through 02:59; hour-start 2.33/2P, hour-end 3.33/3P). Last-180 maximum is 3.33. Published-window maximum is 3.33. Window starts 2026-10-15T21:58:00 (358 samples). Next hour 03:00 incomplete (56 samples).",
+        "zh": "最新可靠整點初值：2026-10-16T02:00 估算 Kp 2.33（2P）。02 時段已收滿（60 筆至 02:59；時段初 2.33／2P、時段末 3.33／3P）。last-180 最大 3.33。公開窗最大 3.33。窗起點 2026-10-15T21:58:00（358 筆）。下一整點 03:00 未滿（56 筆）。"
       },
       "data": {
-        "estimated_kp": 1.0,
-        "kp": "1Z",
+        "estimated_kp": 2.33,
+        "kp": "2P",
         "hour_complete": true,
-        "hour_start_kp": 1.0,
-        "hour_end_kp": 2.33,
+        "hour_start_kp": 2.33,
+        "hour_end_kp": 3.33,
         "last180_max": 3.33,
         "window_max": 3.33,
-        "window_start": "2026-10-15T20:59:00",
-        "sample_count": 357,
+        "window_start": "2026-10-15T21:58:00",
+        "sample_count": 358,
         "next_hour_incomplete": true,
         "next_hour_count": 56
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-16T03:00:00Z"
+        "fetched_at": "2026-10-16T04:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u2mq",
+      "type": "earthquake",
+      "time_utc": "2026-10-16T03:35:32.661000Z",
+      "title": {
+        "en": "M 6.9 - 76 km NE of Ozernovskiy, Russia",
+        "zh": "M 6.9 - 76 km NE of Ozernovskiy, Russia"
+      },
+      "summary": {
+        "en": "M6.9 earthquake 76 km NE of Ozernovskiy, Russia.",
+        "zh": "M6.9 地震 76 km NE of Ozernovskiy, Russia。"
+      },
+      "data": {
+        "mag": 6.9,
+        "place": "76 km NE of Ozernovskiy, Russia",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2mq"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-16T04:00:00Z"
       }
     },
     {
@@ -51,7 +73,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T03:00:00Z"
+        "fetched_at": "2026-10-16T04:00:00Z"
       }
     },
     {
@@ -73,7 +95,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T03:00:00Z"
+        "fetched_at": "2026-10-16T04:00:00Z"
       }
     },
     {
@@ -95,7 +117,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T03:00:00Z"
+        "fetched_at": "2026-10-16T04:00:00Z"
       }
     },
     {
@@ -117,7 +139,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T03:00:00Z"
+        "fetched_at": "2026-10-16T04:00:00Z"
       }
     },
     {
@@ -139,7 +161,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T03:00:00Z"
+        "fetched_at": "2026-10-16T04:00:00Z"
       }
     },
     {
@@ -161,7 +183,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T03:00:00Z"
+        "fetched_at": "2026-10-16T04:00:00Z"
       }
     },
     {
@@ -183,7 +205,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T03:00:00Z"
+        "fetched_at": "2026-10-16T04:00:00Z"
       }
     },
     {
@@ -205,7 +227,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T03:00:00Z"
+        "fetched_at": "2026-10-16T04:00:00Z"
       }
     },
     {
@@ -227,7 +249,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T03:00:00Z"
+        "fetched_at": "2026-10-16T04:00:00Z"
       }
     },
     {
@@ -249,51 +271,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T03:00:00Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u2ec",
-      "type": "earthquake",
-      "time_utc": "2026-10-15T03:36:29.038000Z",
-      "title": {
-        "en": "M 5.1 - 36 km E of Safotu, Samoa",
-        "zh": "M 5.1 - 36 km E of Safotu, Samoa"
-      },
-      "summary": {
-        "en": "M5.1 earthquake 36 km E of Safotu, Samoa.",
-        "zh": "M5.1 地震 36 km E of Safotu, Samoa。"
-      },
-      "data": {
-        "mag": 5.1,
-        "place": "36 km E of Safotu, Samoa",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2ec"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T03:00:00Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u2eh",
-      "type": "earthquake",
-      "time_utc": "2026-10-15T03:36:08.430000Z",
-      "title": {
-        "en": "M 4.8 - 30 km E of Safotu, Samoa",
-        "zh": "M 4.8 - 30 km E of Safotu, Samoa"
-      },
-      "summary": {
-        "en": "M4.8 earthquake 30 km E of Safotu, Samoa.",
-        "zh": "M4.8 地震 30 km E of Safotu, Samoa。"
-      },
-      "data": {
-        "mag": 4.8,
-        "place": "30 km E of Safotu, Samoa",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2eh"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T03:00:00Z"
+        "fetched_at": "2026-10-16T04:00:00Z"
       }
     }
   ]
