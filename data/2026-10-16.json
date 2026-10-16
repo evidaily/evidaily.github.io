@@ -1,35 +1,57 @@
 {
   "date": "2026-10-16",
-  "updated": "2026-10-16T11:00:00Z",
+  "updated": "2026-10-16T12:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-16T09:00Z",
+      "time_utc": "2026-10-16T10:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.0 (0Z) at 09 UTC on 16 October 2026.",
-        "zh": "2026 年 10 月 16 日 09 UTC，估算行星 Kp 為 0.0（0Z）。"
+        "en": "Estimated planetary Kp is 1.33 (1P) at 10 UTC on 16 October 2026.",
+        "zh": "2026 年 10 月 16 日 10 UTC，估算行星 Kp 為 1.33（1P）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-16T09:00 on 16 October 2026. The 09 hour is complete (60 samples through 09:59; hour-start 0.0/0Z, hour-end 1.33/1P). Last-180 maximum is 1.67. Published-window maximum is 2.0. Window starts 2026-10-16T05:01:00 (358 samples). Next hour 10:00 incomplete (59 samples).",
-        "zh": "最新可靠整點初值：2026-10-16T09:00 估算 Kp 0.0（0Z）。09 時段已收滿（60 筆至 09:59；時段初 0.0／0Z、時段末 1.33／1P）。last-180 最大 1.67。公開窗最大 2.0。窗起點 2026-10-16T05:01:00（358 筆）。下一整點 10:00 未滿（59 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 1.33 (1P) at 2026-10-16T10:00 on 16 October 2026. The 10 hour is complete (60 samples through 10:59; hour-start 1.33/1P, hour-end 1.67/2M). Last-180 maximum is 2.33. Published-window maximum is 2.33. Window starts 2026-10-16T06:00:00 (358 samples). Next hour 11:00 incomplete (58 samples).",
+        "zh": "最新可靠整點初值：2026-10-16T10:00 估算 Kp 1.33（1P）。10 時段已收滿（60 筆至 10:59；時段初 1.33／1P、時段末 1.67／2M）。last-180 最大 2.33。公開窗最大 2.33。窗起點 2026-10-16T06:00:00（358 筆）。下一整點 11:00 未滿（58 筆）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp": "0Z",
+        "estimated_kp": 1.33,
+        "kp": "1P",
         "hour_complete": true,
-        "hour_start_kp": 0.0,
-        "hour_end_kp": 1.33,
-        "last180_max": 1.67,
-        "window_max": 2.0,
-        "window_start": "2026-10-16T05:01:00",
+        "hour_start_kp": 1.33,
+        "hour_end_kp": 1.67,
+        "last180_max": 2.33,
+        "window_max": 2.33,
+        "window_start": "2026-10-16T06:00:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
-        "next_hour_count": 59
+        "next_hour_count": 58
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-16T11:00:00Z"
+        "fetched_at": "2026-10-16T12:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-6000u2ph",
+      "type": "earthquake",
+      "time_utc": "2026-10-16T11:39:44.878000Z",
+      "title": {
+        "en": "M 4.8 - 7 km WSW of Soconusco, Mexico",
+        "zh": "M 4.8 - 7 km WSW of Soconusco, Mexico"
+      },
+      "summary": {
+        "en": "M 4.8 earthquake 7 km WSW of Soconusco, Mexico.",
+        "zh": "M 4.8 地震，7 km WSW of Soconusco, Mexico。"
+      },
+      "data": {
+        "magnitude": 4.8,
+        "place": "7 km WSW of Soconusco, Mexico",
+        "id": "6000u2ph"
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-16T12:00:00Z"
       }
     },
     {
@@ -51,7 +73,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T11:00:00Z"
+        "fetched_at": "2026-10-16T12:00:00Z"
       }
     },
     {
@@ -73,7 +95,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T11:00:00Z"
+        "fetched_at": "2026-10-16T12:00:00Z"
       }
     },
     {
@@ -95,7 +117,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T11:00:00Z"
+        "fetched_at": "2026-10-16T12:00:00Z"
       }
     },
     {
@@ -117,7 +139,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T11:00:00Z"
+        "fetched_at": "2026-10-16T12:00:00Z"
       }
     },
     {
@@ -139,7 +161,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T11:00:00Z"
+        "fetched_at": "2026-10-16T12:00:00Z"
       }
     },
     {
@@ -161,7 +183,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T11:00:00Z"
+        "fetched_at": "2026-10-16T12:00:00Z"
       }
     },
     {
@@ -183,7 +205,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T11:00:00Z"
+        "fetched_at": "2026-10-16T12:00:00Z"
       }
     },
     {
@@ -205,7 +227,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T11:00:00Z"
+        "fetched_at": "2026-10-16T12:00:00Z"
       }
     },
     {
@@ -227,7 +249,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T11:00:00Z"
+        "fetched_at": "2026-10-16T12:00:00Z"
       }
     },
     {
@@ -249,7 +271,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T11:00:00Z"
+        "fetched_at": "2026-10-16T12:00:00Z"
       }
     },
     {
@@ -271,51 +293,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T11:00:00Z"
-      }
-    },
-    {
-      "id": "usgs-6000u2gd",
-      "type": "earthquake",
-      "time_utc": "2026-10-15T11:16:43.490000Z",
-      "title": {
-        "en": "M 4.8 - off the coast of Ecuador",
-        "zh": "M 4.8 - off the coast of Ecuador"
-      },
-      "summary": {
-        "en": "M 4.8 earthquake off the coast of Ecuador.",
-        "zh": "M 4.8 地震，off the coast of Ecuador。"
-      },
-      "data": {
-        "magnitude": 4.8,
-        "place": "off the coast of Ecuador",
-        "id": "6000u2gd"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T11:00:00Z"
-      }
-    },
-    {
-      "id": "usgs-a2026ukynnb",
-      "type": "earthquake",
-      "time_utc": "2026-10-15T11:07:01.800000Z",
-      "title": {
-        "en": "M 5.6 - 43 km NNW of Lake Minchumina, Alaska",
-        "zh": "M 5.6 - 43 km NNW of Lake Minchumina, Alaska"
-      },
-      "summary": {
-        "en": "M 5.6 earthquake 43 km NNW of Lake Minchumina, Alaska.",
-        "zh": "M 5.6 地震，43 km NNW of Lake Minchumina, Alaska。"
-      },
-      "data": {
-        "magnitude": 5.6,
-        "place": "43 km NNW of Lake Minchumina, Alaska",
-        "id": "a2026ukynnb"
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T11:00:00Z"
+        "fetched_at": "2026-10-16T12:00:00Z"
       }
     }
   ]
