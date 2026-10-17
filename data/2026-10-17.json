@@ -1,35 +1,57 @@
 {
   "date": "2026-10-17",
-  "updated": "2026-10-17T05:02:56Z",
+  "updated": "2026-10-17T06:01:38Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-17T03:00Z",
+      "time_utc": "2026-10-17T04:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (0Z) at 03 UTC on 17 October 2026.",
-        "zh": "2026 年 10 月 17 日 03 UTC，估算行星 Kp 為 0.00（0Z）。"
+        "en": "Estimated planetary Kp is 0.67 (1M) at 04 UTC on 17 October 2026.",
+        "zh": "2026 年 10 月 17 日 04 UTC，估算行星 Kp 為 0.67（1M）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 2026-10-17T03:00 on 17 October 2026. The 03 hour is complete (60 samples through 03:59; hour-start 0.00/0Z, hour-end 0.67/1M). Last-180 maximum is 2.00. Published-window maximum is 2.33. Window starts 2026-10-16T23:00:00 (359 samples). Next hour 04:00 incomplete (59 samples).",
-        "zh": "最新可靠整點初值：2026-10-17T03:00 估算 Kp 0.00（0Z）。03 時段已收滿（60 筆至 03:59；時段初 0.00／0Z、時段末 0.67／1M）。last-180 最大 2.00。公開窗最大 2.33。窗起點 2026-10-16T23:00:00（359 筆）。下一整點 04:00 未滿（59 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.67 (1M) at 2026-10-17T04:00 on 17 October 2026. The 04 hour is complete (60 samples through 04:59; hour-start 0.67/1M, hour-end 1.00/1Z). Last-180 maximum is 2.00. Published-window maximum is 2.00. Window starts 2026-10-17T00:00:00 (359 samples). Next hour 05:00 incomplete (59 samples).",
+        "zh": "最新可靠整點初值：2026-10-17T04:00 估算 Kp 0.67（1M）。04 時段已收滿（60 筆至 04:59；時段初 0.67／1M、時段末 1.00／1Z）。last-180 最大 2.00。公開窗最大 2.00。窗起點 2026-10-17T00:00:00（359 筆）。下一整點 05:00 未滿（59 筆）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp": "0Z",
+        "estimated_kp": 0.67,
+        "kp": "1M",
         "hour_complete": true,
-        "hour_start_kp": 0.0,
-        "hour_end_kp": 0.67,
+        "hour_start_kp": 0.67,
+        "hour_end_kp": 1.0,
         "last180_max": 2.0,
-        "window_max": 2.33,
-        "window_start": "2026-10-16T23:00:00",
+        "window_max": 2.0,
+        "window_start": "2026-10-17T00:00:00",
         "sample_count": 359,
         "next_hour_incomplete": true,
         "next_hour_samples": 59
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-17T05:02:56Z"
+        "fetched_at": "2026-10-17T06:01:38Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u2y1",
+      "type": "earthquake",
+      "time_utc": "2026-10-17T05:06:57Z",
+      "title": {
+        "en": "M5.7 - 48 km WNW of Khuzdar, Pakistan",
+        "zh": "M5.7 - 48 km WNW of Khuzdar, Pakistan"
+      },
+      "summary": {
+        "en": "M5.7 earthquake 48 km WNW of Khuzdar, Pakistan at 2026-10-17T05:06:57Z.",
+        "zh": "M5.7 地震，位置 48 km WNW of Khuzdar, Pakistan，時間 2026-10-17T05:06:57Z。"
+      },
+      "data": {
+        "magnitude": 5.7,
+        "place": "48 km WNW of Khuzdar, Pakistan",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2y1"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "fetched_at": "2026-10-17T06:01:38Z"
       }
     },
     {
@@ -51,7 +73,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T05:02:56Z"
+        "fetched_at": "2026-10-17T06:01:38Z"
       }
     },
     {
@@ -73,7 +95,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T05:02:56Z"
+        "fetched_at": "2026-10-17T06:01:38Z"
       }
     },
     {
@@ -95,7 +117,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T05:02:56Z"
+        "fetched_at": "2026-10-17T06:01:38Z"
       }
     },
     {
@@ -117,7 +139,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T05:02:56Z"
+        "fetched_at": "2026-10-17T06:01:38Z"
       }
     },
     {
@@ -139,7 +161,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T05:02:56Z"
+        "fetched_at": "2026-10-17T06:01:38Z"
       }
     },
     {
@@ -161,7 +183,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T05:02:56Z"
+        "fetched_at": "2026-10-17T06:01:38Z"
       }
     },
     {
@@ -183,7 +205,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T05:02:56Z"
+        "fetched_at": "2026-10-17T06:01:38Z"
       }
     },
     {
@@ -205,7 +227,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T05:02:56Z"
+        "fetched_at": "2026-10-17T06:01:38Z"
       }
     },
     {
@@ -227,7 +249,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T05:02:56Z"
+        "fetched_at": "2026-10-17T06:01:38Z"
       }
     },
     {
@@ -249,7 +271,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T05:02:56Z"
+        "fetched_at": "2026-10-17T06:01:38Z"
       }
     },
     {
@@ -271,7 +293,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T05:02:56Z"
+        "fetched_at": "2026-10-17T06:01:38Z"
       }
     },
     {
@@ -293,7 +315,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T05:02:56Z"
+        "fetched_at": "2026-10-17T06:01:38Z"
       }
     },
     {
@@ -315,7 +337,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T05:02:56Z"
+        "fetched_at": "2026-10-17T06:01:38Z"
       }
     },
     {
@@ -337,7 +359,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T05:02:56Z"
+        "fetched_at": "2026-10-17T06:01:38Z"
       }
     },
     {
@@ -359,7 +381,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T05:02:56Z"
+        "fetched_at": "2026-10-17T06:01:38Z"
       }
     },
     {
@@ -381,7 +403,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T05:02:56Z"
+        "fetched_at": "2026-10-17T06:01:38Z"
       }
     },
     {
@@ -403,7 +425,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T05:02:56Z"
+        "fetched_at": "2026-10-17T06:01:38Z"
       }
     }
   ]
