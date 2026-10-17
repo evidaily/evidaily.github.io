@@ -1,35 +1,79 @@
 {
   "date": "2026-10-17",
-  "updated": "2026-10-17T07:01:41Z",
+  "updated": "2026-10-17T08:02:19Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-17T05:00Z",
+      "time_utc": "2026-10-17T06Z",
       "title": {
-        "en": "Estimated planetary Kp is 1.00 (1Z) at 05 UTC on 17 October 2026.",
-        "zh": "2026 年 10 月 17 日 05 UTC，估算行星 Kp 為 1.00（1Z）。"
+        "en": "Estimated planetary Kp is 0.00 (0Z) at 06 UTC on 17 October 2026.",
+        "zh": "2026 年 10 月 17 日 06 UTC，估算行星 Kp 為 0.00（0Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 1.00 (1Z) at 2026-10-17T05:00 on 17 October 2026. The 05 hour is complete (60 samples through 05:59; hour-start 1.00/1Z, hour-end 1.00/1Z). Last-180 maximum is 1.00. Published-window maximum is 2.00. Window starts 2026-10-17T01:00:00 (359 samples). Next hour 06:00 incomplete (59 samples).",
-        "zh": "最新可靠整點初值：2026-10-17T05:00 估算 Kp 1.00（1Z）。05 時段已收滿（60 筆至 05:59；時段初 1.00／1Z、時段末 1.00／1Z）。last-180 最大 1.00。公開窗最大 2.00。窗起點 2026-10-17T01:00:00（359 筆）。下一整點 06:00 未滿（59 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 2026-10-17T06 on 17 October 2026. The 06 hour is complete (60 samples through 06:59; hour-start 0.00/0Z, hour-end 0.00/0Z). Last-180 maximum is 1.00. Published-window maximum is 2.00. Window starts 2026-10-17T02:01:00 (358 samples). Next hour 07:00 incomplete (59 samples).",
+        "zh": "最新可靠整點初值：2026-10-17T06 估算 Kp 0.00（0Z）。06 時段已收滿（60 筆至 06:59；時段初 0.00／0Z、時段末 0.00／0Z）。last-180 最大 1.00。公開窗最大 2.00。窗起點 2026-10-17T02:01:00（358 筆）。下一整點 07:00 未滿（59 筆）。"
       },
       "data": {
-        "estimated_kp": 1.0,
-        "kp": "1Z",
+        "estimated_kp": 0.0,
+        "kp": "0Z",
         "hour_complete": true,
-        "hour_start_kp": 1.0,
-        "hour_end_kp": 1.0,
+        "hour_start_kp": 0.0,
+        "hour_end_kp": 0.0,
         "last180_max": 1.0,
         "window_max": 2.0,
-        "window_start": "2026-10-17T01:00:00",
-        "sample_count": 359,
+        "window_start": "2026-10-17T02:01:00",
+        "sample_count": 358,
         "next_hour_incomplete": true,
         "next_hour_samples": 59
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-17T07:01:41Z"
+        "fetched_at": "2026-10-17T08:02:19Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u2yz",
+      "type": "earthquake",
+      "time_utc": "2026-10-17T07:40:02Z",
+      "title": {
+        "en": "M4.5 - 80 km NW of Sola, Vanuatu",
+        "zh": "M4.5 - 80 km NW of Sola, Vanuatu"
+      },
+      "summary": {
+        "en": "M4.5 earthquake 80 km NW of Sola, Vanuatu at 2026-10-17T07:40:02Z.",
+        "zh": "M4.5 地震，位置 80 km NW of Sola, Vanuatu，時間 2026-10-17T07:40:02Z。"
+      },
+      "data": {
+        "magnitude": 4.5,
+        "place": "80 km NW of Sola, Vanuatu",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2yz"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "fetched_at": "2026-10-17T08:02:19Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u2yw",
+      "type": "earthquake",
+      "time_utc": "2026-10-17T07:20:48Z",
+      "title": {
+        "en": "M4.5 - 59 km NNW of Ruteng, Indonesia",
+        "zh": "M4.5 - 59 km NNW of Ruteng, Indonesia"
+      },
+      "summary": {
+        "en": "M4.5 earthquake 59 km NNW of Ruteng, Indonesia at 2026-10-17T07:20:48Z.",
+        "zh": "M4.5 地震，位置 59 km NNW of Ruteng, Indonesia，時間 2026-10-17T07:20:48Z。"
+      },
+      "data": {
+        "magnitude": 4.5,
+        "place": "59 km NNW of Ruteng, Indonesia",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2yw"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "fetched_at": "2026-10-17T08:02:19Z"
       }
     },
     {
@@ -51,7 +95,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T06:01:38Z"
+        "fetched_at": "2026-10-17T08:02:19Z"
       }
     },
     {
@@ -73,7 +117,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T06:01:38Z"
+        "fetched_at": "2026-10-17T08:02:19Z"
       }
     },
     {
@@ -95,7 +139,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T06:01:38Z"
+        "fetched_at": "2026-10-17T08:02:19Z"
       }
     },
     {
@@ -117,7 +161,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T06:01:38Z"
+        "fetched_at": "2026-10-17T08:02:19Z"
       }
     },
     {
@@ -139,7 +183,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T06:01:38Z"
+        "fetched_at": "2026-10-17T08:02:19Z"
       }
     },
     {
@@ -161,7 +205,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T06:01:38Z"
+        "fetched_at": "2026-10-17T08:02:19Z"
       }
     },
     {
@@ -183,7 +227,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T06:01:38Z"
+        "fetched_at": "2026-10-17T08:02:19Z"
       }
     },
     {
@@ -205,7 +249,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T06:01:38Z"
+        "fetched_at": "2026-10-17T08:02:19Z"
       }
     },
     {
@@ -227,7 +271,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T06:01:38Z"
+        "fetched_at": "2026-10-17T08:02:19Z"
       }
     },
     {
@@ -249,7 +293,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T06:01:38Z"
+        "fetched_at": "2026-10-17T08:02:19Z"
       }
     },
     {
@@ -271,7 +315,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T06:01:38Z"
+        "fetched_at": "2026-10-17T08:02:19Z"
       }
     },
     {
@@ -293,7 +337,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T06:01:38Z"
+        "fetched_at": "2026-10-17T08:02:19Z"
       }
     },
     {
@@ -315,7 +359,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T06:01:38Z"
+        "fetched_at": "2026-10-17T08:02:19Z"
       }
     },
     {
@@ -337,7 +381,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T06:01:38Z"
+        "fetched_at": "2026-10-17T08:02:19Z"
       }
     },
     {
@@ -359,7 +403,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T06:01:38Z"
+        "fetched_at": "2026-10-17T08:02:19Z"
       }
     },
     {
@@ -381,7 +425,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T06:01:38Z"
+        "fetched_at": "2026-10-17T08:02:19Z"
       }
     },
     {
@@ -403,7 +447,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T06:01:38Z"
+        "fetched_at": "2026-10-17T08:02:19Z"
       }
     },
     {
@@ -425,7 +469,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T06:01:38Z"
+        "fetched_at": "2026-10-17T08:02:19Z"
       }
     }
   ]
