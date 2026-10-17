@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "updated": "2026-10-17T00:01:50Z",
+  "updated": "2026-10-17T01:01:33Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
@@ -11,21 +11,21 @@
         "zh": "2026 年 10 月 16 日 23 UTC，估算行星 Kp 為 2.0（2Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 2.0 (2Z) at 2026-10-16T23:00 on 16 October 2026. The 23 hour is complete (60 samples through 23:59; hour-start 2.0/2Z, hour-end 2.67/3M). Last-180 maximum is 2.67. Published-window maximum is 3.67. Window starts 2026-10-16T18:01:00 (359 samples). Next hour 00:00 incomplete (0 samples).",
-        "zh": "最新可靠整點初值：2026-10-16T23:00 估算 Kp 2.0（2Z）。23 時段已收滿（60 筆至 23:59；時段初 2.0／2Z、時段末 2.67／3M）。last-180 最大 2.67。公開窗最大 3.67。窗起點 2026-10-16T18:01:00（359 筆）。下一整點 00:00 未滿（0 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 2.0 (2Z) at 2026-10-16T23:00 on 16 October 2026. The 23 hour is complete (60 samples through 23:59; hour-start 2.0/2Z, hour-end 2.33/2P). Last-180 maximum is 3.67. Published-window maximum is 3.67. Window starts 2026-10-16T19:01:00 (358 samples). Next hour 00:00 incomplete (59 samples).",
+        "zh": "最新可靠整點初值：2026-10-16T23:00 估算 Kp 2.0（2Z）。23 時段已收滿（60 筆至 23:59；時段初 2.0／2Z、時段末 2.33／2P）。last-180 最大 3.67。公開窗最大 3.67。窗起點 2026-10-16T19:01:00（358 筆）。下一整點 00:00 未滿（59 筆）。"
       },
       "data": {
         "estimated_kp": 2.0,
         "kp": "2Z",
         "hour_complete": true,
         "hour_start_kp": 2.0,
-        "hour_end_kp": 2.67,
-        "last180_max": 2.67,
+        "hour_end_kp": 2.33,
+        "last180_max": 3.67,
         "window_max": 3.67,
-        "window_start": "2026-10-16T18:01:00",
-        "sample_count": 359,
+        "window_start": "2026-10-16T19:01:00",
+        "sample_count": 358,
         "next_hour_incomplete": true,
-        "next_hour_count": 0
+        "next_hour_samples": 59
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
@@ -33,355 +33,291 @@
       }
     },
     {
-      "id": "usgs-us6000u2wn",
+      "id": "usgs-us6000u2ww",
       "type": "earthquake",
-      "time_utc": "2026-10-16T22:41:03.562Z",
+      "time_utc": "2026-10-16T23:57:50Z",
       "title": {
-        "en": "M 4.6 - 12 km SSE of Tebario, Panama",
-        "zh": "M 4.6 - 12 km SSE of Tebario, Panama"
+        "en": "M4.6 - 6 km NNE of Sámi, Greece",
+        "zh": "M4.6 - 6 km NNE of Sámi, Greece"
       },
       "summary": {
-        "en": "M 4.6 12 km SSE of Tebario, Panama",
-        "zh": "M 4.6 12 km SSE of Tebario, Panama"
+        "en": "Magnitude 4.6 earthquake at 6 km NNE of Sámi, Greece.",
+        "zh": "規模 4.6 地震，地點 6 km NNE of Sámi, Greece。"
+      },
+      "data": {
+        "mag": 4.6,
+        "place": "6 km NNE of Sámi, Greece",
+        "id": "us6000u2ww"
+      }
+    },
+    {
+      "id": "usgs-us6000u2wn",
+      "type": "earthquake",
+      "time_utc": "2026-10-16T22:41:03Z",
+      "title": {
+        "en": "M4.6 - 12 km SSE of Tebario, Panama",
+        "zh": "M4.6 - 12 km SSE of Tebario, Panama"
+      },
+      "summary": {
+        "en": "Magnitude 4.6 earthquake at 12 km SSE of Tebario, Panama.",
+        "zh": "規模 4.6 地震，地點 12 km SSE of Tebario, Panama。"
       },
       "data": {
         "mag": 4.6,
         "place": "12 km SSE of Tebario, Panama",
-        "depth": 10
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-17T00:01:50Z"
+        "id": "us6000u2wn"
       }
     },
     {
       "id": "usgs-us6000u2w9",
       "type": "earthquake",
-      "time_utc": "2026-10-16T21:30:26.101Z",
+      "time_utc": "2026-10-16T21:30:26Z",
       "title": {
-        "en": "M 4.5 - 70 km NNE of Mīnāb, Iran",
-        "zh": "M 4.5 - 70 km NNE of Mīnāb, Iran"
+        "en": "M4.5 - 70 km NNE of Mīnāb, Iran",
+        "zh": "M4.5 - 70 km NNE of Mīnāb, Iran"
       },
       "summary": {
-        "en": "M 4.5 70 km NNE of Mīnāb, Iran",
-        "zh": "M 4.5 70 km NNE of Mīnāb, Iran"
+        "en": "Magnitude 4.5 earthquake at 70 km NNE of Mīnāb, Iran.",
+        "zh": "規模 4.5 地震，地點 70 km NNE of Mīnāb, Iran。"
       },
       "data": {
         "mag": 4.5,
         "place": "70 km NNE of Mīnāb, Iran",
-        "depth": 10
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-17T00:01:50Z"
+        "id": "us6000u2w9"
       }
     },
     {
       "id": "usgs-us6000u2w7",
       "type": "earthquake",
-      "time_utc": "2026-10-16T21:26:37.613Z",
+      "time_utc": "2026-10-16T21:26:37Z",
       "title": {
-        "en": "M 4.5 - south of the Fiji Islands",
-        "zh": "M 4.5 - south of the Fiji Islands"
+        "en": "M4.5 - south of the Fiji Islands",
+        "zh": "M4.5 - south of the Fiji Islands"
       },
       "summary": {
-        "en": "M 4.5 south of the Fiji Islands",
-        "zh": "M 4.5 south of the Fiji Islands"
+        "en": "Magnitude 4.5 earthquake at south of the Fiji Islands.",
+        "zh": "規模 4.5 地震，地點 south of the Fiji Islands。"
       },
       "data": {
         "mag": 4.5,
         "place": "south of the Fiji Islands",
-        "depth": 10
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-17T00:01:50Z"
+        "id": "us6000u2w7"
       }
     },
     {
       "id": "usgs-us6000u2v8",
       "type": "earthquake",
-      "time_utc": "2026-10-16T19:34:10.597Z",
+      "time_utc": "2026-10-16T19:34:10Z",
       "title": {
-        "en": "M 5.2 - off the coast of Ecuador",
-        "zh": "M 5.2 - off the coast of Ecuador"
+        "en": "M5.2 - off the coast of Ecuador",
+        "zh": "M5.2 - off the coast of Ecuador"
       },
       "summary": {
-        "en": "M 5.2 off the coast of Ecuador",
-        "zh": "M 5.2 off the coast of Ecuador"
+        "en": "Magnitude 5.2 earthquake at off the coast of Ecuador.",
+        "zh": "規模 5.2 地震，地點 off the coast of Ecuador。"
       },
       "data": {
         "mag": 5.2,
         "place": "off the coast of Ecuador",
-        "depth": 10
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-17T00:01:50Z"
+        "id": "us6000u2v8"
       }
     },
     {
       "id": "usgs-us6000u2qn",
       "type": "earthquake",
-      "time_utc": "2026-10-16T16:17:25.793Z",
+      "time_utc": "2026-10-16T16:17:25Z",
       "title": {
-        "en": "M 4.6 - 41 km NNE of Kilimatinde, Tanzania",
-        "zh": "M 4.6 - 41 km NNE of Kilimatinde, Tanzania"
+        "en": "M4.6 - 41 km NNE of Kilimatinde, Tanzania",
+        "zh": "M4.6 - 41 km NNE of Kilimatinde, Tanzania"
       },
       "summary": {
-        "en": "M 4.6 41 km NNE of Kilimatinde, Tanzania",
-        "zh": "M 4.6 41 km NNE of Kilimatinde, Tanzania"
+        "en": "Magnitude 4.6 earthquake at 41 km NNE of Kilimatinde, Tanzania.",
+        "zh": "規模 4.6 地震，地點 41 km NNE of Kilimatinde, Tanzania。"
       },
       "data": {
         "mag": 4.6,
         "place": "41 km NNE of Kilimatinde, Tanzania",
-        "depth": 10
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-17T00:01:50Z"
+        "id": "us6000u2qn"
       }
     },
     {
       "id": "usgs-us6000u2qf",
       "type": "earthquake",
-      "time_utc": "2026-10-16T15:08:47.528Z",
+      "time_utc": "2026-10-16T15:08:47Z",
       "title": {
-        "en": "M 4.7 - 186 km SSE of Vilyuchinsk, Russia",
-        "zh": "M 4.7 - 186 km SSE of Vilyuchinsk, Russia"
+        "en": "M4.7 - 186 km SSE of Vilyuchinsk, Russia",
+        "zh": "M4.7 - 186 km SSE of Vilyuchinsk, Russia"
       },
       "summary": {
-        "en": "M 4.7 186 km SSE of Vilyuchinsk, Russia",
-        "zh": "M 4.7 186 km SSE of Vilyuchinsk, Russia"
+        "en": "Magnitude 4.7 earthquake at 186 km SSE of Vilyuchinsk, Russia.",
+        "zh": "規模 4.7 地震，地點 186 km SSE of Vilyuchinsk, Russia。"
       },
       "data": {
         "mag": 4.7,
         "place": "186 km SSE of Vilyuchinsk, Russia",
-        "depth": 10
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-17T00:01:50Z"
+        "id": "us6000u2qf"
       }
     },
     {
       "id": "usgs-us6000u2qd",
       "type": "earthquake",
-      "time_utc": "2026-10-16T15:06:34.084Z",
+      "time_utc": "2026-10-16T15:06:34Z",
       "title": {
-        "en": "M 4.6 - 153 km W of Neiafu, Tonga",
-        "zh": "M 4.6 - 153 km W of Neiafu, Tonga"
+        "en": "M4.6 - 153 km W of Neiafu, Tonga",
+        "zh": "M4.6 - 153 km W of Neiafu, Tonga"
       },
       "summary": {
-        "en": "M 4.6 153 km W of Neiafu, Tonga",
-        "zh": "M 4.6 153 km W of Neiafu, Tonga"
+        "en": "Magnitude 4.6 earthquake at 153 km W of Neiafu, Tonga.",
+        "zh": "規模 4.6 地震，地點 153 km W of Neiafu, Tonga。"
       },
       "data": {
         "mag": 4.6,
         "place": "153 km W of Neiafu, Tonga",
-        "depth": 10
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-17T00:01:50Z"
+        "id": "us6000u2qd"
       }
     },
     {
       "id": "usgs-us6000u2q5",
       "type": "earthquake",
-      "time_utc": "2026-10-16T14:09:54.288Z",
+      "time_utc": "2026-10-16T14:09:54Z",
       "title": {
-        "en": "M 5 - Auckland Islands, New Zealand region",
-        "zh": "M 5 - Auckland Islands, New Zealand region"
+        "en": "M5 - Auckland Islands, New Zealand region",
+        "zh": "M5 - Auckland Islands, New Zealand region"
       },
       "summary": {
-        "en": "M 5 Auckland Islands, New Zealand region",
-        "zh": "M 5 Auckland Islands, New Zealand region"
+        "en": "Magnitude 5 earthquake at Auckland Islands, New Zealand region.",
+        "zh": "規模 5 地震，地點 Auckland Islands, New Zealand region。"
       },
       "data": {
         "mag": 5,
         "place": "Auckland Islands, New Zealand region",
-        "depth": 10
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-17T00:01:50Z"
+        "id": "us6000u2q5"
       }
     },
     {
       "id": "usgs-us6000u2pw",
       "type": "earthquake",
-      "time_utc": "2026-10-16T13:02:41.211Z",
+      "time_utc": "2026-10-16T13:02:41Z",
       "title": {
-        "en": "M 4.5 - 51 km ESE of Juradó, Colombia",
-        "zh": "M 4.5 - 51 km ESE of Juradó, Colombia"
+        "en": "M4.5 - 51 km ESE of Juradó, Colombia",
+        "zh": "M4.5 - 51 km ESE of Juradó, Colombia"
       },
       "summary": {
-        "en": "M 4.5 51 km ESE of Juradó, Colombia",
-        "zh": "M 4.5 51 km ESE of Juradó, Colombia"
+        "en": "Magnitude 4.5 earthquake at 51 km ESE of Juradó, Colombia.",
+        "zh": "規模 4.5 地震，地點 51 km ESE of Juradó, Colombia。"
       },
       "data": {
         "mag": 4.5,
         "place": "51 km ESE of Juradó, Colombia",
-        "depth": 10
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-17T00:01:50Z"
+        "id": "us6000u2pw"
       }
     },
     {
       "id": "usgs-us6000u2pp",
       "type": "earthquake",
-      "time_utc": "2026-10-16T12:18:25.421Z",
+      "time_utc": "2026-10-16T12:18:25Z",
       "title": {
-        "en": "M 4.7 - 10 km SE of Lamitan, Philippines",
-        "zh": "M 4.7 - 10 km SE of Lamitan, Philippines"
+        "en": "M4.7 - 10 km SE of Lamitan, Philippines",
+        "zh": "M4.7 - 10 km SE of Lamitan, Philippines"
       },
       "summary": {
-        "en": "M 4.7 10 km SE of Lamitan, Philippines",
-        "zh": "M 4.7 10 km SE of Lamitan, Philippines"
+        "en": "Magnitude 4.7 earthquake at 10 km SE of Lamitan, Philippines.",
+        "zh": "規模 4.7 地震，地點 10 km SE of Lamitan, Philippines。"
       },
       "data": {
         "mag": 4.7,
         "place": "10 km SE of Lamitan, Philippines",
-        "depth": 10
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-17T00:01:50Z"
+        "id": "us6000u2pp"
       }
     },
     {
       "id": "usgs-us6000u2pl",
       "type": "earthquake",
-      "time_utc": "2026-10-16T11:57:19.839Z",
+      "time_utc": "2026-10-16T11:57:19Z",
       "title": {
-        "en": "M 4.9 - 119 km SSW of Merizo Village, Guam",
-        "zh": "M 4.9 - 119 km SSW of Merizo Village, Guam"
+        "en": "M4.9 - 119 km SSW of Merizo Village, Guam",
+        "zh": "M4.9 - 119 km SSW of Merizo Village, Guam"
       },
       "summary": {
-        "en": "M 4.9 119 km SSW of Merizo Village, Guam",
-        "zh": "M 4.9 119 km SSW of Merizo Village, Guam"
+        "en": "Magnitude 4.9 earthquake at 119 km SSW of Merizo Village, Guam.",
+        "zh": "規模 4.9 地震，地點 119 km SSW of Merizo Village, Guam。"
       },
       "data": {
         "mag": 4.9,
         "place": "119 km SSW of Merizo Village, Guam",
-        "depth": 10
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-17T00:01:50Z"
+        "id": "us6000u2pl"
       }
     },
     {
       "id": "usgs-us6000u2ph",
       "type": "earthquake",
-      "time_utc": "2026-10-16T11:39:44.878Z",
+      "time_utc": "2026-10-16T11:39:44Z",
       "title": {
-        "en": "M 4.8 - 7 km WSW of Soconusco, Mexico",
-        "zh": "M 4.8 - 7 km WSW of Soconusco, Mexico"
+        "en": "M4.8 - 7 km WSW of Soconusco, Mexico",
+        "zh": "M4.8 - 7 km WSW of Soconusco, Mexico"
       },
       "summary": {
-        "en": "M 4.8 7 km WSW of Soconusco, Mexico",
-        "zh": "M 4.8 7 km WSW of Soconusco, Mexico"
+        "en": "Magnitude 4.8 earthquake at 7 km WSW of Soconusco, Mexico.",
+        "zh": "規模 4.8 地震，地點 7 km WSW of Soconusco, Mexico。"
       },
       "data": {
         "mag": 4.8,
         "place": "7 km WSW of Soconusco, Mexico",
-        "depth": 10
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-17T00:01:50Z"
+        "id": "us6000u2ph"
       }
     },
     {
       "id": "usgs-us6000u2p2",
       "type": "earthquake",
-      "time_utc": "2026-10-16T09:13:44.909Z",
+      "time_utc": "2026-10-16T09:13:44Z",
       "title": {
-        "en": "M 4.9 - 31 km ENE of Kinablangan, Philippines",
-        "zh": "M 4.9 - 31 km ENE of Kinablangan, Philippines"
+        "en": "M4.9 - 31 km ENE of Kinablangan, Philippines",
+        "zh": "M4.9 - 31 km ENE of Kinablangan, Philippines"
       },
       "summary": {
-        "en": "M 4.9 31 km ENE of Kinablangan, Philippines",
-        "zh": "M 4.9 31 km ENE of Kinablangan, Philippines"
+        "en": "Magnitude 4.9 earthquake at 31 km ENE of Kinablangan, Philippines.",
+        "zh": "規模 4.9 地震，地點 31 km ENE of Kinablangan, Philippines。"
       },
       "data": {
         "mag": 4.9,
         "place": "31 km ENE of Kinablangan, Philippines",
-        "depth": 10
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-17T00:01:50Z"
+        "id": "us6000u2p2"
       }
     },
     {
       "id": "usgs-us6000u2p5",
       "type": "earthquake",
-      "time_utc": "2026-10-16T09:04:28.861Z",
+      "time_utc": "2026-10-16T09:04:28Z",
       "title": {
-        "en": "M 4.8 - southern East Pacific Rise",
-        "zh": "M 4.8 - southern East Pacific Rise"
+        "en": "M4.8 - southern East Pacific Rise",
+        "zh": "M4.8 - southern East Pacific Rise"
       },
       "summary": {
-        "en": "M 4.8 southern East Pacific Rise",
-        "zh": "M 4.8 southern East Pacific Rise"
+        "en": "Magnitude 4.8 earthquake at southern East Pacific Rise.",
+        "zh": "規模 4.8 地震，地點 southern East Pacific Rise。"
       },
       "data": {
         "mag": 4.8,
         "place": "southern East Pacific Rise",
-        "depth": 10
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-17T00:01:50Z"
+        "id": "us6000u2p5"
       }
     },
     {
       "id": "usgs-us6000u2n4",
       "type": "earthquake",
-      "time_utc": "2026-10-16T04:42:40.890Z",
+      "time_utc": "2026-10-16T04:42:40Z",
       "title": {
-        "en": "M 4.7 - 95 km SW of Brisas Barra de Suchiate, Mexico",
-        "zh": "M 4.7 - 95 km SW of Brisas Barra de Suchiate, Mexico"
+        "en": "M4.7 - 95 km SW of Brisas Barra de Suchiate, Mexico",
+        "zh": "M4.7 - 95 km SW of Brisas Barra de Suchiate, Mexico"
       },
       "summary": {
-        "en": "M 4.7 95 km SW of Brisas Barra de Suchiate, Mexico",
-        "zh": "M 4.7 95 km SW of Brisas Barra de Suchiate, Mexico"
+        "en": "Magnitude 4.7 earthquake at 95 km SW of Brisas Barra de Suchiate, Mexico.",
+        "zh": "規模 4.7 地震，地點 95 km SW of Brisas Barra de Suchiate, Mexico。"
       },
       "data": {
         "mag": 4.7,
         "place": "95 km SW of Brisas Barra de Suchiate, Mexico",
-        "depth": 10
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-17T00:01:50Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u2mq",
-      "type": "earthquake",
-      "time_utc": "2026-10-16T03:35:31.925Z",
-      "title": {
-        "en": "M 6.9 - 76 km NE of Ozernovskiy, Russia",
-        "zh": "M 6.9 - 76 km NE of Ozernovskiy, Russia"
-      },
-      "summary": {
-        "en": "M 6.9 76 km NE of Ozernovskiy, Russia",
-        "zh": "M 6.9 76 km NE of Ozernovskiy, Russia"
-      },
-      "data": {
-        "mag": 6.9,
-        "place": "76 km NE of Ozernovskiy, Russia",
-        "depth": 10
-      },
-      "evidence": {
-        "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-17T00:01:50Z"
+        "id": "us6000u2n4"
       }
     }
   ]
