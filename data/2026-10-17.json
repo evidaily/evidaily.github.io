@@ -1,37 +1,37 @@
 {
   "date": "2026-10-17",
-  "updated": "2026-10-17T21:05:00Z",
+  "updated": "2026-10-17T22:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-17T19Z",
+      "time_utc": "2026-10-17T20Z",
       "title": {
-        "en": "Estimated planetary Kp is 2.33 (2P) at 19 UTC on 17 October 2026.",
-        "zh": "2026 年 10 月 17 日 19 UTC，估算行星 Kp 為 2.33（2P）。"
+        "en": "Estimated planetary Kp is 3.33 (3P) at 20 UTC on 17 October 2026.",
+        "zh": "2026 年 10 月 17 日 20 UTC，估計行星 Kp 為 3.33（3P）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 2.33 (2P) at 2026-10-17T19 on 17 October 2026. The 19 hour is complete (60 samples through 19:59; hour-start 2.33/2P, hour-end 3.00/3Z). Last-180 maximum is 3.33. Published-window maximum is 3.33. Window starts 2026-10-17T15:00:00 (357 samples). Next hour 20:00 incomplete (57 samples).",
-        "zh": "最新可靠整點初值：2026-10-17T19 估算 Kp 2.33（2P）。19 時段已收滿（60 筆至 19:59；時段初 2.33／2P、時段末 3.00／3Z）。last-180 最大 3.33。公開窗最大 3.33。窗起點 2026-10-17T15:00:00（357 筆）。下一整點 20:00 未滿（57 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 3.33 (3P) at 2026-10-17T20 on 17 October 2026. The 20 hour is complete (60 samples through 20:59; hour-start 3.33/3P, hour-end 3.0/3Z). Last-180 maximum is 3.33. Published-window maximum is 3.33. Window starts 2026-10-17T16:01:00 (358 samples). Next hour 21:00 incomplete (59 samples).",
+        "zh": "最新可靠整點初值：2026-10-17T20 估計 Kp 3.33（3P）。20 時段已收滿（60 筆至 20:59；時段初 3.33／3P、時段末 3.0／3Z）。last-180 最大 3.33。公開窗最大 3.33。窗起點 2026-10-17T16:01:00（358 筆）。下一整點 21:00 未滿（59 筆）。"
       },
       "data": {
-        "estimated_kp": 2.33,
-        "kp": "2P",
+        "estimated_kp": 3.33,
+        "kp": "3P",
         "hour_complete": true,
-        "hour_start_kp": 2.33,
+        "hour_start_kp": 3.33,
         "hour_end_kp": 3.0,
         "last180_max": 3.33,
         "window_max": 3.33,
-        "window_start": "2026-10-17T15:00:00",
-        "sample_count": 357,
+        "window_start": "2026-10-17T16:01:00",
+        "sample_count": 358,
         "next_hour_incomplete": true,
-        "next_hour_samples": 57
+        "next_hour_samples": 59
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-17T21:05:00Z"
+        "fetched_at": "2026-10-17T22:00:00Z"
       }
     },
     {
@@ -55,7 +55,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T21:05:00Z"
+        "fetched_at": "2026-10-17T22:00:00Z"
       }
     },
     {
@@ -79,7 +79,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T21:05:00Z"
+        "fetched_at": "2026-10-17T22:00:00Z"
       }
     },
     {
@@ -103,7 +103,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T21:05:00Z"
+        "fetched_at": "2026-10-17T22:00:00Z"
       }
     },
     {
@@ -127,7 +127,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T21:05:00Z"
+        "fetched_at": "2026-10-17T22:00:00Z"
       }
     },
     {
@@ -151,7 +151,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T21:05:00Z"
+        "fetched_at": "2026-10-17T22:00:00Z"
       }
     },
     {
@@ -175,7 +175,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T21:05:00Z"
+        "fetched_at": "2026-10-17T22:00:00Z"
       }
     },
     {
@@ -199,7 +199,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T21:05:00Z"
+        "fetched_at": "2026-10-17T22:00:00Z"
       }
     },
     {
@@ -223,7 +223,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T21:05:00Z"
+        "fetched_at": "2026-10-17T22:00:00Z"
       }
     },
     {
@@ -247,7 +247,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T21:05:00Z"
+        "fetched_at": "2026-10-17T22:00:00Z"
       }
     },
     {
@@ -271,7 +271,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T21:05:00Z"
+        "fetched_at": "2026-10-17T22:00:00Z"
       }
     },
     {
@@ -295,55 +295,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T21:05:00Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u2w9",
-      "type": "earthquake",
-      "time_utc": "2026-10-16T21:30:26Z",
-      "title": {
-        "en": "M 4.5 - 70 km NNE of Mīnāb, Iran",
-        "zh": "M 4.5 - 70 km NNE of Mīnāb, Iran"
-      },
-      "summary": {
-        "en": "M4.5 earthquake 70 km NNE of Mīnāb, Iran at 2026-10-16T21:30:26Z.",
-        "zh": "M4.5 地震，位置 70 km NNE of Mīnāb, Iran，時間 2026-10-16T21:30:26Z。"
-      },
-      "data": {
-        "magnitude": 4.5,
-        "place": "70 km NNE of Mīnāb, Iran",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2w9"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T21:05:00Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u2w7",
-      "type": "earthquake",
-      "time_utc": "2026-10-16T21:26:37Z",
-      "title": {
-        "en": "M 4.5 - south of the Fiji Islands",
-        "zh": "M 4.5 - south of the Fiji Islands"
-      },
-      "summary": {
-        "en": "M4.5 earthquake south of the Fiji Islands at 2026-10-16T21:26:37Z.",
-        "zh": "M4.5 地震，位置 south of the Fiji Islands，時間 2026-10-16T21:26:37Z。"
-      },
-      "data": {
-        "magnitude": 4.5,
-        "place": "south of the Fiji Islands",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2w7"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T21:05:00Z"
+        "fetched_at": "2026-10-17T22:00:00Z"
       }
     }
   ]
