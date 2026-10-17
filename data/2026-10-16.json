@@ -1,35 +1,35 @@
 {
   "date": "2026-10-16",
-  "updated": "2026-10-16T23:03:19Z",
+  "updated": "2026-10-17T00:01:50Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-16T21:00Z",
+      "time_utc": "2026-10-16T23:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.0 (0Z) at 21 UTC on 16 October 2026.",
-        "zh": "2026 年 10 月 16 日 21 UTC，估算行星 Kp 為 0.0（0Z）。"
+        "en": "Estimated planetary Kp is 2.0 (2Z) at 23 UTC on 16 October 2026.",
+        "zh": "2026 年 10 月 16 日 23 UTC，估算行星 Kp 為 2.0（2Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-16T21:00 on 16 October 2026. The 21 hour is complete (60 samples through 21:59; hour-start 0.0/0Z, hour-end 2.0/2Z). Last-180 maximum is 3.67. Published-window maximum is 3.67. Window starts 2026-10-16T17:02:00 (358 samples). Next hour 22:00 incomplete (60 samples).",
-        "zh": "最新可靠整點初值：2026-10-16T21:00 估算 Kp 0.0（0Z）。21 時段已收滿（60 筆至 21:59；時段初 0.0／0Z、時段末 2.0／2Z）。last-180 最大 3.67。公開窗最大 3.67。窗起點 2026-10-16T17:02:00（358 筆）。下一整點 22:00 未滿（60 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 2.0 (2Z) at 2026-10-16T23:00 on 16 October 2026. The 23 hour is complete (60 samples through 23:59; hour-start 2.0/2Z, hour-end 2.67/3M). Last-180 maximum is 2.67. Published-window maximum is 3.67. Window starts 2026-10-16T18:01:00 (359 samples). Next hour 00:00 incomplete (0 samples).",
+        "zh": "最新可靠整點初值：2026-10-16T23:00 估算 Kp 2.0（2Z）。23 時段已收滿（60 筆至 23:59；時段初 2.0／2Z、時段末 2.67／3M）。last-180 最大 2.67。公開窗最大 3.67。窗起點 2026-10-16T18:01:00（359 筆）。下一整點 00:00 未滿（0 筆）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp": "0Z",
+        "estimated_kp": 2.0,
+        "kp": "2Z",
         "hour_complete": true,
-        "hour_start_kp": 0.0,
-        "hour_end_kp": 2.0,
-        "last180_max": 3.67,
+        "hour_start_kp": 2.0,
+        "hour_end_kp": 2.67,
+        "last180_max": 2.67,
         "window_max": 3.67,
-        "window_start": "2026-10-16T17:02:00",
-        "sample_count": 358,
+        "window_start": "2026-10-16T18:01:00",
+        "sample_count": 359,
         "next_hour_incomplete": true,
-        "next_hour_count": 60
+        "next_hour_count": 0
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-16T23:03:19Z"
+        "fetched_at": "2026-10-17T00:01:50Z"
       }
     },
     {
@@ -51,7 +51,51 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T23:03:19Z"
+        "fetched_at": "2026-10-17T00:01:50Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u2w9",
+      "type": "earthquake",
+      "time_utc": "2026-10-16T21:30:26.101Z",
+      "title": {
+        "en": "M 4.5 - 70 km NNE of Mīnāb, Iran",
+        "zh": "M 4.5 - 70 km NNE of Mīnāb, Iran"
+      },
+      "summary": {
+        "en": "M 4.5 70 km NNE of Mīnāb, Iran",
+        "zh": "M 4.5 70 km NNE of Mīnāb, Iran"
+      },
+      "data": {
+        "mag": 4.5,
+        "place": "70 km NNE of Mīnāb, Iran",
+        "depth": 10
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-17T00:01:50Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u2w7",
+      "type": "earthquake",
+      "time_utc": "2026-10-16T21:26:37.613Z",
+      "title": {
+        "en": "M 4.5 - south of the Fiji Islands",
+        "zh": "M 4.5 - south of the Fiji Islands"
+      },
+      "summary": {
+        "en": "M 4.5 south of the Fiji Islands",
+        "zh": "M 4.5 south of the Fiji Islands"
+      },
+      "data": {
+        "mag": 4.5,
+        "place": "south of the Fiji Islands",
+        "depth": 10
+      },
+      "evidence": {
+        "source": "USGS 4.5_day.geojson",
+        "fetched_at": "2026-10-17T00:01:50Z"
       }
     },
     {
@@ -73,7 +117,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T23:03:19Z"
+        "fetched_at": "2026-10-17T00:01:50Z"
       }
     },
     {
@@ -95,7 +139,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T23:03:19Z"
+        "fetched_at": "2026-10-17T00:01:50Z"
       }
     },
     {
@@ -117,7 +161,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T23:03:19Z"
+        "fetched_at": "2026-10-17T00:01:50Z"
       }
     },
     {
@@ -135,11 +179,11 @@
       "data": {
         "mag": 4.6,
         "place": "153 km W of Neiafu, Tonga",
-        "depth": 247.722
+        "depth": 10
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T23:03:19Z"
+        "fetched_at": "2026-10-17T00:01:50Z"
       }
     },
     {
@@ -161,7 +205,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T23:03:19Z"
+        "fetched_at": "2026-10-17T00:01:50Z"
       }
     },
     {
@@ -179,11 +223,11 @@
       "data": {
         "mag": 4.5,
         "place": "51 km ESE of Juradó, Colombia",
-        "depth": 25.867
+        "depth": 10
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T23:03:19Z"
+        "fetched_at": "2026-10-17T00:01:50Z"
       }
     },
     {
@@ -205,7 +249,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T23:03:19Z"
+        "fetched_at": "2026-10-17T00:01:50Z"
       }
     },
     {
@@ -227,7 +271,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T23:03:19Z"
+        "fetched_at": "2026-10-17T00:01:50Z"
       }
     },
     {
@@ -245,11 +289,11 @@
       "data": {
         "mag": 4.8,
         "place": "7 km WSW of Soconusco, Mexico",
-        "depth": 108.908
+        "depth": 10
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T23:03:19Z"
+        "fetched_at": "2026-10-17T00:01:50Z"
       }
     },
     {
@@ -267,11 +311,11 @@
       "data": {
         "mag": 4.9,
         "place": "31 km ENE of Kinablangan, Philippines",
-        "depth": 73.712
+        "depth": 10
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T23:03:19Z"
+        "fetched_at": "2026-10-17T00:01:50Z"
       }
     },
     {
@@ -293,7 +337,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T23:03:19Z"
+        "fetched_at": "2026-10-17T00:01:50Z"
       }
     },
     {
@@ -315,7 +359,7 @@
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T23:03:19Z"
+        "fetched_at": "2026-10-17T00:01:50Z"
       }
     },
     {
@@ -333,11 +377,11 @@
       "data": {
         "mag": 6.9,
         "place": "76 km NE of Ozernovskiy, Russia",
-        "depth": 135
+        "depth": 10
       },
       "evidence": {
         "source": "USGS 4.5_day.geojson",
-        "fetched_at": "2026-10-16T23:03:19Z"
+        "fetched_at": "2026-10-17T00:01:50Z"
       }
     }
   ]
