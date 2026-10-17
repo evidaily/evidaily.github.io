@@ -1,37 +1,37 @@
 {
   "date": "2026-10-17",
-  "updated": "2026-10-17T16:02:19Z",
+  "updated": "2026-10-17T17:01:48Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-17T14Z",
+      "time_utc": "2026-10-17T15Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.33 (0P) at 14 UTC on 17 October 2026.",
-        "zh": "2026 年 10 月 17 日 14 UTC，估算行星 Kp 為 0.33（0P）。"
+        "en": "Estimated planetary Kp is 0.00 (0Z) at 15 UTC on 17 October 2026.",
+        "zh": "2026 年 10 月 17 日 15 UTC，估算行星 Kp 為 0.00（0Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.33 (0P) at 2026-10-17T14 on 17 October 2026. The 14 hour is complete (60 samples through 14:59; hour-start 0.33/0P, hour-end 0.67/1M). Last-180 maximum is 1.33. Published-window maximum is 1.33. Window starts 2026-10-17T10:00:00 (358 samples). Next hour 15:00 incomplete (58 samples).",
-        "zh": "最新可靠整點初值：2026-10-17T14 估算 Kp 0.33（0P）。14 時段已收滿（60 筆至 14:59；時段初 0.33／0P、時段末 0.67／1M）。last-180 最大 1.33。公開窗最大 1.33。窗起點 2026-10-17T10:00:00（358 筆）。下一整點 15:00 未滿（58 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 2026-10-17T15 on 17 October 2026. The 15 hour is complete (60 samples through 15:59; hour-start 0.00/0Z, hour-end 1.33/1P). Last-180 maximum is 2.67. Published-window maximum is 2.67. Window starts 2026-10-17T11:01:00 (358 samples). Next hour 16:00 incomplete (59 samples).",
+        "zh": "最新可靠整點初值：2026-10-17T15 估算 Kp 0.00（0Z）。15 時段已收滿（60 筆至 15:59；時段初 0.00／0Z、時段末 1.33／1P）。last-180 最大 2.67。公開窗最大 2.67。窗起點 2026-10-17T11:01:00（358 筆）。下一整點 16:00 未滿（59 筆）。"
       },
       "data": {
-        "estimated_kp": 0.33,
-        "kp": "0P",
+        "estimated_kp": 0.0,
+        "kp": "0Z",
         "hour_complete": true,
-        "hour_start_kp": 0.33,
-        "hour_end_kp": 0.67,
-        "last180_max": 1.33,
-        "window_max": 1.33,
-        "window_start": "2026-10-17T10:00:00",
+        "hour_start_kp": 0.0,
+        "hour_end_kp": 1.33,
+        "last180_max": 2.67,
+        "window_max": 2.67,
+        "window_start": "2026-10-17T11:01:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
-        "next_hour_samples": 58
+        "next_hour_samples": 59
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-17T16:02:19Z"
+        "fetched_at": "2026-10-17T17:01:48Z"
       }
     },
     {
@@ -39,8 +39,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-17T13:59:34Z",
       "title": {
-        "en": "M5.2 - 86 km SW of Brisas Barra de Suchiate, Mexico",
-        "zh": "M5.2 - 86 km SW of Brisas Barra de Suchiate, Mexico"
+        "en": "M 5.2 - 86 km SW of Brisas Barra de Suchiate, Mexico",
+        "zh": "M 5.2 - 86 km SW of Brisas Barra de Suchiate, Mexico"
       },
       "summary": {
         "en": "M5.2 earthquake 86 km SW of Brisas Barra de Suchiate, Mexico at 2026-10-17T13:59:34Z.",
@@ -55,7 +55,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T16:02:19Z"
+        "fetched_at": "2026-10-17T17:01:48Z"
       }
     },
     {
@@ -63,8 +63,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-17T09:07:40Z",
       "title": {
-        "en": "M4.6 - 51 km N of Pante Makasar, Timor Leste",
-        "zh": "M4.6 - 51 km N of Pante Makasar, Timor Leste"
+        "en": "M 4.6 - 51 km N of Pante Makasar, Timor Leste",
+        "zh": "M 4.6 - 51 km N of Pante Makasar, Timor Leste"
       },
       "summary": {
         "en": "M4.6 earthquake 51 km N of Pante Makasar, Timor Leste at 2026-10-17T09:07:40Z.",
@@ -79,7 +79,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T16:02:19Z"
+        "fetched_at": "2026-10-17T17:01:48Z"
       }
     },
     {
@@ -87,8 +87,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-17T08:59:51Z",
       "title": {
-        "en": "M4.8 - 110 km NE of Norsup, Vanuatu",
-        "zh": "M4.8 - 110 km NE of Norsup, Vanuatu"
+        "en": "M 4.8 - 110 km NE of Norsup, Vanuatu",
+        "zh": "M 4.8 - 110 km NE of Norsup, Vanuatu"
       },
       "summary": {
         "en": "M4.8 earthquake 110 km NE of Norsup, Vanuatu at 2026-10-17T08:59:51Z.",
@@ -103,7 +103,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T16:02:19Z"
+        "fetched_at": "2026-10-17T17:01:48Z"
       }
     },
     {
@@ -111,8 +111,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-17T07:40:02Z",
       "title": {
-        "en": "M4.5 - 80 km NW of Sola, Vanuatu",
-        "zh": "M4.5 - 80 km NW of Sola, Vanuatu"
+        "en": "M 4.5 - 80 km NW of Sola, Vanuatu",
+        "zh": "M 4.5 - 80 km NW of Sola, Vanuatu"
       },
       "summary": {
         "en": "M4.5 earthquake 80 km NW of Sola, Vanuatu at 2026-10-17T07:40:02Z.",
@@ -127,7 +127,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T16:02:19Z"
+        "fetched_at": "2026-10-17T17:01:48Z"
       }
     },
     {
@@ -135,8 +135,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-17T07:20:48Z",
       "title": {
-        "en": "M4.5 - 59 km NNW of Ruteng, Indonesia",
-        "zh": "M4.5 - 59 km NNW of Ruteng, Indonesia"
+        "en": "M 4.5 - 59 km NNW of Ruteng, Indonesia",
+        "zh": "M 4.5 - 59 km NNW of Ruteng, Indonesia"
       },
       "summary": {
         "en": "M4.5 earthquake 59 km NNW of Ruteng, Indonesia at 2026-10-17T07:20:48Z.",
@@ -151,7 +151,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T16:02:19Z"
+        "fetched_at": "2026-10-17T17:01:48Z"
       }
     },
     {
@@ -159,8 +159,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-17T05:06:57Z",
       "title": {
-        "en": "M5.7 - 48 km WNW of Khuzdar, Pakistan",
-        "zh": "M5.7 - 48 km WNW of Khuzdar, Pakistan"
+        "en": "M 5.7 - 48 km WNW of Khuzdar, Pakistan",
+        "zh": "M 5.7 - 48 km WNW of Khuzdar, Pakistan"
       },
       "summary": {
         "en": "M5.7 earthquake 48 km WNW of Khuzdar, Pakistan at 2026-10-17T05:06:57Z.",
@@ -175,7 +175,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T16:02:19Z"
+        "fetched_at": "2026-10-17T17:01:48Z"
       }
     },
     {
@@ -183,8 +183,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-17T04:19:05Z",
       "title": {
-        "en": "M4.8 - 196 km SSE of Alo, Wallis and Futuna",
-        "zh": "M4.8 - 196 km SSE of Alo, Wallis and Futuna"
+        "en": "M 4.8 - 196 km SSE of Alo, Wallis and Futuna",
+        "zh": "M 4.8 - 196 km SSE of Alo, Wallis and Futuna"
       },
       "summary": {
         "en": "M4.8 earthquake 196 km SSE of Alo, Wallis and Futuna at 2026-10-17T04:19:05Z.",
@@ -199,7 +199,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T16:02:19Z"
+        "fetched_at": "2026-10-17T17:01:48Z"
       }
     },
     {
@@ -207,8 +207,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-17T01:03:00Z",
       "title": {
-        "en": "M4.9 - 115 km SW of Puerto Madero, Mexico",
-        "zh": "M4.9 - 115 km SW of Puerto Madero, Mexico"
+        "en": "M 4.9 - 115 km SW of Puerto Madero, Mexico",
+        "zh": "M 4.9 - 115 km SW of Puerto Madero, Mexico"
       },
       "summary": {
         "en": "M4.9 earthquake 115 km SW of Puerto Madero, Mexico at 2026-10-17T01:03:00Z.",
@@ -223,7 +223,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T16:02:19Z"
+        "fetched_at": "2026-10-17T17:01:48Z"
       }
     },
     {
@@ -231,8 +231,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-16T23:57:50Z",
       "title": {
-        "en": "M4.6 - 6 km NNE of Sámi, Greece",
-        "zh": "M4.6 - 6 km NNE of Sámi, Greece"
+        "en": "M 4.6 - 6 km NNE of Sámi, Greece",
+        "zh": "M 4.6 - 6 km NNE of Sámi, Greece"
       },
       "summary": {
         "en": "M4.6 earthquake 6 km NNE of Sámi, Greece at 2026-10-16T23:57:50Z.",
@@ -247,7 +247,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T16:02:19Z"
+        "fetched_at": "2026-10-17T17:01:48Z"
       }
     },
     {
@@ -255,8 +255,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-16T22:41:03Z",
       "title": {
-        "en": "M4.6 - 12 km SSE of Tebario, Panama",
-        "zh": "M4.6 - 12 km SSE of Tebario, Panama"
+        "en": "M 4.6 - 12 km SSE of Tebario, Panama",
+        "zh": "M 4.6 - 12 km SSE of Tebario, Panama"
       },
       "summary": {
         "en": "M4.6 earthquake 12 km SSE of Tebario, Panama at 2026-10-16T22:41:03Z.",
@@ -271,7 +271,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T16:02:19Z"
+        "fetched_at": "2026-10-17T17:01:48Z"
       }
     },
     {
@@ -279,8 +279,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-16T21:30:26Z",
       "title": {
-        "en": "M4.5 - 70 km NNE of Mīnāb, Iran",
-        "zh": "M4.5 - 70 km NNE of Mīnāb, Iran"
+        "en": "M 4.5 - 70 km NNE of Mīnāb, Iran",
+        "zh": "M 4.5 - 70 km NNE of Mīnāb, Iran"
       },
       "summary": {
         "en": "M4.5 earthquake 70 km NNE of Mīnāb, Iran at 2026-10-16T21:30:26Z.",
@@ -295,7 +295,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T16:02:19Z"
+        "fetched_at": "2026-10-17T17:01:48Z"
       }
     },
     {
@@ -303,8 +303,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-16T21:26:37Z",
       "title": {
-        "en": "M4.5 - south of the Fiji Islands",
-        "zh": "M4.5 - south of the Fiji Islands"
+        "en": "M 4.5 - south of the Fiji Islands",
+        "zh": "M 4.5 - south of the Fiji Islands"
       },
       "summary": {
         "en": "M4.5 earthquake south of the Fiji Islands at 2026-10-16T21:26:37Z.",
@@ -319,7 +319,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T16:02:19Z"
+        "fetched_at": "2026-10-17T17:01:48Z"
       }
     },
     {
@@ -327,8 +327,8 @@
       "type": "earthquake",
       "time_utc": "2026-10-16T19:34:10Z",
       "title": {
-        "en": "M5.2 - off the coast of Ecuador",
-        "zh": "M5.2 - off the coast of Ecuador"
+        "en": "M 5.2 - off the coast of Ecuador",
+        "zh": "M 5.2 - off the coast of Ecuador"
       },
       "summary": {
         "en": "M5.2 earthquake off the coast of Ecuador at 2026-10-16T19:34:10Z.",
@@ -343,31 +343,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T16:02:19Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u2qn",
-      "type": "earthquake",
-      "time_utc": "2026-10-16T16:17:25Z",
-      "title": {
-        "en": "M4.6 - 41 km NNE of Kilimatinde, Tanzania",
-        "zh": "M4.6 - 41 km NNE of Kilimatinde, Tanzania"
-      },
-      "summary": {
-        "en": "M4.6 earthquake 41 km NNE of Kilimatinde, Tanzania at 2026-10-16T16:17:25Z.",
-        "zh": "M4.6 地震，位置 41 km NNE of Kilimatinde, Tanzania，時間 2026-10-16T16:17:25Z。"
-      },
-      "data": {
-        "magnitude": 4.6,
-        "place": "41 km NNE of Kilimatinde, Tanzania",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2qn"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T16:02:19Z"
+        "fetched_at": "2026-10-17T17:01:48Z"
       }
     }
   ]
