@@ -1,35 +1,57 @@
 {
   "date": "2026-10-17",
-  "updated": "2026-10-17T04:01:30Z",
+  "updated": "2026-10-17T05:02:56Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-17T02:00Z",
+      "time_utc": "2026-10-17T03:00Z",
       "title": {
-        "en": "Estimated planetary Kp is 1.67 (2M) at 02 UTC on 17 October 2026.",
-        "zh": "2026 年 10 月 17 日 02 UTC，估算行星 Kp 為 1.67（2M）。"
+        "en": "Estimated planetary Kp is 0.00 (0Z) at 03 UTC on 17 October 2026.",
+        "zh": "2026 年 10 月 17 日 03 UTC，估算行星 Kp 為 0.00（0Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 1.67 (2M) at 2026-10-17T02:00 on 17 October 2026. The 02 hour is complete (60 samples through 02:59; hour-start 1.67/2M, hour-end 2.00/2Z). Last-180 maximum is 2.00. Published-window maximum is 2.33. Window starts 2026-10-16T22:00:00 (359 samples). Next hour 03:00 incomplete (59 samples).",
-        "zh": "最新可靠整點初值：2026-10-17T02:00 估算 Kp 1.67（2M）。02 時段已收滿（60 筆至 02:59；時段初 1.67／2M、時段末 2.00／2Z）。last-180 最大 2.00。公開窗最大 2.33。窗起點 2026-10-16T22:00:00（359 筆）。下一整點 03:00 未滿（59 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 2026-10-17T03:00 on 17 October 2026. The 03 hour is complete (60 samples through 03:59; hour-start 0.00/0Z, hour-end 0.67/1M). Last-180 maximum is 2.00. Published-window maximum is 2.33. Window starts 2026-10-16T23:00:00 (359 samples). Next hour 04:00 incomplete (59 samples).",
+        "zh": "最新可靠整點初值：2026-10-17T03:00 估算 Kp 0.00（0Z）。03 時段已收滿（60 筆至 03:59；時段初 0.00／0Z、時段末 0.67／1M）。last-180 最大 2.00。公開窗最大 2.33。窗起點 2026-10-16T23:00:00（359 筆）。下一整點 04:00 未滿（59 筆）。"
       },
       "data": {
-        "estimated_kp": 1.67,
-        "kp": "2M",
+        "estimated_kp": 0.0,
+        "kp": "0Z",
         "hour_complete": true,
-        "hour_start_kp": 1.67,
-        "hour_end_kp": 2,
-        "last180_max": 2,
+        "hour_start_kp": 0.0,
+        "hour_end_kp": 0.67,
+        "last180_max": 2.0,
         "window_max": 2.33,
-        "window_start": "2026-10-16T22:00:00",
+        "window_start": "2026-10-16T23:00:00",
         "sample_count": 359,
         "next_hour_incomplete": true,
         "next_hour_samples": 59
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
-        "fetched_at": "2026-10-17T04:01:30Z"
+        "fetched_at": "2026-10-17T05:02:56Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u2xs",
+      "type": "earthquake",
+      "time_utc": "2026-10-17T04:19:05Z",
+      "title": {
+        "en": "M4.8 - 196 km SSE of Alo, Wallis and Futuna",
+        "zh": "M4.8 - 196 km SSE of Alo, Wallis and Futuna"
+      },
+      "summary": {
+        "en": "M4.8 earthquake 196 km SSE of Alo, Wallis and Futuna at 2026-10-17T04:19:05Z.",
+        "zh": "M4.8 地震，位置 196 km SSE of Alo, Wallis and Futuna，時間 2026-10-17T04:19:05Z。"
+      },
+      "data": {
+        "magnitude": 4.8,
+        "place": "196 km SSE of Alo, Wallis and Futuna",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2xs"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "fetched_at": "2026-10-17T05:02:56Z"
       }
     },
     {
@@ -51,7 +73,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T04:01:30Z"
+        "fetched_at": "2026-10-17T05:02:56Z"
       }
     },
     {
@@ -73,7 +95,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T04:01:30Z"
+        "fetched_at": "2026-10-17T05:02:56Z"
       }
     },
     {
@@ -95,7 +117,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T04:01:30Z"
+        "fetched_at": "2026-10-17T05:02:56Z"
       }
     },
     {
@@ -117,7 +139,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T04:01:30Z"
+        "fetched_at": "2026-10-17T05:02:56Z"
       }
     },
     {
@@ -139,7 +161,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T04:01:30Z"
+        "fetched_at": "2026-10-17T05:02:56Z"
       }
     },
     {
@@ -161,7 +183,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T04:01:30Z"
+        "fetched_at": "2026-10-17T05:02:56Z"
       }
     },
     {
@@ -183,7 +205,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T04:01:30Z"
+        "fetched_at": "2026-10-17T05:02:56Z"
       }
     },
     {
@@ -205,7 +227,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T04:01:30Z"
+        "fetched_at": "2026-10-17T05:02:56Z"
       }
     },
     {
@@ -227,7 +249,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T04:01:30Z"
+        "fetched_at": "2026-10-17T05:02:56Z"
       }
     },
     {
@@ -249,7 +271,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T04:01:30Z"
+        "fetched_at": "2026-10-17T05:02:56Z"
       }
     },
     {
@@ -271,7 +293,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T04:01:30Z"
+        "fetched_at": "2026-10-17T05:02:56Z"
       }
     },
     {
@@ -293,7 +315,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T04:01:30Z"
+        "fetched_at": "2026-10-17T05:02:56Z"
       }
     },
     {
@@ -315,7 +337,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T04:01:30Z"
+        "fetched_at": "2026-10-17T05:02:56Z"
       }
     },
     {
@@ -337,7 +359,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T04:01:30Z"
+        "fetched_at": "2026-10-17T05:02:56Z"
       }
     },
     {
@@ -359,7 +381,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T04:01:30Z"
+        "fetched_at": "2026-10-17T05:02:56Z"
       }
     },
     {
@@ -381,29 +403,7 @@
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T04:01:30Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u2n4",
-      "type": "earthquake",
-      "time_utc": "2026-10-16T04:42:40Z",
-      "title": {
-        "en": "M4.7 - 95 km SW of Brisas Barra de Suchiate, Mexico",
-        "zh": "M4.7 - 95 km SW of Brisas Barra de Suchiate, Mexico"
-      },
-      "summary": {
-        "en": "M4.7 earthquake 95 km SW of Brisas Barra de Suchiate, Mexico at 2026-10-16T04:42:40Z.",
-        "zh": "M4.7 地震，位置 95 km SW of Brisas Barra de Suchiate, Mexico，時間 2026-10-16T04:42:40Z。"
-      },
-      "data": {
-        "magnitude": 4.7,
-        "place": "95 km SW of Brisas Barra de Suchiate, Mexico",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2n4"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "fetched_at": "2026-10-17T04:01:30Z"
+        "fetched_at": "2026-10-17T05:02:56Z"
       }
     }
   ]
