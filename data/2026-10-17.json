@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-17",
+  "updated": "2026-10-17T02:01:59Z",
+  "entries": [
+    {
+      "id": "noaa-kp-1m",
+      "type": "space-weather",
+      "time_utc": "2026-10-17T00:00Z",
+      "title": {
+        "en": "Estimated planetary Kp is 0.0 (0Z) at 00 UTC on 17 October 2026.",
+        "zh": "2026 年 10 月 17 日 00 UTC，估算行星 Kp 為 0.0（0Z）。"
+      },
+      "summary": {
+        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-17T00:00 on 17 October 2026. The 00 hour is complete (60 samples through 00:59; hour-start 0.0/0Z, hour-end 1.33/1P). Last-180 maximum is 2.33. Published-window maximum is 3.67. Window starts 2026-10-16T20:01:00 (358 samples). Next hour 01:00 incomplete (59 samples).",
+        "zh": "最新可靠整點初值：2026-10-17T00:00 估算 Kp 0.0（0Z）。00 時段已收滿（60 筆至 00:59；時段初 0.0／0Z、時段末 1.33／1P）。last-180 最大 2.33。公開窗最大 3.67。窗起點 2026-10-16T20:01:00（358 筆）。下一整點 01:00 未滿（59 筆）。"
+      },
+      "data": {
+        "estimated_kp": 0.0,
+        "kp": "0Z",
+        "hour_complete": true,
+        "hour_start_kp": 0.0,
+        "hour_end_kp": 1.33,
+        "last180_max": 2.33,
+        "window_max": 3.67,
+        "window_start": "2026-10-16T20:01:00",
+        "sample_count": 358,
+        "next_hour_incomplete": true,
+        "next_hour_samples": 59
+      },
+      "evidence": {
+        "source": "NOAA SWPC planetary_k_index_1m.json",
+        "fetched_at": "2026-10-17T02:01:59Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u2x7",
+      "type": "earthquake",
+      "time_utc": "2026-10-17T01:03:00Z",
+      "title": {
+        "en": "M4.9 - 115 km SW of Puerto Madero, Mexico",
+        "zh": "M4.9 - 115 km SW of Puerto Madero, Mexico"
+      },
+      "summary": {
+        "en": "Magnitude 4.9 earthquake at 115 km SW of Puerto Madero, Mexico.",
+        "zh": "規模 4.9 地震，地點 115 km SW of Puerto Madero, Mexico。"
+      },
+      "data": {
+        "mag": 4.9,
+        "place": "115 km SW of Puerto Madero, Mexico",
+        "id": "us6000u2x7"
+      }
+    }
+  ]
+}
