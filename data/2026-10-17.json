@@ -1,28 +1,28 @@
 {
   "date": "2026-10-17",
-  "updated": "2026-10-17T11:01:41Z",
+  "updated": "2026-10-17T12:01:49Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-17T09Z",
+      "time_utc": "2026-10-17T10Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (0Z) at 09 UTC on 17 October 2026.",
-        "zh": "2026 年 10 月 17 日 09 UTC，估算行星 Kp 為 0.00（0Z）。"
+        "en": "Estimated planetary Kp is 0.00 (0Z) at 10 UTC on 17 October 2026.",
+        "zh": "2026 年 10 月 17 日 10 UTC，估算行星 Kp 為 0.00（0Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 2026-10-17T09 on 17 October 2026. The 09 hour is complete (60 samples through 09:59; hour-start 0.00/0Z, hour-end 0.00/0Z). Last-180 maximum is 0.67. Published-window maximum is 1.00. Window starts 2026-10-17T05:00:00 (358 samples). Next hour 10:00 incomplete (58 samples).",
-        "zh": "最新可靠整點初值：2026-10-17T09 估算 Kp 0.00（0Z）。09 時段已收滿（60 筆至 09:59；時段初 0.00／0Z、時段末 0.00／0Z）。last-180 最大 0.67。公開窗最大 1.00。窗起點 2026-10-17T05:00:00（358 筆）。下一整點 10:00 未滿（58 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.00 (0Z) at 2026-10-17T10 on 17 October 2026. The 10 hour is complete (60 samples through 10:59; hour-start 0.00/0Z, hour-end 0.33/0P). Last-180 maximum is 1.00. Published-window maximum is 1.00. Window starts 2026-10-17T06:00:00 (358 samples). Next hour 11:00 incomplete (58 samples).",
+        "zh": "最新可靠整點初值：2026-10-17T10 估算 Kp 0.00（0Z）。10 時段已收滿（60 筆至 10:59；時段初 0.00／0Z、時段末 0.33／0P）。last-180 最大 1.00。公開窗最大 1.00。窗起點 2026-10-17T06:00:00（358 筆）。下一整點 11:00 未滿（58 筆）。"
       },
       "data": {
         "estimated_kp": 0.0,
         "kp": "0Z",
         "hour_complete": true,
         "hour_start_kp": 0.0,
-        "hour_end_kp": 0.0,
-        "last180_max": 0.67,
+        "hour_end_kp": 0.33,
+        "last180_max": 1.0,
         "window_max": 1.0,
-        "window_start": "2026-10-17T05:00:00",
+        "window_start": "2026-10-17T06:00:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
         "next_hour_samples": 58
@@ -31,7 +31,7 @@
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-17T11:01:41Z"
+        "fetched_at": "2026-10-17T12:01:49Z"
       }
     },
     {
@@ -55,7 +55,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T11:01:41Z"
+        "fetched_at": "2026-10-17T12:01:49Z"
       }
     },
     {
@@ -79,7 +79,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T11:01:41Z"
+        "fetched_at": "2026-10-17T12:01:49Z"
       }
     },
     {
@@ -103,7 +103,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T11:01:41Z"
+        "fetched_at": "2026-10-17T12:01:49Z"
       }
     },
     {
@@ -127,7 +127,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T11:01:41Z"
+        "fetched_at": "2026-10-17T12:01:49Z"
       }
     },
     {
@@ -151,7 +151,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T11:01:41Z"
+        "fetched_at": "2026-10-17T12:01:49Z"
       }
     },
     {
@@ -175,7 +175,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T11:01:41Z"
+        "fetched_at": "2026-10-17T12:01:49Z"
       }
     },
     {
@@ -199,7 +199,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T11:01:41Z"
+        "fetched_at": "2026-10-17T12:01:49Z"
       }
     },
     {
@@ -223,7 +223,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T11:01:41Z"
+        "fetched_at": "2026-10-17T12:01:49Z"
       }
     },
     {
@@ -247,7 +247,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T11:01:41Z"
+        "fetched_at": "2026-10-17T12:01:49Z"
       }
     },
     {
@@ -271,7 +271,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T11:01:41Z"
+        "fetched_at": "2026-10-17T12:01:49Z"
       }
     },
     {
@@ -295,7 +295,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T11:01:41Z"
+        "fetched_at": "2026-10-17T12:01:49Z"
       }
     },
     {
@@ -319,7 +319,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T11:01:41Z"
+        "fetched_at": "2026-10-17T12:01:49Z"
       }
     },
     {
@@ -343,7 +343,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T11:01:41Z"
+        "fetched_at": "2026-10-17T12:01:49Z"
       }
     },
     {
@@ -367,7 +367,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T11:01:41Z"
+        "fetched_at": "2026-10-17T12:01:49Z"
       }
     },
     {
@@ -391,7 +391,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T11:01:41Z"
+        "fetched_at": "2026-10-17T12:01:49Z"
       }
     },
     {
@@ -415,7 +415,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T11:01:41Z"
+        "fetched_at": "2026-10-17T12:01:49Z"
       }
     },
     {
@@ -439,7 +439,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T11:01:41Z"
+        "fetched_at": "2026-10-17T12:01:49Z"
       }
     },
     {
@@ -463,55 +463,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T11:01:41Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u2pl",
-      "type": "earthquake",
-      "time_utc": "2026-10-16T11:57:19Z",
-      "title": {
-        "en": "M4.9 - 119 km SSW of Merizo Village, Guam",
-        "zh": "M4.9 - 119 km SSW of Merizo Village, Guam"
-      },
-      "summary": {
-        "en": "M4.9 earthquake 119 km SSW of Merizo Village, Guam at 2026-10-16T11:57:19Z.",
-        "zh": "M4.9 地震，位置 119 km SSW of Merizo Village, Guam，時間 2026-10-16T11:57:19Z。"
-      },
-      "data": {
-        "magnitude": 4.9,
-        "place": "119 km SSW of Merizo Village, Guam",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2pl"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T11:01:41Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u2ph",
-      "type": "earthquake",
-      "time_utc": "2026-10-16T11:39:44Z",
-      "title": {
-        "en": "M4.8 - 7 km WSW of Soconusco, Mexico",
-        "zh": "M4.8 - 7 km WSW of Soconusco, Mexico"
-      },
-      "summary": {
-        "en": "M4.8 earthquake 7 km WSW of Soconusco, Mexico at 2026-10-16T11:39:44Z.",
-        "zh": "M4.8 地震，位置 7 km WSW of Soconusco, Mexico，時間 2026-10-16T11:39:44Z。"
-      },
-      "data": {
-        "magnitude": 4.8,
-        "place": "7 km WSW of Soconusco, Mexico",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2ph"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-17T11:01:41Z"
+        "fetched_at": "2026-10-17T12:01:49Z"
       }
     }
   ]
