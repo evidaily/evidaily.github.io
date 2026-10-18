@@ -1,37 +1,61 @@
 {
   "date": "2026-10-18",
-  "updated": "2026-10-18T08:02:20Z",
+  "updated": "2026-10-18T09:12:58Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-18T06Z",
+      "time_utc": "2026-10-18T08Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.0 (0Z) at 06 UTC on 18 October 2026.",
-        "zh": "2026 年 10 月 18 日 06 UTC，估算行星 Kp 為 0.0（0Z）。"
+        "en": "Estimated planetary Kp is 2.0 (2Z) at 08 UTC on 18 October 2026.",
+        "zh": "2026 年 10 月 18 日 08 UTC，估算行星 Kp 為 2.0（2Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-18T06 on 18 October 2026. The 06 hour is complete (60 samples through 06:59; hour-start 0.0/0Z, hour-end 1.67/2M). Last-180 maximum is 2.67. Published-window maximum is 2.67. Window starts 2026-10-18T01:00:00 (358 samples). Next hour 07:00 incomplete (57 samples).",
-        "zh": "最新可靠整點初值：2026-10-18T06 估算 Kp 0.0（0Z）。06 時段已收滿（60 筆至 06:59；時段初 0.0/0Z、時段末 1.67/2M）。last-180 最大 2.67。公開窗最大 2.67。窗起點 2026-10-18T01:00:00（358 筆）。下一整點 07:00 未滿（57 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 2.0 (2Z) at 2026-10-18T08 on 18 October 2026. The 08 hour is complete (60 samples through 08:59; hour-start 2.0/2Z, hour-end 2.0/2Z). Last-180 maximum is 2.0. Published-window maximum is 2.67. Window starts 2026-10-18T03:09:00 (357 samples). Next hour 09:00 incomplete (6 samples).",
+        "zh": "最新可靠整點初值：2026-10-18T08 估算 Kp 2.0（2Z）。08 時段已收滿（60 筆至 08:59；時段初 2.0/2Z、時段末 2.0/2Z）。last-180 最大 2.0。公開窗最大 2.67。窗起點 2026-10-18T03:09:00（357 筆）。下一整點 09:00 未滿（6 筆）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp": "0Z",
+        "estimated_kp": 2.0,
+        "kp": "2Z",
         "hour_complete": true,
-        "hour_start_kp": 0.0,
-        "hour_end_kp": 1.67,
-        "last180_max": 2.67,
+        "hour_start_kp": 2.0,
+        "hour_end_kp": 2.0,
+        "last180_max": 2.0,
         "window_max": 2.67,
-        "window_start": "2026-10-18T01:00:00",
-        "sample_count": 358,
+        "window_start": "2026-10-18T03:09:00",
+        "sample_count": 357,
         "next_hour_incomplete": true,
-        "next_hour_samples": 57
+        "next_hour_samples": 6
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-18T08:02:20Z"
+        "fetched_at": "2026-10-18T09:12:58Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u34e",
+      "type": "earthquake",
+      "time_utc": "2026-10-18T08:00:06Z",
+      "title": {
+        "en": "M 5.2 - 55 km NNW of Ruteng, Indonesia",
+        "zh": "M 5.2 - 55 km NNW of Ruteng, Indonesia"
+      },
+      "summary": {
+        "en": "M5.2 earthquake 55 km NNW of Ruteng, Indonesia at 2026-10-18T08:00:06Z.",
+        "zh": "M5.2 地震，位置 55 km NNW of Ruteng, Indonesia，時間 2026-10-18T08:00:06Z。"
+      },
+      "data": {
+        "magnitude": 5.2,
+        "place": "55 km NNW of Ruteng, Indonesia",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u34e"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-18T09:12:58Z"
       }
     },
     {
@@ -55,7 +79,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-18T08:02:20Z"
+        "fetched_at": "2026-10-18T09:12:58Z"
       }
     },
     {
@@ -79,7 +103,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-18T08:02:20Z"
+        "fetched_at": "2026-10-18T09:12:58Z"
       }
     },
     {
@@ -103,7 +127,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-18T08:02:20Z"
+        "fetched_at": "2026-10-18T09:12:58Z"
       }
     },
     {
@@ -127,55 +151,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-18T08:02:20Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u2zb",
-      "type": "earthquake",
-      "time_utc": "2026-10-17T09:07:40Z",
-      "title": {
-        "en": "M 4.6 - 51 km N of Pante Makasar, Timor Leste",
-        "zh": "M 4.6 - 51 km N of Pante Makasar, Timor Leste"
-      },
-      "summary": {
-        "en": "M4.6 earthquake 51 km N of Pante Makasar, Timor Leste at 2026-10-17T09:07:40Z.",
-        "zh": "M4.6 地震，位置 51 km N of Pante Makasar, Timor Leste，時間 2026-10-17T09:07:40Z。"
-      },
-      "data": {
-        "magnitude": 4.6,
-        "place": "51 km N of Pante Makasar, Timor Leste",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2zb"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-18T08:02:20Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u2z9",
-      "type": "earthquake",
-      "time_utc": "2026-10-17T08:59:51Z",
-      "title": {
-        "en": "M 4.8 - 110 km NE of Norsup, Vanuatu",
-        "zh": "M 4.8 - 110 km NE of Norsup, Vanuatu"
-      },
-      "summary": {
-        "en": "M4.8 earthquake 110 km NE of Norsup, Vanuatu at 2026-10-17T08:59:51Z.",
-        "zh": "M4.8 地震，位置 110 km NE of Norsup, Vanuatu，時間 2026-10-17T08:59:51Z。"
-      },
-      "data": {
-        "magnitude": 4.8,
-        "place": "110 km NE of Norsup, Vanuatu",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2z9"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-18T08:02:20Z"
+        "fetched_at": "2026-10-18T09:12:58Z"
       }
     }
   ]
