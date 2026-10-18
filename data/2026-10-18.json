@@ -1,28 +1,28 @@
 {
   "date": "2026-10-18",
-  "updated": "2026-10-18T18:00:00Z",
+  "updated": "2026-10-18T19:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-18T16Z",
+      "time_utc": "2026-10-18T17Z",
       "title": {
-        "en": "Estimated planetary Kp is 1.33 (1P) at 16 UTC on 18 October 2026.",
-        "zh": "2026 年 10 月 18 日 16 UTC，估算行星 Kp 為 1.33（1P）。"
+        "en": "Estimated planetary Kp is 1.67 (2M) at 17 UTC on 18 October 2026.",
+        "zh": "2026 年 10 月 18 日 17 UTC，估算行星 Kp 為 1.67（2M）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 1.33 (1P) at 2026-10-18T16 on 18 October 2026. The 16 hour is complete (60 samples through 16:59; hour-start 1.33/1P, hour-end 1.67/2M). Last-180 maximum is 1.67. Published-window maximum is 1.67. Window starts 2026-10-18T12:01:00 (358 samples). Next hour 17:00 incomplete (59 samples).",
-        "zh": "最新可靠整點初值：2026-10-18T16 估算 Kp 1.33（1P）。16 時段已收滿（60 筆至 16:59；時段初 1.33/1P、時段末 1.67/2M）。last-180 最大 1.67。公開窗最大 1.67。窗起點 2026-10-18T12:01:00（358 筆）。下一整點 17:00 未滿（59 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 1.67 (2M) at 2026-10-18T17 on 18 October 2026. The 17 hour is complete (60 samples through 17:59; hour-start 1.67/2M, hour-end 1.33/1P). Last-180 maximum is 1.67. Published-window maximum is 1.67. Window starts 2026-10-18T13:01:00 (358 samples). Next hour 18:00 incomplete (59 samples).",
+        "zh": "最新可靠整點初值：2026-10-18T17 估算 Kp 1.67（2M）。17 時段已收滿（60 筆至 17:59；時段初 1.67/2M、時段末 1.33/1P）。last-180 最大 1.67。公開窗最大 1.67。窗起點 2026-10-18T13:01:00（358 筆）。下一整點 18:00 未滿（59 筆）。"
       },
       "data": {
-        "estimated_kp": 1.33,
-        "kp": "1P",
+        "estimated_kp": 1.67,
+        "kp": "2M",
         "hour_complete": true,
-        "hour_start_kp": 1.33,
-        "hour_end_kp": 1.67,
+        "hour_start_kp": 1.67,
+        "hour_end_kp": 1.33,
         "last180_max": 1.67,
         "window_max": 1.67,
-        "window_start": "2026-10-18T12:01:00",
+        "window_start": "2026-10-18T13:01:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
         "next_hour_samples": 59
@@ -31,7 +31,31 @@
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-18T18:00:00Z"
+        "fetched_at": "2026-10-18T19:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u36m",
+      "type": "earthquake",
+      "time_utc": "2026-10-18T16:12:55Z",
+      "title": {
+        "en": "M 4.5 - 0 km NE of Río Grande, Panama",
+        "zh": "M 4.5 - 0 km NE of Río Grande, Panama"
+      },
+      "summary": {
+        "en": "M4.5 earthquake 0 km NE of Río Grande, Panama at 2026-10-18T16:12:55Z.",
+        "zh": "M4.5 地震，位置 0 km NE of Río Grande, Panama，時間 2026-10-18T16:12:55Z。"
+      },
+      "data": {
+        "magnitude": 4.5,
+        "place": "0 km NE of Río Grande, Panama",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u36m"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-18T19:00:00Z"
       }
     },
     {
@@ -55,7 +79,31 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-18T18:00:00Z"
+        "fetched_at": "2026-10-18T19:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u366",
+      "type": "earthquake",
+      "time_utc": "2026-10-18T14:30:07Z",
+      "title": {
+        "en": "M 4.6 - Carlsberg Ridge",
+        "zh": "M 4.6 - Carlsberg Ridge"
+      },
+      "summary": {
+        "en": "M4.6 earthquake Carlsberg Ridge at 2026-10-18T14:30:07Z.",
+        "zh": "M4.6 地震，位置 Carlsberg Ridge，時間 2026-10-18T14:30:07Z。"
+      },
+      "data": {
+        "magnitude": 4.6,
+        "place": "Carlsberg Ridge",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u366"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-18T19:00:00Z"
       }
     },
     {
@@ -79,7 +127,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-18T18:00:00Z"
+        "fetched_at": "2026-10-18T19:00:00Z"
       }
     },
     {
@@ -103,7 +151,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-18T18:00:00Z"
+        "fetched_at": "2026-10-18T19:00:00Z"
       }
     },
     {
@@ -127,7 +175,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-18T18:00:00Z"
+        "fetched_at": "2026-10-18T19:00:00Z"
       }
     }
   ]
