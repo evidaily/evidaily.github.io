@@ -1,6 +1,6 @@
 {
   "date": "2026-10-18",
-  "updated": "2026-10-18T13:05:00Z",
+  "updated": "2026-10-18T14:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
@@ -11,8 +11,8 @@
         "zh": "2026 年 10 月 18 日 12 UTC，估算行星 Kp 為 0.0（0Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-18T12 on 18 October 2026. The 12 hour is complete (60 samples through 12:59; hour-start 0.0/0Z, hour-end 0.0/0Z). Last-180 maximum is 1.67. Published-window maximum is 2.0. Window starts 2026-10-18T07:01:00 (359 samples). Next hour 13:00 incomplete (0 samples).",
-        "zh": "最新可靠整點初值：2026-10-18T12 估算 Kp 0.0（0Z）。12 時段已收滿（60 筆至 12:59；時段初 0.0/0Z、時段末 0.0/0Z）。last-180 最大 1.67。公開窗最大 2.0。窗起點 2026-10-18T07:01:00（359 筆）。下一整點 13:00 未滿（0 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-18T12 on 18 October 2026. The 12 hour is complete (60 samples through 12:59; hour-start 0.0/0Z, hour-end 0.0/0Z). Last-180 maximum is 1.67. Published-window maximum is 2.0. Window starts 2026-10-18T08:00:00 (358 samples). Next hour 13:00 incomplete (58 samples).",
+        "zh": "最新可靠整點初值：2026-10-18T12 估算 Kp 0.0（0Z）。12 時段已收滿（60 筆至 12:59；時段初 0.0/0Z、時段末 0.0/0Z）。last-180 最大 1.67。公開窗最大 2.0。窗起點 2026-10-18T08:00:00（358 筆）。下一整點 13:00 未滿（58 筆）。"
       },
       "data": {
         "estimated_kp": 0.0,
@@ -22,16 +22,16 @@
         "hour_end_kp": 0.0,
         "last180_max": 1.67,
         "window_max": 2.0,
-        "window_start": "2026-10-18T07:01:00",
-        "sample_count": 359,
+        "window_start": "2026-10-18T08:00:00",
+        "sample_count": 358,
         "next_hour_incomplete": true,
-        "next_hour_samples": 0
+        "next_hour_samples": 58
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-18T13:05:00Z"
+        "fetched_at": "2026-10-18T14:00:00Z"
       }
     },
     {
@@ -55,7 +55,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-18T13:05:00Z"
+        "fetched_at": "2026-10-18T14:00:00Z"
       }
     },
     {
@@ -79,7 +79,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-18T13:05:00Z"
+        "fetched_at": "2026-10-18T14:00:00Z"
       }
     },
     {
@@ -103,7 +103,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-18T13:05:00Z"
+        "fetched_at": "2026-10-18T14:00:00Z"
       }
     },
     {
@@ -127,31 +127,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-18T13:05:00Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u309",
-      "type": "earthquake",
-      "time_utc": "2026-10-17T13:59:34Z",
-      "title": {
-        "en": "M 5.2 - 86 km SW of Brisas Barra de Suchiate, Mexico",
-        "zh": "M 5.2 - 86 km SW of Brisas Barra de Suchiate, Mexico"
-      },
-      "summary": {
-        "en": "M5.2 earthquake 86 km SW of Brisas Barra de Suchiate, Mexico at 2026-10-17T13:59:34Z.",
-        "zh": "M5.2 地震，位置 86 km SW of Brisas Barra de Suchiate, Mexico，時間 2026-10-17T13:59:34Z。"
-      },
-      "data": {
-        "magnitude": 5.2,
-        "place": "86 km SW of Brisas Barra de Suchiate, Mexico",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u309"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-18T13:05:00Z"
+        "fetched_at": "2026-10-18T14:00:00Z"
       }
     }
   ]
