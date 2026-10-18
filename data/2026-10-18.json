@@ -1,0 +1,254 @@
+{
+  "date": "2026-10-18",
+  "updated": "2026-10-18T00:01:46Z",
+  "entries": [
+    {
+      "id": "noaa-kp-1m",
+      "type": "space-weather",
+      "time_utc": "2026-10-17T22Z",
+      "title": {
+        "en": "Estimated planetary Kp is 0.33 (0P) at 22 UTC on 17 October 2026.",
+        "zh": "2026 年 10 月 17 日 22 UTC，估計行星 Kp 為 0.33（0P）。"
+      },
+      "summary": {
+        "en": "Latest reliable hour-start estimated Kp is 0.33 (0P) at 2026-10-17T22 on 17 October 2026. The 22 hour is complete (60 samples through 22:59; hour-start 0.33/0P, hour-end 1.00/1Z). Last-180 maximum is 3.00. Published-window maximum is 3.33. Window starts 2026-10-17T17:58:00 (358 samples). Next hour 23:00 incomplete (56 samples).",
+        "zh": "最新可靠整點初值：2026-10-17T22 估計 Kp 0.33（0P）。22 時段已收滿（60 筆至 22:59；時段初 0.33／0P、時段末 1.00／1Z）。last-180 最大 3.00。公開窗最大 3.33。窗起點 2026-10-17T17:58:00（358 筆）。下一整點 23:00 未滿（56 筆）。"
+      },
+      "data": {
+        "estimated_kp": 0.33,
+        "kp": "0P",
+        "hour_complete": true,
+        "hour_start_kp": 0.33,
+        "hour_end_kp": 1.0,
+        "last180_max": 3.0,
+        "window_max": 3.33,
+        "window_start": "2026-10-17T17:58:00",
+        "sample_count": 358,
+        "next_hour_incomplete": true,
+        "next_hour_samples": 56
+      },
+      "evidence": {
+        "source": "NOAA SWPC planetary_k_index_1m.json",
+        "source_name": "NOAA SWPC",
+        "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
+        "fetched_at": "2026-10-18T00:01:46Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u30x",
+      "type": "earthquake",
+      "time_utc": "2026-10-17T16:52:45Z",
+      "title": {
+        "en": "M 4.6 - 88 km SSW of Uyuni, Bolivia",
+        "zh": "M 4.6 - 88 km SSW of Uyuni, Bolivia"
+      },
+      "summary": {
+        "en": "M4.6 earthquake 88 km SSW of Uyuni, Bolivia at 2026-10-17T16:52:45Z.",
+        "zh": "M4.6 地震，位置 88 km SSW of Uyuni, Bolivia，時間 2026-10-17T16:52:45Z。"
+      },
+      "data": {
+        "magnitude": 4.6,
+        "place": "88 km SSW of Uyuni, Bolivia",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u30x"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-18T00:01:46Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u309",
+      "type": "earthquake",
+      "time_utc": "2026-10-17T13:59:34Z",
+      "title": {
+        "en": "M 5.2 - 86 km SW of Brisas Barra de Suchiate, Mexico",
+        "zh": "M 5.2 - 86 km SW of Brisas Barra de Suchiate, Mexico"
+      },
+      "summary": {
+        "en": "M5.2 earthquake 86 km SW of Brisas Barra de Suchiate, Mexico at 2026-10-17T13:59:34Z.",
+        "zh": "M5.2 地震，位置 86 km SW of Brisas Barra de Suchiate, Mexico，時間 2026-10-17T13:59:34Z。"
+      },
+      "data": {
+        "magnitude": 5.2,
+        "place": "86 km SW of Brisas Barra de Suchiate, Mexico",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u309"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-18T00:01:46Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u2zb",
+      "type": "earthquake",
+      "time_utc": "2026-10-17T09:07:40Z",
+      "title": {
+        "en": "M 4.6 - 51 km N of Pante Makasar, Timor Leste",
+        "zh": "M 4.6 - 51 km N of Pante Makasar, Timor Leste"
+      },
+      "summary": {
+        "en": "M4.6 earthquake 51 km N of Pante Makasar, Timor Leste at 2026-10-17T09:07:40Z.",
+        "zh": "M4.6 地震，位置 51 km N of Pante Makasar, Timor Leste，時間 2026-10-17T09:07:40Z。"
+      },
+      "data": {
+        "magnitude": 4.6,
+        "place": "51 km N of Pante Makasar, Timor Leste",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2zb"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-18T00:01:46Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u2z9",
+      "type": "earthquake",
+      "time_utc": "2026-10-17T08:59:51Z",
+      "title": {
+        "en": "M 4.8 - 110 km NE of Norsup, Vanuatu",
+        "zh": "M 4.8 - 110 km NE of Norsup, Vanuatu"
+      },
+      "summary": {
+        "en": "M4.8 earthquake 110 km NE of Norsup, Vanuatu at 2026-10-17T08:59:51Z.",
+        "zh": "M4.8 地震，位置 110 km NE of Norsup, Vanuatu，時間 2026-10-17T08:59:51Z。"
+      },
+      "data": {
+        "magnitude": 4.8,
+        "place": "110 km NE of Norsup, Vanuatu",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2z9"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-18T00:01:46Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u2yz",
+      "type": "earthquake",
+      "time_utc": "2026-10-17T07:40:02Z",
+      "title": {
+        "en": "M 4.5 - 80 km NW of Sola, Vanuatu",
+        "zh": "M 4.5 - 80 km NW of Sola, Vanuatu"
+      },
+      "summary": {
+        "en": "M4.5 earthquake 80 km NW of Sola, Vanuatu at 2026-10-17T07:40:02Z.",
+        "zh": "M4.5 地震，位置 80 km NW of Sola, Vanuatu，時間 2026-10-17T07:40:02Z。"
+      },
+      "data": {
+        "magnitude": 4.5,
+        "place": "80 km NW of Sola, Vanuatu",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2yz"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-18T00:01:46Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u2yw",
+      "type": "earthquake",
+      "time_utc": "2026-10-17T07:20:48Z",
+      "title": {
+        "en": "M 4.5 - 59 km NNW of Ruteng, Indonesia",
+        "zh": "M 4.5 - 59 km NNW of Ruteng, Indonesia"
+      },
+      "summary": {
+        "en": "M4.5 earthquake 59 km NNW of Ruteng, Indonesia at 2026-10-17T07:20:48Z.",
+        "zh": "M4.5 地震，位置 59 km NNW of Ruteng, Indonesia，時間 2026-10-17T07:20:48Z。"
+      },
+      "data": {
+        "magnitude": 4.5,
+        "place": "59 km NNW of Ruteng, Indonesia",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2yw"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-18T00:01:46Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u2y1",
+      "type": "earthquake",
+      "time_utc": "2026-10-17T05:06:57Z",
+      "title": {
+        "en": "M 5.7 - 48 km WNW of Khuzdar, Pakistan",
+        "zh": "M 5.7 - 48 km WNW of Khuzdar, Pakistan"
+      },
+      "summary": {
+        "en": "M5.7 earthquake 48 km WNW of Khuzdar, Pakistan at 2026-10-17T05:06:57Z.",
+        "zh": "M5.7 地震，位置 48 km WNW of Khuzdar, Pakistan，時間 2026-10-17T05:06:57Z。"
+      },
+      "data": {
+        "magnitude": 5.7,
+        "place": "48 km WNW of Khuzdar, Pakistan",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2y1"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-18T00:01:46Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u2xs",
+      "type": "earthquake",
+      "time_utc": "2026-10-17T04:19:05Z",
+      "title": {
+        "en": "M 4.8 - 196 km SSE of Alo, Wallis and Futuna",
+        "zh": "M 4.8 - 196 km SSE of Alo, Wallis and Futuna"
+      },
+      "summary": {
+        "en": "M4.8 earthquake 196 km SSE of Alo, Wallis and Futuna at 2026-10-17T04:19:05Z.",
+        "zh": "M4.8 地震，位置 196 km SSE of Alo, Wallis and Futuna，時間 2026-10-17T04:19:05Z。"
+      },
+      "data": {
+        "magnitude": 4.8,
+        "place": "196 km SSE of Alo, Wallis and Futuna",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2xs"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-18T00:01:46Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u2x7",
+      "type": "earthquake",
+      "time_utc": "2026-10-17T01:03:00Z",
+      "title": {
+        "en": "M 4.9 - 115 km SW of Puerto Madero, Mexico",
+        "zh": "M 4.9 - 115 km SW of Puerto Madero, Mexico"
+      },
+      "summary": {
+        "en": "M4.9 earthquake 115 km SW of Puerto Madero, Mexico at 2026-10-17T01:03:00Z.",
+        "zh": "M4.9 地震，位置 115 km SW of Puerto Madero, Mexico，時間 2026-10-17T01:03:00Z。"
+      },
+      "data": {
+        "magnitude": 4.9,
+        "place": "115 km SW of Puerto Madero, Mexico",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2x7"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-18T00:01:46Z"
+      }
+    }
+  ]
+}
