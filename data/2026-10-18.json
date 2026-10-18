@@ -1,37 +1,37 @@
 {
   "date": "2026-10-18",
-  "updated": "2026-10-18T10:02:26Z",
+  "updated": "2026-10-18T12:08:36Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-18T08Z",
+      "time_utc": "2026-10-18T11Z",
       "title": {
-        "en": "Estimated planetary Kp is 2.0 (2Z) at 08 UTC on 18 October 2026.",
-        "zh": "2026 年 10 月 18 日 08 UTC，估算行星 Kp 為 2.0（2Z）。"
+        "en": "Estimated planetary Kp is 1.33 (1P) at 11 UTC on 18 October 2026.",
+        "zh": "2026 年 10 月 18 日 11 UTC，估算行星 Kp 為 1.33（1P）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 2.0 (2Z) at 2026-10-18T08 on 18 October 2026. The 08 hour is complete (60 samples through 08:59; hour-start 2.0/2Z, hour-end 2.0/2Z). Last-180 maximum is 2.0. Published-window maximum is 2.67. Window starts 2026-10-18T03:59:00 (358 samples). Next hour 09:00 incomplete (57 samples).",
-        "zh": "最新可靠整點初值：2026-10-18T08 估算 Kp 2.0（2Z）。08 時段已收滿（60 筆至 08:59；時段初 2.0/2Z、時段末 2.0/2Z）。last-180 最大 2.0。公開窗最大 2.67。窗起點 2026-10-18T03:59:00（358 筆）。下一整點 09:00 未滿（57 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 1.33 (1P) at 2026-10-18T11 on 18 October 2026. The 11 hour is complete (60 samples through 11:59; hour-start 1.33/1P, hour-end 1.33/1P). Last-180 maximum is 1.67. Published-window maximum is 2.0. Window starts 2026-10-18T06:06:00 (356 samples). Next hour 12:00 incomplete (2 samples).",
+        "zh": "最新可靠整點初值：2026-10-18T11 估算 Kp 1.33（1P）。11 時段已收滿（60 筆至 11:59；時段初 1.33/1P、時段末 1.33/1P）。last-180 最大 1.67。公開窗最大 2.0。窗起點 2026-10-18T06:06:00（356 筆）。下一整點 12:00 未滿（2 筆）。"
       },
       "data": {
-        "estimated_kp": 2.0,
-        "kp": "2Z",
+        "estimated_kp": 1.33,
+        "kp": "1P",
         "hour_complete": true,
-        "hour_start_kp": 2.0,
-        "hour_end_kp": 2.0,
-        "last180_max": 2.0,
-        "window_max": 2.67,
-        "window_start": "2026-10-18T03:59:00",
-        "sample_count": 358,
+        "hour_start_kp": 1.33,
+        "hour_end_kp": 1.33,
+        "last180_max": 1.67,
+        "window_max": 2.0,
+        "window_start": "2026-10-18T06:06:00",
+        "sample_count": 356,
         "next_hour_incomplete": true,
-        "next_hour_samples": 57
+        "next_hour_samples": 2
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-18T10:02:26Z"
+        "fetched_at": "2026-10-18T12:08:36Z"
       }
     },
     {
@@ -55,7 +55,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-18T10:02:26Z"
+        "fetched_at": "2026-10-18T12:08:36Z"
       }
     },
     {
@@ -79,7 +79,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-18T10:02:26Z"
+        "fetched_at": "2026-10-18T12:08:36Z"
       }
     },
     {
@@ -103,7 +103,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-18T10:02:26Z"
+        "fetched_at": "2026-10-18T12:08:36Z"
       }
     },
     {
@@ -127,7 +127,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-18T10:02:26Z"
+        "fetched_at": "2026-10-18T12:08:36Z"
       }
     },
     {
@@ -151,7 +151,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-18T10:02:26Z"
+        "fetched_at": "2026-10-18T12:08:36Z"
       }
     }
   ]
