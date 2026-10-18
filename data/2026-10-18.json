@@ -1,37 +1,37 @@
 {
   "date": "2026-10-18",
-  "updated": "2026-10-18T04:01:40Z",
+  "updated": "2026-10-18T05:10:12Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-18T02Z",
+      "time_utc": "2026-10-18T04Z",
       "title": {
-        "en": "Estimated planetary Kp is 2.0 (2Z) at 02 UTC on 18 October 2026.",
-        "zh": "2026 年 10 月 18 日 02 UTC，估算行星 Kp 為 2.0（2Z）。"
+        "en": "Estimated planetary Kp is 1.0 (1Z) at 04 UTC on 18 October 2026.",
+        "zh": "2026 年 10 月 18 日 04 UTC，估算行星 Kp 為 1.0（1Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 2.0 (2Z) at 2026-10-18T02 on 18 October 2026. The 02 hour is complete (60 samples through 02:59; hour-start 2.0/2Z, hour-end 2.0/2Z). Last-180 maximum is 2.0. Published-window maximum is 2.0. Window starts 2026-10-17T21:59:00 (358 samples). Next hour 03:00 incomplete (57 samples).",
-        "zh": "最新可靠整點初值：2026-10-18T02 估算 Kp 2.0（2Z）。02 時段已收滿（60 筆至 02:59；時段初 2.0/2Z、時段末 2.0/2Z）。last-180 最大 2.0。公開窗最大 2.0。窗起點 2026-10-17T21:59:00（358 筆）。下一整點 03:00 未滿（57 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 1.0 (1Z) at 2026-10-18T04 on 18 October 2026. The 04 hour is complete (60 samples through 04:59; hour-start 1.0/1Z, hour-end 1.0/1Z). Last-180 maximum is 2.0. Published-window maximum is 2.0. Window starts 2026-10-17T23:07:00 (359 samples). Next hour 05:00 incomplete (6 samples).",
+        "zh": "最新可靠整點初值：2026-10-18T04 估算 Kp 1.0（1Z）。04 時段已收滿（60 筆至 04:59；時段初 1.0/1Z、時段末 1.0/1Z）。last-180 最大 2.0。公開窗最大 2.0。窗起點 2026-10-17T23:07:00（359 筆）。下一整點 05:00 未滿（6 筆）。"
       },
       "data": {
-        "estimated_kp": 2.0,
-        "kp": "2Z",
+        "estimated_kp": 1.0,
+        "kp": "1Z",
         "hour_complete": true,
-        "hour_start_kp": 2.0,
-        "hour_end_kp": 2.0,
+        "hour_start_kp": 1.0,
+        "hour_end_kp": 1.0,
         "last180_max": 2.0,
         "window_max": 2.0,
-        "window_start": "2026-10-17T21:59:00",
-        "sample_count": 358,
+        "window_start": "2026-10-17T23:07:00",
+        "sample_count": 359,
         "next_hour_incomplete": true,
-        "next_hour_samples": 57
+        "next_hour_samples": 6
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-18T04:01:40Z"
+        "fetched_at": "2026-10-18T05:10:12Z"
       }
     },
     {
@@ -55,7 +55,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-18T04:01:40Z"
+        "fetched_at": "2026-10-18T05:10:12Z"
       }
     },
     {
@@ -79,7 +79,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-18T04:01:40Z"
+        "fetched_at": "2026-10-18T05:10:12Z"
       }
     },
     {
@@ -103,7 +103,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-18T04:01:40Z"
+        "fetched_at": "2026-10-18T05:10:12Z"
       }
     },
     {
@@ -127,7 +127,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-18T04:01:40Z"
+        "fetched_at": "2026-10-18T05:10:12Z"
       }
     },
     {
@@ -151,7 +151,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-18T04:01:40Z"
+        "fetched_at": "2026-10-18T05:10:12Z"
       }
     },
     {
@@ -175,7 +175,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-18T04:01:40Z"
+        "fetched_at": "2026-10-18T05:10:12Z"
       }
     },
     {
@@ -199,55 +199,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-18T04:01:40Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u2y1",
-      "type": "earthquake",
-      "time_utc": "2026-10-17T05:06:57Z",
-      "title": {
-        "en": "M 5.7 - 48 km WNW of Khuzdar, Pakistan",
-        "zh": "M 5.7 - 48 km WNW of Khuzdar, Pakistan"
-      },
-      "summary": {
-        "en": "M5.7 earthquake 48 km WNW of Khuzdar, Pakistan at 2026-10-17T05:06:57Z.",
-        "zh": "M5.7 地震，位置 48 km WNW of Khuzdar, Pakistan，時間 2026-10-17T05:06:57Z。"
-      },
-      "data": {
-        "magnitude": 5.7,
-        "place": "48 km WNW of Khuzdar, Pakistan",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2y1"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-18T04:01:40Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u2xs",
-      "type": "earthquake",
-      "time_utc": "2026-10-17T04:19:05Z",
-      "title": {
-        "en": "M 4.8 - 196 km SSE of Alo, Wallis and Futuna",
-        "zh": "M 4.8 - 196 km SSE of Alo, Wallis and Futuna"
-      },
-      "summary": {
-        "en": "M4.8 earthquake 196 km SSE of Alo, Wallis and Futuna at 2026-10-17T04:19:05Z.",
-        "zh": "M4.8 地震，位置 196 km SSE of Alo, Wallis and Futuna，時間 2026-10-17T04:19:05Z。"
-      },
-      "data": {
-        "magnitude": 4.8,
-        "place": "196 km SSE of Alo, Wallis and Futuna",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2xs"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-18T04:01:40Z"
+        "fetched_at": "2026-10-18T05:10:12Z"
       }
     }
   ]
