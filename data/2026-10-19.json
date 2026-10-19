@@ -1,37 +1,37 @@
 {
   "date": "2026-10-19",
-  "updated": "2026-10-19T07:00:00Z",
+  "updated": "2026-10-19T08:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-19T05Z",
+      "time_utc": "2026-10-19T06Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.33 (0P) at 05 UTC on 19 October 2026.",
-        "zh": "2026 年 10 月 19 日 05 UTC，估算行星 Kp 為 0.33（0P）。"
+        "en": "Estimated planetary Kp is 0.0 (0Z) at 06 UTC on 19 October 2026.",
+        "zh": "2026 年 10 月 19 日 06 UTC，估算行星 Kp 為 0.0（0Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 0.33 (0P) at 2026-10-19T05 on 19 October 2026. The 05 hour is complete (60 samples through 05:59; hour-start 0.33/0P, hour-end 0.33/0P). Last-180 maximum is 0.33. Published-window maximum is 0.33. Window starts 2026-10-19T01:00:00 (359 samples). Next hour 06:00 incomplete (59 samples).",
-        "zh": "最新可靠整點末值：2026-10-19T05 估算 Kp 0.33（0P）。05 時段已收滿（60 筆至 05:59；時段初 0.33/0P、時段末 0.33/0P）。last-180 最大 0.33。公開窗最大 0.33。窗起點 2026-10-19T01:00:00（359 筆）。下一整點 06:00 未滿（59 筆）。"
+        "en": "Latest reliable hour-end estimated Kp is 0.0 (0Z) at 2026-10-19T06 on 19 October 2026. The 06 hour is complete (60 samples through 06:59; hour-start 0.0/0Z, hour-end 0.0/0Z). Last-180 maximum is 0.33. Published-window maximum is 0.33. Window starts 2026-10-19T01:58:00 (359 samples). Next hour 07:00 incomplete (57 samples).",
+        "zh": "最新可靠整點末值：2026-10-19T06 估算 Kp 0.0（0Z）。06 時段已收滿（60 筆至 06:59；時段初 0.0/0Z、時段末 0.0/0Z）。last-180 最大 0.33。公開窗最大 0.33。窗起點 2026-10-19T01:58:00（359 筆）。下一整點 07:00 未滿（57 筆）。"
       },
       "data": {
-        "estimated_kp": 0.33,
-        "kp": "0P",
+        "estimated_kp": 0.0,
+        "kp": "0Z",
         "hour_complete": true,
-        "hour_start_kp": 0.33,
-        "hour_end_kp": 0.33,
+        "hour_start_kp": 0.0,
+        "hour_end_kp": 0.0,
         "last180_max": 0.33,
         "window_max": 0.33,
-        "window_start": "2026-10-19T01:00:00",
+        "window_start": "2026-10-19T01:58:00",
         "sample_count": 359,
         "next_hour_incomplete": true,
-        "next_hour_samples": 59
+        "next_hour_samples": 57
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-19T07:00:00Z"
+        "fetched_at": "2026-10-19T08:00:00Z"
       }
     },
     {
@@ -55,7 +55,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T07:00:00Z"
+        "fetched_at": "2026-10-19T08:00:00Z"
       }
     },
     {
@@ -79,7 +79,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T07:00:00Z"
+        "fetched_at": "2026-10-19T08:00:00Z"
       }
     },
     {
@@ -103,7 +103,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T07:00:00Z"
+        "fetched_at": "2026-10-19T08:00:00Z"
       }
     },
     {
@@ -127,7 +127,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T07:00:00Z"
+        "fetched_at": "2026-10-19T08:00:00Z"
       }
     },
     {
@@ -151,7 +151,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T07:00:00Z"
+        "fetched_at": "2026-10-19T08:00:00Z"
       }
     },
     {
@@ -175,7 +175,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T07:00:00Z"
+        "fetched_at": "2026-10-19T08:00:00Z"
       }
     },
     {
@@ -199,7 +199,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T07:00:00Z"
+        "fetched_at": "2026-10-19T08:00:00Z"
       }
     },
     {
@@ -223,7 +223,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T07:00:00Z"
+        "fetched_at": "2026-10-19T08:00:00Z"
       }
     },
     {
@@ -247,7 +247,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T07:00:00Z"
+        "fetched_at": "2026-10-19T08:00:00Z"
       }
     },
     {
@@ -271,31 +271,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T07:00:00Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u34e",
-      "type": "earthquake",
-      "time_utc": "2026-10-18T08:00:06Z",
-      "title": {
-        "en": "M 5.2 - 55 km NNW of Ruteng, Indonesia",
-        "zh": "M 5.2 - 55 km NNW of Ruteng, Indonesia"
-      },
-      "summary": {
-        "en": "M5.2 earthquake 55 km NNW of Ruteng, Indonesia at 2026-10-18T08:00:06Z.",
-        "zh": "M5.2 地震，位置 55 km NNW of Ruteng, Indonesia，時間 2026-10-18T08:00:06Z。"
-      },
-      "data": {
-        "magnitude": 5.2,
-        "place": "55 km NNW of Ruteng, Indonesia",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u34e"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T07:00:00Z"
+        "fetched_at": "2026-10-19T08:00:00Z"
       }
     }
   ]
