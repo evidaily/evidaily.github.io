@@ -1,29 +1,29 @@
 {
   "date": "2026-10-19",
-  "updated": "2026-10-19T08:00:00Z",
+  "updated": "2026-10-19T09:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-19T06Z",
+      "time_utc": "2026-10-19T07Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.0 (0Z) at 06 UTC on 19 October 2026.",
-        "zh": "2026 年 10 月 19 日 06 UTC，估算行星 Kp 為 0.0（0Z）。"
+        "en": "Estimated planetary Kp is 0.0 (0Z) at 07 UTC on 19 October 2026.",
+        "zh": "2026 年 10 月 19 日 07 UTC，估算行星 Kp 為 0.0（0Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 0.0 (0Z) at 2026-10-19T06 on 19 October 2026. The 06 hour is complete (60 samples through 06:59; hour-start 0.0/0Z, hour-end 0.0/0Z). Last-180 maximum is 0.33. Published-window maximum is 0.33. Window starts 2026-10-19T01:58:00 (359 samples). Next hour 07:00 incomplete (57 samples).",
-        "zh": "最新可靠整點末值：2026-10-19T06 估算 Kp 0.0（0Z）。06 時段已收滿（60 筆至 06:59；時段初 0.0/0Z、時段末 0.0/0Z）。last-180 最大 0.33。公開窗最大 0.33。窗起點 2026-10-19T01:58:00（359 筆）。下一整點 07:00 未滿（57 筆）。"
+        "en": "Latest reliable hour-end estimated Kp is 0.0 (0Z) at 2026-10-19T07 on 19 October 2026. The 07 hour is complete (60 samples through 07:59; hour-start 0.0/0Z, hour-end 0.33/0P). Last-180 maximum is 0.33. Published-window maximum is 0.33. Window starts 2026-10-19T02:59:00 (358 samples). Next hour 08:00 incomplete (57 samples).",
+        "zh": "最新可靠整點末值：2026-10-19T07 估算 Kp 0.0（0Z）。07 時段已收滿（60 筆至 07:59；時段初 0.0/0Z、時段末 0.33/0P）。last-180 最大 0.33。公開窗最大 0.33。窗起點 2026-10-19T02:59:00（358 筆）。下一整點 08:00 未滿（57 筆）。"
       },
       "data": {
         "estimated_kp": 0.0,
         "kp": "0Z",
         "hour_complete": true,
         "hour_start_kp": 0.0,
-        "hour_end_kp": 0.0,
+        "hour_end_kp": 0.33,
         "last180_max": 0.33,
         "window_max": 0.33,
-        "window_start": "2026-10-19T01:58:00",
-        "sample_count": 359,
+        "window_start": "2026-10-19T02:59:00",
+        "sample_count": 358,
         "next_hour_incomplete": true,
         "next_hour_samples": 57
       },
@@ -31,7 +31,127 @@
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-19T08:00:00Z"
+        "fetched_at": "2026-10-19T09:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u3bk",
+      "type": "earthquake",
+      "time_utc": "2026-10-19T08:21:47Z",
+      "title": {
+        "en": "M 5.2 - 211 km WNW of Port-Olry, Vanuatu",
+        "zh": "M 5.2 - 211 km WNW of Port-Olry, Vanuatu"
+      },
+      "summary": {
+        "en": "M5.2 earthquake 211 km WNW of Port-Olry, Vanuatu at 2026-10-19T08:21:47Z.",
+        "zh": "M5.2 地震，位置 211 km WNW of Port-Olry, Vanuatu，時間 2026-10-19T08:21:47Z。"
+      },
+      "data": {
+        "magnitude": 5.2,
+        "place": "211 km WNW of Port-Olry, Vanuatu",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3bk"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-19T09:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u3bi",
+      "type": "earthquake",
+      "time_utc": "2026-10-19T08:12:38Z",
+      "title": {
+        "en": "M 5.4 - 184 km WNW of Port-Olry, Vanuatu",
+        "zh": "M 5.4 - 184 km WNW of Port-Olry, Vanuatu"
+      },
+      "summary": {
+        "en": "M5.4 earthquake 184 km WNW of Port-Olry, Vanuatu at 2026-10-19T08:12:38Z.",
+        "zh": "M5.4 地震，位置 184 km WNW of Port-Olry, Vanuatu，時間 2026-10-19T08:12:38Z。"
+      },
+      "data": {
+        "magnitude": 5.4,
+        "place": "184 km WNW of Port-Olry, Vanuatu",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3bi"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-19T09:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u3be",
+      "type": "earthquake",
+      "time_utc": "2026-10-19T07:55:36Z",
+      "title": {
+        "en": "M 5.3 - 188 km NW of Port-Olry, Vanuatu",
+        "zh": "M 5.3 - 188 km NW of Port-Olry, Vanuatu"
+      },
+      "summary": {
+        "en": "M5.3 earthquake 188 km NW of Port-Olry, Vanuatu at 2026-10-19T07:55:36Z.",
+        "zh": "M5.3 地震，位置 188 km NW of Port-Olry, Vanuatu，時間 2026-10-19T07:55:36Z。"
+      },
+      "data": {
+        "magnitude": 5.3,
+        "place": "188 km NW of Port-Olry, Vanuatu",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3be"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-19T09:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u3bc",
+      "type": "earthquake",
+      "time_utc": "2026-10-19T07:49:04Z",
+      "title": {
+        "en": "M 6 - 186 km NW of Port-Olry, Vanuatu",
+        "zh": "M 6 - 186 km NW of Port-Olry, Vanuatu"
+      },
+      "summary": {
+        "en": "M6 earthquake 186 km NW of Port-Olry, Vanuatu at 2026-10-19T07:49:04Z.",
+        "zh": "M6 地震，位置 186 km NW of Port-Olry, Vanuatu，時間 2026-10-19T07:49:04Z。"
+      },
+      "data": {
+        "magnitude": 6,
+        "place": "186 km NW of Port-Olry, Vanuatu",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3bc"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-19T09:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u3b8",
+      "type": "earthquake",
+      "time_utc": "2026-10-19T07:20:52Z",
+      "title": {
+        "en": "M 4.9 - 203 km WNW of Port-Olry, Vanuatu",
+        "zh": "M 4.9 - 203 km WNW of Port-Olry, Vanuatu"
+      },
+      "summary": {
+        "en": "M4.9 earthquake 203 km WNW of Port-Olry, Vanuatu at 2026-10-19T07:20:52Z.",
+        "zh": "M4.9 地震，位置 203 km WNW of Port-Olry, Vanuatu，時間 2026-10-19T07:20:52Z。"
+      },
+      "data": {
+        "magnitude": 4.9,
+        "place": "203 km WNW of Port-Olry, Vanuatu",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3b8"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-19T09:00:00Z"
       }
     },
     {
@@ -55,7 +175,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T08:00:00Z"
+        "fetched_at": "2026-10-19T09:00:00Z"
       }
     },
     {
@@ -79,7 +199,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T08:00:00Z"
+        "fetched_at": "2026-10-19T09:00:00Z"
       }
     },
     {
@@ -103,7 +223,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T08:00:00Z"
+        "fetched_at": "2026-10-19T09:00:00Z"
       }
     },
     {
@@ -127,7 +247,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T08:00:00Z"
+        "fetched_at": "2026-10-19T09:00:00Z"
       }
     },
     {
@@ -151,7 +271,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T08:00:00Z"
+        "fetched_at": "2026-10-19T09:00:00Z"
       }
     },
     {
@@ -175,7 +295,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T08:00:00Z"
+        "fetched_at": "2026-10-19T09:00:00Z"
       }
     },
     {
@@ -199,7 +319,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T08:00:00Z"
+        "fetched_at": "2026-10-19T09:00:00Z"
       }
     },
     {
@@ -223,7 +343,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T08:00:00Z"
+        "fetched_at": "2026-10-19T09:00:00Z"
       }
     },
     {
@@ -247,7 +367,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T08:00:00Z"
+        "fetched_at": "2026-10-19T09:00:00Z"
       }
     },
     {
@@ -271,7 +391,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T08:00:00Z"
+        "fetched_at": "2026-10-19T09:00:00Z"
       }
     }
   ]
