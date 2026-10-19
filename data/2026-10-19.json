@@ -1,0 +1,182 @@
+{
+  "date": "2026-10-19",
+  "updated": "2026-10-19T00:00:00Z",
+  "entries": [
+    {
+      "id": "noaa-kp-1m",
+      "type": "space-weather",
+      "time_utc": "2026-10-18T23Z",
+      "title": {
+        "en": "Estimated planetary Kp is 0.33 (0P) at 23 UTC on 18 October 2026.",
+        "zh": "2026 年 10 月 18 日 23 UTC，估算行星 Kp 為 0.33（0P）。"
+      },
+      "summary": {
+        "en": "Latest reliable hour-start estimated Kp is 0.33 (0P) at 2026-10-18T23 on 18 October 2026. The 23 hour is complete (60 samples through 23:59; hour-start 0.33/0P, hour-end 0.0/0Z). Last-180 maximum is 0.33. Published-window maximum is 1.67. Window starts 2026-10-18T18:05:00 (356 samples). Next hour 00:00 incomplete (1 sample).",
+        "zh": "最新可靠整點初值：2026-10-18T23 估算 Kp 0.33（0P）。23 時段已收滿（60 筆至 23:59；時段初 0.33/0P、時段末 0.0/0Z）。last-180 最大 0.33。公開窗最大 1.67。窗起點 2026-10-18T18:05:00（356 筆）。下一整點 00:00 未滿（1 筆）。"
+      },
+      "data": {
+        "estimated_kp": 0.33,
+        "kp": "0P",
+        "hour_complete": true,
+        "hour_start_kp": 0.33,
+        "hour_end_kp": 0.0,
+        "last180_max": 0.33,
+        "window_max": 1.67,
+        "window_start": "2026-10-18T18:05:00",
+        "sample_count": 356,
+        "next_hour_incomplete": true,
+        "next_hour_samples": 1
+      },
+      "evidence": {
+        "source": "NOAA SWPC planetary_k_index_1m.json",
+        "source_name": "NOAA SWPC",
+        "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
+        "fetched_at": "2026-10-19T00:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u38i",
+      "type": "earthquake",
+      "time_utc": "2026-10-18T22:34:22Z",
+      "title": {
+        "en": "M 4.5 - Fiji region",
+        "zh": "M 4.5 - Fiji region"
+      },
+      "summary": {
+        "en": "M4.5 earthquake Fiji region at 2026-10-18T22:34:22Z.",
+        "zh": "M4.5 地震，位置 Fiji region，時間 2026-10-18T22:34:22Z。"
+      },
+      "data": {
+        "magnitude": 4.5,
+        "place": "Fiji region",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u38i"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-19T00:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u38g",
+      "type": "earthquake",
+      "time_utc": "2026-10-18T22:31:43Z",
+      "title": {
+        "en": "M 5.1 - 129 km SSE of Kokopo, Papua New Guinea",
+        "zh": "M 5.1 - 129 km SSE of Kokopo, Papua New Guinea"
+      },
+      "summary": {
+        "en": "M5.1 earthquake 129 km SSE of Kokopo, Papua New Guinea at 2026-10-18T22:31:43Z.",
+        "zh": "M5.1 地震，位置 129 km SSE of Kokopo, Papua New Guinea，時間 2026-10-18T22:31:43Z。"
+      },
+      "data": {
+        "magnitude": 5.1,
+        "place": "129 km SSE of Kokopo, Papua New Guinea",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u38g"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-19T00:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u38b",
+      "type": "earthquake",
+      "time_utc": "2026-10-18T22:06:13Z",
+      "title": {
+        "en": "M 4.7 - 147 km SSW of Kokopo, Papua New Guinea",
+        "zh": "M 4.7 - 147 km SSW of Kokopo, Papua New Guinea"
+      },
+      "summary": {
+        "en": "M4.7 earthquake 147 km SSW of Kokopo, Papua New Guinea at 2026-10-18T22:06:13Z.",
+        "zh": "M4.7 地震，位置 147 km SSW of Kokopo, Papua New Guinea，時間 2026-10-18T22:06:13Z。"
+      },
+      "data": {
+        "magnitude": 4.7,
+        "place": "147 km SSW of Kokopo, Papua New Guinea",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u38b"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-19T00:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u37h",
+      "type": "earthquake",
+      "time_utc": "2026-10-18T19:32:28Z",
+      "title": {
+        "en": "M 5.2 - 71 km ESE of ‘Ohonua, Tonga",
+        "zh": "M 5.2 - 71 km ESE of ‘Ohonua, Tonga"
+      },
+      "summary": {
+        "en": "M5.2 earthquake 71 km ESE of ‘Ohonua, Tonga at 2026-10-18T19:32:28Z.",
+        "zh": "M5.2 地震，位置 71 km ESE of ‘Ohonua, Tonga，時間 2026-10-18T19:32:28Z。"
+      },
+      "data": {
+        "magnitude": 5.2,
+        "place": "71 km ESE of ‘Ohonua, Tonga",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u37h"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-19T00:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u36m",
+      "type": "earthquake",
+      "time_utc": "2026-10-18T16:12:55Z",
+      "title": {
+        "en": "M 4.5 - 0 km NE of Río Grande, Panama",
+        "zh": "M 4.5 - 0 km NE of Río Grande, Panama"
+      },
+      "summary": {
+        "en": "M4.5 earthquake 0 km NE of Río Grande, Panama at 2026-10-18T16:12:55Z.",
+        "zh": "M4.5 地震，位置 0 km NE of Río Grande, Panama，時間 2026-10-18T16:12:55Z。"
+      },
+      "data": {
+        "magnitude": 4.5,
+        "place": "0 km NE of Río Grande, Panama",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u36m"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-19T00:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u36d",
+      "type": "earthquake",
+      "time_utc": "2026-10-18T15:35:47Z",
+      "title": {
+        "en": "M 4.7 - 20 km SW of Sandy Point Town, Saint Kitts and Nevis",
+        "zh": "M 4.7 - 20 km SW of Sandy Point Town, Saint Kitts and Nevis"
+      },
+      "summary": {
+        "en": "M4.7 earthquake 20 km SW of Sandy Point Town, Saint Kitts and Nevis at 2026-10-18T15:35:47Z.",
+        "zh": "M4.7 地震，位置 20 km SW of Sandy Point Town, Saint Kitts and Nevis，時間 2026-10-18T15:35:47Z。"
+      },
+      "data": {
+        "magnitude": 4.7,
+        "place": "20 km SW of Sandy Point Town, Saint Kitts and Nevis",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u36d"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-19T00:00:00Z"
+      }
+    }
+  ]
+}
