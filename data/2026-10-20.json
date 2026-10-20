@@ -1,28 +1,28 @@
 {
   "date": "2026-10-20",
-  "updated": "2026-10-20T09:01:41Z",
+  "updated": "2026-10-20T10:01:21Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-20T07Z",
+      "time_utc": "2026-10-20T08Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.33 (0P) at 07 UTC on 20 October 2026.",
-        "zh": "2026 年 10 月 20 日 07 UTC，估算行星 Kp 為 0.33（0P）。"
+        "en": "Estimated planetary Kp is 0.67 (1M) at 08 UTC on 20 October 2026.",
+        "zh": "2026 年 10 月 20 日 08 UTC，估算行星 Kp 為 0.67（1M）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.33 (0P) at 2026-10-20T07 on 20 October 2026. The 07 hour is complete (60 samples through 07:59; hour-start 0.33/0P, hour-end 0.67/1M). Last-180 maximum is 1.00. Published-window maximum is 1.00. Window starts 2026-10-20T03:00:00 (359 samples). Next hour 08:00 incomplete (59 samples).",
-        "zh": "最新可靠整點初值：2026-10-20T07 估算 Kp 0.33（0P）。07 時段已收滿（60 筆至 07:59；時段初 0.33/0P、時段末 0.67/1M）。last-180 最大 1.00。公開窗最大 1.00。窗起點 2026-10-20T03:00:00（359 筆）。下一整點 08:00 未滿（59 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.67 (1M) at 2026-10-20T08 on 20 October 2026. The 08 hour is complete (60 samples through 08:59; hour-start 0.67/1M, hour-end 1.0/1Z). Last-180 maximum is 1.67. Published-window maximum is 1.67. Window starts 2026-10-20T04:00:00 (359 samples). Next hour 09:00 incomplete (59 samples).",
+        "zh": "最新可靠整點初值：2026-10-20T08 估算 Kp 0.67（1M）。08 時段已收滿（60 筆至 08:59；時段初 0.67/1M、時段末 1.0/1Z）。last-180 最大 1.67。公開窗最大 1.67。窗起點 2026-10-20T04:00:00（359 筆）。下一整點 09:00 未滿（59 筆）。"
       },
       "data": {
-        "estimated_kp": 0.33,
-        "kp": "0P",
+        "estimated_kp": 0.67,
+        "kp": "1M",
         "hour_complete": true,
-        "hour_start_kp": 0.33,
-        "hour_end_kp": 0.67,
-        "last180_max": 1.0,
-        "window_max": 1.0,
-        "window_start": "2026-10-20T03:00:00",
+        "hour_start_kp": 0.67,
+        "hour_end_kp": 1.0,
+        "last180_max": 1.67,
+        "window_max": 1.67,
+        "window_start": "2026-10-20T04:00:00",
         "sample_count": 359,
         "next_hour_incomplete": true,
         "next_hour_samples": 59
@@ -31,7 +31,55 @@
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-20T09:01:41Z"
+        "fetched_at": "2026-10-20T10:01:21Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u3l3",
+      "type": "earthquake",
+      "time_utc": "2026-10-20T08:58:37Z",
+      "title": {
+        "en": "M4.5 earthquake - 100 km SSW of Alo, Wallis and Futuna",
+        "zh": "M4.5 地震 - 100 km SSW of Alo, Wallis and Futuna"
+      },
+      "summary": {
+        "en": "Magnitude 4.5 earthquake at 100 km SSW of Alo, Wallis and Futuna.",
+        "zh": "規模 4.5 地震，位於 100 km SSW of Alo, Wallis and Futuna。"
+      },
+      "data": {
+        "mag": 4.5,
+        "place": "100 km SSW of Alo, Wallis and Futuna",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3l3"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-20T10:01:21Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u3l0",
+      "type": "earthquake",
+      "time_utc": "2026-10-20T08:39:56Z",
+      "title": {
+        "en": "M4.9 earthquake - 199 km NW of Port-Olry, Vanuatu",
+        "zh": "M4.9 地震 - 199 km NW of Port-Olry, Vanuatu"
+      },
+      "summary": {
+        "en": "Magnitude 4.9 earthquake at 199 km NW of Port-Olry, Vanuatu.",
+        "zh": "規模 4.9 地震，位於 199 km NW of Port-Olry, Vanuatu。"
+      },
+      "data": {
+        "mag": 4.9,
+        "place": "199 km NW of Port-Olry, Vanuatu",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3l0"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-20T10:01:21Z"
       }
     },
     {
@@ -55,7 +103,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T09:01:41Z"
+        "fetched_at": "2026-10-20T10:01:21Z"
       }
     },
     {
@@ -79,7 +127,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T09:01:41Z"
+        "fetched_at": "2026-10-20T10:01:21Z"
       }
     },
     {
@@ -103,7 +151,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T09:01:41Z"
+        "fetched_at": "2026-10-20T10:01:21Z"
       }
     },
     {
@@ -127,7 +175,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T09:01:41Z"
+        "fetched_at": "2026-10-20T10:01:21Z"
       }
     },
     {
@@ -151,7 +199,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T09:01:41Z"
+        "fetched_at": "2026-10-20T10:01:21Z"
       }
     },
     {
@@ -175,7 +223,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T09:01:41Z"
+        "fetched_at": "2026-10-20T10:01:21Z"
       }
     },
     {
@@ -199,7 +247,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T09:01:41Z"
+        "fetched_at": "2026-10-20T10:01:21Z"
       }
     },
     {
@@ -223,7 +271,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T09:01:41Z"
+        "fetched_at": "2026-10-20T10:01:21Z"
       }
     },
     {
@@ -247,7 +295,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T09:01:41Z"
+        "fetched_at": "2026-10-20T10:01:21Z"
       }
     },
     {
@@ -271,7 +319,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T09:01:41Z"
+        "fetched_at": "2026-10-20T10:01:21Z"
       }
     },
     {
@@ -295,7 +343,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T09:01:41Z"
+        "fetched_at": "2026-10-20T10:01:21Z"
       }
     },
     {
@@ -319,7 +367,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T09:01:41Z"
+        "fetched_at": "2026-10-20T10:01:21Z"
       }
     },
     {
@@ -343,7 +391,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T09:01:41Z"
+        "fetched_at": "2026-10-20T10:01:21Z"
       }
     },
     {
@@ -367,7 +415,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T09:01:41Z"
+        "fetched_at": "2026-10-20T10:01:21Z"
       }
     },
     {
@@ -391,7 +439,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T09:01:41Z"
+        "fetched_at": "2026-10-20T10:01:21Z"
       }
     },
     {
@@ -415,7 +463,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T09:01:41Z"
+        "fetched_at": "2026-10-20T10:01:21Z"
       }
     },
     {
@@ -439,7 +487,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T09:01:41Z"
+        "fetched_at": "2026-10-20T10:01:21Z"
       }
     },
     {
@@ -463,7 +511,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T09:01:41Z"
+        "fetched_at": "2026-10-20T10:01:21Z"
       }
     },
     {
@@ -487,7 +535,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T09:01:41Z"
+        "fetched_at": "2026-10-20T10:01:21Z"
       }
     },
     {
@@ -511,7 +559,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T09:01:41Z"
+        "fetched_at": "2026-10-20T10:01:21Z"
       }
     },
     {
@@ -535,7 +583,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T09:01:41Z"
+        "fetched_at": "2026-10-20T10:01:21Z"
       }
     },
     {
@@ -559,7 +607,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T09:01:41Z"
+        "fetched_at": "2026-10-20T10:01:21Z"
       }
     },
     {
@@ -583,79 +631,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T09:01:41Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u3c1",
-      "type": "earthquake",
-      "time_utc": "2026-10-19T09:45:56Z",
-      "title": {
-        "en": "M4.9 earthquake - 54 km NE of Labuan Bajo, Indonesia",
-        "zh": "M4.9 地震 - 54 km NE of Labuan Bajo, Indonesia"
-      },
-      "summary": {
-        "en": "Magnitude 4.9 earthquake at 54 km NE of Labuan Bajo, Indonesia.",
-        "zh": "規模 4.9 地震，位於 54 km NE of Labuan Bajo, Indonesia。"
-      },
-      "data": {
-        "mag": 4.9,
-        "place": "54 km NE of Labuan Bajo, Indonesia",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3c1"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T09:01:41Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u3bz",
-      "type": "earthquake",
-      "time_utc": "2026-10-19T09:25:14Z",
-      "title": {
-        "en": "M4.9 earthquake - 115 km NNW of Sola, Vanuatu",
-        "zh": "M4.9 地震 - 115 km NNW of Sola, Vanuatu"
-      },
-      "summary": {
-        "en": "Magnitude 4.9 earthquake at 115 km NNW of Sola, Vanuatu.",
-        "zh": "規模 4.9 地震，位於 115 km NNW of Sola, Vanuatu。"
-      },
-      "data": {
-        "mag": 4.9,
-        "place": "115 km NNW of Sola, Vanuatu",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3bz"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T09:01:41Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u3bv",
-      "type": "earthquake",
-      "time_utc": "2026-10-19T09:00:39Z",
-      "title": {
-        "en": "M4.7 earthquake - 163 km WNW of Tobelo, Indonesia",
-        "zh": "M4.7 地震 - 163 km WNW of Tobelo, Indonesia"
-      },
-      "summary": {
-        "en": "Magnitude 4.7 earthquake at 163 km WNW of Tobelo, Indonesia.",
-        "zh": "規模 4.7 地震，位於 163 km WNW of Tobelo, Indonesia。"
-      },
-      "data": {
-        "mag": 4.7,
-        "place": "163 km WNW of Tobelo, Indonesia",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3bv"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T09:01:41Z"
+        "fetched_at": "2026-10-20T10:01:21Z"
       }
     }
   ]
