@@ -1,37 +1,61 @@
 {
   "date": "2026-10-20",
-  "updated": "2026-10-20T01:01:50Z",
+  "updated": "2026-10-20T02:01:24Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-19T23Z",
+      "time_utc": "2026-10-20T00Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.67 (1M) at 23 UTC on 19 October 2026.",
-        "zh": "2026 年 10 月 19 日 23 UTC，估算行星 Kp 為 0.67（1M）。"
+        "en": "Estimated planetary Kp is 0.0 (0Z) at 00 UTC on 20 October 2026.",
+        "zh": "2026 年 10 月 20 日 00 UTC，估算行星 Kp 為 0.0（0Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.67 (1M) at 2026-10-19T23 on 19 October 2026. The 23 hour is complete (60 samples through 23:59; hour-start 0.67/1M, hour-end 1.0/1Z). Last-180 maximum is 1.0. Published-window maximum is 1.0. Window starts 2026-10-19T18:58:00 (358 samples). Next hour 00:00 incomplete (56 samples).",
-        "zh": "最新可靠整點初值：2026-10-19T23 估算 Kp 0.67（1M）。23 時段已收滿（60 筆至 23:59；時段初 0.67/1M、時段末 1.0/1Z）。last-180 最大 1.0。公開窗最大 1.0。窗起點 2026-10-19T18:58:00（358 筆）。下一整點 00:00 未滿（56 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-20T00 on 20 October 2026. The 00 hour is complete (60 samples through 00:59; hour-start 0.0/0Z, hour-end 1.0/1Z). Last-180 maximum is 1.0. Published-window maximum is 1.0. Window starts 2026-10-19T20:00:00 (358 samples). Next hour 01:00 incomplete (58 samples).",
+        "zh": "最新可靠整點初值：2026-10-20T00 估算 Kp 0.0（0Z）。00 時段已收滿（60 筆至 00:59；時段初 0.0/0Z、時段末 1.0/1Z）。last-180 最大 1.0。公開窗最大 1.0。窗起點 2026-10-19T20:00:00（358 筆）。下一整點 01:00 未滿（58 筆）。"
       },
       "data": {
-        "estimated_kp": 0.67,
-        "kp": "1M",
+        "estimated_kp": 0.0,
+        "kp": "0Z",
         "hour_complete": true,
-        "hour_start_kp": 0.67,
+        "hour_start_kp": 0.0,
         "hour_end_kp": 1.0,
         "last180_max": 1.0,
         "window_max": 1.0,
-        "window_start": "2026-10-19T18:58:00",
+        "window_start": "2026-10-19T20:00:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
-        "next_hour_samples": 56
+        "next_hour_samples": 58
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-20T01:01:50Z"
+        "fetched_at": "2026-10-20T02:01:24Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u3j5",
+      "type": "earthquake",
+      "time_utc": "2026-10-20T00:56:32Z",
+      "title": {
+        "en": "M4.5 earthquake - 156 km SE of Kuqa, China",
+        "zh": "M4.5 地震 - 156 km SE of Kuqa, China"
+      },
+      "summary": {
+        "en": "Magnitude 4.5 earthquake at 156 km SE of Kuqa, China.",
+        "zh": "規模 4.5 地震，位於 156 km SE of Kuqa, China。"
+      },
+      "data": {
+        "mag": 4.5,
+        "place": "156 km SE of Kuqa, China",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3j5"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-20T02:01:24Z"
       }
     },
     {
