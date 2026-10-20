@@ -1,37 +1,61 @@
 {
   "date": "2026-10-19",
-  "updated": "2026-10-19T23:02:00Z",
+  "updated": "2026-10-20T00:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-19T21Z",
+      "time_utc": "2026-10-19T22Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.0 (0Z) at 21 UTC on 19 October 2026.",
-        "zh": "2026 年 10 月 19 日 21 UTC，估算行星 Kp 為 0.0（0Z）。"
+        "en": "Estimated planetary Kp is 0.67 (1M) at 22 UTC on 19 October 2026.",
+        "zh": "2026 年 10 月 19 日 22 UTC，估算行星 Kp 為 0.67（1M）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-19T21 on 19 October 2026. The 21 hour is complete (60 samples through 21:59; hour-start 0.0/0Z, hour-end 0.33/0P). Last-180 maximum is 0.67. Published-window maximum is 0.67. Window starts 2026-10-19T17:00:00 (357 samples). Next hour 22:00 incomplete (57 samples).",
-        "zh": "最新可靠整點初值：2026-10-19T21 估算 Kp 0.0（0Z）。21 時段已收滿（60 筆至 21:59；時段初 0.0/0Z、時段末 0.33/0P）。last-180 最大 0.67。公開窗最大 0.67。窗起點 2026-10-19T17:00:00（357 筆）。下一整點 22:00 未滿（57 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.67 (1M) at 2026-10-19T22 on 19 October 2026. The 22 hour is complete (60 samples through 22:59; hour-start 0.67/1M, hour-end 0.67/1M). Last-180 maximum is 0.67. Published-window maximum is 0.67. Window starts 2026-10-19T17:00:00 (358 samples). Next hour 23:00 incomplete (55 samples).",
+        "zh": "最新可靠整點初值：2026-10-19T22 估算 Kp 0.67（1M）。22 時段已收滿（60 筆至 22:59；時段初 0.67/1M、時段末 0.67/1M）。last-180 最大 0.67。公開窗最大 0.67。窗起點 2026-10-19T17:00:00（358 筆）。下一整點 23:00 未滿（55 筆）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp": "0Z",
+        "estimated_kp": 0.67,
+        "kp": "1M",
         "hour_complete": true,
-        "hour_start_kp": 0.0,
-        "hour_end_kp": 0.33,
+        "hour_start_kp": 0.67,
+        "hour_end_kp": 0.67,
         "last180_max": 0.67,
         "window_max": 0.67,
         "window_start": "2026-10-19T17:00:00",
-        "sample_count": 357,
+        "sample_count": 358,
         "next_hour_incomplete": true,
-        "next_hour_samples": 57
+        "next_hour_samples": 55
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-19T23:02:00Z"
+        "fetched_at": "2026-10-20T00:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u3ic",
+      "type": "earthquake",
+      "time_utc": "2026-10-19T22:42:47Z",
+      "title": {
+        "en": "M4.9 earthquake - 52 km S of Kokopo, Papua New Guinea",
+        "zh": "M4.9 地震 - 52 km S of Kokopo, Papua New Guinea"
+      },
+      "summary": {
+        "en": "Magnitude 4.9 earthquake at 52 km S of Kokopo, Papua New Guinea on 2026-10-19T22:42:47Z.",
+        "zh": "2026-10-19T22:42:47Z 在 52 km S of Kokopo, Papua New Guinea 發生規模 4.9 地震。"
+      },
+      "data": {
+        "magnitude": 4.9,
+        "place": "52 km S of Kokopo, Papua New Guinea",
+        "time": 1792449767
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-20T00:00:00Z"
       }
     },
     {
@@ -39,24 +63,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-19T21:43:36Z",
       "title": {
-        "en": "M 4.5 - Kuril Islands",
-        "zh": "M 4.5 - Kuril Islands"
+        "en": "M4.5 earthquake - Kuril Islands",
+        "zh": "M4.5 地震 - Kuril Islands"
       },
       "summary": {
-        "en": "M 4.5 - Kuril Islands at 2026-10-19T21:43:36Z.",
-        "zh": "M 4.5 - Kuril Islands 於 2026-10-19T21:43:36Z。"
+        "en": "Magnitude 4.5 earthquake at Kuril Islands on 2026-10-19T21:43:36Z.",
+        "zh": "2026-10-19T21:43:36Z 在 Kuril Islands 發生規模 4.5 地震。"
       },
       "data": {
-        "mag": 4.5,
+        "magnitude": 4.5,
         "place": "Kuril Islands",
-        "depth_km": 102.1,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3i2"
+        "time": 1792446216
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T23:02:00Z"
+        "fetched_at": "2026-10-20T00:00:00Z"
       }
     },
     {
@@ -64,24 +87,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-19T18:55:37Z",
       "title": {
-        "en": "M 5.7 - 203 km WNW of Port-Olry, Vanuatu",
-        "zh": "M 5.7 - 203 km WNW of Port-Olry, Vanuatu"
+        "en": "M5.7 earthquake - 203 km WNW of Port-Olry, Vanuatu",
+        "zh": "M5.7 地震 - 203 km WNW of Port-Olry, Vanuatu"
       },
       "summary": {
-        "en": "M 5.7 - 203 km WNW of Port-Olry, Vanuatu at 2026-10-19T18:55:37Z.",
-        "zh": "M 5.7 - 203 km WNW of Port-Olry, Vanuatu 於 2026-10-19T18:55:37Z。"
+        "en": "Magnitude 5.7 earthquake at 203 km WNW of Port-Olry, Vanuatu on 2026-10-19T18:55:37Z.",
+        "zh": "2026-10-19T18:55:37Z 在 203 km WNW of Port-Olry, Vanuatu 發生規模 5.7 地震。"
       },
       "data": {
-        "mag": 5.7,
+        "magnitude": 5.7,
         "place": "203 km WNW of Port-Olry, Vanuatu",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ge"
+        "time": 1792436137
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T23:02:00Z"
+        "fetched_at": "2026-10-20T00:00:00Z"
       }
     },
     {
@@ -89,24 +111,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-19T18:52:36Z",
       "title": {
-        "en": "M 5.7 - 198 km NW of Port-Olry, Vanuatu",
-        "zh": "M 5.7 - 198 km NW of Port-Olry, Vanuatu"
+        "en": "M5.7 earthquake - 198 km NW of Port-Olry, Vanuatu",
+        "zh": "M5.7 地震 - 198 km NW of Port-Olry, Vanuatu"
       },
       "summary": {
-        "en": "M 5.7 - 198 km NW of Port-Olry, Vanuatu at 2026-10-19T18:52:36Z.",
-        "zh": "M 5.7 - 198 km NW of Port-Olry, Vanuatu 於 2026-10-19T18:52:36Z。"
+        "en": "Magnitude 5.7 earthquake at 198 km NW of Port-Olry, Vanuatu on 2026-10-19T18:52:36Z.",
+        "zh": "2026-10-19T18:52:36Z 在 198 km NW of Port-Olry, Vanuatu 發生規模 5.7 地震。"
       },
       "data": {
-        "mag": 5.7,
+        "magnitude": 5.7,
         "place": "198 km NW of Port-Olry, Vanuatu",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ga"
+        "time": 1792435956
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T23:02:00Z"
+        "fetched_at": "2026-10-20T00:00:00Z"
       }
     },
     {
@@ -114,24 +135,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-19T18:27:46Z",
       "title": {
-        "en": "M 4.8 - 88 km WNW of Hihifo, Tonga",
-        "zh": "M 4.8 - 88 km WNW of Hihifo, Tonga"
+        "en": "M4.8 earthquake - 88 km WNW of Hihifo, Tonga",
+        "zh": "M4.8 地震 - 88 km WNW of Hihifo, Tonga"
       },
       "summary": {
-        "en": "M 4.8 - 88 km WNW of Hihifo, Tonga at 2026-10-19T18:27:46Z.",
-        "zh": "M 4.8 - 88 km WNW of Hihifo, Tonga 於 2026-10-19T18:27:46Z。"
+        "en": "Magnitude 4.8 earthquake at 88 km WNW of Hihifo, Tonga on 2026-10-19T18:27:46Z.",
+        "zh": "2026-10-19T18:27:46Z 在 88 km WNW of Hihifo, Tonga 發生規模 4.8 地震。"
       },
       "data": {
-        "mag": 4.8,
+        "magnitude": 4.8,
         "place": "88 km WNW of Hihifo, Tonga",
-        "depth_km": 156.8,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3g6"
+        "time": 1792434466
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T23:02:00Z"
+        "fetched_at": "2026-10-20T00:00:00Z"
       }
     },
     {
@@ -139,24 +159,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-19T17:45:50Z",
       "title": {
-        "en": "M 5.1 - South Sandwich Islands region",
-        "zh": "M 5.1 - South Sandwich Islands region"
+        "en": "M5.1 earthquake - South Sandwich Islands region",
+        "zh": "M5.1 地震 - South Sandwich Islands region"
       },
       "summary": {
-        "en": "M 5.1 - South Sandwich Islands region at 2026-10-19T17:45:50Z.",
-        "zh": "M 5.1 - South Sandwich Islands region 於 2026-10-19T17:45:50Z。"
+        "en": "Magnitude 5.1 earthquake at South Sandwich Islands region on 2026-10-19T17:45:50Z.",
+        "zh": "2026-10-19T17:45:50Z 在 South Sandwich Islands region 發生規模 5.1 地震。"
       },
       "data": {
-        "mag": 5.1,
+        "magnitude": 5.1,
         "place": "South Sandwich Islands region",
-        "depth_km": 101.5,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ft"
+        "time": 1792431950
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T23:02:00Z"
+        "fetched_at": "2026-10-20T00:00:00Z"
       }
     },
     {
@@ -164,24 +183,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-19T16:13:53Z",
       "title": {
-        "en": "M 4.6 - south of the Fiji Islands",
-        "zh": "M 4.6 - south of the Fiji Islands"
+        "en": "M4.6 earthquake - south of the Fiji Islands",
+        "zh": "M4.6 地震 - south of the Fiji Islands"
       },
       "summary": {
-        "en": "M 4.6 - south of the Fiji Islands at 2026-10-19T16:13:53Z.",
-        "zh": "M 4.6 - south of the Fiji Islands 於 2026-10-19T16:13:53Z。"
+        "en": "Magnitude 4.6 earthquake at south of the Fiji Islands on 2026-10-19T16:13:53Z.",
+        "zh": "2026-10-19T16:13:53Z 在 south of the Fiji Islands 發生規模 4.6 地震。"
       },
       "data": {
-        "mag": 4.6,
+        "magnitude": 4.6,
         "place": "south of the Fiji Islands",
-        "depth_km": 536.1,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3db"
+        "time": 1792426433
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T23:02:00Z"
+        "fetched_at": "2026-10-20T00:00:00Z"
       }
     },
     {
@@ -189,24 +207,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-19T15:35:36Z",
       "title": {
-        "en": "M 4.9 - 77 km WSW of Murghob, Tajikistan",
-        "zh": "M 4.9 - 77 km WSW of Murghob, Tajikistan"
+        "en": "M4.9 earthquake - 77 km WSW of Murghob, Tajikistan",
+        "zh": "M4.9 地震 - 77 km WSW of Murghob, Tajikistan"
       },
       "summary": {
-        "en": "M 4.9 - 77 km WSW of Murghob, Tajikistan at 2026-10-19T15:35:36Z.",
-        "zh": "M 4.9 - 77 km WSW of Murghob, Tajikistan 於 2026-10-19T15:35:36Z。"
+        "en": "Magnitude 4.9 earthquake at 77 km WSW of Murghob, Tajikistan on 2026-10-19T15:35:36Z.",
+        "zh": "2026-10-19T15:35:36Z 在 77 km WSW of Murghob, Tajikistan 發生規模 4.9 地震。"
       },
       "data": {
-        "mag": 4.9,
+        "magnitude": 4.9,
         "place": "77 km WSW of Murghob, Tajikistan",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3d2"
+        "time": 1792424136
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T23:02:00Z"
+        "fetched_at": "2026-10-20T00:00:00Z"
       }
     },
     {
@@ -214,24 +231,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-19T14:47:45Z",
       "title": {
-        "en": "M 4.6 - 5 km E of San José El Ídolo, Guatemala",
-        "zh": "M 4.6 - 5 km E of San José El Ídolo, Guatemala"
+        "en": "M4.6 earthquake - 5 km E of San José El Ídolo, Guatemala",
+        "zh": "M4.6 地震 - 5 km E of San José El Ídolo, Guatemala"
       },
       "summary": {
-        "en": "M 4.6 - 5 km E of San José El Ídolo, Guatemala at 2026-10-19T14:47:45Z.",
-        "zh": "M 4.6 - 5 km E of San José El Ídolo, Guatemala 於 2026-10-19T14:47:45Z。"
+        "en": "Magnitude 4.6 earthquake at 5 km E of San José El Ídolo, Guatemala on 2026-10-19T14:47:45Z.",
+        "zh": "2026-10-19T14:47:45Z 在 5 km E of San José El Ídolo, Guatemala 發生規模 4.6 地震。"
       },
       "data": {
-        "mag": 4.6,
+        "magnitude": 4.6,
         "place": "5 km E of San José El Ídolo, Guatemala",
-        "depth_km": 109.7,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3cu"
+        "time": 1792421265
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T23:02:00Z"
+        "fetched_at": "2026-10-20T00:00:00Z"
       }
     },
     {
@@ -239,24 +255,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-19T14:44:24Z",
       "title": {
-        "en": "M 5.3 - 116 km WNW of Höfn, Iceland",
-        "zh": "M 5.3 - 116 km WNW of Höfn, Iceland"
+        "en": "M5.3 earthquake - 116 km WNW of Höfn, Iceland",
+        "zh": "M5.3 地震 - 116 km WNW of Höfn, Iceland"
       },
       "summary": {
-        "en": "M 5.3 - 116 km WNW of Höfn, Iceland at 2026-10-19T14:44:24Z.",
-        "zh": "M 5.3 - 116 km WNW of Höfn, Iceland 於 2026-10-19T14:44:24Z。"
+        "en": "Magnitude 5.3 earthquake at 116 km WNW of Höfn, Iceland on 2026-10-19T14:44:24Z.",
+        "zh": "2026-10-19T14:44:24Z 在 116 km WNW of Höfn, Iceland 發生規模 5.3 地震。"
       },
       "data": {
-        "mag": 5.3,
+        "magnitude": 5.3,
         "place": "116 km WNW of Höfn, Iceland",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ct"
+        "time": 1792421064
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T23:02:00Z"
+        "fetched_at": "2026-10-20T00:00:00Z"
       }
     },
     {
@@ -264,24 +279,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-19T12:06:01Z",
       "title": {
-        "en": "M 4.8 - 56 km N of Ruteng, Indonesia",
-        "zh": "M 4.8 - 56 km N of Ruteng, Indonesia"
+        "en": "M4.8 earthquake - 56 km N of Ruteng, Indonesia",
+        "zh": "M4.8 地震 - 56 km N of Ruteng, Indonesia"
       },
       "summary": {
-        "en": "M 4.8 - 56 km N of Ruteng, Indonesia at 2026-10-19T12:06:01Z.",
-        "zh": "M 4.8 - 56 km N of Ruteng, Indonesia 於 2026-10-19T12:06:01Z。"
+        "en": "Magnitude 4.8 earthquake at 56 km N of Ruteng, Indonesia on 2026-10-19T12:06:01Z.",
+        "zh": "2026-10-19T12:06:01Z 在 56 km N of Ruteng, Indonesia 發生規模 4.8 地震。"
       },
       "data": {
-        "mag": 4.8,
+        "magnitude": 4.8,
         "place": "56 km N of Ruteng, Indonesia",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ch"
+        "time": 1792411561
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T23:02:00Z"
+        "fetched_at": "2026-10-20T00:00:00Z"
       }
     },
     {
@@ -289,24 +303,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-19T11:52:37Z",
       "title": {
-        "en": "M 4.8 - 212 km WNW of Port-Olry, Vanuatu",
-        "zh": "M 4.8 - 212 km WNW of Port-Olry, Vanuatu"
+        "en": "M4.8 earthquake - 212 km WNW of Port-Olry, Vanuatu",
+        "zh": "M4.8 地震 - 212 km WNW of Port-Olry, Vanuatu"
       },
       "summary": {
-        "en": "M 4.8 - 212 km WNW of Port-Olry, Vanuatu at 2026-10-19T11:52:37Z.",
-        "zh": "M 4.8 - 212 km WNW of Port-Olry, Vanuatu 於 2026-10-19T11:52:37Z。"
+        "en": "Magnitude 4.8 earthquake at 212 km WNW of Port-Olry, Vanuatu on 2026-10-19T11:52:37Z.",
+        "zh": "2026-10-19T11:52:37Z 在 212 km WNW of Port-Olry, Vanuatu 發生規模 4.8 地震。"
       },
       "data": {
-        "mag": 4.8,
+        "magnitude": 4.8,
         "place": "212 km WNW of Port-Olry, Vanuatu",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ce"
+        "time": 1792410757
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T23:02:00Z"
+        "fetched_at": "2026-10-20T00:00:00Z"
       }
     },
     {
@@ -314,24 +327,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-19T10:57:08Z",
       "title": {
-        "en": "M 5 - 31 km NW of Jiangyou, China",
-        "zh": "M 5 - 31 km NW of Jiangyou, China"
+        "en": "M5 earthquake - 31 km NW of Jiangyou, China",
+        "zh": "M5 地震 - 31 km NW of Jiangyou, China"
       },
       "summary": {
-        "en": "M 5 - 31 km NW of Jiangyou, China at 2026-10-19T10:57:08Z.",
-        "zh": "M 5 - 31 km NW of Jiangyou, China 於 2026-10-19T10:57:08Z。"
+        "en": "Magnitude 5 earthquake at 31 km NW of Jiangyou, China on 2026-10-19T10:57:08Z.",
+        "zh": "2026-10-19T10:57:08Z 在 31 km NW of Jiangyou, China 發生規模 5 地震。"
       },
       "data": {
-        "mag": 5,
+        "magnitude": 5,
         "place": "31 km NW of Jiangyou, China",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3c7"
+        "time": 1792407428
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T23:02:00Z"
+        "fetched_at": "2026-10-20T00:00:00Z"
       }
     },
     {
@@ -339,24 +351,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-19T10:40:21Z",
       "title": {
-        "en": "M 5.4 - 196 km NW of Port-Olry, Vanuatu",
-        "zh": "M 5.4 - 196 km NW of Port-Olry, Vanuatu"
+        "en": "M5.4 earthquake - 196 km NW of Port-Olry, Vanuatu",
+        "zh": "M5.4 地震 - 196 km NW of Port-Olry, Vanuatu"
       },
       "summary": {
-        "en": "M 5.4 - 196 km NW of Port-Olry, Vanuatu at 2026-10-19T10:40:21Z.",
-        "zh": "M 5.4 - 196 km NW of Port-Olry, Vanuatu 於 2026-10-19T10:40:21Z。"
+        "en": "Magnitude 5.4 earthquake at 196 km NW of Port-Olry, Vanuatu on 2026-10-19T10:40:21Z.",
+        "zh": "2026-10-19T10:40:21Z 在 196 km NW of Port-Olry, Vanuatu 發生規模 5.4 地震。"
       },
       "data": {
-        "mag": 5.4,
+        "magnitude": 5.4,
         "place": "196 km NW of Port-Olry, Vanuatu",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3c6"
+        "time": 1792406421
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T23:02:00Z"
+        "fetched_at": "2026-10-20T00:00:00Z"
       }
     },
     {
@@ -364,24 +375,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-19T10:10:56Z",
       "title": {
-        "en": "M 4.7 - 53 km NNE of Labuan Bajo, Indonesia",
-        "zh": "M 4.7 - 53 km NNE of Labuan Bajo, Indonesia"
+        "en": "M4.7 earthquake - 53 km NNE of Labuan Bajo, Indonesia",
+        "zh": "M4.7 地震 - 53 km NNE of Labuan Bajo, Indonesia"
       },
       "summary": {
-        "en": "M 4.7 - 53 km NNE of Labuan Bajo, Indonesia at 2026-10-19T10:10:56Z.",
-        "zh": "M 4.7 - 53 km NNE of Labuan Bajo, Indonesia 於 2026-10-19T10:10:56Z。"
+        "en": "Magnitude 4.7 earthquake at 53 km NNE of Labuan Bajo, Indonesia on 2026-10-19T10:10:56Z.",
+        "zh": "2026-10-19T10:10:56Z 在 53 km NNE of Labuan Bajo, Indonesia 發生規模 4.7 地震。"
       },
       "data": {
-        "mag": 4.7,
+        "magnitude": 4.7,
         "place": "53 km NNE of Labuan Bajo, Indonesia",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3c5"
+        "time": 1792404656
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T23:02:00Z"
+        "fetched_at": "2026-10-20T00:00:00Z"
       }
     },
     {
@@ -389,24 +399,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-19T09:45:56Z",
       "title": {
-        "en": "M 4.9 - 54 km NE of Labuan Bajo, Indonesia",
-        "zh": "M 4.9 - 54 km NE of Labuan Bajo, Indonesia"
+        "en": "M4.9 earthquake - 54 km NE of Labuan Bajo, Indonesia",
+        "zh": "M4.9 地震 - 54 km NE of Labuan Bajo, Indonesia"
       },
       "summary": {
-        "en": "M 4.9 - 54 km NE of Labuan Bajo, Indonesia at 2026-10-19T09:45:56Z.",
-        "zh": "M 4.9 - 54 km NE of Labuan Bajo, Indonesia 於 2026-10-19T09:45:56Z。"
+        "en": "Magnitude 4.9 earthquake at 54 km NE of Labuan Bajo, Indonesia on 2026-10-19T09:45:56Z.",
+        "zh": "2026-10-19T09:45:56Z 在 54 km NE of Labuan Bajo, Indonesia 發生規模 4.9 地震。"
       },
       "data": {
-        "mag": 4.9,
+        "magnitude": 4.9,
         "place": "54 km NE of Labuan Bajo, Indonesia",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3c1"
+        "time": 1792403156
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T23:02:00Z"
+        "fetched_at": "2026-10-20T00:00:00Z"
       }
     },
     {
@@ -414,24 +423,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-19T09:25:14Z",
       "title": {
-        "en": "M 4.9 - 115 km NNW of Sola, Vanuatu",
-        "zh": "M 4.9 - 115 km NNW of Sola, Vanuatu"
+        "en": "M4.9 earthquake - 115 km NNW of Sola, Vanuatu",
+        "zh": "M4.9 地震 - 115 km NNW of Sola, Vanuatu"
       },
       "summary": {
-        "en": "M 4.9 - 115 km NNW of Sola, Vanuatu at 2026-10-19T09:25:14Z.",
-        "zh": "M 4.9 - 115 km NNW of Sola, Vanuatu 於 2026-10-19T09:25:14Z。"
+        "en": "Magnitude 4.9 earthquake at 115 km NNW of Sola, Vanuatu on 2026-10-19T09:25:14Z.",
+        "zh": "2026-10-19T09:25:14Z 在 115 km NNW of Sola, Vanuatu 發生規模 4.9 地震。"
       },
       "data": {
-        "mag": 4.9,
+        "magnitude": 4.9,
         "place": "115 km NNW of Sola, Vanuatu",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3bz"
+        "time": 1792401914
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T23:02:00Z"
+        "fetched_at": "2026-10-20T00:00:00Z"
       }
     },
     {
@@ -439,24 +447,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-19T09:00:39Z",
       "title": {
-        "en": "M 4.7 - 163 km WNW of Tobelo, Indonesia",
-        "zh": "M 4.7 - 163 km WNW of Tobelo, Indonesia"
+        "en": "M4.7 earthquake - 163 km WNW of Tobelo, Indonesia",
+        "zh": "M4.7 地震 - 163 km WNW of Tobelo, Indonesia"
       },
       "summary": {
-        "en": "M 4.7 - 163 km WNW of Tobelo, Indonesia at 2026-10-19T09:00:39Z.",
-        "zh": "M 4.7 - 163 km WNW of Tobelo, Indonesia 於 2026-10-19T09:00:39Z。"
+        "en": "Magnitude 4.7 earthquake at 163 km WNW of Tobelo, Indonesia on 2026-10-19T09:00:39Z.",
+        "zh": "2026-10-19T09:00:39Z 在 163 km WNW of Tobelo, Indonesia 發生規模 4.7 地震。"
       },
       "data": {
-        "mag": 4.7,
+        "magnitude": 4.7,
         "place": "163 km WNW of Tobelo, Indonesia",
-        "depth_km": 49.0,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3bv"
+        "time": 1792400439
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T23:02:00Z"
+        "fetched_at": "2026-10-20T00:00:00Z"
       }
     },
     {
@@ -464,24 +471,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-19T08:54:18Z",
       "title": {
-        "en": "M 4.9 - 202 km NW of Port-Olry, Vanuatu",
-        "zh": "M 4.9 - 202 km NW of Port-Olry, Vanuatu"
+        "en": "M4.9 earthquake - 202 km NW of Port-Olry, Vanuatu",
+        "zh": "M4.9 地震 - 202 km NW of Port-Olry, Vanuatu"
       },
       "summary": {
-        "en": "M 4.9 - 202 km NW of Port-Olry, Vanuatu at 2026-10-19T08:54:18Z.",
-        "zh": "M 4.9 - 202 km NW of Port-Olry, Vanuatu 於 2026-10-19T08:54:18Z。"
+        "en": "Magnitude 4.9 earthquake at 202 km NW of Port-Olry, Vanuatu on 2026-10-19T08:54:18Z.",
+        "zh": "2026-10-19T08:54:18Z 在 202 km NW of Port-Olry, Vanuatu 發生規模 4.9 地震。"
       },
       "data": {
-        "mag": 4.9,
+        "magnitude": 4.9,
         "place": "202 km NW of Port-Olry, Vanuatu",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3bu"
+        "time": 1792400058
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T23:02:00Z"
+        "fetched_at": "2026-10-20T00:00:00Z"
       }
     },
     {
@@ -489,24 +495,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-19T08:51:57Z",
       "title": {
-        "en": "M 4.5 - 2 km W of Lunca Jariștei, Romania",
-        "zh": "M 4.5 - 2 km W of Lunca Jariștei, Romania"
+        "en": "M4.5 earthquake - 2 km W of Lunca Jariștei, Romania",
+        "zh": "M4.5 地震 - 2 km W of Lunca Jariștei, Romania"
       },
       "summary": {
-        "en": "M 4.5 - 2 km W of Lunca Jariștei, Romania at 2026-10-19T08:51:57Z.",
-        "zh": "M 4.5 - 2 km W of Lunca Jariștei, Romania 於 2026-10-19T08:51:57Z。"
+        "en": "Magnitude 4.5 earthquake at 2 km W of Lunca Jariștei, Romania on 2026-10-19T08:51:57Z.",
+        "zh": "2026-10-19T08:51:57Z 在 2 km W of Lunca Jariștei, Romania 發生規模 4.5 地震。"
       },
       "data": {
-        "mag": 4.5,
+        "magnitude": 4.5,
         "place": "2 km W of Lunca Jariștei, Romania",
-        "depth_km": 124.8,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3bs"
+        "time": 1792399917
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T23:02:00Z"
+        "fetched_at": "2026-10-20T00:00:00Z"
       }
     },
     {
@@ -514,24 +519,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-19T08:21:47Z",
       "title": {
-        "en": "M 5.2 - 211 km WNW of Port-Olry, Vanuatu",
-        "zh": "M 5.2 - 211 km WNW of Port-Olry, Vanuatu"
+        "en": "M5.2 earthquake - 211 km WNW of Port-Olry, Vanuatu",
+        "zh": "M5.2 地震 - 211 km WNW of Port-Olry, Vanuatu"
       },
       "summary": {
-        "en": "M 5.2 - 211 km WNW of Port-Olry, Vanuatu at 2026-10-19T08:21:47Z.",
-        "zh": "M 5.2 - 211 km WNW of Port-Olry, Vanuatu 於 2026-10-19T08:21:47Z。"
+        "en": "Magnitude 5.2 earthquake at 211 km WNW of Port-Olry, Vanuatu on 2026-10-19T08:21:47Z.",
+        "zh": "2026-10-19T08:21:47Z 在 211 km WNW of Port-Olry, Vanuatu 發生規模 5.2 地震。"
       },
       "data": {
-        "mag": 5.2,
+        "magnitude": 5.2,
         "place": "211 km WNW of Port-Olry, Vanuatu",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3bk"
+        "time": 1792398107
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T23:02:00Z"
+        "fetched_at": "2026-10-20T00:00:00Z"
       }
     },
     {
@@ -539,24 +543,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-19T08:12:38Z",
       "title": {
-        "en": "M 5.4 - 184 km WNW of Port-Olry, Vanuatu",
-        "zh": "M 5.4 - 184 km WNW of Port-Olry, Vanuatu"
+        "en": "M5.4 earthquake - 184 km WNW of Port-Olry, Vanuatu",
+        "zh": "M5.4 地震 - 184 km WNW of Port-Olry, Vanuatu"
       },
       "summary": {
-        "en": "M 5.4 - 184 km WNW of Port-Olry, Vanuatu at 2026-10-19T08:12:38Z.",
-        "zh": "M 5.4 - 184 km WNW of Port-Olry, Vanuatu 於 2026-10-19T08:12:38Z。"
+        "en": "Magnitude 5.4 earthquake at 184 km WNW of Port-Olry, Vanuatu on 2026-10-19T08:12:38Z.",
+        "zh": "2026-10-19T08:12:38Z 在 184 km WNW of Port-Olry, Vanuatu 發生規模 5.4 地震。"
       },
       "data": {
-        "mag": 5.4,
+        "magnitude": 5.4,
         "place": "184 km WNW of Port-Olry, Vanuatu",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3bi"
+        "time": 1792397558
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T23:02:00Z"
+        "fetched_at": "2026-10-20T00:00:00Z"
       }
     },
     {
@@ -564,24 +567,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-19T07:55:36Z",
       "title": {
-        "en": "M 5.3 - 188 km NW of Port-Olry, Vanuatu",
-        "zh": "M 5.3 - 188 km NW of Port-Olry, Vanuatu"
+        "en": "M5.3 earthquake - 188 km NW of Port-Olry, Vanuatu",
+        "zh": "M5.3 地震 - 188 km NW of Port-Olry, Vanuatu"
       },
       "summary": {
-        "en": "M 5.3 - 188 km NW of Port-Olry, Vanuatu at 2026-10-19T07:55:36Z.",
-        "zh": "M 5.3 - 188 km NW of Port-Olry, Vanuatu 於 2026-10-19T07:55:36Z。"
+        "en": "Magnitude 5.3 earthquake at 188 km NW of Port-Olry, Vanuatu on 2026-10-19T07:55:36Z.",
+        "zh": "2026-10-19T07:55:36Z 在 188 km NW of Port-Olry, Vanuatu 發生規模 5.3 地震。"
       },
       "data": {
-        "mag": 5.3,
+        "magnitude": 5.3,
         "place": "188 km NW of Port-Olry, Vanuatu",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3be"
+        "time": 1792396536
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T23:02:00Z"
+        "fetched_at": "2026-10-20T00:00:00Z"
       }
     },
     {
@@ -589,24 +591,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-19T07:49:04Z",
       "title": {
-        "en": "M 6 - 186 km NW of Port-Olry, Vanuatu",
-        "zh": "M 6 - 186 km NW of Port-Olry, Vanuatu"
+        "en": "M6 earthquake - 186 km NW of Port-Olry, Vanuatu",
+        "zh": "M6 地震 - 186 km NW of Port-Olry, Vanuatu"
       },
       "summary": {
-        "en": "M 6 - 186 km NW of Port-Olry, Vanuatu at 2026-10-19T07:49:04Z.",
-        "zh": "M 6 - 186 km NW of Port-Olry, Vanuatu 於 2026-10-19T07:49:04Z。"
+        "en": "Magnitude 6 earthquake at 186 km NW of Port-Olry, Vanuatu on 2026-10-19T07:49:04Z.",
+        "zh": "2026-10-19T07:49:04Z 在 186 km NW of Port-Olry, Vanuatu 發生規模 6 地震。"
       },
       "data": {
-        "mag": 6,
+        "magnitude": 6,
         "place": "186 km NW of Port-Olry, Vanuatu",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3bc"
+        "time": 1792396144
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T23:02:00Z"
+        "fetched_at": "2026-10-20T00:00:00Z"
       }
     },
     {
@@ -614,24 +615,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-19T07:20:52Z",
       "title": {
-        "en": "M 4.9 - 203 km WNW of Port-Olry, Vanuatu",
-        "zh": "M 4.9 - 203 km WNW of Port-Olry, Vanuatu"
+        "en": "M4.9 earthquake - 203 km WNW of Port-Olry, Vanuatu",
+        "zh": "M4.9 地震 - 203 km WNW of Port-Olry, Vanuatu"
       },
       "summary": {
-        "en": "M 4.9 - 203 km WNW of Port-Olry, Vanuatu at 2026-10-19T07:20:52Z.",
-        "zh": "M 4.9 - 203 km WNW of Port-Olry, Vanuatu 於 2026-10-19T07:20:52Z。"
+        "en": "Magnitude 4.9 earthquake at 203 km WNW of Port-Olry, Vanuatu on 2026-10-19T07:20:52Z.",
+        "zh": "2026-10-19T07:20:52Z 在 203 km WNW of Port-Olry, Vanuatu 發生規模 4.9 地震。"
       },
       "data": {
-        "mag": 4.9,
+        "magnitude": 4.9,
         "place": "203 km WNW of Port-Olry, Vanuatu",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3b8"
+        "time": 1792394452
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T23:02:00Z"
+        "fetched_at": "2026-10-20T00:00:00Z"
       }
     },
     {
@@ -639,24 +639,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-19T07:00:02Z",
       "title": {
-        "en": "M 4.9 - 218 km WNW of Port-Olry, Vanuatu",
-        "zh": "M 4.9 - 218 km WNW of Port-Olry, Vanuatu"
+        "en": "M4.9 earthquake - 218 km WNW of Port-Olry, Vanuatu",
+        "zh": "M4.9 地震 - 218 km WNW of Port-Olry, Vanuatu"
       },
       "summary": {
-        "en": "M 4.9 - 218 km WNW of Port-Olry, Vanuatu at 2026-10-19T07:00:02Z.",
-        "zh": "M 4.9 - 218 km WNW of Port-Olry, Vanuatu 於 2026-10-19T07:00:02Z。"
+        "en": "Magnitude 4.9 earthquake at 218 km WNW of Port-Olry, Vanuatu on 2026-10-19T07:00:02Z.",
+        "zh": "2026-10-19T07:00:02Z 在 218 km WNW of Port-Olry, Vanuatu 發生規模 4.9 地震。"
       },
       "data": {
-        "mag": 4.9,
+        "magnitude": 4.9,
         "place": "218 km WNW of Port-Olry, Vanuatu",
-        "depth_km": 10,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3b4"
+        "time": 1792393202
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T23:02:00Z"
+        "fetched_at": "2026-10-20T00:00:00Z"
       }
     },
     {
@@ -664,24 +663,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-19T06:15:13Z",
       "title": {
-        "en": "M 4.5 - Banda Sea",
-        "zh": "M 4.5 - Banda Sea"
+        "en": "M4.5 earthquake - Banda Sea",
+        "zh": "M4.5 地震 - Banda Sea"
       },
       "summary": {
-        "en": "M 4.5 - Banda Sea at 2026-10-19T06:15:13Z.",
-        "zh": "M 4.5 - Banda Sea 於 2026-10-19T06:15:13Z。"
+        "en": "Magnitude 4.5 earthquake at Banda Sea on 2026-10-19T06:15:13Z.",
+        "zh": "2026-10-19T06:15:13Z 在 Banda Sea 發生規模 4.5 地震。"
       },
       "data": {
-        "mag": 4.5,
+        "magnitude": 4.5,
         "place": "Banda Sea",
-        "depth_km": 157.8,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ar"
+        "time": 1792390513
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T23:02:00Z"
+        "fetched_at": "2026-10-20T00:00:00Z"
       }
     },
     {
@@ -689,24 +687,23 @@
       "type": "earthquake",
       "time_utc": "2026-10-19T05:18:36Z",
       "title": {
-        "en": "M 4.9 - 68 km WSW of San Juan del Sur, Nicaragua",
-        "zh": "M 4.9 - 68 km WSW of San Juan del Sur, Nicaragua"
+        "en": "M4.9 earthquake - 68 km WSW of San Juan del Sur, Nicaragua",
+        "zh": "M4.9 地震 - 68 km WSW of San Juan del Sur, Nicaragua"
       },
       "summary": {
-        "en": "M 4.9 - 68 km WSW of San Juan del Sur, Nicaragua at 2026-10-19T05:18:36Z.",
-        "zh": "M 4.9 - 68 km WSW of San Juan del Sur, Nicaragua 於 2026-10-19T05:18:36Z。"
+        "en": "Magnitude 4.9 earthquake at 68 km WSW of San Juan del Sur, Nicaragua on 2026-10-19T05:18:36Z.",
+        "zh": "2026-10-19T05:18:36Z 在 68 km WSW of San Juan del Sur, Nicaragua 發生規模 4.9 地震。"
       },
       "data": {
-        "mag": 4.9,
+        "magnitude": 4.9,
         "place": "68 km WSW of San Juan del Sur, Nicaragua",
-        "depth_km": 44.0,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3a8"
+        "time": 1792387116
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-19T23:02:00Z"
+        "fetched_at": "2026-10-20T00:00:00Z"
       }
     }
   ]
