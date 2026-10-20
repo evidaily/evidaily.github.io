@@ -1,6 +1,6 @@
 {
   "date": "2026-10-20",
-  "updated": "2026-10-20T14:02:35Z",
+  "updated": "2026-10-20T15:02:23Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
@@ -11,27 +11,27 @@
         "zh": "2026 年 10 月 20 日 13 UTC，估算行星 Kp 為 1.67（2M）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 1.67 (2M) at 2026-10-20T13 on 20 October 2026. The 13 hour is complete (60 samples through 13:59; hour-start 1.67/2M, hour-end 1.33/1P). Last-180 maximum is 2.33. Published-window maximum is 2.67. Window starts 2026-10-20T08:02:00 (358 samples). Next hour 14:00 incomplete (0 samples).",
-        "zh": "最新可靠整點初值：2026-10-20T13 估算 Kp 1.67（2M）。13 時段已收滿（60 筆至 13:59；時段初 1.67/2M、時段末 1.33/1P）。last-180 最大 2.33。公開窗最大 2.67。窗起點 2026-10-20T08:02:00（358 筆）。下一整點 14:00 未滿（0 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 1.67 (2M) at 2026-10-20T13 on 20 October 2026. The 13 hour is complete (60 samples through 13:59; hour-start 1.67/2M, hour-end 2.0/2Z). Last-180 maximum is 2.0. Published-window maximum is 2.67. Window starts 2026-10-20T09:00:00 (358 samples). Next hour 14:00 incomplete (58 samples).",
+        "zh": "最新可靠整點初值：2026-10-20T13 估算 Kp 1.67（2M）。13 時段已收滿（60 筆至 13:59；時段初 1.67/2M、時段末 2.0/2Z）。last-180 最大 2.0。公開窗最大 2.67。窗起點 2026-10-20T09:00:00（358 筆）。下一整點 14:00 未滿（58 筆）。"
       },
       "data": {
         "estimated_kp": 1.67,
         "kp": "2M",
         "hour_complete": true,
         "hour_start_kp": 1.67,
-        "hour_end_kp": 1.33,
-        "last180_max": 2.33,
+        "hour_end_kp": 2.0,
+        "last180_max": 2.0,
         "window_max": 2.67,
-        "window_start": "2026-10-20T08:02:00",
+        "window_start": "2026-10-20T09:00:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
-        "next_hour_samples": 0
+        "next_hour_samples": 58
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-20T14:02:35Z"
+        "fetched_at": "2026-10-20T15:02:23Z"
       }
     },
     {
@@ -58,7 +58,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T14:02:35Z"
+        "fetched_at": "2026-10-20T15:02:23Z"
       }
     },
     {
@@ -85,7 +85,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T14:02:35Z"
+        "fetched_at": "2026-10-20T15:02:23Z"
       }
     },
     {
@@ -112,7 +112,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T14:02:35Z"
+        "fetched_at": "2026-10-20T15:02:23Z"
       }
     },
     {
@@ -139,7 +139,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T14:02:35Z"
+        "fetched_at": "2026-10-20T15:02:23Z"
       }
     },
     {
@@ -166,7 +166,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T14:02:35Z"
+        "fetched_at": "2026-10-20T15:02:23Z"
       }
     },
     {
@@ -193,7 +193,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T14:02:35Z"
+        "fetched_at": "2026-10-20T15:02:23Z"
       }
     },
     {
@@ -220,7 +220,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T14:02:35Z"
+        "fetched_at": "2026-10-20T15:02:23Z"
       }
     },
     {
@@ -247,7 +247,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T14:02:35Z"
+        "fetched_at": "2026-10-20T15:02:23Z"
       }
     },
     {
@@ -274,7 +274,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T14:02:35Z"
+        "fetched_at": "2026-10-20T15:02:23Z"
       }
     },
     {
@@ -301,7 +301,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T14:02:35Z"
+        "fetched_at": "2026-10-20T15:02:23Z"
       }
     },
     {
@@ -328,7 +328,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T14:02:35Z"
+        "fetched_at": "2026-10-20T15:02:23Z"
       }
     },
     {
@@ -355,7 +355,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T14:02:35Z"
+        "fetched_at": "2026-10-20T15:02:23Z"
       }
     },
     {
@@ -382,7 +382,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T14:02:35Z"
+        "fetched_at": "2026-10-20T15:02:23Z"
       }
     },
     {
@@ -409,7 +409,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T14:02:35Z"
+        "fetched_at": "2026-10-20T15:02:23Z"
       }
     },
     {
@@ -436,7 +436,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T14:02:35Z"
+        "fetched_at": "2026-10-20T15:02:23Z"
       }
     },
     {
@@ -463,7 +463,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T14:02:35Z"
+        "fetched_at": "2026-10-20T15:02:23Z"
       }
     },
     {
@@ -490,7 +490,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T14:02:35Z"
+        "fetched_at": "2026-10-20T15:02:23Z"
       }
     },
     {
@@ -517,7 +517,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T14:02:35Z"
+        "fetched_at": "2026-10-20T15:02:23Z"
       }
     },
     {
@@ -544,7 +544,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T14:02:35Z"
+        "fetched_at": "2026-10-20T15:02:23Z"
       }
     },
     {
@@ -571,61 +571,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T14:02:35Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u3cu",
-      "type": "earthquake",
-      "time_utc": "2026-10-19T14:47:45Z",
-      "title": {
-        "en": "M4.6 earthquake — 5 km E of San José El Ídolo, Guatemala",
-        "zh": "M4.6 地震 — 5 km E of San José El Ídolo, Guatemala"
-      },
-      "summary": {
-        "en": "USGS reported a magnitude 4.6 earthquake at 5 km E of San José El Ídolo, Guatemala on 2026-10-19T14:47:45Z.",
-        "zh": "USGS 報告於 2026-10-19T14:47:45Z 在 5 km E of San José El Ídolo, Guatemala 發生規模 4.6 地震。"
-      },
-      "data": {
-        "magnitude": 4.6,
-        "place": "5 km E of San José El Ídolo, Guatemala",
-        "latitude": 14.4536,
-        "longitude": -91.373,
-        "depth_km": 109.709,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3cu"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T14:02:35Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u3ct",
-      "type": "earthquake",
-      "time_utc": "2026-10-19T14:44:24Z",
-      "title": {
-        "en": "M5.3 earthquake — 116 km WNW of Höfn, Iceland",
-        "zh": "M5.3 地震 — 116 km WNW of Höfn, Iceland"
-      },
-      "summary": {
-        "en": "USGS reported a magnitude 5.3 earthquake at 116 km WNW of Höfn, Iceland on 2026-10-19T14:44:24Z.",
-        "zh": "USGS 報告於 2026-10-19T14:44:24Z 在 116 km WNW of Höfn, Iceland 發生規模 5.3 地震。"
-      },
-      "data": {
-        "magnitude": 5.3,
-        "place": "116 km WNW of Höfn, Iceland",
-        "latitude": 64.5774,
-        "longitude": -17.5136,
-        "depth_km": 10,
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ct"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-20T14:02:35Z"
+        "fetched_at": "2026-10-20T15:02:23Z"
       }
     }
   ]
