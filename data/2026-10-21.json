@@ -1,37 +1,89 @@
 {
   "date": "2026-10-21",
-  "updated": "2026-10-21T08:00:00Z",
+  "updated": "2026-10-21T09:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-21T06Z",
+      "time_utc": "2026-10-21T07Z",
       "title": {
-        "en": "Estimated planetary Kp is 0.0 (0Z) at 06 UTC on 21 October 2026.",
-        "zh": "2026 年 10 月 21 日 06 UTC，估算行星 Kp 為 0.0（0Z）。"
+        "en": "Estimated planetary Kp is 1.67 (2M) at 07 UTC on 21 October 2026.",
+        "zh": "2026 年 10 月 21 日 07 UTC，估算行星 Kp 為 1.67（2M）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-21T06 on 21 October 2026. The 06 hour is complete (60 samples through 06:59; hour-start 0.0/0Z, hour-end 1.67/2M). Last-180 maximum is 4.0. Published-window maximum is 4.0. Window starts 2026-10-21T01:58 (358 samples). Next hour 07:00 incomplete (56 samples).",
-        "zh": "最新可靠整點初值：2026-10-21T06 估算 Kp 0.0（0Z）。06 時段已收滿（60 筆至 06:59；時段初 0.0/0Z、時段末 1.67/2M）。last-180 最大 4.0。公開窗最大 4.0。窗起點 2026-10-21T01:58（358 筆）。下一整點 07:00 未滿（56 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 1.67 (2M) at 2026-10-21T07 on 21 October 2026. The 07 hour is complete (60 samples through 07:59; hour-start 1.67/2M, hour-end 1.67/2M). Last-180 maximum is 4.0. Published-window maximum is 4.0. Window starts 2026-10-21T03:00 (358 samples). Next hour 08:00 incomplete (58 samples).",
+        "zh": "最新可靠整點初值：2026-10-21T07 估算 Kp 1.67（2M）。07 時段已收滿（60 筆至 07:59；時段初 1.67/2M、時段末 1.67/2M）。last-180 最大 4.0。公開窗最大 4.0。窗起點 2026-10-21T03:00（358 筆）。下一整點 08:00 未滿（58 筆）。"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp": "0Z",
+        "estimated_kp": 1.67,
+        "kp": "2M",
         "hour_complete": true,
-        "hour_start_kp": 0.0,
+        "hour_start_kp": 1.67,
         "hour_end_kp": 1.67,
         "last180_max": 4.0,
         "window_max": 4.0,
-        "window_start": "2026-10-21T01:58",
+        "window_start": "2026-10-21T03:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
-        "next_hour_samples": 56
+        "next_hour_samples": 58
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-21T08:00:00Z"
+        "fetched_at": "2026-10-21T09:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u3t6",
+      "type": "earthquake",
+      "time_utc": "2026-10-21T08:37:41Z",
+      "title": {
+        "en": "M5.2 earthquake 68 km NE of Cabatuan, Philippines.",
+        "zh": "M5.2 地震，位置：68 km NE of Cabatuan, Philippines。"
+      },
+      "summary": {
+        "en": "USGS reports M5.2 at 2026-10-21T08:37:41Z near 68 km NE of Cabatuan, Philippines.",
+        "zh": "USGS 報告於 2026-10-21T08:37:41Z 在 68 km NE of Cabatuan, Philippines 發生 M5.2 地震。"
+      },
+      "data": {
+        "magnitude": 5.2,
+        "place": "68 km NE of Cabatuan, Philippines",
+        "time": "2026-10-21T08:37:41Z",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3t6",
+        "ids": ",us6000u3t6,"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-21T09:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u3t4",
+      "type": "earthquake",
+      "time_utc": "2026-10-21T07:44:16Z",
+      "title": {
+        "en": "M5.1 earthquake 164 km NE of Lospalos, Timor Leste.",
+        "zh": "M5.1 地震，位置：164 km NE of Lospalos, Timor Leste。"
+      },
+      "summary": {
+        "en": "USGS reports M5.1 at 2026-10-21T07:44:16Z near 164 km NE of Lospalos, Timor Leste.",
+        "zh": "USGS 報告於 2026-10-21T07:44:16Z 在 164 km NE of Lospalos, Timor Leste 發生 M5.1 地震。"
+      },
+      "data": {
+        "magnitude": 5.1,
+        "place": "164 km NE of Lospalos, Timor Leste",
+        "time": "2026-10-21T07:44:16Z",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3t4",
+        "ids": ",us6000u3t4,"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-21T09:00:00Z"
       }
     },
     {
@@ -57,7 +109,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T08:00:00Z"
+        "fetched_at": "2026-10-21T09:00:00Z"
       }
     },
     {
@@ -83,7 +135,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T08:00:00Z"
+        "fetched_at": "2026-10-21T09:00:00Z"
       }
     },
     {
@@ -109,7 +161,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T08:00:00Z"
+        "fetched_at": "2026-10-21T09:00:00Z"
       }
     },
     {
@@ -135,7 +187,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T08:00:00Z"
+        "fetched_at": "2026-10-21T09:00:00Z"
       }
     },
     {
@@ -161,7 +213,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T08:00:00Z"
+        "fetched_at": "2026-10-21T09:00:00Z"
       }
     },
     {
@@ -187,7 +239,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T08:00:00Z"
+        "fetched_at": "2026-10-21T09:00:00Z"
       }
     },
     {
@@ -213,7 +265,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T08:00:00Z"
+        "fetched_at": "2026-10-21T09:00:00Z"
       }
     },
     {
@@ -239,7 +291,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T08:00:00Z"
+        "fetched_at": "2026-10-21T09:00:00Z"
       }
     },
     {
@@ -265,7 +317,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T08:00:00Z"
+        "fetched_at": "2026-10-21T09:00:00Z"
       }
     },
     {
@@ -291,7 +343,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T08:00:00Z"
+        "fetched_at": "2026-10-21T09:00:00Z"
       }
     },
     {
@@ -317,7 +369,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T08:00:00Z"
+        "fetched_at": "2026-10-21T09:00:00Z"
       }
     },
     {
@@ -343,7 +395,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T08:00:00Z"
+        "fetched_at": "2026-10-21T09:00:00Z"
       }
     },
     {
@@ -369,7 +421,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T08:00:00Z"
+        "fetched_at": "2026-10-21T09:00:00Z"
       }
     },
     {
@@ -395,7 +447,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T08:00:00Z"
+        "fetched_at": "2026-10-21T09:00:00Z"
       }
     },
     {
@@ -421,7 +473,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T08:00:00Z"
+        "fetched_at": "2026-10-21T09:00:00Z"
       }
     },
     {
@@ -441,65 +493,13 @@
         "place": "81 km S of Sand Point, Alaska",
         "time": "2026-10-20T10:40:40Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3lf",
-        "ids": ",attn7cbt,us6000u3lf,aka2026uudtmd,"
+        "ids": ",us6000u3lf,"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T08:00:00Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u3l3",
-      "type": "earthquake",
-      "time_utc": "2026-10-20T08:58:37Z",
-      "title": {
-        "en": "M4.5 earthquake 100 km SSW of Alo, Wallis and Futuna.",
-        "zh": "M4.5 地震，位置：100 km SSW of Alo, Wallis and Futuna。"
-      },
-      "summary": {
-        "en": "USGS reports M4.5 at 2026-10-20T08:58:37Z near 100 km SSW of Alo, Wallis and Futuna.",
-        "zh": "USGS 報告於 2026-10-20T08:58:37Z 在 100 km SSW of Alo, Wallis and Futuna 發生 M4.5 地震。"
-      },
-      "data": {
-        "magnitude": 4.5,
-        "place": "100 km SSW of Alo, Wallis and Futuna",
-        "time": "2026-10-20T08:58:37Z",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3l3",
-        "ids": ",us6000u3l3,"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T08:00:00Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u3l0",
-      "type": "earthquake",
-      "time_utc": "2026-10-20T08:39:56Z",
-      "title": {
-        "en": "M4.9 earthquake 199 km NW of Port-Olry, Vanuatu.",
-        "zh": "M4.9 地震，位置：199 km NW of Port-Olry, Vanuatu。"
-      },
-      "summary": {
-        "en": "USGS reports M4.9 at 2026-10-20T08:39:56Z near 199 km NW of Port-Olry, Vanuatu.",
-        "zh": "USGS 報告於 2026-10-20T08:39:56Z 在 199 km NW of Port-Olry, Vanuatu 發生 M4.9 地震。"
-      },
-      "data": {
-        "magnitude": 4.9,
-        "place": "199 km NW of Port-Olry, Vanuatu",
-        "time": "2026-10-20T08:39:56Z",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3l0",
-        "ids": ",us6000u3l0,"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T08:00:00Z"
+        "fetched_at": "2026-10-21T09:00:00Z"
       }
     }
   ]
