@@ -1,55 +1,55 @@
 {
   "date": "2026-10-21",
-  "updated": "2026-10-21T12:00:00Z",
+  "updated": "2026-10-21T13:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-21T10Z",
+      "time_utc": "2026-10-21T12Z",
       "title": {
-        "en": "Estimated planetary Kp is 1.33 (1P) at 10 UTC on 21 October 2026.",
-        "zh": "2026 年 10 月 21 日 10 UTC，估算行星 Kp 為 1.33（1P）。"
+        "en": "Estimated planetary Kp is 0.0 (0Z) at 12 UTC on 21 October 2026.",
+        "zh": "2026 年 10 月 21 日 12 UTC，估算行星 Kp 為 0.0（0Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 1.33 (1P) at 2026-10-21T10 on 21 October 2026. The 10 hour is complete (60 samples through 10:59; hour-start 1.33/1P, hour-end 1.67/2M). Last-180 maximum is 2.33. Published-window maximum is 2.33. Window starts 2026-10-21T06:00 (358 samples). Next hour 11:00 incomplete (58 samples).",
-        "zh": "最新可靠整點初值：2026-10-21T10 估算 Kp 1.33（1P）。10 時段已收滿（60 筆至 10:59；時段初 1.33/1P、時段末 1.67/2M）。last-180 最大 2.33。公開窗最大 2.33。窗起點 2026-10-21T06:00（358 筆）。下一整點 11:00 未滿（58 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-21T12 on 21 October 2026. The 12 hour is complete (60 samples through 12:59; hour-start 0.0/0Z, hour-end 0.33/0P). Last-180 maximum is 2.33. Published-window maximum is 2.33. Window starts 2026-10-21T07:01 (359 samples). Next hour 13:00 incomplete (0 samples).",
+        "zh": "最新可靠整點初值：2026-10-21T12 估算 Kp 0.0（0Z）。12 時段已收滿（60 筆至 12:59；時段初 0.0/0Z、時段末 0.33/0P）。last-180 最大 2.33。公開窗最大 2.33。窗起點 2026-10-21T07:01（359 筆）。下一整點 13:00 未滿（0 筆）。"
       },
       "data": {
-        "estimated_kp": 1.33,
-        "kp": "1P",
+        "estimated_kp": 0.0,
+        "kp": "0Z",
         "hour_complete": true,
-        "hour_start_kp": 1.33,
-        "hour_end_kp": 1.67,
+        "hour_start_kp": 0.0,
+        "hour_end_kp": 0.33,
         "last180_max": 2.33,
         "window_max": 2.33,
-        "window_start": "2026-10-21T06:00",
-        "sample_count": 358,
+        "window_start": "2026-10-21T07:01",
+        "sample_count": 359,
         "next_hour_incomplete": true,
-        "next_hour_samples": 58
+        "next_hour_samples": 0
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-21T12:00:00Z"
+        "fetched_at": "2026-10-21T13:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u3t6",
       "type": "earthquake",
-      "time_utc": "2026-10-21T08:37:41Z",
+      "time_utc": "2026-10-21T08:37:41.317000Z",
       "title": {
         "en": "M5.2 earthquake 68 km NE of Cabatuan, Philippines.",
         "zh": "M5.2 地震，位置：68 km NE of Cabatuan, Philippines。"
       },
       "summary": {
-        "en": "USGS reports M5.2 at 2026-10-21T08:37:41Z near 68 km NE of Cabatuan, Philippines.",
-        "zh": "USGS 報告於 2026-10-21T08:37:41Z 在 68 km NE of Cabatuan, Philippines 發生 M5.2 地震。"
+        "en": "USGS reports M5.2 at 2026-10-21T08:37:41.317000Z near 68 km NE of Cabatuan, Philippines.",
+        "zh": "USGS 報告於 2026-10-21T08:37:41.317000Z 在 68 km NE of Cabatuan, Philippines 發生 M5.2 地震。"
       },
       "data": {
         "magnitude": 5.2,
         "place": "68 km NE of Cabatuan, Philippines",
-        "time": "2026-10-21T08:37:41Z",
+        "time": "2026-10-21T08:37:41.317000Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3t6",
         "ids": ",us6000u3t6,"
       },
@@ -57,25 +57,25 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T12:00:00Z"
+        "fetched_at": "2026-10-21T13:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u3t4",
       "type": "earthquake",
-      "time_utc": "2026-10-21T07:44:16Z",
+      "time_utc": "2026-10-21T07:44:16.055000Z",
       "title": {
         "en": "M5.1 earthquake 164 km NE of Lospalos, Timor Leste.",
         "zh": "M5.1 地震，位置：164 km NE of Lospalos, Timor Leste。"
       },
       "summary": {
-        "en": "USGS reports M5.1 at 2026-10-21T07:44:16Z near 164 km NE of Lospalos, Timor Leste.",
-        "zh": "USGS 報告於 2026-10-21T07:44:16Z 在 164 km NE of Lospalos, Timor Leste 發生 M5.1 地震。"
+        "en": "USGS reports M5.1 at 2026-10-21T07:44:16.055000Z near 164 km NE of Lospalos, Timor Leste.",
+        "zh": "USGS 報告於 2026-10-21T07:44:16.055000Z 在 164 km NE of Lospalos, Timor Leste 發生 M5.1 地震。"
       },
       "data": {
         "magnitude": 5.1,
         "place": "164 km NE of Lospalos, Timor Leste",
-        "time": "2026-10-21T07:44:16Z",
+        "time": "2026-10-21T07:44:16.055000Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3t4",
         "ids": ",us6000u3t4,"
       },
@@ -83,25 +83,25 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T12:00:00Z"
+        "fetched_at": "2026-10-21T13:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u3sj",
       "type": "earthquake",
-      "time_utc": "2026-10-21T04:23:28Z",
+      "time_utc": "2026-10-21T04:23:28.083000Z",
       "title": {
         "en": "M4.7 earthquake 173 km NW of Port-Olry, Vanuatu.",
         "zh": "M4.7 地震，位置：173 km NW of Port-Olry, Vanuatu。"
       },
       "summary": {
-        "en": "USGS reports M4.7 at 2026-10-21T04:23:28Z near 173 km NW of Port-Olry, Vanuatu.",
-        "zh": "USGS 報告於 2026-10-21T04:23:28Z 在 173 km NW of Port-Olry, Vanuatu 發生 M4.7 地震。"
+        "en": "USGS reports M4.7 at 2026-10-21T04:23:28.083000Z near 173 km NW of Port-Olry, Vanuatu.",
+        "zh": "USGS 報告於 2026-10-21T04:23:28.083000Z 在 173 km NW of Port-Olry, Vanuatu 發生 M4.7 地震。"
       },
       "data": {
         "magnitude": 4.7,
         "place": "173 km NW of Port-Olry, Vanuatu",
-        "time": "2026-10-21T04:23:28Z",
+        "time": "2026-10-21T04:23:28.083000Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3sj",
         "ids": ",us6000u3sj,"
       },
@@ -109,25 +109,25 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T12:00:00Z"
+        "fetched_at": "2026-10-21T13:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u3rr",
       "type": "earthquake",
-      "time_utc": "2026-10-21T01:20:02Z",
+      "time_utc": "2026-10-21T01:20:02.961000Z",
       "title": {
         "en": "M5 earthquake south of Panama.",
         "zh": "M5 地震，位置：south of Panama。"
       },
       "summary": {
-        "en": "USGS reports M5 at 2026-10-21T01:20:02Z near south of Panama.",
-        "zh": "USGS 報告於 2026-10-21T01:20:02Z 在 south of Panama 發生 M5 地震。"
+        "en": "USGS reports M5 at 2026-10-21T01:20:02.961000Z near south of Panama.",
+        "zh": "USGS 報告於 2026-10-21T01:20:02.961000Z 在 south of Panama 發生 M5 地震。"
       },
       "data": {
         "magnitude": 5,
         "place": "south of Panama",
-        "time": "2026-10-21T01:20:02Z",
+        "time": "2026-10-21T01:20:02.961000Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3rr",
         "ids": ",us6000u3rr,"
       },
@@ -135,25 +135,25 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T12:00:00Z"
+        "fetched_at": "2026-10-21T13:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u3rn",
       "type": "earthquake",
-      "time_utc": "2026-10-21T01:04:29Z",
+      "time_utc": "2026-10-21T01:04:29.196000Z",
       "title": {
         "en": "M4.5 earthquake 2 km N of Honchō, Japan.",
         "zh": "M4.5 地震，位置：2 km N of Honchō, Japan。"
       },
       "summary": {
-        "en": "USGS reports M4.5 at 2026-10-21T01:04:29Z near 2 km N of Honchō, Japan.",
-        "zh": "USGS 報告於 2026-10-21T01:04:29Z 在 2 km N of Honchō, Japan 發生 M4.5 地震。"
+        "en": "USGS reports M4.5 at 2026-10-21T01:04:29.196000Z near 2 km N of Honchō, Japan.",
+        "zh": "USGS 報告於 2026-10-21T01:04:29.196000Z 在 2 km N of Honchō, Japan 發生 M4.5 地震。"
       },
       "data": {
         "magnitude": 4.5,
         "place": "2 km N of Honchō, Japan",
-        "time": "2026-10-21T01:04:29Z",
+        "time": "2026-10-21T01:04:29.196000Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3rn",
         "ids": ",us6000u3rn,"
       },
@@ -161,25 +161,25 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T12:00:00Z"
+        "fetched_at": "2026-10-21T13:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u3r3",
       "type": "earthquake",
-      "time_utc": "2026-10-20T23:24:27Z",
+      "time_utc": "2026-10-20T23:24:27.101000Z",
       "title": {
         "en": "M4.9 earthquake south of the Fiji Islands.",
         "zh": "M4.9 地震，位置：south of the Fiji Islands。"
       },
       "summary": {
-        "en": "USGS reports M4.9 at 2026-10-20T23:24:27Z near south of the Fiji Islands.",
-        "zh": "USGS 報告於 2026-10-20T23:24:27Z 在 south of the Fiji Islands 發生 M4.9 地震。"
+        "en": "USGS reports M4.9 at 2026-10-20T23:24:27.101000Z near south of the Fiji Islands.",
+        "zh": "USGS 報告於 2026-10-20T23:24:27.101000Z 在 south of the Fiji Islands 發生 M4.9 地震。"
       },
       "data": {
         "magnitude": 4.9,
         "place": "south of the Fiji Islands",
-        "time": "2026-10-20T23:24:27Z",
+        "time": "2026-10-20T23:24:27.101000Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3r3",
         "ids": ",us6000u3r3,"
       },
@@ -187,25 +187,25 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T12:00:00Z"
+        "fetched_at": "2026-10-21T13:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u3r1",
       "type": "earthquake",
-      "time_utc": "2026-10-20T23:16:43Z",
+      "time_utc": "2026-10-20T23:16:43.934000Z",
       "title": {
         "en": "M4.6 earthquake 115 km NNE of Barishal, Pakistan.",
         "zh": "M4.6 地震，位置：115 km NNE of Barishal, Pakistan。"
       },
       "summary": {
-        "en": "USGS reports M4.6 at 2026-10-20T23:16:43Z near 115 km NNE of Barishal, Pakistan.",
-        "zh": "USGS 報告於 2026-10-20T23:16:43Z 在 115 km NNE of Barishal, Pakistan 發生 M4.6 地震。"
+        "en": "USGS reports M4.6 at 2026-10-20T23:16:43.934000Z near 115 km NNE of Barishal, Pakistan.",
+        "zh": "USGS 報告於 2026-10-20T23:16:43.934000Z 在 115 km NNE of Barishal, Pakistan 發生 M4.6 地震。"
       },
       "data": {
         "magnitude": 4.6,
         "place": "115 km NNE of Barishal, Pakistan",
-        "time": "2026-10-20T23:16:43Z",
+        "time": "2026-10-20T23:16:43.934000Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3r1",
         "ids": ",us6000u3r1,"
       },
@@ -213,25 +213,25 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T12:00:00Z"
+        "fetched_at": "2026-10-21T13:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u3pq",
       "type": "earthquake",
-      "time_utc": "2026-10-20T20:03:26Z",
+      "time_utc": "2026-10-20T20:03:26.613000Z",
       "title": {
         "en": "M4.9 earthquake 187 km NW of Port-Olry, Vanuatu.",
         "zh": "M4.9 地震，位置：187 km NW of Port-Olry, Vanuatu。"
       },
       "summary": {
-        "en": "USGS reports M4.9 at 2026-10-20T20:03:26Z near 187 km NW of Port-Olry, Vanuatu.",
-        "zh": "USGS 報告於 2026-10-20T20:03:26Z 在 187 km NW of Port-Olry, Vanuatu 發生 M4.9 地震。"
+        "en": "USGS reports M4.9 at 2026-10-20T20:03:26.613000Z near 187 km NW of Port-Olry, Vanuatu.",
+        "zh": "USGS 報告於 2026-10-20T20:03:26.613000Z 在 187 km NW of Port-Olry, Vanuatu 發生 M4.9 地震。"
       },
       "data": {
         "magnitude": 4.9,
         "place": "187 km NW of Port-Olry, Vanuatu",
-        "time": "2026-10-20T20:03:26Z",
+        "time": "2026-10-20T20:03:26.613000Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3pq",
         "ids": ",us6000u3pq,"
       },
@@ -239,25 +239,25 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T12:00:00Z"
+        "fetched_at": "2026-10-21T13:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u3pm",
       "type": "earthquake",
-      "time_utc": "2026-10-20T19:53:59Z",
+      "time_utc": "2026-10-20T19:53:59.721000Z",
       "title": {
         "en": "M4.7 earthquake Kuril Islands.",
         "zh": "M4.7 地震，位置：Kuril Islands。"
       },
       "summary": {
-        "en": "USGS reports M4.7 at 2026-10-20T19:53:59Z near Kuril Islands.",
-        "zh": "USGS 報告於 2026-10-20T19:53:59Z 在 Kuril Islands 發生 M4.7 地震。"
+        "en": "USGS reports M4.7 at 2026-10-20T19:53:59.721000Z near Kuril Islands.",
+        "zh": "USGS 報告於 2026-10-20T19:53:59.721000Z 在 Kuril Islands 發生 M4.7 地震。"
       },
       "data": {
         "magnitude": 4.7,
         "place": "Kuril Islands",
-        "time": "2026-10-20T19:53:59Z",
+        "time": "2026-10-20T19:53:59.721000Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3pm",
         "ids": ",us6000u3pm,"
       },
@@ -265,25 +265,25 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T12:00:00Z"
+        "fetched_at": "2026-10-21T13:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u3p1",
       "type": "earthquake",
-      "time_utc": "2026-10-20T18:07:18Z",
+      "time_utc": "2026-10-20T18:07:18.131000Z",
       "title": {
         "en": "M5.1 earthquake 39 km W of Mosteiros, Portugal.",
         "zh": "M5.1 地震，位置：39 km W of Mosteiros, Portugal。"
       },
       "summary": {
-        "en": "USGS reports M5.1 at 2026-10-20T18:07:18Z near 39 km W of Mosteiros, Portugal.",
-        "zh": "USGS 報告於 2026-10-20T18:07:18Z 在 39 km W of Mosteiros, Portugal 發生 M5.1 地震。"
+        "en": "USGS reports M5.1 at 2026-10-20T18:07:18.131000Z near 39 km W of Mosteiros, Portugal.",
+        "zh": "USGS 報告於 2026-10-20T18:07:18.131000Z 在 39 km W of Mosteiros, Portugal 發生 M5.1 地震。"
       },
       "data": {
         "magnitude": 5.1,
         "place": "39 km W of Mosteiros, Portugal",
-        "time": "2026-10-20T18:07:18Z",
+        "time": "2026-10-20T18:07:18.131000Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3p1",
         "ids": ",us6000u3p1,"
       },
@@ -291,25 +291,25 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T12:00:00Z"
+        "fetched_at": "2026-10-21T13:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u3nn",
       "type": "earthquake",
-      "time_utc": "2026-10-20T17:18:36Z",
+      "time_utc": "2026-10-20T17:18:36.707000Z",
       "title": {
         "en": "M4.5 earthquake 215 km S of Burica, Panama.",
         "zh": "M4.5 地震，位置：215 km S of Burica, Panama。"
       },
       "summary": {
-        "en": "USGS reports M4.5 at 2026-10-20T17:18:36Z near 215 km S of Burica, Panama.",
-        "zh": "USGS 報告於 2026-10-20T17:18:36Z 在 215 km S of Burica, Panama 發生 M4.5 地震。"
+        "en": "USGS reports M4.5 at 2026-10-20T17:18:36.707000Z near 215 km S of Burica, Panama.",
+        "zh": "USGS 報告於 2026-10-20T17:18:36.707000Z 在 215 km S of Burica, Panama 發生 M4.5 地震。"
       },
       "data": {
         "magnitude": 4.5,
         "place": "215 km S of Burica, Panama",
-        "time": "2026-10-20T17:18:36Z",
+        "time": "2026-10-20T17:18:36.707000Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3nn",
         "ids": ",us6000u3nn,"
       },
@@ -317,25 +317,25 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T12:00:00Z"
+        "fetched_at": "2026-10-21T13:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u3nl",
       "type": "earthquake",
-      "time_utc": "2026-10-20T17:05:48Z",
+      "time_utc": "2026-10-20T17:05:48.338000Z",
       "title": {
         "en": "M5.4 earthquake 192 km S of Burica, Panama.",
         "zh": "M5.4 地震，位置：192 km S of Burica, Panama。"
       },
       "summary": {
-        "en": "USGS reports M5.4 at 2026-10-20T17:05:48Z near 192 km S of Burica, Panama.",
-        "zh": "USGS 報告於 2026-10-20T17:05:48Z 在 192 km S of Burica, Panama 發生 M5.4 地震。"
+        "en": "USGS reports M5.4 at 2026-10-20T17:05:48.338000Z near 192 km S of Burica, Panama.",
+        "zh": "USGS 報告於 2026-10-20T17:05:48.338000Z 在 192 km S of Burica, Panama 發生 M5.4 地震。"
       },
       "data": {
         "magnitude": 5.4,
         "place": "192 km S of Burica, Panama",
-        "time": "2026-10-20T17:05:48Z",
+        "time": "2026-10-20T17:05:48.338000Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3nl",
         "ids": ",us6000u3nl,"
       },
@@ -343,25 +343,25 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T12:00:00Z"
+        "fetched_at": "2026-10-21T13:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u3nd",
       "type": "earthquake",
-      "time_utc": "2026-10-20T16:29:43Z",
+      "time_utc": "2026-10-20T16:29:43.678000Z",
       "title": {
         "en": "M4.8 earthquake south of the Fiji Islands.",
         "zh": "M4.8 地震，位置：south of the Fiji Islands。"
       },
       "summary": {
-        "en": "USGS reports M4.8 at 2026-10-20T16:29:43Z near south of the Fiji Islands.",
-        "zh": "USGS 報告於 2026-10-20T16:29:43Z 在 south of the Fiji Islands 發生 M4.8 地震。"
+        "en": "USGS reports M4.8 at 2026-10-20T16:29:43.678000Z near south of the Fiji Islands.",
+        "zh": "USGS 報告於 2026-10-20T16:29:43.678000Z 在 south of the Fiji Islands 發生 M4.8 地震。"
       },
       "data": {
         "magnitude": 4.8,
         "place": "south of the Fiji Islands",
-        "time": "2026-10-20T16:29:43Z",
+        "time": "2026-10-20T16:29:43.678000Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3nd",
         "ids": ",us6000u3nd,"
       },
@@ -369,25 +369,25 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T12:00:00Z"
+        "fetched_at": "2026-10-21T13:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u3nc",
       "type": "earthquake",
-      "time_utc": "2026-10-20T16:29:38Z",
+      "time_utc": "2026-10-20T16:29:38.818000Z",
       "title": {
         "en": "M5 earthquake 21 km SW of Meulaboh, Indonesia.",
         "zh": "M5 地震，位置：21 km SW of Meulaboh, Indonesia。"
       },
       "summary": {
-        "en": "USGS reports M5 at 2026-10-20T16:29:38Z near 21 km SW of Meulaboh, Indonesia.",
-        "zh": "USGS 報告於 2026-10-20T16:29:38Z 在 21 km SW of Meulaboh, Indonesia 發生 M5 地震。"
+        "en": "USGS reports M5 at 2026-10-20T16:29:38.818000Z near 21 km SW of Meulaboh, Indonesia.",
+        "zh": "USGS 報告於 2026-10-20T16:29:38.818000Z 在 21 km SW of Meulaboh, Indonesia 發生 M5 地震。"
       },
       "data": {
         "magnitude": 5,
         "place": "21 km SW of Meulaboh, Indonesia",
-        "time": "2026-10-20T16:29:38Z",
+        "time": "2026-10-20T16:29:38.818000Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3nc",
         "ids": ",us6000u3nc,"
       },
@@ -395,25 +395,25 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T12:00:00Z"
+        "fetched_at": "2026-10-21T13:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u3m7",
       "type": "earthquake",
-      "time_utc": "2026-10-20T14:20:49Z",
+      "time_utc": "2026-10-20T14:20:49.305000Z",
       "title": {
         "en": "M4.5 earthquake 111 km S of Kokopo, Papua New Guinea.",
         "zh": "M4.5 地震，位置：111 km S of Kokopo, Papua New Guinea。"
       },
       "summary": {
-        "en": "USGS reports M4.5 at 2026-10-20T14:20:49Z near 111 km S of Kokopo, Papua New Guinea.",
-        "zh": "USGS 報告於 2026-10-20T14:20:49Z 在 111 km S of Kokopo, Papua New Guinea 發生 M4.5 地震。"
+        "en": "USGS reports M4.5 at 2026-10-20T14:20:49.305000Z near 111 km S of Kokopo, Papua New Guinea.",
+        "zh": "USGS 報告於 2026-10-20T14:20:49.305000Z 在 111 km S of Kokopo, Papua New Guinea 發生 M4.5 地震。"
       },
       "data": {
         "magnitude": 4.5,
         "place": "111 km S of Kokopo, Papua New Guinea",
-        "time": "2026-10-20T14:20:49Z",
+        "time": "2026-10-20T14:20:49.305000Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3m7",
         "ids": ",us6000u3m7,"
       },
@@ -421,25 +421,25 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T12:00:00Z"
+        "fetched_at": "2026-10-21T13:00:00Z"
       }
     },
     {
       "id": "usgs-us6000u3lx",
       "type": "earthquake",
-      "time_utc": "2026-10-20T13:27:24Z",
+      "time_utc": "2026-10-20T13:27:24.320000Z",
       "title": {
         "en": "M4.5 earthquake 142 km SSW of Abepura, Indonesia.",
         "zh": "M4.5 地震，位置：142 km SSW of Abepura, Indonesia。"
       },
       "summary": {
-        "en": "USGS reports M4.5 at 2026-10-20T13:27:24Z near 142 km SSW of Abepura, Indonesia.",
-        "zh": "USGS 報告於 2026-10-20T13:27:24Z 在 142 km SSW of Abepura, Indonesia 發生 M4.5 地震。"
+        "en": "USGS reports M4.5 at 2026-10-20T13:27:24.320000Z near 142 km SSW of Abepura, Indonesia.",
+        "zh": "USGS 報告於 2026-10-20T13:27:24.320000Z 在 142 km SSW of Abepura, Indonesia 發生 M4.5 地震。"
       },
       "data": {
         "magnitude": 4.5,
         "place": "142 km SSW of Abepura, Indonesia",
-        "time": "2026-10-20T13:27:24Z",
+        "time": "2026-10-20T13:27:24.320000Z",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3lx",
         "ids": ",us6000u3lx,"
       },
@@ -447,7 +447,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T12:00:00Z"
+        "fetched_at": "2026-10-21T13:00:00Z"
       }
     }
   ]
