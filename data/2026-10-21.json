@@ -1,37 +1,63 @@
 {
   "date": "2026-10-21",
-  "updated": "2026-10-21T15:00:00Z",
+  "updated": "2026-10-21T16:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-21T13Z",
+      "time_utc": "2026-10-21T14Z",
       "title": {
-        "en": "Estimated planetary Kp is 1.0 (1Z) at 13 UTC on 21 October 2026.",
-        "zh": "2026 年 10 月 21 日 13 UTC，估算行星 Kp 為 1.0（1Z）。"
+        "en": "Estimated planetary Kp is 1.67 (2M) at 14 UTC on 21 October 2026.",
+        "zh": "2026 年 10 月 21 日 14 UTC，估算行星 Kp 為 1.67（2M）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 1.0 (1Z) at 2026-10-21T13 on 21 October 2026. The 13 hour is complete (60 samples through 13:59; hour-start 1.0/1Z, hour-end 1.67/2M). Last-180 maximum is 2.33. Published-window maximum is 2.33. Window starts 2026-10-21T08:59 (358 samples). Next hour 14:00 incomplete (57 samples).",
-        "zh": "最新可靠整點初值：2026-10-21T13 估算 Kp 1.0（1Z）。13 時段已收滿（60 筆至 13:59；時段初 1.0/1Z、時段末 1.67/2M）。last-180 最大 2.33。公開窗最大 2.33。窗起點 2026-10-21T08:59（358 筆）。下一整點 14:00 未滿（57 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 1.67 (2M) at 2026-10-21T14 on 21 October 2026. The 14 hour is complete (60 samples through 14:59; hour-start 1.67/2M, hour-end 2.0/2Z). Last-180 maximum is 2.67. Published-window maximum is 2.67. Window starts 2026-10-21T10:00 (358 samples). Next hour 15:00 incomplete (58 samples).",
+        "zh": "最新可靠整點初值：2026-10-21T14 估算 Kp 1.67（2M）。14 時段已收滿（60 筆至 14:59；時段初 1.67/2M、時段末 2.0/2Z）。last-180 最大 2.67。公開窗最大 2.67。窗起點 2026-10-21T10:00（358 筆）。下一整點 15:00 未滿（58 筆）。"
       },
       "data": {
-        "estimated_kp": 1.0,
-        "kp": "1Z",
+        "estimated_kp": 1.67,
+        "kp": "2M",
         "hour_complete": true,
-        "hour_start_kp": 1.0,
-        "hour_end_kp": 1.67,
-        "last180_max": 2.33,
-        "window_max": 2.33,
-        "window_start": "2026-10-21T08:59",
+        "hour_start_kp": 1.67,
+        "hour_end_kp": 2.0,
+        "last180_max": 2.67,
+        "window_max": 2.67,
+        "window_start": "2026-10-21T10:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
-        "next_hour_samples": 57
+        "next_hour_samples": 58
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-21T15:00:00Z"
+        "fetched_at": "2026-10-21T16:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u3ue",
+      "type": "earthquake",
+      "time_utc": "2026-10-21T14:56:27.447000Z",
+      "title": {
+        "en": "M5 earthquake 194 km WNW of Port-Olry, Vanuatu.",
+        "zh": "M5 地震，位置：194 km WNW of Port-Olry, Vanuatu。"
+      },
+      "summary": {
+        "en": "USGS reports M5 at 2026-10-21T14:56:27.447000Z near 194 km WNW of Port-Olry, Vanuatu.",
+        "zh": "USGS 報告於 2026-10-21T14:56:27.447000Z 在 194 km WNW of Port-Olry, Vanuatu 發生 M5 地震。"
+      },
+      "data": {
+        "magnitude": 5,
+        "place": "194 km WNW of Port-Olry, Vanuatu",
+        "time": "2026-10-21T14:56:27.447000Z",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ue",
+        "ids": ",us6000u3ue,"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-21T16:00:00Z"
       }
     },
     {
@@ -57,7 +83,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T15:00:00Z"
+        "fetched_at": "2026-10-21T16:00:00Z"
       }
     },
     {
@@ -83,7 +109,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T15:00:00Z"
+        "fetched_at": "2026-10-21T16:00:00Z"
       }
     },
     {
@@ -109,7 +135,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T15:00:00Z"
+        "fetched_at": "2026-10-21T16:00:00Z"
       }
     },
     {
@@ -135,7 +161,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T15:00:00Z"
+        "fetched_at": "2026-10-21T16:00:00Z"
       }
     },
     {
@@ -161,7 +187,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T15:00:00Z"
+        "fetched_at": "2026-10-21T16:00:00Z"
       }
     },
     {
@@ -187,7 +213,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T15:00:00Z"
+        "fetched_at": "2026-10-21T16:00:00Z"
       }
     },
     {
@@ -213,7 +239,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T15:00:00Z"
+        "fetched_at": "2026-10-21T16:00:00Z"
       }
     },
     {
@@ -239,7 +265,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T15:00:00Z"
+        "fetched_at": "2026-10-21T16:00:00Z"
       }
     },
     {
@@ -265,7 +291,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T15:00:00Z"
+        "fetched_at": "2026-10-21T16:00:00Z"
       }
     },
     {
@@ -291,7 +317,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T15:00:00Z"
+        "fetched_at": "2026-10-21T16:00:00Z"
       }
     },
     {
@@ -317,7 +343,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T15:00:00Z"
+        "fetched_at": "2026-10-21T16:00:00Z"
       }
     },
     {
@@ -343,7 +369,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T15:00:00Z"
+        "fetched_at": "2026-10-21T16:00:00Z"
       }
     },
     {
@@ -369,7 +395,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T15:00:00Z"
+        "fetched_at": "2026-10-21T16:00:00Z"
       }
     },
     {
@@ -395,7 +421,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T15:00:00Z"
+        "fetched_at": "2026-10-21T16:00:00Z"
       }
     },
     {
@@ -421,7 +447,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T15:00:00Z"
+        "fetched_at": "2026-10-21T16:00:00Z"
       }
     }
   ]
