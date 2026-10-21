@@ -1,37 +1,61 @@
 {
   "date": "2026-10-21",
-  "updated": "2026-10-21T04:00:00Z",
+  "updated": "2026-10-21T05:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-21T02Z",
+      "time_utc": "2026-10-21T03Z",
       "title": {
-        "en": "Estimated planetary Kp is 3.33 (3P) at 02 UTC on 21 October 2026.",
-        "zh": "2026 年 10 月 21 日 02 UTC，估算行星 Kp 為 3.33（3P）。"
+        "en": "Estimated planetary Kp is 0.0 (0Z) at 03 UTC on 21 October 2026.",
+        "zh": "2026 年 10 月 21 日 03 UTC，估算行星 Kp 為 0.0（0Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 3.33 (3P) at 2026-10-21T02 on 21 October 2026. The 02 hour is complete (60 samples through 02:59; hour-start 3.33/3P, hour-end 3.33/3P). Last-180 maximum is 3.67. Published-window maximum is 3.67. Window starts 2026-10-20T22:00 (358 samples). Next hour 03:00 incomplete (58 samples).",
-        "zh": "最新可靠整點初值：2026-10-21T02 估算 Kp 3.33（3P）。02 時段已收滿（60 筆至 02:59；時段初 3.33/3P、時段末 3.33/3P）。last-180 最大 3.67。公開窗最大 3.67。窗起點 2026-10-20T22:00（358 筆）。下一整點 03:00 未滿（58 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-21T03 on 21 October 2026. The 03 hour is complete (60 samples through 03:59; hour-start 0.0/0Z, hour-end 3.67/4M). Last-180 maximum is 4.0. Published-window maximum is 4.0. Window starts 2026-10-20T22:00 (358 samples). Next hour 04:00 incomplete (57 samples).",
+        "zh": "最新可靠整點初值：2026-10-21T03 估算 Kp 0.0（0Z）。03 時段已收滿（60 筆至 03:59；時段初 0.0/0Z、時段末 3.67/4M）。last-180 最大 4.0。公開窗最大 4.0。窗起點 2026-10-20T22:00（358 筆）。下一整點 04:00 未滿（57 筆）。"
       },
       "data": {
-        "estimated_kp": 3.33,
-        "kp": "3P",
+        "estimated_kp": 0.0,
+        "kp": "0Z",
         "hour_complete": true,
-        "hour_start_kp": 3.33,
-        "hour_end_kp": 3.33,
-        "last180_max": 3.67,
-        "window_max": 3.67,
+        "hour_start_kp": 0.0,
+        "hour_end_kp": 3.67,
+        "last180_max": 4.0,
+        "window_max": 4.0,
         "window_start": "2026-10-20T22:00",
         "sample_count": 358,
         "next_hour_incomplete": true,
-        "next_hour_samples": 58
+        "next_hour_samples": 57
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-21T04:00:00Z"
+        "fetched_at": "2026-10-21T05:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u3sj",
+      "type": "earthquake",
+      "time_utc": "2026-10-21T04:23:28Z",
+      "title": {
+        "en": "M4.7 earthquake 173 km NW of Port-Olry, Vanuatu.",
+        "zh": "M4.7 地震，位置：173 km NW of Port-Olry, Vanuatu。"
+      },
+      "summary": {
+        "en": "USGS reports M4.7 at 2026-10-21T04:23:28Z near 173 km NW of Port-Olry, Vanuatu.",
+        "zh": "USGS 報告於 2026-10-21T04:23:28Z 在 173 km NW of Port-Olry, Vanuatu 發生 M4.7 地震。"
+      },
+      "data": {
+        "mag": 4.7,
+        "place": "173 km NW of Port-Olry, Vanuatu",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3sj"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-21T05:00:00Z"
       }
     },
     {
@@ -55,7 +79,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T04:00:00Z"
+        "fetched_at": "2026-10-21T05:00:00Z"
       }
     },
     {
@@ -79,7 +103,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T04:00:00Z"
+        "fetched_at": "2026-10-21T05:00:00Z"
       }
     },
     {
@@ -103,7 +127,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T04:00:00Z"
+        "fetched_at": "2026-10-21T05:00:00Z"
       }
     },
     {
@@ -127,7 +151,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T04:00:00Z"
+        "fetched_at": "2026-10-21T05:00:00Z"
       }
     },
     {
@@ -151,7 +175,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T04:00:00Z"
+        "fetched_at": "2026-10-21T05:00:00Z"
       }
     },
     {
@@ -175,7 +199,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T04:00:00Z"
+        "fetched_at": "2026-10-21T05:00:00Z"
       }
     },
     {
@@ -199,7 +223,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T04:00:00Z"
+        "fetched_at": "2026-10-21T05:00:00Z"
       }
     },
     {
@@ -223,7 +247,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T04:00:00Z"
+        "fetched_at": "2026-10-21T05:00:00Z"
       }
     },
     {
@@ -247,7 +271,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T04:00:00Z"
+        "fetched_at": "2026-10-21T05:00:00Z"
       }
     },
     {
@@ -271,7 +295,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T04:00:00Z"
+        "fetched_at": "2026-10-21T05:00:00Z"
       }
     },
     {
@@ -295,7 +319,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T04:00:00Z"
+        "fetched_at": "2026-10-21T05:00:00Z"
       }
     },
     {
@@ -319,7 +343,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T04:00:00Z"
+        "fetched_at": "2026-10-21T05:00:00Z"
       }
     },
     {
@@ -343,7 +367,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T04:00:00Z"
+        "fetched_at": "2026-10-21T05:00:00Z"
       }
     },
     {
@@ -367,7 +391,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T04:00:00Z"
+        "fetched_at": "2026-10-21T05:00:00Z"
       }
     },
     {
@@ -391,7 +415,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T04:00:00Z"
+        "fetched_at": "2026-10-21T05:00:00Z"
       }
     },
     {
@@ -415,7 +439,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T04:00:00Z"
+        "fetched_at": "2026-10-21T05:00:00Z"
       }
     },
     {
@@ -439,7 +463,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T04:00:00Z"
+        "fetched_at": "2026-10-21T05:00:00Z"
       }
     },
     {
@@ -463,7 +487,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T04:00:00Z"
+        "fetched_at": "2026-10-21T05:00:00Z"
       }
     },
     {
@@ -487,7 +511,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T04:00:00Z"
+        "fetched_at": "2026-10-21T05:00:00Z"
       }
     },
     {
@@ -511,7 +535,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T04:00:00Z"
+        "fetched_at": "2026-10-21T05:00:00Z"
       }
     },
     {
@@ -535,31 +559,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T04:00:00Z"
-      }
-    },
-    {
-      "id": "usgs-us6000u3jl",
-      "type": "earthquake",
-      "time_utc": "2026-10-20T04:20:38Z",
-      "title": {
-        "en": "M6.3 earthquake 197 km NW of Port-Olry, Vanuatu.",
-        "zh": "M6.3 地震，位置：197 km NW of Port-Olry, Vanuatu。"
-      },
-      "summary": {
-        "en": "USGS reports M6.3 at 2026-10-20T04:20:38Z near 197 km NW of Port-Olry, Vanuatu.",
-        "zh": "USGS 報告於 2026-10-20T04:20:38Z 在 197 km NW of Port-Olry, Vanuatu 發生 M6.3 地震。"
-      },
-      "data": {
-        "mag": 6.3,
-        "place": "197 km NW of Port-Olry, Vanuatu",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3jl"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T04:00:00Z"
+        "fetched_at": "2026-10-21T05:00:00Z"
       }
     }
   ]
