@@ -1,39 +1,117 @@
 {
   "date": "2026-10-21",
-  "updated": "2026-10-21T19:00:00Z",
+  "updated": "2026-10-21T21:00:00Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 3.0 (3Z) at 17 UTC on 21 October 2026.",
-        "zh": "2026 年 10 月 21 日 17 UTC，估算行星 Kp 為 3.0（3Z）。"
+        "en": "Estimated planetary Kp is 3.0 (3Z) at 19 UTC on 21 October 2026.",
+        "zh": "2026 年 10 月 21 日 19 UTC，估算行星 Kp 為 3.0（3Z）。"
       },
       "id": "noaa-kp-1m",
-      "time_utc": "2026-10-21T17Z",
+      "time_utc": "2026-10-21T19Z",
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 3.0 (3Z) at 2026-10-21T17 on 21 October 2026. The 17 hour is complete (60 samples through 17:59; hour-start 3.0/3Z, hour-end 3.33/3P). Last-180 maximum is 3.33. Published-window maximum is 3.33. Window starts 2026-10-21T12:59 (358 samples). Next hour 18:00 incomplete (57 samples).",
-        "zh": "最新可靠整點初值：2026-10-21T17 估算 Kp 3.0（3Z）。17 時段已收滿（60 筆至 17:59；時段初 3.0/3Z、時段末 3.33/3P）。last-180 最大 3.33。公開窗最大 3.33。窗起點 2026-10-21T12:59（358 筆）。下一整點 18:00 未滿（57 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 3.0 (3Z) at 2026-10-21T19 on 21 October 2026. The 19 hour is complete (60 samples through 19:59; hour-start 3.0/3Z, hour-end 3.33/3P). Last-180 maximum is 3.67. Published-window maximum is 3.67. Window starts 2026-10-21T15:00:00 (357 samples). Next hour 20:00 incomplete (57 samples).",
+        "zh": "最新可靠整點初值：2026-10-21T19 估算 Kp 3.0（3Z）。19 時段已收滿（60 筆至 19:59；時段初 3.0/3Z、時段末 3.33/3P）。last-180 最大 3.67。公開窗最大 3.67。窗起點 2026-10-21T15:00:00（357 筆）。下一整點 20:00 未滿（57 筆）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-21T19:00:00Z"
+        "fetched_at": "2026-10-21T21:00:00Z"
       },
       "data": {
         "estimated_kp": 3.0,
         "kp_label": "3Z",
-        "hour_start": "2026-10-21T17:00:00Z",
+        "hour_start": "2026-10-21T19:00:00Z",
         "hour_complete": true,
         "hour_samples": 60,
         "hour_end_estimated_kp": 3.33,
         "hour_end_label": "3P",
-        "last_180_max": 3.33,
-        "window_max": 3.33,
-        "window_start": "2026-10-21T12:59:00",
-        "window_samples": 358,
-        "next_hour": "2026-10-21T18:00:00Z",
+        "last_180_max": 3.67,
+        "window_max": 3.67,
+        "window_start": "2026-10-21T15:00:00",
+        "window_samples": 357,
+        "next_hour": "2026-10-21T20:00:00Z",
         "next_hour_samples": 57
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M4.8 earthquake 81 km NNW of Khorixas, Namibia.",
+        "zh": "M4.8 地震，位置：81 km NNW of Khorixas, Namibia。"
+      },
+      "id": "usgs-us6000u3y1",
+      "time_utc": "2026-10-21T20:34:49.393Z",
+      "summary": {
+        "en": "USGS reports M4.8 at 2026-10-21T20:34:49.393Z near 81 km NNW of Khorixas, Namibia.",
+        "zh": "USGS 報告於 2026-10-21T20:34:49.393Z 在 81 km NNW of Khorixas, Namibia 發生 M4.8 地震。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-21T21:00:00Z"
+      },
+      "data": {
+        "mag": 4.8,
+        "place": "81 km NNW of Khorixas, Namibia",
+        "time": 1792614889393,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3y1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u3y1.geojson"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M5 earthquake Reykjanes Ridge.",
+        "zh": "M5 地震，位置：Reykjanes Ridge。"
+      },
+      "id": "usgs-us6000u3x2",
+      "time_utc": "2026-10-21T19:06:06.706Z",
+      "summary": {
+        "en": "USGS reports M5 at 2026-10-21T19:06:06.706Z near Reykjanes Ridge.",
+        "zh": "USGS 報告於 2026-10-21T19:06:06.706Z 在 Reykjanes Ridge 發生 M5 地震。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-21T21:00:00Z"
+      },
+      "data": {
+        "mag": 5,
+        "place": "Reykjanes Ridge",
+        "time": 1792609566706,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3x2",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u3x2.geojson"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M4.7 earthquake 202 km WNW of Port-Olry, Vanuatu.",
+        "zh": "M4.7 地震，位置：202 km WNW of Port-Olry, Vanuatu。"
+      },
+      "id": "usgs-us6000u3ws",
+      "time_utc": "2026-10-21T18:40:31.851Z",
+      "summary": {
+        "en": "USGS reports M4.7 at 2026-10-21T18:40:31.851Z near 202 km WNW of Port-Olry, Vanuatu.",
+        "zh": "USGS 報告於 2026-10-21T18:40:31.851Z 在 202 km WNW of Port-Olry, Vanuatu 發生 M4.7 地震。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-21T21:00:00Z"
+      },
+      "data": {
+        "mag": 4.7,
+        "place": "202 km WNW of Port-Olry, Vanuatu",
+        "time": 1792608031851,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ws",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u3ws.geojson"
       }
     },
     {
@@ -52,7 +130,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T19:00:00Z"
+        "fetched_at": "2026-10-21T21:00:00Z"
       },
       "data": {
         "mag": 5.1,
@@ -78,7 +156,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T19:00:00Z"
+        "fetched_at": "2026-10-21T21:00:00Z"
       },
       "data": {
         "mag": 4.6,
@@ -104,7 +182,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T19:00:00Z"
+        "fetched_at": "2026-10-21T21:00:00Z"
       },
       "data": {
         "mag": 4.9,
@@ -130,7 +208,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T19:00:00Z"
+        "fetched_at": "2026-10-21T21:00:00Z"
       },
       "data": {
         "mag": 5,
@@ -156,7 +234,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T19:00:00Z"
+        "fetched_at": "2026-10-21T21:00:00Z"
       },
       "data": {
         "mag": 4.7,
@@ -182,7 +260,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T19:00:00Z"
+        "fetched_at": "2026-10-21T21:00:00Z"
       },
       "data": {
         "mag": 4.9,
@@ -208,7 +286,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T19:00:00Z"
+        "fetched_at": "2026-10-21T21:00:00Z"
       },
       "data": {
         "mag": 4.5,
@@ -234,7 +312,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T19:00:00Z"
+        "fetched_at": "2026-10-21T21:00:00Z"
       },
       "data": {
         "mag": 5.2,
@@ -260,7 +338,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T19:00:00Z"
+        "fetched_at": "2026-10-21T21:00:00Z"
       },
       "data": {
         "mag": 5.1,
@@ -286,7 +364,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T19:00:00Z"
+        "fetched_at": "2026-10-21T21:00:00Z"
       },
       "data": {
         "mag": 4.7,
@@ -312,7 +390,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T19:00:00Z"
+        "fetched_at": "2026-10-21T21:00:00Z"
       },
       "data": {
         "mag": 5,
@@ -338,7 +416,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T19:00:00Z"
+        "fetched_at": "2026-10-21T21:00:00Z"
       },
       "data": {
         "mag": 4.5,
@@ -364,7 +442,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T19:00:00Z"
+        "fetched_at": "2026-10-21T21:00:00Z"
       },
       "data": {
         "mag": 4.9,
@@ -390,7 +468,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T19:00:00Z"
+        "fetched_at": "2026-10-21T21:00:00Z"
       },
       "data": {
         "mag": 4.6,
@@ -398,58 +476,6 @@
         "time": 1792538203934,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3r1",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u3r1.geojson"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M4.9 earthquake 187 km NW of Port-Olry, Vanuatu.",
-        "zh": "M4.9 地震，位置：187 km NW of Port-Olry, Vanuatu。"
-      },
-      "id": "usgs-us6000u3pq",
-      "time_utc": "2026-10-20T20:03:26.613Z",
-      "summary": {
-        "en": "USGS reports M4.9 at 2026-10-20T20:03:26.613Z near 187 km NW of Port-Olry, Vanuatu.",
-        "zh": "USGS 報告於 2026-10-20T20:03:26.613Z 在 187 km NW of Port-Olry, Vanuatu 發生 M4.9 地震。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T19:00:00Z"
-      },
-      "data": {
-        "mag": 4.9,
-        "place": "187 km NW of Port-Olry, Vanuatu",
-        "time": 1792526606613,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3pq",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u3pq.geojson"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M4.7 earthquake Kuril Islands.",
-        "zh": "M4.7 地震，位置：Kuril Islands。"
-      },
-      "id": "usgs-us6000u3pm",
-      "time_utc": "2026-10-20T19:53:59.721Z",
-      "summary": {
-        "en": "USGS reports M4.7 at 2026-10-20T19:53:59.721Z near Kuril Islands.",
-        "zh": "USGS 報告於 2026-10-20T19:53:59.721Z 在 Kuril Islands 發生 M4.7 地震。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T19:00:00Z"
-      },
-      "data": {
-        "mag": 4.7,
-        "place": "Kuril Islands",
-        "time": 1792526039721,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3pm",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u3pm.geojson"
       }
     }
   ]
