@@ -1,37 +1,85 @@
 {
   "date": "2026-10-21",
-  "updated": "2026-10-21T01:00:00Z",
+  "updated": "2026-10-21T02:00:00Z",
   "entries": [
     {
       "id": "noaa-kp-1m",
       "type": "space-weather",
-      "time_utc": "2026-10-20T23Z",
+      "time_utc": "2026-10-21T00Z",
       "title": {
-        "en": "Estimated planetary Kp is 2.33 (2P) at 23 UTC on 20 October 2026.",
-        "zh": "2026 年 10 月 20 日 23 UTC，估算行星 Kp 為 2.33（2P）。"
+        "en": "Estimated planetary Kp is 0.0 (0Z) at 00 UTC on 21 October 2026.",
+        "zh": "2026 年 10 月 21 日 00 UTC，估算行星 Kp 為 0.0（0Z）。"
       },
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 2.33 (2P) at 2026-10-20T23 on 20 October 2026. The 23 hour is complete (60 samples through 23:59; hour-start 2.33/2P, hour-end 3.0/3Z). Last-180 maximum is 3.0. Published-window maximum is 3.0. Window starts 2026-10-20T18:59 (358 samples). Next hour 00:00 incomplete (57 samples).",
-        "zh": "最新可靠整點初值：2026-10-20T23 估算 Kp 2.33（2P）。23 時段已收滿（60 筆至 23:59；時段初 2.33/2P、時段末 3.0/3Z）。last-180 最大 3.0。公開窗最大 3.0。窗起點 2026-10-20T18:59（358 筆）。下一整點 00:00 未滿（57 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-21T00 on 21 October 2026. The 00 hour is complete (60 samples through 00:59; hour-start 0.0/0Z, hour-end 2.67/3M). Last-180 maximum is 3.0. Published-window maximum is 3.0. Window starts 2026-10-20T19:59 (357 samples). Next hour 01:00 incomplete (56 samples).",
+        "zh": "最新可靠整點初值：2026-10-21T00 估算 Kp 0.0（0Z）。00 時段已收滿（60 筆至 00:59；時段初 0.0/0Z、時段末 2.67/3M）。last-180 最大 3.0。公開窗最大 3.0。窗起點 2026-10-20T19:59（357 筆）。下一整點 01:00 未滿（56 筆）。"
       },
       "data": {
-        "estimated_kp": 2.33,
-        "kp": "2P",
+        "estimated_kp": 0.0,
+        "kp": "0Z",
         "hour_complete": true,
-        "hour_start_kp": 2.33,
-        "hour_end_kp": 3.0,
+        "hour_start_kp": 0.0,
+        "hour_end_kp": 2.67,
         "last180_max": 3.0,
         "window_max": 3.0,
-        "window_start": "2026-10-20T18:59",
-        "sample_count": 358,
+        "window_start": "2026-10-20T19:59",
+        "sample_count": 357,
         "next_hour_incomplete": true,
-        "next_hour_samples": 57
+        "next_hour_samples": 56
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-21T01:00:00Z"
+        "fetched_at": "2026-10-21T02:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u3rr",
+      "type": "earthquake",
+      "time_utc": "2026-10-21T01:20:02Z",
+      "title": {
+        "en": "M5 earthquake south of Panama.",
+        "zh": "M5 地震，位置：south of Panama。"
+      },
+      "summary": {
+        "en": "USGS reports M5 at 2026-10-21T01:20:02Z near south of Panama.",
+        "zh": "USGS 報告於 2026-10-21T01:20:02Z 在 south of Panama 發生 M5 地震。"
+      },
+      "data": {
+        "mag": 5,
+        "place": "south of Panama",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3rr"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-21T02:00:00Z"
+      }
+    },
+    {
+      "id": "usgs-us6000u3rn",
+      "type": "earthquake",
+      "time_utc": "2026-10-21T01:04:29Z",
+      "title": {
+        "en": "M4.5 earthquake 2 km N of Honchō, Japan.",
+        "zh": "M4.5 地震，位置：2 km N of Honchō, Japan。"
+      },
+      "summary": {
+        "en": "USGS reports M4.5 at 2026-10-21T01:04:29Z near 2 km N of Honchō, Japan.",
+        "zh": "USGS 報告於 2026-10-21T01:04:29Z 在 2 km N of Honchō, Japan 發生 M4.5 地震。"
+      },
+      "data": {
+        "mag": 4.5,
+        "place": "2 km N of Honchō, Japan",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3rn"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-21T02:00:00Z"
       }
     },
     {
@@ -55,7 +103,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T01:00:00Z"
+        "fetched_at": "2026-10-21T02:00:00Z"
       }
     },
     {
@@ -79,7 +127,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T01:00:00Z"
+        "fetched_at": "2026-10-21T02:00:00Z"
       }
     },
     {
@@ -103,7 +151,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T01:00:00Z"
+        "fetched_at": "2026-10-21T02:00:00Z"
       }
     },
     {
@@ -127,7 +175,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T01:00:00Z"
+        "fetched_at": "2026-10-21T02:00:00Z"
       }
     },
     {
@@ -151,7 +199,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T01:00:00Z"
+        "fetched_at": "2026-10-21T02:00:00Z"
       }
     },
     {
@@ -175,7 +223,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T01:00:00Z"
+        "fetched_at": "2026-10-21T02:00:00Z"
       }
     },
     {
@@ -199,7 +247,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T01:00:00Z"
+        "fetched_at": "2026-10-21T02:00:00Z"
       }
     },
     {
@@ -223,7 +271,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T01:00:00Z"
+        "fetched_at": "2026-10-21T02:00:00Z"
       }
     },
     {
@@ -247,7 +295,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T01:00:00Z"
+        "fetched_at": "2026-10-21T02:00:00Z"
       }
     },
     {
@@ -271,7 +319,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T01:00:00Z"
+        "fetched_at": "2026-10-21T02:00:00Z"
       }
     },
     {
@@ -295,7 +343,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T01:00:00Z"
+        "fetched_at": "2026-10-21T02:00:00Z"
       }
     },
     {
@@ -319,7 +367,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T01:00:00Z"
+        "fetched_at": "2026-10-21T02:00:00Z"
       }
     },
     {
@@ -343,7 +391,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T01:00:00Z"
+        "fetched_at": "2026-10-21T02:00:00Z"
       }
     },
     {
@@ -367,7 +415,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T01:00:00Z"
+        "fetched_at": "2026-10-21T02:00:00Z"
       }
     },
     {
@@ -391,7 +439,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T01:00:00Z"
+        "fetched_at": "2026-10-21T02:00:00Z"
       }
     },
     {
@@ -415,7 +463,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T01:00:00Z"
+        "fetched_at": "2026-10-21T02:00:00Z"
       }
     },
     {
@@ -439,7 +487,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T01:00:00Z"
+        "fetched_at": "2026-10-21T02:00:00Z"
       }
     },
     {
@@ -463,7 +511,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T01:00:00Z"
+        "fetched_at": "2026-10-21T02:00:00Z"
       }
     },
     {
@@ -487,7 +535,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T01:00:00Z"
+        "fetched_at": "2026-10-21T02:00:00Z"
       }
     },
     {
@@ -511,7 +559,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T01:00:00Z"
+        "fetched_at": "2026-10-21T02:00:00Z"
       }
     },
     {
@@ -535,7 +583,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-21T01:00:00Z"
+        "fetched_at": "2026-10-21T02:00:00Z"
       }
     }
   ]
