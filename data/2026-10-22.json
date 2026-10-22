@@ -1,29 +1,53 @@
 {
   "date": "2026-10-22",
-  "updated": "2026-10-22T13:02:28Z",
+  "updated": "2026-10-22T14:00:00Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 4.0 (4Z) at 11 UTC on 22 October 2026.",
-        "zh": "2026 年 10 月 22 日 11 UTC，估算行星 Kp 為 4.0（4Z）。"
+        "en": "Estimated planetary Kp is 0.0 (0Z) at 12 UTC on 22 October 2026.",
+        "zh": "2026 年 10 月 22 日 12 UTC，估算行星 Kp 為 0.0（0Z）。"
       },
       "id": "noaa-kp-1m",
-      "time_utc": "2026-10-22T11Z",
+      "time_utc": "2026-10-22T12Z",
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 4.0 (4Z) at 2026-10-22T11 on 22 October 2026. The 11 hour is complete (60 samples through 11:59; hour-start 4.0/4Z, hour-end 4.33/4P). Last-180 maximum is 4.33. Published-window maximum is 4.33. Window starts 2026-10-22T07:01:00 (358 samples). Next hour 12:00 incomplete (59 samples).",
-        "zh": "最新可靠整點初值：2026-10-22T11 估算 Kp 4.0（4Z）。11 時段已收滿（60 筆至 11:59；時段初 4.0/4Z、時段末 4.33/4P）。last-180 最大 4.33。公開窗最大 4.33。窗起點 2026-10-22T07:01:00（358 筆）。下一整點 12:00 未滿（59 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 0.0 (0Z) at 2026-10-22T12 on 22 October 2026. The 12 hour is complete (60 samples through 12:59; hour-start 0.0/0Z, hour-end 3.0/3Z). Last-180 maximum is 4.33. Published-window maximum is 4.33. Window starts 2026-10-22T08:01:00 (358 samples). Next hour 13:00 incomplete (59 samples).",
+        "zh": "最新可靠整點初值：2026-10-22T12 估算 Kp 0.0（0Z）。12 時段已收滿（60 筆至 12:59；時段初 0.0/0Z、時段末 3.0/3Z）。last-180 最大 4.33。公開窗最大 4.33。窗起點 2026-10-22T08:01:00（358 筆）。下一整點 13:00 未滿（59 筆）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-22T13:02:28Z"
+        "fetched_at": "2026-10-22T14:00:00Z"
       },
       "data": {
-        "estimated_kp": 4.0,
-        "kp": "4Z",
-        "hour": "2026-10-22T11Z"
+        "estimated_kp": 0.0,
+        "kp": "0Z",
+        "hour": "2026-10-22T12Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M4.9 earthquake 200 km NW of Port-Olry, Vanuatu.",
+        "zh": "M4.9 地震，位置：200 km NW of Port-Olry, Vanuatu。"
+      },
+      "id": "usgs-us6000u432",
+      "time_utc": "2026-10-22T12:22:57.822000Z",
+      "summary": {
+        "en": "USGS reports M4.9 at 2026-10-22T12:22:57.822000Z near 200 km NW of Port-Olry, Vanuatu.",
+        "zh": "USGS 報告 M4.9，時間 2026-10-22T12:22:57.822000Z，位置：200 km NW of Port-Olry, Vanuatu。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-22T14:00:00Z"
+      },
+      "data": {
+        "mag": 4.9,
+        "place": "200 km NW of Port-Olry, Vanuatu",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u432"
       }
     },
     {
@@ -33,23 +57,21 @@
         "zh": "M4.9 地震，位置：85 km NNW of Curup, Indonesia。"
       },
       "id": "usgs-us6000u42q",
-      "time_utc": "2026-10-22T10:57:52.259Z",
+      "time_utc": "2026-10-22T10:57:52.259000Z",
       "summary": {
-        "en": "USGS reports M4.9 at 2026-10-22T10:57:52.259Z near 85 km NNW of Curup, Indonesia.",
-        "zh": "USGS 報告於 2026-10-22T10:57:52.259Z 在 85 km NNW of Curup, Indonesia 發生 M4.9 地震。"
+        "en": "USGS reports M4.9 at 2026-10-22T10:57:52.259000Z near 85 km NNW of Curup, Indonesia.",
+        "zh": "USGS 報告 M4.9，時間 2026-10-22T10:57:52.259000Z，位置：85 km NNW of Curup, Indonesia。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
+        "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T13:02:28Z"
+        "fetched_at": "2026-10-22T14:00:00Z"
       },
       "data": {
         "mag": 4.9,
         "place": "85 km NNW of Curup, Indonesia",
-        "time": 1792666672259,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u42q",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u42q.geojson"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u42q"
       }
     },
     {
@@ -59,23 +81,21 @@
         "zh": "M4.6 地震，位置：11 km W of Ashkāsham, Afghanistan。"
       },
       "id": "usgs-us6000u42e",
-      "time_utc": "2026-10-22T10:07:41.749Z",
+      "time_utc": "2026-10-22T10:07:41.749000Z",
       "summary": {
-        "en": "USGS reports M4.6 at 2026-10-22T10:07:41.749Z near 11 km W of Ashkāsham, Afghanistan.",
-        "zh": "USGS 報告於 2026-10-22T10:07:41.749Z 在 11 km W of Ashkāsham, Afghanistan 發生 M4.6 地震。"
+        "en": "USGS reports M4.6 at 2026-10-22T10:07:41.749000Z near 11 km W of Ashkāsham, Afghanistan.",
+        "zh": "USGS 報告 M4.6，時間 2026-10-22T10:07:41.749000Z，位置：11 km W of Ashkāsham, Afghanistan。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
+        "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T13:02:28Z"
+        "fetched_at": "2026-10-22T14:00:00Z"
       },
       "data": {
         "mag": 4.6,
         "place": "11 km W of Ashkāsham, Afghanistan",
-        "time": 1792663661749,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u42e",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u42e.geojson"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u42e"
       }
     },
     {
@@ -85,23 +105,21 @@
         "zh": "M4.5 地震，位置：136 km NE of Petropavlovsk-Kamchatsky, Russia。"
       },
       "id": "usgs-us6000u423",
-      "time_utc": "2026-10-22T08:34:18.537Z",
+      "time_utc": "2026-10-22T08:34:18.537000Z",
       "summary": {
-        "en": "USGS reports M4.5 at 2026-10-22T08:34:18.537Z near 136 km NE of Petropavlovsk-Kamchatsky, Russia.",
-        "zh": "USGS 報告於 2026-10-22T08:34:18.537Z 在 136 km NE of Petropavlovsk-Kamchatsky, Russia 發生 M4.5 地震。"
+        "en": "USGS reports M4.5 at 2026-10-22T08:34:18.537000Z near 136 km NE of Petropavlovsk-Kamchatsky, Russia.",
+        "zh": "USGS 報告 M4.5，時間 2026-10-22T08:34:18.537000Z，位置：136 km NE of Petropavlovsk-Kamchatsky, Russia。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
+        "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T13:02:28Z"
+        "fetched_at": "2026-10-22T14:00:00Z"
       },
       "data": {
         "mag": 4.5,
         "place": "136 km NE of Petropavlovsk-Kamchatsky, Russia",
-        "time": 1792658058537,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u423",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u423.geojson"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u423"
       }
     },
     {
@@ -111,23 +129,21 @@
         "zh": "M4.6 地震，位置：49 km NE of Yigo Village, Guam。"
       },
       "id": "usgs-us6000u41z",
-      "time_utc": "2026-10-22T08:06:35.200Z",
+      "time_utc": "2026-10-22T08:06:35.200000Z",
       "summary": {
-        "en": "USGS reports M4.6 at 2026-10-22T08:06:35.200Z near 49 km NE of Yigo Village, Guam.",
-        "zh": "USGS 報告於 2026-10-22T08:06:35.200Z 在 49 km NE of Yigo Village, Guam 發生 M4.6 地震。"
+        "en": "USGS reports M4.6 at 2026-10-22T08:06:35.200000Z near 49 km NE of Yigo Village, Guam.",
+        "zh": "USGS 報告 M4.6，時間 2026-10-22T08:06:35.200000Z，位置：49 km NE of Yigo Village, Guam。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
+        "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T13:02:28Z"
+        "fetched_at": "2026-10-22T14:00:00Z"
       },
       "data": {
         "mag": 4.6,
         "place": "49 km NE of Yigo Village, Guam",
-        "time": 1792656395200,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u41z",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u41z.geojson"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u41z"
       }
     },
     {
@@ -137,23 +153,21 @@
         "zh": "M4.8 地震，位置：Balleny Islands region。"
       },
       "id": "usgs-us6000u41y",
-      "time_utc": "2026-10-22T07:49:29.455Z",
+      "time_utc": "2026-10-22T07:49:29.455000Z",
       "summary": {
-        "en": "USGS reports M4.8 at 2026-10-22T07:49:29.455Z near Balleny Islands region.",
-        "zh": "USGS 報告於 2026-10-22T07:49:29.455Z 在 Balleny Islands region 發生 M4.8 地震。"
+        "en": "USGS reports M4.8 at 2026-10-22T07:49:29.455000Z near Balleny Islands region.",
+        "zh": "USGS 報告 M4.8，時間 2026-10-22T07:49:29.455000Z，位置：Balleny Islands region。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
+        "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T13:02:28Z"
+        "fetched_at": "2026-10-22T14:00:00Z"
       },
       "data": {
         "mag": 4.8,
         "place": "Balleny Islands region",
-        "time": 1792655369455,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u41y",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u41y.geojson"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u41y"
       }
     },
     {
@@ -163,23 +177,21 @@
         "zh": "M4.8 地震，位置：86 km S of Kokopo, Papua New Guinea。"
       },
       "id": "usgs-us6000u417",
-      "time_utc": "2026-10-22T05:23:59.562Z",
+      "time_utc": "2026-10-22T05:23:59.562000Z",
       "summary": {
-        "en": "USGS reports M4.8 at 2026-10-22T05:23:59.562Z near 86 km S of Kokopo, Papua New Guinea.",
-        "zh": "USGS 報告於 2026-10-22T05:23:59.562Z 在 86 km S of Kokopo, Papua New Guinea 發生 M4.8 地震。"
+        "en": "USGS reports M4.8 at 2026-10-22T05:23:59.562000Z near 86 km S of Kokopo, Papua New Guinea.",
+        "zh": "USGS 報告 M4.8，時間 2026-10-22T05:23:59.562000Z，位置：86 km S of Kokopo, Papua New Guinea。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
+        "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T13:02:28Z"
+        "fetched_at": "2026-10-22T14:00:00Z"
       },
       "data": {
         "mag": 4.8,
         "place": "86 km S of Kokopo, Papua New Guinea",
-        "time": 1792646639562,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u417",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u417.geojson"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u417"
       }
     },
     {
@@ -189,23 +201,21 @@
         "zh": "M4.8 地震，位置：Reykjanes Ridge。"
       },
       "id": "usgs-us6000u411",
-      "time_utc": "2026-10-22T04:44:17.421Z",
+      "time_utc": "2026-10-22T04:44:17.421000Z",
       "summary": {
-        "en": "USGS reports M4.8 at 2026-10-22T04:44:17.421Z near Reykjanes Ridge.",
-        "zh": "USGS 報告於 2026-10-22T04:44:17.421Z 在 Reykjanes Ridge 發生 M4.8 地震。"
+        "en": "USGS reports M4.8 at 2026-10-22T04:44:17.421000Z near Reykjanes Ridge.",
+        "zh": "USGS 報告 M4.8，時間 2026-10-22T04:44:17.421000Z，位置：Reykjanes Ridge。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
+        "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T13:02:28Z"
+        "fetched_at": "2026-10-22T14:00:00Z"
       },
       "data": {
         "mag": 4.8,
         "place": "Reykjanes Ridge",
-        "time": 1792644257421,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u411",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u411.geojson"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u411"
       }
     },
     {
@@ -215,23 +225,21 @@
         "zh": "M4.6 地震，位置：97 km SW of El Palmarcito, Mexico。"
       },
       "id": "usgs-us6000u40r",
-      "time_utc": "2026-10-22T03:35:17.429Z",
+      "time_utc": "2026-10-22T03:35:17.429000Z",
       "summary": {
-        "en": "USGS reports M4.6 at 2026-10-22T03:35:17.429Z near 97 km SW of El Palmarcito, Mexico.",
-        "zh": "USGS 報告於 2026-10-22T03:35:17.429Z 在 97 km SW of El Palmarcito, Mexico 發生 M4.6 地震。"
+        "en": "USGS reports M4.6 at 2026-10-22T03:35:17.429000Z near 97 km SW of El Palmarcito, Mexico.",
+        "zh": "USGS 報告 M4.6，時間 2026-10-22T03:35:17.429000Z，位置：97 km SW of El Palmarcito, Mexico。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
+        "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T13:02:28Z"
+        "fetched_at": "2026-10-22T14:00:00Z"
       },
       "data": {
         "mag": 4.6,
         "place": "97 km SW of El Palmarcito, Mexico",
-        "time": 1792640117429,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u40r",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u40r.geojson"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u40r"
       }
     },
     {
@@ -241,23 +249,21 @@
         "zh": "M5 地震，位置：Reykjanes Ridge。"
       },
       "id": "usgs-us6000u3yp",
-      "time_utc": "2026-10-21T21:58:48.618Z",
+      "time_utc": "2026-10-21T21:58:48.618000Z",
       "summary": {
-        "en": "USGS reports M5 at 2026-10-21T21:58:48.618Z near Reykjanes Ridge.",
-        "zh": "USGS 報告於 2026-10-21T21:58:48.618Z 在 Reykjanes Ridge 發生 M5 地震。"
+        "en": "USGS reports M5 at 2026-10-21T21:58:48.618000Z near Reykjanes Ridge.",
+        "zh": "USGS 報告 M5，時間 2026-10-21T21:58:48.618000Z，位置：Reykjanes Ridge。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
+        "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T13:02:28Z"
+        "fetched_at": "2026-10-22T14:00:00Z"
       },
       "data": {
         "mag": 5,
         "place": "Reykjanes Ridge",
-        "time": 1792619928618,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3yp",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u3yp.geojson"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3yp"
       }
     },
     {
@@ -267,23 +273,21 @@
         "zh": "M5.3 地震，位置：Reykjanes Ridge。"
       },
       "id": "usgs-us6000u3yj",
-      "time_utc": "2026-10-21T21:38:55.441Z",
+      "time_utc": "2026-10-21T21:38:55.441000Z",
       "summary": {
-        "en": "USGS reports M5.3 at 2026-10-21T21:38:55.441Z near Reykjanes Ridge.",
-        "zh": "USGS 報告於 2026-10-21T21:38:55.441Z 在 Reykjanes Ridge 發生 M5.3 地震。"
+        "en": "USGS reports M5.3 at 2026-10-21T21:38:55.441000Z near Reykjanes Ridge.",
+        "zh": "USGS 報告 M5.3，時間 2026-10-21T21:38:55.441000Z，位置：Reykjanes Ridge。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
+        "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T13:02:28Z"
+        "fetched_at": "2026-10-22T14:00:00Z"
       },
       "data": {
         "mag": 5.3,
         "place": "Reykjanes Ridge",
-        "time": 1792618735441,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3yj",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u3yj.geojson"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3yj"
       }
     },
     {
@@ -293,23 +297,21 @@
         "zh": "M4.9 地震，位置：68 km NNW of Khorixas, Namibia。"
       },
       "id": "usgs-us6000u3y1",
-      "time_utc": "2026-10-21T20:34:50.454Z",
+      "time_utc": "2026-10-21T20:34:50.454000Z",
       "summary": {
-        "en": "USGS reports M4.9 at 2026-10-21T20:34:50.454Z near 68 km NNW of Khorixas, Namibia.",
-        "zh": "USGS 報告於 2026-10-21T20:34:50.454Z 在 68 km NNW of Khorixas, Namibia 發生 M4.9 地震。"
+        "en": "USGS reports M4.9 at 2026-10-21T20:34:50.454000Z near 68 km NNW of Khorixas, Namibia.",
+        "zh": "USGS 報告 M4.9，時間 2026-10-21T20:34:50.454000Z，位置：68 km NNW of Khorixas, Namibia。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
+        "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T13:02:28Z"
+        "fetched_at": "2026-10-22T14:00:00Z"
       },
       "data": {
         "mag": 4.9,
         "place": "68 km NNW of Khorixas, Namibia",
-        "time": 1792614890454,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3y1",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u3y1.geojson"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3y1"
       }
     },
     {
@@ -319,23 +321,21 @@
         "zh": "M5 地震，位置：Reykjanes Ridge。"
       },
       "id": "usgs-us6000u3x2",
-      "time_utc": "2026-10-21T19:06:06.706Z",
+      "time_utc": "2026-10-21T19:06:06.706000Z",
       "summary": {
-        "en": "USGS reports M5 at 2026-10-21T19:06:06.706Z near Reykjanes Ridge.",
-        "zh": "USGS 報告於 2026-10-21T19:06:06.706Z 在 Reykjanes Ridge 發生 M5 地震。"
+        "en": "USGS reports M5 at 2026-10-21T19:06:06.706000Z near Reykjanes Ridge.",
+        "zh": "USGS 報告 M5，時間 2026-10-21T19:06:06.706000Z，位置：Reykjanes Ridge。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
+        "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T13:02:28Z"
+        "fetched_at": "2026-10-22T14:00:00Z"
       },
       "data": {
         "mag": 5,
         "place": "Reykjanes Ridge",
-        "time": 1792609566706,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3x2",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u3x2.geojson"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3x2"
       }
     },
     {
@@ -345,23 +345,21 @@
         "zh": "M5 地震，位置：198 km WNW of Port-Olry, Vanuatu。"
       },
       "id": "usgs-us6000u3xx",
-      "time_utc": "2026-10-21T18:41:04.974Z",
+      "time_utc": "2026-10-21T18:41:04.974000Z",
       "summary": {
-        "en": "USGS reports M5 at 2026-10-21T18:41:04.974Z near 198 km WNW of Port-Olry, Vanuatu.",
-        "zh": "USGS 報告於 2026-10-21T18:41:04.974Z 在 198 km WNW of Port-Olry, Vanuatu 發生 M5 地震。"
+        "en": "USGS reports M5 at 2026-10-21T18:41:04.974000Z near 198 km WNW of Port-Olry, Vanuatu.",
+        "zh": "USGS 報告 M5，時間 2026-10-21T18:41:04.974000Z，位置：198 km WNW of Port-Olry, Vanuatu。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
+        "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T13:02:28Z"
+        "fetched_at": "2026-10-22T14:00:00Z"
       },
       "data": {
         "mag": 5,
         "place": "198 km WNW of Port-Olry, Vanuatu",
-        "time": 1792608064974,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3xx",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u3xx.geojson"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3xx"
       }
     },
     {
@@ -371,23 +369,21 @@
         "zh": "M4.7 地震，位置：202 km WNW of Port-Olry, Vanuatu。"
       },
       "id": "usgs-us6000u3ws",
-      "time_utc": "2026-10-21T18:40:31.851Z",
+      "time_utc": "2026-10-21T18:40:31.851000Z",
       "summary": {
-        "en": "USGS reports M4.7 at 2026-10-21T18:40:31.851Z near 202 km WNW of Port-Olry, Vanuatu.",
-        "zh": "USGS 報告於 2026-10-21T18:40:31.851Z 在 202 km WNW of Port-Olry, Vanuatu 發生 M4.7 地震。"
+        "en": "USGS reports M4.7 at 2026-10-21T18:40:31.851000Z near 202 km WNW of Port-Olry, Vanuatu.",
+        "zh": "USGS 報告 M4.7，時間 2026-10-21T18:40:31.851000Z，位置：202 km WNW of Port-Olry, Vanuatu。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
+        "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T13:02:28Z"
+        "fetched_at": "2026-10-22T14:00:00Z"
       },
       "data": {
         "mag": 4.7,
         "place": "202 km WNW of Port-Olry, Vanuatu",
-        "time": 1792608031851,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ws",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u3ws.geojson"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ws"
       }
     },
     {
@@ -397,23 +393,21 @@
         "zh": "M5.1 地震，位置：south of Africa。"
       },
       "id": "usgs-us6000u3wh",
-      "time_utc": "2026-10-21T18:12:35.440Z",
+      "time_utc": "2026-10-21T18:12:35.440000Z",
       "summary": {
-        "en": "USGS reports M5.1 at 2026-10-21T18:12:35.440Z near south of Africa.",
-        "zh": "USGS 報告於 2026-10-21T18:12:35.440Z 在 south of Africa 發生 M5.1 地震。"
+        "en": "USGS reports M5.1 at 2026-10-21T18:12:35.440000Z near south of Africa.",
+        "zh": "USGS 報告 M5.1，時間 2026-10-21T18:12:35.440000Z，位置：south of Africa。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
+        "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T13:02:28Z"
+        "fetched_at": "2026-10-22T14:00:00Z"
       },
       "data": {
         "mag": 5.1,
         "place": "south of Africa",
-        "time": 1792606355440,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3wh",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u3wh.geojson"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3wh"
       }
     },
     {
@@ -423,23 +417,21 @@
         "zh": "M4.6 地震，位置：208 km SE of Severo-Kuril’sk, Russia。"
       },
       "id": "usgs-us6000u3w6",
-      "time_utc": "2026-10-21T17:19:33.362Z",
+      "time_utc": "2026-10-21T17:19:33.362000Z",
       "summary": {
-        "en": "USGS reports M4.6 at 2026-10-21T17:19:33.362Z near 208 km SE of Severo-Kuril’sk, Russia.",
-        "zh": "USGS 報告於 2026-10-21T17:19:33.362Z 在 208 km SE of Severo-Kuril’sk, Russia 發生 M4.6 地震。"
+        "en": "USGS reports M4.6 at 2026-10-21T17:19:33.362000Z near 208 km SE of Severo-Kuril’sk, Russia.",
+        "zh": "USGS 報告 M4.6，時間 2026-10-21T17:19:33.362000Z，位置：208 km SE of Severo-Kuril’sk, Russia。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
+        "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T13:02:28Z"
+        "fetched_at": "2026-10-22T14:00:00Z"
       },
       "data": {
         "mag": 4.6,
         "place": "208 km SE of Severo-Kuril’sk, Russia",
-        "time": 1792603173362,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3w6",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u3w6.geojson"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3w6"
       }
     },
     {
@@ -449,23 +441,21 @@
         "zh": "M4.9 地震，位置：208 km WNW of Port-Olry, Vanuatu。"
       },
       "id": "usgs-us6000u3uk",
-      "time_utc": "2026-10-21T15:22:33.566Z",
+      "time_utc": "2026-10-21T15:22:33.566000Z",
       "summary": {
-        "en": "USGS reports M4.9 at 2026-10-21T15:22:33.566Z near 208 km WNW of Port-Olry, Vanuatu.",
-        "zh": "USGS 報告於 2026-10-21T15:22:33.566Z 在 208 km WNW of Port-Olry, Vanuatu 發生 M4.9 地震。"
+        "en": "USGS reports M4.9 at 2026-10-21T15:22:33.566000Z near 208 km WNW of Port-Olry, Vanuatu.",
+        "zh": "USGS 報告 M4.9，時間 2026-10-21T15:22:33.566000Z，位置：208 km WNW of Port-Olry, Vanuatu。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
+        "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T13:02:28Z"
+        "fetched_at": "2026-10-22T14:00:00Z"
       },
       "data": {
         "mag": 4.9,
         "place": "208 km WNW of Port-Olry, Vanuatu",
-        "time": 1792596153566,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3uk",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u3uk.geojson"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3uk"
       }
     },
     {
@@ -475,23 +465,21 @@
         "zh": "M5 地震，位置：194 km WNW of Port-Olry, Vanuatu。"
       },
       "id": "usgs-us6000u3ue",
-      "time_utc": "2026-10-21T14:56:27.447Z",
+      "time_utc": "2026-10-21T14:56:27.447000Z",
       "summary": {
-        "en": "USGS reports M5 at 2026-10-21T14:56:27.447Z near 194 km WNW of Port-Olry, Vanuatu.",
-        "zh": "USGS 報告於 2026-10-21T14:56:27.447Z 在 194 km WNW of Port-Olry, Vanuatu 發生 M5 地震。"
+        "en": "USGS reports M5 at 2026-10-21T14:56:27.447000Z near 194 km WNW of Port-Olry, Vanuatu.",
+        "zh": "USGS 報告 M5，時間 2026-10-21T14:56:27.447000Z，位置：194 km WNW of Port-Olry, Vanuatu。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
+        "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T13:02:28Z"
+        "fetched_at": "2026-10-22T14:00:00Z"
       },
       "data": {
         "mag": 5,
         "place": "194 km WNW of Port-Olry, Vanuatu",
-        "time": 1792594587447,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ue",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u3ue.geojson"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ue"
       }
     },
     {
@@ -501,23 +489,21 @@
         "zh": "M4.7 地震，位置：33 km NE of Shizunai-furukawachō, Japan。"
       },
       "id": "usgs-us6000u3uc",
-      "time_utc": "2026-10-21T14:40:50.748Z",
+      "time_utc": "2026-10-21T14:40:50.748000Z",
       "summary": {
-        "en": "USGS reports M4.7 at 2026-10-21T14:40:50.748Z near 33 km NE of Shizunai-furukawachō, Japan.",
-        "zh": "USGS 報告於 2026-10-21T14:40:50.748Z 在 33 km NE of Shizunai-furukawachō, Japan 發生 M4.7 地震。"
+        "en": "USGS reports M4.7 at 2026-10-21T14:40:50.748000Z near 33 km NE of Shizunai-furukawachō, Japan.",
+        "zh": "USGS 報告 M4.7，時間 2026-10-21T14:40:50.748000Z，位置：33 km NE of Shizunai-furukawachō, Japan。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
+        "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T13:02:28Z"
+        "fetched_at": "2026-10-22T14:00:00Z"
       },
       "data": {
         "mag": 4.7,
         "place": "33 km NE of Shizunai-furukawachō, Japan",
-        "time": 1792593650748,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3uc",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u3uc.geojson"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3uc"
       }
     },
     {
@@ -527,23 +513,21 @@
         "zh": "M4.9 地震，位置：207 km WNW of Port-Olry, Vanuatu。"
       },
       "id": "usgs-us6000u3ub",
-      "time_utc": "2026-10-21T14:35:51.111Z",
+      "time_utc": "2026-10-21T14:35:51.111000Z",
       "summary": {
-        "en": "USGS reports M4.9 at 2026-10-21T14:35:51.111Z near 207 km WNW of Port-Olry, Vanuatu.",
-        "zh": "USGS 報告於 2026-10-21T14:35:51.111Z 在 207 km WNW of Port-Olry, Vanuatu 發生 M4.9 地震。"
+        "en": "USGS reports M4.9 at 2026-10-21T14:35:51.111000Z near 207 km WNW of Port-Olry, Vanuatu.",
+        "zh": "USGS 報告 M4.9，時間 2026-10-21T14:35:51.111000Z，位置：207 km WNW of Port-Olry, Vanuatu。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
+        "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T13:02:28Z"
+        "fetched_at": "2026-10-22T14:00:00Z"
       },
       "data": {
         "mag": 4.9,
         "place": "207 km WNW of Port-Olry, Vanuatu",
-        "time": 1792593351111,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ub",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u3ub.geojson"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ub"
       }
     }
   ]
