@@ -1,29 +1,29 @@
 {
   "date": "2026-10-22",
-  "updated": "2026-10-22T03:01:43Z",
+  "updated": "2026-10-22T04:01:41Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 1.0 (1Z) at 01 UTC on 22 October 2026.",
-        "zh": "2026 年 10 月 22 日 01 UTC，估算行星 Kp 為 1.0（1Z）。"
+        "en": "Estimated planetary Kp is 2.33 (2P) at 02 UTC on 22 October 2026.",
+        "zh": "2026 年 10 月 22 日 02 UTC，估算行星 Kp 為 2.33（2P）。"
       },
       "id": "noaa-kp-1m",
-      "time_utc": "2026-10-22T01Z",
+      "time_utc": "2026-10-22T02Z",
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 1.0 (1Z) at 2026-10-22T01 on 22 October 2026. The 01 hour is complete (60 samples through 01:59; hour-start 1.0/1Z, hour-end 2.33/2P). Last-180 maximum is 4.67. Published-window maximum is 4.67. Window starts 2026-10-21T21:00:00 (357 samples). Next hour 02:00 incomplete (57 samples).",
-        "zh": "最新可靠整點初值：2026-10-22T01 估算 Kp 1.0（1Z）。01 時段已收滿（60 筆至 01:59；時段初 1.0/1Z、時段末 2.33/2P）。last-180 最大 4.67。公開窗最大 4.67。窗起點 2026-10-21T21:00:00（357 筆）。下一整點 02:00 未滿（57 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 2.33 (2P) at 2026-10-22T02 on 22 October 2026. The 02 hour is complete (60 samples through 02:59; hour-start 2.33/2P, hour-end 2.33/2P). Last-180 maximum is 4.67. Published-window maximum is 4.67. Window starts 2026-10-21T21:00:00 (358 samples). Next hour 03:00 incomplete (57 samples).",
+        "zh": "最新可靠整點初值：2026-10-22T02 估算 Kp 2.33（2P）。02 時段已收滿（60 筆至 02:59；時段初 2.33/2P、時段末 2.33/2P）。last-180 最大 4.67。公開窗最大 4.67。窗起點 2026-10-21T21:00:00（358 筆）。下一整點 03:00 未滿（57 筆）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-22T03:01:43Z"
+        "fetched_at": "2026-10-22T04:01:41Z"
       },
       "data": {
-        "estimated_kp": 1.0,
-        "kp_label": "1Z",
-        "hour_start": "2026-10-22T01:00:00Z",
+        "estimated_kp": 2.33,
+        "kp_label": "2P",
+        "hour_start": "2026-10-22T02:00:00Z",
         "hour_complete": true,
         "hour_samples": 60,
         "hour_end_estimated_kp": 2.33,
@@ -31,9 +31,35 @@
         "last_180_max": 4.67,
         "window_max": 4.67,
         "window_start": "2026-10-21T21:00:00",
-        "window_samples": 357,
-        "next_hour": "2026-10-22T02:00:00Z",
+        "window_samples": 358,
+        "next_hour": "2026-10-22T03:00:00Z",
         "next_hour_samples": 57
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M4.6 earthquake 97 km SW of El Palmarcito, Mexico.",
+        "zh": "M4.6 地震，位置：97 km SW of El Palmarcito, Mexico。"
+      },
+      "id": "usgs-us6000u40r",
+      "time_utc": "2026-10-22T03:35:17.429Z",
+      "summary": {
+        "en": "USGS reports M4.6 at 2026-10-22T03:35:17.429Z near 97 km SW of El Palmarcito, Mexico.",
+        "zh": "USGS 報告於 2026-10-22T03:35:17.429Z 在 97 km SW of El Palmarcito, Mexico 發生 M4.6 地震。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-22T04:01:41Z"
+      },
+      "data": {
+        "mag": 4.6,
+        "place": "97 km SW of El Palmarcito, Mexico",
+        "time": 1792640117429,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u40r",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000u40r.geojson"
       }
     },
     {
@@ -52,7 +78,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T03:01:43Z"
+        "fetched_at": "2026-10-22T04:01:41Z"
       },
       "data": {
         "mag": 5,
@@ -78,7 +104,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T03:01:43Z"
+        "fetched_at": "2026-10-22T04:01:41Z"
       },
       "data": {
         "mag": 5.3,
@@ -104,7 +130,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T03:01:43Z"
+        "fetched_at": "2026-10-22T04:01:41Z"
       },
       "data": {
         "mag": 4.9,
@@ -130,7 +156,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T03:01:43Z"
+        "fetched_at": "2026-10-22T04:01:41Z"
       },
       "data": {
         "mag": 5,
@@ -156,7 +182,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T03:01:43Z"
+        "fetched_at": "2026-10-22T04:01:41Z"
       },
       "data": {
         "mag": 5,
@@ -182,7 +208,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T03:01:43Z"
+        "fetched_at": "2026-10-22T04:01:41Z"
       },
       "data": {
         "mag": 4.7,
@@ -208,7 +234,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T03:01:43Z"
+        "fetched_at": "2026-10-22T04:01:41Z"
       },
       "data": {
         "mag": 5.1,
@@ -234,7 +260,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T03:01:43Z"
+        "fetched_at": "2026-10-22T04:01:41Z"
       },
       "data": {
         "mag": 4.6,
@@ -260,7 +286,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T03:01:43Z"
+        "fetched_at": "2026-10-22T04:01:41Z"
       },
       "data": {
         "mag": 4.9,
@@ -286,7 +312,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T03:01:43Z"
+        "fetched_at": "2026-10-22T04:01:41Z"
       },
       "data": {
         "mag": 5,
@@ -312,7 +338,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T03:01:43Z"
+        "fetched_at": "2026-10-22T04:01:41Z"
       },
       "data": {
         "mag": 4.7,
@@ -338,7 +364,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T03:01:43Z"
+        "fetched_at": "2026-10-22T04:01:41Z"
       },
       "data": {
         "mag": 4.9,
@@ -364,7 +390,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T03:01:43Z"
+        "fetched_at": "2026-10-22T04:01:41Z"
       },
       "data": {
         "mag": 4.5,
@@ -390,7 +416,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T03:01:43Z"
+        "fetched_at": "2026-10-22T04:01:41Z"
       },
       "data": {
         "mag": 5.2,
@@ -416,7 +442,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T03:01:43Z"
+        "fetched_at": "2026-10-22T04:01:41Z"
       },
       "data": {
         "mag": 5.1,
@@ -442,7 +468,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T03:01:43Z"
+        "fetched_at": "2026-10-22T04:01:41Z"
       },
       "data": {
         "mag": 4.7,
