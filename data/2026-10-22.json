@@ -1,29 +1,53 @@
 {
   "date": "2026-10-22",
-  "updated": "2026-10-22T18:00:00Z",
+  "updated": "2026-10-22T19:03:05Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 3.0 (3Z) at 16 UTC on 22 October 2026.",
-        "zh": "2026 年 10 月 22 日 16 UTC，估算行星 Kp 為 3.0（3Z）。"
+        "en": "Estimated planetary Kp is 3.67 (4M) at 17 UTC on 22 October 2026.",
+        "zh": "2026 年 10 月 22 日 17 UTC，估算行星 Kp 為 3.67（4M）。"
       },
       "id": "noaa-kp-1m",
-      "time_utc": "2026-10-22T16Z",
+      "time_utc": "2026-10-22T17Z",
       "summary": {
-        "en": "Latest reliable hour-start estimated Kp is 3.0 (3Z) at 2026-10-22T16 on 22 October 2026. The 16 hour is complete (60 samples through 16:59; hour-start 3.0/3Z, hour-end 3.67/4M). Last-180 maximum is 4.0. Published-window maximum is 4.0. Window starts 2026-10-22T12:00:00 (358 samples). Next hour 17:00 incomplete (58 samples).",
-        "zh": "最新可靠整點初值：2026-10-22T16 估算 Kp 3.0（3Z）。16 時段已收滿（60 筆至 16:59；時段初 3.0/3Z、時段末 3.67/4M）。last-180 最大 4.0。公開窗最大 4.0。窗起點 2026-10-22T12:00:00（358 筆）。下一整點 17:00 未滿（58 筆）。"
+        "en": "Latest reliable hour-start estimated Kp is 3.67 (4M) at 2026-10-22T17 on 22 October 2026. The 17 hour is complete (60 samples through 17:59; hour-start 3.67/4M, hour-end 3.67/4M). Last-180 maximum is 3.67. Published-window maximum is 4.0. Window starts 2026-10-22T12:00:00 (358 samples). Next hour 18:00 incomplete (57 samples).",
+        "zh": "最新可靠整點初值：2026-10-22T17 估算 Kp 3.67（4M）。17 時段已收滿（60 筆至 17:59；時段初 3.67/4M、時段末 3.67/4M）。last-180 最大 3.67。公開窗最大 4.0。窗起點 2026-10-22T12:00:00（358 筆）。下一整點 18:00 未滿（57 筆）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-22T18:00:00Z"
+        "fetched_at": "2026-10-22T19:03:05Z"
       },
       "data": {
-        "estimated_kp": 3.0,
-        "kp": "3Z",
-        "hour": "2026-10-22T16"
+        "estimated_kp": 3.67,
+        "kp": "4M",
+        "hour": "2026-10-22T17"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M5 earthquake 207 km ENE of Nagqu, China.",
+        "zh": "M5 地震，位置：207 km ENE of Nagqu, China。"
+      },
+      "id": "usgs-us6000u45j",
+      "time_utc": "2026-10-22T18:06:44.294000+00:00",
+      "summary": {
+        "en": "USGS reports M5 at 2026-10-22T18:06:44.294000+00:00 near 207 km ENE of Nagqu, China.",
+        "zh": "USGS 報告 M5，時間 2026-10-22T18:06:44.294000+00:00，位置：207 km ENE of Nagqu, China。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-22T19:03:05Z"
+      },
+      "data": {
+        "mag": 5,
+        "place": "207 km ENE of Nagqu, China",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u45j"
       }
     },
     {
@@ -42,7 +66,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T18:00:00Z"
+        "fetched_at": "2026-10-22T19:03:05Z"
       },
       "data": {
         "mag": 4.8,
@@ -66,7 +90,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T18:00:00Z"
+        "fetched_at": "2026-10-22T19:03:05Z"
       },
       "data": {
         "mag": 4.8,
@@ -90,12 +114,36 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T18:00:00Z"
+        "fetched_at": "2026-10-22T19:03:05Z"
       },
       "data": {
         "mag": 4.9,
         "place": "western Xizang",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u44w"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M4.7 earthquake 139 km ENE of Kashgar, China.",
+        "zh": "M4.7 地震，位置：139 km ENE of Kashgar, China。"
+      },
+      "id": "usgs-us6000u44u",
+      "time_utc": "2026-10-22T15:27:48.445000+00:00",
+      "summary": {
+        "en": "USGS reports M4.7 at 2026-10-22T15:27:48.445000+00:00 near 139 km ENE of Kashgar, China.",
+        "zh": "USGS 報告 M4.7，時間 2026-10-22T15:27:48.445000+00:00，位置：139 km ENE of Kashgar, China。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-22T19:03:05Z"
+      },
+      "data": {
+        "mag": 4.7,
+        "place": "139 km ENE of Kashgar, China",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u44u"
       }
     },
     {
@@ -114,7 +162,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T18:00:00Z"
+        "fetched_at": "2026-10-22T19:03:05Z"
       },
       "data": {
         "mag": 5.2,
@@ -138,7 +186,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T18:00:00Z"
+        "fetched_at": "2026-10-22T19:03:05Z"
       },
       "data": {
         "mag": 7,
@@ -162,7 +210,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T18:00:00Z"
+        "fetched_at": "2026-10-22T19:03:05Z"
       },
       "data": {
         "mag": 4.9,
@@ -186,7 +234,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T18:00:00Z"
+        "fetched_at": "2026-10-22T19:03:05Z"
       },
       "data": {
         "mag": 4.9,
@@ -210,7 +258,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T18:00:00Z"
+        "fetched_at": "2026-10-22T19:03:05Z"
       },
       "data": {
         "mag": 4.6,
@@ -234,7 +282,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T18:00:00Z"
+        "fetched_at": "2026-10-22T19:03:05Z"
       },
       "data": {
         "mag": 4.5,
@@ -258,7 +306,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T18:00:00Z"
+        "fetched_at": "2026-10-22T19:03:05Z"
       },
       "data": {
         "mag": 4.6,
@@ -282,7 +330,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T18:00:00Z"
+        "fetched_at": "2026-10-22T19:03:05Z"
       },
       "data": {
         "mag": 4.8,
@@ -306,7 +354,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T18:00:00Z"
+        "fetched_at": "2026-10-22T19:03:05Z"
       },
       "data": {
         "mag": 4.8,
@@ -330,7 +378,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T18:00:00Z"
+        "fetched_at": "2026-10-22T19:03:05Z"
       },
       "data": {
         "mag": 4.8,
@@ -354,7 +402,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T18:00:00Z"
+        "fetched_at": "2026-10-22T19:03:05Z"
       },
       "data": {
         "mag": 4.6,
@@ -378,7 +426,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T18:00:00Z"
+        "fetched_at": "2026-10-22T19:03:05Z"
       },
       "data": {
         "mag": 5,
@@ -402,7 +450,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T18:00:00Z"
+        "fetched_at": "2026-10-22T19:03:05Z"
       },
       "data": {
         "mag": 5.3,
@@ -426,7 +474,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T18:00:00Z"
+        "fetched_at": "2026-10-22T19:03:05Z"
       },
       "data": {
         "mag": 4.9,
@@ -450,84 +498,12 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T18:00:00Z"
+        "fetched_at": "2026-10-22T19:03:05Z"
       },
       "data": {
         "mag": 5,
         "place": "Reykjanes Ridge",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3x2"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M5 earthquake 190 km WNW of Port-Olry, Vanuatu.",
-        "zh": "M5 地震，位置：190 km WNW of Port-Olry, Vanuatu。"
-      },
-      "id": "usgs-us6000u3xx",
-      "time_utc": "2026-10-21T18:41:04.960000+00:00",
-      "summary": {
-        "en": "USGS reports M5 at 2026-10-21T18:41:04.960000+00:00 near 190 km WNW of Port-Olry, Vanuatu.",
-        "zh": "USGS 報告 M5，時間 2026-10-21T18:41:04.960000+00:00，位置：190 km WNW of Port-Olry, Vanuatu。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T18:00:00Z"
-      },
-      "data": {
-        "mag": 5,
-        "place": "190 km WNW of Port-Olry, Vanuatu",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3xx"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M4.7 earthquake 202 km WNW of Port-Olry, Vanuatu.",
-        "zh": "M4.7 地震，位置：202 km WNW of Port-Olry, Vanuatu。"
-      },
-      "id": "usgs-us6000u3ws",
-      "time_utc": "2026-10-21T18:40:31.851000+00:00",
-      "summary": {
-        "en": "USGS reports M4.7 at 2026-10-21T18:40:31.851000+00:00 near 202 km WNW of Port-Olry, Vanuatu.",
-        "zh": "USGS 報告 M4.7，時間 2026-10-21T18:40:31.851000+00:00，位置：202 km WNW of Port-Olry, Vanuatu。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T18:00:00Z"
-      },
-      "data": {
-        "mag": 4.7,
-        "place": "202 km WNW of Port-Olry, Vanuatu",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ws"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M5.1 earthquake south of Africa.",
-        "zh": "M5.1 地震，位置：south of Africa。"
-      },
-      "id": "usgs-us6000u3wh",
-      "time_utc": "2026-10-21T18:12:35.474000+00:00",
-      "summary": {
-        "en": "USGS reports M5.1 at 2026-10-21T18:12:35.474000+00:00 near south of Africa.",
-        "zh": "USGS 報告 M5.1，時間 2026-10-21T18:12:35.474000+00:00，位置：south of Africa。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-22T18:00:00Z"
-      },
-      "data": {
-        "mag": 5.1,
-        "place": "south of Africa",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3wh"
       }
     }
   ]
