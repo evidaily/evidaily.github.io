@@ -1,29 +1,77 @@
 {
   "date": "2026-10-23",
-  "updated": "2026-10-23T21:04:26Z",
+  "updated": "2026-10-23T22:01:41Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 4.33 (4P) at 19 UTC on 23 October 2026.",
-        "zh": "2026 年 10 月 23 日 19 UTC，估算行星 Kp 為 4.33（4P）。"
+        "en": "Estimated planetary Kp is 4.33 (4P) at 20 UTC on 23 October 2026.",
+        "zh": "2026 年 10 月 23 日 20 UTC，估算行星 Kp 為 4.33（4P）。"
       },
       "id": "noaa-kp-1m",
-      "time_utc": "2026-10-23T19Z",
+      "time_utc": "2026-10-23T20Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 4.33 (4P) at 2026-10-23T19 on 23 October 2026. The 19 hour is complete (60 samples through 19:59; hour-end 4.33/4P). Last-180 maximum is 4.33. Published-window maximum is 4.33. Window starts 2026-10-23T15:02:00 (357 samples). Next hour 20:00 incomplete (59 samples).",
-        "zh": "最新可靠整點末值：2026-10-23T19 估算 Kp 4.33（4P）。19 時段已收滿（60 筆至 19:59；時段末 4.33/4P）。last-180 最大 4.33。公開窗最大 4.33。窗起點 2026-10-23T15:02:00（357 筆）。下一整點 20:00 未滿（59 筆）。"
+        "en": "Latest reliable hour-end estimated Kp is 4.33 (4P) at 2026-10-23T20 on 23 October 2026. The 20 hour is complete (60 samples through 20:59; hour-end 4.33/4P). Last-180 maximum is 4.33. Published-window maximum is 4.33. Window starts 2026-10-23T16:00:00 (358 samples). Next hour 21:00 incomplete (58 samples).",
+        "zh": "最新可靠整點末值：2026-10-23T20 估算 Kp 4.33（4P）。20 時段已收滿（60 筆至 20:59；時段末 4.33/4P）。last-180 最大 4.33。公開窗最大 4.33。窗起點 2026-10-23T16:00:00（358 筆）。下一整點 21:00 未滿（58 筆）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-23T21:04:26Z"
+        "fetched_at": "2026-10-23T22:01:41Z"
       },
       "data": {
         "estimated_kp": 4.33,
         "kp": "4P",
-        "hour": "2026-10-23T19"
+        "hour": "2026-10-23T20"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.9 - 35 km ESE of Hualien City, Taiwan",
+        "zh": "M 4.9 - 35 km ESE of Hualien City, Taiwan"
+      },
+      "id": "usgs-us6000u4gm",
+      "time_utc": "2026-10-23T20:48:16Z",
+      "summary": {
+        "en": "M 4.9 earthquake at 35 km ESE of Hualien City, Taiwan.",
+        "zh": "M 4.9 地震，位置：35 km ESE of Hualien City, Taiwan。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-23T22:01:41Z"
+      },
+      "data": {
+        "mag": 4.9,
+        "place": "35 km ESE of Hualien City, Taiwan",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4gm"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.8 - 209 km ENE of Nagqu, China",
+        "zh": "M 4.8 - 209 km ENE of Nagqu, China"
+      },
+      "id": "usgs-us6000u4gj",
+      "time_utc": "2026-10-23T20:37:41Z",
+      "summary": {
+        "en": "M 4.8 earthquake at 209 km ENE of Nagqu, China.",
+        "zh": "M 4.8 地震，位置：209 km ENE of Nagqu, China。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-23T22:01:41Z"
+      },
+      "data": {
+        "mag": 4.8,
+        "place": "209 km ENE of Nagqu, China",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4gj"
       }
     },
     {
@@ -42,12 +90,12 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T21:04:26Z"
+        "fetched_at": "2026-10-23T22:01:41Z"
       },
       "data": {
-        "magnitude": 4.6,
+        "mag": 4.6,
         "place": "91 km ESE of Tuensang, India",
-        "id": "us6000u4f5"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4f5"
       }
     },
     {
@@ -66,12 +114,12 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T21:04:26Z"
+        "fetched_at": "2026-10-23T22:01:41Z"
       },
       "data": {
-        "magnitude": 5.1,
+        "mag": 5.1,
         "place": "72 km ENE of Noda, Japan",
-        "id": "us6000u4e2"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4e2"
       }
     },
     {
@@ -90,12 +138,12 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T21:04:26Z"
+        "fetched_at": "2026-10-23T22:01:41Z"
       },
       "data": {
-        "magnitude": 4.7,
+        "mag": 4.7,
         "place": "52 km WNW of Malfa, Italy",
-        "id": "us6000u4dx"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4dx"
       }
     },
     {
@@ -114,12 +162,12 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T21:04:26Z"
+        "fetched_at": "2026-10-23T22:01:41Z"
       },
       "data": {
-        "magnitude": 4.5,
+        "mag": 4.5,
         "place": "233 km ENE of Nagqu, China",
-        "id": "us6000u4dk"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4dk"
       }
     },
     {
@@ -138,12 +186,12 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T21:04:26Z"
+        "fetched_at": "2026-10-23T22:01:41Z"
       },
       "data": {
-        "magnitude": 4.7,
+        "mag": 4.7,
         "place": "215 km NE of Nagqu, China",
-        "id": "us6000u4df"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4df"
       }
     },
     {
@@ -162,12 +210,12 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T21:04:26Z"
+        "fetched_at": "2026-10-23T22:01:41Z"
       },
       "data": {
-        "magnitude": 5.2,
+        "mag": 5.2,
         "place": "50 km WNW of Malfa, Italy",
-        "id": "us6000u4dc"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4dc"
       }
     },
     {
@@ -186,12 +234,12 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T21:04:26Z"
+        "fetched_at": "2026-10-23T22:01:41Z"
       },
       "data": {
-        "magnitude": 4.5,
+        "mag": 4.5,
         "place": "207 km NE of Lospalos, Timor Leste",
-        "id": "us6000u4bw"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4bw"
       }
     },
     {
@@ -210,12 +258,12 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T21:04:26Z"
+        "fetched_at": "2026-10-23T22:01:41Z"
       },
       "data": {
-        "magnitude": 4.5,
+        "mag": 4.5,
         "place": "193 km ENE of Levuka, Fiji",
-        "id": "us6000u4bv"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4bv"
       }
     },
     {
@@ -234,12 +282,12 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T21:04:26Z"
+        "fetched_at": "2026-10-23T22:01:41Z"
       },
       "data": {
-        "magnitude": 5.7,
+        "mag": 5.7,
         "place": "61 km WNW of Leni, Italy",
-        "id": "us6000u4bk"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4bk"
       }
     },
     {
@@ -258,12 +306,12 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T21:04:26Z"
+        "fetched_at": "2026-10-23T22:01:41Z"
       },
       "data": {
-        "magnitude": 4.9,
+        "mag": 4.9,
         "place": "53 km WNW of Leni, Italy",
-        "id": "us6000u4bg"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4bg"
       }
     },
     {
@@ -282,12 +330,12 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T21:04:26Z"
+        "fetched_at": "2026-10-23T22:01:41Z"
       },
       "data": {
-        "magnitude": 4.5,
+        "mag": 4.5,
         "place": "18 km WNW of Bantogon, Philippines",
-        "id": "us6000u4b3"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4b3"
       }
     },
     {
@@ -306,12 +354,12 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T21:04:26Z"
+        "fetched_at": "2026-10-23T22:01:41Z"
       },
       "data": {
-        "magnitude": 4.5,
+        "mag": 4.5,
         "place": "58 km SW of Atocha, Bolivia",
-        "id": "us6000u49c"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u49c"
       }
     },
     {
@@ -330,12 +378,12 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T21:04:26Z"
+        "fetched_at": "2026-10-23T22:01:41Z"
       },
       "data": {
-        "magnitude": 4.5,
+        "mag": 4.5,
         "place": "18 km NNW of Yongning, China",
-        "id": "us6000u49a"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u49a"
       }
     },
     {
@@ -354,60 +402,12 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T21:04:26Z"
+        "fetched_at": "2026-10-23T22:01:41Z"
       },
       "data": {
-        "magnitude": 4.5,
+        "mag": 4.5,
         "place": "102 km W of San Antonio de los Cobres, Argentina",
-        "id": "us6000u48i"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.6 - 49 km S of Ollagüe, Chile",
-        "zh": "M 4.6 - 49 km S of Ollagüe, Chile"
-      },
-      "id": "usgs-us6000u47n",
-      "time_utc": "2026-10-22T21:37:56Z",
-      "summary": {
-        "en": "M 4.6 earthquake at 49 km S of Ollagüe, Chile.",
-        "zh": "M 4.6 地震，位置：49 km S of Ollagüe, Chile。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T21:04:26Z"
-      },
-      "data": {
-        "magnitude": 4.6,
-        "place": "49 km S of Ollagüe, Chile",
-        "id": "us6000u47n"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.8 - 269 km SSW of Severo-Kuril’sk, Russia",
-        "zh": "M 4.8 - 269 km SSW of Severo-Kuril’sk, Russia"
-      },
-      "id": "usgs-us6000u47l",
-      "time_utc": "2026-10-22T21:09:59Z",
-      "summary": {
-        "en": "M 4.8 earthquake at 269 km SSW of Severo-Kuril’sk, Russia.",
-        "zh": "M 4.8 地震，位置：269 km SSW of Severo-Kuril’sk, Russia。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T21:04:26Z"
-      },
-      "data": {
-        "magnitude": 4.8,
-        "place": "269 km SSW of Severo-Kuril’sk, Russia",
-        "id": "us6000u47l"
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u48i"
       }
     }
   ]
