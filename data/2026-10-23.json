@@ -1,29 +1,77 @@
 {
   "date": "2026-10-23",
-  "updated": "2026-10-23T10:01:40Z",
+  "updated": "2026-10-23T11:01:37Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 1.67 (2M) at 08 UTC on 23 October 2026.",
-        "zh": "2026 年 10 月 23 日 08 UTC，估計行星 Kp 為 1.67（2M）。"
+        "en": "Estimated planetary Kp is 1.67 (2M) at 09 UTC on 23 October 2026.",
+        "zh": "2026 年 10 月 23 日 09 UTC，估計行星 Kp 為 1.67（2M）。"
       },
       "id": "noaa-kp-1m",
-      "time_utc": "2026-10-23T08Z",
+      "time_utc": "2026-10-23T09Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 1.67 (2M) at 2026-10-23T08 on 23 October 2026. The 08 hour is complete (60 samples through 08:59; hour-start 1.67/2M, hour-end 1.67/2M). Last-180 maximum is 1.67. Published-window maximum is 2.00. Window starts 2026-10-23T04:00:00 (358 samples). Next hour 09:00 incomplete (58 samples).",
-        "zh": "最新可靠整點末值：2026-10-23T08 估計 Kp 1.67（2M）。08 時段已收滿（60 筆至 08:59；時段初 1.67/2M、時段末 1.67/2M）。last-180 最大 1.67。公開窗最大 2.00。窗起點 2026-10-23T04:00:00（358 筆）。下一整點 09:00 未滿（58 筆）。"
+        "en": "Latest reliable hour-end estimated Kp is 1.67 (2M) at 2026-10-23T09 on 23 October 2026. The 09 hour is complete (60 samples through 09:59; hour-start 0.00/0Z, hour-end 1.67/2M). Last-180 maximum is 2.33. Published-window maximum is 2.33. Window starts 2026-10-23T05:00:00 (358 samples). Next hour 10:00 incomplete (58 samples).",
+        "zh": "最新可靠整點末值：2026-10-23T09 估計 Kp 1.67（2M）。09 時段已收滿（60 筆至 09:59；時段初 0.00/0Z、時段末 1.67/2M）。last-180 最大 2.33。公開窗最大 2.33。窗起點 2026-10-23T05:00:00（358 筆）。下一整點 10:00 未滿（58 筆）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-23T10:01:40Z"
+        "fetched_at": "2026-10-23T11:01:37Z"
       },
       "data": {
         "estimated_kp": 1.67,
         "kp": "2M",
-        "hour": "2026-10-23T08"
+        "hour": "2026-10-23T09"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M5.7 earthquake 61 km WNW of Leni, Italy.",
+        "zh": "M5.7 地震，位置：61 km WNW of Leni, Italy。"
+      },
+      "id": "usgs-us6000u4bk",
+      "time_utc": "2026-10-23T10:19:16.729000+00:00",
+      "summary": {
+        "en": "USGS reports M5.7 at 2026-10-23T10:19:16.729000+00:00 UTC, 61 km WNW of Leni, Italy.",
+        "zh": "USGS 報告 M5.7，時間 2026-10-23T10:19:16.729000+00:00 UTC，位置 61 km WNW of Leni, Italy。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-23T11:01:37Z"
+      },
+      "data": {
+        "magnitude": 5.7,
+        "place": "61 km WNW of Leni, Italy",
+        "usgs_id": "us6000u4bk"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M4.9 earthquake 53 km WNW of Leni, Italy.",
+        "zh": "M4.9 地震，位置：53 km WNW of Leni, Italy。"
+      },
+      "id": "usgs-us6000u4bg",
+      "time_utc": "2026-10-23T09:51:39.628000+00:00",
+      "summary": {
+        "en": "USGS reports M4.9 at 2026-10-23T09:51:39.628000+00:00 UTC, 53 km WNW of Leni, Italy.",
+        "zh": "USGS 報告 M4.9，時間 2026-10-23T09:51:39.628000+00:00 UTC，位置 53 km WNW of Leni, Italy。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-23T11:01:37Z"
+      },
+      "data": {
+        "magnitude": 4.9,
+        "place": "53 km WNW of Leni, Italy",
+        "usgs_id": "us6000u4bg"
       }
     },
     {
@@ -42,7 +90,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T10:01:40Z"
+        "fetched_at": "2026-10-23T11:01:37Z"
       },
       "data": {
         "magnitude": 4.5,
@@ -66,7 +114,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T10:01:40Z"
+        "fetched_at": "2026-10-23T11:01:37Z"
       },
       "data": {
         "magnitude": 4.5,
@@ -90,7 +138,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T10:01:40Z"
+        "fetched_at": "2026-10-23T11:01:37Z"
       },
       "data": {
         "magnitude": 4.5,
@@ -114,7 +162,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T10:01:40Z"
+        "fetched_at": "2026-10-23T11:01:37Z"
       },
       "data": {
         "magnitude": 4.5,
@@ -138,7 +186,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T10:01:40Z"
+        "fetched_at": "2026-10-23T11:01:37Z"
       },
       "data": {
         "magnitude": 4.6,
@@ -162,7 +210,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T10:01:40Z"
+        "fetched_at": "2026-10-23T11:01:37Z"
       },
       "data": {
         "magnitude": 4.8,
@@ -186,7 +234,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T10:01:40Z"
+        "fetched_at": "2026-10-23T11:01:37Z"
       },
       "data": {
         "magnitude": 5,
@@ -210,7 +258,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T10:01:40Z"
+        "fetched_at": "2026-10-23T11:01:37Z"
       },
       "data": {
         "magnitude": 4.9,
@@ -234,7 +282,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T10:01:40Z"
+        "fetched_at": "2026-10-23T11:01:37Z"
       },
       "data": {
         "magnitude": 5,
@@ -258,7 +306,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T10:01:40Z"
+        "fetched_at": "2026-10-23T11:01:37Z"
       },
       "data": {
         "magnitude": 4.8,
@@ -282,7 +330,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T10:01:40Z"
+        "fetched_at": "2026-10-23T11:01:37Z"
       },
       "data": {
         "magnitude": 4.7,
@@ -306,7 +354,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T10:01:40Z"
+        "fetched_at": "2026-10-23T11:01:37Z"
       },
       "data": {
         "magnitude": 4.8,
@@ -330,7 +378,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T10:01:40Z"
+        "fetched_at": "2026-10-23T11:01:37Z"
       },
       "data": {
         "magnitude": 4.5,
@@ -354,7 +402,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T10:01:40Z"
+        "fetched_at": "2026-10-23T11:01:37Z"
       },
       "data": {
         "magnitude": 4.6,
@@ -378,7 +426,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T10:01:40Z"
+        "fetched_at": "2026-10-23T11:01:37Z"
       },
       "data": {
         "magnitude": 4.9,
@@ -402,7 +450,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T10:01:40Z"
+        "fetched_at": "2026-10-23T11:01:37Z"
       },
       "data": {
         "magnitude": 4.9,
@@ -426,7 +474,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T10:01:40Z"
+        "fetched_at": "2026-10-23T11:01:37Z"
       },
       "data": {
         "magnitude": 4.7,
@@ -450,7 +498,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T10:01:40Z"
+        "fetched_at": "2026-10-23T11:01:37Z"
       },
       "data": {
         "magnitude": 5.2,
@@ -474,7 +522,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T10:01:40Z"
+        "fetched_at": "2026-10-23T11:01:37Z"
       },
       "data": {
         "magnitude": 7,
@@ -498,60 +546,12 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T10:01:40Z"
+        "fetched_at": "2026-10-23T11:01:37Z"
       },
       "data": {
         "magnitude": 4.9,
         "place": "200 km NW of Port-Olry, Vanuatu",
         "usgs_id": "us6000u432"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M4.9 earthquake 85 km NNW of Curup, Indonesia.",
-        "zh": "M4.9 地震，位置：85 km NNW of Curup, Indonesia。"
-      },
-      "id": "usgs-us6000u42q",
-      "time_utc": "2026-10-22T10:57:52.259000+00:00",
-      "summary": {
-        "en": "USGS reports M4.9 at 2026-10-22T10:57:52.259000+00:00 UTC, 85 km NNW of Curup, Indonesia.",
-        "zh": "USGS 報告 M4.9，時間 2026-10-22T10:57:52.259000+00:00 UTC，位置 85 km NNW of Curup, Indonesia。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T10:01:40Z"
-      },
-      "data": {
-        "magnitude": 4.9,
-        "place": "85 km NNW of Curup, Indonesia",
-        "usgs_id": "us6000u42q"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M4.6 earthquake 11 km W of Ashkāsham, Afghanistan.",
-        "zh": "M4.6 地震，位置：11 km W of Ashkāsham, Afghanistan。"
-      },
-      "id": "usgs-us6000u42e",
-      "time_utc": "2026-10-22T10:07:41.749000+00:00",
-      "summary": {
-        "en": "USGS reports M4.6 at 2026-10-22T10:07:41.749000+00:00 UTC, 11 km W of Ashkāsham, Afghanistan.",
-        "zh": "USGS 報告 M4.6，時間 2026-10-22T10:07:41.749000+00:00 UTC，位置 11 km W of Ashkāsham, Afghanistan。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T10:01:40Z"
-      },
-      "data": {
-        "magnitude": 4.6,
-        "place": "11 km W of Ashkāsham, Afghanistan",
-        "usgs_id": "us6000u42e"
       }
     }
   ]
