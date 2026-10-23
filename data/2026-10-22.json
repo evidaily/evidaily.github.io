@@ -1,29 +1,53 @@
 {
   "date": "2026-10-22",
-  "updated": "2026-10-23T13:00:00Z",
+  "updated": "2026-10-23T00:00:00Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 2.33 (2P) at 21 UTC on 22 October 2026.",
-        "zh": "2026 年 10 月 22 日 21 UTC，估算行星 Kp 為 2.33（2P）。"
+        "en": "Estimated planetary Kp is 3.33 (3P) at 22 UTC on 22 October 2026.",
+        "zh": "2026 年 10 月 22 日 22 UTC，估算行星 Kp 為 3.33（3P）。"
       },
       "id": "noaa-kp-1m",
-      "time_utc": "2026-10-22T21Z",
+      "time_utc": "2026-10-22T22Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 2.33 (2P) at 2026-10-22T21 on 22 October 2026. The 21 hour is complete (60 samples through 21:59; hour-start 0.0/0Z, hour-end 2.33/2P). Last-180 maximum is 3.67. Published-window maximum is 3.67. Window starts 2026-10-22T16:00:00 (358 samples). Next hour 22:00 incomplete (57 samples).",
-        "zh": "最新可靠整點末值：2026-10-22T21 估算 Kp 2.33（2P）。21 時段已收滿（60 筆至 21:59；時段初 0.0/0Z、時段末 2.33/2P）。last-180 最大 3.67。公開窗最大 3.67。窗起點 2026-10-22T16:00:00（358 筆）。下一整點 22:00 未滿（57 筆）。"
+        "en": "Latest reliable hour-end estimated Kp is 3.33 (3P) at 2026-10-22T22 on 22 October 2026. The 22 hour is complete (60 samples through 22:59; hour-start 2.3/2P, hour-end 3.33/3P). Last-180 maximum is 3.67. Published-window maximum is 3.67. Window starts 2026-10-22T17:59:00 (358 samples). Next hour 23:00 incomplete (57 samples).",
+        "zh": "最新可靠整點末值：2026-10-22T22 估算 Kp 3.33（3P）。22 時段已收滿（60 筆至 22:59；時段初 2.3/2P、時段末 3.33/3P）。last-180 最大 3.67。公開窗最大 3.67。窗起點 2026-10-22T17:59:00（358 筆）。下一整點 23:00 未滿（57 筆）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-23T13:00:00Z"
+        "fetched_at": "2026-10-23T00:00:00Z"
       },
       "data": {
-        "estimated_kp": 2.33,
-        "kp": "2P",
-        "hour": "2026-10-22T21"
+        "estimated_kp": 3.33,
+        "kp": "3P",
+        "hour": "2026-10-22T22"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M4.8 earthquake 269 km SSW of Severo-Kuril’sk, Russia.",
+        "zh": "M4.8 地震，位置：269 km SSW of Severo-Kuril’sk, Russia。"
+      },
+      "id": "usgs-us6000u47l",
+      "time_utc": "2026-10-22T21:09:59.090000+00:00",
+      "summary": {
+        "en": "USGS reports M4.8 at 2026-10-22T21:09:59 UTC, 269 km SSW of Severo-Kuril’sk, Russia.",
+        "zh": "USGS 報告 M4.8，時間 2026-10-22T21:09:59 UTC，位置 269 km SSW of Severo-Kuril’sk, Russia。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-23T00:00:00Z"
+      },
+      "data": {
+        "magnitude": 4.8,
+        "place": "269 km SSW of Severo-Kuril’sk, Russia",
+        "usgs_id": "us6000u47l"
       }
     },
     {
@@ -35,19 +59,19 @@
       "id": "usgs-us6000u473",
       "time_utc": "2026-10-22T20:05:04.207000+00:00",
       "summary": {
-        "en": "USGS reports M5 at 2026-10-22T20:05:04.207000+00:00 near 153 km S of Kokopo, Papua New Guinea.",
-        "zh": "USGS 報告 M5，時間 2026-10-22T20:05:04.207000+00:00，位置：153 km S of Kokopo, Papua New Guinea。"
+        "en": "USGS reports M5 at 2026-10-22T20:05:04 UTC, 153 km S of Kokopo, Papua New Guinea.",
+        "zh": "USGS 報告 M5，時間 2026-10-22T20:05:04 UTC，位置 153 km S of Kokopo, Papua New Guinea。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T13:00:00Z"
+        "fetched_at": "2026-10-23T00:00:00Z"
       },
       "data": {
-        "mag": 5,
+        "magnitude": 5,
         "place": "153 km S of Kokopo, Papua New Guinea",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u473"
+        "usgs_id": "us6000u473"
       }
     },
     {
@@ -59,19 +83,19 @@
       "id": "usgs-us6000u46r",
       "time_utc": "2026-10-22T19:06:56.074000+00:00",
       "summary": {
-        "en": "USGS reports M4.9 at 2026-10-22T19:06:56.074000+00:00 near 104 km NNE of Hihifo, Tonga.",
-        "zh": "USGS 報告 M4.9，時間 2026-10-22T19:06:56.074000+00:00，位置：104 km NNE of Hihifo, Tonga。"
+        "en": "USGS reports M4.9 at 2026-10-22T19:06:56 UTC, 104 km NNE of Hihifo, Tonga.",
+        "zh": "USGS 報告 M4.9，時間 2026-10-22T19:06:56 UTC，位置 104 km NNE of Hihifo, Tonga。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T13:00:00Z"
+        "fetched_at": "2026-10-23T00:00:00Z"
       },
       "data": {
-        "mag": 4.9,
+        "magnitude": 4.9,
         "place": "104 km NNE of Hihifo, Tonga",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u46r"
+        "usgs_id": "us6000u46r"
       }
     },
     {
@@ -83,19 +107,19 @@
       "id": "usgs-us6000u45j",
       "time_utc": "2026-10-22T18:06:44.294000+00:00",
       "summary": {
-        "en": "USGS reports M5 at 2026-10-22T18:06:44.294000+00:00 near 207 km ENE of Nagqu, China.",
-        "zh": "USGS 報告 M5，時間 2026-10-22T18:06:44.294000+00:00，位置：207 km ENE of Nagqu, China。"
+        "en": "USGS reports M5 at 2026-10-22T18:06:44 UTC, 207 km ENE of Nagqu, China.",
+        "zh": "USGS 報告 M5，時間 2026-10-22T18:06:44 UTC，位置 207 km ENE of Nagqu, China。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T13:00:00Z"
+        "fetched_at": "2026-10-23T00:00:00Z"
       },
       "data": {
-        "mag": 5,
+        "magnitude": 5,
         "place": "207 km ENE of Nagqu, China",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u45j"
+        "usgs_id": "us6000u45j"
       }
     },
     {
@@ -107,19 +131,19 @@
       "id": "usgs-us6000u45f",
       "time_utc": "2026-10-22T17:21:26.780000+00:00",
       "summary": {
-        "en": "USGS reports M4.8 at 2026-10-22T17:21:26.780000+00:00 near 39 km NE of Shikotan, Russia.",
-        "zh": "USGS 報告 M4.8，時間 2026-10-22T17:21:26.780000+00:00，位置：39 km NE of Shikotan, Russia。"
+        "en": "USGS reports M4.8 at 2026-10-22T17:21:26 UTC, 39 km NE of Shikotan, Russia.",
+        "zh": "USGS 報告 M4.8，時間 2026-10-22T17:21:26 UTC，位置 39 km NE of Shikotan, Russia。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T13:00:00Z"
+        "fetched_at": "2026-10-23T00:00:00Z"
       },
       "data": {
-        "mag": 4.8,
+        "magnitude": 4.8,
         "place": "39 km NE of Shikotan, Russia",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u45f"
+        "usgs_id": "us6000u45f"
       }
     },
     {
@@ -131,19 +155,19 @@
       "id": "usgs-us6000u45a",
       "time_utc": "2026-10-22T16:57:53.999000+00:00",
       "summary": {
-        "en": "USGS reports M4.7 at 2026-10-22T16:57:53.999000+00:00 near 190 km ENE of Nagqu, China.",
-        "zh": "USGS 報告 M4.7，時間 2026-10-22T16:57:53.999000+00:00，位置：190 km ENE of Nagqu, China。"
+        "en": "USGS reports M4.7 at 2026-10-22T16:57:53 UTC, 190 km ENE of Nagqu, China.",
+        "zh": "USGS 報告 M4.7，時間 2026-10-22T16:57:53 UTC，位置 190 km ENE of Nagqu, China。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T13:00:00Z"
+        "fetched_at": "2026-10-23T00:00:00Z"
       },
       "data": {
-        "mag": 4.7,
+        "magnitude": 4.7,
         "place": "190 km ENE of Nagqu, China",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u45a"
+        "usgs_id": "us6000u45a"
       }
     },
     {
@@ -155,19 +179,19 @@
       "id": "usgs-us6000u459",
       "time_utc": "2026-10-22T16:51:21.365000+00:00",
       "summary": {
-        "en": "USGS reports M4.8 at 2026-10-22T16:51:21.365000+00:00 near 144 km SSW of ‘Ohonua, Tonga.",
-        "zh": "USGS 報告 M4.8，時間 2026-10-22T16:51:21.365000+00:00，位置：144 km SSW of ‘Ohonua, Tonga。"
+        "en": "USGS reports M4.8 at 2026-10-22T16:51:21 UTC, 144 km SSW of ‘Ohonua, Tonga.",
+        "zh": "USGS 報告 M4.8，時間 2026-10-22T16:51:21 UTC，位置 144 km SSW of ‘Ohonua, Tonga。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T13:00:00Z"
+        "fetched_at": "2026-10-23T00:00:00Z"
       },
       "data": {
-        "mag": 4.8,
+        "magnitude": 4.8,
         "place": "144 km SSW of ‘Ohonua, Tonga",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u459"
+        "usgs_id": "us6000u459"
       }
     },
     {
@@ -179,19 +203,19 @@
       "id": "usgs-us6000u458",
       "time_utc": "2026-10-22T16:50:16.850000+00:00",
       "summary": {
-        "en": "USGS reports M4.5 at 2026-10-22T16:50:16.850000+00:00 near 203 km ENE of Nagqu, China.",
-        "zh": "USGS 報告 M4.5，時間 2026-10-22T16:50:16.850000+00:00，位置：203 km ENE of Nagqu, China。"
+        "en": "USGS reports M4.5 at 2026-10-22T16:50:16 UTC, 203 km ENE of Nagqu, China.",
+        "zh": "USGS 報告 M4.5，時間 2026-10-22T16:50:16 UTC，位置 203 km ENE of Nagqu, China。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T13:00:00Z"
+        "fetched_at": "2026-10-23T00:00:00Z"
       },
       "data": {
-        "mag": 4.5,
+        "magnitude": 4.5,
         "place": "203 km ENE of Nagqu, China",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u458"
+        "usgs_id": "us6000u458"
       }
     },
     {
@@ -203,19 +227,19 @@
       "id": "usgs-us6000u455",
       "time_utc": "2026-10-22T16:45:00.942000+00:00",
       "summary": {
-        "en": "USGS reports M4.6 at 2026-10-22T16:45:00.942000+00:00 near 193 km NE of Nagqu, China.",
-        "zh": "USGS 報告 M4.6，時間 2026-10-22T16:45:00.942000+00:00，位置：193 km NE of Nagqu, China。"
+        "en": "USGS reports M4.6 at 2026-10-22T16:45:00 UTC, 193 km NE of Nagqu, China.",
+        "zh": "USGS 報告 M4.6，時間 2026-10-22T16:45:00 UTC，位置 193 km NE of Nagqu, China。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T13:00:00Z"
+        "fetched_at": "2026-10-23T00:00:00Z"
       },
       "data": {
-        "mag": 4.6,
+        "magnitude": 4.6,
         "place": "193 km NE of Nagqu, China",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u455"
+        "usgs_id": "us6000u455"
       }
     },
     {
@@ -227,19 +251,19 @@
       "id": "usgs-us6000u451",
       "time_utc": "2026-10-22T16:21:33.822000+00:00",
       "summary": {
-        "en": "USGS reports M4.9 at 2026-10-22T16:21:33.822000+00:00 near 210 km ENE of Nagqu, China.",
-        "zh": "USGS 報告 M4.9，時間 2026-10-22T16:21:33.822000+00:00，位置：210 km ENE of Nagqu, China。"
+        "en": "USGS reports M4.9 at 2026-10-22T16:21:33 UTC, 210 km ENE of Nagqu, China.",
+        "zh": "USGS 報告 M4.9，時間 2026-10-22T16:21:33 UTC，位置 210 km ENE of Nagqu, China。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T13:00:00Z"
+        "fetched_at": "2026-10-23T00:00:00Z"
       },
       "data": {
-        "mag": 4.9,
+        "magnitude": 4.9,
         "place": "210 km ENE of Nagqu, China",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u451"
+        "usgs_id": "us6000u451"
       }
     },
     {
@@ -251,19 +275,19 @@
       "id": "usgs-us6000u44w",
       "time_utc": "2026-10-22T15:45:37.094000+00:00",
       "summary": {
-        "en": "USGS reports M4.9 at 2026-10-22T15:45:37.094000+00:00 near western Xizang.",
-        "zh": "USGS 報告 M4.9，時間 2026-10-22T15:45:37.094000+00:00，位置：western Xizang。"
+        "en": "USGS reports M4.9 at 2026-10-22T15:45:37 UTC, western Xizang.",
+        "zh": "USGS 報告 M4.9，時間 2026-10-22T15:45:37 UTC，位置 western Xizang。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T13:00:00Z"
+        "fetched_at": "2026-10-23T00:00:00Z"
       },
       "data": {
-        "mag": 4.9,
+        "magnitude": 4.9,
         "place": "western Xizang",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u44w"
+        "usgs_id": "us6000u44w"
       }
     },
     {
@@ -275,19 +299,19 @@
       "id": "usgs-us6000u44u",
       "time_utc": "2026-10-22T15:27:48.445000+00:00",
       "summary": {
-        "en": "USGS reports M4.7 at 2026-10-22T15:27:48.445000+00:00 near 139 km ENE of Kashgar, China.",
-        "zh": "USGS 報告 M4.7，時間 2026-10-22T15:27:48.445000+00:00，位置：139 km ENE of Kashgar, China。"
+        "en": "USGS reports M4.7 at 2026-10-22T15:27:48 UTC, 139 km ENE of Kashgar, China.",
+        "zh": "USGS 報告 M4.7，時間 2026-10-22T15:27:48 UTC，位置 139 km ENE of Kashgar, China。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T13:00:00Z"
+        "fetched_at": "2026-10-23T00:00:00Z"
       },
       "data": {
-        "mag": 4.7,
+        "magnitude": 4.7,
         "place": "139 km ENE of Kashgar, China",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u44u"
+        "usgs_id": "us6000u44u"
       }
     },
     {
@@ -299,19 +323,19 @@
       "id": "usgs-us6000u44n",
       "time_utc": "2026-10-22T15:12:04.462000+00:00",
       "summary": {
-        "en": "USGS reports M5.2 at 2026-10-22T15:12:04.462000+00:00 near 201 km ENE of Nagqu, China.",
-        "zh": "USGS 報告 M5.2，時間 2026-10-22T15:12:04.462000+00:00，位置：201 km ENE of Nagqu, China。"
+        "en": "USGS reports M5.2 at 2026-10-22T15:12:04 UTC, 201 km ENE of Nagqu, China.",
+        "zh": "USGS 報告 M5.2，時間 2026-10-22T15:12:04 UTC，位置 201 km ENE of Nagqu, China。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T13:00:00Z"
+        "fetched_at": "2026-10-23T00:00:00Z"
       },
       "data": {
-        "mag": 5.2,
+        "magnitude": 5.2,
         "place": "201 km ENE of Nagqu, China",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u44n"
+        "usgs_id": "us6000u44n"
       }
     },
     {
@@ -323,19 +347,19 @@
       "id": "usgs-us6000u43g",
       "time_utc": "2026-10-22T14:33:40.353000+00:00",
       "summary": {
-        "en": "USGS reports M7 at 2026-10-22T14:33:40.353000+00:00 near 191 km ENE of Nagqu, China.",
-        "zh": "USGS 報告 M7，時間 2026-10-22T14:33:40.353000+00:00，位置：191 km ENE of Nagqu, China。"
+        "en": "USGS reports M7 at 2026-10-22T14:33:40 UTC, 191 km ENE of Nagqu, China.",
+        "zh": "USGS 報告 M7，時間 2026-10-22T14:33:40 UTC，位置 191 km ENE of Nagqu, China。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T13:00:00Z"
+        "fetched_at": "2026-10-23T00:00:00Z"
       },
       "data": {
-        "mag": 7,
+        "magnitude": 7,
         "place": "191 km ENE of Nagqu, China",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g"
+        "usgs_id": "us6000u43g"
       }
     },
     {
@@ -347,19 +371,19 @@
       "id": "usgs-us6000u432",
       "time_utc": "2026-10-22T12:22:57.822000+00:00",
       "summary": {
-        "en": "USGS reports M4.9 at 2026-10-22T12:22:57.822000+00:00 near 200 km NW of Port-Olry, Vanuatu.",
-        "zh": "USGS 報告 M4.9，時間 2026-10-22T12:22:57.822000+00:00，位置：200 km NW of Port-Olry, Vanuatu。"
+        "en": "USGS reports M4.9 at 2026-10-22T12:22:57 UTC, 200 km NW of Port-Olry, Vanuatu.",
+        "zh": "USGS 報告 M4.9，時間 2026-10-22T12:22:57 UTC，位置 200 km NW of Port-Olry, Vanuatu。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T13:00:00Z"
+        "fetched_at": "2026-10-23T00:00:00Z"
       },
       "data": {
-        "mag": 4.9,
+        "magnitude": 4.9,
         "place": "200 km NW of Port-Olry, Vanuatu",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u432"
+        "usgs_id": "us6000u432"
       }
     },
     {
@@ -371,19 +395,19 @@
       "id": "usgs-us6000u42q",
       "time_utc": "2026-10-22T10:57:52.259000+00:00",
       "summary": {
-        "en": "USGS reports M4.9 at 2026-10-22T10:57:52.259000+00:00 near 85 km NNW of Curup, Indonesia.",
-        "zh": "USGS 報告 M4.9，時間 2026-10-22T10:57:52.259000+00:00，位置：85 km NNW of Curup, Indonesia。"
+        "en": "USGS reports M4.9 at 2026-10-22T10:57:52 UTC, 85 km NNW of Curup, Indonesia.",
+        "zh": "USGS 報告 M4.9，時間 2026-10-22T10:57:52 UTC，位置 85 km NNW of Curup, Indonesia。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T13:00:00Z"
+        "fetched_at": "2026-10-23T00:00:00Z"
       },
       "data": {
-        "mag": 4.9,
+        "magnitude": 4.9,
         "place": "85 km NNW of Curup, Indonesia",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u42q"
+        "usgs_id": "us6000u42q"
       }
     },
     {
@@ -395,19 +419,19 @@
       "id": "usgs-us6000u42e",
       "time_utc": "2026-10-22T10:07:41.749000+00:00",
       "summary": {
-        "en": "USGS reports M4.6 at 2026-10-22T10:07:41.749000+00:00 near 11 km W of Ashkāsham, Afghanistan.",
-        "zh": "USGS 報告 M4.6，時間 2026-10-22T10:07:41.749000+00:00，位置：11 km W of Ashkāsham, Afghanistan。"
+        "en": "USGS reports M4.6 at 2026-10-22T10:07:41 UTC, 11 km W of Ashkāsham, Afghanistan.",
+        "zh": "USGS 報告 M4.6，時間 2026-10-22T10:07:41 UTC，位置 11 km W of Ashkāsham, Afghanistan。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T13:00:00Z"
+        "fetched_at": "2026-10-23T00:00:00Z"
       },
       "data": {
-        "mag": 4.6,
+        "magnitude": 4.6,
         "place": "11 km W of Ashkāsham, Afghanistan",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u42e"
+        "usgs_id": "us6000u42e"
       }
     },
     {
@@ -419,19 +443,19 @@
       "id": "usgs-us6000u423",
       "time_utc": "2026-10-22T08:34:18.537000+00:00",
       "summary": {
-        "en": "USGS reports M4.5 at 2026-10-22T08:34:18.537000+00:00 near 136 km NE of Petropavlovsk-Kamchatsky, Russia.",
-        "zh": "USGS 報告 M4.5，時間 2026-10-22T08:34:18.537000+00:00，位置：136 km NE of Petropavlovsk-Kamchatsky, Russia。"
+        "en": "USGS reports M4.5 at 2026-10-22T08:34:18 UTC, 136 km NE of Petropavlovsk-Kamchatsky, Russia.",
+        "zh": "USGS 報告 M4.5，時間 2026-10-22T08:34:18 UTC，位置 136 km NE of Petropavlovsk-Kamchatsky, Russia。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T13:00:00Z"
+        "fetched_at": "2026-10-23T00:00:00Z"
       },
       "data": {
-        "mag": 4.5,
+        "magnitude": 4.5,
         "place": "136 km NE of Petropavlovsk-Kamchatsky, Russia",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u423"
+        "usgs_id": "us6000u423"
       }
     },
     {
@@ -443,19 +467,19 @@
       "id": "usgs-us6000u41z",
       "time_utc": "2026-10-22T08:06:35.200000+00:00",
       "summary": {
-        "en": "USGS reports M4.6 at 2026-10-22T08:06:35.200000+00:00 near 49 km NE of Yigo Village, Guam.",
-        "zh": "USGS 報告 M4.6，時間 2026-10-22T08:06:35.200000+00:00，位置：49 km NE of Yigo Village, Guam。"
+        "en": "USGS reports M4.6 at 2026-10-22T08:06:35 UTC, 49 km NE of Yigo Village, Guam.",
+        "zh": "USGS 報告 M4.6，時間 2026-10-22T08:06:35 UTC，位置 49 km NE of Yigo Village, Guam。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T13:00:00Z"
+        "fetched_at": "2026-10-23T00:00:00Z"
       },
       "data": {
-        "mag": 4.6,
+        "magnitude": 4.6,
         "place": "49 km NE of Yigo Village, Guam",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u41z"
+        "usgs_id": "us6000u41z"
       }
     },
     {
@@ -467,19 +491,19 @@
       "id": "usgs-us6000u41y",
       "time_utc": "2026-10-22T07:49:29.455000+00:00",
       "summary": {
-        "en": "USGS reports M4.8 at 2026-10-22T07:49:29.455000+00:00 near Balleny Islands region.",
-        "zh": "USGS 報告 M4.8，時間 2026-10-22T07:49:29.455000+00:00，位置：Balleny Islands region。"
+        "en": "USGS reports M4.8 at 2026-10-22T07:49:29 UTC, Balleny Islands region.",
+        "zh": "USGS 報告 M4.8，時間 2026-10-22T07:49:29 UTC，位置 Balleny Islands region。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T13:00:00Z"
+        "fetched_at": "2026-10-23T00:00:00Z"
       },
       "data": {
-        "mag": 4.8,
+        "magnitude": 4.8,
         "place": "Balleny Islands region",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u41y"
+        "usgs_id": "us6000u41y"
       }
     },
     {
@@ -491,19 +515,19 @@
       "id": "usgs-us6000u417",
       "time_utc": "2026-10-22T05:23:59.562000+00:00",
       "summary": {
-        "en": "USGS reports M4.8 at 2026-10-22T05:23:59.562000+00:00 near 86 km S of Kokopo, Papua New Guinea.",
-        "zh": "USGS 報告 M4.8，時間 2026-10-22T05:23:59.562000+00:00，位置：86 km S of Kokopo, Papua New Guinea。"
+        "en": "USGS reports M4.8 at 2026-10-22T05:23:59 UTC, 86 km S of Kokopo, Papua New Guinea.",
+        "zh": "USGS 報告 M4.8，時間 2026-10-22T05:23:59 UTC，位置 86 km S of Kokopo, Papua New Guinea。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T13:00:00Z"
+        "fetched_at": "2026-10-23T00:00:00Z"
       },
       "data": {
-        "mag": 4.8,
+        "magnitude": 4.8,
         "place": "86 km S of Kokopo, Papua New Guinea",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u417"
+        "usgs_id": "us6000u417"
       }
     },
     {
@@ -515,19 +539,19 @@
       "id": "usgs-us6000u411",
       "time_utc": "2026-10-22T04:44:17.421000+00:00",
       "summary": {
-        "en": "USGS reports M4.8 at 2026-10-22T04:44:17.421000+00:00 near Reykjanes Ridge.",
-        "zh": "USGS 報告 M4.8，時間 2026-10-22T04:44:17.421000+00:00，位置：Reykjanes Ridge。"
+        "en": "USGS reports M4.8 at 2026-10-22T04:44:17 UTC, Reykjanes Ridge.",
+        "zh": "USGS 報告 M4.8，時間 2026-10-22T04:44:17 UTC，位置 Reykjanes Ridge。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T13:00:00Z"
+        "fetched_at": "2026-10-23T00:00:00Z"
       },
       "data": {
-        "mag": 4.8,
+        "magnitude": 4.8,
         "place": "Reykjanes Ridge",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u411"
+        "usgs_id": "us6000u411"
       }
     },
     {
@@ -539,19 +563,19 @@
       "id": "usgs-us6000u40r",
       "time_utc": "2026-10-22T03:35:17.429000+00:00",
       "summary": {
-        "en": "USGS reports M4.6 at 2026-10-22T03:35:17.429000+00:00 near 97 km SW of El Palmarcito, Mexico.",
-        "zh": "USGS 報告 M4.6，時間 2026-10-22T03:35:17.429000+00:00，位置：97 km SW of El Palmarcito, Mexico。"
+        "en": "USGS reports M4.6 at 2026-10-22T03:35:17 UTC, 97 km SW of El Palmarcito, Mexico.",
+        "zh": "USGS 報告 M4.6，時間 2026-10-22T03:35:17 UTC，位置 97 km SW of El Palmarcito, Mexico。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T13:00:00Z"
+        "fetched_at": "2026-10-23T00:00:00Z"
       },
       "data": {
-        "mag": 4.6,
+        "magnitude": 4.6,
         "place": "97 km SW of El Palmarcito, Mexico",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u40r"
+        "usgs_id": "us6000u40r"
       }
     }
   ]
