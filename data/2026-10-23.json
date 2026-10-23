@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "updated": "2026-10-23T14:13:37Z",
+  "updated": "2026-10-23T15:03:07Z",
   "entries": [
     {
       "type": "space-weather",
@@ -11,19 +11,43 @@
       "id": "noaa-kp-1m",
       "time_utc": "2026-10-23T13Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 2.0 (2Z) at 2026-10-23T13 on 23 October 2026. The 13 hour is complete (60 samples through 13:59; hour-start 2.00/2Z, hour-end 2.0/2Z). Last-180 maximum is 2.33. Published-window maximum is 2.33. Window starts 2026-10-23T08:11:00 (358 samples). Next hour 14:00 incomplete (9 samples).",
-        "zh": "最新可靠整點末值：2026-10-23T13 估計 Kp 2.0（2Z）。13 時段已收滿（60 筆至 13:59；時段初 2.00/2Z、時段末 2.0/2Z）。last-180 最大 2.33。公開窗最大 2.33。窗起點 2026-10-23T08:11:00（358 筆）。下一整點 14:00 未滿（9 筆）。"
+        "en": "Latest reliable hour-end estimated Kp is 2.0 (2Z) at 2026-10-23T13 on 23 October 2026. The 13 hour is complete (60 samples through 13:59; hour-start 2.00/2Z, hour-end 2.0/2Z). Last-180 maximum is 2.67. Published-window maximum is 2.67. Window starts 2026-10-23T09:01:00 (358 samples). Next hour 14:00 incomplete (59 samples).",
+        "zh": "最新可靠整點末值：2026-10-23T13 估計 Kp 2.0（2Z）。13 時段已收滿（60 筆至 13:59；時段初 2.00/2Z、時段末 2.0/2Z）。last-180 最大 2.67。公開窗最大 2.67。窗起點 2026-10-23T09:01:00（358 筆）。下一整點 14:00 未滿（59 筆）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-23T14:13:37Z"
+        "fetched_at": "2026-10-23T15:03:07Z"
       },
       "data": {
         "estimated_kp": 2.0,
         "kp": "2Z",
         "hour": "2026-10-23T13"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M5.2 earthquake 50 km WNW of Malfa, Italy.",
+        "zh": "M5.2 地震，位置：50 km WNW of Malfa, Italy。"
+      },
+      "id": "usgs-us6000u4dc",
+      "time_utc": "2026-10-23T13:55:36.149000+00:00",
+      "summary": {
+        "en": "USGS reports M5.2 at 2026-10-23T13:55:36.149000+00:00 UTC, 50 km WNW of Malfa, Italy.",
+        "zh": "USGS 報告 M5.2，時間 2026-10-23T13:55:36.149000+00:00 UTC，位置 50 km WNW of Malfa, Italy。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-23T15:03:07Z"
+      },
+      "data": {
+        "magnitude": 5.2,
+        "place": "50 km WNW of Malfa, Italy",
+        "id": "us6000u4dc"
       }
     },
     {
@@ -42,7 +66,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T14:13:37Z"
+        "fetched_at": "2026-10-23T15:03:07Z"
       },
       "data": {
         "magnitude": 4.5,
@@ -66,7 +90,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T14:13:37Z"
+        "fetched_at": "2026-10-23T15:03:07Z"
       },
       "data": {
         "magnitude": 4.5,
@@ -90,7 +114,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T14:13:37Z"
+        "fetched_at": "2026-10-23T15:03:07Z"
       },
       "data": {
         "magnitude": 5.7,
@@ -114,7 +138,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T14:13:37Z"
+        "fetched_at": "2026-10-23T15:03:07Z"
       },
       "data": {
         "magnitude": 4.9,
@@ -138,7 +162,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T14:13:37Z"
+        "fetched_at": "2026-10-23T15:03:07Z"
       },
       "data": {
         "magnitude": 4.5,
@@ -162,7 +186,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T14:13:37Z"
+        "fetched_at": "2026-10-23T15:03:07Z"
       },
       "data": {
         "magnitude": 4.5,
@@ -186,7 +210,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T14:13:37Z"
+        "fetched_at": "2026-10-23T15:03:07Z"
       },
       "data": {
         "magnitude": 4.5,
@@ -210,7 +234,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T14:13:37Z"
+        "fetched_at": "2026-10-23T15:03:07Z"
       },
       "data": {
         "magnitude": 4.5,
@@ -234,7 +258,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T14:13:37Z"
+        "fetched_at": "2026-10-23T15:03:07Z"
       },
       "data": {
         "magnitude": 4.6,
@@ -258,7 +282,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T14:13:37Z"
+        "fetched_at": "2026-10-23T15:03:07Z"
       },
       "data": {
         "magnitude": 4.8,
@@ -282,7 +306,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T14:13:37Z"
+        "fetched_at": "2026-10-23T15:03:07Z"
       },
       "data": {
         "magnitude": 5,
@@ -306,7 +330,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T14:13:37Z"
+        "fetched_at": "2026-10-23T15:03:07Z"
       },
       "data": {
         "magnitude": 4.9,
@@ -330,7 +354,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T14:13:37Z"
+        "fetched_at": "2026-10-23T15:03:07Z"
       },
       "data": {
         "magnitude": 5,
@@ -354,7 +378,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T14:13:37Z"
+        "fetched_at": "2026-10-23T15:03:07Z"
       },
       "data": {
         "magnitude": 4.8,
@@ -378,7 +402,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T14:13:37Z"
+        "fetched_at": "2026-10-23T15:03:07Z"
       },
       "data": {
         "magnitude": 4.7,
@@ -402,7 +426,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T14:13:37Z"
+        "fetched_at": "2026-10-23T15:03:07Z"
       },
       "data": {
         "magnitude": 4.8,
@@ -426,7 +450,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T14:13:37Z"
+        "fetched_at": "2026-10-23T15:03:07Z"
       },
       "data": {
         "magnitude": 4.5,
@@ -450,7 +474,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T14:13:37Z"
+        "fetched_at": "2026-10-23T15:03:07Z"
       },
       "data": {
         "magnitude": 4.6,
@@ -474,7 +498,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T14:13:37Z"
+        "fetched_at": "2026-10-23T15:03:07Z"
       },
       "data": {
         "magnitude": 4.9,
@@ -498,7 +522,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T14:13:37Z"
+        "fetched_at": "2026-10-23T15:03:07Z"
       },
       "data": {
         "magnitude": 4.9,
@@ -522,7 +546,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T14:13:37Z"
+        "fetched_at": "2026-10-23T15:03:07Z"
       },
       "data": {
         "magnitude": 4.7,
@@ -546,36 +570,12 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T14:13:37Z"
+        "fetched_at": "2026-10-23T15:03:07Z"
       },
       "data": {
         "magnitude": 5.2,
         "place": "201 km ENE of Nagqu, China",
         "id": "us6000u44n"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M7 earthquake 191 km ENE of Nagqu, China.",
-        "zh": "M7 地震，位置：191 km ENE of Nagqu, China。"
-      },
-      "id": "usgs-us6000u43g",
-      "time_utc": "2026-10-22T14:33:40.353000+00:00",
-      "summary": {
-        "en": "USGS reports M7 at 2026-10-22T14:33:40.353000+00:00 UTC, 191 km ENE of Nagqu, China.",
-        "zh": "USGS 報告 M7，時間 2026-10-22T14:33:40.353000+00:00 UTC，位置 191 km ENE of Nagqu, China。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-23T14:13:37Z"
-      },
-      "data": {
-        "magnitude": 7,
-        "place": "191 km ENE of Nagqu, China",
-        "id": "us6000u43g"
       }
     }
   ]
