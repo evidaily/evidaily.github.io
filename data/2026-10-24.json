@@ -1,0 +1,410 @@
+{
+  "date": "2026-10-24",
+  "updated": "2026-10-24T00:03:30Z",
+  "entries": [
+    {
+      "type": "space-weather",
+      "title": {
+        "en": "Estimated planetary Kp is 1.67 (2M) at 22 UTC on 23 October 2026.",
+        "zh": "2026 年 10 月 23 日 22 UTC，估算行星 Kp 為 1.67（2M）。"
+      },
+      "id": "noaa-kp-1m",
+      "time_utc": "2026-10-23T22Z",
+      "summary": {
+        "en": "Latest reliable hour-end estimated Kp is 1.67 (2M) at 2026-10-23T22 on 23 October 2026. The 22 hour is complete (60 samples through 22:59; hour-end 1.67/2M). Last-180 maximum is 4.33. Published-window maximum is 4.33. Window starts 2026-10-23T18:01:00 (357 samples). Next hour 23:00 incomplete (58 samples).",
+        "zh": "最新可靠整點末值：2026-10-23T22 估算 Kp 1.67（2M）。22 時段已收滿（60 筆至 22:59；時段末 1.67/2M）。last-180 最大 4.33。公開窗最大 4.33。窗起點 2026-10-23T18:01:00（357 筆）。下一整點 23:00 未滿（58 筆）。"
+      },
+      "evidence": {
+        "source": "NOAA SWPC planetary_k_index_1m.json",
+        "source_name": "NOAA SWPC",
+        "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
+        "fetched_at": "2026-10-24T00:03:30Z"
+      },
+      "data": {
+        "estimated_kp": 1.67,
+        "kp": "2M",
+        "hour": "2026-10-23T22"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.9 - 115 km NE of Norsup, Vanuatu",
+        "zh": "M 4.9 - 115 km NE of Norsup, Vanuatu"
+      },
+      "id": "usgs-us6000u4hr",
+      "time_utc": "2026-10-23T22:42:51Z",
+      "summary": {
+        "en": "M 4.9 earthquake at 115 km NE of Norsup, Vanuatu.",
+        "zh": "M 4.9 地震，位置：115 km NE of Norsup, Vanuatu。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-24T00:03:30Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.8 - 6 km ENE of Starobachaty, Russia",
+        "zh": "M 4.8 - 6 km ENE of Starobachaty, Russia"
+      },
+      "id": "usgs-us6000u4hi",
+      "time_utc": "2026-10-23T22:24:16Z",
+      "summary": {
+        "en": "M 4.8 earthquake at 6 km ENE of Starobachaty, Russia.",
+        "zh": "M 4.8 地震，位置：6 km ENE of Starobachaty, Russia。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-24T00:03:30Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 5.1 - 203 km NW of Port-Olry, Vanuatu",
+        "zh": "M 5.1 - 203 km NW of Port-Olry, Vanuatu"
+      },
+      "id": "usgs-us6000u4h7",
+      "time_utc": "2026-10-23T22:05:10Z",
+      "summary": {
+        "en": "M 5.1 earthquake at 203 km NW of Port-Olry, Vanuatu.",
+        "zh": "M 5.1 地震，位置：203 km NW of Port-Olry, Vanuatu。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-24T00:03:30Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.6 - 73 km ENE of Kinablangan, Philippines",
+        "zh": "M 4.6 - 73 km ENE of Kinablangan, Philippines"
+      },
+      "id": "usgs-us6000u4h0",
+      "time_utc": "2026-10-23T21:41:04Z",
+      "summary": {
+        "en": "M 4.6 earthquake at 73 km ENE of Kinablangan, Philippines.",
+        "zh": "M 4.6 地震，位置：73 km ENE of Kinablangan, Philippines。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-24T00:03:30Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.9 - 35 km ESE of Hualien City, Taiwan",
+        "zh": "M 4.9 - 35 km ESE of Hualien City, Taiwan"
+      },
+      "id": "usgs-us6000u4gm",
+      "time_utc": "2026-10-23T20:48:16Z",
+      "summary": {
+        "en": "M 4.9 earthquake at 35 km ESE of Hualien City, Taiwan.",
+        "zh": "M 4.9 地震，位置：35 km ESE of Hualien City, Taiwan。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-24T00:03:30Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.8 - 209 km ENE of Nagqu, China",
+        "zh": "M 4.8 - 209 km ENE of Nagqu, China"
+      },
+      "id": "usgs-us6000u4gj",
+      "time_utc": "2026-10-23T20:37:41Z",
+      "summary": {
+        "en": "M 4.8 earthquake at 209 km ENE of Nagqu, China.",
+        "zh": "M 4.8 地震，位置：209 km ENE of Nagqu, China。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-24T00:03:30Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.6 - 91 km ESE of Tuensang, India",
+        "zh": "M 4.6 - 91 km ESE of Tuensang, India"
+      },
+      "id": "usgs-us6000u4f5",
+      "time_utc": "2026-10-23T17:06:25Z",
+      "summary": {
+        "en": "M 4.6 earthquake at 91 km ESE of Tuensang, India.",
+        "zh": "M 4.6 地震，位置：91 km ESE of Tuensang, India。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-24T00:03:30Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 5.1 - 72 km ENE of Noda, Japan",
+        "zh": "M 5.1 - 72 km ENE of Noda, Japan"
+      },
+      "id": "usgs-us6000u4e2",
+      "time_utc": "2026-10-23T16:07:51Z",
+      "summary": {
+        "en": "M 5.1 earthquake at 72 km ENE of Noda, Japan.",
+        "zh": "M 5.1 地震，位置：72 km ENE of Noda, Japan。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-24T00:03:30Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.7 - 52 km WNW of Malfa, Italy",
+        "zh": "M 4.7 - 52 km WNW of Malfa, Italy"
+      },
+      "id": "usgs-us6000u4dx",
+      "time_utc": "2026-10-23T15:32:13Z",
+      "summary": {
+        "en": "M 4.7 earthquake at 52 km WNW of Malfa, Italy.",
+        "zh": "M 4.7 地震，位置：52 km WNW of Malfa, Italy。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-24T00:03:30Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.5 - 233 km ENE of Nagqu, China",
+        "zh": "M 4.5 - 233 km ENE of Nagqu, China"
+      },
+      "id": "usgs-us6000u4dk",
+      "time_utc": "2026-10-23T14:41:16Z",
+      "summary": {
+        "en": "M 4.5 earthquake at 233 km ENE of Nagqu, China.",
+        "zh": "M 4.5 地震，位置：233 km ENE of Nagqu, China。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-24T00:03:30Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.7 - 215 km NE of Nagqu, China",
+        "zh": "M 4.7 - 215 km NE of Nagqu, China"
+      },
+      "id": "usgs-us6000u4df",
+      "time_utc": "2026-10-23T14:14:04Z",
+      "summary": {
+        "en": "M 4.7 earthquake at 215 km NE of Nagqu, China.",
+        "zh": "M 4.7 地震，位置：215 km NE of Nagqu, China。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-24T00:03:30Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 5.2 - 50 km WNW of Malfa, Italy",
+        "zh": "M 5.2 - 50 km WNW of Malfa, Italy"
+      },
+      "id": "usgs-us6000u4dc",
+      "time_utc": "2026-10-23T13:55:36Z",
+      "summary": {
+        "en": "M 5.2 earthquake at 50 km WNW of Malfa, Italy.",
+        "zh": "M 5.2 地震，位置：50 km WNW of Malfa, Italy。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-24T00:03:30Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.5 - 207 km NE of Lospalos, Timor Leste",
+        "zh": "M 4.5 - 207 km NE of Lospalos, Timor Leste"
+      },
+      "id": "usgs-us6000u4bw",
+      "time_utc": "2026-10-23T12:24:24Z",
+      "summary": {
+        "en": "M 4.5 earthquake at 207 km NE of Lospalos, Timor Leste.",
+        "zh": "M 4.5 地震，位置：207 km NE of Lospalos, Timor Leste。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-24T00:03:30Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.5 - 193 km ENE of Levuka, Fiji",
+        "zh": "M 4.5 - 193 km ENE of Levuka, Fiji"
+      },
+      "id": "usgs-us6000u4bv",
+      "time_utc": "2026-10-23T12:19:47Z",
+      "summary": {
+        "en": "M 4.5 earthquake at 193 km ENE of Levuka, Fiji.",
+        "zh": "M 4.5 地震，位置：193 km ENE of Levuka, Fiji。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-24T00:03:30Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 5.7 - 61 km WNW of Leni, Italy",
+        "zh": "M 5.7 - 61 km WNW of Leni, Italy"
+      },
+      "id": "usgs-us6000u4bk",
+      "time_utc": "2026-10-23T10:19:16Z",
+      "summary": {
+        "en": "M 5.7 earthquake at 61 km WNW of Leni, Italy.",
+        "zh": "M 5.7 地震，位置：61 km WNW of Leni, Italy。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-24T00:03:30Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.9 - 53 km WNW of Leni, Italy",
+        "zh": "M 4.9 - 53 km WNW of Leni, Italy"
+      },
+      "id": "usgs-us6000u4bg",
+      "time_utc": "2026-10-23T09:51:39Z",
+      "summary": {
+        "en": "M 4.9 earthquake at 53 km WNW of Leni, Italy.",
+        "zh": "M 4.9 地震，位置：53 km WNW of Leni, Italy。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-24T00:03:30Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.5 - 18 km WNW of Bantogon, Philippines",
+        "zh": "M 4.5 - 18 km WNW of Bantogon, Philippines"
+      },
+      "id": "usgs-us6000u4b3",
+      "time_utc": "2026-10-23T09:09:36Z",
+      "summary": {
+        "en": "M 4.5 earthquake at 18 km WNW of Bantogon, Philippines.",
+        "zh": "M 4.5 地震，位置：18 km WNW of Bantogon, Philippines。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-24T00:03:30Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.5 - 58 km SW of Atocha, Bolivia",
+        "zh": "M 4.5 - 58 km SW of Atocha, Bolivia"
+      },
+      "id": "usgs-us6000u49c",
+      "time_utc": "2026-10-23T02:45:41Z",
+      "summary": {
+        "en": "M 4.5 earthquake at 58 km SW of Atocha, Bolivia.",
+        "zh": "M 4.5 地震，位置：58 km SW of Atocha, Bolivia。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-24T00:03:30Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.5 - 18 km NNW of Yongning, China",
+        "zh": "M 4.5 - 18 km NNW of Yongning, China"
+      },
+      "id": "usgs-us6000u49a",
+      "time_utc": "2026-10-23T02:17:01Z",
+      "summary": {
+        "en": "M 4.5 earthquake at 18 km NNW of Yongning, China.",
+        "zh": "M 4.5 地震，位置：18 km NNW of Yongning, China。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-24T00:03:30Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.5 - 102 km W of San Antonio de los Cobres, Argentina",
+        "zh": "M 4.5 - 102 km W of San Antonio de los Cobres, Argentina"
+      },
+      "id": "usgs-us6000u48i",
+      "time_utc": "2026-10-23T00:09:35Z",
+      "summary": {
+        "en": "M 4.5 earthquake at 102 km W of San Antonio de los Cobres, Argentina.",
+        "zh": "M 4.5 地震，位置：102 km W of San Antonio de los Cobres, Argentina。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-24T00:03:30Z"
+      }
+    }
+  ]
+}
