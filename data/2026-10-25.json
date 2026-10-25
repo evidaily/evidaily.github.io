@@ -1,67 +1,67 @@
 {
   "date": "2026-10-25",
-  "updated": "2026-10-25T08:00:00Z",
+  "updated": "2026-10-25T09:00:00Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 0.00 (0Z) at 06 UTC on 2026 10 25.",
-        "zh": "2026 年 10 月 25 日 06 UTC，估計行星 Kp 為 0.00（0Z）。"
+        "en": "Estimated planetary Kp is 0.00 (0Z) at 07 UTC on 2026 10 25.",
+        "zh": "2026 年 10 月 25 日 07 UTC，估計行星 Kp 為 0.00（0Z）。"
       },
       "id": "noaa-kp-1m",
-      "time_utc": "2026-10-25T06Z",
+      "time_utc": "2026-10-25T07Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 0.00 (0Z) at 2026-10-25T06 on 2026-10-25. The 06 hour is complete (60 samples through 06:59; hour-end 0.00/0Z). Last-180 maximum is 0.67. Published-window maximum is 0.67. Window starts 2026-10-25T01:59:00 (358 samples). Next hour 07:00 incomplete (57 samples).",
-        "zh": "最新可靠整點末值：2026-10-25T06 估計 Kp 0.00（0Z）。06 時段已收滿（60 筆至 06:59；時段末 0.00/0Z）。last-180 最大 0.67。公開窗最大 0.67。窗起點 2026-10-25T01:59:00（358 筆）。下一整點 07:00 未滿（57 筆）。"
+        "en": "Latest reliable hour-end estimated Kp is 0.00 (0Z) at 2026-10-25T07 on 2026-10-25. The 07 hour is complete (60 samples through 07:59; hour-end 0.00/0Z). Last-180 maximum is 0.67. Published-window maximum is 0.67. Window starts 2026-10-25T03:00:00 (358 samples). Next hour 08:00 incomplete (58 samples).",
+        "zh": "最新可靠整點末值：2026-10-25T07 估計 Kp 0.00（0Z）。07 時段已收滿（60 筆至 07:59；時段末 0.00/0Z）。last-180 最大 0.67。公開窗最大 0.67。窗起點 2026-10-25T03:00:00（358 筆）。下一整點 08:00 未滿（58 筆）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-25T08:00:00Z"
+        "fetched_at": "2026-10-25T09:00:00Z"
       },
       "data": {
         "estimated_kp": 0.0,
         "kp": "0Z",
-        "hour": "2026-10-25T06"
+        "hour": "2026-10-25T07"
       }
     },
     {
       "type": "earthquake",
       "title": {
-        "en": "M 4.5 - 91 km SSE of Akutan, Alaska",
-        "zh": "M 4.5 - 91 km SSE of Akutan, Alaska"
+        "en": "M 5.4 - 205 km NW of Port-Olry, Vanuatu",
+        "zh": "M 5.4 - 205 km NW of Port-Olry, Vanuatu"
       },
-      "id": "usgs-aka2026vdearz",
-      "time_utc": "2026-10-25T07:45:45Z",
+      "id": "usgs-us6000u4tc",
+      "time_utc": "2026-10-25T08:41:00Z",
       "summary": {
-        "en": "M 4.5 earthquake at 91 km SSE of Akutan, Alaska.",
-        "zh": "M 4.5 地震，位置：91 km SSE of Akutan, Alaska。"
+        "en": "M 5.4 earthquake at 205 km NW of Port-Olry, Vanuatu.",
+        "zh": "M 5.4 地震，位置：205 km NW of Port-Olry, Vanuatu。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-25T08:00:00Z"
+        "fetched_at": "2026-10-25T09:00:00Z"
       }
     },
     {
       "type": "earthquake",
       "title": {
-        "en": "M 4.5 - 89 km SSE of Akutan, Alaska",
-        "zh": "M 4.5 - 89 km SSE of Akutan, Alaska"
+        "en": "M 4.6 - 82 km SSE of Akutan, Alaska",
+        "zh": "M 4.6 - 82 km SSE of Akutan, Alaska"
       },
-      "id": "usgs-aka2026vddzqy",
-      "time_utc": "2026-10-25T07:44:29Z",
+      "id": "usgs-us6000u4t8",
+      "time_utc": "2026-10-25T07:44:32Z",
       "summary": {
-        "en": "M 4.5 earthquake at 89 km SSE of Akutan, Alaska.",
-        "zh": "M 4.5 地震，位置：89 km SSE of Akutan, Alaska。"
+        "en": "M 4.6 earthquake at 82 km SSE of Akutan, Alaska.",
+        "zh": "M 4.6 地震，位置：82 km SSE of Akutan, Alaska。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-25T08:00:00Z"
+        "fetched_at": "2026-10-25T09:00:00Z"
       }
     },
     {
@@ -80,7 +80,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-25T08:00:00Z"
+        "fetched_at": "2026-10-25T09:00:00Z"
       }
     },
     {
@@ -99,7 +99,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-25T08:00:00Z"
+        "fetched_at": "2026-10-25T09:00:00Z"
       }
     },
     {
@@ -118,7 +118,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-25T08:00:00Z"
+        "fetched_at": "2026-10-25T09:00:00Z"
       }
     },
     {
@@ -137,7 +137,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-25T08:00:00Z"
+        "fetched_at": "2026-10-25T09:00:00Z"
       }
     },
     {
@@ -156,7 +156,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-25T08:00:00Z"
+        "fetched_at": "2026-10-25T09:00:00Z"
       }
     },
     {
@@ -175,7 +175,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-25T08:00:00Z"
+        "fetched_at": "2026-10-25T09:00:00Z"
       }
     }
   ]
