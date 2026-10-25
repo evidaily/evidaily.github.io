@@ -1,29 +1,48 @@
 {
   "date": "2026-10-25",
-  "updated": "2026-10-25T10:00:00Z",
+  "updated": "2026-10-25T11:00:00Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 0.33 (0P) at 08 UTC on 2026 10 25.",
-        "zh": "2026 年 10 月 25 日 08 UTC，估計行星 Kp 為 0.33（0P）。"
+        "en": "Estimated planetary Kp is 0.33 (0P) at 09 UTC on 2026 10 25.",
+        "zh": "2026 年 10 月 25 日 09 UTC，估計行星 Kp 為 0.33（0P）。"
       },
       "id": "noaa-kp-1m",
-      "time_utc": "2026-10-25T08Z",
+      "time_utc": "2026-10-25T09Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 0.33 (0P) at 2026-10-25T08 on 2026-10-25. The 08 hour is complete (60 samples through 08:59; hour-end 0.33/0P). Last-180 maximum is 0.67. Published-window maximum is 0.67. Window starts 2026-10-25T04:00:00 (358 samples). Next hour 09:00 incomplete (58 samples).",
-        "zh": "最新可靠整點末值：2026-10-25T08 估計 Kp 0.33（0P）。08 時段已收滿（60 筆至 08:59；時段末 0.33/0P）。last-180 最大 0.67。公開窗最大 0.67。窗起點 2026-10-25T04:00:00（358 筆）。下一整點 09:00 未滿（58 筆）。"
+        "en": "Latest reliable hour-end estimated Kp is 0.33 (0P) at 2026-10-25T09 on 2026-10-25. The 09 hour is complete (60 samples through 09:59; hour-end 0.33/0P). Last-180 maximum is 1.0. Published-window maximum is 1.0. Window starts 2026-10-25T05:00:00 (358 samples). Next hour 10:00 incomplete (58 samples).",
+        "zh": "最新可靠整點末值：2026-10-25T09 估計 Kp 0.33（0P）。09 時段已收滿（60 筆至 09:59；時段末 0.33/0P）。last-180 最大 1.0。公開窗最大 1.0。窗起點 2026-10-25T05:00:00（358 筆）。下一整點 10:00 未滿（58 筆）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-25T10:00:00Z"
+        "fetched_at": "2026-10-25T11:00:00Z"
       },
       "data": {
         "estimated_kp": 0.33,
         "kp": "0P",
-        "hour": "2026-10-25T08"
+        "hour": "2026-10-25T09"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 5.4 - 33 km ESE of Ambunti, Papua New Guinea",
+        "zh": "M 5.4 - 33 km ESE of Ambunti, Papua New Guinea"
+      },
+      "id": "usgs-us6000u4tq",
+      "time_utc": "2026-10-25T10:30:27Z",
+      "summary": {
+        "en": "M 5.4 earthquake at 33 km ESE of Ambunti, Papua New Guinea.",
+        "zh": "M 5.4 地震，位置：33 km ESE of Ambunti, Papua New Guinea。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-25T11:00:00Z"
       }
     },
     {
@@ -42,7 +61,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-25T10:00:00Z"
+        "fetched_at": "2026-10-25T11:00:00Z"
       }
     },
     {
@@ -61,7 +80,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-25T10:00:00Z"
+        "fetched_at": "2026-10-25T11:00:00Z"
       }
     },
     {
@@ -80,7 +99,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-25T10:00:00Z"
+        "fetched_at": "2026-10-25T11:00:00Z"
       }
     },
     {
@@ -99,26 +118,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-25T10:00:00Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.5 - 74 km SSE of Onagawa Chō, Japan",
-        "zh": "M 4.5 - 74 km SSE of Onagawa Chō, Japan"
-      },
-      "id": "usgs-us6000u4sv",
-      "time_utc": "2026-10-25T06:04:22Z",
-      "summary": {
-        "en": "M 4.5 earthquake at 74 km SSE of Onagawa Chō, Japan.",
-        "zh": "M 4.5 地震，位置：74 km SSE of Onagawa Chō, Japan。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-25T10:00:00Z"
+        "fetched_at": "2026-10-25T11:00:00Z"
       }
     }
   ]
