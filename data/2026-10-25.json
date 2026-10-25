@@ -1,29 +1,67 @@
 {
   "date": "2026-10-25",
-  "updated": "2026-10-25T11:00:00Z",
+  "updated": "2026-10-25T12:00:00Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 0.33 (0P) at 09 UTC on 2026 10 25.",
-        "zh": "2026 年 10 月 25 日 09 UTC，估計行星 Kp 為 0.33（0P）。"
+        "en": "Estimated planetary Kp is 1.0 (1Z) at 10 UTC on 2026 10 25.",
+        "zh": "2026 年 10 月 25 日 10 UTC，估計行星 Kp 為 1.0（1Z）。"
       },
       "id": "noaa-kp-1m",
-      "time_utc": "2026-10-25T09Z",
+      "time_utc": "2026-10-25T10Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 0.33 (0P) at 2026-10-25T09 on 2026-10-25. The 09 hour is complete (60 samples through 09:59; hour-end 0.33/0P). Last-180 maximum is 1.0. Published-window maximum is 1.0. Window starts 2026-10-25T05:00:00 (358 samples). Next hour 10:00 incomplete (58 samples).",
-        "zh": "最新可靠整點末值：2026-10-25T09 估計 Kp 0.33（0P）。09 時段已收滿（60 筆至 09:59；時段末 0.33/0P）。last-180 最大 1.0。公開窗最大 1.0。窗起點 2026-10-25T05:00:00（358 筆）。下一整點 10:00 未滿（58 筆）。"
+        "en": "Latest reliable hour-end estimated Kp is 1.0 (1Z) at 2026-10-25T10 on 2026-10-25. The 10 hour is complete (60 samples through 10:59; hour-end 1.0/1Z). Last-180 maximum is 1.0. Published-window maximum is 1.0. Window starts 2026-10-25T06:01:00 (358 samples). Next hour 11:00 incomplete (59 samples).",
+        "zh": "最新可靠整點末值：2026-10-25T10 估計 Kp 1.0（1Z）。10 時段已收滿（60 筆至 10:59；時段末 1.0/1Z）。last-180 最大 1.0。公開窗最大 1.0。窗起點 2026-10-25T06:01:00（358 筆）。下一整點 11:00 未滿（59 筆）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-25T11:00:00Z"
+        "fetched_at": "2026-10-25T12:00:00Z"
       },
       "data": {
-        "estimated_kp": 0.33,
-        "kp": "0P",
-        "hour": "2026-10-25T09"
+        "estimated_kp": 1.0,
+        "kp": "1Z",
+        "hour": "2026-10-25T10"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 5.8 - 209 km ENE of Nagqu, China",
+        "zh": "M 5.8 - 209 km ENE of Nagqu, China"
+      },
+      "id": "usgs-us6000u4ty",
+      "time_utc": "2026-10-25T11:25:57Z",
+      "summary": {
+        "en": "M 5.8 earthquake at 209 km ENE of Nagqu, China.",
+        "zh": "M 5.8 地震，位置：209 km ENE of Nagqu, China。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-25T12:00:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 5.1 - 199 km ENE of Nagqu, China",
+        "zh": "M 5.1 - 199 km ENE of Nagqu, China"
+      },
+      "id": "usgs-us6000u4tx",
+      "time_utc": "2026-10-25T11:24:14Z",
+      "summary": {
+        "en": "M 5.1 earthquake at 199 km ENE of Nagqu, China.",
+        "zh": "M 5.1 地震，位置：199 km ENE of Nagqu, China。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-25T12:00:00Z"
       }
     },
     {
@@ -42,7 +80,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-25T11:00:00Z"
+        "fetched_at": "2026-10-25T12:00:00Z"
       }
     },
     {
@@ -61,7 +99,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-25T11:00:00Z"
+        "fetched_at": "2026-10-25T12:00:00Z"
       }
     },
     {
@@ -80,45 +118,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-25T11:00:00Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.6 - 82 km SSE of Akutan, Alaska",
-        "zh": "M 4.6 - 82 km SSE of Akutan, Alaska"
-      },
-      "id": "usgs-us6000u4t8",
-      "time_utc": "2026-10-25T07:44:32Z",
-      "summary": {
-        "en": "M 4.6 earthquake at 82 km SSE of Akutan, Alaska.",
-        "zh": "M 4.6 地震，位置：82 km SSE of Akutan, Alaska。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-25T11:00:00Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.6 - 50 km SW of Atiquipa, Peru",
-        "zh": "M 4.6 - 50 km SW of Atiquipa, Peru"
-      },
-      "id": "usgs-us6000u4t4",
-      "time_utc": "2026-10-25T07:11:49Z",
-      "summary": {
-        "en": "M 4.6 earthquake at 50 km SW of Atiquipa, Peru.",
-        "zh": "M 4.6 地震，位置：50 km SW of Atiquipa, Peru。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-25T11:00:00Z"
+        "fetched_at": "2026-10-25T12:00:00Z"
       }
     }
   ]
