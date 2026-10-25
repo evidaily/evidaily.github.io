@@ -1,29 +1,48 @@
 {
   "date": "2026-10-25",
-  "updated": "2026-10-25T22:00:00Z",
+  "updated": "2026-10-25T23:00:00Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 1.0 (1Z) at 20 UTC on 2026 10 25.",
-        "zh": "2026 年 10 月 25 日 20 UTC，估計行星 Kp 為 1.0（1Z）。"
+        "en": "Estimated planetary Kp is 0.33 (0P) at 21 UTC on 2026 10 25.",
+        "zh": "2026 年 10 月 25 日 21 UTC，估計行星 Kp 為 0.33（0P）。"
       },
       "id": "noaa-kp-1m",
-      "time_utc": "2026-10-25T20Z",
+      "time_utc": "2026-10-25T21Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 1.0 (1Z) at 2026-10-25T20 on 2026-10-25. The 20 hour is complete (60 samples through 20:59; hour-end 1.0/1Z). Last-180 maximum is 1.0. Published-window maximum is 1.0. Window starts 2026-10-25T16:00:00 (357 samples). Next hour 22:00 not yet started (0 samples). 21:00 hour has 57 samples (not yet full).",
-        "zh": "最新可靠整點末值：2026-10-25T20 估計 Kp 1.0（1Z）。20 時段已收滿（60 筆至 20:59；時段末 1.0/1Z）。last-180 最大 1.0。公開窗最大 1.0。窗起點 2026-10-25T16:00:00（357 筆）。下一整點 22:00 尚未開始（0 筆）。21:00 時段有 57 筆（尚未收滿）。"
+        "en": "Latest reliable hour-end estimated Kp is 0.33 (0P) at 2026-10-25T21 on 2026-10-25. The 21 hour is complete (60 samples through 21:59; hour-end 0.33/0P). Last-180 maximum is 1.0. Published-window maximum is 1.0. Window starts 2026-10-25T16:59:00 (357 samples). Next hour 23:00 not yet started (0 samples). 22:00 hour has 58 samples (not yet full).",
+        "zh": "最新可靠整點末值：2026-10-25T21 估計 Kp 0.33（0P）。21 時段已收滿（60 筆至 21:59；時段末 0.33/0P）。last-180 最大 1.0。公開窗最大 1.0。窗起點 2026-10-25T16:59:00（357 筆）。下一整點 23:00 尚未開始（0 筆）。22:00 時段有 58 筆（尚未收滿）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-25T22:00:00Z"
+        "fetched_at": "2026-10-25T23:00:00Z"
       },
       "data": {
-        "estimated_kp": 1.0,
-        "kp": "1Z",
-        "hour": "2026-10-25T20"
+        "estimated_kp": 0.33,
+        "kp": "0P",
+        "hour": "2026-10-25T21"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 5.3 - Bonin Islands, Japan region",
+        "zh": "M 5.3 - Bonin Islands, Japan region"
+      },
+      "id": "usgs-us6000u4we",
+      "time_utc": "2026-10-25T22:14:15Z",
+      "summary": {
+        "en": "M 5.3 earthquake at Bonin Islands, Japan region.",
+        "zh": "M 5.3 地震，位置：Bonin Islands, Japan region。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-25T23:00:00Z"
       }
     },
     {
@@ -42,7 +61,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-25T22:00:00Z"
+        "fetched_at": "2026-10-25T23:00:00Z"
       }
     },
     {
@@ -61,7 +80,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-25T22:00:00Z"
+        "fetched_at": "2026-10-25T23:00:00Z"
       }
     },
     {
@@ -80,7 +99,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-25T22:00:00Z"
+        "fetched_at": "2026-10-25T23:00:00Z"
       }
     },
     {
@@ -99,7 +118,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-25T22:00:00Z"
+        "fetched_at": "2026-10-25T23:00:00Z"
       }
     },
     {
@@ -118,26 +137,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-25T22:00:00Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 5.1 - 199 km ENE of Nagqu, China",
-        "zh": "M 5.1 - 199 km ENE of Nagqu, China"
-      },
-      "id": "usgs-us6000u4tx",
-      "time_utc": "2026-10-25T11:24:14Z",
-      "summary": {
-        "en": "M 5.1 earthquake at 199 km ENE of Nagqu, China.",
-        "zh": "M 5.1 地震，位置：199 km ENE of Nagqu, China。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-25T22:00:00Z"
+        "fetched_at": "2026-10-25T23:00:00Z"
       }
     }
   ]
