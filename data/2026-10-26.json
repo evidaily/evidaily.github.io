@@ -1,29 +1,48 @@
 {
   "date": "2026-10-26",
-  "updated": "2026-10-26T19:00:00Z",
+  "updated": "2026-10-26T20:00:00Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 1.33 (1P) at 17 UTC on 2026 10 26.",
-        "zh": "2026 年 10 月 26 日 17 UTC，估算行星 Kp 約為 1.33（1P）。"
+        "en": "Estimated planetary Kp is 0.67 (1M) at 18 UTC on 2026 10 26.",
+        "zh": "2026 年 10 月 26 日 18 UTC，估算行星 Kp 約為 0.67（1M）。"
       },
       "id": "noaa-kp-1m",
-      "time_utc": "2026-10-26T17Z",
+      "time_utc": "2026-10-26T18Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 1.33 (1P) at 2026-10-26T17 on 2026-10-26. The 17 hour is complete (60 samples through 17:59; hour-end 1.33/1P). Last-180 maximum is 1.67. Published-window maximum is 2.0. Window starts 2026-10-26T12:59:00 (358 samples). Next hour 18:00 has 57 samples (not yet full).",
-        "zh": "最新可靠整點末估算：2026-10-26T17 估算 Kp 1.33（1P）。17 時段已收滿（60 筆至 17:59；時段末 1.33/1P）。last-180 最大 1.67。公開窗最大 2.0。窗起點 2026-10-26T12:59:00（358 筆）。下一整點 18:00 有 57 筆（尚未收滿）。"
+        "en": "Latest reliable hour-end estimated Kp is 0.67 (1M) at 2026-10-26T18 on 2026-10-26. The 18 hour is complete (60 samples through 18:59; hour-end 0.67/1M). Last-180 maximum is 1.67. Published-window maximum is 2.0. Window starts 2026-10-26T14:00:00 (358 samples). Next hour 19:00 has 58 samples (not yet full).",
+        "zh": "最新可靠整點末估算：2026-10-26T18 估算 Kp 0.67（1M）。18 時段已收滿（60 筆至 18:59；時段末 0.67/1M）。last-180 最大 1.67。公開窗最大 2.0。窗起點 2026-10-26T14:00:00（358 筆）。下一整點 19:00 有 58 筆（尚未收滿）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-26T19:00:00Z"
+        "fetched_at": "2026-10-26T20:00:00Z"
       },
       "data": {
-        "estimated_kp": 1.33,
-        "kp": "1P",
-        "hour": "2026-10-26T17"
+        "estimated_kp": 0.67,
+        "kp": "1M",
+        "hour": "2026-10-26T18"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.9 - 100 km E of La Tirana, Chile",
+        "zh": "M 4.9 - 100 km E of La Tirana, Chile"
+      },
+      "id": "usgs-us7000ttbh",
+      "time_utc": "2026-10-26T19:36:16Z",
+      "summary": {
+        "en": "M 4.9 earthquake at 100 km E of La Tirana, Chile.",
+        "zh": "M 4.9 地震，位置：100 km E of La Tirana, Chile。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-26T20:00:00Z"
       }
     },
     {
@@ -42,7 +61,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T19:00:00Z"
+        "fetched_at": "2026-10-26T20:00:00Z"
       }
     },
     {
@@ -61,7 +80,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T19:00:00Z"
+        "fetched_at": "2026-10-26T20:00:00Z"
       }
     },
     {
@@ -80,26 +99,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T19:00:00Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 5 - 218 km NW of Port-Olry, Vanuatu",
-        "zh": "M 5 - 218 km NW of Port-Olry, Vanuatu"
-      },
-      "id": "usgs-us6000u4z6",
-      "time_utc": "2026-10-26T11:17:55Z",
-      "summary": {
-        "en": "M 5 earthquake at 218 km NW of Port-Olry, Vanuatu.",
-        "zh": "M 5 地震，位置：218 km NW of Port-Olry, Vanuatu。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T19:00:00Z"
+        "fetched_at": "2026-10-26T20:00:00Z"
       }
     }
   ]
