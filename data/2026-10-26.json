@@ -1,0 +1,144 @@
+{
+  "date": "2026-10-26",
+  "updated": "2026-10-26T00:01:00Z",
+  "entries": [
+    {
+      "type": "space-weather",
+      "title": {
+        "en": "Estimated planetary Kp is 1.0 (1Z) at 22 UTC on 2026 10 25.",
+        "zh": "2026 年 10 月 25 日 22 UTC，估計行星 Kp 為 1.0（1Z）。"
+      },
+      "id": "noaa-kp-1m",
+      "time_utc": "2026-10-25T22Z",
+      "summary": {
+        "en": "Latest reliable hour-end estimated Kp is 1.0 (1Z) at 2026-10-25T22 on 2026-10-25. The 22 hour is complete (60 samples through 22:59; hour-end 1/1Z). Last-180 maximum is 1.33. Published-window maximum is 1.33. Window starts 2026-10-25T18:02:00 (357 samples). Next hour 00:00 not yet started (0 samples). 23:00 hour has 59 samples (not yet full).",
+        "zh": "最新可靠整點末值：2026-10-25T22 估計 Kp 1.0（1Z）。22 時段已收滿（60 筆至 22:59；時段末 1/1Z）。last-180 最大 1.33。公開窗最大 1.33。窗起點 2026-10-25T18:02:00（357 筆）。下一整點 00:00 尚未開始（0 筆）。23:00 時段有 59 筆（尚未收滿）。"
+      },
+      "evidence": {
+        "source": "NOAA SWPC planetary_k_index_1m.json",
+        "source_name": "NOAA SWPC",
+        "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
+        "fetched_at": "2026-10-26T00:01:00Z"
+      },
+      "data": {
+        "estimated_kp": 1.0,
+        "kp": "1Z",
+        "hour": "2026-10-25T22"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.8 - Bonin Islands, Japan region",
+        "zh": "M 4.8 - Bonin Islands, Japan region"
+      },
+      "id": "usgs-us6000u4wi",
+      "time_utc": "2026-10-25T22:16:27Z",
+      "summary": {
+        "en": "M 4.8 earthquake at Bonin Islands, Japan region.",
+        "zh": "M 4.8 地震，位置：Bonin Islands, Japan region。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-26T00:01:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 5.3 - Bonin Islands, Japan region",
+        "zh": "M 5.3 - Bonin Islands, Japan region"
+      },
+      "id": "usgs-us6000u4we",
+      "time_utc": "2026-10-25T22:14:15Z",
+      "summary": {
+        "en": "M 5.3 earthquake at Bonin Islands, Japan region.",
+        "zh": "M 5.3 地震，位置：Bonin Islands, Japan region。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-26T00:01:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.8 - 167 km WNW of Port-Olry, Vanuatu",
+        "zh": "M 4.8 - 167 km WNW of Port-Olry, Vanuatu"
+      },
+      "id": "usgs-us6000u4vy",
+      "time_utc": "2026-10-25T20:30:42Z",
+      "summary": {
+        "en": "M 4.8 earthquake at 167 km WNW of Port-Olry, Vanuatu.",
+        "zh": "M 4.8 地震，位置：167 km WNW of Port-Olry, Vanuatu。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-26T00:01:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.6 - 153 km WNW of Adak, Alaska",
+        "zh": "M 4.6 - 153 km WNW of Adak, Alaska"
+      },
+      "id": "usgs-us6000u4vb",
+      "time_utc": "2026-10-25T17:49:58Z",
+      "summary": {
+        "en": "M 4.6 earthquake at 153 km WNW of Adak, Alaska.",
+        "zh": "M 4.6 地震，位置：153 km WNW of Adak, Alaska。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-26T00:01:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 5.2 - 59 km SW of Ashkāsham, Afghanistan",
+        "zh": "M 5.2 - 59 km SW of Ashkāsham, Afghanistan"
+      },
+      "id": "usgs-us6000u4va",
+      "time_utc": "2026-10-25T17:44:23Z",
+      "summary": {
+        "en": "M 5.2 earthquake at 59 km SW of Ashkāsham, Afghanistan.",
+        "zh": "M 5.2 地震，位置：59 km SW of Ashkāsham, Afghanistan。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-26T00:01:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.7 - 19 km NE of Atico, Peru",
+        "zh": "M 4.7 - 19 km NE of Atico, Peru"
+      },
+      "id": "usgs-us6000u4v1",
+      "time_utc": "2026-10-25T17:11:49Z",
+      "summary": {
+        "en": "M 4.7 earthquake at 19 km NE of Atico, Peru.",
+        "zh": "M 4.7 地震，位置：19 km NE of Atico, Peru。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-26T00:01:00Z"
+      }
+    }
+  ]
+}
