@@ -1,29 +1,48 @@
 {
   "date": "2026-10-26",
-  "updated": "2026-10-26T04:01:42Z",
+  "updated": "2026-10-26T05:01:38Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 0.67 (1M) at 02 UTC on 2026 10 26.",
-        "zh": "2026 年 10 月 26 日 02 UTC，估計行星 Kp 約為 0.67（1M）。"
+        "en": "Estimated planetary Kp is 0.67 (1M) at 03 UTC on 2026 10 26.",
+        "zh": "2026 年 10 月 26 日 03 UTC，估計行星 Kp 約為 0.67（1M）。"
       },
       "id": "noaa-kp-1m",
-      "time_utc": "2026-10-26T02Z",
+      "time_utc": "2026-10-26T03Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 0.67 (1M) at 2026-10-26T02 on 2026-10-26. The 02 hour is complete (60 samples through 02:59; hour-end 0.67/1M). Last-180 maximum is 0.67. Published-window maximum is 1.33. Window starts 2026-10-25T22:01:00 (358 samples). Next hour 03:00 has 59 samples (not yet full). 04:00 not yet started or just beginning (0 samples).",
-        "zh": "最新可靠整點末估計：2026-10-26T02 估計 Kp 0.67（1M）。02 時段已收滿（60 筆至 02:59；時段末 0.67/1M）。last-180 最大 0.67。公開窗最大 1.33。窗起點 2026-10-25T22:01:00（358 筆）。下一整點 03:00 有 59 筆（尚未收滿）。04:00 尚未開始或剛開始（0 筆）。"
+        "en": "Latest reliable hour-end estimated Kp is 0.67 (1M) at 2026-10-26T03 on 2026-10-26. The 03 hour is complete (60 samples through 03:59; hour-end 0.67/1M). Last-180 maximum is 0.67. Published-window maximum is 1.33. Window starts 2026-10-25T23:00:00 (358 samples). Next hour 04:00 has 58 samples (not yet full). 05:00 not yet started or just beginning (0 samples).",
+        "zh": "最新可靠整點末估計：2026-10-26T03 估計 Kp 0.67（1M）。03 時段已收滿（60 筆至 03:59；時段末 0.67/1M）。last-180 最大 0.67。公開窗最大 1.33。窗起點 2026-10-25T23:00:00（358 筆）。下一整點 04:00 有 58 筆（尚未收滿）。05:00 尚未開始或剛開始（0 筆）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-26T04:01:42Z"
+        "fetched_at": "2026-10-26T05:01:38Z"
       },
       "data": {
         "estimated_kp": 0.67,
         "kp": "1M",
-        "hour": "2026-10-26T02"
+        "hour": "2026-10-26T03"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.8 - 41 km WNW of Kupang, Indonesia",
+        "zh": "M 4.8 - 41 km WNW of Kupang, Indonesia"
+      },
+      "id": "usgs-6000u4xp",
+      "time_utc": "2026-10-26T03:59:22Z",
+      "summary": {
+        "en": "M 4.8 earthquake at 41 km WNW of Kupang, Indonesia.",
+        "zh": "M 4.8 地震，位置：41 km WNW of Kupang, Indonesia。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-26T05:01:38Z"
       }
     },
     {
@@ -42,7 +61,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T04:01:42Z"
+        "fetched_at": "2026-10-26T05:01:38Z"
       }
     },
     {
@@ -61,7 +80,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T04:01:42Z"
+        "fetched_at": "2026-10-26T05:01:38Z"
       }
     },
     {
@@ -80,7 +99,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T04:01:42Z"
+        "fetched_at": "2026-10-26T05:01:38Z"
       }
     },
     {
@@ -99,7 +118,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T04:01:42Z"
+        "fetched_at": "2026-10-26T05:01:38Z"
       }
     },
     {
@@ -118,26 +137,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T04:01:42Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.6 - 153 km WNW of Adak, Alaska",
-        "zh": "M 4.6 - 153 km WNW of Adak, Alaska"
-      },
-      "id": "usgs-6000u4vb",
-      "time_utc": "2026-10-25T17:49:58Z",
-      "summary": {
-        "en": "M 4.6 earthquake at 153 km WNW of Adak, Alaska.",
-        "zh": "M 4.6 地震，位置：153 km WNW of Adak, Alaska。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T04:01:42Z"
+        "fetched_at": "2026-10-26T05:01:38Z"
       }
     }
   ]
