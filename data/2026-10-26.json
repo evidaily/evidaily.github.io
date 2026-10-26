@@ -1,29 +1,29 @@
 {
   "date": "2026-10-26",
-  "updated": "2026-10-26T16:03:00Z",
+  "updated": "2026-10-26T17:00:00Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 2.0 (2Z) at 14 UTC on 2026 10 26.",
-        "zh": "2026 年 10 月 26 日 14 UTC，估算行星 Kp 約為 2.0（2Z）。"
+        "en": "Estimated planetary Kp is 0.67 (1M) at 15 UTC on 2026 10 26.",
+        "zh": "2026 年 10 月 26 日 15 UTC，估算行星 Kp 約為 0.67（1M）。"
       },
       "id": "noaa-kp-1m",
-      "time_utc": "2026-10-26T14Z",
+      "time_utc": "2026-10-26T15Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 2.0 (2Z) at 2026-10-26T14 on 2026-10-26. The 14 hour is complete (60 samples through 14:59; hour-end 2.0/2Z). Last-180 maximum is 2.0. Published-window maximum is 2.0. Window starts 2026-10-26T10:00:00 (358 samples). Next hour 15:00 has 58 samples (not yet full).",
-        "zh": "最新可靠整點末估算：2026-10-26T14 估算 Kp 2.0（2Z）。14 時段已收滿（60 筆至 14:59；時段末 2.0/2Z）。last-180 最大 2.0。公開窗最大 2.0。窗起點 2026-10-26T10:00:00（358 筆）。下一整點 15:00 有 58 筆（尚未收滿）。"
+        "en": "Latest reliable hour-end estimated Kp is 0.67 (1M) at 2026-10-26T15 on 2026-10-26. The 15 hour is complete (60 samples through 15:59; hour-end 0.67/1M). Last-180 maximum is 2.0. Published-window maximum is 2.0. Window starts 2026-10-26T10:59:00 (358 samples). Next hour 16:00 has 57 samples (not yet full).",
+        "zh": "最新可靠整點末估算：2026-10-26T15 估算 Kp 0.67（1M）。15 時段已收滿（60 筆至 15:59；時段末 0.67/1M）。last-180 最大 2.0。公開窗最大 2.0。窗起點 2026-10-26T10:59:00（358 筆）。下一整點 16:00 有 57 筆（尚未收滿）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-26T16:03:00Z"
+        "fetched_at": "2026-10-26T17:00:00Z"
       },
       "data": {
-        "estimated_kp": 2.0,
-        "kp": "2Z",
-        "hour": "2026-10-26T14"
+        "estimated_kp": 0.67,
+        "kp": "1M",
+        "hour": "2026-10-26T15"
       }
     },
     {
@@ -42,7 +42,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T16:03:00Z"
+        "fetched_at": "2026-10-26T17:00:00Z"
       }
     },
     {
@@ -61,7 +61,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T16:03:00Z"
+        "fetched_at": "2026-10-26T17:00:00Z"
       }
     },
     {
@@ -80,7 +80,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T16:03:00Z"
+        "fetched_at": "2026-10-26T17:00:00Z"
       }
     },
     {
@@ -99,121 +99,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T16:03:00Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 5.5 - 283 km E of Levuka, Fiji",
-        "zh": "M 5.5 - 283 km E of Levuka, Fiji"
-      },
-      "id": "usgs-us6000u4yr",
-      "time_utc": "2026-10-26T10:13:01Z",
-      "summary": {
-        "en": "M 5.5 earthquake at 283 km E of Levuka, Fiji.",
-        "zh": "M 5.5 地震，位置：283 km E of Levuka, Fiji。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T16:03:00Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.5 - 56 km S of Kuril’sk, Russia",
-        "zh": "M 4.5 - 56 km S of Kuril’sk, Russia"
-      },
-      "id": "usgs-us6000u4yj",
-      "time_utc": "2026-10-26T08:10:33Z",
-      "summary": {
-        "en": "M 4.5 earthquake at 56 km S of Kuril’sk, Russia.",
-        "zh": "M 4.5 地震，位置：56 km S of Kuril’sk, Russia。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T16:03:00Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.5 - 107 km WNW of Tumxuk, China",
-        "zh": "M 4.5 - 107 km WNW of Tumxuk, China"
-      },
-      "id": "usgs-us6000u4yi",
-      "time_utc": "2026-10-26T07:48:16Z",
-      "summary": {
-        "en": "M 4.5 earthquake at 107 km WNW of Tumxuk, China.",
-        "zh": "M 4.5 地震，位置：107 km WNW of Tumxuk, China。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T16:03:00Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 5 - 45 km NNW of Ende, Indonesia",
-        "zh": "M 5 - 45 km NNW of Ende, Indonesia"
-      },
-      "id": "usgs-us6000u4y1",
-      "time_utc": "2026-10-26T04:53:40Z",
-      "summary": {
-        "en": "M 5 earthquake at 45 km NNW of Ende, Indonesia.",
-        "zh": "M 5 地震，位置：45 km NNW of Ende, Indonesia。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T16:03:00Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.8 - 182 km NW of Port-Olry, Vanuatu",
-        "zh": "M 4.8 - 182 km NW of Port-Olry, Vanuatu"
-      },
-      "id": "usgs-us6000u4y2",
-      "time_utc": "2026-10-26T04:53:35Z",
-      "summary": {
-        "en": "M 4.8 earthquake at 182 km NW of Port-Olry, Vanuatu.",
-        "zh": "M 4.8 地震，位置：182 km NW of Port-Olry, Vanuatu。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T16:03:00Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.8 - 41 km WNW of Kupang, Indonesia",
-        "zh": "M 4.8 - 41 km WNW of Kupang, Indonesia"
-      },
-      "id": "usgs-us6000u4xp",
-      "time_utc": "2026-10-26T03:59:22Z",
-      "summary": {
-        "en": "M 4.8 earthquake at 41 km WNW of Kupang, Indonesia.",
-        "zh": "M 4.8 地震，位置：41 km WNW of Kupang, Indonesia。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T16:03:00Z"
+        "fetched_at": "2026-10-26T17:00:00Z"
       }
     }
   ]
