@@ -1,29 +1,67 @@
 {
   "date": "2026-10-26",
-  "updated": "2026-10-26T11:00:00Z",
+  "updated": "2026-10-26T12:00:00Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 1.67 (2M) at 09 UTC on 2026 10 26.",
-        "zh": "2026 年 10 月 26 日 09 UTC，估計行星 Kp 約為 1.67（2M）。"
+        "en": "Estimated planetary Kp is 2 (2Z) at 10 UTC on 2026 10 26.",
+        "zh": "2026 年 10 月 26 日 10 UTC，估計行星 Kp 約為 2（2Z）。"
       },
       "id": "noaa-kp-1m",
-      "time_utc": "2026-10-26T09Z",
+      "time_utc": "2026-10-26T10Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 1.67 (2M) at 2026-10-26T09 on 2026-10-26. The 09 hour is complete (60 samples through 09:59; hour-end 1.67/2M). Last-180 maximum is 2.0. Published-window maximum is 2.0. Window starts 2026-10-26T05:01:00 (358 samples). Next hour 10:00 has 59 samples (not yet full).",
-        "zh": "最新可靠整點末估計：2026-10-26T09 估計 Kp 1.67（2M）。09 時段已收滿（60 筆至 09:59；時段末 1.67/2M）。last-180 最大 2.0。公開窗最大 2.0。窗起點 2026-10-26T05:01:00（358 筆）。下一整點 10:00 有 59 筆（尚未收滿）。"
+        "en": "Latest reliable hour-end estimated Kp is 2 (2Z) at 2026-10-26T10 on 2026-10-26. The 10 hour is complete (60 samples through 10:59; hour-end 2/2Z). Last-180 maximum is 2.0. Published-window maximum is 2.0. Window starts 2026-10-26T06:01:00 (358 samples). Next hour 11:00 has 59 samples (not yet full).",
+        "zh": "最新可靠整點末估計：2026-10-26T10 估計 Kp 2（2Z）。10 時段已收滿（60 筆至 10:59；時段末 2/2Z）。last-180 最大 2.0。公開窗最大 2.0。窗起點 2026-10-26T06:01:00（358 筆）。下一整點 11:00 有 59 筆（尚未收滿）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-26T11:00:00Z"
+        "fetched_at": "2026-10-26T12:00:00Z"
       },
       "data": {
-        "estimated_kp": 1.67,
-        "kp": "2M",
-        "hour": "2026-10-26T09"
+        "estimated_kp": 2,
+        "kp": "2Z",
+        "hour": "2026-10-26T10"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.6 - 81 km SSE of Akutan, Alaska",
+        "zh": "M 4.6 - 81 km SSE of Akutan, Alaska"
+      },
+      "id": "usgs-us6000u4z7",
+      "time_utc": "2026-10-26T11:38:06Z",
+      "summary": {
+        "en": "M 4.6 earthquake at 81 km SSE of Akutan, Alaska.",
+        "zh": "M 4.6 地震，位置：81 km SSE of Akutan, Alaska。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-26T12:00:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 5 - 218 km NW of Port-Olry, Vanuatu",
+        "zh": "M 5 - 218 km NW of Port-Olry, Vanuatu"
+      },
+      "id": "usgs-us6000u4z6",
+      "time_utc": "2026-10-26T11:17:55Z",
+      "summary": {
+        "en": "M 5 earthquake at 218 km NW of Port-Olry, Vanuatu.",
+        "zh": "M 5 地震，位置：218 km NW of Port-Olry, Vanuatu。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-26T12:00:00Z"
       }
     },
     {
@@ -42,7 +80,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T11:00:00Z"
+        "fetched_at": "2026-10-26T12:00:00Z"
       }
     },
     {
@@ -61,7 +99,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T11:00:00Z"
+        "fetched_at": "2026-10-26T12:00:00Z"
       }
     },
     {
@@ -80,7 +118,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T11:00:00Z"
+        "fetched_at": "2026-10-26T12:00:00Z"
       }
     },
     {
@@ -99,7 +137,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T11:00:00Z"
+        "fetched_at": "2026-10-26T12:00:00Z"
       }
     },
     {
@@ -118,7 +156,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T11:00:00Z"
+        "fetched_at": "2026-10-26T12:00:00Z"
       }
     },
     {
@@ -137,45 +175,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T11:00:00Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.9 - 205 km NW of Port-Olry, Vanuatu",
-        "zh": "M 4.9 - 205 km NW of Port-Olry, Vanuatu"
-      },
-      "id": "usgs-us6000u4xa",
-      "time_utc": "2026-10-26T01:22:20Z",
-      "summary": {
-        "en": "M 4.9 earthquake at 205 km NW of Port-Olry, Vanuatu.",
-        "zh": "M 4.9 地震，位置：205 km NW of Port-Olry, Vanuatu。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T11:00:00Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.8 - Bonin Islands, Japan region",
-        "zh": "M 4.8 - Bonin Islands, Japan region"
-      },
-      "id": "usgs-us6000u4wi",
-      "time_utc": "2026-10-25T22:16:27Z",
-      "summary": {
-        "en": "M 4.8 earthquake at Bonin Islands, Japan region.",
-        "zh": "M 4.8 地震，位置：Bonin Islands, Japan region。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T11:00:00Z"
+        "fetched_at": "2026-10-26T12:00:00Z"
       }
     }
   ]
