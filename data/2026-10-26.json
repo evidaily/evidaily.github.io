@@ -1,29 +1,29 @@
 {
   "date": "2026-10-26",
-  "updated": "2026-10-26T00:01:00Z",
+  "updated": "2026-10-26T01:02:00Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 1.0 (1Z) at 22 UTC on 2026 10 25.",
-        "zh": "2026 年 10 月 25 日 22 UTC，估計行星 Kp 為 1.0（1Z）。"
+        "en": "Estimated planetary Kp is 1.0 (1Z) at 23 UTC on 2026 10 25.",
+        "zh": "2026 年 10 月 25 日 23 UTC，估計行星 Kp 為 1.0（1Z）。"
       },
       "id": "noaa-kp-1m",
-      "time_utc": "2026-10-25T22Z",
+      "time_utc": "2026-10-25T23Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 1.0 (1Z) at 2026-10-25T22 on 2026-10-25. The 22 hour is complete (60 samples through 22:59; hour-end 1/1Z). Last-180 maximum is 1.33. Published-window maximum is 1.33. Window starts 2026-10-25T18:02:00 (357 samples). Next hour 00:00 not yet started (0 samples). 23:00 hour has 59 samples (not yet full).",
-        "zh": "最新可靠整點末值：2026-10-25T22 估計 Kp 1.0（1Z）。22 時段已收滿（60 筆至 22:59；時段末 1/1Z）。last-180 最大 1.33。公開窗最大 1.33。窗起點 2026-10-25T18:02:00（357 筆）。下一整點 00:00 尚未開始（0 筆）。23:00 時段有 59 筆（尚未收滿）。"
+        "en": "Latest reliable hour-end estimated Kp is 1.0 (1Z) at 2026-10-25T23 on 2026-10-25. The 23 hour is complete (60 samples through 23:59; hour-end 1/1Z). Last-180 maximum is 1.33. Published-window maximum is 1.33. Window starts 2026-10-25T19:00:00 (357 samples). Next hour 01:00 not yet started or just beginning (0 samples). 00:00 hour has 57 samples (not yet full).",
+        "zh": "最新可靠整點末值：2026-10-25T23 估計 Kp 1.0（1Z）。23 時段已收滿（60 筆至 23:59；時段末 1/1Z）。last-180 最大 1.33。公開窗最大 1.33。窗起點 2026-10-25T19:00:00（357 筆）。下一整點 01:00 尚未開始或剛開始（0 筆）。00:00 時段有 57 筆（尚未收滿）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-26T00:01:00Z"
+        "fetched_at": "2026-10-26T01:02:00Z"
       },
       "data": {
         "estimated_kp": 1.0,
         "kp": "1Z",
-        "hour": "2026-10-25T22"
+        "hour": "2026-10-25T23"
       }
     },
     {
@@ -42,7 +42,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T00:01:00Z"
+        "fetched_at": "2026-10-26T01:02:00Z"
       }
     },
     {
@@ -61,7 +61,26 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T00:01:00Z"
+        "fetched_at": "2026-10-26T01:02:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.7 - 170 km ENE of Nagqu, China",
+        "zh": "M 4.7 - 170 km ENE of Nagqu, China"
+      },
+      "id": "usgs-us6000u4wc",
+      "time_utc": "2026-10-25T22:01:35Z",
+      "summary": {
+        "en": "M 4.7 earthquake at 170 km ENE of Nagqu, China.",
+        "zh": "M 4.7 地震，位置：170 km ENE of Nagqu, China。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-26T01:02:00Z"
       }
     },
     {
@@ -80,7 +99,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T00:01:00Z"
+        "fetched_at": "2026-10-26T01:02:00Z"
       }
     },
     {
@@ -99,7 +118,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T00:01:00Z"
+        "fetched_at": "2026-10-26T01:02:00Z"
       }
     },
     {
@@ -118,26 +137,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T00:01:00Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.7 - 19 km NE of Atico, Peru",
-        "zh": "M 4.7 - 19 km NE of Atico, Peru"
-      },
-      "id": "usgs-us6000u4v1",
-      "time_utc": "2026-10-25T17:11:49Z",
-      "summary": {
-        "en": "M 4.7 earthquake at 19 km NE of Atico, Peru.",
-        "zh": "M 4.7 地震，位置：19 km NE of Atico, Peru。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T00:01:00Z"
+        "fetched_at": "2026-10-26T01:02:00Z"
       }
     }
   ]
