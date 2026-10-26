@@ -1,28 +1,28 @@
 {
   "date": "2026-10-26",
-  "updated": "2026-10-26T15:02:29Z",
+  "updated": "2026-10-26T16:03:00Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 1.67 (2M) at 14 UTC on 2026 10 26.",
-        "zh": "2026 年 10 月 26 日 14 UTC，估算行星 Kp 約為 1.67（2M）。"
+        "en": "Estimated planetary Kp is 2.0 (2Z) at 14 UTC on 2026 10 26.",
+        "zh": "2026 年 10 月 26 日 14 UTC，估算行星 Kp 約為 2.0（2Z）。"
       },
       "id": "noaa-kp-1m",
       "time_utc": "2026-10-26T14Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 1.67 (2M) at 2026-10-26T14 on 2026-10-26. The 14 hour is complete (60 samples through 14:59; hour-end 1.67/2M). Last-180 maximum is 2.0. Published-window maximum is 2.0. Window starts 2026-10-26T09:02:00 (358 samples). Next hour 15:00 has 0 samples (not yet full).",
-        "zh": "最新可靠整點末估算：2026-10-26T14 估算 Kp 1.67（2M）。14 時段已收滿（60 筆至 14:59；時段末 1.67/2M）。last-180 最大 2.0。公開窗最大 2.0。窗起點 2026-10-26T09:02:00（358 筆）。下一整點 15:00 有 0 筆（尚未收滿）。"
+        "en": "Latest reliable hour-end estimated Kp is 2.0 (2Z) at 2026-10-26T14 on 2026-10-26. The 14 hour is complete (60 samples through 14:59; hour-end 2.0/2Z). Last-180 maximum is 2.0. Published-window maximum is 2.0. Window starts 2026-10-26T10:00:00 (358 samples). Next hour 15:00 has 58 samples (not yet full).",
+        "zh": "最新可靠整點末估算：2026-10-26T14 估算 Kp 2.0（2Z）。14 時段已收滿（60 筆至 14:59；時段末 2.0/2Z）。last-180 最大 2.0。公開窗最大 2.0。窗起點 2026-10-26T10:00:00（358 筆）。下一整點 15:00 有 58 筆（尚未收滿）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-26T15:02:29Z"
+        "fetched_at": "2026-10-26T16:03:00Z"
       },
       "data": {
-        "estimated_kp": 1.67,
-        "kp": "2M",
+        "estimated_kp": 2.0,
+        "kp": "2Z",
         "hour": "2026-10-26T14"
       }
     },
@@ -42,7 +42,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T15:02:29Z"
+        "fetched_at": "2026-10-26T16:03:00Z"
       }
     },
     {
@@ -61,7 +61,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T15:02:29Z"
+        "fetched_at": "2026-10-26T16:03:00Z"
       }
     },
     {
@@ -80,7 +80,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T15:02:29Z"
+        "fetched_at": "2026-10-26T16:03:00Z"
       }
     },
     {
@@ -99,7 +99,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T15:02:29Z"
+        "fetched_at": "2026-10-26T16:03:00Z"
       }
     },
     {
@@ -118,7 +118,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T15:02:29Z"
+        "fetched_at": "2026-10-26T16:03:00Z"
       }
     },
     {
@@ -137,7 +137,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T15:02:29Z"
+        "fetched_at": "2026-10-26T16:03:00Z"
       }
     },
     {
@@ -156,7 +156,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T15:02:29Z"
+        "fetched_at": "2026-10-26T16:03:00Z"
       }
     },
     {
@@ -175,7 +175,45 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T15:02:29Z"
+        "fetched_at": "2026-10-26T16:03:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.8 - 182 km NW of Port-Olry, Vanuatu",
+        "zh": "M 4.8 - 182 km NW of Port-Olry, Vanuatu"
+      },
+      "id": "usgs-us6000u4y2",
+      "time_utc": "2026-10-26T04:53:35Z",
+      "summary": {
+        "en": "M 4.8 earthquake at 182 km NW of Port-Olry, Vanuatu.",
+        "zh": "M 4.8 地震，位置：182 km NW of Port-Olry, Vanuatu。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-26T16:03:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.8 - 41 km WNW of Kupang, Indonesia",
+        "zh": "M 4.8 - 41 km WNW of Kupang, Indonesia"
+      },
+      "id": "usgs-us6000u4xp",
+      "time_utc": "2026-10-26T03:59:22Z",
+      "summary": {
+        "en": "M 4.8 earthquake at 41 km WNW of Kupang, Indonesia.",
+        "zh": "M 4.8 地震，位置：41 km WNW of Kupang, Indonesia。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-26T16:03:00Z"
       }
     }
   ]
