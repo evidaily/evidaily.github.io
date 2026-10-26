@@ -1,29 +1,48 @@
 {
   "date": "2026-10-26",
-  "updated": "2026-10-26T18:00:00Z",
+  "updated": "2026-10-26T19:00:00Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 0.67 (1M) at 16 UTC on 2026 10 26.",
-        "zh": "2026 年 10 月 26 日 16 UTC，估算行星 Kp 約為 0.67（1M）。"
+        "en": "Estimated planetary Kp is 1.33 (1P) at 17 UTC on 2026 10 26.",
+        "zh": "2026 年 10 月 26 日 17 UTC，估算行星 Kp 約為 1.33（1P）。"
       },
       "id": "noaa-kp-1m",
-      "time_utc": "2026-10-26T16Z",
+      "time_utc": "2026-10-26T17Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 0.67 (1M) at 2026-10-26T16 on 2026-10-26. The 16 hour is complete (60 samples through 16:59; hour-end 0.67/1M). Last-180 maximum is 2.0. Published-window maximum is 2.0. Window starts 2026-10-26T12:00:00 (358 samples). Next hour 17:00 has 58 samples (not yet full).",
-        "zh": "最新可靠整點末估算：2026-10-26T16 估算 Kp 0.67（1M）。16 時段已收滿（60 筆至 16:59；時段末 0.67/1M）。last-180 最大 2.0。公開窗最大 2.0。窗起點 2026-10-26T12:00:00（358 筆）。下一整點 17:00 有 58 筆（尚未收滿）。"
+        "en": "Latest reliable hour-end estimated Kp is 1.33 (1P) at 2026-10-26T17 on 2026-10-26. The 17 hour is complete (60 samples through 17:59; hour-end 1.33/1P). Last-180 maximum is 1.67. Published-window maximum is 2.0. Window starts 2026-10-26T12:59:00 (358 samples). Next hour 18:00 has 57 samples (not yet full).",
+        "zh": "最新可靠整點末估算：2026-10-26T17 估算 Kp 1.33（1P）。17 時段已收滿（60 筆至 17:59；時段末 1.33/1P）。last-180 最大 1.67。公開窗最大 2.0。窗起點 2026-10-26T12:59:00（358 筆）。下一整點 18:00 有 57 筆（尚未收滿）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-26T18:00:00Z"
+        "fetched_at": "2026-10-26T19:00:00Z"
       },
       "data": {
-        "estimated_kp": 0.67,
-        "kp": "1M",
-        "hour": "2026-10-26T16"
+        "estimated_kp": 1.33,
+        "kp": "1P",
+        "hour": "2026-10-26T17"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.5 - 74 km SE of Rasht, Tajikistan",
+        "zh": "M 4.5 - 74 km SE of Rasht, Tajikistan"
+      },
+      "id": "usgs-us7000ttb5",
+      "time_utc": "2026-10-26T18:07:04Z",
+      "summary": {
+        "en": "M 4.5 earthquake at 74 km SE of Rasht, Tajikistan.",
+        "zh": "M 4.5 地震，位置：74 km SE of Rasht, Tajikistan。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-26T19:00:00Z"
       }
     },
     {
@@ -42,7 +61,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T18:00:00Z"
+        "fetched_at": "2026-10-26T19:00:00Z"
       }
     },
     {
@@ -61,7 +80,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T18:00:00Z"
+        "fetched_at": "2026-10-26T19:00:00Z"
       }
     },
     {
@@ -80,26 +99,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T18:00:00Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.8 - South Sandwich Islands region",
-        "zh": "M 4.8 - South Sandwich Islands region"
-      },
-      "id": "usgs-us6000u4z3",
-      "time_utc": "2026-10-26T11:01:55Z",
-      "summary": {
-        "en": "M 4.8 earthquake at South Sandwich Islands region.",
-        "zh": "M 4.8 地震，位置：South Sandwich Islands region。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T18:00:00Z"
+        "fetched_at": "2026-10-26T19:00:00Z"
       }
     }
   ]
