@@ -1,29 +1,48 @@
 {
   "date": "2026-10-26",
-  "updated": "2026-10-26T22:00:00Z",
+  "updated": "2026-10-26T23:00:00Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 0.67 (1M) at 20 UTC on 2026 10 26.",
-        "zh": "2026 年 10 月 26 日 20 UTC，估算行星 Kp 約為 0.67（1M）。"
+        "en": "Estimated planetary Kp is 0.33 (0P) at 22 UTC on 2026 10 26.",
+        "zh": "2026 年 10 月 26 日 22 UTC，估算行星 Kp 約為 0.33（0P）。"
       },
       "id": "noaa-kp-1m",
-      "time_utc": "2026-10-26T20Z",
+      "time_utc": "2026-10-26T22Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 0.67 (1M) at 2026-10-26T20 on 2026-10-26. The 20 hour is complete (60 samples through 20:59; hour-end 0.67/1M). Last-180 maximum is 1.0. Published-window maximum is 1.67. Window starts 2026-10-26T16:00:00 (358 samples). Next hour 21:00 has 58 samples (not yet full).",
-        "zh": "最新可靠整點末估算：2026-10-26T20 估算 Kp 0.67（1M）。20 時段已收滿（60 筆至 20:59；時段末 0.67/1M）。last-180 最大 1.0。公開窗最大 1.67。窗起點 2026-10-26T16:00:00（358 筆）。下一整點 21:00 有 58 筆（尚未收滿）。"
+        "en": "Latest reliable hour-end estimated Kp is 0.33 (0P) at 2026-10-26T22 on 2026-10-26. The 22 hour is complete (60 samples through 22:59; hour-end 0.33/0P). Last-180 maximum is 1.0. Published-window maximum is 1.67. Window starts 2026-10-26T17:03:00 (358 samples). Next hour 23:00 has 1 sample (not yet full).",
+        "zh": "最新可靠整點末估算：2026-10-26T22 估算 Kp 0.33（0P）。22 時段已收滿（60 筆至 22:59；時段末 0.33/0P）。last-180 最大 1.0。公開窗最大 1.67。窗起點 2026-10-26T17:03:00（358 筆）。下一整點 23:00 有 1 筆（尚未收滿）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-26T22:00:00Z"
+        "fetched_at": "2026-10-26T23:00:00Z"
       },
       "data": {
-        "estimated_kp": 0.67,
-        "kp": "1M",
-        "hour": "2026-10-26T20"
+        "estimated_kp": 0.33,
+        "kp": "0P",
+        "hour": "2026-10-26T22"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.5 - 91 km ENE of Pamandzi, Mayotte",
+        "zh": "M 4.5 - 91 km ENE of Pamandzi, Mayotte"
+      },
+      "id": "usgs-us7000ttd1",
+      "time_utc": "2026-10-26T22:33:48Z",
+      "summary": {
+        "en": "M 4.5 earthquake at 91 km ENE of Pamandzi, Mayotte.",
+        "zh": "M 4.5 地震，位置：91 km ENE of Pamandzi, Mayotte。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-26T23:00:00Z"
       }
     },
     {
@@ -42,7 +61,45 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T22:00:00Z"
+        "fetched_at": "2026-10-26T23:00:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.6 - 20 km NNW of La Ligua, Chile",
+        "zh": "M 4.6 - 20 km NNW of La Ligua, Chile"
+      },
+      "id": "usgs-us7000ttc8",
+      "time_utc": "2026-10-26T20:52:11Z",
+      "summary": {
+        "en": "M 4.6 earthquake at 20 km NNW of La Ligua, Chile.",
+        "zh": "M 4.6 地震，位置：20 km NNW of La Ligua, Chile。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-26T23:00:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.5 - 89 km SSE of Pondaguitan, Philippines",
+        "zh": "M 4.5 - 89 km SSE of Pondaguitan, Philippines"
+      },
+      "id": "usgs-us7000ttc6",
+      "time_utc": "2026-10-26T20:41:25Z",
+      "summary": {
+        "en": "M 4.5 earthquake at 89 km SSE of Pondaguitan, Philippines.",
+        "zh": "M 4.5 地震，位置：89 km SSE of Pondaguitan, Philippines。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-26T23:00:00Z"
       }
     },
     {
@@ -61,64 +118,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T22:00:00Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.5 - 74 km SE of Rasht, Tajikistan",
-        "zh": "M 4.5 - 74 km SE of Rasht, Tajikistan"
-      },
-      "id": "usgs-us7000ttb5",
-      "time_utc": "2026-10-26T18:07:04Z",
-      "summary": {
-        "en": "M 4.5 earthquake at 74 km SE of Rasht, Tajikistan.",
-        "zh": "M 4.5 地震，位置：74 km SE of Rasht, Tajikistan。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T22:00:00Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.6 - 154 km NW of Port-Olry, Vanuatu",
-        "zh": "M 4.6 - 154 km NW of Port-Olry, Vanuatu"
-      },
-      "id": "usgs-us7000ttby",
-      "time_utc": "2026-10-26T15:08:25Z",
-      "summary": {
-        "en": "M 4.6 earthquake at 154 km NW of Port-Olry, Vanuatu.",
-        "zh": "M 4.6 地震，位置：154 km NW of Port-Olry, Vanuatu。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T22:00:00Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 5.2 - 205 km NW of Port-Olry, Vanuatu",
-        "zh": "M 5.2 - 205 km NW of Port-Olry, Vanuatu"
-      },
-      "id": "usgs-us6000u4zb",
-      "time_utc": "2026-10-26T12:13:30Z",
-      "summary": {
-        "en": "M 5.2 earthquake at 205 km NW of Port-Olry, Vanuatu.",
-        "zh": "M 5.2 地震，位置：205 km NW of Port-Olry, Vanuatu。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-26T22:00:00Z"
+        "fetched_at": "2026-10-26T23:00:00Z"
       }
     }
   ]
