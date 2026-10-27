@@ -1,29 +1,67 @@
 {
   "date": "2026-10-27",
-  "updated": "2026-10-27T12:02:02Z",
+  "updated": "2026-10-27T13:03:04Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 0.67 (1M) at 10 UTC on 2026 10 27.",
-        "zh": "2026 年 10 月 27 日 10 UTC，估算行星 Kp 約為 0.67（1M）。"
+        "en": "Estimated planetary Kp is 1.33 (1P) at 11 UTC on 2026 10 27.",
+        "zh": "2026 年 10 月 27 日 11 UTC，估計行星 Kp 約為 1.33（1P）。"
       },
       "id": "noaa-kp-1m",
-      "time_utc": "2026-10-27T10Z",
+      "time_utc": "2026-10-27T11Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 0.67 (1M) at 2026-10-27T10 on 2026-10-27. The 10 hour is complete (60 samples through 10:59; hour-end 0.67/1M). Last-180 maximum is 1.67. Published-window maximum is 1.67. Window starts 2026-10-27T06:00:00 (359 samples). Next hour 11 has 59 samples (not yet full).",
-        "zh": "最新可靠整點末估算：2026-10-27T10 估算 Kp 0.67（1M）。10 時段已收滿（60 筆至 10:59；時段末 0.67/1M）。last-180 最大 1.67。公開窗最大 1.67。窗起點 2026-10-27T06:00:00（359 筆）。下一整點 11 有 59 筆（尚未收滿）。"
+        "en": "Latest reliable hour-end estimated Kp is 1.33 (1P) at 2026-10-27T11 on 2026-10-27. The 11 hour is complete (60 samples through 11:59; hour-end 1.33/1P). Last-180 maximum is 1.67. Published-window maximum is 1.67. Window starts 2026-10-27T07:01:00 (358 samples). Next hour 12 has 59 samples (not yet full).",
+        "zh": "最新可靠整點末估計：2026-10-27T11 估計 Kp 1.33（1P）。11 時段已收滿（60 筆至 11:59；時段末 1.33/1P）。last-180 最大 1.67。公開窗最大 1.67。窗起點 2026-10-27T07:01:00（358 筆）。下一整點 12 有 59 筆（尚未收滿）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-27T12:02:02Z"
+        "fetched_at": "2026-10-27T13:03:04Z"
       },
       "data": {
-        "estimated_kp": 0.67,
-        "kp": "1M",
-        "hour": "2026-10-27T10"
+        "estimated_kp": 1.33,
+        "kp": "1P",
+        "hour": "2026-10-27T11"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.6 - 5 km ENE of Tierra y Libertad, Mexico",
+        "zh": "M 4.6 - 5 km ENE of Tierra y Libertad, Mexico"
+      },
+      "id": "usgs-us7000ttfx",
+      "time_utc": "2026-10-27T12:01:11Z",
+      "summary": {
+        "en": "M 4.6 earthquake at 5 km ENE of Tierra y Libertad, Mexico.",
+        "zh": "M 4.6 地震，位置：5 km ENE of Tierra y Libertad, Mexico。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-27T13:03:04Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.6 - 100 km W of El Aguilar, Argentina",
+        "zh": "M 4.6 - 100 km W of El Aguilar, Argentina"
+      },
+      "id": "usgs-us7000ttfs",
+      "time_utc": "2026-10-27T11:41:22Z",
+      "summary": {
+        "en": "M 4.6 earthquake at 100 km W of El Aguilar, Argentina.",
+        "zh": "M 4.6 地震，位置：100 km W of El Aguilar, Argentina。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-27T13:03:04Z"
       }
     },
     {
@@ -42,7 +80,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-27T12:02:02Z"
+        "fetched_at": "2026-10-27T13:03:04Z"
       }
     },
     {
@@ -61,7 +99,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-27T12:02:02Z"
+        "fetched_at": "2026-10-27T13:03:04Z"
       }
     },
     {
@@ -80,273 +118,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-27T12:02:02Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 5 - 95 km NNE of Hihifo, Tonga",
-        "zh": "M 5 - 95 km NNE of Hihifo, Tonga"
-      },
-      "id": "usgs-us7000ttfc",
-      "time_utc": "2026-10-27T09:07:45Z",
-      "summary": {
-        "en": "M 5 earthquake at 95 km NNE of Hihifo, Tonga.",
-        "zh": "M 5 地震，位置：95 km NNE of Hihifo, Tonga。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-27T12:02:02Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 5.8 - 196 km NW of Port-Olry, Vanuatu",
-        "zh": "M 5.8 - 196 km NW of Port-Olry, Vanuatu"
-      },
-      "id": "usgs-us7000ttfb",
-      "time_utc": "2026-10-27T08:55:23Z",
-      "summary": {
-        "en": "M 5.8 earthquake at 196 km NW of Port-Olry, Vanuatu.",
-        "zh": "M 5.8 地震，位置：196 km NW of Port-Olry, Vanuatu。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-27T12:02:02Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.9 - 69 km WSW of Kirakira, Solomon Islands",
-        "zh": "M 4.9 - 69 km WSW of Kirakira, Solomon Islands"
-      },
-      "id": "usgs-us7000tte4",
-      "time_utc": "2026-10-27T02:02:55Z",
-      "summary": {
-        "en": "M 4.9 earthquake at 69 km WSW of Kirakira, Solomon Islands.",
-        "zh": "M 4.9 地震，位置：69 km WSW of Kirakira, Solomon Islands。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-27T12:02:02Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.6 - 203 km SSE of Tateyama, Japan",
-        "zh": "M 4.6 - 203 km SSE of Tateyama, Japan"
-      },
-      "id": "usgs-us7000tte0",
-      "time_utc": "2026-10-27T01:17:53Z",
-      "summary": {
-        "en": "M 4.6 earthquake at 203 km SSE of Tateyama, Japan.",
-        "zh": "M 4.6 地震，位置：203 km SSE of Tateyama, Japan。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-27T12:02:02Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.8 - 54 km E of Tomioka, Japan",
-        "zh": "M 4.8 - 54 km E of Tomioka, Japan"
-      },
-      "id": "usgs-us7000ttdt",
-      "time_utc": "2026-10-27T00:25:08Z",
-      "summary": {
-        "en": "M 4.8 earthquake at 54 km E of Tomioka, Japan.",
-        "zh": "M 4.8 地震，位置：54 km E of Tomioka, Japan。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-27T12:02:02Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.5 - 98 km NNW of Tobelo, Indonesia",
-        "zh": "M 4.5 - 98 km NNW of Tobelo, Indonesia"
-      },
-      "id": "usgs-us7000ttd3",
-      "time_utc": "2026-10-26T22:52:22Z",
-      "summary": {
-        "en": "M 4.5 earthquake at 98 km NNW of Tobelo, Indonesia.",
-        "zh": "M 4.5 地震，位置：98 km NNW of Tobelo, Indonesia。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-27T12:02:02Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.5 - 96 km ENE of Pamandzi, Mayotte",
-        "zh": "M 4.5 - 96 km ENE of Pamandzi, Mayotte"
-      },
-      "id": "usgs-us7000ttd1",
-      "time_utc": "2026-10-26T22:33:48Z",
-      "summary": {
-        "en": "M 4.5 earthquake at 96 km ENE of Pamandzi, Mayotte.",
-        "zh": "M 4.5 地震，位置：96 km ENE of Pamandzi, Mayotte。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-27T12:02:02Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.7 - 98 km S of Encounter Bay, Australia",
-        "zh": "M 4.7 - 98 km S of Encounter Bay, Australia"
-      },
-      "id": "usgs-us7000ttci",
-      "time_utc": "2026-10-26T21:18:11Z",
-      "summary": {
-        "en": "M 4.7 earthquake at 98 km S of Encounter Bay, Australia.",
-        "zh": "M 4.7 地震，位置：98 km S of Encounter Bay, Australia。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-27T12:02:02Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.6 - 20 km NNW of La Ligua, Chile",
-        "zh": "M 4.6 - 20 km NNW of La Ligua, Chile"
-      },
-      "id": "usgs-us7000ttc8",
-      "time_utc": "2026-10-26T20:52:11Z",
-      "summary": {
-        "en": "M 4.6 earthquake at 20 km NNW of La Ligua, Chile.",
-        "zh": "M 4.6 地震，位置：20 km NNW of La Ligua, Chile。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-27T12:02:02Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.5 - 89 km SSE of Pondaguitan, Philippines",
-        "zh": "M 4.5 - 89 km SSE of Pondaguitan, Philippines"
-      },
-      "id": "usgs-us7000ttc6",
-      "time_utc": "2026-10-26T20:41:25Z",
-      "summary": {
-        "en": "M 4.5 earthquake at 89 km SSE of Pondaguitan, Philippines.",
-        "zh": "M 4.5 地震，位置：89 km SSE of Pondaguitan, Philippines。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-27T12:02:02Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.9 - 100 km E of La Tirana, Chile",
-        "zh": "M 4.9 - 100 km E of La Tirana, Chile"
-      },
-      "id": "usgs-us7000ttbh",
-      "time_utc": "2026-10-26T19:36:16Z",
-      "summary": {
-        "en": "M 4.9 earthquake at 100 km E of La Tirana, Chile.",
-        "zh": "M 4.9 地震，位置：100 km E of La Tirana, Chile。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-27T12:02:02Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.5 - 74 km SE of Rasht, Tajikistan",
-        "zh": "M 4.5 - 74 km SE of Rasht, Tajikistan"
-      },
-      "id": "usgs-us7000ttb5",
-      "time_utc": "2026-10-26T18:07:04Z",
-      "summary": {
-        "en": "M 4.5 earthquake at 74 km SE of Rasht, Tajikistan.",
-        "zh": "M 4.5 地震，位置：74 km SE of Rasht, Tajikistan。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-27T12:02:02Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.6 - 154 km NW of Port-Olry, Vanuatu",
-        "zh": "M 4.6 - 154 km NW of Port-Olry, Vanuatu"
-      },
-      "id": "usgs-us7000ttby",
-      "time_utc": "2026-10-26T15:08:25Z",
-      "summary": {
-        "en": "M 4.6 earthquake at 154 km NW of Port-Olry, Vanuatu.",
-        "zh": "M 4.6 地震，位置：154 km NW of Port-Olry, Vanuatu。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-27T12:02:02Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 5.2 - 205 km NW of Port-Olry, Vanuatu",
-        "zh": "M 5.2 - 205 km NW of Port-Olry, Vanuatu"
-      },
-      "id": "usgs-us6000u4zb",
-      "time_utc": "2026-10-26T12:13:30Z",
-      "summary": {
-        "en": "M 5.2 earthquake at 205 km NW of Port-Olry, Vanuatu.",
-        "zh": "M 5.2 地震，位置：205 km NW of Port-Olry, Vanuatu。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-27T12:02:02Z"
+        "fetched_at": "2026-10-27T13:03:04Z"
       }
     }
   ]
