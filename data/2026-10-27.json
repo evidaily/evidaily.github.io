@@ -1,29 +1,48 @@
 {
   "date": "2026-10-27",
-  "updated": "2026-10-27T17:08:00Z",
+  "updated": "2026-10-27T19:04:56Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 0.33 (0P) at 16 UTC on 2026 10 27.",
-        "zh": "2026 年 10 月 27 日 16 UTC，估計行星 Kp 約為 0.33（0P）。"
+        "en": "Estimated planetary Kp is 0.33 (0P) at 18 UTC on 2026 10 27.",
+        "zh": "2026 年 10 月 27 日 18 UTC，估計行星 Kp 約為 0.33（0P）。"
       },
       "id": "noaa-kp-1m",
-      "time_utc": "2026-10-27T16Z",
+      "time_utc": "2026-10-27T18Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 0.33 (0P) at 2026-10-27T16 on 2026-10-27. The 16 hour is complete (60 samples through 16:59; hour-end 0.33/0P). Last-180 maximum is 2.0. Published-window maximum is 2.0. Window starts 2026-10-27T11:06:00 (358 samples). Next hour 17 has 4 samples (not yet full).",
-        "zh": "最新可靠整點末估計：2026-10-27T16 估計 Kp 0.33（0P）。16 時段已收滿（60 筆至 16:59；時段末 0.33/0P）。last-180 最大 2.0。公開窗最大 2.0。窗起點 2026-10-27T11:06:00（358 筆）。下一整點 17 有 4 筆（尚未收滿）。"
+        "en": "Latest reliable hour-end estimated Kp is 0.33 (0P) at 2026-10-27T18 on 2026-10-27. The 18 hour is complete (60 samples through 18:59; hour-end 0.33/0P). Last-180 maximum is 1.0. Published-window maximum is 2.0. Window starts 2026-10-27T13:03:00 (358 samples). Next hour 19 has 2 samples (not yet full).",
+        "zh": "最新可靠整點末估計：2026-10-27T18 估計 Kp 0.33（0P）。18 時段已收滿（60 筆至 18:59；時段末 0.33/0P）。last-180 最大 1.0。公開窗最大 2.0。窗起點 2026-10-27T13:03:00（358 筆）。下一整點 19 有 2 筆（尚未收滿）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-27T17:08:00Z"
+        "fetched_at": "2026-10-27T19:04:56Z"
       },
       "data": {
         "estimated_kp": 0.33,
         "kp": "0P",
-        "hour": "2026-10-27T16"
+        "hour": "2026-10-27T18"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.9 - 70 km WNW of Callaguip, Philippines",
+        "zh": "M 4.9 - 70 km WNW of Callaguip, Philippines"
+      },
+      "id": "usgs-us7000tth4",
+      "time_utc": "2026-10-27T16:07:53Z",
+      "summary": {
+        "en": "M 4.9 earthquake at 70 km WNW of Callaguip, Philippines.",
+        "zh": "M 4.9 地震，位置：70 km WNW of Callaguip, Philippines。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-27T19:04:56Z"
       }
     },
     {
@@ -42,7 +61,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-27T17:08:00Z"
+        "fetched_at": "2026-10-27T19:04:56Z"
       }
     },
     {
@@ -61,7 +80,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-27T17:08:00Z"
+        "fetched_at": "2026-10-27T19:04:56Z"
       }
     },
     {
@@ -80,7 +99,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-27T17:08:00Z"
+        "fetched_at": "2026-10-27T19:04:56Z"
       }
     },
     {
@@ -99,26 +118,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-27T17:08:00Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.6 - 5 km ENE of Tierra y Libertad, Mexico",
-        "zh": "M 4.6 - 5 km ENE of Tierra y Libertad, Mexico"
-      },
-      "id": "usgs-us7000ttfx",
-      "time_utc": "2026-10-27T12:01:11Z",
-      "summary": {
-        "en": "M 4.6 earthquake at 5 km ENE of Tierra y Libertad, Mexico.",
-        "zh": "M 4.6 地震，位置：5 km ENE of Tierra y Libertad, Mexico。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-27T17:08:00Z"
+        "fetched_at": "2026-10-27T19:04:56Z"
       }
     }
   ]
