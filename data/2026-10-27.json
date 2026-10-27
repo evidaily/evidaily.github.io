@@ -1,29 +1,48 @@
 {
   "date": "2026-10-27",
-  "updated": "2026-10-27T19:04:56Z",
+  "updated": "2026-10-27T20:03:50Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 0.33 (0P) at 18 UTC on 2026 10 27.",
-        "zh": "2026 年 10 月 27 日 18 UTC，估計行星 Kp 約為 0.33（0P）。"
+        "en": "Estimated planetary Kp is 0.67 (1M) at 18 UTC on 2026 10 27.",
+        "zh": "2026 年 10 月 27 日 18 UTC，估計行星 Kp 約為 0.67（1M）。"
       },
       "id": "noaa-kp-1m",
       "time_utc": "2026-10-27T18Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 0.33 (0P) at 2026-10-27T18 on 2026-10-27. The 18 hour is complete (60 samples through 18:59; hour-end 0.33/0P). Last-180 maximum is 1.0. Published-window maximum is 2.0. Window starts 2026-10-27T13:03:00 (358 samples). Next hour 19 has 2 samples (not yet full).",
-        "zh": "最新可靠整點末估計：2026-10-27T18 估計 Kp 0.33（0P）。18 時段已收滿（60 筆至 18:59；時段末 0.33/0P）。last-180 最大 1.0。公開窗最大 2.0。窗起點 2026-10-27T13:03:00（358 筆）。下一整點 19 有 2 筆（尚未收滿）。"
+        "en": "Latest reliable hour-end estimated Kp is 0.67 (1M) at 2026-10-27T18 on 2026-10-27. The 18 hour is complete (60 samples through 18:59; hour-end 0.67/1M). Last-180 maximum is 1.33. Published-window maximum is 2.0. Window starts 2026-10-27T14:00:00 (358 samples). Next hour 19 has 58 samples (not yet full).",
+        "zh": "最新可靠整點末估計：2026-10-27T18 估計 Kp 0.67（1M）。18 時段已收滿（60 筆至 18:59；時段末 0.67/1M）。last-180 最大 1.33。公開窗最大 2.0。窗起點 2026-10-27T14:00:00（358 筆）。下一整點 19 有 58 筆（尚未收滿）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-27T19:04:56Z"
+        "fetched_at": "2026-10-27T20:03:50Z"
       },
       "data": {
-        "estimated_kp": 0.33,
-        "kp": "0P",
+        "estimated_kp": 0.67,
+        "kp": "1M",
         "hour": "2026-10-27T18"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 5.4 - 210 km ENE of Nagqu, China",
+        "zh": "M 5.4 - 210 km ENE of Nagqu, China"
+      },
+      "id": "usgs-us7000ttis",
+      "time_utc": "2026-10-27T18:57:53Z",
+      "summary": {
+        "en": "M 5.4 earthquake at 210 km ENE of Nagqu, China.",
+        "zh": "M 5.4 地震，位置：210 km ENE of Nagqu, China。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-27T20:03:50Z"
       }
     },
     {
@@ -42,7 +61,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-27T19:04:56Z"
+        "fetched_at": "2026-10-27T20:03:50Z"
       }
     },
     {
@@ -61,7 +80,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-27T19:04:56Z"
+        "fetched_at": "2026-10-27T20:03:50Z"
       }
     },
     {
@@ -80,7 +99,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-27T19:04:56Z"
+        "fetched_at": "2026-10-27T20:03:50Z"
       }
     },
     {
@@ -99,26 +118,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-27T19:04:56Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.9 - 156 km S of Pundong, Indonesia",
-        "zh": "M 4.9 - 156 km S of Pundong, Indonesia"
-      },
-      "id": "usgs-us7000ttgh",
-      "time_utc": "2026-10-27T14:43:09Z",
-      "summary": {
-        "en": "M 4.9 earthquake at 156 km S of Pundong, Indonesia.",
-        "zh": "M 4.9 地震，位置：156 km S of Pundong, Indonesia。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-27T19:04:56Z"
+        "fetched_at": "2026-10-27T20:03:50Z"
       }
     }
   ]
