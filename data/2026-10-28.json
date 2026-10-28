@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-28",
+  "updated": "2026-10-28T00:00:00Z",
+  "entries": [
+    {
+      "type": "space-weather",
+      "title": {
+        "en": "Estimated planetary Kp is 1.0 (1Z) at 22 UTC on 2026 10 27.",
+        "zh": "2026 年 10 月 27 日 22 UTC，估計行星 Kp 約為 1.0（1Z）。"
+      },
+      "id": "noaa-kp-1m",
+      "time_utc": "2026-10-27T22Z",
+      "summary": {
+        "en": "Latest reliable hour-end estimated Kp is 1.0 (1Z) at 2026-10-27T22 on 2026-10-27. The 22 hour is complete (60 samples through 22:59; hour-end 1.0/1Z). Last-180 maximum is 2.0. Published-window maximum is 2.0. Window starts 2026-10-27T18:00:00 (358 samples). Next hour 23 has 58 samples (not yet full).",
+        "zh": "最新可靠整點末估計：2026-10-27T22 估計 Kp 1.0（1Z）。22 時段已收滿（60 筆至 22:59；時段末 1.0/1Z）。last-180 最大 2.0。公開窗最大 2.0。窗起點 2026-10-27T18:00:00（358 筆）。下一整點 23 有 58 筆（尚未收滿）。"
+      },
+      "evidence": {
+        "source": "NOAA SWPC planetary_k_index_1m.json",
+        "source_name": "NOAA SWPC",
+        "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
+        "fetched_at": "2026-10-28T00:00:00Z"
+      },
+      "data": {
+        "estimated_kp": 1.0,
+        "kp": "1Z",
+        "hour": "2026-10-27T22"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 5.1 - 7 km ENE of Pangyan, Philippines",
+        "zh": "M 5.1 - 7 km ENE of Pangyan, Philippines"
+      },
+      "id": "usgs-us7000ttkk",
+      "time_utc": "2026-10-27T23:43:52Z",
+      "summary": {
+        "en": "M 5.1 earthquake at 7 km ENE of Pangyan, Philippines.",
+        "zh": "M 5.1 地震，位置：7 km ENE of Pangyan, Philippines。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-28T00:00:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 5.4 - 197 km WSW of Merizo Village, Guam",
+        "zh": "M 5.4 - 197 km WSW of Merizo Village, Guam"
+      },
+      "id": "usgs-us7000ttke",
+      "time_utc": "2026-10-27T23:14:16Z",
+      "summary": {
+        "en": "M 5.4 earthquake at 197 km WSW of Merizo Village, Guam.",
+        "zh": "M 5.4 地震，位置：197 km WSW of Merizo Village, Guam。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-28T00:00:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 5.4 - 210 km ENE of Nagqu, China",
+        "zh": "M 5.4 - 210 km ENE of Nagqu, China"
+      },
+      "id": "usgs-us7000ttis",
+      "time_utc": "2026-10-27T18:57:53Z",
+      "summary": {
+        "en": "M 5.4 earthquake at 210 km ENE of Nagqu, China.",
+        "zh": "M 5.4 地震，位置：210 km ENE of Nagqu, China。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-28T00:00:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.9 - 70 km WNW of Callaguip, Philippines",
+        "zh": "M 4.9 - 70 km WNW of Callaguip, Philippines"
+      },
+      "id": "usgs-us7000tth4",
+      "time_utc": "2026-10-27T16:07:53Z",
+      "summary": {
+        "en": "M 4.9 earthquake at 70 km WNW of Callaguip, Philippines.",
+        "zh": "M 4.9 地震，位置：70 km WNW of Callaguip, Philippines。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-28T00:00:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 5.0 - south of the Fiji Islands",
+        "zh": "M 5.0 - south of the Fiji Islands"
+      },
+      "id": "usgs-us7000ttgq",
+      "time_utc": "2026-10-27T15:31:42Z",
+      "summary": {
+        "en": "M 5.0 earthquake at south of the Fiji Islands.",
+        "zh": "M 5.0 地震，位置：south of the Fiji Islands。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-28T00:00:00Z"
+      }
+    }
+  ]
+}
