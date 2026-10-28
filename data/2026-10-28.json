@@ -1,486 +1,505 @@
 {
-    "date": "2026-10-28",
-    "updated": "2026-10-28T07:00:00Z",
-    "entries": [
-        {
-            "type": "space-weather",
-            "title": {
-                "en": "Estimated planetary Kp is 1.67 (2M) at 05 UTC on 2026 10 28.",
-                "zh": "2026 年 10 月 28 日 05 UTC，估算行星 Kp 約為 1.67（2M）。"
-            },
-            "id": "noaa-kp-1m",
-            "time_utc": "2026-10-28T05Z",
-            "summary": {
-                "en": "Latest reliable hour-end estimated Kp is 1.67 (2M) at 2026-10-28T05 on 2026-10-28. The 05 hour is complete (60 samples through 05:59; hour-end 1.67/2M). Last-180 maximum is 1.67. Published-window maximum is 2.33. Window starts 2026-10-28T00:59:00 (358 samples). Next hour 06 has 57 samples (not yet full).",
-                "zh": "最新可靠整點末估算：2026-10-28T05 估算 Kp 1.67（2M）。05 時段已收滿（60 筆至 05:59；時段末 1.67/2M）。last-180 最大 1.67。公開窗最大 2.33。窗起點 2026-10-28T00:59:00（358 筆）。下一整點 06 有 57 筆（尚未收滿）。"
-            },
-            "evidence": {
-                "source": "NOAA SWPC planetary_k_index_1m.json",
-                "source_name": "NOAA SWPC",
-                "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-                "fetched_at": "2026-10-28T07:00:00Z"
-            },
-            "data": {
-                "estimated_kp": 1.67,
-                "kp": "2M",
-                "hour": "2026-10-28T05"
-            }
-        },
-        {
-            "type": "earthquake",
-            "title": {
-                "en": "M 5 - 205 km SSE of Vilyuchinsk, Russia",
-                "zh": "M 5 - 205 km SSE of Vilyuchinsk, Russia"
-            },
-            "id": "usgs-us7000ttmb",
-            "time_utc": "2026-10-28T06:12:47Z",
-            "summary": {
-                "en": "M 5 earthquake at 205 km SSE of Vilyuchinsk, Russia.",
-                "zh": "M 5 地震，位置：205 km SSE of Vilyuchinsk, Russia。"
-            },
-            "evidence": {
-                "source": "USGS 4.5+ day feed",
-                "source_name": "USGS Earthquake Hazards Program",
-                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-                "fetched_at": "2026-10-28T07:00:00Z"
-            }
-        },
-        {
-            "type": "earthquake",
-            "title": {
-                "en": "M 5 - 200 km W of Sola, Vanuatu",
-                "zh": "M 5 - 200 km W of Sola, Vanuatu"
-            },
-            "id": "usgs-us7000ttm2",
-            "time_utc": "2026-10-28T04:31:04Z",
-            "summary": {
-                "en": "M 5 earthquake at 200 km W of Sola, Vanuatu.",
-                "zh": "M 5 地震，位置：200 km W of Sola, Vanuatu。"
-            },
-            "evidence": {
-                "source": "USGS 4.5+ day feed",
-                "source_name": "USGS Earthquake Hazards Program",
-                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-                "fetched_at": "2026-10-28T07:00:00Z"
-            }
-        },
-        {
-            "type": "earthquake",
-            "title": {
-                "en": "M 5.6 - 174 km NW of Port-Olry, Vanuatu",
-                "zh": "M 5.6 - 174 km NW of Port-Olry, Vanuatu"
-            },
-            "id": "usgs-us7000ttlt",
-            "time_utc": "2026-10-28T02:59:48Z",
-            "summary": {
-                "en": "M 5.6 earthquake at 174 km NW of Port-Olry, Vanuatu.",
-                "zh": "M 5.6 地震，位置：174 km NW of Port-Olry, Vanuatu。"
-            },
-            "evidence": {
-                "source": "USGS 4.5+ day feed",
-                "source_name": "USGS Earthquake Hazards Program",
-                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-                "fetched_at": "2026-10-28T07:00:00Z"
-            }
-        },
-        {
-            "type": "earthquake",
-            "title": {
-                "en": "M 6 - 214 km NW of Port-Olry, Vanuatu",
-                "zh": "M 6 - 214 km NW of Port-Olry, Vanuatu"
-            },
-            "id": "usgs-us7000ttlm",
-            "time_utc": "2026-10-28T02:21:45Z",
-            "summary": {
-                "en": "M 6 earthquake at 214 km NW of Port-Olry, Vanuatu.",
-                "zh": "M 6 地震，位置：214 km NW of Port-Olry, Vanuatu。"
-            },
-            "evidence": {
-                "source": "USGS 4.5+ day feed",
-                "source_name": "USGS Earthquake Hazards Program",
-                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-                "fetched_at": "2026-10-28T07:00:00Z"
-            }
-        },
-        {
-            "type": "earthquake",
-            "title": {
-                "en": "M 5.2 - 220 km NW of Port-Olry, Vanuatu",
-                "zh": "M 5.2 - 220 km NW of Port-Olry, Vanuatu"
-            },
-            "id": "usgs-us7000ttlk",
-            "time_utc": "2026-10-28T02:17:15Z",
-            "summary": {
-                "en": "M 5.2 earthquake at 220 km NW of Port-Olry, Vanuatu.",
-                "zh": "M 5.2 地震，位置：220 km NW of Port-Olry, Vanuatu。"
-            },
-            "evidence": {
-                "source": "USGS 4.5+ day feed",
-                "source_name": "USGS Earthquake Hazards Program",
-                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-                "fetched_at": "2026-10-28T07:00:00Z"
-            }
-        },
-        {
-            "type": "earthquake",
-            "title": {
-                "en": "M 4.8 - 217 km NW of Port-Olry, Vanuatu",
-                "zh": "M 4.8 - 217 km NW of Port-Olry, Vanuatu"
-            },
-            "id": "usgs-us7000ttli",
-            "time_utc": "2026-10-28T02:13:55Z",
-            "summary": {
-                "en": "M 4.8 earthquake at 217 km NW of Port-Olry, Vanuatu.",
-                "zh": "M 4.8 地震，位置：217 km NW of Port-Olry, Vanuatu。"
-            },
-            "evidence": {
-                "source": "USGS 4.5+ day feed",
-                "source_name": "USGS Earthquake Hazards Program",
-                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-                "fetched_at": "2026-10-28T07:00:00Z"
-            }
-        },
-        {
-            "type": "earthquake",
-            "title": {
-                "en": "M 5.5 - 221 km NW of Port-Olry, Vanuatu",
-                "zh": "M 5.5 - 221 km NW of Port-Olry, Vanuatu"
-            },
-            "id": "usgs-us7000ttld",
-            "time_utc": "2026-10-28T01:39:11Z",
-            "summary": {
-                "en": "M 5.5 earthquake at 221 km NW of Port-Olry, Vanuatu.",
-                "zh": "M 5.5 地震，位置：221 km NW of Port-Olry, Vanuatu。"
-            },
-            "evidence": {
-                "source": "USGS 4.5+ day feed",
-                "source_name": "USGS Earthquake Hazards Program",
-                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-                "fetched_at": "2026-10-28T07:00:00Z"
-            }
-        },
-        {
-            "type": "earthquake",
-            "title": {
-                "en": "M 5.2 - 6 km NW of Balangonan, Philippines",
-                "zh": "M 5.2 - 6 km NW of Balangonan, Philippines"
-            },
-            "id": "usgs-us7000ttlc",
-            "time_utc": "2026-10-28T01:11:54Z",
-            "summary": {
-                "en": "M 5.2 earthquake at 6 km NW of Balangonan, Philippines.",
-                "zh": "M 5.2 地震，位置：6 km NW of Balangonan, Philippines。"
-            },
-            "evidence": {
-                "source": "USGS 4.5+ day feed",
-                "source_name": "USGS Earthquake Hazards Program",
-                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-                "fetched_at": "2026-10-28T07:00:00Z"
-            }
-        },
-        {
-            "type": "earthquake",
-            "title": {
-                "en": "M 5.1 - 7 km N of Balangonan, Philippines",
-                "zh": "M 5.1 - 7 km N of Balangonan, Philippines"
-            },
-            "id": "usgs-us7000ttkk",
-            "time_utc": "2026-10-27T23:43:51Z",
-            "summary": {
-                "en": "M 5.1 earthquake at 7 km N of Balangonan, Philippines.",
-                "zh": "M 5.1 地震，位置：7 km N of Balangonan, Philippines。"
-            },
-            "evidence": {
-                "source": "USGS 4.5+ day feed",
-                "source_name": "USGS Earthquake Hazards Program",
-                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-                "fetched_at": "2026-10-28T07:00:00Z"
-            }
-        },
-        {
-            "type": "earthquake",
-            "title": {
-                "en": "M 5.4 - 193 km WSW of Merizo Village, Guam",
-                "zh": "M 5.4 - 193 km WSW of Merizo Village, Guam"
-            },
-            "id": "usgs-us7000ttke",
-            "time_utc": "2026-10-27T23:14:17Z",
-            "summary": {
-                "en": "M 5.4 earthquake at 193 km WSW of Merizo Village, Guam.",
-                "zh": "M 5.4 地震，位置：193 km WSW of Merizo Village, Guam。"
-            },
-            "evidence": {
-                "source": "USGS 4.5+ day feed",
-                "source_name": "USGS Earthquake Hazards Program",
-                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-                "fetched_at": "2026-10-28T07:00:00Z"
-            }
-        },
-        {
-            "type": "earthquake",
-            "title": {
-                "en": "M 5.4 - 210 km ENE of Nagqu, China",
-                "zh": "M 5.4 - 210 km ENE of Nagqu, China"
-            },
-            "id": "usgs-us7000ttis",
-            "time_utc": "2026-10-27T18:57:53Z",
-            "summary": {
-                "en": "M 5.4 earthquake at 210 km ENE of Nagqu, China.",
-                "zh": "M 5.4 地震，位置：210 km ENE of Nagqu, China。"
-            },
-            "evidence": {
-                "source": "USGS 4.5+ day feed",
-                "source_name": "USGS Earthquake Hazards Program",
-                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-                "fetched_at": "2026-10-28T07:00:00Z"
-            }
-        },
-        {
-            "type": "earthquake",
-            "title": {
-                "en": "M 4.9 - 70 km WNW of Callaguip, Philippines",
-                "zh": "M 4.9 - 70 km WNW of Callaguip, Philippines"
-            },
-            "id": "usgs-us7000tth4",
-            "time_utc": "2026-10-27T16:07:53Z",
-            "summary": {
-                "en": "M 4.9 earthquake at 70 km WNW of Callaguip, Philippines.",
-                "zh": "M 4.9 地震，位置：70 km WNW of Callaguip, Philippines。"
-            },
-            "evidence": {
-                "source": "USGS 4.5+ day feed",
-                "source_name": "USGS Earthquake Hazards Program",
-                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-                "fetched_at": "2026-10-28T07:00:00Z"
-            }
-        },
-        {
-            "type": "earthquake",
-            "title": {
-                "en": "M 5 - south of the Fiji Islands",
-                "zh": "M 5 - south of the Fiji Islands"
-            },
-            "id": "usgs-us7000ttgq",
-            "time_utc": "2026-10-27T15:31:42Z",
-            "summary": {
-                "en": "M 5 earthquake at south of the Fiji Islands.",
-                "zh": "M 5 地震，位置：south of the Fiji Islands。"
-            },
-            "evidence": {
-                "source": "USGS 4.5+ day feed",
-                "source_name": "USGS Earthquake Hazards Program",
-                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-                "fetched_at": "2026-10-28T07:00:00Z"
-            }
-        },
-        {
-            "type": "earthquake",
-            "title": {
-                "en": "M 5 - 27 km W of Río Grande, Panama",
-                "zh": "M 5 - 27 km W of Río Grande, Panama"
-            },
-            "id": "usgs-us7000ttgm",
-            "time_utc": "2026-10-27T15:26:02Z",
-            "summary": {
-                "en": "M 5 earthquake at 27 km W of Río Grande, Panama.",
-                "zh": "M 5 地震，位置：27 km W of Río Grande, Panama。"
-            },
-            "evidence": {
-                "source": "USGS 4.5+ day feed",
-                "source_name": "USGS Earthquake Hazards Program",
-                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-                "fetched_at": "2026-10-28T07:00:00Z"
-            }
-        },
-        {
-            "type": "earthquake",
-            "title": {
-                "en": "M 5.4 - 128 km S of Pundong, Indonesia",
-                "zh": "M 5.4 - 128 km S of Pundong, Indonesia"
-            },
-            "id": "usgs-us7000ttgf",
-            "time_utc": "2026-10-27T14:44:00Z",
-            "summary": {
-                "en": "M 5.4 earthquake at 128 km S of Pundong, Indonesia.",
-                "zh": "M 5.4 地震，位置：128 km S of Pundong, Indonesia。"
-            },
-            "evidence": {
-                "source": "USGS 4.5+ day feed",
-                "source_name": "USGS Earthquake Hazards Program",
-                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-                "fetched_at": "2026-10-28T07:00:00Z"
-            }
-        },
-        {
-            "type": "earthquake",
-            "title": {
-                "en": "M 4.9 - 156 km S of Pundong, Indonesia",
-                "zh": "M 4.9 - 156 km S of Pundong, Indonesia"
-            },
-            "id": "usgs-us7000ttgh",
-            "time_utc": "2026-10-27T14:43:09Z",
-            "summary": {
-                "en": "M 4.9 earthquake at 156 km S of Pundong, Indonesia.",
-                "zh": "M 4.9 地震，位置：156 km S of Pundong, Indonesia。"
-            },
-            "evidence": {
-                "source": "USGS 4.5+ day feed",
-                "source_name": "USGS Earthquake Hazards Program",
-                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-                "fetched_at": "2026-10-28T07:00:00Z"
-            }
-        },
-        {
-            "type": "earthquake",
-            "title": {
-                "en": "M 4.6 - 41 km S of Farkhār, Afghanistan",
-                "zh": "M 4.6 - 41 km S of Farkhār, Afghanistan"
-            },
-            "id": "usgs-us7000ttgc",
-            "time_utc": "2026-10-27T14:09:06Z",
-            "summary": {
-                "en": "M 4.6 earthquake at 41 km S of Farkhār, Afghanistan.",
-                "zh": "M 4.6 地震，位置：41 km S of Farkhār, Afghanistan。"
-            },
-            "evidence": {
-                "source": "USGS 4.5+ day feed",
-                "source_name": "USGS Earthquake Hazards Program",
-                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-                "fetched_at": "2026-10-28T07:00:00Z"
-            }
-        },
-        {
-            "type": "earthquake",
-            "title": {
-                "en": "M 4.6 - 5 km ENE of Tierra y Libertad, Mexico",
-                "zh": "M 4.6 - 5 km ENE of Tierra y Libertad, Mexico"
-            },
-            "id": "usgs-us7000ttfx",
-            "time_utc": "2026-10-27T12:01:11Z",
-            "summary": {
-                "en": "M 4.6 earthquake at 5 km ENE of Tierra y Libertad, Mexico.",
-                "zh": "M 4.6 地震，位置：5 km ENE of Tierra y Libertad, Mexico。"
-            },
-            "evidence": {
-                "source": "USGS 4.5+ day feed",
-                "source_name": "USGS Earthquake Hazards Program",
-                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-                "fetched_at": "2026-10-28T07:00:00Z"
-            }
-        },
-        {
-            "type": "earthquake",
-            "title": {
-                "en": "M 4.6 - 100 km W of El Aguilar, Argentina",
-                "zh": "M 4.6 - 100 km W of El Aguilar, Argentina"
-            },
-            "id": "usgs-us7000ttfs",
-            "time_utc": "2026-10-27T11:41:22Z",
-            "summary": {
-                "en": "M 4.6 earthquake at 100 km W of El Aguilar, Argentina.",
-                "zh": "M 4.6 地震，位置：100 km W of El Aguilar, Argentina。"
-            },
-            "evidence": {
-                "source": "USGS 4.5+ day feed",
-                "source_name": "USGS Earthquake Hazards Program",
-                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-                "fetched_at": "2026-10-28T07:00:00Z"
-            }
-        },
-        {
-            "type": "earthquake",
-            "title": {
-                "en": "M 5.2 - 191 km NW of Port-Olry, Vanuatu",
-                "zh": "M 5.2 - 191 km NW of Port-Olry, Vanuatu"
-            },
-            "id": "usgs-us7000ttfk",
-            "time_utc": "2026-10-27T10:50:35Z",
-            "summary": {
-                "en": "M 5.2 earthquake at 191 km NW of Port-Olry, Vanuatu.",
-                "zh": "M 5.2 地震，位置：191 km NW of Port-Olry, Vanuatu。"
-            },
-            "evidence": {
-                "source": "USGS 4.5+ day feed",
-                "source_name": "USGS Earthquake Hazards Program",
-                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-                "fetched_at": "2026-10-28T07:00:00Z"
-            }
-        },
-        {
-            "type": "earthquake",
-            "title": {
-                "en": "M 5 - 184 km NW of Port-Olry, Vanuatu",
-                "zh": "M 5 - 184 km NW of Port-Olry, Vanuatu"
-            },
-            "id": "usgs-us7000ttfj",
-            "time_utc": "2026-10-27T10:06:31Z",
-            "summary": {
-                "en": "M 5 earthquake at 184 km NW of Port-Olry, Vanuatu.",
-                "zh": "M 5 地震，位置：184 km NW of Port-Olry, Vanuatu。"
-            },
-            "evidence": {
-                "source": "USGS 4.5+ day feed",
-                "source_name": "USGS Earthquake Hazards Program",
-                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-                "fetched_at": "2026-10-28T07:00:00Z"
-            }
-        },
-        {
-            "type": "earthquake",
-            "title": {
-                "en": "M 5 - 206 km NW of Port-Olry, Vanuatu",
-                "zh": "M 5 - 206 km NW of Port-Olry, Vanuatu"
-            },
-            "id": "usgs-us7000ttfe",
-            "time_utc": "2026-10-27T09:20:55Z",
-            "summary": {
-                "en": "M 5 earthquake at 206 km NW of Port-Olry, Vanuatu.",
-                "zh": "M 5 地震，位置：206 km NW of Port-Olry, Vanuatu。"
-            },
-            "evidence": {
-                "source": "USGS 4.5+ day feed",
-                "source_name": "USGS Earthquake Hazards Program",
-                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-                "fetched_at": "2026-10-28T07:00:00Z"
-            }
-        },
-        {
-            "type": "earthquake",
-            "title": {
-                "en": "M 5 - 95 km NNE of Hihifo, Tonga",
-                "zh": "M 5 - 95 km NNE of Hihifo, Tonga"
-            },
-            "id": "usgs-us7000ttfc",
-            "time_utc": "2026-10-27T09:07:45Z",
-            "summary": {
-                "en": "M 5 earthquake at 95 km NNE of Hihifo, Tonga.",
-                "zh": "M 5 地震，位置：95 km NNE of Hihifo, Tonga。"
-            },
-            "evidence": {
-                "source": "USGS 4.5+ day feed",
-                "source_name": "USGS Earthquake Hazards Program",
-                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-                "fetched_at": "2026-10-28T07:00:00Z"
-            }
-        },
-        {
-            "type": "earthquake",
-            "title": {
-                "en": "M 5.8 - 196 km NW of Port-Olry, Vanuatu",
-                "zh": "M 5.8 - 196 km NW of Port-Olry, Vanuatu"
-            },
-            "id": "usgs-us7000ttfb",
-            "time_utc": "2026-10-27T08:55:23Z",
-            "summary": {
-                "en": "M 5.8 earthquake at 196 km NW of Port-Olry, Vanuatu.",
-                "zh": "M 5.8 地震，位置：196 km NW of Port-Olry, Vanuatu。"
-            },
-            "evidence": {
-                "source": "USGS 4.5+ day feed",
-                "source_name": "USGS Earthquake Hazards Program",
-                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-                "fetched_at": "2026-10-28T07:00:00Z"
-            }
-        }
-    ]
+  "date": "2026-10-28",
+  "updated": "2026-10-28T08:00:00Z",
+  "entries": [
+    {
+      "type": "space-weather",
+      "title": {
+        "en": "Estimated planetary Kp is 1.33 (1P) at 06 UTC on 2026 10 28.",
+        "zh": "2026 年 10 月 28 日 06 UTC，估算行星 Kp 約為 1.33（1P）。"
+      },
+      "id": "noaa-kp-1m",
+      "time_utc": "2026-10-28T06Z",
+      "summary": {
+        "en": "Latest reliable hour-end estimated Kp is 1.33 (1P) at 2026-10-28T06 on 2026-10-28. The 06 hour is complete (60 samples through 06:59; hour-end 1.33/1P). Last-180 maximum is 2.33. Published-window maximum is 2.33. Window starts 2026-10-28T02:01:00 (358 samples). Next hour 07 has 59 samples (not yet full).",
+        "zh": "最新可靠整點末估算：2026-10-28T06 估算 Kp 1.33（1P）。06 時段已收滿（60 筆至 06:59；時段末 1.33/1P）。last-180 最大 2.33。公開窗最大 2.33。窗起點 2026-10-28T02:01:00（358 筆）。下一整點 07 有 59 筆（尚未收滿）。"
+      },
+      "evidence": {
+        "source": "NOAA SWPC planetary_k_index_1m.json",
+        "source_name": "NOAA SWPC",
+        "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
+        "fetched_at": "2026-10-28T08:00:00Z"
+      },
+      "data": {
+        "estimated_kp": 1.33,
+        "kp": "1P",
+        "hour": "2026-10-28T06"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.7 - 39 km SSW of Serrezuela, Argentina",
+        "zh": "M 4.7 - 39 km SSW of Serrezuela, Argentina"
+      },
+      "id": "usgs-us7000ttmh",
+      "time_utc": "2026-10-28T07:02:12Z",
+      "summary": {
+        "en": "M 4.7 earthquake at 39 km SSW of Serrezuela, Argentina.",
+        "zh": "M 4.7 地震，位置：39 km SSW of Serrezuela, Argentina。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-28T08:00:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 5 - 205 km SSE of Vilyuchinsk, Russia",
+        "zh": "M 5 - 205 km SSE of Vilyuchinsk, Russia"
+      },
+      "id": "usgs-us7000ttmb",
+      "time_utc": "2026-10-28T06:12:47Z",
+      "summary": {
+        "en": "M 5 earthquake at 205 km SSE of Vilyuchinsk, Russia.",
+        "zh": "M 5 地震，位置：205 km SSE of Vilyuchinsk, Russia。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-28T08:00:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 5 - 200 km W of Sola, Vanuatu",
+        "zh": "M 5 - 200 km W of Sola, Vanuatu"
+      },
+      "id": "usgs-us7000ttm2",
+      "time_utc": "2026-10-28T04:31:04Z",
+      "summary": {
+        "en": "M 5 earthquake at 200 km W of Sola, Vanuatu.",
+        "zh": "M 5 地震，位置：200 km W of Sola, Vanuatu。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-28T08:00:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 5.6 - 174 km NW of Port-Olry, Vanuatu",
+        "zh": "M 5.6 - 174 km NW of Port-Olry, Vanuatu"
+      },
+      "id": "usgs-us7000ttlt",
+      "time_utc": "2026-10-28T02:59:48Z",
+      "summary": {
+        "en": "M 5.6 earthquake at 174 km NW of Port-Olry, Vanuatu.",
+        "zh": "M 5.6 地震，位置：174 km NW of Port-Olry, Vanuatu。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-28T08:00:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 6 - 214 km NW of Port-Olry, Vanuatu",
+        "zh": "M 6 - 214 km NW of Port-Olry, Vanuatu"
+      },
+      "id": "usgs-us7000ttlm",
+      "time_utc": "2026-10-28T02:21:45Z",
+      "summary": {
+        "en": "M 6 earthquake at 214 km NW of Port-Olry, Vanuatu.",
+        "zh": "M 6 地震，位置：214 km NW of Port-Olry, Vanuatu。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-28T08:00:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 5.2 - 220 km NW of Port-Olry, Vanuatu",
+        "zh": "M 5.2 - 220 km NW of Port-Olry, Vanuatu"
+      },
+      "id": "usgs-us7000ttlk",
+      "time_utc": "2026-10-28T02:17:15Z",
+      "summary": {
+        "en": "M 5.2 earthquake at 220 km NW of Port-Olry, Vanuatu.",
+        "zh": "M 5.2 地震，位置：220 km NW of Port-Olry, Vanuatu。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-28T08:00:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.8 - 217 km NW of Port-Olry, Vanuatu",
+        "zh": "M 4.8 - 217 km NW of Port-Olry, Vanuatu"
+      },
+      "id": "usgs-us7000ttli",
+      "time_utc": "2026-10-28T02:13:55Z",
+      "summary": {
+        "en": "M 4.8 earthquake at 217 km NW of Port-Olry, Vanuatu.",
+        "zh": "M 4.8 地震，位置：217 km NW of Port-Olry, Vanuatu。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-28T08:00:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 5.5 - 221 km NW of Port-Olry, Vanuatu",
+        "zh": "M 5.5 - 221 km NW of Port-Olry, Vanuatu"
+      },
+      "id": "usgs-us7000ttld",
+      "time_utc": "2026-10-28T01:39:11Z",
+      "summary": {
+        "en": "M 5.5 earthquake at 221 km NW of Port-Olry, Vanuatu.",
+        "zh": "M 5.5 地震，位置：221 km NW of Port-Olry, Vanuatu。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-28T08:00:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 5.2 - 6 km NW of Balangonan, Philippines",
+        "zh": "M 5.2 - 6 km NW of Balangonan, Philippines"
+      },
+      "id": "usgs-us7000ttlc",
+      "time_utc": "2026-10-28T01:11:54Z",
+      "summary": {
+        "en": "M 5.2 earthquake at 6 km NW of Balangonan, Philippines.",
+        "zh": "M 5.2 地震，位置：6 km NW of Balangonan, Philippines。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-28T08:00:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 5.1 - 7 km N of Balangonan, Philippines",
+        "zh": "M 5.1 - 7 km N of Balangonan, Philippines"
+      },
+      "id": "usgs-us7000ttkk",
+      "time_utc": "2026-10-27T23:43:51Z",
+      "summary": {
+        "en": "M 5.1 earthquake at 7 km N of Balangonan, Philippines.",
+        "zh": "M 5.1 地震，位置：7 km N of Balangonan, Philippines。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-28T08:00:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 5.4 - 193 km WSW of Merizo Village, Guam",
+        "zh": "M 5.4 - 193 km WSW of Merizo Village, Guam"
+      },
+      "id": "usgs-us7000ttke",
+      "time_utc": "2026-10-27T23:14:17Z",
+      "summary": {
+        "en": "M 5.4 earthquake at 193 km WSW of Merizo Village, Guam.",
+        "zh": "M 5.4 地震，位置：193 km WSW of Merizo Village, Guam。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-28T08:00:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 5.4 - 210 km ENE of Nagqu, China",
+        "zh": "M 5.4 - 210 km ENE of Nagqu, China"
+      },
+      "id": "usgs-us7000ttis",
+      "time_utc": "2026-10-27T18:57:53Z",
+      "summary": {
+        "en": "M 5.4 earthquake at 210 km ENE of Nagqu, China.",
+        "zh": "M 5.4 地震，位置：210 km ENE of Nagqu, China。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-28T08:00:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.9 - 70 km WNW of Callaguip, Philippines",
+        "zh": "M 4.9 - 70 km WNW of Callaguip, Philippines"
+      },
+      "id": "usgs-us7000tth4",
+      "time_utc": "2026-10-27T16:07:53Z",
+      "summary": {
+        "en": "M 4.9 earthquake at 70 km WNW of Callaguip, Philippines.",
+        "zh": "M 4.9 地震，位置：70 km WNW of Callaguip, Philippines。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-28T08:00:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 5 - south of the Fiji Islands",
+        "zh": "M 5 - south of the Fiji Islands"
+      },
+      "id": "usgs-us7000ttgq",
+      "time_utc": "2026-10-27T15:31:42Z",
+      "summary": {
+        "en": "M 5 earthquake at south of the Fiji Islands.",
+        "zh": "M 5 地震，位置：south of the Fiji Islands。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-28T08:00:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 5 - 27 km W of Río Grande, Panama",
+        "zh": "M 5 - 27 km W of Río Grande, Panama"
+      },
+      "id": "usgs-us7000ttgm",
+      "time_utc": "2026-10-27T15:26:02Z",
+      "summary": {
+        "en": "M 5 earthquake at 27 km W of Río Grande, Panama.",
+        "zh": "M 5 地震，位置：27 km W of Río Grande, Panama。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-28T08:00:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 5.4 - 128 km S of Pundong, Indonesia",
+        "zh": "M 5.4 - 128 km S of Pundong, Indonesia"
+      },
+      "id": "usgs-us7000ttgf",
+      "time_utc": "2026-10-27T14:44:00Z",
+      "summary": {
+        "en": "M 5.4 earthquake at 128 km S of Pundong, Indonesia.",
+        "zh": "M 5.4 地震，位置：128 km S of Pundong, Indonesia。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-28T08:00:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.9 - 156 km S of Pundong, Indonesia",
+        "zh": "M 4.9 - 156 km S of Pundong, Indonesia"
+      },
+      "id": "usgs-us7000ttgh",
+      "time_utc": "2026-10-27T14:43:09Z",
+      "summary": {
+        "en": "M 4.9 earthquake at 156 km S of Pundong, Indonesia.",
+        "zh": "M 4.9 地震，位置：156 km S of Pundong, Indonesia。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-28T08:00:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.6 - 41 km S of Farkhār, Afghanistan",
+        "zh": "M 4.6 - 41 km S of Farkhār, Afghanistan"
+      },
+      "id": "usgs-us7000ttgc",
+      "time_utc": "2026-10-27T14:09:06Z",
+      "summary": {
+        "en": "M 4.6 earthquake at 41 km S of Farkhār, Afghanistan.",
+        "zh": "M 4.6 地震，位置：41 km S of Farkhār, Afghanistan。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-28T08:00:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.6 - 5 km ENE of Tierra y Libertad, Mexico",
+        "zh": "M 4.6 - 5 km ENE of Tierra y Libertad, Mexico"
+      },
+      "id": "usgs-us7000ttfx",
+      "time_utc": "2026-10-27T12:01:11Z",
+      "summary": {
+        "en": "M 4.6 earthquake at 5 km ENE of Tierra y Libertad, Mexico.",
+        "zh": "M 4.6 地震，位置：5 km ENE of Tierra y Libertad, Mexico。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-28T08:00:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.6 - 100 km W of El Aguilar, Argentina",
+        "zh": "M 4.6 - 100 km W of El Aguilar, Argentina"
+      },
+      "id": "usgs-us7000ttfs",
+      "time_utc": "2026-10-27T11:41:22Z",
+      "summary": {
+        "en": "M 4.6 earthquake at 100 km W of El Aguilar, Argentina.",
+        "zh": "M 4.6 地震，位置：100 km W of El Aguilar, Argentina。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-28T08:00:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 5.2 - 191 km NW of Port-Olry, Vanuatu",
+        "zh": "M 5.2 - 191 km NW of Port-Olry, Vanuatu"
+      },
+      "id": "usgs-us7000ttfk",
+      "time_utc": "2026-10-27T10:50:35Z",
+      "summary": {
+        "en": "M 5.2 earthquake at 191 km NW of Port-Olry, Vanuatu.",
+        "zh": "M 5.2 地震，位置：191 km NW of Port-Olry, Vanuatu。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-28T08:00:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 5 - 184 km NW of Port-Olry, Vanuatu",
+        "zh": "M 5 - 184 km NW of Port-Olry, Vanuatu"
+      },
+      "id": "usgs-us7000ttfj",
+      "time_utc": "2026-10-27T10:06:31Z",
+      "summary": {
+        "en": "M 5 earthquake at 184 km NW of Port-Olry, Vanuatu.",
+        "zh": "M 5 地震，位置：184 km NW of Port-Olry, Vanuatu。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-28T08:00:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 5 - 206 km NW of Port-Olry, Vanuatu",
+        "zh": "M 5 - 206 km NW of Port-Olry, Vanuatu"
+      },
+      "id": "usgs-us7000ttfe",
+      "time_utc": "2026-10-27T09:20:55Z",
+      "summary": {
+        "en": "M 5 earthquake at 206 km NW of Port-Olry, Vanuatu.",
+        "zh": "M 5 地震，位置：206 km NW of Port-Olry, Vanuatu。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-28T08:00:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 5 - 95 km NNE of Hihifo, Tonga",
+        "zh": "M 5 - 95 km NNE of Hihifo, Tonga"
+      },
+      "id": "usgs-us7000ttfc",
+      "time_utc": "2026-10-27T09:07:45Z",
+      "summary": {
+        "en": "M 5 earthquake at 95 km NNE of Hihifo, Tonga.",
+        "zh": "M 5 地震，位置：95 km NNE of Hihifo, Tonga。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-28T08:00:00Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 5.8 - 196 km NW of Port-Olry, Vanuatu",
+        "zh": "M 5.8 - 196 km NW of Port-Olry, Vanuatu"
+      },
+      "id": "usgs-us7000ttfb",
+      "time_utc": "2026-10-27T08:55:23Z",
+      "summary": {
+        "en": "M 5.8 earthquake at 196 km NW of Port-Olry, Vanuatu.",
+        "zh": "M 5.8 地震，位置：196 km NW of Port-Olry, Vanuatu。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-28T08:00:00Z"
+      }
+    }
+  ]
 }
