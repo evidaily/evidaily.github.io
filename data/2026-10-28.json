@@ -1,29 +1,48 @@
 {
   "date": "2026-10-28",
-  "updated": "2026-10-28T14:00:00Z",
+  "updated": "2026-10-28T15:01:50Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 0.33 (0P) at 12 UTC on 2026 10 28.",
-        "zh": "2026 年 10 月 28 日 12 UTC，估計行星 Kp 約為 0.33（0P）。"
+        "en": "Estimated planetary Kp is 0.33 (0P) at 13 UTC on 2026 10 28.",
+        "zh": "2026 年 10 月 28 日 13 UTC，估算行星 Kp 約為 0.33（0P）。"
       },
       "id": "noaa-kp-1m",
-      "time_utc": "2026-10-28T12Z",
+      "time_utc": "2026-10-28T13Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 0.33 (0P) at 2026-10-28T12 on 2026-10-28. The 12 hour is complete (60 samples through 12:59; hour-end 0.33/0P). Last-180 maximum is 1.67. Published-window maximum is 2.33. Window starts 2026-10-28T07:59:00 (358 samples). Next hour 13 has 57 samples (not yet full).",
-        "zh": "最新可靠整點末估計：2026-10-28T12 估計 Kp 0.33（0P）。12 時段已收滿（60 筆至 12:59；時段末 0.33/0P）。last-180 最大 1.67。公開窗最大 2.33。窗起點 2026-10-28T07:59:00（358 筆）。下一整點 13 有 57 筆（尚未收滿）。"
+        "en": "Latest reliable hour-end estimated Kp is 0.33 (0P) at 2026-10-28T13 on 2026-10-28. The 13 hour is complete (60 samples through 13:59; hour-end 0.33/0P). Last-180 maximum is 1.67. Published-window maximum is 2.33. Window starts 2026-10-28T08:59:00 (358 samples). Next hour 14 has 57 samples (not yet full).",
+        "zh": "最新可靠整點末估算：2026-10-28T13 估算 Kp 0.33（0P）。13 時段已收滿（60 筆至 13:59；時段末 0.33/0P）。last-180 最大 1.67。公開窗最大 2.33。窗起點 2026-10-28T08:59:00（358 筆）。下一整點 14 有 57 筆（尚未收滿）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-28T14:00:00Z"
+        "fetched_at": "2026-10-28T15:01:50Z"
       },
       "data": {
         "estimated_kp": 0.33,
         "kp": "0P",
-        "hour": "2026-10-28T12"
+        "hour": "2026-10-28T13"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.5 - 13 km WSW of Āwash, Ethiopia",
+        "zh": "M 4.5 - 13 km WSW of Āwash, Ethiopia"
+      },
+      "id": "usgs-us7000ttp7",
+      "time_utc": "2026-10-28T13:31:54Z",
+      "summary": {
+        "en": "M 4.5 earthquake at 13 km WSW of Āwash, Ethiopia.",
+        "zh": "M 4.5 地震，位置：13 km WSW of Āwash, Ethiopia。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-28T15:01:50Z"
       }
     },
     {
@@ -42,7 +61,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T14:00:00Z"
+        "fetched_at": "2026-10-28T15:01:50Z"
       }
     },
     {
@@ -61,7 +80,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T14:00:00Z"
+        "fetched_at": "2026-10-28T15:01:50Z"
       }
     },
     {
@@ -80,7 +99,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T14:00:00Z"
+        "fetched_at": "2026-10-28T15:01:50Z"
       }
     },
     {
@@ -99,7 +118,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T14:00:00Z"
+        "fetched_at": "2026-10-28T15:01:50Z"
       }
     },
     {
@@ -118,7 +137,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T14:00:00Z"
+        "fetched_at": "2026-10-28T15:01:50Z"
       }
     },
     {
@@ -137,7 +156,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T14:00:00Z"
+        "fetched_at": "2026-10-28T15:01:50Z"
       }
     },
     {
@@ -156,7 +175,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T14:00:00Z"
+        "fetched_at": "2026-10-28T15:01:50Z"
       }
     },
     {
@@ -175,7 +194,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T14:00:00Z"
+        "fetched_at": "2026-10-28T15:01:50Z"
       }
     },
     {
@@ -194,7 +213,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T14:00:00Z"
+        "fetched_at": "2026-10-28T15:01:50Z"
       }
     },
     {
@@ -213,7 +232,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T14:00:00Z"
+        "fetched_at": "2026-10-28T15:01:50Z"
       }
     },
     {
@@ -232,7 +251,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T14:00:00Z"
+        "fetched_at": "2026-10-28T15:01:50Z"
       }
     },
     {
@@ -251,7 +270,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T14:00:00Z"
+        "fetched_at": "2026-10-28T15:01:50Z"
       }
     },
     {
@@ -270,7 +289,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T14:00:00Z"
+        "fetched_at": "2026-10-28T15:01:50Z"
       }
     },
     {
@@ -289,7 +308,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T14:00:00Z"
+        "fetched_at": "2026-10-28T15:01:50Z"
       }
     },
     {
@@ -308,7 +327,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T14:00:00Z"
+        "fetched_at": "2026-10-28T15:01:50Z"
       }
     },
     {
@@ -327,7 +346,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T14:00:00Z"
+        "fetched_at": "2026-10-28T15:01:50Z"
       }
     },
     {
@@ -346,7 +365,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T14:00:00Z"
+        "fetched_at": "2026-10-28T15:01:50Z"
       }
     },
     {
@@ -365,7 +384,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T14:00:00Z"
+        "fetched_at": "2026-10-28T15:01:50Z"
       }
     },
     {
@@ -384,7 +403,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T14:00:00Z"
+        "fetched_at": "2026-10-28T15:01:50Z"
       }
     },
     {
@@ -403,7 +422,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T14:00:00Z"
+        "fetched_at": "2026-10-28T15:01:50Z"
       }
     },
     {
@@ -422,7 +441,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T14:00:00Z"
+        "fetched_at": "2026-10-28T15:01:50Z"
       }
     },
     {
@@ -441,64 +460,7 @@
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T14:00:00Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 5.4 - 128 km S of Pundong, Indonesia",
-        "zh": "M 5.4 - 128 km S of Pundong, Indonesia"
-      },
-      "id": "usgs-us7000ttgf",
-      "time_utc": "2026-10-27T14:44:00Z",
-      "summary": {
-        "en": "M 5.4 earthquake at 128 km S of Pundong, Indonesia.",
-        "zh": "M 5.4 地震，位置：128 km S of Pundong, Indonesia。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T14:00:00Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.9 - 156 km S of Pundong, Indonesia",
-        "zh": "M 4.9 - 156 km S of Pundong, Indonesia"
-      },
-      "id": "usgs-us7000ttgh",
-      "time_utc": "2026-10-27T14:43:09Z",
-      "summary": {
-        "en": "M 4.9 earthquake at 156 km S of Pundong, Indonesia.",
-        "zh": "M 4.9 地震，位置：156 km S of Pundong, Indonesia。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T14:00:00Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.6 - 41 km S of Farkhār, Afghanistan",
-        "zh": "M 4.6 - 41 km S of Farkhār, Afghanistan"
-      },
-      "id": "usgs-us7000ttgc",
-      "time_utc": "2026-10-27T14:09:06Z",
-      "summary": {
-        "en": "M 4.6 earthquake at 41 km S of Farkhār, Afghanistan.",
-        "zh": "M 4.6 地震，位置：41 km S of Farkhār, Afghanistan。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T14:00:00Z"
+        "fetched_at": "2026-10-28T15:01:50Z"
       }
     }
   ]
