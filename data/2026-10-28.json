@@ -1,428 +1,67 @@
 {
   "date": "2026-10-28",
-  "updated": "2026-10-28T20:01:46Z",
+  "updated": "2026-10-28T21:01:13Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 1.33 (1P) at 18 UTC on 2026 10 28.",
-        "zh": "2026 年 10 月 28 日 18 UTC，估算行星 Kp 約為 1.33（1P）。"
+        "en": "Estimated planetary Kp is 1.67 (2M) at 19 UTC on 2026 10 28.",
+        "zh": "2026 年 10 月 28 日 19 UTC，估算行星 Kp 約為 1.67（2M）。"
       },
       "id": "noaa-kp-1m",
-      "time_utc": "2026-10-28T18Z",
+      "time_utc": "2026-10-28T19Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 1.33 (1P) at 2026-10-28T18 on 2026-10-28. The 18 hour is complete (60 samples through 18:59; hour-end 1.33/1P). Last-180 maximum is 1.67. Published-window maximum is 1.67. Window starts 2026-10-28T13:59:00 (358 samples). Next hour 19 has 57 samples (not yet full).",
-        "zh": "最新可靠整點末估算：2026-10-28T18 估算 Kp 1.33（1P）。18 時段已收滿（60 筆至 18:59；時段末 1.33/1P）。last-180 最大 1.67。公開窗最大 1.67。窗起點 2026-10-28T13:59:00（358 筆）。下一整點 19 有 57 筆（尚未收滿）。"
+        "en": "Latest reliable hour-end estimated Kp is 1.67 (2M) at 2026-10-28T19 on 2026-10-28. The 19 hour is complete (60 samples through 19:59; hour-end 1.67/2M). Last-180 maximum is 2.33. Published-window maximum is 2.33. Window starts 2026-10-28T14:59:00 (358 samples). Next hour 20 has 57 samples (not yet full).",
+        "zh": "最新可靠整點末估算：2026-10-28T19 估算 Kp 1.67（2M）。19 時段已收滿（60 筆至 19:59；時段末 1.67/2M）。last-180 最大 2.33。公開窗最大 2.33。窗起點 2026-10-28T14:59:00（358 筆）。下一整點 20 有 57 筆（尚未收滿）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-28T20:01:46Z"
+        "fetched_at": "2026-10-28T21:01:13Z"
       },
       "data": {
-        "estimated_kp": 1.33,
-        "kp": "1P",
-        "hour": "2026-10-28T18"
+        "estimated_kp": 1.67,
+        "kp": "2M",
+        "hour": "2026-10-28T19"
       }
     },
     {
       "type": "earthquake",
       "title": {
-        "en": "M 4.7 - 81 km ENE of Mazha, China",
-        "zh": "M 4.7 - 81 km ENE of Mazha, China"
+        "en": "M 5.3 - 159 km WNW of Tobelo, Indonesia",
+        "zh": "M 5.3 - 159 km WNW of Tobelo, Indonesia"
       },
-      "id": "usgs-us7000ttpk",
-      "time_utc": "2026-10-28T15:40:55Z",
+      "id": "usgs-us7000tttl",
+      "time_utc": "2026-10-28T19:56:47Z",
       "summary": {
-        "en": "M 4.7 earthquake at 81 km ENE of Mazha, China.",
-        "zh": "M 4.7 地震，位置：81 km ENE of Mazha, China。"
+        "en": "M 5.3 earthquake at 159 km WNW of Tobelo, Indonesia.",
+        "zh": "M 5.3 地震，位置：159 km WNW of Tobelo, Indonesia。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T20:01:46Z"
+        "fetched_at": "2026-10-28T21:01:13Z"
       }
     },
     {
       "type": "earthquake",
       "title": {
-        "en": "M 5.5 - 5 km ESE of Asahi, Japan",
-        "zh": "M 5.5 - 5 km ESE of Asahi, Japan"
+        "en": "M 5.2 - Reykjanes Ridge",
+        "zh": "M 5.2 - Reykjanes Ridge"
       },
-      "id": "usgs-us7000ttpe",
-      "time_utc": "2026-10-28T15:07:52Z",
+      "id": "usgs-us7000ttth",
+      "time_utc": "2026-10-28T19:45:32Z",
       "summary": {
-        "en": "M 5.5 earthquake at 5 km ESE of Asahi, Japan.",
-        "zh": "M 5.5 地震，位置：5 km ESE of Asahi, Japan。"
+        "en": "M 5.2 earthquake at Reykjanes Ridge.",
+        "zh": "M 5.2 地震，位置：Reykjanes Ridge。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T20:01:46Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.5 - 13 km WSW of Āwash, Ethiopia",
-        "zh": "M 4.5 - 13 km WSW of Āwash, Ethiopia"
-      },
-      "id": "usgs-us7000ttp7",
-      "time_utc": "2026-10-28T13:31:54Z",
-      "summary": {
-        "en": "M 4.5 earthquake at 13 km WSW of Āwash, Ethiopia.",
-        "zh": "M 4.5 地震，位置：13 km WSW of Āwash, Ethiopia。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T20:01:46Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.6 - south of the Fiji Islands",
-        "zh": "M 4.6 - south of the Fiji Islands"
-      },
-      "id": "usgs-us7000ttp2",
-      "time_utc": "2026-10-28T12:58:58Z",
-      "summary": {
-        "en": "M 4.6 earthquake at south of the Fiji Islands.",
-        "zh": "M 4.6 地震，位置：south of the Fiji Islands。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T20:01:46Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 5 - Reykjanes Ridge",
-        "zh": "M 5 - Reykjanes Ridge"
-      },
-      "id": "usgs-us7000ttnz",
-      "time_utc": "2026-10-28T12:47:08Z",
-      "summary": {
-        "en": "M 5 earthquake at Reykjanes Ridge.",
-        "zh": "M 5 地震，位置：Reykjanes Ridge。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T20:01:46Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.9 - 88 km SE of Hihifo, Tonga",
-        "zh": "M 4.9 - 88 km SE of Hihifo, Tonga"
-      },
-      "id": "usgs-us7000ttnt",
-      "time_utc": "2026-10-28T12:35:23Z",
-      "summary": {
-        "en": "M 4.9 earthquake at 88 km SE of Hihifo, Tonga.",
-        "zh": "M 4.9 地震，位置：88 km SE of Hihifo, Tonga。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T20:01:46Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.9 - 1 km WSW of Butulan, Philippines",
-        "zh": "M 4.9 - 1 km WSW of Butulan, Philippines"
-      },
-      "id": "usgs-us7000ttnq",
-      "time_utc": "2026-10-28T12:14:49Z",
-      "summary": {
-        "en": "M 4.9 earthquake at 1 km WSW of Butulan, Philippines.",
-        "zh": "M 4.9 地震，位置：1 km WSW of Butulan, Philippines。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T20:01:46Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 5 - Reykjanes Ridge",
-        "zh": "M 5 - Reykjanes Ridge"
-      },
-      "id": "usgs-us7000ttnk",
-      "time_utc": "2026-10-28T11:56:17Z",
-      "summary": {
-        "en": "M 5 earthquake at Reykjanes Ridge.",
-        "zh": "M 5 地震，位置：Reykjanes Ridge。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T20:01:46Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 5.5 - Reykjanes Ridge",
-        "zh": "M 5.5 - Reykjanes Ridge"
-      },
-      "id": "usgs-us7000ttnc",
-      "time_utc": "2026-10-28T11:37:49Z",
-      "summary": {
-        "en": "M 5.5 earthquake at Reykjanes Ridge.",
-        "zh": "M 5.5 地震，位置：Reykjanes Ridge。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T20:01:46Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.8 - 29 km SSW of Sarangani, Philippines",
-        "zh": "M 4.8 - 29 km SSW of Sarangani, Philippines"
-      },
-      "id": "usgs-us7000ttmz",
-      "time_utc": "2026-10-28T09:32:56Z",
-      "summary": {
-        "en": "M 4.8 earthquake at 29 km SSW of Sarangani, Philippines.",
-        "zh": "M 4.8 地震，位置：29 km SSW of Sarangani, Philippines。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T20:01:46Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.7 - 39 km SSW of Serrezuela, Argentina",
-        "zh": "M 4.7 - 39 km SSW of Serrezuela, Argentina"
-      },
-      "id": "usgs-us7000ttmh",
-      "time_utc": "2026-10-28T07:02:12Z",
-      "summary": {
-        "en": "M 4.7 earthquake at 39 km SSW of Serrezuela, Argentina.",
-        "zh": "M 4.7 地震，位置：39 km SSW of Serrezuela, Argentina。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T20:01:46Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 5 - 205 km SSE of Vilyuchinsk, Russia",
-        "zh": "M 5 - 205 km SSE of Vilyuchinsk, Russia"
-      },
-      "id": "usgs-us7000ttmb",
-      "time_utc": "2026-10-28T06:12:47Z",
-      "summary": {
-        "en": "M 5 earthquake at 205 km SSE of Vilyuchinsk, Russia.",
-        "zh": "M 5 地震，位置：205 km SSE of Vilyuchinsk, Russia。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T20:01:46Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 5 - 200 km W of Sola, Vanuatu",
-        "zh": "M 5 - 200 km W of Sola, Vanuatu"
-      },
-      "id": "usgs-us7000ttm2",
-      "time_utc": "2026-10-28T04:31:04Z",
-      "summary": {
-        "en": "M 5 earthquake at 200 km W of Sola, Vanuatu.",
-        "zh": "M 5 地震，位置：200 km W of Sola, Vanuatu。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T20:01:46Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 5.6 - 174 km NW of Port-Olry, Vanuatu",
-        "zh": "M 5.6 - 174 km NW of Port-Olry, Vanuatu"
-      },
-      "id": "usgs-us7000ttlt",
-      "time_utc": "2026-10-28T02:59:48Z",
-      "summary": {
-        "en": "M 5.6 earthquake at 174 km NW of Port-Olry, Vanuatu.",
-        "zh": "M 5.6 地震，位置：174 km NW of Port-Olry, Vanuatu。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T20:01:46Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 6 - 214 km NW of Port-Olry, Vanuatu",
-        "zh": "M 6 - 214 km NW of Port-Olry, Vanuatu"
-      },
-      "id": "usgs-us7000ttlm",
-      "time_utc": "2026-10-28T02:21:45Z",
-      "summary": {
-        "en": "M 6 earthquake at 214 km NW of Port-Olry, Vanuatu.",
-        "zh": "M 6 地震，位置：214 km NW of Port-Olry, Vanuatu。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T20:01:46Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 5.2 - 220 km NW of Port-Olry, Vanuatu",
-        "zh": "M 5.2 - 220 km NW of Port-Olry, Vanuatu"
-      },
-      "id": "usgs-us7000ttlk",
-      "time_utc": "2026-10-28T02:17:15Z",
-      "summary": {
-        "en": "M 5.2 earthquake at 220 km NW of Port-Olry, Vanuatu.",
-        "zh": "M 5.2 地震，位置：220 km NW of Port-Olry, Vanuatu。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T20:01:46Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.8 - 217 km NW of Port-Olry, Vanuatu",
-        "zh": "M 4.8 - 217 km NW of Port-Olry, Vanuatu"
-      },
-      "id": "usgs-us7000ttli",
-      "time_utc": "2026-10-28T02:13:55Z",
-      "summary": {
-        "en": "M 4.8 earthquake at 217 km NW of Port-Olry, Vanuatu.",
-        "zh": "M 4.8 地震，位置：217 km NW of Port-Olry, Vanuatu。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T20:01:46Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 5.5 - 221 km NW of Port-Olry, Vanuatu",
-        "zh": "M 5.5 - 221 km NW of Port-Olry, Vanuatu"
-      },
-      "id": "usgs-us7000ttld",
-      "time_utc": "2026-10-28T01:39:11Z",
-      "summary": {
-        "en": "M 5.5 earthquake at 221 km NW of Port-Olry, Vanuatu.",
-        "zh": "M 5.5 地震，位置：221 km NW of Port-Olry, Vanuatu。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T20:01:46Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 5.2 - 6 km NW of Balangonan, Philippines",
-        "zh": "M 5.2 - 6 km NW of Balangonan, Philippines"
-      },
-      "id": "usgs-us7000ttlc",
-      "time_utc": "2026-10-28T01:11:54Z",
-      "summary": {
-        "en": "M 5.2 earthquake at 6 km NW of Balangonan, Philippines.",
-        "zh": "M 5.2 地震，位置：6 km NW of Balangonan, Philippines。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T20:01:46Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 5.1 - 7 km N of Balangonan, Philippines",
-        "zh": "M 5.1 - 7 km N of Balangonan, Philippines"
-      },
-      "id": "usgs-us7000ttkk",
-      "time_utc": "2026-10-27T23:43:51Z",
-      "summary": {
-        "en": "M 5.1 earthquake at 7 km N of Balangonan, Philippines.",
-        "zh": "M 5.1 地震，位置：7 km N of Balangonan, Philippines。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T20:01:46Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 5.4 - 193 km WSW of Merizo Village, Guam",
-        "zh": "M 5.4 - 193 km WSW of Merizo Village, Guam"
-      },
-      "id": "usgs-us7000ttke",
-      "time_utc": "2026-10-27T23:14:17Z",
-      "summary": {
-        "en": "M 5.4 earthquake at 193 km WSW of Merizo Village, Guam.",
-        "zh": "M 5.4 地震，位置：193 km WSW of Merizo Village, Guam。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T20:01:46Z"
+        "fetched_at": "2026-10-28T21:01:13Z"
       }
     }
   ]
