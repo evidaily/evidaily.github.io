@@ -1,68 +1,87 @@
 {
-  "date": "2026-10-28",
-  "updated": "2026-10-28T21:01:13Z",
-  "entries": [
-    {
-      "type": "space-weather",
-      "title": {
-        "en": "Estimated planetary Kp is 1.67 (2M) at 19 UTC on 2026 10 28.",
-        "zh": "2026 年 10 月 28 日 19 UTC，估算行星 Kp 約為 1.67（2M）。"
-      },
-      "id": "noaa-kp-1m",
-      "time_utc": "2026-10-28T19Z",
-      "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 1.67 (2M) at 2026-10-28T19 on 2026-10-28. The 19 hour is complete (60 samples through 19:59; hour-end 1.67/2M). Last-180 maximum is 2.33. Published-window maximum is 2.33. Window starts 2026-10-28T14:59:00 (358 samples). Next hour 20 has 57 samples (not yet full).",
-        "zh": "最新可靠整點末估算：2026-10-28T19 估算 Kp 1.67（2M）。19 時段已收滿（60 筆至 19:59；時段末 1.67/2M）。last-180 最大 2.33。公開窗最大 2.33。窗起點 2026-10-28T14:59:00（358 筆）。下一整點 20 有 57 筆（尚未收滿）。"
-      },
-      "evidence": {
-        "source": "NOAA SWPC planetary_k_index_1m.json",
-        "source_name": "NOAA SWPC",
-        "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-28T21:01:13Z"
-      },
-      "data": {
-        "estimated_kp": 1.67,
-        "kp": "2M",
-        "hour": "2026-10-28T19"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 5.3 - 159 km WNW of Tobelo, Indonesia",
-        "zh": "M 5.3 - 159 km WNW of Tobelo, Indonesia"
-      },
-      "id": "usgs-us7000tttl",
-      "time_utc": "2026-10-28T19:56:47Z",
-      "summary": {
-        "en": "M 5.3 earthquake at 159 km WNW of Tobelo, Indonesia.",
-        "zh": "M 5.3 地震，位置：159 km WNW of Tobelo, Indonesia。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T21:01:13Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 5.2 - Reykjanes Ridge",
-        "zh": "M 5.2 - Reykjanes Ridge"
-      },
-      "id": "usgs-us7000ttth",
-      "time_utc": "2026-10-28T19:45:32Z",
-      "summary": {
-        "en": "M 5.2 earthquake at Reykjanes Ridge.",
-        "zh": "M 5.2 地震，位置：Reykjanes Ridge。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-28T21:01:13Z"
-      }
-    }
-  ]
+    "date": "2026-10-28",
+    "updated": "2026-10-28T22:04:22Z",
+    "entries": [
+        {
+            "type": "space-weather",
+            "title": {
+                "en": "Estimated planetary Kp is 2.33 (2P) at 20 UTC on 2026 10 28.",
+                "zh": "2026 年 10 月 28 日 20 UTC，估算行星 Kp 約為 2.33（2P）。"
+            },
+            "id": "noaa-kp-1m",
+            "time_utc": "2026-10-28T20Z",
+            "summary": {
+                "en": "Latest reliable hour-end estimated Kp is 2.33 (2P) at 2026-10-28T20 on 2026-10-28. The 20 hour is complete (60 samples through 20:59; hour-end 2.33/2P). Last-180 maximum is 2.33. Published-window maximum is 2.33. Window starts 2026-10-28T15:59:00 (358 samples). Next hour 21 has 57 samples (not yet full).",
+                "zh": "最新可靠整點末估算：2026-10-28T20 估算 Kp 2.33（2P）。20 時段已收滿（60 筆至 20:59；時段末 2.33/2P）。last-180 最大 2.33。公開窗最大 2.33。窗起點 2026-10-28T15:59:00（358 筆）。下一整點 21 有 57 筆（尚未收滿）。"
+            },
+            "evidence": {
+                "source": "NOAA SWPC planetary_k_index_1m.json",
+                "source_name": "NOAA SWPC",
+                "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
+                "fetched_at": "2026-10-28T22:04:22Z"
+            },
+            "data": {
+                "estimated_kp": 2.33,
+                "kp": "2P",
+                "hour": "2026-10-28T20"
+            }
+        },
+        {
+            "type": "earthquake",
+            "title": {
+                "en": "M 5.3 - 159 km WNW of Tobelo, Indonesia",
+                "zh": "M 5.3 - 159 km WNW of Tobelo, Indonesia"
+            },
+            "id": "usgs-us7000tttl",
+            "time_utc": "2026-10-28T19:56:47Z",
+            "summary": {
+                "en": "M 5.3 earthquake at 159 km WNW of Tobelo, Indonesia.",
+                "zh": "M 5.3 地震，位置：159 km WNW of Tobelo, Indonesia。"
+            },
+            "evidence": {
+                "source": "USGS 4.5+ day feed",
+                "source_name": "USGS Earthquake Hazards Program",
+                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+                "fetched_at": "2026-10-28T22:04:22Z"
+            }
+        },
+        {
+            "type": "earthquake",
+            "title": {
+                "en": "M 5.2 - Reykjanes Ridge",
+                "zh": "M 5.2 - Reykjanes Ridge"
+            },
+            "id": "usgs-us7000ttth",
+            "time_utc": "2026-10-28T19:45:32Z",
+            "summary": {
+                "en": "M 5.2 earthquake at Reykjanes Ridge.",
+                "zh": "M 5.2 地震，位置：Reykjanes Ridge。"
+            },
+            "evidence": {
+                "source": "USGS 4.5+ day feed",
+                "source_name": "USGS Earthquake Hazards Program",
+                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+                "fetched_at": "2026-10-28T22:04:22Z"
+            }
+        },
+        {
+            "type": "earthquake",
+            "title": {
+                "en": "M 4.7 - 6 km N of Asahi, Japan",
+                "zh": "M 4.7 - 6 km N of Asahi, Japan"
+            },
+            "id": "usgs-us7000ttt2",
+            "time_utc": "2026-10-28T18:32:23Z",
+            "summary": {
+                "en": "M 4.7 earthquake at 6 km N of Asahi, Japan.",
+                "zh": "M 4.7 地震，位置：6 km N of Asahi, Japan。"
+            },
+            "evidence": {
+                "source": "USGS 4.5+ day feed",
+                "source_name": "USGS Earthquake Hazards Program",
+                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+                "fetched_at": "2026-10-28T22:04:22Z"
+            }
+        }
+    ]
 }
