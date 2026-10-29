@@ -1,53 +1,53 @@
 {
   "date": "2026-10-29",
-  "updated": "2026-10-29T14:04:18Z",
+  "updated": "2026-10-29T16:04:22Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 0.0 (0Z) at 13 UTC on 2026 10 29.",
-        "zh": "2026 年 10 月 29 日 13 UTC，估計行星 Kp 約為 0.0（0Z）。"
+        "en": "Estimated planetary Kp is 0.0 (0Z) at 15 UTC on 2026 10 29.",
+        "zh": "2026 年 10 月 29 日 15 UTC，估算行星 Kp 約為 0.0（0Z）。"
       },
       "id": "noaa-kp-1m",
-      "time_utc": "2026-10-29T13Z",
+      "time_utc": "2026-10-29T15Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 0.0 (0Z) at 2026-10-29T13 on 2026-10-29. The 13 hour is complete (60 samples through 13:59; hour-end 0.0/0Z). Last-180 maximum is 0.33. Published-window maximum is 0.67. Window starts 2026-10-29T08:03:00 (359 samples). Next hour 14 has 2 samples (not yet full).",
-        "zh": "最新可靠整點末估計：2026-10-29T13 估計 Kp 0.0（0Z）。13 時段已收滿（60 筆至 13:59；時段末 0.0/0Z）。last-180 最大 0.33。公開窗最大 0.67。窗起點 2026-10-29T08:03:00（359 筆）。下一整點 14 有 2 筆（尚未收滿）。"
+        "en": "Latest reliable hour-end estimated Kp is 0.0 (0Z) at 2026-10-29T15 on 2026-10-29. The 15 hour is complete (60 samples through 15:59; hour-end 0.0/0Z). Last-180 maximum is 0.67. Published-window maximum is 0.67. Window starts 2026-10-29T10:03:00 (358 samples). Next hour 16 has 1 sample (not yet full).",
+        "zh": "最新可靠整點末估算：2026-10-29T15 估算 Kp 0.0（0Z）。15 時段已收滿（60 筆至 15:59；時段末 0.0/0Z）。last-180 最大 0.67。公開窗最大 0.67。窗起點 2026-10-29T10:03:00（358 筆）。下一整點 16 有 1 筆（尚未收滿）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-29T14:04:18Z"
+        "fetched_at": "2026-10-29T16:04:22Z"
       },
       "data": {
         "estimated_kp": 0.0,
         "kp": "0Z",
-        "hour": "2026-10-29T13"
+        "hour": "2026-10-29T15"
       }
     },
     {
       "type": "earthquake",
       "title": {
-        "en": "M 4.6 - Pulau Pulau Tanimbar, Indonesia",
-        "zh": "M 4.6 - Pulau Pulau Tanimbar, Indonesia"
+        "en": "M 4.7 - 6 km SE of Pitaloza Arriba, Panama",
+        "zh": "M 4.7 - 6 km SE of Pitaloza Arriba, Panama"
       },
-      "id": "usgs-us7000ttyk",
-      "time_utc": "2026-10-29T11:38:24Z",
+      "id": "usgs-us7000ttyw",
+      "time_utc": "2026-10-29T13:42:57Z",
       "summary": {
-        "en": "M 4.6 earthquake at Pulau Pulau Tanimbar, Indonesia.",
-        "zh": "M 4.6 地震，位置：Pulau Pulau Tanimbar, Indonesia。"
+        "en": "M 4.7 earthquake at 6 km SE of Pitaloza Arriba, Panama.",
+        "zh": "M 4.7 地震，位置：6 km SE of Pitaloza Arriba, Panama。"
       },
       "evidence": {
         "source": "USGS M4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-29T14:04:18Z",
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttyk"
+        "fetched_at": "2026-10-29T16:04:22Z",
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttyw"
       },
       "data": {
-        "mag": 4.6,
-        "place": "Pulau Pulau Tanimbar, Indonesia"
+        "mag": 4.7,
+        "place": "6 km SE of Pitaloza Arriba, Panama"
       }
     }
   ]
