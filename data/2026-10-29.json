@@ -1,68 +1,68 @@
 {
-    "date": "2026-10-29",
-    "updated": "2026-10-29T01:14:39Z",
-    "entries": [
-        {
-            "type": "space-weather",
-            "title": {
-                "en": "Estimated planetary Kp is 0.33 (0P) at 00 UTC on 2026 10 29.",
-                "zh": "2026 年 10 月 29 日 00 UTC，估算行星 Kp 約為 0.33（0P）。"
-            },
-            "id": "noaa-kp-1m",
-            "time_utc": "2026-10-29T00Z",
-            "summary": {
-                "en": "Latest reliable hour-end estimated Kp is 0.33 (0P) at 2026-10-29T00 on 2026-10-29. The 00 hour is complete (60 samples through 00:59; hour-end 0.33/0P). Last-180 maximum is 2.67. Published-window maximum is 2.67. Window starts 2026-10-28T19:11:00 (358 samples). Next hour 01 has 9 samples (not yet full).",
-                "zh": "最新可靠整點末估算：2026-10-29T00 估算 Kp 0.33（0P）。00 時段已收滿（60 筆至 00:59；時段末 0.33/0P）。last-180 最大 2.67。公開窗最大 2.67。窗起點 2026-10-28T19:11:00（358 筆）。下一整點 01 有 9 筆（尚未收滿）。"
-            },
-            "evidence": {
-                "source": "NOAA SWPC planetary_k_index_1m.json",
-                "source_name": "NOAA SWPC",
-                "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-                "fetched_at": "2026-10-29T01:14:39Z"
-            },
-            "data": {
-                "estimated_kp": 0.33,
-                "kp": "0P",
-                "hour": "2026-10-29T00"
-            }
-        },
-        {
-            "type": "earthquake",
-            "title": {
-                "en": "M 5.4 - 109 km ENE of Luganville, Vanuatu",
-                "zh": "M 5.4 - 109 km ENE of Luganville, Vanuatu"
-            },
-            "id": "usgs-us7000ttvf",
-            "time_utc": "2026-10-29T00:08:20Z",
-            "summary": {
-                "en": "M 5.4 earthquake at 109 km ENE of Luganville, Vanuatu.",
-                "zh": "M 5.4 地震，位置：109 km ENE of Luganville, Vanuatu。"
-            },
-            "evidence": {
-                "source": "USGS 4.5+ day feed",
-                "source_name": "USGS Earthquake Hazards Program",
-                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-                "fetched_at": "2026-10-29T01:14:39Z"
-            }
-        },
-        {
-            "type": "earthquake",
-            "title": {
-                "en": "M 4.6 - 17 km N of Kushiro, Japan",
-                "zh": "M 4.6 - 17 km N of Kushiro, Japan"
-            },
-            "id": "usgs-us7000ttv1",
-            "time_utc": "2026-10-28T23:13:50Z",
-            "summary": {
-                "en": "M 4.6 earthquake at 17 km N of Kushiro, Japan.",
-                "zh": "M 4.6 地震，位置：17 km N of Kushiro, Japan。"
-            },
-            "evidence": {
-                "source": "USGS 4.5+ day feed",
-                "source_name": "USGS Earthquake Hazards Program",
-                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-                "fetched_at": "2026-10-29T01:14:39Z"
-            }
-        }
-    ]
+  "date": "2026-10-29",
+  "updated": "2026-10-29T02:01:34Z",
+  "entries": [
+    {
+      "type": "space-weather",
+      "title": {
+        "en": "Estimated planetary Kp is 0.33 (0P) at 00 UTC on 2026 10 29.",
+        "zh": "2026 年 10 月 29 日 00 UTC，估算行星 Kp 約為 0.33（0P）。"
+      },
+      "id": "noaa-kp-1m",
+      "time_utc": "2026-10-29T00Z",
+      "summary": {
+        "en": "Latest reliable hour-end estimated Kp is 0.33 (0P) at 2026-10-29T00 on 2026-10-29. The 00 hour is complete (60 samples through 00:59; hour-end 0.33/0P). Last-180 maximum is 2.67. Published-window maximum is 2.67. Window starts 2026-10-28T20:01:00 (357 samples). Next hour 01 has 58 samples (not yet full).",
+        "zh": "最新可靠整點末估算：2026-10-29T00 估算 Kp 0.33（0P）。00 時段已收滿（60 筆至 00:59；時段末 0.33/0P）。last-180 最大 2.67。公開窗最大 2.67。窗起點 2026-10-28T20:01:00（357 筆）。下一整點 01 有 58 筆（尚未收滿）。"
+      },
+      "evidence": {
+        "source": "NOAA SWPC planetary_k_index_1m.json",
+        "source_name": "NOAA SWPC",
+        "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
+        "fetched_at": "2026-10-29T02:01:34Z"
+      },
+      "data": {
+        "estimated_kp": 0.33,
+        "kp": "0P",
+        "hour": "2026-10-29T00"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.8 - western Indian-Antarctic Ridge",
+        "zh": "M 4.8 - western Indian-Antarctic Ridge"
+      },
+      "id": "usgs-us7000ttvs",
+      "time_utc": "2026-10-29T01:07:04Z",
+      "summary": {
+        "en": "M 4.8 earthquake at western Indian-Antarctic Ridge.",
+        "zh": "M 4.8 地震，位置：western Indian-Antarctic Ridge。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-29T02:01:34Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.9 - 117 km E of Port-Olry, Vanuatu",
+        "zh": "M 4.9 - 117 km E of Port-Olry, Vanuatu"
+      },
+      "id": "usgs-us7000ttvn",
+      "time_utc": "2026-10-29T00:57:36Z",
+      "summary": {
+        "en": "M 4.9 earthquake at 117 km E of Port-Olry, Vanuatu.",
+        "zh": "M 4.9 地震，位置：117 km E of Port-Olry, Vanuatu。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-29T02:01:34Z"
+      }
+    }
+  ]
 }
