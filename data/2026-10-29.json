@@ -1,67 +1,48 @@
 {
   "date": "2026-10-29",
-  "updated": "2026-10-29T02:01:34Z",
+  "updated": "2026-10-29T03:04:03Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 0.33 (0P) at 00 UTC on 2026 10 29.",
-        "zh": "2026 年 10 月 29 日 00 UTC，估算行星 Kp 約為 0.33（0P）。"
+        "en": "Estimated planetary Kp is 0.33 (0P) at 01 UTC on 2026 10 29.",
+        "zh": "2026 年 10 月 29 日 01 UTC，估算行星 Kp 約為 0.33（0P）。"
       },
       "id": "noaa-kp-1m",
-      "time_utc": "2026-10-29T00Z",
+      "time_utc": "2026-10-29T01Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 0.33 (0P) at 2026-10-29T00 on 2026-10-29. The 00 hour is complete (60 samples through 00:59; hour-end 0.33/0P). Last-180 maximum is 2.67. Published-window maximum is 2.67. Window starts 2026-10-28T20:01:00 (357 samples). Next hour 01 has 58 samples (not yet full).",
-        "zh": "最新可靠整點末估算：2026-10-29T00 估算 Kp 0.33（0P）。00 時段已收滿（60 筆至 00:59；時段末 0.33/0P）。last-180 最大 2.67。公開窗最大 2.67。窗起點 2026-10-28T20:01:00（357 筆）。下一整點 01 有 58 筆（尚未收滿）。"
+        "en": "Latest reliable hour-end estimated Kp is 0.33 (0P) at 2026-10-29T01 on 2026-10-29. The 01 hour is complete (60 samples through 01:59; hour-end 0.67/1M). Last-180 maximum is 2.67. Published-window maximum is 2.67. Window starts 2026-10-28T21:00:00 (359 samples). Next hour 02 has 59 samples (not yet full).",
+        "zh": "最新可靠整點末估算：2026-10-29T01 估算 Kp 0.33（0P）。01 時段已收滿（60 筆至 01:59；時段末 0.67/1M）。last-180 最大 2.67。公開窗最大 2.67。窗起點 2026-10-28T21:00:00（359 筆）。下一整點 02 有 59 筆（尚未收滿）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-29T02:01:34Z"
+        "fetched_at": "2026-10-29T03:04:03Z"
       },
       "data": {
         "estimated_kp": 0.33,
         "kp": "0P",
-        "hour": "2026-10-29T00"
+        "hour": "2026-10-29T01"
       }
     },
     {
       "type": "earthquake",
       "title": {
-        "en": "M 4.8 - western Indian-Antarctic Ridge",
-        "zh": "M 4.8 - western Indian-Antarctic Ridge"
+        "en": "M 4.8 - 36 km SSW of Merizo Village, Guam",
+        "zh": "M 4.8 - 36 km SSW of Merizo Village, Guam"
       },
-      "id": "usgs-us7000ttvs",
-      "time_utc": "2026-10-29T01:07:04Z",
+      "id": "usgs-us7000ttvy",
+      "time_utc": "2026-10-29T02:18:21Z",
       "summary": {
-        "en": "M 4.8 earthquake at western Indian-Antarctic Ridge.",
-        "zh": "M 4.8 地震，位置：western Indian-Antarctic Ridge。"
+        "en": "M 4.8 earthquake at 36 km SSW of Merizo Village, Guam.",
+        "zh": "M 4.8 地震，位置：36 km SSW of Merizo Village, Guam。"
       },
       "evidence": {
         "source": "USGS 4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-29T02:01:34Z"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.9 - 117 km E of Port-Olry, Vanuatu",
-        "zh": "M 4.9 - 117 km E of Port-Olry, Vanuatu"
-      },
-      "id": "usgs-us7000ttvn",
-      "time_utc": "2026-10-29T00:57:36Z",
-      "summary": {
-        "en": "M 4.9 earthquake at 117 km E of Port-Olry, Vanuatu.",
-        "zh": "M 4.9 地震，位置：117 km E of Port-Olry, Vanuatu。"
-      },
-      "evidence": {
-        "source": "USGS 4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-29T02:01:34Z"
+        "fetched_at": "2026-10-29T03:04:03Z"
       }
     }
   ]
