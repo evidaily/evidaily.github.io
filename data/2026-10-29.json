@@ -1,53 +1,53 @@
 {
   "date": "2026-10-29",
-  "updated": "2026-10-29T10:06:15Z",
+  "updated": "2026-10-29T11:05:56Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 0.0 (0Z) at 09 UTC on 2026 10 29.",
-        "zh": "2026 年 10 月 29 日 09 UTC，估計行星 Kp 約為 0.0（0Z）。"
+        "en": "Estimated planetary Kp is 0.0 (0Z) at 10 UTC on 2026 10 29.",
+        "zh": "2026 年 10 月 29 日 10 UTC，估計行星 Kp 約為 0.0（0Z）。"
       },
       "id": "noaa-kp-1m",
-      "time_utc": "2026-10-29T09Z",
+      "time_utc": "2026-10-29T10Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 0.0 (0Z) at 2026-10-29T09 on 2026-10-29. The 09 hour is complete (60 samples through 09:59; hour-end 0.0/0Z). Last-180 maximum is 0.67. Published-window maximum is 2.33. Window starts 2026-10-29T04:03:00 (358 samples). Next hour 10 has 1 sample (not yet full).",
-        "zh": "最新可靠整點末估計：2026-10-29T09 估計 Kp 0.0（0Z）。09 時段已收滿（60 筆至 09:59；時段末 0.0/0Z）。last-180 最大 0.67。公開窗最大 2.33。窗起點 2026-10-29T04:03:00（358 筆）。下一整點 10 有 1 筆（尚未收滿）。"
+        "en": "Latest reliable hour-end estimated Kp is 0.0 (0Z) at 2026-10-29T10 on 2026-10-29. The 10 hour is complete (60 samples through 10:59; hour-end 0.0/0Z). Last-180 maximum is 0.67. Published-window maximum is 2.33. Window starts 2026-10-29T05:03:00 (358 samples). Next hour 11 has 1 sample (not yet full).",
+        "zh": "最新可靠整點末估計：2026-10-29T10 估計 Kp 0.0（0Z）。10 時段已收滿（60 筆至 10:59；時段末 0.0/0Z）。last-180 最大 0.67。公開窗最大 2.33。窗起點 2026-10-29T05:03:00（358 筆）。下一整點 11 有 1 筆（尚未收滿）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-29T10:06:15Z"
+        "fetched_at": "2026-10-29T11:05:56Z"
       },
       "data": {
         "estimated_kp": 0.0,
         "kp": "0Z",
-        "hour": "2026-10-29T09"
+        "hour": "2026-10-29T10"
       }
     },
     {
       "type": "earthquake",
       "title": {
-        "en": "M 5.1 - 218 km NNW of Bamboo Flat, India",
-        "zh": "M 5.1 - 218 km NNW of Bamboo Flat, India"
+        "en": "M 4.9 - 111 km SW of Port-Vila, Vanuatu",
+        "zh": "M 4.9 - 111 km SW of Port-Vila, Vanuatu"
       },
-      "id": "usgs-us7000tty7",
-      "time_utc": "2026-10-29T08:49:42Z",
+      "id": "usgs-us7000ttyd",
+      "time_utc": "2026-10-29T10:33:22Z",
       "summary": {
-        "en": "M 5.1 earthquake at 218 km NNW of Bamboo Flat, India.",
-        "zh": "M 5.1 地震，位置：218 km NNW of Bamboo Flat, India。"
+        "en": "M 4.9 earthquake at 111 km SW of Port-Vila, Vanuatu.",
+        "zh": "M 4.9 地震，位置：111 km SW of Port-Vila, Vanuatu。"
       },
       "evidence": {
         "source": "USGS M4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-29T10:06:15Z",
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tty7"
+        "fetched_at": "2026-10-29T11:05:56Z",
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttyd"
       },
       "data": {
-        "mag": 5.1,
-        "place": "218 km NNW of Bamboo Flat, India"
+        "mag": 4.9,
+        "place": "111 km SW of Port-Vila, Vanuatu"
       }
     }
   ]
