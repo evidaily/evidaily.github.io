@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-29",
+  "updated": "2026-10-29T00:05:05Z",
+  "entries": [
+    {
+      "type": "space-weather",
+      "title": {
+        "en": "Estimated planetary Kp is 2.33 (2P) at 22 UTC on 2026 10 28.",
+        "zh": "2026 年 10 月 28 日 22 UTC，估算行星 Kp 約為 2.33（2P）。"
+      },
+      "id": "noaa-kp-1m",
+      "time_utc": "2026-10-28T22Z",
+      "summary": {
+        "en": "Latest reliable hour-end estimated Kp is 2.33 (2P) at 2026-10-28T22 on 2026-10-28. The 22 hour is complete (60 samples through 22:59; hour-end 2.33/2P). Last-180 maximum is 2.67. Published-window maximum is 2.67. Window starts 2026-10-28T18:00:00 (358 samples). Next hour 23 has 58 samples (not yet full).",
+        "zh": "最新可靠整點末估算：2026-10-28T22 估算 Kp 2.33（2P）。22 時段已收滿（60 筆至 22:59；時段末 2.33/2P）。last-180 最大 2.67。公開窗最大 2.67。窗起點 2026-10-28T18:00:00（358 筆）。下一整點 23 有 58 筆（尚未收滿）。"
+      },
+      "evidence": {
+        "source": "NOAA SWPC planetary_k_index_1m.json",
+        "source_name": "NOAA SWPC",
+        "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
+        "fetched_at": "2026-10-29T00:05:05Z"
+      },
+      "data": {
+        "estimated_kp": 2.33,
+        "kp": "2P",
+        "hour": "2026-10-28T22"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.6 - 17 km N of Kushiro, Japan",
+        "zh": "M 4.6 - 17 km N of Kushiro, Japan"
+      },
+      "id": "usgs-us7000ttv1",
+      "time_utc": "2026-10-28T23:13:50Z",
+      "summary": {
+        "en": "M 4.6 earthquake at 17 km N of Kushiro, Japan.",
+        "zh": "M 4.6 地震，位置：17 km N of Kushiro, Japan。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-29T00:05:05Z"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 5.7 - 271 km WSW of Tual, Indonesia",
+        "zh": "M 5.7 - 271 km WSW of Tual, Indonesia"
+      },
+      "id": "usgs-us7000ttua",
+      "time_utc": "2026-10-28T22:06:45Z",
+      "summary": {
+        "en": "M 5.7 earthquake at 271 km WSW of Tual, Indonesia.",
+        "zh": "M 5.7 地震，位置：271 km WSW of Tual, Indonesia。"
+      },
+      "evidence": {
+        "source": "USGS 4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-29T00:05:05Z"
+      }
+    }
+  ]
+}
