@@ -1,29 +1,29 @@
 {
   "date": "2026-10-29",
-  "updated": "2026-10-29T21:03:45Z",
+  "updated": "2026-10-29T22:01:31Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 0.0 (0Z) at 19 UTC on 2026 10 29.",
-        "zh": "2026 年 10 月 29 日 19 UTC，估算行星 Kp 約為 0.0（0Z）。"
+        "en": "Estimated planetary Kp is 0.33 (0P) at 20 UTC on 2026 10 29.",
+        "zh": "2026 年 10 月 29 日 20 UTC，估算行星 Kp 約為 0.33（0P）。"
       },
       "id": "noaa-kp-1m",
-      "time_utc": "2026-10-29T19Z",
+      "time_utc": "2026-10-29T20Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 0.0 (0Z) at 2026-10-29T19 on 2026-10-29. The 19 hour is complete (60 samples through 19:59; hour-end 0.0/0Z). Last-180 maximum is 0.67. Published-window maximum is 0.67. Window starts 2026-10-29T15:01:00 (358 samples). Next hour 20 has 59 samples (not yet full).",
-        "zh": "最新可靠整點末估算：2026-10-29T19 估算 Kp 0.0（0Z）。19 時段已收滿（60 筆至 19:59；時段末 0.0/0Z）。last-180 最大 0.67。公開窗最大 0.67。窗起點 2026-10-29T15:01:00（358 筆）。下一整點 20 有 59 筆（尚未收滿）。"
+        "en": "Latest reliable hour-end estimated Kp is 0.33 (0P) at 2026-10-29T20 on 2026-10-29. The 20 hour is complete (60 samples through 20:59; hour-end 0.33/0P). Last-180 maximum is 0.67. Published-window maximum is 0.67. Window starts 2026-10-29T16:00:00 (358 samples). Next hour 21 has 58 samples (not yet full).",
+        "zh": "最新可靠整點末估算：2026-10-29T20 估算 Kp 0.33（0P）。20 時段已收滿（60 筆至 20:59；時段末 0.33/0P）。last-180 最大 0.67。公開窗最大 0.67。窗起點 2026-10-29T16:00:00（358 筆）。下一整點 21 有 58 筆（尚未收滿）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-29T21:03:45Z"
+        "fetched_at": "2026-10-29T22:01:31Z"
       },
       "data": {
-        "estimated_kp": 0.0,
-        "kp": "0Z",
-        "hour": "2026-10-29T19"
+        "estimated_kp": 0.33,
+        "kp": "0P",
+        "hour": "2026-10-29T20"
       }
     },
     {
@@ -35,21 +35,21 @@
       "id": "usgs-us7000tu3u",
       "time_utc": "2026-10-29T20:32:11Z",
       "summary": {
-        "en": "M 5.0 earthquake at 131 km NNW of Tual, Indonesia. Day feed has 22 events; +2 new, -0 rolled out since last update.",
-        "zh": "M 5.0 地震，位置：131 km NNW of Tual, Indonesia。一日饋送 22 筆；相對上一輪新增 2 筆，滾出 0 筆。"
+        "en": "M 5.0 earthquake at 131 km NNW of Tual, Indonesia. Day feed has 22 events; +0 new, -0 rolled out since last update.",
+        "zh": "M 5.0 地震，位置：131 km NNW of Tual, Indonesia。一日饋送 22 筆；相對上一輪新增 0 筆，滾出 0 筆。"
       },
       "evidence": {
         "source": "USGS M4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-29T21:03:45Z",
+        "fetched_at": "2026-10-29T22:01:31Z",
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu3u"
       },
       "data": {
         "mag": 5.0,
         "place": "131 km NNW of Tual, Indonesia",
         "count": 22,
-        "new": 2,
+        "new": 0,
         "rolled_out": 0
       }
     }
