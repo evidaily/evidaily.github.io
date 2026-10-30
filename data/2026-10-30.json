@@ -1,57 +1,57 @@
 {
-  "date": "2026-10-30",
-  "updated": "2026-10-30T06:00:00Z",
-  "entries": [
-    {
-      "type": "space-weather",
-      "title": {
-        "en": "Estimated planetary Kp is 1.0 (1Z) at 05 UTC on 2026 10 30.",
-        "zh": "2026 年 10 月 30 日 05 UTC，估算行星 Kp 約為 1.0（1Z）。"
-      },
-      "id": "noaa-kp-1m",
-      "time_utc": "2026-10-30T05Z",
-      "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 1.0 (1Z) at 2026-10-30T05 on 2026-10-30. The 05 hour is complete (60 samples through 05:59; hour-end 1.0/1Z). Last-180 maximum is 1.67. Published-window maximum is 1.67. Window starts 2026-10-30T00:01:00 (359 samples). Next hour 06 has 0 samples (not yet full).",
-        "zh": "最新可靠整點末估算：2026-10-30T05 估算 Kp 1.0（1Z）。05 時段已收滿（60 筆至 05:59；時段末 1.0/1Z）。last-180 最大 1.67。公開窗最大 1.67。窗起點 2026-10-30T00:01:00（359 筆）。下一整點 06 有 0 筆（尚未收滿）。"
-      },
-      "evidence": {
-        "source": "NOAA SWPC planetary_k_index_1m.json",
-        "source_name": "NOAA SWPC",
-        "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-30T06:00:00Z"
-      },
-      "data": {
-        "estimated_kp": 1.0,
-        "kp": "1Z",
-        "hour": "2026-10-30T05"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.8 - Fiji region",
-        "zh": "M 4.8 - Fiji region"
-      },
-      "id": "usgs-us7000tu6i",
-      "time_utc": "2026-10-30T05:10:19Z",
-      "summary": {
-        "en": "M 4.8 earthquake at Fiji region. Day feed has 17 events; +2 new, -2 rolled out since last update.",
-        "zh": "M 4.8 地震，位置：Fiji region。一日饋送 17 筆；相對上一輪新增 2 筆，滾出 2 筆。"
-      },
-      "evidence": {
-        "source": "USGS M4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-30T06:00:00Z",
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu6i"
-      },
-      "data": {
-        "mag": 4.8,
-        "place": "Fiji region",
-        "count": 17,
-        "new": 2,
-        "rolled_out": 2
-      }
-    }
-  ]
+    "date": "2026-10-30",
+    "updated": "2026-10-30T07:00:00Z",
+    "entries": [
+        {
+            "type": "space-weather",
+            "title": {
+                "en": "Estimated planetary Kp is 2.0 (2Z) at 05 UTC on 2026 10 30.",
+                "zh": "2026 年 10 月 30 日 05 UTC，估算行星 Kp 約為 2.0（2Z）。"
+            },
+            "id": "noaa-kp-1m",
+            "time_utc": "2026-10-30T05Z",
+            "summary": {
+                "en": "Latest reliable hour-end estimated Kp is 2.0 (2Z) at 2026-10-30T05 on 2026-10-30. The 05 hour is complete (60 samples through 05:59; hour-end 2.0/2Z). Last-180 maximum is 2.0. Published-window maximum is 2.0. Window starts 2026-10-30T01:00:00 (358 samples). Next hour 06 has 58 samples (not yet full).",
+                "zh": "最新可靠整點末估算：2026-10-30T05 估算 Kp 2.0（2Z）。05 時段已收滿（60 筆至 05:59；時段末 2.0/2Z）。last-180 最大 2.0。公開窗最大 2.0。窗起點 2026-10-30T01:00:00（358 筆）。下一整點 06 有 58 筆（尚未收滿）。"
+            },
+            "evidence": {
+                "source": "NOAA SWPC planetary_k_index_1m.json",
+                "source_name": "NOAA SWPC",
+                "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
+                "fetched_at": "2026-10-30T07:00:00Z"
+            },
+            "data": {
+                "estimated_kp": 2.0,
+                "kp": "2Z",
+                "hour": "2026-10-30T05"
+            }
+        },
+        {
+            "type": "earthquake",
+            "title": {
+                "en": "M 4.8 - Fiji region",
+                "zh": "M 4.8 - Fiji region"
+            },
+            "id": "usgs-us7000tu6i",
+            "time_utc": "2026-10-30T05:10:19Z",
+            "summary": {
+                "en": "M 4.8 earthquake at Fiji region. Day feed has 17 events; +0 new, -0 rolled out since last update.",
+                "zh": "M 4.8 地震，位置：Fiji region。一日饋送 17 筆；相對上一輪新增 0 筆，滾出 0 筆。"
+            },
+            "evidence": {
+                "source": "USGS M4.5+ day feed",
+                "source_name": "USGS Earthquake Hazards Program",
+                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+                "fetched_at": "2026-10-30T07:00:00Z",
+                "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu6i"
+            },
+            "data": {
+                "mag": 4.8,
+                "place": "Fiji region",
+                "count": 17,
+                "new": 0,
+                "rolled_out": 0
+            }
+        }
+    ]
 }
