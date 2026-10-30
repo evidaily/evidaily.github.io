@@ -1,56 +1,56 @@
 {
   "date": "2026-10-30",
-  "updated": "2026-10-30T16:02:59Z",
+  "updated": "2026-10-30T19:04:28Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 2.67 (3M) at 14 UTC on 2026 10 30.",
-        "zh": "2026 年 10 月 30 日 14 UTC，估計行星 Kp 約為 2.67（3M）。"
+        "en": "Estimated planetary Kp is 1.67 (2M) at 17 UTC on 2026 10 30.",
+        "zh": "2026 年 10 月 30 日 17 UTC，估計行星 Kp 約為 1.67（2M）。"
       },
       "id": "noaa-kp-1m",
-      "time_utc": "2026-10-30T14Z",
+      "time_utc": "2026-10-30T17Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 2.67 (3M) at 2026-10-30T14 on 2026-10-30. The 14 hour is complete (60 samples through 14:59; hour-end 2.67/3M). Last-180 maximum is 2.67. Published-window maximum is 2.67. Window starts 2026-10-30T09:59:00 (358 samples). Next hour 15 is incomplete (current data ends at 15:56, 57 samples in 15).",
-        "zh": "最新可靠整點末估計：2026-10-30T14 估計 Kp 2.67（3M）。14 時段已收滿（60 筆至 14:59；時段末 2.67/3M）。last-180 最大 2.67。公開窗最大 2.67。窗起點 2026-10-30T09:59:00（358 筆）。下一整點 15 尚未滿（目前數據止於 15:56，15 時段 57 筆）。"
+        "en": "Latest reliable hour-end estimated Kp is 1.67 (2M) at 2026-10-30T17 on 2026-10-30. The 17 hour is complete (60 samples through 17:59; hour-end 1.67/2M). Last-180 maximum is 1.67. Published-window maximum is 2.67. Window starts 2026-10-30T13:01:00 (358 samples). Next hour 18 is incomplete (current data ends at 18:58, 59 samples in 18).",
+        "zh": "最新可靠整點末估計：2026-10-30T17 估計 Kp 1.67（2M）。17 時段已收滿（60 筆至 17:59；時段末 1.67/2M）。last-180 最大 1.67。公開窗最大 2.67。窗起點 2026-10-30T13:01:00（358 筆）。下一整點 18 尚未滿（目前數據止於 18:58，18 時段 59 筆）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-30T16:02:59Z"
+        "fetched_at": "2026-10-30T19:04:28Z"
       },
       "data": {
-        "estimated_kp": 2.67,
-        "kp": "3M",
-        "hour": "2026-10-30T14"
+        "estimated_kp": 1.67,
+        "kp": "2M",
+        "hour": "2026-10-30T17"
       }
     },
     {
       "type": "earthquake",
       "title": {
-        "en": "M 4.7 - 42 km SE of Sykiá, Greece",
-        "zh": "M 4.7 - 42 km SE of Sykiá, Greece"
+        "en": "M 4.5 - 68 km ENE of Kuji, Japan",
+        "zh": "M 4.5 - 68 km ENE of Kuji, Japan"
       },
-      "id": "usgs-us7000tu7m",
-      "time_utc": "2026-10-30T10:45:03Z",
+      "id": "usgs-us7000tu83",
+      "time_utc": "2026-10-30T13:18:19Z",
       "summary": {
-        "en": "M 4.7 earthquake at 42 km SE of Sykiá, Greece. Day feed has 14 events; +0 new, -0 rolled out since last update.",
-        "zh": "M 4.7 地震，位置：42 km SE of Sykiá, Greece。一日饋送 14 筆；相對上一輪新增 0 筆，滾出 0 筆。"
+        "en": "M 4.5 earthquake at 68 km ENE of Kuji, Japan. Day feed has 14 events; +1 new, -1 rolled out since last update.",
+        "zh": "M 4.5 地震，位置：68 km ENE of Kuji, Japan。一日饋送 14 筆；相對上一輪新增 1 筆，滾出 1 筆。"
       },
       "evidence": {
         "source": "USGS M4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-30T16:02:59Z",
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu7m"
+        "fetched_at": "2026-10-30T19:04:28Z",
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu83"
       },
       "data": {
-        "mag": 4.7,
-        "place": "42 km SE of Sykiá, Greece",
+        "mag": 4.5,
+        "place": "68 km ENE of Kuji, Japan",
         "count": 14,
-        "new": 0,
-        "rolled_out": 0
+        "new": 1,
+        "rolled_out": 1
       }
     }
   ]
