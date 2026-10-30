@@ -1,29 +1,29 @@
 {
   "date": "2026-10-30",
-  "updated": "2026-10-30T22:02:27Z",
+  "updated": "2026-10-30T23:01:46Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 1.33 (1P) at 20 UTC on 2026 10 30.",
-        "zh": "2026 年 10 月 30 日 20 UTC，估算行星 Kp 約為 1.33（1P）。"
+        "en": "Estimated planetary Kp is 1.33 (1P) at 21 UTC on 2026 10 30.",
+        "zh": "2026 年 10 月 30 日 21 UTC，估算行星 Kp 約為 1.33（1P）。"
       },
       "id": "noaa-kp-1m",
-      "time_utc": "2026-10-30T20Z",
+      "time_utc": "2026-10-30T21Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 1.33 (1P) at 2026-10-30T20 on 2026-10-30. The 20 hour is complete (60 samples through 20:59; hour-end 1.33/1P). Last-180 maximum is 1.33. Published-window maximum is 1.67. Window starts 2026-10-30T16:00:00 (358 samples). Next hour 21 is incomplete (current data ends at 21:57, 58 samples in 21).",
-        "zh": "最新可靠整點末估算：2026-10-30T20 估算 Kp 1.33（1P）。20 時段已收滿（60 筆至 20:59；時段末 1.33/1P）。last-180 最大 1.33。公開窗最大 1.67。窗起點 2026-10-30T16:00:00（358 筆）。下一整點 21 尚未滿（目前數據止於 21:57，21 時段 58 筆）。"
+        "en": "Latest reliable hour-end estimated Kp is 1.33 (1P) at 2026-10-30T21 on 2026-10-30. The 21 hour is complete (60 samples through 21:59; hour-end 1.33/1P). Last-180 maximum is 4.33. Published-window maximum is 4.33. Window starts 2026-10-30T16:00:00 (358 samples). Next hour 22 is incomplete (current data ends at 22:55, 56 samples in 22).",
+        "zh": "最新可靠整點末估算：2026-10-30T21 估算 Kp 1.33（1P）。21 時段已收滿（60 筆至 21:59；時段末 1.33/1P）。last-180 最大 4.33。公開窗最大 4.33。窗起點 2026-10-30T16:00:00（358 筆）。下一整點 22 尚未滿（目前數據止於 22:55，22 時段 56 筆）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-30T22:02:27Z"
+        "fetched_at": "2026-10-30T23:01:46Z"
       },
       "data": {
         "estimated_kp": 1.33,
         "kp": "1P",
-        "hour": "2026-10-30T20"
+        "hour": "2026-10-30T21"
       }
     },
     {
@@ -35,14 +35,14 @@
       "id": "usgs-us7000tudk",
       "time_utc": "2026-10-30T18:01:10Z",
       "summary": {
-        "en": "M 4.5 earthquake at 236 km ESE of Zyryanka, Russia. Day feed has 11 events; +0 new, -2 rolled out since last update.",
-        "zh": "M 4.5 地震，位置：236 km ESE of Zyryanka, Russia。一日饋送 11 筆；相對上一輪新增 0 筆，滾出 2 筆。"
+        "en": "M 4.5 earthquake at 236 km ESE of Zyryanka, Russia. Day feed has 11 events; +0 new, -0 rolled out since last update.",
+        "zh": "M 4.5 地震，位置：236 km ESE of Zyryanka, Russia。一日饋送 11 筆；相對上一輪新增 0 筆，滾出 0 筆。"
       },
       "evidence": {
         "source": "USGS M4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-30T22:02:27Z",
+        "fetched_at": "2026-10-30T23:01:46Z",
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tudk"
       },
       "data": {
@@ -50,7 +50,7 @@
         "place": "236 km ESE of Zyryanka, Russia",
         "count": 11,
         "new": 0,
-        "rolled_out": 2
+        "rolled_out": 0
       }
     }
   ]
