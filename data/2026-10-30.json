@@ -1,57 +1,57 @@
 {
-  "date": "2026-10-30",
-  "updated": "2026-10-30T04:00:00Z",
-  "entries": [
-    {
-      "type": "space-weather",
-      "title": {
-        "en": "Estimated planetary Kp is 1.67 (2M) at 02 UTC on 2026 10 30.",
-        "zh": "2026 年 10 月 30 日 02 UTC，估算行星 Kp 約為 1.67（2M）。"
-      },
-      "id": "noaa-kp-1m",
-      "time_utc": "2026-10-30T02Z",
-      "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 1.67 (2M) at 2026-10-30T02 on 2026-10-30. The 02 hour is complete (60 samples through 02:59; hour-end 1.67/2M). Last-180 maximum is 1.67. Published-window maximum is 1.67. Window starts 2026-10-29T22:01:00 (358 samples). Next hour 03 has 59 samples (not yet full).",
-        "zh": "最新可靠整點末估算：2026-10-30T02 估算 Kp 1.67（2M）。02 時段已收滿（60 筆至 02:59；時段末 1.67/2M）。last-180 最大 1.67。公開窗最大 1.67。窗起點 2026-10-29T22:01:00（358 筆）。下一整點 03 有 59 筆（尚未收滿）。"
-      },
-      "evidence": {
-        "source": "NOAA SWPC planetary_k_index_1m.json",
-        "source_name": "NOAA SWPC",
-        "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-30T04:00:00Z"
-      },
-      "data": {
-        "estimated_kp": 1.67,
-        "kp": "2M",
-        "hour": "2026-10-30T02"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 5.1 - 97 km NNE of Finschhafen, Papua New Guinea",
-        "zh": "M 5.1 - 97 km NNE of Finschhafen, Papua New Guinea"
-      },
-      "id": "usgs-us7000tu5q",
-      "time_utc": "2026-10-30T03:04:17Z",
-      "summary": {
-        "en": "M 5.1 earthquake at 97 km NNE of Finschhafen, Papua New Guinea. Day feed has 17 events; +1 new, -3 rolled out since last update.",
-        "zh": "M 5.1 地震，位置：97 km NNE of Finschhafen, Papua New Guinea。一日饋送 17 筆；相對上一輪新增 1 筆，滾出 3 筆。"
-      },
-      "evidence": {
-        "source": "USGS M4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-30T04:00:00Z",
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu5q"
-      },
-      "data": {
-        "mag": 5.1,
-        "place": "97 km NNE of Finschhafen, Papua New Guinea",
-        "count": 17,
-        "new": 1,
-        "rolled_out": 3
-      }
-    }
-  ]
+    "date": "2026-10-30",
+    "updated": "2026-10-30T05:00:00Z",
+    "entries": [
+        {
+            "type": "space-weather",
+            "title": {
+                "en": "Estimated planetary Kp is 0.0 (0Z) at 03 UTC on 2026 10 30.",
+                "zh": "2026 年 10 月 30 日 03 UTC，估算行星 Kp 約為 0.0（0Z）。"
+            },
+            "id": "noaa-kp-1m",
+            "time_utc": "2026-10-30T03Z",
+            "summary": {
+                "en": "Latest reliable hour-end estimated Kp is 0.0 (0Z) at 2026-10-30T03 on 2026-10-30. The 03 hour is complete (60 samples through 03:59; hour-end 0.0/0Z). Last-180 maximum is 1.67. Published-window maximum is 1.67. Window starts 2026-10-29T23:01:00 (358 samples). Next hour 04 has 59 samples (not yet full).",
+                "zh": "最新可靠整點末估算：2026-10-30T03 估算 Kp 0.0（0Z）。03 時段已收滿（60 筆至 03:59；時段末 0.0/0Z）。last-180 最大 1.67。公開窗最大 1.67。窗起點 2026-10-29T23:01:00（358 筆）。下一整點 04 有 59 筆（尚未收滿）。"
+            },
+            "evidence": {
+                "source": "NOAA SWPC planetary_k_index_1m.json",
+                "source_name": "NOAA SWPC",
+                "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
+                "fetched_at": "2026-10-30T05:00:00Z"
+            },
+            "data": {
+                "estimated_kp": 0.0,
+                "kp": "0Z",
+                "hour": "2026-10-30T03"
+            }
+        },
+        {
+            "type": "earthquake",
+            "title": {
+                "en": "M 5.1 - 97 km NNE of Finschhafen, Papua New Guinea",
+                "zh": "M 5.1 - 97 km NNE of Finschhafen, Papua New Guinea"
+            },
+            "id": "usgs-us7000tu5q",
+            "time_utc": "2026-10-30T03:04:17Z",
+            "summary": {
+                "en": "M 5.1 earthquake at 97 km NNE of Finschhafen, Papua New Guinea. Day feed has 17 events; +0 new, -0 rolled out since last update.",
+                "zh": "M 5.1 地震，位置：97 km NNE of Finschhafen, Papua New Guinea。一日饋送 17 筆；相對上一輪新增 0 筆，滾出 0 筆。"
+            },
+            "evidence": {
+                "source": "USGS M4.5+ day feed",
+                "source_name": "USGS Earthquake Hazards Program",
+                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+                "fetched_at": "2026-10-30T05:00:00Z",
+                "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu5q"
+            },
+            "data": {
+                "mag": 5.1,
+                "place": "97 km NNE of Finschhafen, Papua New Guinea",
+                "count": 17,
+                "new": 0,
+                "rolled_out": 0
+            }
+        }
+    ]
 }
