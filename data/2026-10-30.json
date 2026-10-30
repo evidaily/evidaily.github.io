@@ -1,56 +1,56 @@
 {
   "date": "2026-10-30",
-  "updated": "2026-10-30T08:00:00Z",
+  "updated": "2026-10-30T09:00:00Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 0.67 (1M) at 06 UTC on 2026 10 30.",
-        "zh": "2026 年 10 月 30 日 06 UTC，估算行星 Kp 約為 0.67（1M）。"
+        "en": "Estimated planetary Kp is 1.67 (2M) at 08 UTC on 2026 10 30.",
+        "zh": "2026 年 10 月 30 日 08 UTC，估算行星 Kp 約為 1.67（2M）。"
       },
       "id": "noaa-kp-1m",
-      "time_utc": "2026-10-30T06Z",
+      "time_utc": "2026-10-30T08Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 0.67 (1M) at 2026-10-30T06 on 2026-10-30. The 06 hour is complete (60 samples through 06:59; hour-end 0.67/1M). Last-180 maximum is 2.0. Published-window maximum is 2.0. Window starts 2026-10-30T02:01:00 (358 samples). Next hour 07 has 59 samples (not yet full).",
-        "zh": "最新可靠整點末估算：2026-10-30T06 估算 Kp 0.67（1M）。06 時段已收滿（60 筆至 06:59；時段末 0.67/1M）。last-180 最大 2.0。公開窗最大 2.0。窗起點 2026-10-30T02:01:00（358 筆）。下一整點 07 有 59 筆（尚未收滿）。"
+        "en": "Latest reliable hour-end estimated Kp is 1.67 (2M) at 2026-10-30T08 on 2026-10-30. The 08 hour is complete (60 samples through 08:59; hour-end 1.67/2M). Last-180 maximum is 2.33. Published-window maximum is 2.33. Window starts 2026-10-30T03:02:00 (358 samples). Next hour 09 has 0 samples (not yet full).",
+        "zh": "最新可靠整點末估算：2026-10-30T08 估算 Kp 1.67（2M）。08 時段已收滿（60 筆至 08:59；時段末 1.67/2M）。last-180 最大 2.33。公開窗最大 2.33。窗起點 2026-10-30T03:02:00（358 筆）。下一整點 09 有 0 筆（尚未收滿）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-30T08:00:00Z"
+        "fetched_at": "2026-10-30T09:00:00Z"
       },
       "data": {
-        "estimated_kp": 0.67,
-        "kp": "1M",
-        "hour": "2026-10-30T06"
+        "estimated_kp": 1.67,
+        "kp": "2M",
+        "hour": "2026-10-30T08"
       }
     },
     {
       "type": "earthquake",
       "title": {
-        "en": "M 4.8 - Fiji region",
-        "zh": "M 4.8 - Fiji region"
+        "en": "M 4.6 - 64 km SSW of Shikotan, Russia",
+        "zh": "M 4.6 - 64 km SSW of Shikotan, Russia"
       },
-      "id": "usgs-us7000tu6i",
-      "time_utc": "2026-10-30T05:10:19Z",
+      "id": "usgs-us7000tu7b",
+      "time_utc": "2026-10-30T08:45:49Z",
       "summary": {
-        "en": "M 4.8 earthquake at Fiji region. Day feed has 14 events; +0 new, -3 rolled out since last update.",
-        "zh": "M 4.8 地震，位置：Fiji region。一日饋送 14 筆；相對上一輪新增 0 筆，滾出 3 筆。"
+        "en": "M 4.6 earthquake at 64 km SSW of Shikotan, Russia. Day feed has 14 events; +1 new, -1 rolled out since last update.",
+        "zh": "M 4.6 地震，位置：64 km SSW of Shikotan, Russia。一日饋送 14 筆；相對上一輪新增 1 筆，滾出 1 筆。"
       },
       "evidence": {
         "source": "USGS M4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-30T08:00:00Z",
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu6i"
+        "fetched_at": "2026-10-30T09:00:00Z",
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu7b"
       },
       "data": {
-        "mag": 4.8,
-        "place": "Fiji region",
+        "mag": 4.6,
+        "place": "64 km SSW of Shikotan, Russia",
         "count": 14,
-        "new": 0,
-        "rolled_out": 3
+        "new": 1,
+        "rolled_out": 1
       }
     }
   ]
