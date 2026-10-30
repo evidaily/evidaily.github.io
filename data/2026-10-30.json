@@ -1,55 +1,55 @@
 {
     "date": "2026-10-30",
-    "updated": "2026-10-30T11:00:00Z",
+    "updated": "2026-10-30T12:03:35Z",
     "entries": [
         {
             "type": "space-weather",
             "title": {
-                "en": "Estimated planetary Kp is 0.67 (1M) at 09 UTC on 2026 10 30.",
-                "zh": "2026 年 10 月 30 日 09 UTC，估算行星 Kp 約為 0.67（1M）。"
+                "en": "Estimated planetary Kp is 1.33 (1P) at 11 UTC on 2026 10 30.",
+                "zh": "2026 年 10 月 30 日 11 UTC，估算行星 Kp 約為 1.33（1P）。"
             },
             "id": "noaa-kp-1m",
-            "time_utc": "2026-10-30T09Z",
+            "time_utc": "2026-10-30T11Z",
             "summary": {
-                "en": "Latest reliable hour-end estimated Kp is 0.67 (1M) at 2026-10-30T09 on 2026-10-30. The 09 hour is complete (60 samples through 09:59; hour-end 0.67/1M). Last-180 maximum is 2.33. Published-window maximum is 2.33. Window starts 2026-10-30T05:01:00 (358 samples). Next hour 10 has 59 samples (not yet full).",
-                "zh": "最新可靠整點末估算：2026-10-30T09 估算 Kp 0.67（1M）。09 時段已收滿（60 筆至 09:59；時段末 0.67/1M）。last-180 最大 2.33。公開窗最大 2.33。窗起點 2026-10-30T05:01:00（358 筆）。下一整點 10 有 59 筆（尚未收滿）。"
+                "en": "Latest reliable hour-end estimated Kp is 1.33 (1P) at 2026-10-30T11 on 2026-10-30. The 11 hour is complete (60 samples through 11:59; hour-end 1.33/1P). Last-180 maximum is 2.0. Published-window maximum is 2.33. Window starts 2026-10-30T06:01:00 (359 samples). Next hour 12 has not started or incomplete (current data ends at 11:59).",
+                "zh": "最新可靠整點末估算：2026-10-30T11 估算 Kp 1.33（1P）。11 時段已收滿（60 筆至 11:59；時段末 1.33/1P）。last-180 最大 2.0。公開窗最大 2.33。窗起點 2026-10-30T06:01:00（359 筆）。下一整點 12 尚未開始或未滿（目前數據止於 11:59）。"
             },
             "evidence": {
                 "source": "NOAA SWPC planetary_k_index_1m.json",
                 "source_name": "NOAA SWPC",
                 "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-                "fetched_at": "2026-10-30T11:00:00Z"
+                "fetched_at": "2026-10-30T12:03:35Z"
             },
             "data": {
-                "estimated_kp": 0.67,
-                "kp": "1M",
-                "hour": "2026-10-30T09"
+                "estimated_kp": 1.33,
+                "kp": "1P",
+                "hour": "2026-10-30T11"
             }
         },
         {
             "type": "earthquake",
             "title": {
-                "en": "M 4.5 - 104 km ENE of Barcelona, Philippines",
-                "zh": "M 4.5 - 104 km ENE of Barcelona, Philippines"
+                "en": "M 4.7 - 42 km SE of Sykiá, Greece",
+                "zh": "M 4.7 - 42 km SE of Sykiá, Greece"
             },
-            "id": "usgs-us7000tu7k",
-            "time_utc": "2026-10-30T10:24:11Z",
+            "id": "usgs-us7000tu7m",
+            "time_utc": "2026-10-30T10:45:03Z",
             "summary": {
-                "en": "M 4.5 earthquake at 104 km ENE of Barcelona, Philippines. Day feed has 15 events; +2 new, -1 rolled out since last update.",
-                "zh": "M 4.5 地震，位置：104 km ENE of Barcelona, Philippines。一日饋送 15 筆；相對上一輪新增 2 筆，滾出 1 筆。"
+                "en": "M 4.7 earthquake at 42 km SE of Sykiá, Greece. Day feed has 15 events; +1 new, -1 rolled out since last update.",
+                "zh": "M 4.7 地震，位置：42 km SE of Sykiá, Greece。一日饋送 15 筆；相對上一輪新增 1 筆，滾出 1 筆。"
             },
             "evidence": {
                 "source": "USGS M4.5+ day feed",
                 "source_name": "USGS Earthquake Hazards Program",
                 "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-                "fetched_at": "2026-10-30T11:00:00Z",
-                "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu7k"
+                "fetched_at": "2026-10-30T12:03:35Z",
+                "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu7m"
             },
             "data": {
-                "mag": 4.5,
-                "place": "104 km ENE of Barcelona, Philippines",
+                "mag": 4.7,
+                "place": "42 km SE of Sykiá, Greece",
                 "count": 15,
-                "new": 2,
+                "new": 1,
                 "rolled_out": 1
             }
         }
