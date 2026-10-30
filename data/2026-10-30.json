@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-30",
+  "updated": "2026-10-30T00:03:43Z",
+  "entries": [
+    {
+      "type": "space-weather",
+      "title": {
+        "en": "Estimated planetary Kp is 0.67 (1M) at 23 UTC on 2026 10 29.",
+        "zh": "2026 年 10 月 29 日 23 UTC，估算行星 Kp 約為 0.67（1M）。"
+      },
+      "id": "noaa-kp-1m",
+      "time_utc": "2026-10-29T23Z",
+      "summary": {
+        "en": "Latest reliable hour-end estimated Kp is 0.67 (1M) at 2026-10-29T23 on 2026-10-29. The 23 hour is complete (60 samples through 23:59; hour-end 0.67/1M). Last-180 maximum is 0.67. Published-window maximum is 0.67. Window starts 2026-10-29T18:02:00 (358 samples). Next hour 00 has 0 samples (not yet full).",
+        "zh": "最新可靠整點末估算：2026-10-29T23 估算 Kp 0.67（1M）。23 時段已收滿（60 筆至 23:59；時段末 0.67/1M）。last-180 最大 0.67。公開窗最大 0.67。窗起點 2026-10-29T18:02:00（358 筆）。下一整點 00 有 0 筆（尚未收滿）。"
+      },
+      "evidence": {
+        "source": "NOAA SWPC planetary_k_index_1m.json",
+        "source_name": "NOAA SWPC",
+        "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
+        "fetched_at": "2026-10-30T00:03:43Z"
+      },
+      "data": {
+        "estimated_kp": 0.67,
+        "kp": "1M",
+        "hour": "2026-10-29T23"
+      }
+    },
+    {
+      "type": "earthquake",
+      "title": {
+        "en": "M 4.6 - 59 km SW of Port-Vila, Vanuatu",
+        "zh": "M 4.6 - 59 km SW of Port-Vila, Vanuatu"
+      },
+      "id": "usgs-us7000tu4z",
+      "time_utc": "2026-10-29T23:04:49Z",
+      "summary": {
+        "en": "M 4.6 earthquake at 59 km SW of Port-Vila, Vanuatu. Day feed has 23 events; +1 new, -1 rolled out since last update.",
+        "zh": "M 4.6 地震，位置：59 km SW of Port-Vila, Vanuatu。一日饋送 23 筆；相對上一輪新增 1 筆，滾出 1 筆。"
+      },
+      "evidence": {
+        "source": "USGS M4.5+ day feed",
+        "source_name": "USGS Earthquake Hazards Program",
+        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+        "fetched_at": "2026-10-30T00:03:43Z",
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu4z"
+      },
+      "data": {
+        "mag": 4.6,
+        "place": "59 km SW of Port-Vila, Vanuatu",
+        "count": 23,
+        "new": 1,
+        "rolled_out": 1
+      }
+    }
+  ]
+}
