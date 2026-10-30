@@ -1,56 +1,56 @@
 {
   "date": "2026-10-30",
-  "updated": "2026-10-30T03:01:00Z",
+  "updated": "2026-10-30T04:00:00Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 1.67 (2M) at 01 UTC on 2026 10 30.",
-        "zh": "2026 年 10 月 30 日 01 UTC，估算行星 Kp 約為 1.67（2M）。"
+        "en": "Estimated planetary Kp is 1.67 (2M) at 02 UTC on 2026 10 30.",
+        "zh": "2026 年 10 月 30 日 02 UTC，估算行星 Kp 約為 1.67（2M）。"
       },
       "id": "noaa-kp-1m",
-      "time_utc": "2026-10-30T01Z",
+      "time_utc": "2026-10-30T02Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 1.67 (2M) at 2026-10-30T01 on 2026-10-30. The 01 hour is complete (60 samples through 01:59; hour-end 1.67/2M). Last-180 maximum is 1.67. Published-window maximum is 1.67. Window starts 2026-10-29T21:00:00 (358 samples). Next hour 02 has 58 samples (not yet full).",
-        "zh": "最新可靠整點末估算：2026-10-30T01 估算 Kp 1.67（2M）。01 時段已收滿（60 筆至 01:59；時段末 1.67/2M）。last-180 最大 1.67。公開窗最大 1.67。窗起點 2026-10-29T21:00:00（358 筆）。下一整點 02 有 58 筆（尚未收滿）。"
+        "en": "Latest reliable hour-end estimated Kp is 1.67 (2M) at 2026-10-30T02 on 2026-10-30. The 02 hour is complete (60 samples through 02:59; hour-end 1.67/2M). Last-180 maximum is 1.67. Published-window maximum is 1.67. Window starts 2026-10-29T22:01:00 (358 samples). Next hour 03 has 59 samples (not yet full).",
+        "zh": "最新可靠整點末估算：2026-10-30T02 估算 Kp 1.67（2M）。02 時段已收滿（60 筆至 02:59；時段末 1.67/2M）。last-180 最大 1.67。公開窗最大 1.67。窗起點 2026-10-29T22:01:00（358 筆）。下一整點 03 有 59 筆（尚未收滿）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-30T03:01:00Z"
+        "fetched_at": "2026-10-30T04:00:00Z"
       },
       "data": {
         "estimated_kp": 1.67,
         "kp": "2M",
-        "hour": "2026-10-30T01"
+        "hour": "2026-10-30T02"
       }
     },
     {
       "type": "earthquake",
       "title": {
-        "en": "M 4.6 - 59 km SW of Port-Vila, Vanuatu",
-        "zh": "M 4.6 - 59 km SW of Port-Vila, Vanuatu"
+        "en": "M 5.1 - 97 km NNE of Finschhafen, Papua New Guinea",
+        "zh": "M 5.1 - 97 km NNE of Finschhafen, Papua New Guinea"
       },
-      "id": "usgs-us7000tu4z",
-      "time_utc": "2026-10-29T23:04:49Z",
+      "id": "usgs-us7000tu5q",
+      "time_utc": "2026-10-30T03:04:17Z",
       "summary": {
-        "en": "M 4.6 earthquake at 59 km SW of Port-Vila, Vanuatu. Day feed has 19 events; +0 new, -1 rolled out since last update.",
-        "zh": "M 4.6 地震，位置：59 km SW of Port-Vila, Vanuatu。一日饋送 19 筆；相對上一輪新增 0 筆，滾出 1 筆。"
+        "en": "M 5.1 earthquake at 97 km NNE of Finschhafen, Papua New Guinea. Day feed has 17 events; +1 new, -3 rolled out since last update.",
+        "zh": "M 5.1 地震，位置：97 km NNE of Finschhafen, Papua New Guinea。一日饋送 17 筆；相對上一輪新增 1 筆，滾出 3 筆。"
       },
       "evidence": {
         "source": "USGS M4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-30T03:01:00Z",
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu4z"
+        "fetched_at": "2026-10-30T04:00:00Z",
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu5q"
       },
       "data": {
-        "mag": 4.6,
-        "place": "59 km SW of Port-Vila, Vanuatu",
-        "count": 19,
-        "new": 0,
-        "rolled_out": 1
+        "mag": 5.1,
+        "place": "97 km NNE of Finschhafen, Papua New Guinea",
+        "count": 17,
+        "new": 1,
+        "rolled_out": 3
       }
     }
   ]
