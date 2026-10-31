@@ -1,57 +1,57 @@
 {
-  "date": "2026-10-31",
-  "updated": "2026-10-31T05:00:00Z",
-  "entries": [
-    {
-      "type": "space-weather",
-      "title": {
-        "en": "Estimated planetary Kp is 2.67 (3M) at 03 UTC on 2026 10 31.",
-        "zh": "2026 年 10 月 31 日 03 UTC，估算行星 Kp 約為 2.67（3M）。"
-      },
-      "id": "noaa-kp-1m",
-      "time_utc": "2026-10-31T03Z",
-      "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 2.67 (3M) at 2026-10-31T03 on 2026-10-31. The 03 hour is complete (60 samples through 03:59; hour-end 2.67/3M). Last-180 maximum is 3.0. Published-window maximum is 4.33. Window starts 2026-10-30T22:59:00 (358 samples). Next hour 04 is incomplete (current data ends at 04:56, 57 samples in 04).",
-        "zh": "最新可靠整點末估算：2026-10-31T03 估算 Kp 2.67（3M）。03 時段已收滿（60 筆至 03:59；時段末 2.67/3M）。last-180 最大 3.0。公開窗最大 4.33。窗起點 2026-10-30T22:59:00（358 筆）。下一整點 04 尚未滿（目前數據止於 04:56，04 時段 57 筆）。"
-      },
-      "evidence": {
-        "source": "NOAA SWPC planetary_k_index_1m.json",
-        "source_name": "NOAA SWPC",
-        "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-31T05:00:00Z"
-      },
-      "data": {
-        "estimated_kp": 2.67,
-        "kp": "3M",
-        "hour": "2026-10-31T03"
-      }
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "M 4.6 - Izu Islands, Japan region",
-        "zh": "M 4.6 - Izu Islands, Japan region"
-      },
-      "id": "usgs-us7000tugv",
-      "time_utc": "2026-10-31T03:14:13Z",
-      "summary": {
-        "en": "M 4.6 earthquake at Izu Islands, Japan region. Day feed has 14 events; +0 new, -1 rolled out since last update.",
-        "zh": "M 4.6 地震，位置：Izu Islands, Japan region。一日饋送 14 筆；相對上一輪新增 0 筆，滾出 1 筆。"
-      },
-      "evidence": {
-        "source": "USGS M4.5+ day feed",
-        "source_name": "USGS Earthquake Hazards Program",
-        "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-31T05:00:00Z",
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tugv"
-      },
-      "data": {
-        "mag": 4.6,
-        "place": "Izu Islands, Japan region",
-        "count": 14,
-        "new": 0,
-        "rolled_out": 1
-      }
-    }
-  ]
+    "date": "2026-10-31",
+    "updated": "2026-10-31T06:00:00Z",
+    "entries": [
+        {
+            "type": "space-weather",
+            "title": {
+                "en": "Estimated planetary Kp is 3.0 (3Z) at 04 UTC on 2026 10 31.",
+                "zh": "2026 年 10 月 31 日 04 UTC，估算行星 Kp 約為 3.0（3Z）。"
+            },
+            "id": "noaa-kp-1m",
+            "time_utc": "2026-10-31T04Z",
+            "summary": {
+                "en": "Latest reliable hour-end estimated Kp is 3.0 (3Z) at 2026-10-31T04 on 2026-10-31. The 04 hour is complete (60 samples through 04:59; hour-end 3.0/3Z). Last-180 maximum is 3.0. Published-window maximum is 3.0. Window starts 2026-10-31T00:00:00 (358 samples). Next hour 05 is incomplete (current data ends at 05:57, 58 samples in 05).",
+                "zh": "最新可靠整點末估算：2026-10-31T04 估算 Kp 3.0（3Z）。04 時段已收滿（60 筆至 04:59；時段末 3.0/3Z）。last-180 最大 3.0。公開窗最大 3.0。窗起點 2026-10-31T00:00:00（358 筆）。下一整點 05 尚未滿（目前數據止於 05:57，05 時段 58 筆）。"
+            },
+            "evidence": {
+                "source": "NOAA SWPC planetary_k_index_1m.json",
+                "source_name": "NOAA SWPC",
+                "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
+                "fetched_at": "2026-10-31T06:00:00Z"
+            },
+            "data": {
+                "estimated_kp": 3.0,
+                "kp": "3Z",
+                "hour": "2026-10-31T04"
+            }
+        },
+        {
+            "type": "earthquake",
+            "title": {
+                "en": "M 4.6 - Izu Islands, Japan region",
+                "zh": "M 4.6 - Izu Islands, Japan region"
+            },
+            "id": "usgs-us7000tugv",
+            "time_utc": "2026-10-31T03:14:13Z",
+            "summary": {
+                "en": "M 4.6 earthquake at Izu Islands, Japan region. Day feed has 13 events; +0 new, -1 rolled out since last update.",
+                "zh": "M 4.6 地震，位置：Izu Islands, Japan region。一日饋送 13 筆；相對上一輪新增 0 筆，滾出 1 筆。"
+            },
+            "evidence": {
+                "source": "USGS M4.5+ day feed",
+                "source_name": "USGS Earthquake Hazards Program",
+                "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+                "fetched_at": "2026-10-31T06:00:00Z",
+                "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tugv"
+            },
+            "data": {
+                "mag": 4.6,
+                "place": "Izu Islands, Japan region",
+                "count": 13,
+                "new": 0,
+                "rolled_out": 1
+            }
+        }
+    ]
 }
