@@ -1,56 +1,56 @@
 {
   "date": "2026-10-31",
-  "updated": "2026-10-31T09:05:00Z",
+  "updated": "2026-10-31T10:02:00Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 3.33 (3P) at 07 UTC on 2026 10 31.",
-        "zh": "2026 年 10 月 31 日 07 UTC，估算行星 Kp 約為 3.33（3P）。"
+        "en": "Estimated planetary Kp is 3.33 (3P) at 08 UTC on 2026 10 31.",
+        "zh": "2026 年 10 月 31 日 08 UTC，估算行星 Kp 約為 3.33（3P）。"
       },
       "id": "noaa-kp-1m",
-      "time_utc": "2026-10-31T07Z",
+      "time_utc": "2026-10-31T08Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 3.33 (3P) at 2026-10-31T07 on 2026-10-31. The 07 hour is complete (60 samples through 07:59; hour-end 3.33/3P). Last-180 maximum is 3.67. Published-window maximum is 3.67. Window starts 2026-10-31T03:00:00 (358 samples). Next hour 08 is incomplete (current data ends at 08:57, 58 samples in 08).",
-        "zh": "最新可靠整點末估算：2026-10-31T07 估算 Kp 3.33（3P）。07 時段已收滿（60 筆至 07:59；時段末 3.33/3P）。last-180 最大 3.67。公開窗最大 3.67。窗起點 2026-10-31T03:00:00（358 筆）。下一整點 08 尚未滿（目前數據止於 08:57，08 時段 58 筆）。"
+        "en": "Latest reliable hour-end estimated Kp is 3.33 (3P) at 2026-10-31T08 on 2026-10-31. The 08 hour is complete (60 samples through 08:59; hour-end 3.33/3P). Last-180 maximum is 3.67. Published-window maximum is 3.67. Window starts 2026-10-31T04:01:00 (359 samples). Next hour 09 is incomplete (current data ends at 09:57, 58 samples in 09).",
+        "zh": "最新可靠整點末估算：2026-10-31T08 估算 Kp 3.33（3P）。08 時段已收滿（60 筆至 08:59；時段末 3.33/3P）。last-180 最大 3.67。公開窗最大 3.67。窗起點 2026-10-31T04:01:00（359 筆）。下一整點 09 尚未滿（目前數據止於 09:57，09 時段 58 筆）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-31T09:05:00Z"
+        "fetched_at": "2026-10-31T10:02:00Z"
       },
       "data": {
         "estimated_kp": 3.33,
         "kp": "3P",
-        "hour": "2026-10-31T07"
+        "hour": "2026-10-31T08"
       }
     },
     {
       "type": "earthquake",
       "title": {
-        "en": "M 4.6 - Izu Islands, Japan region",
-        "zh": "M 4.6 - Izu Islands, Japan region"
+        "en": "M 4.9 - 236 km NW of Port-Olry, Vanuatu",
+        "zh": "M 4.9 - 236 km NW of Port-Olry, Vanuatu"
       },
-      "id": "usgs-us7000tugv",
-      "time_utc": "2026-10-31T03:14:13Z",
+      "id": "usgs-us7000tuht",
+      "time_utc": "2026-10-31T09:18:32Z",
       "summary": {
-        "en": "M 4.6 earthquake at Izu Islands, Japan region. Day feed has 12 events; +0 new, -1 rolled out since last update.",
-        "zh": "M 4.6 地震，位置：Izu Islands, Japan region。一日饋送 12 筆；相對上一輪新增 0 筆，滾出 1 筆。"
+        "en": "M 4.9 earthquake at 236 km NW of Port-Olry, Vanuatu. Day feed has 14 events; +2 new, -0 rolled out since last update.",
+        "zh": "M 4.9 地震，位置：236 km NW of Port-Olry, Vanuatu。一日饋送 14 筆；相對上一輪新增 2 筆，滾出 0 筆。"
       },
       "evidence": {
         "source": "USGS M4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-31T09:05:00Z",
-        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tugv"
+        "fetched_at": "2026-10-31T10:02:00Z",
+        "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuht"
       },
       "data": {
-        "mag": 4.6,
-        "place": "Izu Islands, Japan region",
-        "count": 12,
-        "new": 0,
-        "rolled_out": 1
+        "mag": 4.9,
+        "place": "236 km NW of Port-Olry, Vanuatu",
+        "count": 14,
+        "new": 2,
+        "rolled_out": 0
       }
     }
   ]
