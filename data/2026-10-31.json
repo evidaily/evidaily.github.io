@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "updated": "2026-10-31T15:00:00Z",
+  "updated": "2026-11-01T06:00:00Z",
   "entries": [
     {
       "type": "space-weather",
@@ -11,14 +11,14 @@
       "id": "noaa-kp-1m",
       "time_utc": "2026-10-31T14Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 3.0 (3Z) at 2026-10-31T14 on 2026-10-31. The 14 hour is complete (60 samples through 14:59; hour-end 3.0/3Z). Last-180 maximum is 3.0. Published-window maximum is 3.0. Window starts 2026-10-31T09:02:00 (358 samples). Next hour 15 has not started.",
-        "zh": "最新可靠整點末估算：2026-10-31T14 估算 Kp 3.0（3Z）。14 時段已收滿（60 筆至 14:59；時段末 3.0/3Z）。last-180 最大 3.0。公開窗最大 3.0。窗起點 2026-10-31T09:02:00（358 筆）。下一整點 15 尚未開始。"
+        "en": "Latest reliable hour-end estimated Kp is 3.0 (3Z) at 2026-10-31T14 on 2026-10-31. The 14 hour is complete (60 samples through 14:59; hour-end 3.0/3Z). Last-180 maximum is 3.0. Published-window maximum is 3.0. Window starts 2026-10-31T10:00:00 (358 samples). Next hour 15 is incomplete (58 samples).",
+        "zh": "最新可靠整點末估算：2026-10-31T14 估算 Kp 3.0（3Z）。14 時段已收滿（60 筆至 14:59；時段末 3.0/3Z）。last-180 最大 3.0。公開窗最大 3.0。窗起點 2026-10-31T10:00:00（358 筆）。下一整點 15 尚未收滿（58 筆）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-31T15:00:00Z"
+        "fetched_at": "2026-11-01T06:00:00Z"
       },
       "data": {
         "estimated_kp": 3.0,
@@ -42,7 +42,7 @@
         "source": "USGS M4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-31T15:00:00Z",
+        "fetched_at": "2026-11-01T06:00:00Z",
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuif"
       },
       "data": {
