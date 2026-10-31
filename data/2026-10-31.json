@@ -1,56 +1,56 @@
 {
     "date": "2026-10-31",
-    "updated": "2026-10-31T03:00:00Z",
+    "updated": "2026-10-31T04:00:00Z",
     "entries": [
         {
             "type": "space-weather",
             "title": {
-                "en": "Estimated planetary Kp is 2.67 (3M) at 01 UTC on 2026 10 31.",
-                "zh": "2026 年 10 月 31 日 01 UTC，估算行星 Kp 約為 2.67（3M）。"
+                "en": "Estimated planetary Kp is 3.0 (3Z) at 02 UTC on 2026 10 31.",
+                "zh": "2026 年 10 月 31 日 02 UTC，估算行星 Kp 約為 3.0（3Z）。"
             },
             "id": "noaa-kp-1m",
-            "time_utc": "2026-10-31T01Z",
+            "time_utc": "2026-10-31T02Z",
             "summary": {
-                "en": "Latest reliable hour-end estimated Kp is 2.67 (3M) at 2026-10-31T01 on 2026-10-31. The 01 hour is complete (60 samples through 01:59; hour-end 2.67/3M). Last-180 maximum is 4.0. Published-window maximum is 4.33. Window starts 2026-10-30T20:59:00 (358 samples). Next hour 02 is incomplete (current data ends at 02:56, 57 samples in 02).",
-                "zh": "最新可靠整點末估算：2026-10-31T01 估算 Kp 2.67（3M）。01 時段已收滿（60 筆至 01:59；時段末 2.67/3M）。last-180 最大 4.0。公開窗最大 4.33。窗起點 2026-10-30T20:59:00（358 筆）。下一整點 02 尚未滿（目前數據止於 02:56，02 時段 57 筆）。"
+                "en": "Latest reliable hour-end estimated Kp is 3.0 (3Z) at 2026-10-31T02 on 2026-10-31. The 02 hour is complete (60 samples through 02:59; hour-end 3.0/3Z). Last-180 maximum is 3.0. Published-window maximum is 4.33. Window starts 2026-10-30T21:59:00 (358 samples). Next hour 03 is incomplete (current data ends at 03:56, 57 samples in 03).",
+                "zh": "最新可靠整點末估算：2026-10-31T02 估算 Kp 3.0（3Z）。02 時段已收滿（60 筆至 02:59；時段末 3.0/3Z）。last-180 最大 3.0。公開窗最大 4.33。窗起點 2026-10-30T21:59:00（358 筆）。下一整點 03 尚未滿（目前數據止於 03:56，03 時段 57 筆）。"
             },
             "evidence": {
                 "source": "NOAA SWPC planetary_k_index_1m.json",
                 "source_name": "NOAA SWPC",
                 "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-                "fetched_at": "2026-10-31T03:00:00Z"
+                "fetched_at": "2026-10-31T04:00:00Z"
             },
             "data": {
-                "estimated_kp": 2.67,
-                "kp": "3M",
-                "hour": "2026-10-31T01"
+                "estimated_kp": 3.0,
+                "kp": "3Z",
+                "hour": "2026-10-31T02"
             }
         },
         {
             "type": "earthquake",
             "title": {
-                "en": "M 4.5 - central Mid-Atlantic Ridge",
-                "zh": "M 4.5 - central Mid-Atlantic Ridge"
+                "en": "M 4.6 - Izu Islands, Japan region",
+                "zh": "M 4.6 - Izu Islands, Japan region"
             },
-            "id": "usgs-us7000tugs",
-            "time_utc": "2026-10-31T02:37:19Z",
+            "id": "usgs-us7000tugv",
+            "time_utc": "2026-10-31T03:14:13Z",
             "summary": {
-                "en": "M 4.5 earthquake at central Mid-Atlantic Ridge. Day feed has 15 events; +2 new, -0 rolled out since last update.",
-                "zh": "M 4.5 地震，位置：central Mid-Atlantic Ridge。一日饋送 15 筆；相對上一輪新增 2 筆，滾出 0 筆。"
+                "en": "M 4.6 earthquake at Izu Islands, Japan region. Day feed has 15 events; +1 new, -1 rolled out since last update.",
+                "zh": "M 4.6 地震，位置：Izu Islands, Japan region。一日饋送 15 筆；相對上一輪新增 1 筆，滾出 1 筆。"
             },
             "evidence": {
                 "source": "USGS M4.5+ day feed",
                 "source_name": "USGS Earthquake Hazards Program",
                 "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-                "fetched_at": "2026-10-31T03:00:00Z",
-                "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tugs"
+                "fetched_at": "2026-10-31T04:00:00Z",
+                "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tugv"
             },
             "data": {
-                "mag": 4.5,
-                "place": "central Mid-Atlantic Ridge",
+                "mag": 4.6,
+                "place": "Izu Islands, Japan region",
                 "count": 15,
-                "new": 2,
-                "rolled_out": 0
+                "new": 1,
+                "rolled_out": 1
             }
         }
     ]
