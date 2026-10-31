@@ -1,29 +1,29 @@
 {
   "date": "2026-10-31",
-  "updated": "2026-10-31T07:00:00Z",
+  "updated": "2026-10-31T08:05:00Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 3.0 (3Z) at 05 UTC on 2026 10 31.",
-        "zh": "2026 年 10 月 31 日 05 UTC，估算行星 Kp 約為 3.0（3Z）。"
+        "en": "Estimated planetary Kp is 3.0 (3Z) at 07 UTC on 2026 10 31.",
+        "zh": "2026 年 10 月 31 日 07 UTC，估算行星 Kp 約為 3.0（3Z）。"
       },
       "id": "noaa-kp-1m",
-      "time_utc": "2026-10-31T05Z",
+      "time_utc": "2026-10-31T07Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 3.0 (3Z) at 2026-10-31T05 on 2026-10-31. The 05 hour is complete (60 samples through 05:59; hour-end 3.0/3Z). Last-180 maximum is 3.0. Published-window maximum is 3.0. Window starts 2026-10-31T00:59:00 (359 samples). Next hour 06 is incomplete (current data ends at 06:57, 58 samples in 06).",
-        "zh": "最新可靠整點末估算：2026-10-31T05 估算 Kp 3.0（3Z）。05 時段已收滿（60 筆至 05:59；時段末 3.0/3Z）。last-180 最大 3.0。公開窗最大 3.0。窗起點 2026-10-31T00:59:00（359 筆）。下一整點 06 尚未滿（目前數據止於 06:57，06 時段 58 筆）。"
+        "en": "Latest reliable hour-end estimated Kp is 3.0 (3Z) at 2026-10-31T07 on 2026-10-31. The 07 hour is complete (60 samples through 07:59; hour-end 3.0/3Z). Last-180 maximum is 3.33. Published-window maximum is 3.33. Window starts 2026-10-31T02:03:00 (358 samples). Next hour 08 is incomplete (current data ends at 08:00, 1 sample in 08).",
+        "zh": "最新可靠整點末估算：2026-10-31T07 估算 Kp 3.0（3Z）。07 時段已收滿（60 筆至 07:59；時段末 3.0/3Z）。last-180 最大 3.33。公開窗最大 3.33。窗起點 2026-10-31T02:03:00（358 筆）。下一整點 08 尚未滿（目前數據止於 08:00，08 時段 1 筆）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-31T07:00:00Z"
+        "fetched_at": "2026-10-31T08:05:00Z"
       },
       "data": {
         "estimated_kp": 3.0,
         "kp": "3Z",
-        "hour": "2026-10-31T05"
+        "hour": "2026-10-31T07"
       }
     },
     {
@@ -42,7 +42,7 @@
         "source": "USGS M4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-31T07:00:00Z",
+        "fetched_at": "2026-10-31T08:05:00Z",
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tugv"
       },
       "data": {
