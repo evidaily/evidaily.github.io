@@ -1,29 +1,29 @@
 {
   "date": "2026-10-31",
-  "updated": "2026-10-31T20:00:00Z",
+  "updated": "2026-10-31T21:00:00Z",
   "entries": [
     {
       "type": "space-weather",
       "title": {
-        "en": "Estimated planetary Kp is 5.67 (6M) at 18 UTC on 2026 10 31.",
-        "zh": "2026 年 10 月 31 日 18 UTC，估算行星 Kp 約為 5.67（6M）。"
+        "en": "Estimated planetary Kp is 6.0 (6Z) at 19 UTC on 2026 10 31.",
+        "zh": "2026 年 10 月 31 日 19 UTC，估算行星 Kp 約為 6.0（6Z）。"
       },
       "id": "noaa-kp-1m",
-      "time_utc": "2026-10-31T18Z",
+      "time_utc": "2026-10-31T19Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 5.67 (6M) at 2026-10-31T18 on 2026-10-31. The 18 hour is complete (60 samples through 18:59; hour-end 5.67/6M). Last-180 maximum is 6.0. Published-window maximum is 6.0. Window starts 2026-10-31T14:00:00 (357 samples). Next hour 19 is incomplete (current data ends at 19:56, 57 samples in 19).",
-        "zh": "最新可靠整點末估算：2026-10-31T18 估算 Kp 5.67（6M）。18 時段已收滿（60 筆至 18:59；時段末 5.67/6M）。last-180 最大 6.0。公開窗最大 6.0。窗起點 2026-10-31T14:00:00（357 筆）。下一整點 19 尚未滿（目前數據止於 19:56，19 時段 57 筆）。"
+        "en": "Latest reliable hour-end estimated Kp is 6.0 (6Z) at 2026-10-31T19 on 2026-10-31. The 19 hour is complete (60 samples through 19:59; hour-end 6.0/6Z). Last-180 maximum is 6.0. Published-window maximum is 6.0. Window starts 2026-10-31T14:00:00 (357 samples). Next hour 20 is incomplete (current data ends at 20:54, 55 samples in 20).",
+        "zh": "最新可靠整點末估算：2026-10-31T19 估算 Kp 6.0（6Z）。19 時段已收滿（60 筆至 19:59；時段末 6.0/6Z）。last-180 最大 6.0。公開窗最大 6.0。窗起點 2026-10-31T14:00:00（357 筆）。下一整點 20 尚未滿（目前數據止於 20:54，20 時段 55 筆）。"
       },
       "evidence": {
         "source": "NOAA SWPC planetary_k_index_1m.json",
         "source_name": "NOAA SWPC",
         "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "fetched_at": "2026-10-31T20:00:00Z"
+        "fetched_at": "2026-10-31T21:00:00Z"
       },
       "data": {
-        "estimated_kp": 5.67,
-        "kp": "6M",
-        "hour": "2026-10-31T18"
+        "estimated_kp": 6.0,
+        "kp": "6Z",
+        "hour": "2026-10-31T19"
       }
     },
     {
@@ -35,22 +35,22 @@
       "id": "usgs-us7000tuk4",
       "time_utc": "2026-10-31T18:51:02Z",
       "summary": {
-        "en": "M 4.5 earthquake at 111 km ESE of Atka, Alaska. Day feed has 11 events; +1 new, -1 rolled out since last update.",
-        "zh": "M 4.5 地震，位置：111 km ESE of Atka, Alaska。一日饋送 11 筆；相對上一輪新增 1 筆，滾出 1 筆。"
+        "en": "M 4.5 earthquake at 111 km ESE of Atka, Alaska. Day feed has 11 events; +0 new, -0 rolled out since last update.",
+        "zh": "M 4.5 地震，位置：111 km ESE of Atka, Alaska。一日饋送 11 筆；相對上一輪新增 0 筆，滾出 0 筆。"
       },
       "evidence": {
         "source": "USGS M4.5+ day feed",
         "source_name": "USGS Earthquake Hazards Program",
         "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-        "fetched_at": "2026-10-31T20:00:00Z",
+        "fetched_at": "2026-10-31T21:00:00Z",
         "event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuk4"
       },
       "data": {
         "mag": 4.5,
         "place": "111 km ESE of Atka, Alaska",
         "count": 11,
-        "new": 1,
-        "rolled_out": 1
+        "new": 0,
+        "rolled_out": 0
       }
     }
   ]
