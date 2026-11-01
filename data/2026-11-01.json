@@ -1,45 +1,45 @@
 {
-  "date": "2026-11-01",
-  "updated": "2026-11-01T06:04:05Z",
-  "entries": [
-    {
-      "type": "space-weather",
-      "title": {
-        "en": "Estimated planetary Kp is 4.0 (4Z) at 04 UTC on 2026 11 01.",
-        "zh": "2026 年 11 月 01 日 04 UTC，估計行星 Kp 約為 4.0（4Z）。"
-      },
-      "id": "noaa-kp-1m",
-      "time_utc": "2026-11-01T04Z",
-      "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 4.0 (4Z) at 2026-11-01T04. The 04 hour is complete (60 samples through 04:59; hour-end 4.0/4Z). Last-180 maximum is 4.67. Published-window maximum is 4.67. Window starts 2026-11-01T00:00:00 (358 samples). Next hour 05 is incomplete (current data ends at 05:57, 58 samples in 05).",
-        "zh": "最新可靠整點末估計：2026-11-01T04 估計 Kp 4.0（4Z）。04 時段已收滿（60 筆至 04:59；時段末 4.0/4Z）。last-180 最大 4.67。公開窗最大 4.67。窗起點 2026-11-01T00:00:00（358 筆）。下一整點 05 尚未滿（目前數據至 05:57，05 時段 58 筆）。"
-      },
-      "source": "NOAA SWPC planetary_k_index_1m.json",
-      "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-      "kp": 4.0,
-      "kp_label": "4Z",
-      "hour_complete": true,
-      "last180_max": 4.67,
-      "window_max": 4.67
-    },
-    {
-      "type": "earthquake",
-      "title": {
-        "en": "USGS M4.5+ earthquakes in the last day: 13 events.",
-        "zh": "USGS 過去一日 M4.5+ 地震：13 筆。"
-      },
-      "id": "usgs-m45-day",
-      "time_utc": "2026-11-01T06:04:05Z",
-      "summary": {
-        "en": "Day feed contains 13 M4.5+ events. Relative to previous update: +2 new, rolled out approximately 0. Latest event: us7000tumy.",
-        "zh": "一日饋送含 13 筆 M4.5+。相對上一輪：新增 2 筆，滾出約 0 筆。最新為 us7000tumy。"
-      },
-      "source": "USGS Earthquake Hazards Program 4.5_day.geojson",
-      "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-      "count": 13,
-      "latest_id": "us7000tumy",
-      "new_count": 2,
-      "rolled_count": 0
-    }
-  ]
+    "date": "2026-11-01",
+    "updated": "2026-11-01T07:05:00Z",
+    "entries": [
+        {
+            "type": "space-weather",
+            "title": {
+                "en": "Estimated planetary Kp is 4.33 (4P) at 05 UTC on 2026 11 01.",
+                "zh": "2026 年 11 月 01 日 05 UTC，估計行星 Kp 約為 4.33（4P）。"
+            },
+            "id": "noaa-kp-1m",
+            "time_utc": "2026-11-01T05Z",
+            "summary": {
+                "en": "Latest reliable hour-end estimated Kp is 4.33 (4P) at 2026-11-01T05. The 05 hour is complete (60 samples through 05:59; hour-end 4.33/4P). Last-180 maximum is 4.33. Published-window maximum is 4.67. Window starts 2026-11-01T01:00:00 (358 samples). Next hour 06 is incomplete (current data ends at 06:57, 58 samples in 06).",
+                "zh": "最新可靠整點末估計：2026-11-01T05 估計 Kp 4.33（4P）。05 時段已收滿（60 筆至 05:59；時段末 4.33/4P）。last-180 最大 4.33。公開窗最大 4.67。窗起點 2026-11-01T01:00:00（358 筆）。下一整點 06 尚未滿（目前數據至 06:57，06 時段 58 筆）。"
+            },
+            "source": "NOAA SWPC planetary_k_index_1m.json",
+            "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
+            "kp": 4.33,
+            "kp_label": "4P",
+            "hour_complete": true,
+            "last180_max": 4.33,
+            "window_max": 4.67
+        },
+        {
+            "type": "earthquake",
+            "title": {
+                "en": "USGS M4.5+ earthquakes in the last day: 14 events.",
+                "zh": "USGS 過去一日 M4.5+ 地震：14 筆。"
+            },
+            "id": "usgs-m45-day",
+            "time_utc": "2026-11-01T07:05:00Z",
+            "summary": {
+                "en": "Day feed contains 14 M4.5+ events. Relative to previous update: +1 new, rolled out approximately 0. Latest event: us7000tun8.",
+                "zh": "一日饋送含 14 筆 M4.5+。相對上一輪：新增 1 筆，滾出約 0 筆。最新為 us7000tun8。"
+            },
+            "source": "USGS Earthquake Hazards Program 4.5_day.geojson",
+            "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
+            "count": 14,
+            "latest_id": "us7000tun8",
+            "new_count": 1,
+            "rolled_count": 0
+        }
+    ]
 }
