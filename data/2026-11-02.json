@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "updated": "2026-11-02T10:05:11Z",
+  "updated": "2026-11-02T11:01:38Z",
   "entries": [
     {
       "type": "space-weather",
@@ -11,8 +11,8 @@
       "id": "noaa-kp-1m",
       "time_utc": "2026-11-02T09Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 2.0 (2Z) at 2026-11-02T09. The 09 hour is complete (60 samples through 09:59; hour-end 2.0/2Z). Last-180 maximum is 3.0. Published-window maximum is 3.0. Window starts 2026-11-02T04:04:00 (358 samples). Next hour 10 (Nov 2) is incomplete (2 samples in current feed).",
-        "zh": "最新可靠整點末估算：2026-11-02T09 估算 Kp 2.0（2Z）。09 時段已收滿（60 筆至 09:59；時段末 2.0/2Z）。last-180 最大 3.0。公開窗最大 3.0。窗起點 2026-11-02T04:04:00（358 筆）。下一整點 10（11 月 2 日）尚未滿（目前饋送 2 筆）。"
+        "en": "Latest reliable hour-end estimated Kp is 2.0 (2Z) at 2026-11-02T09. The 09 hour is complete (60 samples through 09:59; hour-end 2.0/2Z). Last-180 maximum is 3.0. Published-window maximum is 3.0. Window starts 2026-11-02T05:01:00 (358 samples). Next hour 10 (Nov 2) is incomplete (59 samples in current feed).",
+        "zh": "最新可靠整點末估算：2026-11-02T09 估算 Kp 2.0（2Z）。09 時段已收滿（60 筆至 09:59；時段末 2.0/2Z）。last-180 最大 3.0。公開窗最大 3.0。窗起點 2026-11-02T05:01:00（358 筆）。下一整點 10（11 月 2 日）尚未滿（目前饋送 59 筆）。"
       },
       "source": "NOAA SWPC planetary_k_index_1m.json",
       "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
@@ -29,16 +29,16 @@
         "zh": "USGS 過去一日 M4.5+ 地震：22 筆。"
       },
       "id": "usgs-m45-day",
-      "time_utc": "2026-11-02T10:05:11Z",
+      "time_utc": "2026-11-02T11:01:38Z",
       "summary": {
-        "en": "USGS 4.5+ day feed currently lists 22 events. Relative to previous update: ~1 new, ~0 rolled out. Latest event: us7000tuv5.",
-        "zh": "USGS 4.5+ 一日饋送目前列出 22 筆。相對上一輪：約 1 筆新增，約 0 筆滾出。最新事件：us7000tuv5。"
+        "en": "USGS 4.5+ day feed currently lists 22 events. Relative to previous update: ~0 new, ~0 rolled out. Latest event: us7000tuv5.",
+        "zh": "USGS 4.5+ 一日饋送目前列出 22 筆。相對上一輪：約 0 筆新增，約 0 筆滾出。最新事件：us7000tuv5。"
       },
       "source": "USGS Earthquake Hazards Program 4.5_day.geojson",
       "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
       "count": 22,
       "latest_id": "us7000tuv5",
-      "new_count": 1,
+      "new_count": 0,
       "rolled_out": 0
     }
   ]
