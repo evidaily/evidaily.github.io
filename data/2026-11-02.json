@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "updated": "2026-11-02T07:07:02Z",
+  "updated": "2026-11-02T08:03:27Z",
   "entries": [
     {
       "type": "space-weather",
@@ -11,32 +11,32 @@
       "id": "noaa-kp-1m",
       "time_utc": "2026-11-02T06Z",
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 1.00 (1Z) at 2026-11-02T06. The 06 hour is complete (60 samples through 06:59; hour-end 1.00/1Z). Last-180 maximum is 2.00. Published-window maximum is 2.00. Window starts 2026-11-02T01:04:00 (358 samples). Next hour 07 (Nov 2) is incomplete (2 samples in current feed).",
-        "zh": "最新可靠整點末估算：2026-11-02T06 估算 Kp 1.00（1Z）。06 時段已收滿（60 筆至 06:59；時段末 1.00/1Z）。last-180 最大 2.00。公開窗最大 2.00。窗起點 2026-11-02T01:04:00（358 筆）。下一整點 07（11 月 2 日）尚未滿（目前饋送 2 筆）。"
+        "en": "Latest reliable hour-end estimated Kp is 1.00 (1Z) at 2026-11-02T06. The 06 hour is complete (60 samples through 06:59; hour-end 1.00/1Z). Last-180 maximum is 2.67. Published-window maximum is 2.67. Window starts 2026-11-02T02:01:00 (358 samples). Next hour 07 (Nov 2) is incomplete (59 samples in current feed).",
+        "zh": "最新可靠整點末估算：2026-11-02T06 估算 Kp 1.00（1Z）。06 時段已收滿（60 筆至 06:59；時段末 1.00/1Z）。last-180 最大 2.67。公開窗最大 2.67。窗起點 2026-11-02T02:01:00（358 筆）。下一整點 07（11 月 2 日）尚未滿（目前饋送 59 筆）。"
       },
       "source": "NOAA SWPC planetary_k_index_1m.json",
       "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
       "kp": 1.0,
       "kp_label": "1Z",
       "hour_complete": true,
-      "last180_max": 2.0,
-      "window_max": 2.0
+      "last180_max": 2.67,
+      "window_max": 2.67
     },
     {
       "type": "earthquake",
       "title": {
-        "en": "USGS M4.5+ earthquakes in the last day: 22 events.",
-        "zh": "USGS 過去一日 M4.5+ 地震：22 筆。"
+        "en": "USGS M4.5+ earthquakes in the last day: 21 events.",
+        "zh": "USGS 過去一日 M4.5+ 地震：21 筆。"
       },
       "id": "usgs-m45-day",
-      "time_utc": "2026-11-02T07:07:02Z",
+      "time_utc": "2026-11-02T08:03:27Z",
       "summary": {
-        "en": "USGS 4.5+ day feed currently lists 22 events. Relative to previous update: ~0 new, ~1 rolled out. Latest event: us7000tuu0.",
-        "zh": "USGS 4.5+ 一日饋送目前列出 22 筆。相對上一輪：約 0 筆新增，約 1 筆滾出。最新事件：us7000tuu0。"
+        "en": "USGS 4.5+ day feed currently lists 21 events. Relative to previous update: ~0 new, ~1 rolled out. Latest event: us7000tuu0.",
+        "zh": "USGS 4.5+ 一日饋送目前列出 21 筆。相對上一輪：約 0 筆新增，約 1 筆滾出。最新事件：us7000tuu0。"
       },
       "source": "USGS Earthquake Hazards Program 4.5_day.geojson",
       "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson",
-      "count": 22,
+      "count": 21,
       "latest_id": "us7000tuu0",
       "new_count": 0,
       "rolled_out": 1
