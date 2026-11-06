@@ -1,23 +1,23 @@
 {
   "date": "2026-11-06",
-  "updated": "2026-11-06T06:04:29Z",
+  "updated": "2026-11-06T07:06:11Z",
   "entries": [
     {
       "type": "space-weather",
       "id": "noaa-kp-1m",
       "title": {
-        "en": "Estimated planetary Kp is 0.33 (0P) at 05 UTC on 2026 11 06.",
-        "zh": "2026 年 11 月 06 日 05 UTC，估算行星 Kp 約為 0.33（0P）。"
+        "en": "Estimated planetary Kp is 0.33 (0P) at 06 UTC on 2026 11 06.",
+        "zh": "2026 年 11 月 06 日 06 UTC，估算行星 Kp 約為 0.33（0P）。"
       },
-      "time_utc": "2026-11-06T05Z",
+      "time_utc": "2026-11-06T06Z",
       "kp": 0.33,
       "kp_label": "0P",
       "hour_complete": true,
-      "last180_max": 0.67,
+      "last180_max": 1.0,
       "window_max": 2.33,
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 0.33 (0P) at 2026-11-06T05. The 05 hour is complete (60 samples through 05:59; hour-end 0.33/0P). Last-180 maximum is 0.67. Published-window maximum is 2.33. Window starts 2026-11-06T00:03:00 (358 samples). Next hour 06 is incomplete (1 samples in current feed).",
-        "zh": "最新可靠整點末估算：2026-11-06T05 估算 Kp 0.33（0P）。05 時段已收滿（60 筆至 05:59；時段末 0.33/0P）。last-180 最大 0.67。公開窗最大 2.33。窗起點 2026-11-06T00:03:00（358 筆）。下一整點 06 尚未收滿（目前饋送 1 筆）。"
+        "en": "Latest reliable hour-end estimated Kp is 0.33 (0P) at 2026-11-06T06. The 06 hour is complete (60 samples through 06:59; hour-end 0.33/0P). Last-180 maximum is 1.0. Published-window maximum is 2.33. Window starts 2026-11-06T01:04:00 (358 samples). Next hour 07 is incomplete (2 samples in current feed).",
+        "zh": "最新可靠整點末估算：2026-11-06T06 估算 Kp 0.33（0P）。06 時段已收滿（60 筆至 06:59；時段末 0.33/0P）。last-180 最大 1.0。公開窗最大 2.33。窗起點 2026-11-06T01:04:00（358 筆）。下一整點 07 尚未收滿（目前饋送 2 筆）。"
       },
       "source": "NOAA SWPC planetary_k_index_1m.json",
       "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json"
@@ -29,7 +29,7 @@
         "en": "USGS M4.5+ earthquakes in the last day: 10 events.",
         "zh": "USGS 過去一日 M4.5+ 地震：10 筆。"
       },
-      "time_utc": "2026-11-06T06:04:29Z",
+      "time_utc": "2026-11-06T07:06:11Z",
       "summary": {
         "en": "USGS 4.5+ day feed currently lists 10 events. Relative to previous update: ~0 new, ~0 rolled out. Latest event: us7000tweq.",
         "zh": "USGS 4.5+ 一日饋送目前列出 10 筆。相對上一輪：約 0 筆新增、約 0 筆滾出。最新事件：us7000tweq。"
