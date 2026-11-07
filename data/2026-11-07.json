@@ -1,23 +1,23 @@
 {
   "date": "2026-11-07",
-  "updated": "2026-11-07T09:06:00Z",
+  "updated": "2026-11-07T10:02:51Z",
   "entries": [
     {
       "type": "space-weather",
       "id": "noaa-kp-1m",
       "title": {
-        "en": "Estimated planetary Kp is 2.33 (2P) at 08 UTC on 2026 11 07.",
-        "zh": "2026 年 11 月 07 日 08 UTC，估算行星 Kp 指數 2.33（2P）。"
+        "en": "Estimated planetary Kp is 3.33 (3P) at 08 UTC on 2026 11 07.",
+        "zh": "2026 年 11 月 07 日 08 UTC，估算行星 Kp 指數 3.33（3P）。"
       },
       "time_utc": "2026-11-07T08Z",
-      "kp": 2.33,
-      "kp_label": "2P",
+      "kp": 3.33,
+      "kp_label": "3P",
       "hour_complete": true,
       "last180_max": 3.33,
       "window_max": 3.33,
       "summary": {
-        "en": "Latest reliable hour-end estimated Kp is 2.33 (2P) at 2026-11-07T08. The 08 hour is complete (60 samples through 08:59; hour-end 2.33/2P). Last-180 maximum is 3.33. Published-window maximum is 3.33. Window starts 2026-11-07T03:03:00 (358 samples). Next hour 09 is incomplete (1 sample in current feed).",
-        "zh": "最新可靠完整時段末估算：2026-11-07T08 時段 Kp 2.33（2P）。08 時段已收滿（60 筆至 08:59；時段末 2.33/2P）。last-180 最大 3.33。公開窗最大 3.33。窗起點 2026-11-07T03:03:00（358 筆）。下一整點 09 尚未收滿（當前饋送 1 筆）。"
+        "en": "Latest reliable hour-end estimated Kp is 3.33 (3P) at 2026-11-07T08. The 08 hour is complete (60 samples through 08:59; hour-end 3.33/3P). Last-180 maximum is 3.33. Published-window maximum is 3.33. Window starts 2026-11-07T04:01:00 (358 samples). Next hour 09 is incomplete (59 samples in current feed).",
+        "zh": "最新可靠完整時段末估算：2026-11-07T08 時段 Kp 3.33（3P）。08 時段已收滿（60 筆至 08:59；時段末 3.33/3P）。last-180 最大 3.33。公開窗最大 3.33。窗起點 2026-11-07T04:01:00（358 筆）。下一整點 09 尚未收滿（當前饋送 59 筆）。"
       },
       "source": "NOAA SWPC planetary_k_index_1m.json",
       "source_url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json"
@@ -29,10 +29,10 @@
         "en": "USGS M4.5+ earthquakes in the last day: 5 events.",
         "zh": "USGS 過去一日 M4.5+ 地震：5 筆。"
       },
-      "time_utc": "2026-11-07T09:06:00Z",
+      "time_utc": "2026-11-07T10:02:51Z",
       "summary": {
-        "en": "USGS 4.5+ day feed currently lists 5 events. Relative to previous update: 0 new, 1 rolled out. Latest event: us7000twqw.",
-        "zh": "USGS 4.5+ 一日饋送目前列出 5 筆。相對上一輪：新增 0 筆，滾出 1 筆。最新事件：us7000twqw。"
+        "en": "USGS 4.5+ day feed currently lists 5 events. Relative to previous update: 0 new, 0 rolled out. Latest event: us7000twqw.",
+        "zh": "USGS 4.5+ 一日饋送目前列出 5 筆。相對上一輪：新增 0 筆，滾出 0 筆。最新事件：us7000twqw。"
       },
       "source": "USGS Earthquake Hazards Program 4.5_day.geojson",
       "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
